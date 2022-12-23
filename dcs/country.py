@@ -38,7 +38,7 @@ class Country:
         self.callsign_numbers: Dict[str, Set[int]] = {}
         self._tail_numbers: Set[str] = set()
 
-    def add_vehicle_group(self, vgroup):
+    def add_vehicle_group(self, vgroup) -> None:
         self.vehicle_group.append(vgroup)
 
     def add_ship_group(self, sgroup):
