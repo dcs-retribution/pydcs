@@ -544,7 +544,7 @@ class Bombing(Task):
     def __init__(self, position: Vector2 = Vector2(0, 0), weapon_type: WeaponType = WeaponType.Auto,
                  expend: Expend = Expend.Auto, attack_qty=1, group_attack=False,
                  direction: Optional[int] = None, altitude: Optional[int] = None):
-        super(Bombing, self).__init__(Bombing.Id)
+        super(Bombing, self).__init__(self.Id)
         self.params = {
             "directionEnabled": direction is not None,
             "direction": direction if direction is not None else 0,
@@ -558,6 +558,19 @@ class Bombing(Task):
             "altitudeEnabled": altitude is not None,
             "weaponType": weapon_type.value
         }
+
+
+class CarpetBombing(Bombing):
+    Id = "CarpetBombing"
+
+    def __init__(self, position: Vector2 = Vector2(0, 0), weapon_type: WeaponType = WeaponType.Auto,
+                 expend: Expend = Expend.Auto, attack_qty=1, group_attack=False,
+                 direction: Optional[int] = None, altitude: Optional[int] = None,
+                 carpet_length: Optional[float] = 3000.0):
+        super(CarpetBombing, self).__init__(
+            position, weapon_type, expend, attack_qty, group_attack, direction, altitude
+        )
+        self.params["carpetLength"] = carpet_length
 
 
 class BombingRunway(Task):
