@@ -59,17 +59,17 @@ class NevadaTest(unittest.TestCase):
     def test_parking_slots(self):
         m = dcs.mission.Mission(terrain=dcs.terrain.Nevada())
         slots = m.terrain.airports["Nellis"].free_parking_slots(dcs.planes.A_10C)
-        self.assertEqual(len(slots), 118)
+        self.assertEqual(len(slots), 104)
 
         slot = m.terrain.airports["Nellis"].free_parking_slot(dcs.planes.A_10C)
         slot.unit_id = 1
 
         slots = m.terrain.airports["Nellis"].free_parking_slots(dcs.planes.A_10C)
-        self.assertEqual(len(slots), 117)
+        self.assertEqual(len(slots), 103)
 
         slot.unit_id = None
         slots = m.terrain.airports["Nellis"].free_parking_slots(dcs.planes.A_10C)
-        self.assertEqual(len(slots), 118)
+        self.assertEqual(len(slots), 104)
 
         hslots = m.terrain.airports["Nellis"].free_parking_slots(dcs.helicopters.UH_1H)
         self.assertEqual(len(hslots), 51)

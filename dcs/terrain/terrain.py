@@ -252,7 +252,7 @@ class Airport:
         free_slots = list(self.parking_slots[x] for x in slots_index if self.parking_slots[x].unit_id is None
                           and not self.parking_slots[x].large and not self.parking_slots[x].helicopter)
         free_slots = sorted(free_slots, key=lambda x: x.slot_name)
-        return free_slots + heli_slots + large_slots
+        return free_slots + large_slots
 
     def _free_parking_slots_resolve_v2(self, aircraft_type: Type[unittype.FlyingType]) -> List[ParkingSlot]:
         free_slots = [x for x in self.parking_slots
@@ -263,6 +263,9 @@ class Airport:
 
         if aircraft_type.helicopter:
             free_slots = [x for x in free_slots if x.helicopter]
+        else:
+            free_slots = [x for x in free_slots
+                          if x.airplanes or x.large]
 
         slots_sorted = sorted(free_slots, key=lambda x: (x.helicopter, x.slot_name))
         return slots_sorted
