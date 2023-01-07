@@ -919,11 +919,12 @@ class Mission:
         if category in _country.callsign:
             callsign_name = _country.next_callsign_category(category)
 
+        assert callsign_name is not None
+
         i = 1
         for u in group.units:
             if category in _country.callsign:
-                assert callsign_name is not None
-                u.callsign_dict["name"] = callsign_name + str(1) + str(i)
+                u.callsign_dict["name"] = callsign_name + str(i)
                 u.callsign_dict[3] = i
             else:
                 u.callsign = _country.next_callsign_id()

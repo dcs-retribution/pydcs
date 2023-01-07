@@ -1,3 +1,5 @@
+import random
+
 from dcs.helicopters import HelicopterType
 from dcs.planes import PlaneType
 from dcs.unitgroup import VehicleGroup, ShipGroup, PlaneGroup, StaticGroup, HelicopterGroup, FlyingGroup, Group
@@ -33,7 +35,7 @@ class Country:
         self.helicopter_group: List[HelicopterGroup] = []
         self.static_group: List[StaticGroup] = []
         self.current_callsign_id = 99
-        self.current_callsign_category: Dict[str, int] = {}
+        self.callsign_numbers: Dict[str, Set[int]] = {}
         self._tail_numbers: Set[str] = set()
 
     def add_vehicle_group(self, vgroup):
@@ -136,14 +138,18 @@ class Country:
         return self.current_callsign_id
 
     def next_callsign_category(self, category):
-        if category not in self.current_callsign_category:
-            self.current_callsign_category[category] = 0
-            return self.callsign.get(category)[0]
+        callsign = random.choice(self.callsign.get(category))
+        numbers = set(range(1, 9))
+        taken = self.callsign_numbers.get(callsign)
 
-        self.current_callsign_category[category] += 1
-        if self.current_callsign_category[category] >= len(self.callsign[category]):
-            self.current_callsign_category[category] = 0
-        return self.callsign.get(category)[self.current_callsign_category[category]]
+        if taken and len(taken) < 9:
+            numbers -= taken
+        else:
+            self.callsign_numbers[callsign] = set()
+
+        number = random.choice(tuple(numbers))
+        self.callsign_numbers[callsign].add(number)
+        return str(callsign) + str(number)
 
     @property
     def unused_onboard_numbers(self) -> Set[str]:
