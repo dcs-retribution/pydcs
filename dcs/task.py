@@ -1128,13 +1128,14 @@ class DeActivateBeaconCommand(WrappedAction):
 class ActivateICLSCommand(WrappedAction):
     Key = "ActivateICLS"
 
-    def __init__(self, channel=1, unit_id=0):
+    def __init__(self, channel=1, unit_id=0, name=""):
         super(ActivateICLSCommand, self).__init__()
         self.params = {
             "action": {
                 "id": ActivateICLSCommand.Key,
                 "params": {
                     "type": 131584,
+                    "name": name,
                     "channel": channel,
                     "unitId": unit_id
                 }
