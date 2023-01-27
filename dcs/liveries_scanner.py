@@ -25,11 +25,11 @@ def regex_group_extractor(regex: str, text: str, fallback=None):
         return fallback
 
 
-def read_liberation_preferences() -> Tuple[str, str]:
+def read_retribution_preferences() -> Tuple[str, str]:
     install = ""
     saved_games = ""
-    pref_path = os.path.join(os.path.expanduser("~"), "AppData", "Local", "DCSLiberation")
-    pref_path = os.path.join(pref_path, "liberation_preferences.json")
+    pref_path = os.path.join(os.path.expanduser("~"), "AppData", "Local", "DCSRetribution")
+    pref_path = os.path.join(pref_path, "retribution_preferences.json")
     if os.path.exists(pref_path):
         with open(pref_path, "r") as file:
             json_dict = json.load(file)
@@ -154,8 +154,8 @@ class Liveries:
         """
         Constructor only attempts to initialize if 'map' is empty.
         The first attempt to determine paths for initialization will look
-        for Liberation's preferences file, as this gives us a way to initialize
-        the scanner on time in Liberation. If proper initialization isn't done before
+        for Retribution's preferences file, as this gives us a way to initialize
+        the scanner on time in Retribution. If proper initialization isn't done before
         importing modules that make use of this scanner, for example planes.py, we risk
         having those modules initialized without the proper liveries.
         If no preferences file is found, PyDCS will attempt to determine the correct paths instead.
@@ -163,7 +163,7 @@ class Liveries:
         but beware that this must happen on time in case of designs like planes.py or helicopters.py.
         """
         if len(Liveries.map) == 0:
-            install, saved_games = read_liberation_preferences()
+            install, saved_games = read_retribution_preferences()
             Liveries.initialize(install, saved_games)
 
     def __getitem__(self, unit: str) -> LiverySet:
