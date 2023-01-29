@@ -3,7 +3,7 @@ import random
 from dcs.helicopters import HelicopterType
 from dcs.planes import PlaneType
 from dcs.unitgroup import VehicleGroup, ShipGroup, PlaneGroup, StaticGroup, HelicopterGroup, FlyingGroup, Group
-from typing import List, Dict, Set, Type
+from typing import List, Dict, Set, Type, Tuple
 
 
 def find_exact(group_name, find_name):
@@ -137,8 +137,8 @@ class Country:
         self.current_callsign_id += 1
         return self.current_callsign_id
 
-    def next_callsign_category(self, category):
-        callsign = random.choice(self.callsign.get(category))
+    def next_callsign_category(self, category) -> Tuple[str, int]:
+        callsign = random.choice(self.callsign[category])
         numbers = set(range(1, 9))
         taken = self.callsign_numbers.get(callsign)
 
@@ -149,7 +149,7 @@ class Country:
 
         number = random.choice(tuple(numbers))
         self.callsign_numbers[callsign].add(number)
-        return str(callsign) + str(number)
+        return str(callsign), number
 
     @property
     def unused_onboard_numbers(self) -> Set[str]:

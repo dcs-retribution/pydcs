@@ -952,16 +952,22 @@ class Mission:
     @classmethod
     def _assign_callsign(cls, _country, group: unitgroup.FlyingGroup):
         callsign_name = None
+        callsign_number = None
         category = "Air" if group.units[0].unit_type.category == "Interceptor" else group.units[0].unit_type.category
         if category in _country.callsign:
-            callsign_name = _country.next_callsign_category(category)
+            callsign_name, callsign_number = _country.next_callsign_category(category)
 
         assert callsign_name is not None
+        assert callsign_number is not None
+
+        callsign_id = _country.callsign[category].index(callsign_name) + 1
 
         i = 1
         for u in group.units:
             if category in _country.callsign:
-                u.callsign_dict["name"] = callsign_name + str(i)
+                u.callsign_dict["name"] = callsign_name + str(callsign_number) + str(i)
+                u.callsign_dict[1] = callsign_id
+                u.callsign_dict[2] = callsign_number
                 u.callsign_dict[3] = i
             else:
                 u.callsign = _country.next_callsign_id()
