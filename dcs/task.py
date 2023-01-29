@@ -1107,6 +1107,7 @@ class ActivateBeaconCommand(WrappedAction):
                     "modeChannel": modechannel,
                     "bearing": bearing,
                     "system": 4 if aa else 3,
+                    "AA": "true" if aa else "false",
                 }
             }
         }
