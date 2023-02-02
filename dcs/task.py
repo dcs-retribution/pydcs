@@ -1093,7 +1093,7 @@ class ActivateBeaconCommand(WrappedAction):
 
         return freq * 1000000
 
-    def __init__(self, channel=10, modechannel="X", callsign="TKR", bearing=True, unit_id=0, aa=True):
+    def __init__(self, channel=10, modechannel="X", callsign="TKR", bearing=True, unit_id=0, aa=True, tanker=False):
         super(ActivateBeaconCommand, self).__init__()
         self.params = {
             "action": {
@@ -1106,8 +1106,8 @@ class ActivateBeaconCommand(WrappedAction):
                     "unitId": unit_id,
                     "modeChannel": modechannel,
                     "bearing": bearing,
-                    "system": 4 if aa else 3,
-                    "AA": "true" if aa else "false",
+                    "system": 5 if tanker and modechannel == "Y" else 4 if aa else 3,
+                    "AA": "true" if aa and not tanker else "false",
                 }
             }
         }
