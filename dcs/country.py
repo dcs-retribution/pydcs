@@ -138,11 +138,15 @@ class Country:
         return self.current_callsign_id
 
     def next_callsign_category(self, category) -> Tuple[str, int]:
-        callsign = random.choice(self.callsign[category])
-        numbers = set(range(1, 9))
+        callsigns = [
+            callsign
+            for callsign in self.callsign[category]
+            if not self.callsign_numbers.get(callsign) or len(self.callsign_numbers[callsign]) < 9
+        ]
+        callsign = random.choice(callsigns)
         taken = self.callsign_numbers.get(callsign)
-
-        if taken and len(taken) < 9:
+        numbers = set(range(1, 10))
+        if taken:
             numbers -= taken
         else:
             self.callsign_numbers[callsign] = set()
