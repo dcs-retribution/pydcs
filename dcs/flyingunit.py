@@ -28,8 +28,8 @@ class FlyingUnit(Unit):
         self.unit_type = _type  # for loadout validation
         self.unit_type.load_payloads()
         self.livery_id = self.unit_type.default_livery(_country.shortname)
-        self.parking = None  # crossroad idx
-        self.parking_id = None  # parking slot name (01, 02, ..)
+        self.parking: Optional[int] = None  # crossroad idx
+        self.parking_id: Optional[str] = None  # parking slot name (01, 02, ..)
         self.psi = 0
         self.onboard_num = '9'
         self.alt = 0

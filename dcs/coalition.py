@@ -62,6 +62,10 @@ class Coalition:
         ret: List[StatusMessage] = []
         if group.points[0].airdrome_id is not None and unit.parking is not None:
             airport = mission.terrain.airport_by_id(group.points[0].airdrome_id)
+            if not airport:
+                msg = "Airport is None"
+                ret.append(StatusMessage(msg, MessageType.AIRFIELD_NONE, MessageSeverity.ERROR))
+                return ret
             slot = airport.parking_slot(unit.parking)
             if slot is not None:
                 unit.set_parking(slot)
