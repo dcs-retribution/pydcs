@@ -311,7 +311,13 @@ class Liveries:
                 if os.path.isdir(livery_path):
                     Liveries.scan_lua_description(livery_path, unit)
                 elif os.path.isfile(livery_path) and ".zip" in livery_path:
-                    Liveries.scan_zip_file(livery_path, unit)
+                    try:
+                        Liveries.scan_zip_file(livery_path, unit)
+                    except zipfile.BadZipfile:
+                        logging.warning(
+                            f"Bad zipfile skipped for unit '{unit}': {livery_path} "
+                            "(this may indicate a corrupted DCS installation)"
+                        )
 
     @staticmethod
     def scan_mods_path(path: str) -> None:
