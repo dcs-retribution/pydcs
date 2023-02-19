@@ -1,5 +1,7 @@
 # terrain module
 from __future__ import annotations
+
+import logging
 from dataclasses import dataclass
 
 from pyproj import CRS, Transformer
@@ -592,7 +594,10 @@ class Warehouses:
 
     def load_dict(self, data):
         for x in data.get("airports", {}):
-            self.terrain.airport_by_id(x).load_from_dict(data["airports"][x])
+            if airport := self.terrain.airport_by_id(x):
+                airport.load_from_dict(data["airports"][x])
+            else:
+                logging.error(f"Could not find data for airport with ID '{x}'")
 
     def __str__(self):
         airports = self.terrain.airports
