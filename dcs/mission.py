@@ -1970,11 +1970,15 @@ class Mission:
             raise RuntimeError("No filename given.")
         self.filename = filename  # store filename
 
+        theater = str(self.terrain.name)
         options = str(self.options)
         warehouses = str(self.warehouses)
         mission = str(self)
 
         with zipfile.ZipFile(filename, 'w', compression=zipfile.ZIP_DEFLATED) as zipf:
+            # theater
+            zipf.writestr('theater', theater)
+
             # options
             zipf.writestr('options', options)
 
