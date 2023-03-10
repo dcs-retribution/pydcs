@@ -327,14 +327,14 @@ class AttackGroup(Task):
     :param attack_limit: how much attack runs
     :param group_attack: indicate if the unit must be attacked by all aircrafts in the group.
     :param altitude: altitude used for attack
-    :param direction: direction of attack
+    :param direction: direction of attack in radians
     :param expend: how many ammunition to expend
     """
     Id = "AttackGroup"
 
     def __init__(self, group_id: int = 0, weapon_type: WeaponType = WeaponType.Auto,
                  attack_limit: Optional[int] = None, group_attack: bool = False,
-                 altitude: Optional[int] = None, direction: Optional[int] = None,
+                 altitude: Optional[int] = None, direction: Optional[float] = None,
                  expend: Expend = Expend.Auto):
         super(AttackGroup, self).__init__(AttackGroup.Id)
         self.params = {
