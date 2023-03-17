@@ -571,7 +571,10 @@ class CarpetBombing(Bombing):
         super(CarpetBombing, self).__init__(
             position, weapon_type, expend, attack_qty, group_attack, direction, altitude
         )
+        self.params["attackType"] = "Carpet"
         self.params["carpetLength"] = carpet_length
+        del self.params["directionEnabled"]
+        del self.params["direction"]
 
 
 class BombingRunway(Task):
