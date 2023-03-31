@@ -1,3 +1,4 @@
+import textwrap
 import unittest
 from dcs.lua.parse import loads
 
@@ -240,6 +241,105 @@ return unitPayloads
         self.assertEqual(r['unitPayloads']['payloads'][1]['pylons'][1]['num'], 8)
         self.assertEqual(r['unitPayloads']['payloads'][2]['name'], "AIM-54A-MK47*6, AIM-9M*2, XT*2")
         self.assertEqual(r['unitPayloads']['payloads'][2]['tasks'][1], "Intercept")
+
+    def test_object_with_semicolon_entry_separator(self) -> None:
+        r = loads(
+            textwrap.dedent(
+                """\
+                livery = {
+                    {"A-10C_PAINT_1-a", 0 ,"A-10C_104_1-a",true};
+                    {"A-10C_PAINT_1-b", 0 ,"A-10C_104_1-b",true};
+                    {"A-10C_PAINT_1-c", 0 ,"A-10C_104_1-c",true};
+                    {"A-10C_PAINT_1-d", 0 ,"A-10C_104_1-d",true};
+                    {"A-10C_PAINT_1-e", 0 ,"A-10C_104_1-e",true};
+                    {"A-10C_PAINT_1-f", 0 ,"A-10C_104_1-f",true};
+                    {"A-10C_PAINT_1-g", 0 ,"A-10C_104_1-g",true};
+                    {"A-10C_PAINT_1-h", 0 ,"A-10C_104_1-h",true};
+                    {"A-10C_PAINT_1-i", 0 ,"A-10C_104_1-i",true};
+                    {"A-10C_PAINT_1-j", 0 ,"A-10C_104_1-j",true};
+                    {"A-10C_PAINT_1-k", 0 ,"A-10C_104_1-k",true};
+                    {"A-10C_PAINT_1-L", 0 ,"A-10C_104_1-L",true};
+                    {"A-10_Number", 0 ,"TactNumbers-USAF-Light_black",true};
+                    {"A-10_Number_Noze_F", 0 ,"TactNumbers-USAF-Light_black",true};
+                    {"A-10_Number_Noze_T", 0 ,"empty",true};
+                    {"A-10_Number_Wheel", 0 ,"empty",true};
+
+                }
+                """
+            )
+        )
+        self.assertEqual(len(r["livery"]), 16)
+
+    def test_empty_file_parses(self) -> None:
+        r = loads("")
+        self.assertEqual(len(r), 0)
+
+    def test_unknown_variable_use_fails_by_default(self) -> None:
+        with self.assertRaises(SyntaxError):
+            loads('foo = {"AH-64D_bottom_1", DIFFUSE, false}')
+
+    def test_unknown_variable_lookup(self) -> None:
+        r = loads(
+            'foo = {"AH-64D_bottom_1", DIFFUSE, false}',
+            unknown_variable_lookup=lambda _: "bar"
+        )
+        self.assertEqual(r["foo"][2], "bar")
+
+    def test_whitespace_can_end_with_comment_before_eof(self) -> None:
+        # Regression test for a peculiar old behavior where comments could end a file if
+        # and only if they were not preceded by whitespace.
+        loads('\n--')
+
+    def test_block_comment(self) -> None:
+        r = loads(
+            textwrap.dedent(
+                """\
+                --[[
+                this is a comment
+                --]]foo = "bar"
+                """
+            )
+        )
+        self.assertEqual(r["foo"], "bar")
+
+        loads("--[[ Old Bort Calls For 1.5.3 and Older ]]--")
+
+        r = loads(
+            textwrap.dedent(
+                """\
+                --[[ Comment ]]
+                foo = "bar"
+                """
+            )
+        )
+        self.assertEqual(r["foo"], "bar")
+
+    def test_single_quoted_string(self) -> None:
+        r = loads("name = 'foobar'")
+        self.assertEqual(r["name"], "foobar")
+
+    def test_mixed_quote_strings(self) -> None:
+        r = loads("name = 'foo \"bar\" baz'")
+        self.assertEqual(r["name"], 'foo "bar" baz')
+
+        r = loads("name = \"foo 'bar' baz\"")
+        self.assertEqual(r["name"], "foo 'bar' baz")
+
+    def test_useless_semicolon(self) -> None:
+        r = loads(
+            textwrap.dedent(
+                """\
+                name = "foo";
+                other_name = "bar";
+                """
+            )
+        )
+        self.assertEqual(r["name"], "foo")
+        self.assertEqual(r["other_name"], "bar")
+
+    def test_float_beginning_with_dot(self) -> None:
+        r = loads("num = .1")
+        self.assertEqual(r["num"], 0.1)
 
 
 if __name__ == '__main__':

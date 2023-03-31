@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import random
 
 from dcs.helicopters import HelicopterType
@@ -224,5 +226,13 @@ class Country:
                 i += 1
         return d
 
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, Country):
+            return False
+        return self.id == other.id
+
     def __str__(self):
         return str(self.id) + "," + self.name + "," + str(self.vehicle_group)
+
+    def __hash__(self) -> int:
+        return hash(self.id)

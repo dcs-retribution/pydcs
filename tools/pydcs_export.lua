@@ -287,7 +287,6 @@ from typing import Any, Dict, List, Set
 from dcs.weapons_data import Weapons
 import dcs.task as task
 from dcs.unittype import FlyingType
-from dcs.liveries_scanner import Liveries
 
 
 ]])
@@ -468,11 +467,9 @@ from dcs.liveries_scanner import Liveries
         if plane.livery_entry ~= nil then
             local name = string.upper(plane.livery_entry)
             writeln(file, '    livery_name = "'..name..'"  # from livery_entry')
-            writeln(file, '    Liveries = Liveries()[livery_name]')
         else if plane.type ~= nil then
             local name = string.upper(string.gsub(plane.type, '/', '_'))
             writeln(file, '    livery_name = "'..name..'"  # from type')
-            writeln(file, '    Liveries = Liveries()[livery_name]')
         end end
 
         local pylons = {}
@@ -1016,10 +1013,40 @@ while i <= country.maxIndex do
 end
 writeln(file, '}')
 
+writeln(file, '')
+writeln(file, '')
+writeln(file, 'countries_by_name = {')
+i = 0
+while i <= country.maxIndex do
+    local c = country.by_idx[i]
+    if c then
+        local pyName = c.Name
+        pyName = string.gsub(pyName, "[-()/., *']", "")
+        writeln(file, '    '..pyName..'.name: '..pyName..',')
+    end
+    i = i + 1
+end
+writeln(file, '}')
+
+writeln(file, '')
+writeln(file, '')
+writeln(file, 'countries_by_short_name = {')
+i = 0
+while i <= country.maxIndex do
+    local c = country.by_idx[i]
+    if c then
+        local pyName = c.Name
+        pyName = string.gsub(pyName, "[-()/., *']", "")
+        writeln(file, '    '..pyName..'.shortname: '..pyName..',')
+    end
+    i = i + 1
+end
+writeln(file, '}')
+
 writeln(file, [[
 
 
-def get_by_id(_id: int):
+def get_by_id(_id: int) -> Country:
     """Returns a new country object for the given country id
 
     Args:
@@ -1028,5 +1055,33 @@ def get_by_id(_id: int):
     Returns:
         Country: a new country object
     """
-    return country_dict[_id]()]])
+    return country_dict[_id]()
+
+
+def get_by_name(name: str) -> Country:
+    """Returns a new country object for the given country name.
+
+    Warning: the country names may or may not be stable. *Short* names' are
+    most likely stable because they're used in livery files, but" the name
+    field could potentially change at the whims of ED.
+
+    Args:
+        name: name of the country
+
+    Returns:
+        Country: a new country object
+    """
+    return countries_by_name[name]()
+
+
+def get_by_short_name(short_name: str) -> Country:
+    """Returns a new country object for the given country short name.
+
+    Args:
+        short_name: short name of the country
+
+    Returns:
+        Country: a new country object
+    """
+    return countries_by_short_name[short_name]()]])
 file:close()

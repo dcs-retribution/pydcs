@@ -1,11 +1,17 @@
+from __future__ import annotations
+
 import dcs.lua as lua
-from dcs.liveries_scanner import LiverySet
 from dcs.payloads import PayloadDirectories
 import re
 import sys
-from typing import Any, Dict, List, Optional, Set, Type, Union, TYPE_CHECKING
+from typing import Any, Dict, Iterator, List, Optional, Set, Type, Union, TYPE_CHECKING
+
+from dcs.liveries.livery import Livery
+from dcs.liveries.liverycache import LiveryCache
+from dcs.liveries.liveryset import LiverySet
 
 if TYPE_CHECKING:
+    from dcs.country import Country
     from dcs.task import MainTask
 
 
@@ -169,11 +175,29 @@ class FlyingType(UnitType):
         return None
 
     @classmethod
+    def iter_liveries(cls) -> Iterator[Livery]:
+        if cls.livery_name is None:
+            return
+        yield from LiveryCache.for_unit(cls.livery_name)
+
+    @classmethod
+    def iter_liveries_for_country(cls, country: Country) -> Iterator[Livery]:
+        if cls.livery_name is None:
+            return
+        for livery in LiveryCache.for_unit(cls.livery_name):
+            if livery.valid_for_country(country.shortname):
+                yield livery
+
+    @classmethod
     def default_livery(cls, country_name) -> str:
         if cls.id + "." + country_name in LiveryOverwrites.map:
             return LiveryOverwrites.map[cls.id + "." + country_name]
         else:
-            liveries = sorted(filter(lambda x: x.valid_for_country(country_name), cls.Liveries))
+            liveries = sorted(
+                livery
+                for livery in cls.iter_liveries()
+                if livery.valid_for_country(country_name)
+            )
             if liveries:
                 return liveries[0].id
         return ""
