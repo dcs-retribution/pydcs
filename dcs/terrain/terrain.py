@@ -269,7 +269,7 @@ class Airport:
             free_slots = [x for x in free_slots
                           if x.airplanes or x.large]
 
-        slots_sorted = sorted(free_slots, key=lambda x: (x.helicopter, x.slot_name))
+        slots_sorted = sorted(free_slots, key=lambda x: (x.width, x.helicopter, x.slot_name))
         return slots_sorted
 
     def free_parking_slots(self, aircraft_type: Type[unittype.FlyingType]) -> List[ParkingSlot]:
