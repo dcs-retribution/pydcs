@@ -8,7 +8,6 @@ from typing import Any, Dict, Iterator, List, Optional, Set, Type, Union, TYPE_C
 
 from dcs.liveries.livery import Livery
 from dcs.liveries.liverycache import LiveryCache
-from dcs.liveries.liveryset import LiverySet
 
 if TYPE_CHECKING:
     from dcs.country import Country
@@ -91,7 +90,7 @@ class FlyingType(UnitType):
 
     pylons: Set[int] = set()
     livery_name: Optional[str] = None
-    Liveries: LiverySet = LiverySet()
+
     # Dict from payload name to the DCS payload structure. None if not yet initialized.
     payloads: Optional[Dict[str, Dict[str, Any]]] = None
 
