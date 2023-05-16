@@ -24,6 +24,12 @@ def test_plane_liveries(tmp_path: Path) -> None:
     foo_livery.mkdir(parents=True)
     (foo_livery / "description.lua").touch()
 
+    viper_liveries = (
+        saved_games
+        / "Liveries"
+        / F_16C_50.livery_name
+    )
+
     bar_livery = viper_liveries / "bar"
     bar_livery.mkdir(parents=True)
     (bar_livery / "description.lua").touch()
@@ -67,6 +73,12 @@ def test_plane_liveries_for_country(tmp_path: Path) -> None:
             countries = {"RUS"}
             """
         )
+    )
+
+    viper_liveries = (
+        saved_games
+        / "Liveries"
+        / F_16C_50.livery_name
     )
 
     baz_livery = viper_liveries / "baz"
