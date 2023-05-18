@@ -65,6 +65,10 @@ local function remove_semi_colons(name)
     return string.gsub(name, ";", "_")
 end
 
+local function replace_backslash_star(name)
+    return string.gsub(name, "\\%*", "\\\\*")
+end
+
 local function has_value (tab, val)
     for index, value in ipairs(tab) do
         if value == val then
@@ -188,8 +192,9 @@ while i <= #keys do
     local x = keys[i]
 
     if weapons[x].displayName ~= nil then
+        local displayName = replace_backslash_star(weapons[x].displayName)
         writeln(file, "    " .. remove_semi_colons(x) .. " = {\"clsid\": \"" .. weapons[x].clsid
-                .. "\", \"name\": \"" .. weapons[x].displayName .. "\", \"weight\": " .. weapons[x].weight .. "}")
+                .. "\", \"name\": \"" .. displayName .. "\", \"weight\": " .. weapons[x].weight .. "}")
     end
     i = i + 1
 end
