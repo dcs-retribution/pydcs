@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 import os.path
+import re
 from typing import Optional, Set
 from zipfile import ZipFile
 
@@ -17,6 +18,14 @@ def _attempt_read_from_filestream(filestream: bytes) -> Optional[str]:
             continue
         return code
     return None
+
+
+def _regex_group_extractor(regex: str, text: str, fallback=None):
+    match = re.search(regex, text, re.MULTILINE)
+    if match is not None:
+        return match.group(1)
+    else:
+        return fallback
 
 
 class Livery:
@@ -66,33 +75,22 @@ class Livery:
         Finally we also attempt to extract the order to sort liveries like DCS.
         If no order is found, we use a default value of 0.
 
-        :param luacode: The contents of description.lua for the livery in question
+        :param code: The contents of description.lua for the livery in question
         :param path: The path of the livery in question
-        :param unit: The name of the unit as 'DCS type',
-            i.e. name of the unit inside the Liveries folder, e.g. 'A-10CII'
         """
         path_id = path.split("\\")[-1].replace(".zip", "")
         if path_id == "placeholder":
             return None
 
-        # Some liveries files use variables in material names. Since the files read by
-        # the scanner can be arbitrarily changed by a game update (we don't want some
-        # liveries to be suddenly unparseable), and so far we aren't interested in the
-        # values of liveries that rely on undefined variables, just assume those are all
-        # the empty string and move on.
-        try:
-            data = dcs.lua.loads(code, unknown_variable_lookup=lambda _: "")
-        except SyntaxError:
-            logging.exception("Could not parse livery definition at %s", path)
-            return None
-        livery_name = data.get("name", path_id)
-        countries_table = data.get("countries")
-        if countries_table is None:
-            countries = None
-        else:
-            countries = set(countries_table.values())
-        order = data.get("order", 0)
+        livery_name = _regex_group_extractor(r'^name\s*=\s*"(.*)"\s*(?:--.*)?$', code, path_id)
 
+        regex = r'^countries\s*=\s*(\{\s*"[A-Z]+"\s*(?:,\s*"[A-Z]+"\s*)*\s*,?\s*\})\s*(?:--.*)?$'
+        countries = _regex_group_extractor(regex, code)
+        if countries is not None:
+            exec(f"country_list = {countries}")
+            countries = set(filter(lambda x: x != "", locals()['country_list']))
+
+        order = _regex_group_extractor(r'^order\s*=\s*(-?[0-9]+)\s*(?:--.*)?$', code, 0)
         order = None if path_id == "default" else order
         if order is not None and not isinstance(order, int):
             try:
