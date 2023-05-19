@@ -6,8 +6,6 @@ import re
 from typing import Optional, Set
 from zipfile import ZipFile
 
-import dcs.lua
-
 
 def _attempt_read_from_filestream(filestream: bytes) -> Optional[str]:
     encodes = ["utf-8", "ansi"]
