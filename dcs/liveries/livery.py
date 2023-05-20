@@ -4,7 +4,7 @@ import logging
 import os.path
 import re
 from typing import Optional, Set
-from zipfile import ZipFile
+from zipfile import ZipFile, BadZipFile
 
 
 def _attempt_read_from_filestream(filestream: bytes) -> Optional[str]:
@@ -103,7 +103,13 @@ class Livery:
         if os.path.isdir(path):
             return Livery.from_directory(path)
         elif path.endswith(".zip"):
-            return Livery.from_zip(path)
+            try:
+                return Livery.from_zip(path)
+            except BadZipFile:
+                logging.warning(
+                    f"Bad zipfile skipped at path: {path} "
+                    "(this may indicate a corrupted DCS installation)"
+                )
         return None
 
     @staticmethod
@@ -113,8 +119,6 @@ class Livery:
         passing it to 'scan_lua_code'.
 
         :param path: The path of the livery in question
-        :param unit: The name of the unit as 'DCS type',
-            i.e. name of the unit inside the Liveries folder, e.g. 'A-10CII'
         """
         description_path = os.path.join(path, "description.lua")
         if not os.path.exists(description_path):
@@ -130,7 +134,7 @@ class Livery:
 
         try:
             return Livery.from_lua(code, path)
-        except (IndexError, SyntaxError):
+        except Exception:
             logging.getLogger("pydcs").exception(
                 "Failed to parse Lua code in %s", description_path
             )
@@ -144,8 +148,6 @@ class Livery:
         except for the fact it needs to "open the zip" first.
 
         :param path: The path of the livery in question
-        :param unit: The name of the unit as 'DCS type',
-            i.e. name of the unit inside the Liveries folder, e.g. 'A-10CII'
         """
         if not os.path.exists(path):
             return None
@@ -162,7 +164,7 @@ class Livery:
 
         try:
             return Livery.from_lua(code, path)
-        except (SyntaxError, IndexError):
+        except Exception:
             error_path = "!".join([path, "description.lua"])
             logging.getLogger("pydcs").exception(
                 "Failed to parse Lua code in %s", error_path
