@@ -1,11 +1,11 @@
 from __future__ import annotations
 
 import random
+from typing import List, Dict, Set, Type, Tuple
 
 from dcs.helicopters import HelicopterType
 from dcs.planes import PlaneType
 from dcs.unitgroup import VehicleGroup, ShipGroup, PlaneGroup, StaticGroup, HelicopterGroup, FlyingGroup, Group
-from typing import List, Dict, Set, Type, Tuple
 
 
 def find_exact(group_name, find_name):
@@ -145,6 +145,10 @@ class Country:
             for callsign in self.callsign[category]
             if not self.callsign_numbers.get(callsign) or len(self.callsign_numbers[callsign]) < 9
         ]
+        if not callsigns:
+            # Everything's fully booked, start from scratch...
+            self.callsign_numbers = {}
+            return self.next_callsign_category(category)
         callsign = random.choice(callsigns)
         taken = self.callsign_numbers.get(callsign)
         numbers = set(range(1, 10))
