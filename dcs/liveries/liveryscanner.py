@@ -2,8 +2,7 @@ import os
 from typing import Dict
 
 from dcs.installation import get_dcs_install_directory, get_dcs_saved_games_directory
-
-from .liberation import read_liberation_preferences
+from .liberation import read_retribution_preferences
 from .livery import Livery
 from .liveryset import LiverySet
 
@@ -38,7 +37,10 @@ class LiveryScanner:
         self.map: Dict[str, LiverySet] = {}
 
     def load(self) -> Dict[str, LiverySet]:
-        install, saved_games = read_liberation_preferences()
+        install = get_dcs_install_directory()
+        saved_games = get_dcs_saved_games_directory()
+        if install is None or saved_games is None:
+            install, saved_games = read_retribution_preferences()
         return self.load_from(install, saved_games)
 
     def load_from(

@@ -52,7 +52,7 @@ def get_dcs_saved_games_directory():
     if os.path.exists(dcs_variant):
         # read from the file, append first line to saved games, e.g.: DCS.openbeta
         with open(dcs_variant, "r") as file:
-            suffix = re.sub(r"[^\w\d-]", "", file.read())
+            suffix = re.sub(r"[^\w-]", "", file.read())
             saved_games = saved_games + "." + suffix
     return saved_games
 
