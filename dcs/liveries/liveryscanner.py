@@ -37,10 +37,11 @@ class LiveryScanner:
         self.map: Dict[str, LiverySet] = {}
 
     def load(self) -> Dict[str, LiverySet]:
-        install = get_dcs_install_directory()
-        saved_games = get_dcs_saved_games_directory()
-        if install is None or saved_games is None:
-            install, saved_games = read_retribution_preferences()
+        install, saved_games = read_retribution_preferences()
+        if not install:
+            install = get_dcs_install_directory()
+        if not saved_games:
+            saved_games = get_dcs_saved_games_directory()
         return self.load_from(install, saved_games)
 
     def load_from(
