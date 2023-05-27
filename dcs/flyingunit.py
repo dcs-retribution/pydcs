@@ -1,15 +1,15 @@
 from __future__ import annotations
 
 import copy
+import json
+import logging
+from typing import TYPE_CHECKING, Dict, Optional, Type
 
+from dcs.helicopters import HelicopterType, Ka_50
+from dcs.planes import PlaneType, A_10C
+from dcs.terrain import ParkingSlot
 from dcs.unit import Unit, Skill
 from dcs.unittype import AircraftRadioPresets, FlyingType
-from dcs.terrain import ParkingSlot
-from dcs.planes import PlaneType, A_10C
-from dcs.helicopters import HelicopterType, Ka_50
-
-import json
-from typing import TYPE_CHECKING, Dict, Optional, Type
 
 if TYPE_CHECKING:
     from dcs.terrain import Terrain
@@ -87,7 +87,8 @@ class FlyingUnit(Unit):
         if pylon is None:
             pylon = weapon[0]
         if pylon not in self.unit_type.pylons:
-            raise RuntimeError("Plane {pn} has no pylon {p}.".format(pn=self.unit_type.id, p=pylon))
+            logging.error("Plane {pn} has no pylon {p}.".format(pn=self.unit_type.id, p=pylon))
+            return False
         if weapon is None:
             return self.pylons.pop(pylon, None)
         self.pylons[pylon] = {"CLSID": weapon[1]["clsid"]}
