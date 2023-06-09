@@ -56,6 +56,7 @@ JSON_LUA = THIS_DIR / "json.lua"
 EXPORT_LUA = THIS_DIR / "coord_export.lua"
 SRC_ROOT = THIS_DIR.parent
 EXPORT_DIR = SRC_ROOT / "dcs/terrain/projections"
+DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS"
 
 
 ARG_TO_TERRAIN_MAP = {
@@ -275,10 +276,10 @@ def main() -> None:
     )
     terrain = ARG_TO_TERRAIN_MAP[args.map]
     mission = create_mission(terrain)
+   
     if "OpenBeta" in args.dcs:
          DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS.openbeta"
-    else:
-         DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS"
+         
     with mission_scripting(args.dcs):
         input(
             f"Created {mission} and replaced MissionScript.lua. Open DCS and load the "
