@@ -54,7 +54,6 @@ from pyproj import CRS, Transformer
 THIS_DIR = Path(__file__).resolve().parent
 JSON_LUA = THIS_DIR / "json.lua"
 EXPORT_LUA = THIS_DIR / "coord_export.lua"
-DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS.openbeta"
 SRC_ROOT = THIS_DIR.parent
 EXPORT_DIR = SRC_ROOT / "dcs/terrain/projections"
 
@@ -276,12 +275,16 @@ def main() -> None:
     )
     terrain = ARG_TO_TERRAIN_MAP[args.map]
     mission = create_mission(terrain)
+    if "OpenBeta" in args.dcs:
+         dcs_saved_games = Path.home() / "Saved Games/DCS.openbeta"
+    else:
+         dcs_saved_games = Path.home() / "Saved Games/DCS"
     with mission_scripting(args.dcs):
         input(
             f"Created {mission} and replaced MissionScript.lua. Open DCS and load the "
             "mission. Once the mission starts running, close it and press enter."
         )
-    coords_path = DCS_SAVED_GAMES / "coords.json"
+    coords_path = dcs_saved_games / "coords.json"
     parameters = compute_tmerc_parameters(coords_path, args.map)
     out_file = EXPORT_DIR / f"{args.map}.py"
     out_file.write_text(
