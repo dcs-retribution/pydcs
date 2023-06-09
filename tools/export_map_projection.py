@@ -121,7 +121,7 @@ def create_mission(terrain: Terrain) -> Path:
     export_trigger.add_action(DoScriptFile(export_lua))
     m.triggerrules.triggers.append(export_trigger)
 
-    mission_path = DCS_SAVED_GAMES / "Missions" / f"export_{terrain.name.lower()}.miz"
+    mission_path = dcs_saved_games / "Missions" / f"export_{terrain.name.lower()}.miz"
     m.save(mission_path)
     return mission_path
 
