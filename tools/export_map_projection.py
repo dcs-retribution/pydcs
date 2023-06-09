@@ -43,6 +43,7 @@ from dcs.terrain.nevada import Nevada
 from dcs.terrain.normandy import Normandy
 from dcs.terrain.persiangulf import PersianGulf
 from dcs.terrain.syria import Syria
+from dcs.terrain.sinai.sinai import Sinai
 from dcs.terrain.terrain import Terrain
 from dcs.terrain.thechannel import TheChannel
 from dcs.terrain.marianaislands import MarianaIslands
@@ -53,9 +54,9 @@ from pyproj import CRS, Transformer
 THIS_DIR = Path(__file__).resolve().parent
 JSON_LUA = THIS_DIR / "json.lua"
 EXPORT_LUA = THIS_DIR / "coord_export.lua"
-DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS"
 SRC_ROOT = THIS_DIR.parent
 EXPORT_DIR = SRC_ROOT / "dcs/terrain/projections"
+DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS"
 
 
 ARG_TO_TERRAIN_MAP = {
@@ -67,6 +68,7 @@ ARG_TO_TERRAIN_MAP = {
     "thechannel": TheChannel(),
     "syria": Syria(),
     "marianaislands": MarianaIslands(),
+    "sinai": Sinai(),
 }
 
 # https://gisgeography.com/central-meridian/
@@ -81,6 +83,7 @@ CENTRAL_MERIDIANS = {
     "thechannel": 3,
     "syria": 39,
     "marianaislands": 147,
+    "sinai": 33,
 }
 
 
@@ -273,6 +276,10 @@ def main() -> None:
     )
     terrain = ARG_TO_TERRAIN_MAP[args.map]
     mission = create_mission(terrain)
+   
+    if "OpenBeta" in args.dcs:
+         DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS.openbeta"
+         
     with mission_scripting(args.dcs):
         input(
             f"Created {mission} and replaced MissionScript.lua. Open DCS and load the "
