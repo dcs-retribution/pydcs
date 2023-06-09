@@ -121,7 +121,7 @@ def create_mission(terrain: Terrain) -> Path:
     export_trigger.add_action(DoScriptFile(export_lua))
     m.triggerrules.triggers.append(export_trigger)
 
-    mission_path = dcs_saved_games / "Missions" / f"export_{terrain.name.lower()}.miz"
+    mission_path = DCS_SAVED_GAMES / "Missions" / f"export_{terrain.name.lower()}.miz"
     m.save(mission_path)
     return mission_path
 
@@ -276,15 +276,15 @@ def main() -> None:
     terrain = ARG_TO_TERRAIN_MAP[args.map]
     mission = create_mission(terrain)
     if "OpenBeta" in args.dcs:
-         dcs_saved_games = Path.home() / "Saved Games/DCS.openbeta"
+         DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS.openbeta"
     else:
-         dcs_saved_games = Path.home() / "Saved Games/DCS"
+         DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS"
     with mission_scripting(args.dcs):
         input(
             f"Created {mission} and replaced MissionScript.lua. Open DCS and load the "
             "mission. Once the mission starts running, close it and press enter."
         )
-    coords_path = dcs_saved_games / "coords.json"
+    coords_path = DCS_SAVED_GAMES / "coords.json"
     parameters = compute_tmerc_parameters(coords_path, args.map)
     out_file = EXPORT_DIR / f"{args.map}.py"
     out_file.write_text(
