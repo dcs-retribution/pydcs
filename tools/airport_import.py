@@ -124,6 +124,9 @@ def main():
 
             atc_freqs = list(airport["frequencies"]["frequencyList"].values())
             if atc_freqs:
+                if isinstance(atc_freqs[0], dict):
+                    atc_freqs = [x[1] for x in atc_freqs]
+
                 hf, vhf_low, vhf_high, uhf = sorted(atc_freqs)
                 atc_radio = AtcRadio(
                     hf_hz=hf,
