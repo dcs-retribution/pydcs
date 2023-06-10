@@ -67,7 +67,7 @@ def test_livery_valid_for_country() -> None:
 
 
 def test_ansi_encoded_description(tmp_path: Path) -> None:
-    (tmp_path / "description.lua").write_bytes("name = 'Š'".encode("ansi"))
+    (tmp_path / "description.lua").write_bytes("name = \"Š\"".encode("ansi"))
     livery = Livery.from_path(str(tmp_path))
     assert livery is not None
     assert livery.name == "Š"
