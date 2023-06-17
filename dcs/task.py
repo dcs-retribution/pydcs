@@ -1153,13 +1153,13 @@ class ActivateICLSCommand(WrappedAction):
 class ActivateLink4Command(WrappedAction):
     Key = "ActivateLink4"
 
-    def __init__(self, frequency: int = 336, unit_id: int = 0):
+    def __init__(self, frequency: int = 336000000, unit_id: int = 0):
         super(ActivateLink4Command, self).__init__()
         self.params = {
             "action": {
                 "id": ActivateLink4Command.Key,
                 "params": {
-                    "frequency": frequency * 1000000,
+                    "frequency": frequency,
                     "unitId": unit_id
                 }
             }
