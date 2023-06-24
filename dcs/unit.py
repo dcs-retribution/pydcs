@@ -271,6 +271,6 @@ class InvisibleFARP(BaseFARP):
 
 farp_mapping: Dict[str, Callable[[Terrain, Optional[int], Optional[str], float, int, int], BaseFARP]] = {
     "FARP": FARP,
-    "SingleHeliPad": SingleHeliPad,
-    "InvisibleFARP": InvisibleFARP,
+    "SINGLE_HELIPAD": SingleHeliPad,
+    "Invisible FARP": InvisibleFARP,
 }
