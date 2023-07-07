@@ -750,6 +750,30 @@ end
 
 lookup_map(file, "Cargo", db.Units.Cargos.Cargo)
 
+writeln(file, '')
+writeln(file, '')
+writeln(file, 'class Heliport:')
+for i in pairs(db.Units.Heliports.Heliport) do
+    local unit = db.Units.Heliports.Heliport[i]
+    local safename = safe_class_name(unit.type)
+    local safeDisplayName = safe_display_name(unit.DisplayName)
+    writeln(file, '')
+    writeln(file, '    class '..safename..'(unittype.StaticType):')
+    writeln(file, '        id = "'..unit.type..'"')
+    writeln(file, '        name = "'..safeDisplayName..'"')
+    writeln(file, '        shape_name = "'..unit.ShapeName..'"')
+    writeln(file, '        category = "Heliports"')
+    if unit.Rate ~= nil and unit.Rate then
+        writeln(file, '        rate = '..unit.Rate)
+    end
+    if unit.SeaObject ~= nil and unit.SeaObject then
+        writeln(file, '        sea_object = True')
+    end
+
+end
+
+lookup_map(file, "Heliport", db.Units.Heliports.Heliport)
+
 file:close()
 
 
