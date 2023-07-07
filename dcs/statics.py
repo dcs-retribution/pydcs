@@ -1053,3 +1053,58 @@ cargo_map = {
     "trunks_long_cargo": Cargo.Trunks_long_cargo,
     "L118": Cargo.L118,
 }
+
+
+class Heliport:
+
+    class FARP(unittype.StaticType):
+        id = "FARP"
+        name = "FARP"
+        shape_name = "FARPS"
+        category = "Heliports"
+
+    class SINGLE_HELIPAD(unittype.StaticType):
+        id = "SINGLE_HELIPAD"
+        name = "Helipad Single"
+        shape_name = "FARP"
+        category = "Heliports"
+
+    class FARP_SINGLE_01(unittype.StaticType):
+        id = "FARP_SINGLE_01"
+        name = "PAD Single"
+        shape_name = "FARP_SINGLE_01"
+        category = "Heliports"
+        rate = 100
+        sea_object = True
+
+    class Oil_rig(unittype.StaticType):
+        id = "Oil rig"
+        name = "Oil rig"
+        shape_name = "oil_platform"
+        category = "Heliports"
+        rate = 100
+        sea_object = True
+
+    class Gas_platform(unittype.StaticType):
+        id = "Gas platform"
+        name = "Gas platform"
+        shape_name = "gas_platform"
+        category = "Heliports"
+        rate = 100
+        sea_object = True
+
+    class Invisible_FARP(unittype.StaticType):
+        id = "Invisible FARP"
+        name = "Invisible FARP"
+        shape_name = "invisiblefarp"
+        category = "Heliports"
+        rate = 100
+
+heliport_map = {
+    "FARP": Heliport.FARP,
+    "SINGLE_HELIPAD": Heliport.SINGLE_HELIPAD,
+    "FARP_SINGLE_01": Heliport.FARP_SINGLE_01,
+    "Oil rig": Heliport.Oil_rig,
+    "Gas platform": Heliport.Gas_platform,
+    "Invisible FARP": Heliport.Invisible_FARP,
+}
