@@ -269,8 +269,28 @@ class InvisibleFARP(BaseFARP):
         return d
 
 
+class FarpSingle01(BaseFARP):
+    def __init__(self, terrain: Terrain, unit_id=None, name=None, frequency=127.5, modulation=0, callsign_id=1):
+        super().__init__(unit_id, name, "FARP_SINGLE_01", "FARP_SINGLE_01", frequency, modulation, callsign_id, terrain)
+
+    def load_from_dict(self, d):
+        super(FarpSingle01, self).load_from_dict(d)
+        self.heliport_frequency = float(d.get("heliport_frequency", 127.5))
+        self.heliport_modulation = d.get("heliport_modulation", 0)
+        self.heliport_callsign_id = d.get("heliport_callsign_id", 0)
+
+    def dict(self):
+        d = super(FarpSingle01, self).dict()
+        d["heliport_frequency"] = self.heliport_frequency
+        d["heliport_modulation"] = self.heliport_modulation
+        d["heliport_callsign_id"] = self.heliport_callsign_id
+
+        return d
+
+
 farp_mapping: Dict[str, Callable[[Terrain, Optional[int], Optional[str], float, int, int], BaseFARP]] = {
     "FARP": FARP,
     "SINGLE_HELIPAD": SingleHeliPad,
+    "FARP_SINGLE_01": FarpSingle01,
     "Invisible FARP": InvisibleFARP,
 }
