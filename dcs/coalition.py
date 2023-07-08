@@ -6,7 +6,7 @@ import dcs.unitgroup as unitgroup
 import dcs.planes as planes
 import dcs.helicopters as helicopters
 import dcs.ships as ships
-from dcs.unit import Vehicle, Static, Ship, FARP, SingleHeliPad
+from dcs.unit import Vehicle, Static, Ship, FARP, SingleHeliPad, FarpSingle01
 from dcs.flyingunit import Plane, Helicopter
 from dcs.point import MovingPoint, StaticPoint
 from dcs.country import Country
@@ -245,6 +245,11 @@ class Coalition:
                                 name=self.get_name(mission, imp_unit["name"]))
                         elif imp_unit["type"] == "SINGLE_HELIPAD":
                             static = SingleHeliPad(
+                                mission.terrain,
+                                unit_id=imp_unit["unitId"],
+                                name=self.get_name(mission, imp_unit["name"]))
+                        elif imp_unit["type"] == "FARP_SINGLE_01":
+                            static = FarpSingle01(
                                 mission.terrain,
                                 unit_id=imp_unit["unitId"],
                                 name=self.get_name(mission, imp_unit["name"]))
