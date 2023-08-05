@@ -334,7 +334,7 @@ class FlyingGroup(Generic[FlyingUnitT], MovingGroup[FlyingUnitT]):
         self.uncontrolled = False
         self.radio_set = False
         self.task = "CAS"
-        self.password: Optional[str] = None
+        self.password = None
         self.units = []  # type: List[FlyingUnit]
         self.nav_target_points = []  # type: List[NavTargetPoint]
 
