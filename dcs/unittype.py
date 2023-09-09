@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 import dcs.lua as lua
 from dcs.payloads import PayloadDirectories
 import re
@@ -99,6 +101,13 @@ class FlyingType(UnitType):
 
     _payload_cache = None
     _UnitPayloadGlobals = None
+
+    @classmethod
+    def add_to_payload_cache(cls, payload_file: Path):
+        if not FlyingType._payload_cache:
+            return cls.scan_payload_dir()
+        if payload_file not in FlyingType._payload_cache:
+            FlyingType._payload_cache[payload_file] = cls.id
 
     @classmethod
     def scan_payload_dir(cls):
