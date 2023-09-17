@@ -163,7 +163,7 @@ class Country:
 
     @property
     def unused_onboard_numbers(self) -> Set[str]:
-        return self._tail_numbers
+        return {"{:03}".format(x) for x in range(10, 1000)} - self._tail_numbers
 
     def reset_onboard_numbers(self):
         """
@@ -183,10 +183,12 @@ class Country:
         return is_in
 
     def next_onboard_num(self) -> str:
-        free_set = {"{:03}".format(x) for x in range(10, 999)} - self._tail_numbers
-        tailnum = free_set.pop()
-        self.reserve_onboard_num(tailnum)
-        return tailnum
+        free_set = self.unused_onboard_numbers
+        if free_set:
+            tailnum = free_set.pop()
+            self.reserve_onboard_num(tailnum)
+            return tailnum
+        return random.choice(sorted(self._tail_numbers))
 
     def dict(self):
         d = {
