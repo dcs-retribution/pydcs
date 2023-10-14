@@ -4117,7 +4117,6 @@ class Hatzor(Airport):
         super().__init__(mapping.Point(189869.304688, 332622.0625, terrain), terrain)
 
         self.beacons.append(AirportBeacon(id='airfield20_1'))
-        self.beacons.append(AirportBeacon(id='airfield20_0'))
         self.runways.append(Runway(id=3, name='29R-11L', main=RunwayApproach(name='29R', heading=290, beacons=[]), opposite=RunwayApproach(name='11L', heading=110, beacons=[])))
         self.runways.append(Runway(id=2, name='29L-11R', main=RunwayApproach(name='29L', heading=290, beacons=[]), opposite=RunwayApproach(name='11R', heading=110, beacons=[])))
         self.runways.append(Runway(id=1, name='05-23', main=RunwayApproach(name='05', heading=50, beacons=[RunwayBeacon(id='airfield20_2', runway_name='05-23', runway_id=1, runway_side='05'), RunwayBeacon(id='airfield20_3', runway_name='05-23', runway_id=1, runway_side='05')]), opposite=RunwayApproach(name='23', heading=230, beacons=[])))
