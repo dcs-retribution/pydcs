@@ -960,17 +960,18 @@ class Mission:
         callsign_name: Optional[str],
         callsign_nr: Optional[int],
     ):
+        ac_callsigns = list()
+        if group.flight_type().callnames:
+            if "Combined Joint Task Forces" in _country.name:
+                ac_callsigns = list(itertools.chain.from_iterable(group.flight_type().callnames.values()))
+            else:
+                ac_callsigns = list(group.flight_type().callnames.get(_country.shortname))
+
         if callsign_name and callsign_nr:
             i = 1
             category = "Air" if group.flight_type().category == "Interceptor" else group.flight_type().category
-            if "Combined Joint Task Forces" in _country.name:
-                ac_callsigns = set(itertools.chain.from_iterable(group.flight_type().callnames.values()))
-            else:
-                ac_callsigns = set(group.flight_type().callnames.get(_country.callsign))
-            if not ac_callsigns:
-                ac_callsigns = set()
-            callsigns = _country.callsign[category] + list(ac_callsigns)
-            callsign_id = callsigns.index(callsign_name)
+            callsigns = _country.callsign[category] + ac_callsigns
+            callsign_id = callsigns.index(callsign_name) + 1
             for u in group.units:
                 u.callsign_dict["name"] = str(callsign_name) + str(callsign_nr) + str(i)
                 u.callsign_dict[1] = callsign_id
@@ -983,8 +984,8 @@ class Mission:
         category = "Air" if group.units[0].unit_type.category == "Interceptor" else group.units[0].unit_type.category
         callsign_id = -1
         if category in _country.callsign:
-            callsign_name, callsign_nr = _country.next_callsign_category(category)
-            callsign_id = _country.callsign[category].index(callsign_name) + 1
+            callsign_name, callsign_nr = _country.next_callsign_category(category, ac_callsigns)
+            callsign_id = (_country.callsign[category] + ac_callsigns).index(callsign_name) + 1
 
         i = 1
         for u in group.units:

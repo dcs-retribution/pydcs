@@ -139,16 +139,16 @@ class Country:
         self.current_callsign_id += 1
         return self.current_callsign_id
 
-    def next_callsign_category(self, category) -> Tuple[str, int]:
+    def next_callsign_category(self, category, callnames) -> Tuple[str, int]:
         callsigns = [
             callsign
-            for callsign in self.callsign[category]
+            for callsign in self.callsign[category] + callnames
             if not self.callsign_numbers.get(callsign) or len(self.callsign_numbers[callsign]) < 9
         ]
         if not callsigns:
             # Everything's fully booked, start from scratch...
             self.callsign_numbers = {}
-            return self.next_callsign_category(category)
+            return self.next_callsign_category(category, callnames)
         callsign = random.choice(callsigns)
         taken = self.callsign_numbers.get(callsign)
         numbers = set(range(1, 10))
