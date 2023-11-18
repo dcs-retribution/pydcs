@@ -80,6 +80,8 @@ class FlyingType(UnitType):
     flare_charge_size = 2
     category = "Air"
 
+    callnames: Dict[str, List[str]] = {}
+
     tacan = False
     eplrs = False
 

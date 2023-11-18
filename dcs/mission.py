@@ -2,6 +2,7 @@
 The mission module is the entry point to all pydcs functions.
 """
 import copy
+import itertools
 import os
 import sys
 import tempfile
@@ -952,21 +953,45 @@ class Mission:
         return unitgroup.HelicopterGroup(self.next_group_id(), name)
 
     @classmethod
-    def _assign_callsign(cls, _country, group: unitgroup.FlyingGroup):
+    def _assign_callsign(
+        cls,
+        _country,
+        group: unitgroup.FlyingGroup,
+        callsign_name: Optional[str],
+        callsign_nr: Optional[int],
+    ):
+        if callsign_name and callsign_nr:
+            i = 1
+            category = "Air" if group.flight_type().category == "Interceptor" else group.flight_type().category
+            if "Combined Joint Task Forces" in _country.name:
+                ac_callsigns = set(itertools.chain.from_iterable(group.flight_type().callnames.values()))
+            else:
+                ac_callsigns = set(group.flight_type().callnames.get(_country.callsign))
+            if not ac_callsigns:
+                ac_callsigns = set()
+            callsigns = _country.callsign[category] + list(ac_callsigns)
+            callsign_id = callsigns.index(callsign_name)
+            for u in group.units:
+                u.callsign_dict["name"] = str(callsign_name) + str(callsign_nr) + str(i)
+                u.callsign_dict[1] = callsign_id
+                u.callsign_dict[2] = callsign_nr
+                u.callsign_dict[3] = i
+                i += 1
+            return
+
         callsign_name = None
-        callsign_number = None
         category = "Air" if group.units[0].unit_type.category == "Interceptor" else group.units[0].unit_type.category
         callsign_id = -1
         if category in _country.callsign:
-            callsign_name, callsign_number = _country.next_callsign_category(category)
+            callsign_name, callsign_nr = _country.next_callsign_category(category)
             callsign_id = _country.callsign[category].index(callsign_name) + 1
 
         i = 1
         for u in group.units:
             if category in _country.callsign:
-                u.callsign_dict["name"] = str(callsign_name) + str(callsign_number) + str(i)
+                u.callsign_dict["name"] = str(callsign_name) + str(callsign_nr) + str(i)
                 u.callsign_dict[1] = callsign_id
-                u.callsign_dict[2] = callsign_number
+                u.callsign_dict[2] = callsign_nr
                 u.callsign_dict[3] = i
             else:
                 u.callsign = _country.next_callsign_id()
@@ -985,11 +1010,15 @@ class Mission:
             mp.tasks.append(ptask)
         return mp
 
-    def _flying_group_from_airport(self, _country, group: unitgroup.FlyingGroup,
-                                   maintask: Type[task.MainTask],
-                                   airport: terrain_.Airport,
-                                   start_type: StartType = StartType.Cold,
-                                   parking_slots: Optional[List[terrain_.ParkingSlot]] = None) -> unitgroup.FlyingGroup:
+    def _flying_group_from_airport(
+        self, _country, group: unitgroup.FlyingGroup,
+        maintask: Type[task.MainTask],
+        airport: terrain_.Airport,
+        start_type: StartType = StartType.Cold,
+        parking_slots: Optional[List[terrain_.ParkingSlot]] = None,
+        callsign_name: Optional[str] = None,
+        callsign_nr: Optional[int] = None,
+    ) -> unitgroup.FlyingGroup:
 
         for u in group.units:
             spos = airport.position
@@ -1010,7 +1039,7 @@ class Mission:
 
         group.load_task_default_loadout(maintask)
 
-        self._assign_callsign(_country, group)
+        self._assign_callsign(_country, group, callsign_name, callsign_nr)
         self._assign_onboard_num(_country, group)
 
         point_start_type_map = {
@@ -1033,8 +1062,16 @@ class Mission:
 
         return group
 
-    def _flying_group_inflight(self, _country, group: unitgroup.FlyingGroup,
-                               maintask: Type[task.MainTask], altitude, speed) -> unitgroup.FlyingGroup:
+    def _flying_group_inflight(
+        self,
+        _country,
+        group: unitgroup.FlyingGroup,
+        maintask: Type[task.MainTask],
+        altitude,
+        speed,
+        callsign_name: Optional[str] = None,
+        callsign_nr: Optional[int] = None,
+    ) -> unitgroup.FlyingGroup:
 
         i = 0
         for u in group.units:
@@ -1043,7 +1080,7 @@ class Mission:
             u.speed = speed / 3.6
             i += 1
 
-        self._assign_callsign(_country, group)
+        self._assign_callsign(_country, group, callsign_name, callsign_nr)
         self._assign_onboard_num(_country, group)
 
         group.load_task_default_loadout(maintask)
@@ -1064,16 +1101,19 @@ class Mission:
 
         return group
 
-    def flight_group_inflight(self,
-                              country,
-                              name: str,
-                              aircraft_type: Type[unittype.FlyingType],
-                              position: mapping.Point,
-                              altitude: int,
-                              speed=None,
-                              maintask: Optional[Type[task.MainTask]] = None,
-                              group_size: int = 1
-                              ) -> unitgroup.FlyingGroup:
+    def flight_group_inflight(
+        self,
+        country,
+        name: str,
+        aircraft_type: Type[unittype.FlyingType],
+        position: mapping.Point,
+        altitude: int,
+        speed=None,
+        maintask: Optional[Type[task.MainTask]] = None,
+        group_size: int = 1,
+        callsign_name: Optional[str] = None,
+        callsign_nr: Optional[int] = None,
+    ) -> unitgroup.FlyingGroup:
         """Add a new Plane/Helicopter group inflight.
 
         The type of the resulting group depends on the given aircraft_type.
@@ -1112,18 +1152,26 @@ class Mission:
             p.fuel = int(p.fuel * 0.9)
             ag.add_unit(p)
 
-        country.add_aircraft_group(self._flying_group_inflight(country, ag, maintask, altitude, speed))
+        country.add_aircraft_group(
+            self._flying_group_inflight(
+                country, ag, maintask, altitude, speed, callsign_name=callsign_name, callsign_nr=callsign_nr
+            )
+        )
         return ag
 
-    def flight_group_from_airport(self,
-                                  country: Country,
-                                  name,
-                                  aircraft_type: Type[unittype.FlyingType],
-                                  airport: terrain_.Airport,
-                                  maintask: Optional[Type[task.MainTask]] = None,
-                                  start_type: StartType = StartType.Cold,
-                                  group_size=1,
-                                  parking_slots: Optional[List[terrain_.ParkingSlot]] = None) -> unitgroup.FlyingGroup:
+    def flight_group_from_airport(
+        self,
+        country: Country,
+        name,
+        aircraft_type: Type[unittype.FlyingType],
+        airport: terrain_.Airport,
+        maintask: Optional[Type[task.MainTask]] = None,
+        start_type: StartType = StartType.Cold,
+        group_size=1,
+        parking_slots: Optional[List[terrain_.ParkingSlot]] = None,
+        callsign_name: Optional[str] = None,
+        callsign_nr: Optional[int] = None,
+    ) -> unitgroup.FlyingGroup:
         """Add a new Plane/Helicopter group at the given airport.
 
         Runway, warm/cold start depends on the given start_type.
@@ -1159,17 +1207,31 @@ class Mission:
             ag.add_unit(p)
 
         country.add_aircraft_group(
-            self._flying_group_from_airport(country, ag, maintask, airport, start_type, parking_slots))
+            self._flying_group_from_airport(
+                country,
+                ag,
+                maintask,
+                airport,
+                start_type,
+                parking_slots,
+                callsign_name,
+                callsign_nr
+            )
+        )
         return ag
 
-    def flight_group_from_unit(self,
-                               country: Country,
-                               name,
-                               aircraft_type: Type[unittype.FlyingType],
-                               pad_group: Union[unitgroup.ShipGroup, unitgroup.StaticGroup],
-                               maintask: Optional[Type[task.MainTask]] = None,
-                               start_type: StartType = StartType.Cold,
-                               group_size=1) -> unitgroup.FlyingGroup:
+    def flight_group_from_unit(
+        self,
+        country: Country,
+        name,
+        aircraft_type: Type[unittype.FlyingType],
+        pad_group: Union[unitgroup.ShipGroup, unitgroup.StaticGroup],
+        maintask: Optional[Type[task.MainTask]] = None,
+        start_type: StartType = StartType.Cold,
+        group_size=1,
+        callsign_name: Optional[str] = None,
+        callsign_nr: Optional[int] = None,
+    ) -> unitgroup.FlyingGroup:
         """Add a new Plane/Helicopter group at the given FARP or carrier unit.
 
         Args:
@@ -1206,7 +1268,7 @@ class Mission:
 
         ag.load_task_default_loadout(maintask)
 
-        self._assign_callsign(country, ag)
+        self._assign_callsign(country, ag, callsign_name, callsign_nr)
         self._assign_onboard_num(country, ag)
 
         point_start_type_map = {
@@ -1231,18 +1293,21 @@ class Mission:
         country.add_aircraft_group(ag)
         return ag
 
-    def flight_group(self,
-                     country: Country,
-                     name: str,
-                     aircraft_type: Type[unittype.FlyingType],
-                     airport: Optional[terrain_.Airport],
-                     position: Optional[mapping.Point],
-                     altitude=3000,
-                     speed=500,
-                     maintask: Optional[Type[task.MainTask]] = None,
-                     start_type: StartType = StartType.Runway,
-                     group_size=1
-                     ) -> unitgroup.FlyingGroup:
+    def flight_group(
+            self,
+            country: Country,
+            name: str,
+            aircraft_type: Type[unittype.FlyingType],
+            airport: Optional[terrain_.Airport],
+            position: Optional[mapping.Point],
+            altitude=3000,
+            speed=500,
+            maintask: Optional[Type[task.MainTask]] = None,
+            start_type: StartType = StartType.Runway,
+            group_size=1,
+            callsign_name: Optional[str] = None,
+            callsign_nr: Optional[int] = None,
+    ) -> unitgroup.FlyingGroup:
         """This is wrapper around flight_group_inflight and flight_group_from_airport.
 
         Depending on the airport parameter a flight group will added inflight or on an airport.
@@ -1264,12 +1329,14 @@ class Mission:
         """
         if airport:
             fg = self.flight_group_from_airport(country, name, aircraft_type,
-                                                airport, maintask, start_type, group_size)
+                                                airport, maintask, start_type,
+                                                group_size, callsign_name, callsign_nr)
         else:
             if position is None:
                 raise ValueError("Groups created in flight must specify a position.")
             fg = self.flight_group_inflight(country, name, aircraft_type,
-                                            position, altitude, speed, maintask, group_size)
+                                            position, altitude, speed, maintask,
+                                            group_size, callsign_name, callsign_nr)
 
         return fg
 
