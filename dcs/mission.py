@@ -965,7 +965,8 @@ class Mission:
             if "Combined Joint Task Forces" in _country.name:
                 ac_callsigns = list(itertools.chain.from_iterable(group.flight_type().callnames.values()))
             else:
-                ac_callsigns = list(group.flight_type().callnames.get(_country.shortname))
+                callnames = group.flight_type().callnames.get(_country.shortname)
+                ac_callsigns = list(callnames if callnames else [])
 
         if callsign_name and callsign_nr:
             i = 1
@@ -1329,15 +1330,17 @@ class Mission:
             FlyingGroup: a new :py:class:`dcs.unitgroup.PlaneGroup` or :py:class:`dcs.unitgroup.HelicopterGroup`
         """
         if airport:
-            fg = self.flight_group_from_airport(country, name, aircraft_type,
-                                                airport, maintask, start_type,
-                                                group_size, callsign_name, callsign_nr)
+            fg = self.flight_group_from_airport(country, name, aircraft_type, airport,
+                                                maintask, start_type, group_size,
+                                                callsign_name=callsign_name,
+                                                callsign_nr=callsign_nr)
         else:
             if position is None:
                 raise ValueError("Groups created in flight must specify a position.")
-            fg = self.flight_group_inflight(country, name, aircraft_type,
-                                            position, altitude, speed, maintask,
-                                            group_size, callsign_name, callsign_nr)
+            fg = self.flight_group_inflight(country, name, aircraft_type, position,
+                                            altitude, speed, maintask, group_size,
+                                            callsign_name=callsign_name,
+                                            callsign_nr=callsign_nr)
 
         return fg
 
