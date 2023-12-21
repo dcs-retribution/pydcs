@@ -133,6 +133,7 @@ class Mission:
         self.warehouses = Warehouses(self.terrain)
         self.goals = Goals()
         self.drawings = Drawings(self.terrain)
+        self.required_modules = None
         blue = Coalition("blue")
         blue.add_country(countries.Australia())
         blue.add_country(countries.Belgium())
@@ -260,6 +261,9 @@ class Mission:
             self.map_resource.load_binary_files(miz, reserved_files)
 
         imp_mission = mission_dict["mission"]
+
+        # required modules
+        self.required_modules = imp_mission.get("requiredModules", {})
 
         # import translations
         self.translation = Translation(self)
@@ -2085,6 +2089,7 @@ class Mission:
             "Month": self.start_time.month,
             "Day": self.start_time.day
         }
+        m["requiredModules"] = {} if self.required_modules is None else self.required_modules
         if self.random_weather:
             self.weather.random(self.start_time, self.terrain)
         m["groundControl"] = self.groundControl.dict()
