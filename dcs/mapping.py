@@ -98,6 +98,13 @@ class Vector2:
     y: float
 
 
+@dataclass(frozen=True)
+class Vector3:
+    x: int
+    y: int
+    z: int
+
+
 class Point(Vector2):
     def __init__(self, x: float, y: float, terrain: Terrain) -> None:
         super().__init__(x, y)
