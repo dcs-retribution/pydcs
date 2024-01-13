@@ -1,7 +1,15 @@
-from typing import Any, Dict, List, Type, Optional
+from __future__ import annotations
+
+from typing import Any, Dict, List, Type, Optional, TYPE_CHECKING
 from dcs.lua.serialize import dumps
 from dcs.translation import String, ResourceKey
 from enum import Enum, IntEnum
+import dcs.countries as countries
+
+if TYPE_CHECKING:
+    from .mission import Mission
+    from .country import Country
+    from .unitgroup import Group
 
 
 class Action:
@@ -1787,6 +1795,200 @@ class ZoneIncrementResize(Action):
         return d
 
 
+class PictureAction(Action):
+
+    class HorzAlignment(Enum):
+        Left = "0"
+        Center = "1"
+        Right = "2"
+
+        def __eq__(self, other: Any) -> bool:
+            if isinstance(other, str):
+                return self.value == other
+            return self == other
+
+    class VertAlignment(Enum):
+        Top = "0"
+        Center = "1"
+        Bottom = "2"
+
+        def __eq__(self, other: Any) -> bool:
+            if isinstance(other, str):
+                return self.value == other
+            return self == other
+
+    class SizeUnits(Enum):
+        OriginalSize = "0"
+        WindowSize = "1"
+
+        def __eq__(self, other: Any) -> bool:
+            if isinstance(other, str):
+                return self.value == other
+            return self == other
+
+    def __init__(self, predicate: str, file_res_key: ResourceKey, seconds: int,
+                 clearview: bool, start_delay: int,
+                 horz_alignment: HorzAlignment, vert_alignment: VertAlignment,
+                 size: int, size_units: SizeUnits) -> None:
+        super().__init__(predicate)
+        self.file_res_key = file_res_key
+        self.seconds = seconds
+        self.clearview = clearview
+        self.start_delay = start_delay
+        self.horz_alignment = horz_alignment
+        self.vert_alignment = vert_alignment
+        self.size_units = size_units
+        self.size = size
+        if size not in range(1, 101):
+            raise ValueError
+
+    def dict(self) -> Dict[str, Any]:
+        d = super().dict()
+        d["file"] = self.file_res_key.key
+        d["seconds"] = self.seconds
+        d["clearview"] = self.clearview
+        d["start_delay"] = self.start_delay
+        d["horzAlignment"] = self.horz_alignment
+        d["vertAlignment"] = self.vert_alignment
+        d["size_units"] = self.size_units
+        d["size"] = self.size
+        return d
+
+    def __eq__(self, other: Any) -> bool:
+        if isinstance(other, self.__class__):
+            return self.__dict__ == other.__dict__
+        return False
+
+
+class PictureToAll(PictureAction):
+    predicate = "a_out_picture"
+
+    def __init__(self, file_res_key: ResourceKey, seconds: int,
+                 clearview: bool, start_delay: int,
+                 horz_alignment: PictureAction.HorzAlignment, vert_alignment: PictureAction.VertAlignment,
+                 size: int, size_units: PictureAction.SizeUnits) -> None:
+        super().__init__(predicate=self.predicate, file_res_key=file_res_key,
+                         seconds=seconds, clearview=clearview,
+                         start_delay=start_delay, horz_alignment=horz_alignment,
+                         vert_alignment=vert_alignment, size=size, size_units=size_units)
+        self.params = [self.file_res_key, seconds, clearview, start_delay,
+                       horz_alignment, vert_alignment, size, size_units]
+
+    @classmethod
+    def create_from_dict(cls, d: Dict[str, Any], mission: Mission) -> PictureToAll:
+        return cls(ResourceKey(d["file"]), d["seconds"], d["clearview"], d["start_delay"],
+                   d["horzAlignment"], d["vertAlignment"], d["size"], d["size_units"])
+
+
+class PictureToCoalition(PictureAction):
+    predicate = "a_out_picture_s"
+
+    def __init__(self, coalition: Coalition, file_res_key: ResourceKey, seconds: int,
+                 clearview: bool, start_delay: int,
+                 horz_alignment: PictureAction.HorzAlignment, vert_alignment: PictureAction.VertAlignment,
+                 size: int, size_units: PictureAction.SizeUnits) -> None:
+        super().__init__(predicate=self.predicate, file_res_key=file_res_key,
+                         seconds=seconds, clearview=clearview,
+                         start_delay=start_delay, horz_alignment=horz_alignment,
+                         vert_alignment=vert_alignment, size=size, size_units=size_units)
+        self.coalition = coalition
+        self.params = [self.coalition, self.file_res_key, seconds, clearview,
+                       start_delay, horz_alignment, vert_alignment, size, size_units]
+
+    @classmethod
+    def create_from_dict(cls, d: Dict[str, Any], mission: Mission) -> PictureToCoalition:
+        return cls(d["coalitionlist"], ResourceKey(d["file"]), d["seconds"], d["clearview"], d["start_delay"],
+                   d["horzAlignment"], d["vertAlignment"], d["size"], d["size_units"])
+
+    def dict(self) -> Dict[str, Any]:
+        d = super().dict()
+        d["coalitionlist"] = self.coalition
+        return d
+
+
+class PictureToCountry(PictureAction):
+    predicate = "a_out_picture_c"
+
+    def __init__(self, country: Country, file_res_key: ResourceKey, seconds: int,
+                 clearview: bool, start_delay: int,
+                 horz_alignment: PictureAction.HorzAlignment, vert_alignment: PictureAction.VertAlignment,
+                 size: int, size_units: PictureAction.SizeUnits) -> None:
+        super().__init__(predicate=self.predicate, file_res_key=file_res_key,
+                         seconds=seconds, clearview=clearview,
+                         start_delay=start_delay, horz_alignment=horz_alignment,
+                         vert_alignment=vert_alignment, size=size, size_units=size_units)
+        self.country = country
+        self.params = [self.country.id, self.file_res_key, seconds, clearview,
+                       start_delay, horz_alignment, vert_alignment, size, size_units]
+
+    @classmethod
+    def create_from_dict(cls, d: Dict[str, Any], mission: Mission) -> PictureToCountry:
+        return cls(countries.get_by_id(d["countrylist"]), ResourceKey(d["file"]),
+                   d["seconds"], d["clearview"], d["start_delay"],
+                   d["horzAlignment"], d["vertAlignment"], d["size"], d["size_units"])
+
+    def dict(self) -> Dict[str, Any]:
+        d = super().dict()
+        d["countrylist"] = self.country.id
+        return d
+
+
+class PictureToGroup(PictureAction):
+    predicate = "a_out_picture_g"
+
+    def __init__(self, group: Group, file_res_key: ResourceKey, seconds: int,
+                 clearview: bool, start_delay: int,
+                 horz_alignment: PictureAction.HorzAlignment, vert_alignment: PictureAction.VertAlignment,
+                 size: int, size_units: PictureAction.SizeUnits) -> None:
+        super().__init__(predicate=self.predicate, file_res_key=file_res_key,
+                         seconds=seconds, clearview=clearview,
+                         start_delay=start_delay, horz_alignment=horz_alignment,
+                         vert_alignment=vert_alignment, size=size, size_units=size_units)
+        self.group = group
+        self.params = [self.group.id, self.file_res_key, seconds, clearview,
+                       start_delay, horz_alignment, vert_alignment, size, size_units]
+
+    @classmethod
+    def create_from_dict(cls, d: Dict[str, Any], mission: Mission) -> PictureToGroup:
+        group = mission.find_group_by_id(d["group"])
+        if group is None:
+            raise RuntimeError("Group id {} found in PictureToGroup action, "
+                               "but it does not exist in the mission.".format(d["group"]))
+        return cls(group, ResourceKey(d["file"]), d["seconds"], d["clearview"], d["start_delay"],
+                   d["horzAlignment"], d["vertAlignment"], d["size"], d["size_units"])
+
+    def dict(self) -> Dict[str, Any]:
+        d = super().dict()
+        d["group"] = self.group.id
+        return d
+
+
+class PictureToUnit(PictureAction):
+    predicate = "a_out_picture_u"
+
+    def __init__(self, unit_id: int, file_res_key: ResourceKey, seconds: int,
+                 clearview: bool, start_delay: int,
+                 horz_alignment: PictureAction.HorzAlignment, vert_alignment: PictureAction.VertAlignment,
+                 size: int, size_units: PictureAction.SizeUnits) -> None:
+        super().__init__(predicate=self.predicate, file_res_key=file_res_key,
+                         seconds=seconds, clearview=clearview,
+                         start_delay=start_delay, horz_alignment=horz_alignment,
+                         vert_alignment=vert_alignment, size=size, size_units=size_units)
+        self.unit_id = unit_id
+        self.params = [self.unit_id, self.file_res_key, seconds, clearview,
+                       start_delay, horz_alignment, vert_alignment, size, size_units]
+
+    @classmethod
+    def create_from_dict(cls, d: Dict[str, Any], mission: Mission) -> PictureToUnit:
+        return cls(d["unit"], ResourceKey(d["file"]), d["seconds"], d["clearview"], d["start_delay"],
+                   d["horzAlignment"], d["vertAlignment"], d["size"], d["size_units"])
+
+    def dict(self) -> Dict[str, Any]:
+        d = super().dict()
+        d["unit"] = self.unit_id
+        return d
+
+
 actions_map: Dict[str, Type[Action]] = {
     "a_activate_group": ActivateGroup,
     "a_add_radio_item": AddRadioItem,
@@ -1865,5 +2067,10 @@ actions_map: Dict[str, Type[Action]] = {
     "a_set_ai_task": AITaskSet,
     "a_remove_scene_objects": RemoveSceneObjects,
     "a_scenery_destruction_zone": SceneryDestructionZone,
-    "a_zone_increment_resize": ZoneIncrementResize
+    "a_zone_increment_resize": ZoneIncrementResize,
+    "a_out_picture": PictureToAll,
+    "a_out_picture_s": PictureToCoalition,
+    "a_out_picture_c": PictureToCountry,
+    "a_out_picture_g": PictureToGroup,
+    "a_out_picture_u": PictureToUnit,
 }

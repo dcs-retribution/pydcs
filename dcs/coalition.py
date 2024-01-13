@@ -1,5 +1,5 @@
 import sys
-from typing import Dict, Union, List, TYPE_CHECKING
+from typing import Dict, Union, List, TYPE_CHECKING, Optional
 import dcs.countries as countries
 from dcs.mapping import Point
 import dcs.unitgroup as unitgroup
@@ -11,6 +11,7 @@ from dcs.flyingunit import Plane, Helicopter
 from dcs.point import MovingPoint, StaticPoint
 from dcs.country import Country
 from dcs.status_message import StatusMessage, MessageType, MessageSeverity
+from dcs.unitgroup import Group
 
 if TYPE_CHECKING:
     from . import Mission
@@ -294,6 +295,14 @@ class Coalition:
         for c in self.countries:
             g = self.countries[c].find_group(group_name, search)
             if g:
+                return g
+
+        return None
+
+    def find_group_by_id(self, group_id: int) -> Optional[Group]:
+        for c in self.countries:
+            g = self.countries[c].find_group_by_id(group_id)
+            if g is not None:
                 return g
 
         return None

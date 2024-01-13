@@ -43,6 +43,7 @@ from dcs.flyingunit import Plane, Helicopter
 from dcs.helicopters import HelicopterType
 from dcs.planes import PlaneType
 from dcs.status_message import StatusMessage, MessageType, MessageSeverity
+from dcs.unitgroup import Group
 
 
 class StartType(Enum):
@@ -348,6 +349,12 @@ class Mission:
         self.init_script_file = imp_mission.get("initScriptFile")
         self.init_script = imp_mission.get("initScript")
 
+        # import coalition with countries and units
+        for col_name in ["blue", "red", "neutrals"]:
+            if col_name in imp_mission["coalition"]:
+                self.coalition[col_name] = Coalition(col_name, imp_mission["coalition"][col_name]["bullseye"])
+                status += self.coalition[col_name].load_from_dict(self, imp_mission["coalition"][col_name])
+
         # triggers
         self.bypassed_triggers = None
         self.bypassed_trigrules = None
@@ -377,12 +384,6 @@ class Mission:
         imp_weather = imp_mission["weather"]
         self.weather = weather.Weather(self.terrain)
         self.weather.load_from_dict(imp_weather)
-
-        # import coalition with countries and units
-        for col_name in ["blue", "red", "neutrals"]:
-            if col_name in imp_mission["coalition"]:
-                self.coalition[col_name] = Coalition(col_name, imp_mission["coalition"][col_name]["bullseye"])
-                status += self.coalition[col_name].load_from_dict(self, imp_mission["coalition"][col_name])
 
         return status
 
@@ -1880,6 +1881,21 @@ class Mission:
         for k in self.coalition:
             g = self.coalition[k].find_group(group_name, search)
             if g:
+                return g
+        return None
+
+    def find_group_by_id(self, group_id: int) -> Optional[Group]:
+        """Searches a group with the given groupId
+
+        Args:
+            group_id: group identifier assigned by the mission file
+
+        Returns:
+            Group: the group found, otherwise None
+        """
+        for k in self.coalition:
+            g = self.coalition[k].find_group_by_id(group_id)
+            if g is not None:
                 return g
         return None
 

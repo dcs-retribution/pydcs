@@ -6,6 +6,7 @@ from typing import List, Dict, Set, Type, Tuple
 from dcs.helicopters import HelicopterType
 from dcs.planes import PlaneType
 from dcs.unitgroup import VehicleGroup, ShipGroup, PlaneGroup, StaticGroup, HelicopterGroup, FlyingGroup, Group
+from typing import List, Dict, Optional, Set, Type, Sequence
 
 
 def find_exact(group_name, find_name):
@@ -81,6 +82,19 @@ class Country:
             for group in search_group:
                 if find_map[search](group.name, group_name):
                     return group
+        return None
+
+    def find_group_by_id(self, group_id: int) -> Optional[Group]:
+        groups: List[Sequence[Group]] = [self.vehicle_group,
+                                         self.ship_group,
+                                         self.plane_group,
+                                         self.helicopter_group,
+                                         self.static_group]
+        for search_group in groups:
+            for group in search_group:
+                if group.id == group_id:
+                    return group
+
         return None
 
     def find_vehicle_group(self, name: str, search="exact"):
