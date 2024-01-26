@@ -14,6 +14,10 @@ from dcs.unit import Ship
 from dcs.task import WWIIFollowBigFormation
 from dcs.action import PictureAction
 from dcs.action import PictureToAll, PictureToCoalition, PictureToCountry, PictureToGroup, PictureToUnit
+from dcs.task import Task, CarpetBombing, Expend, WeaponType
+from dcs.action import Coalition
+from dcs.mission import Mission
+from enum import IntEnum
 
 
 class BasicTests(unittest.TestCase):
@@ -1240,3 +1244,56 @@ class BasicTests(unittest.TestCase):
         m2.load_file(m2_name)
 
         self.assertEqual(m_action, m2.triggerrules.triggers[0].actions[5])
+
+    def test_smoke_action_carpet_bombing(self) -> None:
+
+        # this is fictional enum to simplify addressing as defined
+        # in big-formation-carpet-bombing.miz
+        class FormationPosition(IntEnum):
+            Leader = 0,
+            Right = 1,
+            Back = 2,
+            Left = 3,
+
+        def get_task(m: Mission, coalition: Coalition, country_name: str,
+                     plane_group_idx: FormationPosition, point_idx: int, task_idx: int) -> Task:
+            return m.coalition[coalition.value].country(
+                country_name).plane_group[plane_group_idx].points[point_idx].tasks[task_idx]
+
+        def get_carpetbombing_task(m: Mission, coalition: Coalition, country_name: str,
+                                   plane_group_idx: FormationPosition, point_idx: int, task_idx: int) -> CarpetBombing:
+            task = get_task(m, coalition, country_name, plane_group_idx, point_idx, task_idx)
+            assert isinstance(task, CarpetBombing)
+            return task
+
+        m_name = "tests/missions/big-formation-carpet-bombing.miz"
+        m = dcs.mission.Mission()
+        m.load_file(m_name)
+
+        m2_name = "missions/saved.big-formation-carpet-bombing.miz"
+        m.save(m2_name)
+
+        m2 = dcs.mission.Mission()
+        m2.load_file(m2_name)
+
+        coalition = Coalition.Blue
+        country = "USA"
+
+        def validate_formation(m: Mission, m2: Mission, position: FormationPosition, expend: Expend,
+                               weapon_type: WeaponType, altitude_enabled: bool) -> None:
+            point_idx = 2
+            task_idx = 0
+
+            m_task = get_carpetbombing_task(m, coalition, country, position, point_idx, task_idx)
+
+            self.assertEqual(m_task.params["expend"], expend)
+            self.assertEqual(m_task.params["weaponType"], weapon_type)
+            self.assertEqual(m_task.params["altitudeEnabled"], altitude_enabled)
+
+            m2_task = get_carpetbombing_task(m2, coalition, country, position, point_idx, task_idx)
+            self.assertEqual(m_task, m2_task)
+
+        validate_formation(m, m2, FormationPosition.Leader, Expend.Auto, WeaponType.Auto, True)
+        validate_formation(m, m2, FormationPosition.Left, Expend.Four, WeaponType.IronBombs, False)
+        validate_formation(m, m2, FormationPosition.Back, Expend.Auto, WeaponType.IronBombs, False)
+        validate_formation(m, m2, FormationPosition.Right, Expend.Auto, WeaponType.Auto, False)
