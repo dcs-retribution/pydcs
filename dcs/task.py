@@ -1438,6 +1438,7 @@ wrappedactions: Dict[str, Type[WrappedAction]] = {
     ActivateBeaconCommand.Key: ActivateBeaconCommand,
     DeActivateBeaconCommand.Key: DeActivateBeaconCommand,
     ActivateICLSCommand.Key: ActivateICLSCommand,
+    ActivateLink4Command.Key: ActivateLink4Command,
     SetFrequencyCommand.Key: SetFrequencyCommand,
     SetFrequencyForUnitCommand.Key: SetFrequencyForUnitCommand,
     SetInvisibleCommand.Key: SetInvisibleCommand,
