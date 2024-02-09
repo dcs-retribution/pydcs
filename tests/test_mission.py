@@ -1238,6 +1238,39 @@ class BasicTests(unittest.TestCase):
         validate_formation(m, m2, FormationPosition.Back, Expend.Auto, WeaponType.IronBombs, False)
         validate_formation(m, m2, FormationPosition.Right, Expend.Auto, WeaponType.Auto, False)
 
+    def test_unit_group_password(self) -> None:
+        m = dcs.mission.Mission()
+
+        kobuleti = m.terrain.airports["Kobuleti"]
+        kobuleti.set_blue()
+        batumi = m.terrain.airports["Batumi"]
+        batumi.set_blue()
+
+        country_name = "USA"
+        coal_name = str(Coalition.Blue.value)
+        country = m.coalition[coal_name].country(country_name)
+
+        flying_group = m.flight_group_from_airport(country, "Airgroup", dcs.planes.A_10C, kobuleti,
+                                                   start_type=dcs.mission.StartType.Warm)
+        flying_group.units[0].set_client()
+        flying_group.set_password('testpassword')
+        self.assertIsNotNone(flying_group.password)
+        m.save('missions/saved.flying-group-with-password.miz')
+
+        m2 = Mission()
+        m2.load_file('missions/saved.flying-group-with-password.miz')
+        m2_flying_group = m2.coalition[coal_name].country(country_name).plane_group[0]
+        self.assertIsNotNone(m2_flying_group.password)
+        self.assertEqual(m2_flying_group.password, flying_group.password)
+
+        m2_flying_group.set_no_password()
+        m2.save('missions/saved.flying-group-with-no-password')
+
+        m3 = Mission()
+        m3.load_file('missions/saved.flying-group-with-no-password')
+        m3_flying_group = m3.coalition[coal_name].country(country_name).plane_group[0]
+        self.assertIsNone(m3_flying_group.password)
+
     def test_geffect(self) -> None:
         m = Mission()
         m.load_file("tests/missions/g-effect-uncheked.miz")
