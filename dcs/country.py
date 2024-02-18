@@ -1,12 +1,11 @@
 from __future__ import annotations
 
 import random
-from typing import List, Dict, Set, Type, Tuple
+from typing import List, Dict, Set, Type, Tuple, Sequence, Optional
 
 from dcs.helicopters import HelicopterType
 from dcs.planes import PlaneType
 from dcs.unitgroup import VehicleGroup, ShipGroup, PlaneGroup, StaticGroup, HelicopterGroup, FlyingGroup, Group
-from typing import List, Dict, Optional, Set, Type, Sequence
 
 
 def find_exact(group_name, find_name):

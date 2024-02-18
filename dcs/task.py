@@ -1100,38 +1100,6 @@ class WWIIFollowBigFormation(Task):
         return False
 
 
-class CarpetBombing(Task):
-    """Create Carpet Bombing Task object
-
-    :param alt_above: AGL altitude (in meters) from which bombing is to be performed. Defaults to 2000.
-    :param pattern_length: The pattern length (in meters) of the carpet bombing run. Defaults to 500.
-    :param release_qty: How many weapons to release. Defaults to Expend.Auto. See :py:class:`dcs.task.Expend`
-    :param weapon_type: The weapon to be used. Defaults to WeaponType.Auto. See :py:class:`dcs.task.WeaponType`
-    """
-    Id = "CarpetBombing"
-    DEFAULT_ALT: int = 2000
-
-    def __init__(self, alt_above: int = DEFAULT_ALT,
-                 pattern_length: int = 500,
-                 release_qty: Expend = Expend.Auto,
-                 weapon_type: WeaponType = WeaponType.Auto) -> None:
-        super().__init__(self.Id)
-        # hardcoded parameters are present in .miz file, but not visible in Mission Editor
-        self.params = {
-            "altitude": alt_above,
-            "altitudeEnabled": True if alt_above != CarpetBombing.DEFAULT_ALT else False,
-            "attackQty": 1,
-            "attackQtyLimit": False,
-            "attackType": "Carpet",
-            "carpetLength": pattern_length,
-            "expend": release_qty.value,
-            "groupAttack": False,
-            "weaponType": weapon_type.value,
-            "x": -52946.816024994,
-            "y": -52425.804462374,
-        }
-
-
 tasks_map: Dict[str, Type[Task]] = {
     ControlledTask.Id: ControlledTask,
     EscortTaskAction.Id: EscortTaskAction,
