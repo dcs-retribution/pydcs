@@ -9,7 +9,7 @@ the aircraft is placed).
 function dumpairportdata()
     local S	= require('Serializer')
     local airdromedump = {}
-    for k, v in base.pairs(base.MapWindow.listAirdromes) do
+    for k, v in base.pairs(terrainDATA.getTerrainDATA('Airdromes')) do
         --MapWindow.listAirdromes[unit.boss.route.points[1].airdromeId].roadnet
         local sList = Terrain.getStandList(v.roadnet, {"SHELTER","FOR_HELICOPTERS","FOR_AIRPLANES","WIDTH","LENGTH","HEIGHT"})
         info = {}
