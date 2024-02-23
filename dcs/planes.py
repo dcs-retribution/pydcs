@@ -8973,7 +8973,7 @@ class AV8BNA(PlaneType):
         "GBULaserCode100": UnitPropertyDescription(
             identifier="GBULaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             minimum=5,
             maximum=8,
             default=6,
@@ -8982,7 +8982,7 @@ class AV8BNA(PlaneType):
         "GBULaserCode10": UnitPropertyDescription(
             identifier="GBULaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             minimum=1,
             maximum=8,
             default=8,
@@ -8991,7 +8991,7 @@ class AV8BNA(PlaneType):
         "GBULaserCode1": UnitPropertyDescription(
             identifier="GBULaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             minimum=1,
             maximum=8,
             default=8,
@@ -11137,7 +11137,7 @@ class F_16C_50(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -11147,7 +11147,7 @@ class F_16C_50(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -11157,7 +11157,7 @@ class F_16C_50(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -11893,7 +11893,7 @@ class F_5E_3(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -11903,7 +11903,7 @@ class F_5E_3(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -11913,7 +11913,7 @@ class F_5E_3(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -12615,6 +12615,7 @@ class F_14B(PlaneType):
 #ERRR <CLEAN>
         AIM_7P_ = (4, Weapons.AIM_7P_)
         Mk_82 = (4, Weapons.Mk_82)
+        Expanded_Chaff_Adapter = (4, Weapons.Expanded_Chaff_Adapter)
         Mk_82AIR = (4, Weapons.Mk_82AIR)
         Mk_82_SnakeEye = (4, Weapons.Mk_82_SnakeEye)
         BDU_45 = (4, Weapons.BDU_45)
@@ -12673,6 +12674,7 @@ class F_14B(PlaneType):
         MAK79_MK_20_ = (5, Weapons.MAK79_MK_20_)
 
     class Pylon6:
+        Tactical_Airborne_Reconnaissance_Pod_System = (6, Weapons.Tactical_Airborne_Reconnaissance_Pod_System)
         AIM_54A_Mk47 = (6, Weapons.AIM_54A_Mk47)
         AIM_54A_Mk60 = (6, Weapons.AIM_54A_Mk60)
         AIM_54C_Mk47 = (6, Weapons.AIM_54C_Mk47)
@@ -12717,6 +12719,7 @@ class F_14B(PlaneType):
 #ERRR <CLEAN>
         AIM_7P_ = (7, Weapons.AIM_7P_)
         Mk_82 = (7, Weapons.Mk_82)
+        ALQ_167__non_functional_ = (7, Weapons.ALQ_167__non_functional_)
         Mk_82AIR = (7, Weapons.Mk_82AIR)
         Mk_82_SnakeEye = (7, Weapons.Mk_82_SnakeEye)
         BDU_45 = (7, Weapons.BDU_45)
@@ -13114,6 +13117,7 @@ class F_14A_135_GR(PlaneType):
 #ERRR <CLEAN>
         AIM_7P_ = (4, Weapons.AIM_7P_)
         Mk_82 = (4, Weapons.Mk_82)
+        Expanded_Chaff_Adapter = (4, Weapons.Expanded_Chaff_Adapter)
         Mk_82AIR = (4, Weapons.Mk_82AIR)
         Mk_82_SnakeEye = (4, Weapons.Mk_82_SnakeEye)
         BDU_45 = (4, Weapons.BDU_45)
@@ -13172,6 +13176,7 @@ class F_14A_135_GR(PlaneType):
         MAK79_MK_20_ = (5, Weapons.MAK79_MK_20_)
 
     class Pylon6:
+        Tactical_Airborne_Reconnaissance_Pod_System = (6, Weapons.Tactical_Airborne_Reconnaissance_Pod_System)
         AIM_54A_Mk47 = (6, Weapons.AIM_54A_Mk47)
         AIM_54A_Mk60 = (6, Weapons.AIM_54A_Mk60)
         AIM_54C_Mk47 = (6, Weapons.AIM_54C_Mk47)
@@ -13216,6 +13221,7 @@ class F_14A_135_GR(PlaneType):
 #ERRR <CLEAN>
         AIM_7P_ = (7, Weapons.AIM_7P_)
         Mk_82 = (7, Weapons.Mk_82)
+        ALQ_167__non_functional_ = (7, Weapons.ALQ_167__non_functional_)
         Mk_82AIR = (7, Weapons.Mk_82AIR)
         Mk_82_SnakeEye = (7, Weapons.Mk_82_SnakeEye)
         BDU_45 = (7, Weapons.BDU_45)
@@ -16208,6 +16214,7 @@ class Mirage_F1C(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -16323,6 +16330,9 @@ class Mirage_F1C(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -16486,7 +16496,7 @@ class Mirage_F1C(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -16496,7 +16506,7 @@ class Mirage_F1C(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -16506,12 +16516,18 @@ class Mirage_F1C(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -16673,7 +16689,7 @@ class Mirage_F1C(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -16759,6 +16775,8 @@ class Mirage_F1CE(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
+        "IFFMode4Disabled": 1,
     }
 
     class Properties:
@@ -16874,6 +16892,17 @@ class Mirage_F1CE(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
+
+        class IFFMode4Disabled:
+            id = "IFFMode4Disabled"
+
+            class Values:
+                NO = 1
+                Force_Always_Disabled = 2
+                Force_Always_Enabled = 3
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -17037,7 +17066,7 @@ class Mirage_F1CE(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -17047,7 +17076,7 @@ class Mirage_F1CE(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -17057,12 +17086,31 @@ class Mirage_F1CE(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
+        ),
+        "IFFMode4Disabled": UnitPropertyDescription(
+            identifier="IFFMode4Disabled",
+            control="comboList",
+            label="Force IFF Mode 4 Transponder Installed",
+            player_only=True,
+            default=1,
+            w_ctrl=75,
+            values={
+                1: "NO",
+                2: "Force Always Disabled",
+                3: "Force Always Enabled",
+            },
         ),
     }
 
@@ -17176,6 +17224,8 @@ class Mirage_F1CE(PlaneType):
         CLB_4___4_x_BR_250___250kg_GP_Bomb_LD = (4, Weapons.CLB_4___4_x_BR_250___250kg_GP_Bomb_LD)
         R530F_EM = (4, Weapons.R530F_EM)
         R530F_IR = (4, Weapons.R530F_IR)
+        PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
+        PTB_580G_F1_EMPTY = (4, Weapons.PTB_580G_F1_EMPTY)
 
     class Pylon5:
         SAMP_125___125_kg_GP_Bomb_LD = (5, Weapons.SAMP_125___125_kg_GP_Bomb_LD)
@@ -17262,7 +17312,7 @@ class Mirage_F1CE(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -17348,6 +17398,8 @@ class Mirage_F1EE(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
+        "IFFMode4Disabled": 1,
         "INSStartMode": 1,
         "RWR_type": "ALR_300",
     }
@@ -17465,6 +17517,17 @@ class Mirage_F1EE(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
+
+        class IFFMode4Disabled:
+            id = "IFFMode4Disabled"
+
+            class Values:
+                NO = 1
+                Force_Always_Disabled = 2
+                Force_Always_Enabled = 3
 
         class INSStartMode:
             id = "INSStartMode"
@@ -17642,7 +17705,7 @@ class Mirage_F1EE(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -17652,7 +17715,7 @@ class Mirage_F1EE(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -17662,12 +17725,31 @@ class Mirage_F1EE(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
+        ),
+        "IFFMode4Disabled": UnitPropertyDescription(
+            identifier="IFFMode4Disabled",
+            control="comboList",
+            label="Force IFF Mode 4 Transponder Installed",
+            player_only=True,
+            default=1,
+            w_ctrl=75,
+            values={
+                1: "NO",
+                2: "Force Always Disabled",
+                3: "Force Always Enabled",
+            },
         ),
         "INSStartMode": UnitPropertyDescription(
             identifier="INSStartMode",
@@ -17806,6 +17888,8 @@ class Mirage_F1EE(PlaneType):
         CLB_4___4_x_BR_250___250kg_GP_Bomb_LD = (4, Weapons.CLB_4___4_x_BR_250___250kg_GP_Bomb_LD)
         R530F_EM = (4, Weapons.R530F_EM)
         R530F_IR = (4, Weapons.R530F_IR)
+        PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
+        PTB_580G_F1_EMPTY = (4, Weapons.PTB_580G_F1_EMPTY)
 
     class Pylon5:
         SAMP_125___125_kg_GP_Bomb_LD = (5, Weapons.SAMP_125___125_kg_GP_Bomb_LD)
@@ -17893,7 +17977,7 @@ class Mirage_F1EE(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -17978,6 +18062,7 @@ class Mirage_F1M_EE(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -18093,6 +18178,9 @@ class Mirage_F1M_EE(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -18256,7 +18344,7 @@ class Mirage_F1M_EE(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -18266,7 +18354,7 @@ class Mirage_F1M_EE(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -18276,12 +18364,18 @@ class Mirage_F1M_EE(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -18396,6 +18490,8 @@ class Mirage_F1M_EE(PlaneType):
         CLB_4___4_x_BR_250___250kg_GP_Bomb_LD = (4, Weapons.CLB_4___4_x_BR_250___250kg_GP_Bomb_LD)
         R530F_EM = (4, Weapons.R530F_EM)
         R530F_IR = (4, Weapons.R530F_IR)
+        PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
+        PTB_580G_F1_EMPTY = (4, Weapons.PTB_580G_F1_EMPTY)
 
     class Pylon5:
         SAMP_125___125_kg_GP_Bomb_LD = (5, Weapons.SAMP_125___125_kg_GP_Bomb_LD)
@@ -18483,7 +18579,7 @@ class Mirage_F1M_EE(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -18568,6 +18664,7 @@ class Mirage_F1M_CE(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -18683,6 +18780,9 @@ class Mirage_F1M_CE(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -18846,7 +18946,7 @@ class Mirage_F1M_CE(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -18856,7 +18956,7 @@ class Mirage_F1M_CE(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -18866,12 +18966,18 @@ class Mirage_F1M_CE(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -18985,6 +19091,8 @@ class Mirage_F1M_CE(PlaneType):
         CLB_4___4_x_BR_250___250kg_GP_Bomb_LD = (4, Weapons.CLB_4___4_x_BR_250___250kg_GP_Bomb_LD)
         R530F_EM = (4, Weapons.R530F_EM)
         R530F_IR = (4, Weapons.R530F_IR)
+        PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
+        PTB_580G_F1_EMPTY = (4, Weapons.PTB_580G_F1_EMPTY)
 
     class Pylon5:
         SAMP_125___125_kg_GP_Bomb_LD = (5, Weapons.SAMP_125___125_kg_GP_Bomb_LD)
@@ -19071,7 +19179,7 @@ class Mirage_F1M_CE(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -19156,6 +19264,7 @@ class Mirage_F1C_200(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -19271,6 +19380,9 @@ class Mirage_F1C_200(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -19434,7 +19546,7 @@ class Mirage_F1C_200(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -19444,7 +19556,7 @@ class Mirage_F1C_200(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -19454,12 +19566,18 @@ class Mirage_F1C_200(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -19623,7 +19741,7 @@ class Mirage_F1C_200(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -19708,6 +19826,7 @@ class Mirage_F1EH(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -19823,6 +19942,9 @@ class Mirage_F1EH(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -19986,7 +20108,7 @@ class Mirage_F1EH(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -19996,7 +20118,7 @@ class Mirage_F1EH(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -20006,12 +20128,18 @@ class Mirage_F1EH(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -20175,7 +20303,7 @@ class Mirage_F1EH(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -20260,6 +20388,7 @@ class Mirage_F1CH(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -20375,6 +20504,9 @@ class Mirage_F1CH(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -20538,7 +20670,7 @@ class Mirage_F1CH(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -20548,7 +20680,7 @@ class Mirage_F1CH(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -20558,12 +20690,18 @@ class Mirage_F1CH(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -20727,7 +20865,7 @@ class Mirage_F1CH(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -20812,6 +20950,7 @@ class Mirage_F1JA(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -20927,6 +21066,9 @@ class Mirage_F1JA(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -21090,7 +21232,7 @@ class Mirage_F1JA(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -21100,7 +21242,7 @@ class Mirage_F1JA(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -21110,12 +21252,18 @@ class Mirage_F1JA(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -21263,7 +21411,7 @@ class Mirage_F1JA(PlaneType):
 
     pylons: Set[int] = {2, 3, 4, 5, 6}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -21348,6 +21496,7 @@ class Mirage_F1CG(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -21463,6 +21612,9 @@ class Mirage_F1CG(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -21626,7 +21778,7 @@ class Mirage_F1CG(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -21636,7 +21788,7 @@ class Mirage_F1CG(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -21646,12 +21798,18 @@ class Mirage_F1CG(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -21825,7 +21983,7 @@ class Mirage_F1CG(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -21910,6 +22068,7 @@ class Mirage_F1CZ(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -22025,6 +22184,9 @@ class Mirage_F1CZ(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -22188,7 +22350,7 @@ class Mirage_F1CZ(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -22198,7 +22360,7 @@ class Mirage_F1CZ(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -22208,12 +22370,18 @@ class Mirage_F1CZ(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -22377,7 +22545,7 @@ class Mirage_F1CZ(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -22462,6 +22630,7 @@ class Mirage_F1CJ(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -22577,6 +22746,9 @@ class Mirage_F1CJ(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -22740,7 +22912,7 @@ class Mirage_F1CJ(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -22750,7 +22922,7 @@ class Mirage_F1CJ(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -22760,12 +22932,18 @@ class Mirage_F1CJ(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -22929,7 +23107,7 @@ class Mirage_F1CJ(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -23014,6 +23192,7 @@ class Mirage_F1CK(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -23129,6 +23308,9 @@ class Mirage_F1CK(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -23292,7 +23474,7 @@ class Mirage_F1CK(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -23302,7 +23484,7 @@ class Mirage_F1CK(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -23312,12 +23494,18 @@ class Mirage_F1CK(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -23481,7 +23669,7 @@ class Mirage_F1CK(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -23566,6 +23754,7 @@ class Mirage_F1EQ(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -23681,6 +23870,9 @@ class Mirage_F1EQ(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -23844,7 +24036,7 @@ class Mirage_F1EQ(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -23854,7 +24046,7 @@ class Mirage_F1EQ(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -23864,12 +24056,18 @@ class Mirage_F1EQ(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -24060,7 +24258,7 @@ class Mirage_F1EQ(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -24145,6 +24343,7 @@ class Mirage_F1ED(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -24260,6 +24459,9 @@ class Mirage_F1ED(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -24423,7 +24625,7 @@ class Mirage_F1ED(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -24433,7 +24635,7 @@ class Mirage_F1ED(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -24443,12 +24645,18 @@ class Mirage_F1ED(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -24639,7 +24847,7 @@ class Mirage_F1ED(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -24724,6 +24932,7 @@ class Mirage_F1EDA(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -24839,6 +25048,9 @@ class Mirage_F1EDA(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -25002,7 +25214,7 @@ class Mirage_F1EDA(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -25012,7 +25224,7 @@ class Mirage_F1EDA(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -25022,12 +25234,18 @@ class Mirage_F1EDA(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -25208,7 +25426,7 @@ class Mirage_F1EDA(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -25293,6 +25511,7 @@ class Mirage_F1CR(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -25408,6 +25627,9 @@ class Mirage_F1CR(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -25571,7 +25793,7 @@ class Mirage_F1CR(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -25581,7 +25803,7 @@ class Mirage_F1CR(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -25591,12 +25813,18 @@ class Mirage_F1CR(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -25764,7 +25992,7 @@ class Mirage_F1CR(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -25849,6 +26077,7 @@ class Mirage_F1CT(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
     }
 
     class Properties:
@@ -25964,6 +26193,9 @@ class Mirage_F1CT(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
     properties = {
         "RadarCoverSettings": UnitPropertyDescription(
@@ -26127,7 +26359,7 @@ class Mirage_F1CT(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -26137,7 +26369,7 @@ class Mirage_F1CT(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -26147,12 +26379,18 @@ class Mirage_F1CT(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
     }
 
@@ -26320,7 +26558,7 @@ class Mirage_F1CT(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -26405,6 +26643,7 @@ class Mirage_F1B(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
         "SoloFlight": False,
         "NetCrewControlPriority": 1,
     }
@@ -26522,6 +26761,9 @@ class Mirage_F1B(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
         class SoloFlight:
             id = "SoloFlight"
@@ -26697,7 +26939,7 @@ class Mirage_F1B(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -26707,7 +26949,7 @@ class Mirage_F1B(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -26717,12 +26959,18 @@ class Mirage_F1B(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
         "SoloFlight": UnitPropertyDescription(
             identifier="SoloFlight",
@@ -26904,7 +27152,7 @@ class Mirage_F1B(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -26990,6 +27238,8 @@ class Mirage_F1BE(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
+        "IFFMode4Disabled": 1,
         "SoloFlight": False,
         "NetCrewControlPriority": 1,
     }
@@ -27107,6 +27357,17 @@ class Mirage_F1BE(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
+
+        class IFFMode4Disabled:
+            id = "IFFMode4Disabled"
+
+            class Values:
+                NO = 1
+                Force_Always_Disabled = 2
+                Force_Always_Enabled = 3
 
         class SoloFlight:
             id = "SoloFlight"
@@ -27282,7 +27543,7 @@ class Mirage_F1BE(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -27292,7 +27553,7 @@ class Mirage_F1BE(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -27302,12 +27563,31 @@ class Mirage_F1BE(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
+        ),
+        "IFFMode4Disabled": UnitPropertyDescription(
+            identifier="IFFMode4Disabled",
+            control="comboList",
+            label="Force IFF Mode 4 Transponder Installed",
+            player_only=True,
+            default=1,
+            w_ctrl=75,
+            values={
+                1: "NO",
+                2: "Force Always Disabled",
+                3: "Force Always Enabled",
+            },
         ),
         "SoloFlight": UnitPropertyDescription(
             identifier="SoloFlight",
@@ -27441,6 +27721,8 @@ class Mirage_F1BE(PlaneType):
         CLB_4___4_x_BR_250___250kg_GP_Bomb_LD = (4, Weapons.CLB_4___4_x_BR_250___250kg_GP_Bomb_LD)
         R530F_EM = (4, Weapons.R530F_EM)
         R530F_IR = (4, Weapons.R530F_IR)
+        PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
+        PTB_580G_F1_EMPTY = (4, Weapons.PTB_580G_F1_EMPTY)
 
     class Pylon5:
         SAMP_125___125_kg_GP_Bomb_LD = (5, Weapons.SAMP_125___125_kg_GP_Bomb_LD)
@@ -27527,7 +27809,7 @@ class Mirage_F1BE(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -27612,6 +27894,7 @@ class Mirage_F1BQ(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
         "SoloFlight": False,
         "NetCrewControlPriority": 1,
     }
@@ -27729,6 +28012,9 @@ class Mirage_F1BQ(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
         class SoloFlight:
             id = "SoloFlight"
@@ -27904,7 +28190,7 @@ class Mirage_F1BQ(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -27914,7 +28200,7 @@ class Mirage_F1BQ(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -27924,12 +28210,18 @@ class Mirage_F1BQ(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
         "SoloFlight": UnitPropertyDescription(
             identifier="SoloFlight",
@@ -28140,7 +28432,7 @@ class Mirage_F1BQ(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -28225,6 +28517,7 @@ class Mirage_F1BD(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
         "SoloFlight": False,
         "NetCrewControlPriority": 1,
     }
@@ -28342,6 +28635,9 @@ class Mirage_F1BD(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
         class SoloFlight:
             id = "SoloFlight"
@@ -28517,7 +28813,7 @@ class Mirage_F1BD(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -28527,7 +28823,7 @@ class Mirage_F1BD(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -28537,12 +28833,18 @@ class Mirage_F1BD(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
         "SoloFlight": UnitPropertyDescription(
             identifier="SoloFlight",
@@ -28753,7 +29055,7 @@ class Mirage_F1BD(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -28838,6 +29140,7 @@ class Mirage_F1DDA(PlaneType):
         "LaserCode100": 6,
         "LaserCode10": 8,
         "LaserCode1": 8,
+        "IFFMode2Code": None,
         "SoloFlight": False,
         "NetCrewControlPriority": 1,
     }
@@ -28955,6 +29258,9 @@ class Mirage_F1DDA(PlaneType):
 
         class LaserCode1:
             id = "LaserCode1"
+
+        class IFFMode2Code:
+            id = "IFFMode2Code"
 
         class SoloFlight:
             id = "SoloFlight"
@@ -29130,7 +29436,7 @@ class Mirage_F1DDA(PlaneType):
         "LaserCode100": UnitPropertyDescription(
             identifier="LaserCode100",
             control="spinbox",
-            label="Laser code for GBUs, 1x11",
+            label="Laser code 2nd dgt GBU, 1x11",
             player_only=True,
             minimum=5,
             maximum=7,
@@ -29140,7 +29446,7 @@ class Mirage_F1DDA(PlaneType):
         "LaserCode10": UnitPropertyDescription(
             identifier="LaserCode10",
             control="spinbox",
-            label="Laser code for GBUs, 11x1",
+            label="Laser code 3rd dgt GBU, 11x1",
             player_only=True,
             minimum=1,
             maximum=8,
@@ -29150,12 +29456,18 @@ class Mirage_F1DDA(PlaneType):
         "LaserCode1": UnitPropertyDescription(
             identifier="LaserCode1",
             control="spinbox",
-            label="Laser code for GBUs, 111x",
+            label="Laser code 4th dgt GBU, 111x",
             player_only=True,
             minimum=1,
             maximum=8,
             default=8,
             dimension=" ",
+        ),
+        "IFFMode2Code": UnitPropertyDescription(
+            identifier="IFFMode2Code",
+            control="editbox",
+            label="IFF Mode 2 Code",
+            player_only=True,
         ),
         "SoloFlight": UnitPropertyDescription(
             identifier="SoloFlight",
@@ -29356,7 +29668,7 @@ class Mirage_F1DDA(PlaneType):
 
     pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7}
 
-    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept]
+    tasks = [task.GroundAttack, task.RunwayAttack, task.PinpointStrike, task.CAS, task.AFAC, task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.AntishipStrike]
     task_default = task.CAP
 
 
@@ -29665,6 +29977,22 @@ class TF_51D(PlaneType):
     fuel_max = 501
     max_speed = 763.2
     radio_frequency = 124
+
+    panel_radio = {
+        1: {
+            "channels": {
+                1: 105,
+                2: 124,
+                4: 139,
+                3: 131
+            },
+        },
+        2: {
+            "channels": {
+                1: 108.9
+            },
+        },
+    }
 
     livery_name = "TF-51D"  # from type
 
