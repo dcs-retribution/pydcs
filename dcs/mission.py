@@ -1050,12 +1050,15 @@ class Mission:
         callsign_name: Optional[str] = None,
         callsign_nr: Optional[int] = None,
     ) -> unitgroup.FlyingGroup:
-
+        parking_slots = (
+            parking_slots
+            if parking_slots is not None
+            else airport.free_parking_slots(group.flight_type())
+        )
         for u in group.units:
             spos = airport.position
             if start_type != StartType.Runway:
-                parking_slot = parking_slots.pop(0) if parking_slots else airport.free_parking_slot(
-                    u.unit_type)
+                parking_slot = parking_slots.pop(0) if parking_slots else None
                 if parking_slot is None:
                     raise terrain_.NoParkingSlotError(
                         "No free parking slot at {airport} for {craft}".format(
