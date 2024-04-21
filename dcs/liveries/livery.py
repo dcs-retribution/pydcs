@@ -26,6 +26,13 @@ def _regex_group_extractor(regex: str, text: str, fallback=None):
         return fallback
 
 
+def _clear_comments(code: str) -> str:
+    pattern = re.compile(r'--\[\[.*?(?:]]--|--]])', re.MULTILINE | re.DOTALL)
+    code = re.sub(pattern, "", code)
+    code = re.sub(r'^--.*?$', "", code, flags=re.MULTILINE)
+    return code
+
+
 class Livery:
     def __init__(
         self, path_id: str, name: str, order: int, countries: Optional[Set[str]]
@@ -79,6 +86,8 @@ class Livery:
         path_id = path.split("\\")[-1].replace(".zip", "")
         if path_id == "placeholder":
             return None
+
+        code = _clear_comments(code)
 
         livery_name = _regex_group_extractor(r'^name\s*=\s*"(.*)"\s*(?:--.*)?$', code, path_id)
 
