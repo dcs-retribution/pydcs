@@ -222,6 +222,7 @@ class Mission:
         }
 
         self.aircraft_kneeboards: Dict[Type[unittype.FlyingType], List[Path]] = defaultdict(list)
+        self.custom_kneeboards: Dict[str, List[Path]] = defaultdict(list)
 
     def load_file(self, filename: str, bypass_triggers: bool = False) -> List[StatusMessage]:
         """
@@ -2114,6 +2115,11 @@ class Mission:
 
             for unit_type, pages in self.aircraft_kneeboards.items():
                 directory = f'KNEEBOARD/{unit_type.id}/IMAGES/'
+                for idx, page in enumerate(pages):
+                    zipf.write(page, arcname=f'{directory}/{page.name}')
+
+            for key, pages in self.custom_kneeboards.items():
+                directory = f'KNEEBOARD/{key}/IMAGES/' if key else 'KNEEBOARD/IMAGES/'
                 for idx, page in enumerate(pages):
                     zipf.write(page, arcname=f'{directory}/{page.name}')
 
