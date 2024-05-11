@@ -9,3 +9,4 @@ from dcs.terrain.persiangulf import PersianGulf
 from dcs.terrain.sinai import Sinai
 from dcs.terrain.syria import Syria
 from dcs.terrain.thechannel import TheChannel
+from dcs.terrain.kola import Kola
