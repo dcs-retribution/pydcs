@@ -45,6 +45,7 @@ import argparse
 import codecs
 from collections import defaultdict
 import logging
+import os
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Set, Tuple
 
@@ -99,7 +100,7 @@ def main():
 
     with codecs.open(args.airportinfofile, "r", "utf-8") as f:
         data = dcs.lua.loads(f.read())
-
+    os.makedirs(f"{TERRAINS_DIR}/{args.terrain.lower()}", exist_ok=True)
     output_path = TERRAINS_DIR / args.terrain.lower() / "airports.py"
     with output_path.open("w") as output:
         print("# flake8: noqa", file=output)
