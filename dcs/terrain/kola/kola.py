@@ -5,7 +5,7 @@ from .projection import PARAMETERS
 
 
 class Kola(Terrain):
-    center = {"lat": 30.047, "long": 31.224}
+    center = {"lat": 69.09, "long": 22.09}
     temperature = [
         (-15, -9),
         (-14, -8),
