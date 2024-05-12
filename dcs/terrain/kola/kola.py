@@ -23,7 +23,7 @@ class Kola(Terrain):
     assert len(temperature) == 12
 
     def __init__(self):
-        bounds = mapping.Rectangle(-31500, -8900000, 900000, 856000, self)
+        bounds = mapping.Rectangle(-315000, -8900000, 900000, 856000, self)
         super().__init__(
             "Kola",
             PARAMETERS,
