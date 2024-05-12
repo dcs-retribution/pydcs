@@ -99,8 +99,8 @@ def main():
 
     with codecs.open(args.airportinfofile, "r", "utf-8") as f:
         data = dcs.lua.loads(f.read())
-
     output_path = TERRAINS_DIR / args.terrain.lower() / "airports.py"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w") as output:
         print("# flake8: noqa", file=output)
         print("from typing import List, Type", file=output)
