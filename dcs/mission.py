@@ -299,6 +299,8 @@ class Mission:
             self.terrain = terrain_.Falklands()
         elif imp_mission["theatre"] == "SinaiMap":
             self.terrain = terrain_.Sinai()
+        elif imp_mission["theatre"] == "Kola":
+            self.terrain = terrain_.Kola()
         else:
             raise RuntimeError("Unknown theatre: '{theatre}'".format(theatre=imp_mission["theatre"]))
 
