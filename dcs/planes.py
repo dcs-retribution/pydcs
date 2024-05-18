@@ -30309,6 +30309,160 @@ class C_47(PlaneType):
     task_default = task.Transport
 
 
+class VSN_F106A(PlaneType):
+    id = "VSN_F106A"
+    flyable = True
+    height = 6.18
+    width = 11.67
+    length = 21.56
+    fuel_max = 4464
+    max_speed = 2452.032
+    chaff = 90
+    flare = 45
+    charge_total = 180
+    chaff_charge_size = 1
+    flare_charge_size = 2
+    category = "Interceptor"  #{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}
+    radio_frequency = 127.5
+
+    livery_name = "VSN_F106A"  # from type
+
+    class Pylon1:
+        Smokewinder___red = (1, Weapons.Smokewinder___red)
+        Smokewinder___green = (1, Weapons.Smokewinder___green)
+        Smokewinder___blue = (1, Weapons.Smokewinder___blue)
+        Smokewinder___white = (1, Weapons.Smokewinder___white)
+        Smokewinder___yellow = (1, Weapons.Smokewinder___yellow)
+        Fuel_Tank = (1, Weapons.Fuel_Tank)
+#ERRR <CLEAN>
+
+    class Pylon2:
+        AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_ = (2, Weapons.AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_)
+        AIM_4F_Semi_active_radar_homing_air_to_air_missile_ = (2, Weapons.AIM_4F_Semi_active_radar_homing_air_to_air_missile_)
+        AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_ = (2, Weapons.AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_)
+
+    class Pylon3:
+        AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_ = (3, Weapons.AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_)
+        AIM_4F_Semi_active_radar_homing_air_to_air_missile_ = (3, Weapons.AIM_4F_Semi_active_radar_homing_air_to_air_missile_)
+        AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_ = (3, Weapons.AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_)
+
+    class Pylon4:
+        AIR_2A_Genie_Nuclear_air_to_air_unguided_rocket_ = (4, Weapons.AIR_2A_Genie_Nuclear_air_to_air_unguided_rocket_)
+#ERRR <CLEAN>
+
+    class Pylon5:
+        AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_ = (5, Weapons.AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_)
+        AIM_4F_Semi_active_radar_homing_air_to_air_missile_ = (5, Weapons.AIM_4F_Semi_active_radar_homing_air_to_air_missile_)
+        AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_ = (5, Weapons.AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_)
+
+    class Pylon6:
+        AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_ = (6, Weapons.AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_)
+        AIM_4F_Semi_active_radar_homing_air_to_air_missile_ = (6, Weapons.AIM_4F_Semi_active_radar_homing_air_to_air_missile_)
+        AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_ = (6, Weapons.AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_)
+
+    class Pylon7:
+        Smokewinder___red = (7, Weapons.Smokewinder___red)
+        Smokewinder___green = (7, Weapons.Smokewinder___green)
+        Smokewinder___blue = (7, Weapons.Smokewinder___blue)
+        Smokewinder___white = (7, Weapons.Smokewinder___white)
+        Smokewinder___yellow = (7, Weapons.Smokewinder___yellow)
+        Fuel_Tank_ = (7, Weapons.Fuel_Tank_)
+#ERRR <CLEAN>
+
+    class Pylon8:
+        L005_Sorbtsiya_ECM_pod__left_ = (8, Weapons.L005_Sorbtsiya_ECM_pod__left_)
+
+    class Pylon9:
+        Smoke_Generator___red_ = (9, Weapons.Smoke_Generator___red_)
+        Smoke_Generator___green_ = (9, Weapons.Smoke_Generator___green_)
+        Smoke_Generator___blue_ = (9, Weapons.Smoke_Generator___blue_)
+        Smoke_Generator___white_ = (9, Weapons.Smoke_Generator___white_)
+        Smoke_Generator___yellow_ = (9, Weapons.Smoke_Generator___yellow_)
+        Smoke_Generator___orange_ = (9, Weapons.Smoke_Generator___orange_)
+
+    pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+    tasks = [task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.Reconnaissance]
+    task_default = task.FighterSweep
+
+
+class VSN_F106B(PlaneType):
+    id = "VSN_F106B"
+    flyable = True
+    height = 6.18
+    width = 11.67
+    length = 21.56
+    fuel_max = 4464
+    max_speed = 2452.032
+    chaff = 90
+    flare = 45
+    charge_total = 180
+    chaff_charge_size = 1
+    flare_charge_size = 2
+    category = "Interceptor"  #{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}
+    radio_frequency = 127.5
+
+    livery_name = "VSN_F106B"  # from type
+
+    class Pylon1:
+        Smokewinder___red = (1, Weapons.Smokewinder___red)
+        Smokewinder___green = (1, Weapons.Smokewinder___green)
+        Smokewinder___blue = (1, Weapons.Smokewinder___blue)
+        Smokewinder___white = (1, Weapons.Smokewinder___white)
+        Smokewinder___yellow = (1, Weapons.Smokewinder___yellow)
+        Fuel_Tank = (1, Weapons.Fuel_Tank)
+#ERRR <CLEAN>
+
+    class Pylon2:
+        AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_ = (2, Weapons.AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_)
+        AIM_4F_Semi_active_radar_homing_air_to_air_missile_ = (2, Weapons.AIM_4F_Semi_active_radar_homing_air_to_air_missile_)
+        AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_ = (2, Weapons.AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_)
+
+    class Pylon3:
+        AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_ = (3, Weapons.AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_)
+        AIM_4F_Semi_active_radar_homing_air_to_air_missile_ = (3, Weapons.AIM_4F_Semi_active_radar_homing_air_to_air_missile_)
+        AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_ = (3, Weapons.AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_)
+
+    class Pylon4:
+        AIR_2A_Genie_Nuclear_air_to_air_unguided_rocket_ = (4, Weapons.AIR_2A_Genie_Nuclear_air_to_air_unguided_rocket_)
+#ERRR <CLEAN>
+
+    class Pylon5:
+        AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_ = (5, Weapons.AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_)
+        AIM_4F_Semi_active_radar_homing_air_to_air_missile_ = (5, Weapons.AIM_4F_Semi_active_radar_homing_air_to_air_missile_)
+        AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_ = (5, Weapons.AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_)
+
+    class Pylon6:
+        AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_ = (6, Weapons.AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_)
+        AIM_4F_Semi_active_radar_homing_air_to_air_missile_ = (6, Weapons.AIM_4F_Semi_active_radar_homing_air_to_air_missile_)
+        AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_ = (6, Weapons.AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_)
+
+    class Pylon7:
+        Smokewinder___red = (7, Weapons.Smokewinder___red)
+        Smokewinder___green = (7, Weapons.Smokewinder___green)
+        Smokewinder___blue = (7, Weapons.Smokewinder___blue)
+        Smokewinder___white = (7, Weapons.Smokewinder___white)
+        Smokewinder___yellow = (7, Weapons.Smokewinder___yellow)
+        Fuel_Tank_ = (7, Weapons.Fuel_Tank_)
+#ERRR <CLEAN>
+
+    class Pylon8:
+        L005_Sorbtsiya_ECM_pod__left_ = (8, Weapons.L005_Sorbtsiya_ECM_pod__left_)
+
+    class Pylon9:
+        Smoke_Generator___red_ = (9, Weapons.Smoke_Generator___red_)
+        Smoke_Generator___green_ = (9, Weapons.Smoke_Generator___green_)
+        Smoke_Generator___blue_ = (9, Weapons.Smoke_Generator___blue_)
+        Smoke_Generator___white_ = (9, Weapons.Smoke_Generator___white_)
+        Smoke_Generator___yellow_ = (9, Weapons.Smoke_Generator___yellow_)
+        Smoke_Generator___orange_ = (9, Weapons.Smoke_Generator___orange_)
+
+    pylons: Set[int] = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+    tasks = [task.CAP, task.Escort, task.FighterSweep, task.Intercept, task.Reconnaissance]
+    task_default = task.FighterSweep
+
+
 plane_map = {
     "Tornado GR4": Tornado_GR4,
     "Tornado IDS": Tornado_IDS,
@@ -30436,4 +30590,6 @@ plane_map = {
     "B-17G": B_17G,
     "Ju-88A4": Ju_88A4,
     "C-47": C_47,
+    "VSN_F106A": VSN_F106A,
+    "VSN_F106B": VSN_F106B,
 }

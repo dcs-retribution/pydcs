@@ -249,6 +249,8 @@ class Russia(Country):
         TF_51D = planes.TF_51D
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -325,6 +327,8 @@ class Russia(Country):
         Plane.TF_51D,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -748,6 +752,8 @@ class Ukraine(Country):
         TF_51D = planes.TF_51D
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -816,6 +822,8 @@ class Ukraine(Country):
         Plane.TF_51D,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -1122,6 +1130,8 @@ class USA(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -1200,6 +1210,8 @@ class USA(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -1536,6 +1548,8 @@ class Turkey(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -1592,6 +1606,8 @@ class Turkey(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -1914,6 +1930,8 @@ class UK(Country):
         Yak_52 = planes.Yak_52
         B_17G = planes.B_17G
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -1968,6 +1986,8 @@ class UK(Country):
         Plane.Yak_52,
         Plane.B_17G,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -2291,6 +2311,8 @@ class France(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -2350,6 +2372,8 @@ class France(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -2741,6 +2765,8 @@ class Germany(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         TF_51D = planes.TF_51D
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -2798,6 +2824,8 @@ class Germany(Country):
         Plane.Mirage_F1BE,
         Plane.TF_51D,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -3328,6 +3356,8 @@ class USAFAggressors(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
         A_50 = planes.A_50
         An_26B = planes.An_26B
         An_30M = planes.An_30M
@@ -3455,6 +3485,8 @@ class USAFAggressors(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
         Plane.A_50,
         Plane.An_26B,
         Plane.An_30M,
@@ -3905,6 +3937,8 @@ class Canada(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -3955,6 +3989,8 @@ class Canada(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -4262,6 +4298,8 @@ class Spain(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -4319,6 +4357,8 @@ class Spain(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -4648,6 +4688,8 @@ class TheNetherlands(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -4702,6 +4744,8 @@ class TheNetherlands(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -5015,6 +5059,8 @@ class Belgium(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -5067,6 +5113,8 @@ class Belgium(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -5358,6 +5406,8 @@ class Norway(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -5410,6 +5460,8 @@ class Norway(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -5699,6 +5751,8 @@ class Denmark(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -5751,6 +5805,8 @@ class Denmark(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -6056,6 +6112,8 @@ class Israel(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -6112,6 +6170,8 @@ class Israel(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -6465,6 +6525,8 @@ class Georgia(Country):
         TF_51D = planes.TF_51D
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -6517,6 +6579,8 @@ class Georgia(Country):
         Plane.TF_51D,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -6826,6 +6890,8 @@ class Insurgents(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.P_51D,
@@ -6872,6 +6938,8 @@ class Insurgents(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -7111,6 +7179,8 @@ class Abkhazia(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.Su_25,
@@ -7161,6 +7231,8 @@ class Abkhazia(Country):
         Plane.Mirage_F1BE,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -7390,6 +7462,8 @@ class SouthOssetia(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.FW_190A8,
@@ -7435,6 +7509,8 @@ class SouthOssetia(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -7647,6 +7723,8 @@ class Italy(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -7703,6 +7781,8 @@ class Italy(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -8009,6 +8089,8 @@ class Australia(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -8060,6 +8142,8 @@ class Australia(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -8340,6 +8424,8 @@ class Switzerland(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -8387,6 +8473,8 @@ class Switzerland(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -8647,6 +8735,8 @@ class Austria(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -8693,6 +8783,8 @@ class Austria(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -9055,6 +9147,8 @@ class Belarus(Country):
         TF_51D = planes.TF_51D
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -9112,6 +9206,8 @@ class Belarus(Country):
         Plane.TF_51D,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -9385,6 +9481,8 @@ class Bulgaria(Country):
         TF_51D = planes.TF_51D
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -9439,6 +9537,8 @@ class Bulgaria(Country):
         Plane.TF_51D,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -9755,6 +9855,8 @@ class CzechRepublic(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -9806,6 +9908,8 @@ class CzechRepublic(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -10117,6 +10221,8 @@ class China(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -10174,6 +10280,8 @@ class China(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -10367,6 +10475,8 @@ class Croatia(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -10413,6 +10523,8 @@ class Croatia(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -10761,6 +10873,8 @@ class Egypt(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -10814,6 +10928,8 @@ class Egypt(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -11158,6 +11274,8 @@ class Finland(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -11203,6 +11321,8 @@ class Finland(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -11519,6 +11639,8 @@ class Greece(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -11573,6 +11695,8 @@ class Greece(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -11924,6 +12048,8 @@ class Hungary(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         TF_51D = planes.TF_51D
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -11974,6 +12100,8 @@ class Hungary(Country):
         Plane.Mirage_F1BE,
         Plane.TF_51D,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -12279,6 +12407,8 @@ class India(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -12333,6 +12463,8 @@ class India(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -12675,6 +12807,8 @@ class Iran(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -12733,6 +12867,8 @@ class Iran(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -13069,6 +13205,8 @@ class Iraq(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -13124,6 +13262,8 @@ class Iraq(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -13437,6 +13577,8 @@ class Japan(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -13485,6 +13627,8 @@ class Japan(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -13864,6 +14008,8 @@ class Kazakhstan(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -13922,6 +14068,8 @@ class Kazakhstan(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -14214,6 +14362,8 @@ class NorthKorea(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -14262,6 +14412,8 @@ class NorthKorea(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -14554,6 +14706,8 @@ class Pakistan(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -14607,6 +14761,8 @@ class Pakistan(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -14941,6 +15097,8 @@ class Poland(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -14997,6 +15155,8 @@ class Poland(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -15337,6 +15497,8 @@ class Romania(Country):
         TF_51D = planes.TF_51D
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -15388,6 +15550,8 @@ class Romania(Country):
         Plane.TF_51D,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -15690,6 +15854,8 @@ class SaudiArabia(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -15742,6 +15908,8 @@ class SaudiArabia(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -16065,6 +16233,8 @@ class Serbia(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -16115,6 +16285,8 @@ class Serbia(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -16414,6 +16586,8 @@ class Slovakia(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -16464,6 +16638,8 @@ class Slovakia(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -16754,6 +16930,8 @@ class SouthKorea(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -16806,6 +16984,8 @@ class SouthKorea(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -17079,6 +17259,8 @@ class Sweden(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -17128,6 +17310,8 @@ class Sweden(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -17457,6 +17641,8 @@ class Syria(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -17508,6 +17694,8 @@ class Syria(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -17802,6 +17990,8 @@ class Yemen(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -17851,6 +18041,8 @@ class Yemen(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -18162,6 +18354,8 @@ class Vietnam(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         TF_51D = planes.TF_51D
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -18213,6 +18407,8 @@ class Vietnam(Country):
         Plane.Mirage_F1BE,
         Plane.TF_51D,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -18507,6 +18703,8 @@ class Venezuela(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -18555,6 +18753,8 @@ class Venezuela(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -18817,6 +19017,8 @@ class Tunisia(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -18863,6 +19065,8 @@ class Tunisia(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -19135,6 +19339,8 @@ class Thailand(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -19184,6 +19390,8 @@ class Thailand(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -19470,6 +19678,8 @@ class Sudan(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -19520,6 +19730,8 @@ class Sudan(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -19773,6 +19985,8 @@ class Philippines(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -19821,6 +20035,8 @@ class Philippines(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -20110,6 +20326,8 @@ class Morocco(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -20160,6 +20378,8 @@ class Morocco(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -20425,6 +20645,8 @@ class Mexico(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -20472,6 +20694,8 @@ class Mexico(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -20746,6 +20970,8 @@ class Malaysia(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -20793,6 +21019,8 @@ class Malaysia(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -21093,6 +21321,8 @@ class Libya(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -21143,6 +21373,8 @@ class Libya(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -21428,6 +21660,8 @@ class Jordan(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -21478,6 +21712,8 @@ class Jordan(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -21787,6 +22023,8 @@ class Indonesia(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -21840,6 +22078,8 @@ class Indonesia(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -22105,6 +22345,8 @@ class Honduras(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -22151,6 +22393,8 @@ class Honduras(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -22436,6 +22680,8 @@ class Ethiopia(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -22485,6 +22731,8 @@ class Ethiopia(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -22767,6 +23015,8 @@ class Chile(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -22819,6 +23069,8 @@ class Chile(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -23107,6 +23359,8 @@ class Brazil(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -23154,6 +23408,8 @@ class Brazil(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -23437,6 +23693,8 @@ class Bahrain(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -23482,6 +23740,8 @@ class Bahrain(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -23768,6 +24028,8 @@ class ThirdReich(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -23814,6 +24076,8 @@ class ThirdReich(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -24109,6 +24373,8 @@ class Yugoslavia(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -24157,6 +24423,8 @@ class Yugoslavia(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -24473,6 +24741,8 @@ class USSR(Country):
         Mirage_F1EE = planes.Mirage_F1EE
         Mirage_F1BE = planes.Mirage_F1BE
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -24544,6 +24814,8 @@ class USSR(Country):
         Plane.Mirage_F1EE,
         Plane.Mirage_F1BE,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -24766,6 +25038,8 @@ class ItalianSocialRepublic(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -24811,6 +25085,8 @@ class ItalianSocialRepublic(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -25174,6 +25450,8 @@ class Algeria(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -25236,6 +25514,8 @@ class Algeria(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -25542,6 +25822,8 @@ class Kuwait(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -25590,6 +25872,8 @@ class Kuwait(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -25865,6 +26149,8 @@ class Qatar(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -25914,6 +26200,8 @@ class Qatar(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -26205,6 +26493,8 @@ class Oman(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -26253,6 +26543,8 @@ class Oman(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -26547,6 +26839,8 @@ class UnitedArabEmirates(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -26597,6 +26891,8 @@ class UnitedArabEmirates(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -26869,6 +27165,8 @@ class SouthAfrica(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -26918,6 +27216,8 @@ class SouthAfrica(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -27240,6 +27540,8 @@ class Cuba(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -27296,6 +27598,8 @@ class Cuba(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -27578,6 +27882,8 @@ class Portugal(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -27629,6 +27935,8 @@ class Portugal(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -27940,6 +28248,8 @@ class GDR(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -27989,6 +28299,8 @@ class GDR(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -28274,6 +28586,8 @@ class Lebanon(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -28321,6 +28635,8 @@ class Lebanon(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -28845,6 +29161,8 @@ class CombinedJointTaskForcesBlue(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
         A_50 = planes.A_50
         An_26B = planes.An_26B
         An_30M = planes.An_30M
@@ -28972,6 +29290,8 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
         Plane.A_50,
         Plane.An_26B,
         Plane.An_30M,
@@ -29648,6 +29968,8 @@ class CombinedJointTaskForcesRed(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
         A_50 = planes.A_50
         An_26B = planes.An_26B
         An_30M = planes.An_30M
@@ -29775,6 +30097,8 @@ class CombinedJointTaskForcesRed(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
         Plane.A_50,
         Plane.An_26B,
         Plane.An_30M,
@@ -30451,6 +30775,8 @@ class UnitedNationsPeacekeepers(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
         A_50 = planes.A_50
         An_26B = planes.An_26B
         An_30M = planes.An_30M
@@ -30578,6 +30904,8 @@ class UnitedNationsPeacekeepers(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
         Plane.A_50,
         Plane.An_26B,
         Plane.An_30M,
@@ -30998,6 +31326,8 @@ class Argentina(Country):
         TF_51D = planes.TF_51D
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -31045,6 +31375,8 @@ class Argentina(Country):
         Plane.TF_51D,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -31335,6 +31667,8 @@ class Cyprus(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -31381,6 +31715,8 @@ class Cyprus(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -31657,6 +31993,8 @@ class Slovenia(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -31704,6 +32042,8 @@ class Slovenia(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -31980,6 +32320,8 @@ class Bolivia(Country):
         Mirage_F1BE = planes.Mirage_F1BE
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -32029,6 +32371,8 @@ class Bolivia(Country):
         Plane.Mirage_F1BE,
         Plane.Yak_52,
         Plane.Ju_88A4,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -32291,6 +32635,8 @@ class Ghana(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -32337,6 +32683,8 @@ class Ghana(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -32611,6 +32959,8 @@ class Nigeria(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -32658,6 +33008,8 @@ class Nigeria(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -32942,6 +33294,8 @@ class Peru(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -32994,6 +33348,8 @@ class Peru(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:
@@ -33269,6 +33625,8 @@ class Ecuador(Country):
         Yak_52 = planes.Yak_52
         Ju_88A4 = planes.Ju_88A4
         C_47 = planes.C_47
+        VSN_F106A = planes.VSN_F106A
+        VSN_F106B = planes.VSN_F106B
 
     planes = [
         Plane.A_10C,
@@ -33317,6 +33675,8 @@ class Ecuador(Country):
         Plane.Yak_52,
         Plane.Ju_88A4,
         Plane.C_47,
+        Plane.VSN_F106A,
+        Plane.VSN_F106B,
     ]
 
     class Helicopter:

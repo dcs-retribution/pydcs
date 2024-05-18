@@ -43,6 +43,9 @@ class Weapons:
     AGM_88C_HARM___High_Speed_Anti_Radiation_Missile_ = {"clsid": "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}", "name": "AGM-88C HARM - High Speed Anti-Radiation Missile", "weight": 406.4}
     AIM_120B_AMRAAM___Active_Radar_AAM = {"clsid": "{C8E06185-7CD6-4C90-959F-044679E90751}", "name": "AIM-120B AMRAAM - Active Radar AAM", "weight": 157.85}
     AIM_120C_AMRAAM___Active_Radar_AAM = {"clsid": "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}", "name": "AIM-120C AMRAAM - Active Radar AAM", "weight": 161.48}
+    AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_ = {"clsid": "{Hughes AIM-4D}", "name": "AIM-4D Rear aspect advanced heat-seeking air-to-air missile.", "weight": 60.8}
+    AIM_4F_Semi_active_radar_homing_air_to_air_missile_ = {"clsid": "{Hughes AIM-4F}", "name": "AIM-4F Semi active radar-homing air-to-air missile.", "weight": 66}
+    AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_ = {"clsid": "{Hughes AIM-4G}", "name": "AIM-4G Rear aspect heat seeking air-to-air missile.", "weight": 66}
     AIM_54A_Mk47 = {"clsid": "{AIM_54A_Mk47}", "name": "AIM-54A-Mk47", "weight": 444}
     AIM_54A_Mk47_ = {"clsid": "{SHOULDER AIM_54A_Mk47 L}", "name": "AIM-54A-Mk47", "weight": 489.36}
     AIM_54A_Mk47__ = {"clsid": "{SHOULDER AIM_54A_Mk47 R}", "name": "AIM-54A-Mk47", "weight": 489.36}
@@ -80,6 +83,7 @@ class Weapons:
     AIM_9P5_Sidewinder_IR_AAM = {"clsid": "{AIM-9P5}", "name": "AIM-9P5 Sidewinder IR AAM", "weight": 80.7}
     AIM_9P_Sidewinder_IR_AAM = {"clsid": "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}", "name": "AIM-9P Sidewinder IR AAM", "weight": 74.84}
     AIM_9X_Sidewinder_IR_AAM = {"clsid": "{5CE2FF2A-645A-4197-B48D-8720AC69394F}", "name": "AIM-9X Sidewinder IR AAM", "weight": 84.46}
+    AIR_2A_Genie_Nuclear_air_to_air_unguided_rocket_ = {"clsid": "{AIR-2A}", "name": "AIR-2A Genie Nuclear air-to-air unguided rocket.", "weight": 66}
     AJS_External_tank_1013kg_fuel = {"clsid": "{VIGGEN_X-TANK}", "name": "AJS External-tank 1013kg fuel", "weight": 1208}
     AKAN_M_55_Gunpod__150_rnds_MINGR55_HE = {"clsid": "{AKAN}", "name": "AKAN M/55 Gunpod, 150 rnds MINGR55-HE", "weight": 276}
     AKAN_M_55_Gunpod__150_rnds_MINGR55_HE__no_Tracer_ = {"clsid": "{AKAN_NO_TRC}", "name": "AKAN M/55 Gunpod, 150 rnds MINGR55-HE (no Tracer)", "weight": 276}
@@ -482,6 +486,8 @@ class Weapons:
     FN_HMP400__200rnds_ = {"clsid": "{FN_HMP400_200}", "name": "FN HMP400 (200rnds)", "weight": 112.4}
     FN_HMP400__400rnds_ = {"clsid": "{FN_HMP400}", "name": "FN HMP400 (400rnds)", "weight": 135.8}
     FPU_8A_Fuel_Tank_330_gallons = {"clsid": "{FPU_8A_FUEL_TANK}", "name": "FPU-8A Fuel Tank 330 gallons", "weight": 1150}
+    Fuel_Tank = {"clsid": "{VSN_F106L_PTB}", "name": "Fuel Tank", "weight": 1187}
+    Fuel_Tank_ = {"clsid": "{VSN_F106R_PTB}", "name": "Fuel Tank", "weight": 1187}
     Fuel_Tank_120_gallons = {"clsid": "{PTB_120_F86F35}", "name": "Fuel Tank 120 gallons", "weight": 413.36}
     Fuel_Tank_150_liters = {"clsid": "{PTB_150L_L39}", "name": "Fuel Tank 150 liters", "weight": 124.25}
     Fuel_Tank_200_gallons = {"clsid": "{PTB_200_F86F35}", "name": "Fuel Tank 200 gallons", "weight": 675.6}
@@ -1030,6 +1036,7 @@ class Weapons:
     RB_15F__for_A_I___with_launcher = {"clsid": "{Rb15AI}", "name": "RB-15F (for A.I.) with launcher", "weight": 610}
     RB_24J__AIM_9P3__Sidewinder_IR_AAM = {"clsid": "{Rb_24J}", "name": "RB-24J (AIM-9P3) Sidewinder IR AAM", "weight": 80.7}
     RB_24__AIM_9B__Sidewinder_IR_AAM = {"clsid": "{Rb_24}", "name": "RB-24 (AIM-9B) Sidewinder IR AAM", "weight": 74.39}
+    RB_28 = {"clsid": "{RB-28}", "name": "RB-28", "weight": 60.8}
     RB_74__AIM_9L__Sidewinder_IR_AAM = {"clsid": "{Rb_74}", "name": "RB-74 (AIM-9L) Sidewinder IR AAM", "weight": 85.73}
     Rb_04E_Anti_ship_Missile = {"clsid": "{Rb04}", "name": "Rb-04E Anti-ship Missile", "weight": 661}
     Rb_05A_MCLOS_ASM_AShM_AAM = {"clsid": "{Robot05}", "name": "Rb-05A MCLOS ASM/AShM/AAM", "weight": 341}
@@ -1493,6 +1500,9 @@ weapon_ids = {
     "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}": Weapons.AGM_88C_HARM___High_Speed_Anti_Radiation_Missile_,
     "{C8E06185-7CD6-4C90-959F-044679E90751}": Weapons.AIM_120B_AMRAAM___Active_Radar_AAM,
     "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}": Weapons.AIM_120C_AMRAAM___Active_Radar_AAM,
+    "{Hughes AIM-4D}": Weapons.AIM_4D_Rear_aspect_advanced_heat_seeking_air_to_air_missile_,
+    "{Hughes AIM-4F}": Weapons.AIM_4F_Semi_active_radar_homing_air_to_air_missile_,
+    "{Hughes AIM-4G}": Weapons.AIM_4G_Rear_aspect_heat_seeking_air_to_air_missile_,
     "{AIM_54A_Mk47}": Weapons.AIM_54A_Mk47,
     "{SHOULDER AIM_54A_Mk47 L}": Weapons.AIM_54A_Mk47_,
     "{SHOULDER AIM_54A_Mk47 R}": Weapons.AIM_54A_Mk47__,
@@ -1530,6 +1540,7 @@ weapon_ids = {
     "{AIM-9P5}": Weapons.AIM_9P5_Sidewinder_IR_AAM,
     "{9BFD8C90-F7AE-4e90-833B-BFD0CED0E536}": Weapons.AIM_9P_Sidewinder_IR_AAM,
     "{5CE2FF2A-645A-4197-B48D-8720AC69394F}": Weapons.AIM_9X_Sidewinder_IR_AAM,
+    "{AIR-2A}": Weapons.AIR_2A_Genie_Nuclear_air_to_air_unguided_rocket_,
     "{VIGGEN_X-TANK}": Weapons.AJS_External_tank_1013kg_fuel,
     "{AKAN}": Weapons.AKAN_M_55_Gunpod__150_rnds_MINGR55_HE,
     "{AKAN_NO_TRC}": Weapons.AKAN_M_55_Gunpod__150_rnds_MINGR55_HE__no_Tracer_,
@@ -1932,6 +1943,8 @@ weapon_ids = {
     "{FN_HMP400_200}": Weapons.FN_HMP400__200rnds_,
     "{FN_HMP400}": Weapons.FN_HMP400__400rnds_,
     "{FPU_8A_FUEL_TANK}": Weapons.FPU_8A_Fuel_Tank_330_gallons,
+    "{VSN_F106L_PTB}": Weapons.Fuel_Tank,
+    "{VSN_F106R_PTB}": Weapons.Fuel_Tank_,
     "{PTB_120_F86F35}": Weapons.Fuel_Tank_120_gallons,
     "{PTB_150L_L39}": Weapons.Fuel_Tank_150_liters,
     "{PTB_200_F86F35}": Weapons.Fuel_Tank_200_gallons,
@@ -2480,6 +2493,7 @@ weapon_ids = {
     "{Rb15AI}": Weapons.RB_15F__for_A_I___with_launcher,
     "{Rb_24J}": Weapons.RB_24J__AIM_9P3__Sidewinder_IR_AAM,
     "{Rb_24}": Weapons.RB_24__AIM_9B__Sidewinder_IR_AAM,
+    "{RB-28}": Weapons.RB_28,
     "{Rb_74}": Weapons.RB_74__AIM_9L__Sidewinder_IR_AAM,
     "{Rb04}": Weapons.Rb_04E_Anti_ship_Missile,
     "{Robot05}": Weapons.Rb_05A_MCLOS_ASM_AShM_AAM,
