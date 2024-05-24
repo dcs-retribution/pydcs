@@ -52,7 +52,7 @@ local function safe_name(name)
 end
 
 local function safe_class_name(name)
-    return safe_name(name):gsub("^%l", string.upper)
+    return safe_name(name)
 end
 
 local function safe_display_name(name)
