@@ -1017,6 +1017,20 @@ while i <= country.maxIndex do
             end
         end
 
+        writeln(file, '')
+        writeln(file, '    vehicles = [')
+        for i in pairs(unit_categories) do
+            if #unit_categories[i] > 0 then
+                for j in pairs(unit_categories[i]) do
+                    local unit = unit_categories[i][j]
+                    local safename = safe_class_name(unit.type)
+                    local safeDisplayName = safe_display_name(unit.DisplayName)
+                    writeln(file, '        vehicles.'..i..'.'..safename..',')
+                end
+            end
+        end
+        writeln(file, '    ]')
+
         local planes = c.Units.Planes.Plane
         if #planes > 0 then
             writeln(file, '')
@@ -1072,6 +1086,16 @@ while i <= country.maxIndex do
                     writeln(file, '        '..safeName..' = ships.'..safeName)
                 end
             end
+
+            writeln(file, '')
+            writeln(file, '    ships = [')
+            for u in pairs(ships) do
+                local safeName = safe_name(ships[u].Name)
+                if not has_value(countryHeliIgnore, safeName) then
+                    writeln(file, '        Ship.'..safeName..',')
+                end
+            end
+            writeln(file, '    ]')
         end
 
         for cat in pairs(categories) do

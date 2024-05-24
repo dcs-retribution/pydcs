@@ -6,6 +6,7 @@ from typing import List, Dict, Set, Type, Tuple, Sequence, Optional
 from dcs.helicopters import HelicopterType
 from dcs.planes import PlaneType
 from dcs.unitgroup import VehicleGroup, ShipGroup, PlaneGroup, StaticGroup, HelicopterGroup, FlyingGroup, Group
+from dcs.unittype import VehicleType, ShipType
 
 
 def find_exact(group_name, find_name):
@@ -26,6 +27,8 @@ class Country:
     callsign: Dict[str, List[str]] = {}
     planes: List[Type[PlaneType]] = []
     helicopters: List[Type[HelicopterType]] = []
+    vehicles: List[Type[VehicleType]] = []
+    ships: List[Type[ShipType]] = []
 
     def __init__(self, _id, name, short_name):
         self.id = _id
