@@ -7,9 +7,9 @@ from dcs.beacons import AirportBeacon, RunwayBeacon
 from dcs.terrain import Airport, ParkingSlot, Runway, RunwayApproach, Terrain
 
 
-class Lakselv(Airport):
+class Banak(Airport):
     id = 1
-    name = "Lakselv"
+    name = "Banak"
     tacan = None
     unit_zones: List[mapping.Rectangle] = []
     civilian = False
@@ -378,9 +378,9 @@ class Kiruna(Airport):
                 airplanes=True, slot_name='B2', length=41.0, width=41.0, height=18.0, shelter=False))
 
 
-class Severomorsk3(Airport):
+class Severomorsk_3(Airport):
     id = 6
-    name = "Severomorsk3"
+    name = "Severomorsk-3"
     tacan = None
     unit_zones: List[mapping.Rectangle] = []
     civilian = False
@@ -631,6 +631,7 @@ class Bodo(Airport):
         super().__init__(mapping.Point(-66958.882812, -348337.328125, terrain), terrain)
 
         self.beacons.append(AirportBeacon(id='airfield7_1'))
+        self.beacons.append(AirportBeacon(id='airfield7_5'))
         self.runways.append(Runway(id=1, name='07-25', main=RunwayApproach(name='07', heading=70, beacons=[RunwayBeacon(id='airfield7_2', runway_name='07-25', runway_id=1, runway_side='07'), RunwayBeacon(id='airfield7_0', runway_name='07-25', runway_id=1, runway_side='07')]), opposite=RunwayApproach(name='25', heading=250, beacons=[RunwayBeacon(id='airfield7_3', runway_name='25-07', runway_id=1, runway_side='25'), RunwayBeacon(id='airfield7_4', runway_name='25-07', runway_id=1, runway_side='25')])))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=0, position=mapping.Point(-66660.3515625, -348583.4375, self._terrain), large=False, heli=True,
@@ -916,14 +917,14 @@ class Bodo(Airport):
                 airplanes=True, slot_name='W02', length=21.0, width=15.0, height=8.0, shelter=False))
 
 
-class Severomorsk1(Airport):
+class Severomorsk_1(Airport):
     id = 8
-    name = "Severomorsk1"
+    name = "Severomorsk-1"
     tacan = None
     unit_zones: List[mapping.Rectangle] = []
     civilian = False
     slot_version = 2
-    atc_radio = AtcRadio(hf_hz=4050000, vhf_low_hz=39000000, vhf_high_hz=118350000, uhf_hz=250500000)
+    atc_radio = AtcRadio(hf_hz=4050000, vhf_low_hz=39000000, vhf_high_hz=127800000, uhf_hz=250500000)
 
     def __init__(self, terrain: Terrain) -> None:
         super().__init__(mapping.Point(164318.273438, 430555.578125, terrain), terrain)
@@ -931,7 +932,7 @@ class Severomorsk1(Airport):
         self.runways.append(Runway(id=1, name='14-32', main=RunwayApproach(name='14', heading=140, beacons=[]), opposite=RunwayApproach(name='32', heading=320, beacons=[])))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=0, position=mapping.Point(166292.328125, 429242.71875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='C01', length=61.0, width=61.0, height=20.0, shelter=False))
+                airplanes=True, slot_name='C01', length=60.0, width=52.0, height=18.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=1, position=mapping.Point(166298.75, 429125.75, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='F01', length=21.0, width=15.0, height=8.0, shelter=False))
@@ -964,10 +965,10 @@ class Severomorsk1(Airport):
                 airplanes=True, slot_name='F09', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=11, position=mapping.Point(166227.53125, 429332.71875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='C02', length=61.0, width=61.0, height=20.0, shelter=False))
+                airplanes=True, slot_name='C02', length=60.0, width=52.0, height=18.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=12, position=mapping.Point(166100.71875, 429260.90625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='C03', length=61.0, width=61.0, height=20.0, shelter=False))
+                airplanes=True, slot_name='C03', length=60.0, width=52.0, height=18.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=13, position=mapping.Point(166139.03125, 429404.84375, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='A02', length=36.0, width=36.0, height=15.0, shelter=False))
@@ -1132,9 +1133,9 @@ class Severomorsk1(Airport):
                 airplanes=False, slot_name='H3', length=42.0, width=34.0, height=14.0, shelter=False))
 
 
-class Olenegorsk(Airport):
+class Olenya(Airport):
     id = 9
-    name = "Olenegorsk"
+    name = "Olenya"
     tacan = None
     unit_zones: List[mapping.Rectangle] = []
     civilian = False
@@ -1820,15 +1821,15 @@ class Kalixfors(Airport):
 
 
 ALL_AIRPORTS: List[Type[Airport]] = [
-    Lakselv,
+    Banak,
     Rovaniemi,
     Kemi_Tornio,
     Bas_100,
     Kiruna,
-    Severomorsk3,
+    Severomorsk_3,
     Bodo,
-    Severomorsk1,
-    Olenegorsk,
+    Severomorsk_1,
+    Olenya,
     Monchegorsk,
     Murmansk_International,
     Kalixfors,
