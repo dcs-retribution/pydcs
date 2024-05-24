@@ -15,7 +15,7 @@ class Russia(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
@@ -25,7 +25,7 @@ class Russia(Country):
             Smerch = vehicles.Artillery.Smerch
             Uragan_BM_27 = vehicles.Artillery.Uragan_BM_27
             Smerch_HE = vehicles.Artillery.Smerch_HE
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -37,15 +37,15 @@ class Russia(Country):
             Paratrooper_RPG_16 = vehicles.Infantry.Paratrooper_RPG_16
 
         class AirDefence:
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
             S_300PS_54K6_cp = vehicles.AirDefence.S_300PS_54K6_cp
@@ -59,7 +59,7 @@ class Russia(Country):
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             Tor_9A331 = vehicles.AirDefence.Tor_9A331
@@ -74,10 +74,10 @@ class Russia(Country):
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -86,11 +86,11 @@ class Russia(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -128,8 +128,8 @@ class Russia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -148,8 +148,8 @@ class Russia(Country):
             T_72B3 = vehicles.Armor.T_72B3
             BTR_82A = vehicles.Armor.BTR_82A
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -365,7 +365,7 @@ class Russia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         KUZNECOW = ships.KUZNECOW
         MOSCOW = ships.MOSCOW
         PIOTR = ships.PIOTR
@@ -385,7 +385,7 @@ class Russia(Country):
         CV_1143_5 = ships.CV_1143_5
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -524,7 +524,7 @@ class Ukraine(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
@@ -533,7 +533,7 @@ class Ukraine(Country):
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
             Uragan_BM_27 = vehicles.Artillery.Uragan_BM_27
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             MLRS = vehicles.Artillery.MLRS
             M_109 = vehicles.Artillery.M_109
@@ -544,14 +544,14 @@ class Ukraine(Country):
             Paratrooper_RPG_16 = vehicles.Infantry.Paratrooper_RPG_16
 
         class AirDefence:
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
             S_300PS_54K6_cp = vehicles.AirDefence.S_300PS_54K6_cp
@@ -572,16 +572,16 @@ class Ukraine(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
@@ -602,11 +602,11 @@ class Ukraine(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -644,8 +644,8 @@ class Ukraine(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -663,8 +663,8 @@ class Ukraine(Country):
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             TPZ = vehicles.Armor.TPZ
@@ -862,7 +862,7 @@ class Ukraine(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         ELNYA = ships.ELNYA
         ALBATROS = ships.ALBATROS
         MOLNIYA = ships.MOLNIYA
@@ -874,7 +874,7 @@ class Ukraine(Country):
         BDK_775 = ships.BDK_775
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignHelipad:
         Otkrytka = "Otkrytka"
@@ -927,12 +927,12 @@ class USA(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             M_109 = vehicles.Artillery.M_109
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
             MLRS = vehicles.Artillery.MLRS
             M12_GMC = vehicles.Artillery.M12_GMC
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M2A1_105 = vehicles.Artillery.M2A1_105
@@ -941,7 +941,7 @@ class USA(Country):
             Soldier_M249 = vehicles.Infantry.Soldier_M249
             Soldier_M4 = vehicles.Infantry.Soldier_M4
             JTAC = vehicles.Infantry.JTAC
-            Soldier_wwii_us = vehicles.Infantry.Soldier_wwii_us
+            soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
 
         class AirDefence:
             Hawk_cwar = vehicles.AirDefence.Hawk_cwar
@@ -961,12 +961,12 @@ class USA(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Vulcan = vehicles.AirDefence.Vulcan
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Roland_ADS = vehicles.AirDefence.Roland_ADS
             Roland_Radar = vehicles.AirDefence.Roland_Radar
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             M1_37mm = vehicles.AirDefence.M1_37mm
             NASAMS_Command_Post = vehicles.AirDefence.NASAMS_Command_Post
@@ -976,7 +976,7 @@ class USA(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             HEMTT_C_RAM_Phalanx = vehicles.AirDefence.HEMTT_C_RAM_Phalanx
             QF_37_AA = vehicles.AirDefence.QF_37_AA
@@ -985,11 +985,11 @@ class USA(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -1006,8 +1006,8 @@ class USA(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
 
@@ -1028,8 +1028,8 @@ class USA(Country):
             M10_GMC = vehicles.Armor.M10_GMC
             M8_Greyhound = vehicles.Armor.M8_Greyhound
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -1264,7 +1264,7 @@ class USA(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         PERRY = ships.PERRY
         TICONDEROG = ships.TICONDEROG
         Higgins_boat = ships.Higgins_boat
@@ -1281,8 +1281,8 @@ class USA(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Santafe = ships.Santafe
-        Ara_vdm = ships.Ara_vdm
+        santafe = ships.santafe
+        ara_vdm = ships.ara_vdm
         Forrestal = ships.Forrestal
 
     class CallsignAWACS:
@@ -1424,7 +1424,7 @@ class Turkey(Country):
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
             M_109 = vehicles.Artillery.M_109
             T155_Firtina = vehicles.Artillery.T155_Firtina
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -1437,26 +1437,26 @@ class Turkey(Country):
             M1097_Avenger = vehicles.AirDefence.M1097_Avenger
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -1470,8 +1470,8 @@ class Turkey(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
@@ -1485,9 +1485,9 @@ class Turkey(Country):
             Leopard1A3 = vehicles.Armor.Leopard1A3
             Leopard_2 = vehicles.Armor.Leopard_2
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Leopard_2A4_trs = vehicles.Armor.Leopard_2A4_trs
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4_trs = vehicles.Armor.leopard_2A4_trs
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -1654,13 +1654,13 @@ class Turkey(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         PERRY = ships.PERRY
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -1799,7 +1799,7 @@ class UK(Country):
         class Artillery:
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
@@ -1807,34 +1807,34 @@ class UK(Country):
 
         class Infantry:
             JTAC = vehicles.Infantry.JTAC
-            Soldier_wwii_br_01 = vehicles.Infantry.Soldier_wwii_br_01
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             QF_37_AA = vehicles.AirDefence.QF_37_AA
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Allies_Director = vehicles.AirDefence.Allies_Director
             M1_37mm = vehicles.AirDefence.M1_37mm
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -1850,8 +1850,8 @@ class UK(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
@@ -1870,8 +1870,8 @@ class UK(Country):
             Daimler_AC = vehicles.Armor.Daimler_AC
             M4_Tractor = vehicles.Armor.M4_Tractor
             Chieftain_mk3 = vehicles.Armor.Chieftain_mk3
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -2038,21 +2038,21 @@ class UK(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         LST_Mk2 = ships.LST_Mk2
         HandyWind = ships.HandyWind
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         Seawise_Giant = ships.Seawise_Giant
         CastleClass_01 = ships.CastleClass_01
         HarborTug = ships.HarborTug
-        Hms_invincible = ships.Hms_invincible
-        Leander_gun_achilles = ships.Leander_gun_achilles
-        Leander_gun_andromeda = ships.Leander_gun_andromeda
-        Leander_gun_ariadne = ships.Leander_gun_ariadne
-        Leander_gun_condell = ships.Leander_gun_condell
-        Leander_gun_lynch = ships.Leander_gun_lynch
+        hms_invincible = ships.hms_invincible
+        leander_gun_achilles = ships.leander_gun_achilles
+        leander_gun_andromeda = ships.leander_gun_andromeda
+        leander_gun_ariadne = ships.leander_gun_ariadne
+        leander_gun_condell = ships.leander_gun_condell
+        leander_gun_lynch = ships.leander_gun_lynch
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
 
@@ -2187,7 +2187,7 @@ class France(Country):
         class Artillery:
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
@@ -2199,14 +2199,14 @@ class France(Country):
             Hawk_pcp = vehicles.AirDefence.Hawk_pcp
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_ln = vehicles.AirDefence.Hawk_ln
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Roland_ADS = vehicles.AirDefence.Roland_ADS
             Roland_Radar = vehicles.AirDefence.Roland_Radar
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             QF_37_AA = vehicles.AirDefence.QF_37_AA
             Allies_Director = vehicles.AirDefence.Allies_Director
@@ -2215,14 +2215,14 @@ class France(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             M_818 = vehicles.Unarmed.M_818
@@ -2233,8 +2233,8 @@ class France(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             Willys_MB = vehicles.Unarmed.Willys_MB
@@ -2246,8 +2246,8 @@ class France(Country):
             M10_GMC = vehicles.Armor.M10_GMC
             M4_Tractor = vehicles.Armor.M4_Tractor
             VAB_Mephisto = vehicles.Armor.VAB_Mephisto
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -2422,14 +2422,14 @@ class France(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
-        Leander_gun_condell = ships.Leander_gun_condell
-        Leander_gun_lynch = ships.Leander_gun_lynch
+        leander_gun_condell = ships.leander_gun_condell
+        leander_gun_lynch = ships.leander_gun_lynch
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -2566,11 +2566,11 @@ class Germany(Country):
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -2578,7 +2578,7 @@ class Germany(Country):
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
             Patriot_str = vehicles.AirDefence.Patriot_str
@@ -2597,15 +2597,15 @@ class Germany(Country):
             Gepard = vehicles.AirDefence.Gepard
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
@@ -2618,11 +2618,11 @@ class Germany(Country):
             S_300PS_64H6E_sr = vehicles.AirDefence.S_300PS_64H6E_sr
             S_300PS_5H63C_30H6_tr = vehicles.AirDefence.S_300PS_5H63C_30H6_tr
             S_300PS_40B6MD_sr_19J6 = vehicles.AirDefence.S_300PS_40B6MD_sr_19J6
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -2630,29 +2630,29 @@ class Germany(Country):
             RD_75 = vehicles.AirDefence.RD_75
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             Hummer = vehicles.Unarmed.Hummer
@@ -2678,8 +2678,8 @@ class Germany(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
             Sd_Kfz_2 = vehicles.Unarmed.Sd_Kfz_2
@@ -2697,9 +2697,9 @@ class Germany(Country):
             BMP_1 = vehicles.Armor.BMP_1
             BMP_2 = vehicles.Armor.BMP_2
             T_55 = vehicles.Armor.T_55
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             Pz_IV_H = vehicles.Armor.Pz_IV_H
@@ -2717,7 +2717,7 @@ class Germany(Country):
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
 
         class Locomotive:
             DRG_Class_86 = vehicles.Locomotive.DRG_Class_86
@@ -2878,13 +2878,13 @@ class Germany(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -3027,7 +3027,7 @@ class USAFAggressors(Country):
             Wespe124 = vehicles.Artillery.Wespe124
             Pak40 = vehicles.Artillery.Pak40
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
@@ -3040,7 +3040,7 @@ class USAFAggressors(Country):
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
             M12_GMC = vehicles.Artillery.M12_GMC
             M2A1_105 = vehicles.Artillery.M2A1_105
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -3049,7 +3049,7 @@ class USAFAggressors(Country):
             T155_Firtina = vehicles.Artillery.T155_Firtina
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
             Infantry_AK = vehicles.Infantry.Infantry_AK
             Infantry_AK_ver2 = vehicles.Infantry.Infantry_AK_ver2
             Infantry_AK_ver3 = vehicles.Infantry.Infantry_AK_ver3
@@ -3062,30 +3062,30 @@ class USAFAggressors(Country):
             JTAC = vehicles.Infantry.JTAC
             Soldier_M249 = vehicles.Infantry.Soldier_M249
             Soldier_M4_GRG = vehicles.Infantry.Soldier_M4_GRG
-            Soldier_wwii_us = vehicles.Infantry.Soldier_wwii_us
-            Soldier_wwii_br_01 = vehicles.Infantry.Soldier_wwii_br_01
+            soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
@@ -3100,7 +3100,7 @@ class USAFAggressors(Country):
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SNR_75V = vehicles.AirDefence.SNR_75V
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
@@ -3109,11 +3109,11 @@ class USAFAggressors(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
             SON_9 = vehicles.AirDefence.SON_9
@@ -3124,7 +3124,7 @@ class USAFAggressors(Country):
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             M1_37mm = vehicles.AirDefence.M1_37mm
             Vulcan = vehicles.AirDefence.Vulcan
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_sr = vehicles.AirDefence.Hawk_sr
@@ -3143,9 +3143,9 @@ class USAFAggressors(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
@@ -3170,22 +3170,22 @@ class USAFAggressors(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             TugHarlan_drivable = vehicles.Unarmed.TugHarlan_drivable
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -3274,8 +3274,8 @@ class USAFAggressors(Country):
             M4_Tractor = vehicles.Armor.M4_Tractor
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_113 = vehicles.Armor.M_113
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             TPZ = vehicles.Armor.TPZ
@@ -3288,7 +3288,7 @@ class USAFAggressors(Country):
             AAV7 = vehicles.Armor.AAV7
             Leopard1A3 = vehicles.Armor.Leopard1A3
             Leopard_2 = vehicles.Armor.Leopard_2
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
+            leopard_2A4 = vehicles.Armor.leopard_2A4
             T_72B3 = vehicles.Armor.T_72B3
             BTR_82A = vehicles.Armor.BTR_82A
             M_2_Bradley = vehicles.Armor.M_2_Bradley
@@ -3301,7 +3301,7 @@ class USAFAggressors(Country):
             ZBD04A = vehicles.Armor.ZBD04A
             ZTZ96B = vehicles.Armor.ZTZ96B
             TYPE_59 = vehicles.Armor.TYPE_59
-            Leopard_2A4_trs = vehicles.Armor.Leopard_2A4_trs
+            leopard_2A4_trs = vehicles.Armor.leopard_2A4_trs
             Challenger2 = vehicles.Armor.Challenger2
             M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             M1128_Stryker_MGS = vehicles.Armor.M1128_Stryker_MGS
@@ -3309,9 +3309,9 @@ class USAFAggressors(Country):
             MCV_80 = vehicles.Armor.MCV_80
 
         class MissilesSS:
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
             Scud_B = vehicles.MissilesSS.Scud_B
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -3648,10 +3648,10 @@ class USAFAggressors(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -3675,10 +3675,10 @@ class USAFAggressors(Country):
         PERRY = ships.PERRY
         PIOTR = ships.PIOTR
         CV_1143_5 = ships.CV_1143_5
-        Santafe = ships.Santafe
+        santafe = ships.santafe
         La_Combattante_II = ships.La_Combattante_II
-        Leander_gun_condell = ships.Leander_gun_condell
-        Leander_gun_lynch = ships.Leander_gun_lynch
+        leander_gun_condell = ships.leander_gun_condell
+        leander_gun_lynch = ships.leander_gun_lynch
         Type_052B = ships.Type_052B
         Type_052C = ships.Type_052C
         Type_054A = ships.Type_054A
@@ -3694,10 +3694,10 @@ class USAFAggressors(Country):
         CVN_75 = ships.CVN_75
         Forrestal = ships.Forrestal
         CastleClass_01 = ships.CastleClass_01
-        Hms_invincible = ships.Hms_invincible
-        Leander_gun_achilles = ships.Leander_gun_achilles
-        Leander_gun_andromeda = ships.Leander_gun_andromeda
-        Leander_gun_ariadne = ships.Leander_gun_ariadne
+        hms_invincible = ships.hms_invincible
+        leander_gun_achilles = ships.leander_gun_achilles
+        leander_gun_andromeda = ships.leander_gun_andromeda
+        leander_gun_ariadne = ships.leander_gun_ariadne
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -3835,7 +3835,7 @@ class Canada(Country):
 
         class Artillery:
             M_109 = vehicles.Artillery.M_109
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
@@ -3844,10 +3844,10 @@ class Canada(Country):
         class AirDefence:
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             QF_37_AA = vehicles.AirDefence.QF_37_AA
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -3858,11 +3858,11 @@ class Canada(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -3874,8 +3874,8 @@ class Canada(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
@@ -3891,9 +3891,9 @@ class Canada(Country):
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             Daimler_AC = vehicles.Armor.Daimler_AC
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -4053,12 +4053,12 @@ class Canada(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         LST_Mk2 = ships.LST_Mk2
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
 
@@ -4198,8 +4198,8 @@ class Spain(Country):
 
         class Artillery:
             M_109 = vehicles.Artillery.M_109
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -4213,7 +4213,7 @@ class Spain(Country):
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Roland_ADS = vehicles.AirDefence.Roland_ADS
             Roland_Radar = vehicles.AirDefence.Roland_Radar
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Patriot_AMG = vehicles.AirDefence.Patriot_AMG
             Patriot_ECS = vehicles.AirDefence.Patriot_ECS
             Patriot_ln = vehicles.AirDefence.Patriot_ln
@@ -4224,17 +4224,17 @@ class Spain(Country):
             NASAMS_Radar_MPQ64F1 = vehicles.AirDefence.NASAMS_Radar_MPQ64F1
             NASAMS_LN_B = vehicles.AirDefence.NASAMS_LN_B
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -4246,8 +4246,8 @@ class Spain(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -4258,9 +4258,9 @@ class Spain(Country):
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -4425,13 +4425,13 @@ class Spain(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         PERRY = ships.PERRY
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -4571,7 +4571,7 @@ class TheNetherlands(Country):
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
@@ -4591,16 +4591,16 @@ class TheNetherlands(Country):
             Hawk_ln = vehicles.AirDefence.Hawk_ln
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            bofors40 = vehicles.AirDefence.bofors40
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             Gepard = vehicles.AirDefence.Gepard
             NASAMS_Command_Post = vehicles.AirDefence.NASAMS_Command_Post
             NASAMS_Radar_MPQ64F1 = vehicles.AirDefence.NASAMS_Radar_MPQ64F1
             NASAMS_LN_B = vehicles.AirDefence.NASAMS_LN_B
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             QF_37_AA = vehicles.AirDefence.QF_37_AA
             Allies_Director = vehicles.AirDefence.Allies_Director
@@ -4610,14 +4610,14 @@ class TheNetherlands(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             Hummer = vehicles.Unarmed.Hummer
@@ -4628,8 +4628,8 @@ class TheNetherlands(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
@@ -4646,9 +4646,9 @@ class TheNetherlands(Country):
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             M4_Tractor = vehicles.Armor.M4_Tractor
             Leopard_2A5 = vehicles.Armor.Leopard_2A5
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -4820,12 +4820,12 @@ class TheNetherlands(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -4966,7 +4966,7 @@ class Belgium(Country):
 
         class Artillery:
             M_109 = vehicles.Artillery.M_109
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
@@ -4980,10 +4980,10 @@ class Belgium(Country):
             Hawk_ln = vehicles.AirDefence.Hawk_ln
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Gepard = vehicles.AirDefence.Gepard
             QF_37_AA = vehicles.AirDefence.QF_37_AA
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -4995,14 +4995,14 @@ class Belgium(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             Hummer = vehicles.Unarmed.Hummer
@@ -5011,8 +5011,8 @@ class Belgium(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
@@ -5025,8 +5025,8 @@ class Belgium(Country):
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             Daimler_AC = vehicles.Armor.Daimler_AC
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -5187,11 +5187,11 @@ class Belgium(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -5334,7 +5334,7 @@ class Norway(Country):
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -5346,25 +5346,25 @@ class Norway(Country):
             Hawk_ln = vehicles.AirDefence.Hawk_ln
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             NASAMS_Command_Post = vehicles.AirDefence.NASAMS_Command_Post
             NASAMS_Radar_MPQ64F1 = vehicles.AirDefence.NASAMS_Radar_MPQ64F1
             NASAMS_LN_B = vehicles.AirDefence.NASAMS_LN_B
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             Hummer = vehicles.Unarmed.Hummer
@@ -5373,8 +5373,8 @@ class Norway(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -5382,10 +5382,10 @@ class Norway(Country):
             Leopard_2 = vehicles.Armor.Leopard_2
             Leopard1A3 = vehicles.Armor.Leopard1A3
             TPZ = vehicles.Armor.TPZ
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
+            leopard_2A4 = vehicles.Armor.leopard_2A4
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -5538,12 +5538,12 @@ class Norway(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -5683,7 +5683,7 @@ class Denmark(Country):
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -5695,8 +5695,8 @@ class Denmark(Country):
             Hawk_ln = vehicles.AirDefence.Hawk_ln
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            bofors40 = vehicles.AirDefence.bofors40
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -5705,14 +5705,14 @@ class Denmark(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             Hummer = vehicles.Unarmed.Hummer
@@ -5721,8 +5721,8 @@ class Denmark(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -5733,8 +5733,8 @@ class Denmark(Country):
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             M4_Tractor = vehicles.Armor.M4_Tractor
             Leopard_2A5 = vehicles.Armor.Leopard_2A5
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -5887,10 +5887,10 @@ class Denmark(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -6030,7 +6030,7 @@ class Israel(Country):
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -6054,19 +6054,19 @@ class Israel(Country):
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             QF_37_AA = vehicles.AirDefence.QF_37_AA
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -6076,8 +6076,8 @@ class Israel(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -6094,8 +6094,8 @@ class Israel(Country):
             Centaur_IV = vehicles.Armor.Centaur_IV
             M10_GMC = vehicles.Armor.M10_GMC
             Daimler_AC = vehicles.Armor.Daimler_AC
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -6264,12 +6264,12 @@ class Israel(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -6406,7 +6406,7 @@ class Georgia(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
             SAU_Msta = vehicles.Artillery.SAU_Msta
@@ -6414,7 +6414,7 @@ class Georgia(Country):
             Uragan_BM_27 = vehicles.Artillery.Uragan_BM_27
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -6423,17 +6423,17 @@ class Georgia(Country):
             Soldier_RPG = vehicles.Infantry.Soldier_RPG
 
         class AirDefence:
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             SA_11_Buk_CC_9S470M1 = vehicles.AirDefence.SA_11_Buk_CC_9S470M1
             SA_11_Buk_LN_9A310M1 = vehicles.AirDefence.SA_11_Buk_LN_9A310M1
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
@@ -6449,7 +6449,7 @@ class Georgia(Country):
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -6457,11 +6457,11 @@ class Georgia(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -6498,8 +6498,8 @@ class Georgia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -6513,8 +6513,8 @@ class Georgia(Country):
             MTLB = vehicles.Armor.MTLB
             T_55 = vehicles.Armor.T_55
             T_72B = vehicles.Armor.T_72B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -6671,7 +6671,7 @@ class Georgia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         ELNYA = ships.ELNYA
         ALBATROS = ships.ALBATROS
         MOLNIYA = ships.MOLNIYA
@@ -6681,7 +6681,7 @@ class Georgia(Country):
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -6821,8 +6821,8 @@ class Insurgents(Country):
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -6842,17 +6842,17 @@ class Insurgents(Country):
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -6878,8 +6878,8 @@ class Insurgents(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -6890,8 +6890,8 @@ class Insurgents(Country):
             BRDM_2 = vehicles.Armor.BRDM_2
             MTLB = vehicles.Armor.MTLB
             T_55 = vehicles.Armor.T_55
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -7032,7 +7032,7 @@ class Insurgents(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         ELNYA = ships.ELNYA
         MOLNIYA = ships.MOLNIYA
         Dry_cargo_ship_1 = ships.Dry_cargo_ship_1
@@ -7040,7 +7040,7 @@ class Insurgents(Country):
         ZWEZDNY = ships.ZWEZDNY
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignHelipad:
         Otkrytka = "Otkrytka"
@@ -7093,12 +7093,12 @@ class Abkhazia(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -7108,7 +7108,7 @@ class Abkhazia(Country):
             Soldier_RPG = vehicles.Infantry.Soldier_RPG
 
         class AirDefence:
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
@@ -7124,17 +7124,17 @@ class Abkhazia(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -7165,8 +7165,8 @@ class Abkhazia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -7179,8 +7179,8 @@ class Abkhazia(Country):
             MTLB = vehicles.Armor.MTLB
             T_55 = vehicles.Armor.T_55
             T_72B = vehicles.Armor.T_72B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -7331,7 +7331,7 @@ class Abkhazia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         ELNYA = ships.ELNYA
         MOLNIYA = ships.MOLNIYA
         ZWEZDNY = ships.ZWEZDNY
@@ -7339,7 +7339,7 @@ class Abkhazia(Country):
         Dry_cargo_ship_2 = ships.Dry_cargo_ship_2
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignHelipad:
         Otkrytka = "Otkrytka"
@@ -7392,12 +7392,12 @@ class SouthOssetia(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -7407,7 +7407,7 @@ class SouthOssetia(Country):
             Soldier_RPG = vehicles.Infantry.Soldier_RPG
 
         class AirDefence:
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
@@ -7417,17 +7417,17 @@ class SouthOssetia(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -7457,8 +7457,8 @@ class SouthOssetia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -7471,8 +7471,8 @@ class SouthOssetia(Country):
             MTLB = vehicles.Armor.MTLB
             T_55 = vehicles.Armor.T_55
             T_72B = vehicles.Armor.T_72B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -7615,7 +7615,7 @@ class SouthOssetia(Country):
     class Ship:
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignHelipad:
         Otkrytka = "Otkrytka"
@@ -7671,8 +7671,8 @@ class Italy(Country):
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -7687,21 +7687,21 @@ class Italy(Country):
             Hawk_ln = vehicles.AirDefence.Hawk_ln
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -7715,8 +7715,8 @@ class Italy(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -7725,8 +7725,8 @@ class Italy(Country):
             Leopard1A3 = vehicles.Armor.Leopard1A3
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -7889,12 +7889,12 @@ class Italy(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -8031,7 +8031,7 @@ class Australia(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
@@ -8041,12 +8041,12 @@ class Australia(Country):
             JTAC = vehicles.Infantry.JTAC
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            bofors40 = vehicles.AirDefence.bofors40
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             QF_37_AA = vehicles.AirDefence.QF_37_AA
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -8058,11 +8058,11 @@ class Australia(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -8076,8 +8076,8 @@ class Australia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
@@ -8090,8 +8090,8 @@ class Australia(Country):
             LAV_25 = vehicles.Armor.LAV_25
             M_113 = vehicles.Armor.M_113
             Daimler_AC = vehicles.Armor.Daimler_AC
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -8256,13 +8256,13 @@ class Australia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         PERRY = ships.PERRY
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -8403,28 +8403,28 @@ class Switzerland(Country):
 
         class Artillery:
             M_109 = vehicles.Artillery.M_109
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            bofors40 = vehicles.AirDefence.bofors40
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -8433,8 +8433,8 @@ class Switzerland(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
@@ -8442,9 +8442,9 @@ class Switzerland(Country):
         class Armor:
             Leopard_2 = vehicles.Armor.Leopard_2
             M_113 = vehicles.Armor.M_113
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -8583,10 +8583,10 @@ class Switzerland(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -8723,23 +8723,23 @@ class Austria(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            bofors40 = vehicles.AirDefence.bofors40
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -8748,8 +8748,8 @@ class Austria(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -8758,9 +8758,9 @@ class Austria(Country):
             M_60 = vehicles.Armor.M_60
             M8_Greyhound = vehicles.Armor.M8_Greyhound
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -8899,10 +8899,10 @@ class Austria(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -9039,7 +9039,7 @@ class Belarus(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
@@ -9049,7 +9049,7 @@ class Belarus(Country):
             Smerch = vehicles.Artillery.Smerch
             Uragan_BM_27 = vehicles.Artillery.Uragan_BM_27
             Smerch_HE = vehicles.Artillery.Smerch_HE
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -9061,15 +9061,15 @@ class Belarus(Country):
             Paratrooper_RPG_16 = vehicles.Infantry.Paratrooper_RPG_16
 
         class AirDefence:
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
             S_300PS_54K6_cp = vehicles.AirDefence.S_300PS_54K6_cp
@@ -9083,7 +9083,7 @@ class Belarus(Country):
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             Tor_9A331 = vehicles.AirDefence.Tor_9A331
@@ -9094,19 +9094,19 @@ class Belarus(Country):
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -9142,8 +9142,8 @@ class Belarus(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -9159,8 +9159,8 @@ class Belarus(Country):
             T_72B = vehicles.Armor.T_72B
             T_72B3 = vehicles.Armor.T_72B3
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -9330,10 +9330,10 @@ class Belarus(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignHelipad:
         Otkrytka = "Otkrytka"
@@ -9386,11 +9386,11 @@ class Bulgaria(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -9398,14 +9398,14 @@ class Bulgaria(Country):
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
@@ -9424,36 +9424,36 @@ class Bulgaria(Country):
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             Ural_375 = vehicles.Unarmed.Ural_375
@@ -9470,8 +9470,8 @@ class Bulgaria(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -9488,8 +9488,8 @@ class Bulgaria(Country):
             BMP_1 = vehicles.Armor.BMP_1
             T_55 = vehicles.Armor.T_55
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             Pz_IV_H = vehicles.Armor.Pz_IV_H
@@ -9507,7 +9507,7 @@ class Bulgaria(Country):
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -9663,10 +9663,10 @@ class Bulgaria(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -9809,24 +9809,24 @@ class CzechRepublic(Country):
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
             M2A1_105 = vehicles.Artillery.M2A1_105
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             RD_75 = vehicles.AirDefence.RD_75
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
@@ -9839,11 +9839,11 @@ class CzechRepublic(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -9858,8 +9858,8 @@ class CzechRepublic(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
@@ -9872,8 +9872,8 @@ class CzechRepublic(Country):
             BMP_2 = vehicles.Armor.BMP_2
             T_55 = vehicles.Armor.T_55
             T_72B = vehicles.Armor.T_72B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -10038,10 +10038,10 @@ class CzechRepublic(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -10185,7 +10185,7 @@ class China(Country):
             Smerch_HE = vehicles.Artillery.Smerch_HE
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
             PLZ05 = vehicles.Artillery.PLZ05
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -10199,8 +10199,8 @@ class China(Country):
             S_300PS_54K6_cp = vehicles.AirDefence.S_300PS_54K6_cp
             S_300PS_5H63C_30H6_tr = vehicles.AirDefence.S_300PS_5H63C_30H6_tr
             S_300PS_40B6MD_sr_19J6 = vehicles.AirDefence.S_300PS_40B6MD_sr_19J6
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
@@ -10209,10 +10209,10 @@ class China(Country):
             HQ_7_STR_SP = vehicles.AirDefence.HQ_7_STR_SP
             HQ_7_LN_SP = vehicles.AirDefence.HQ_7_LN_SP
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -10221,11 +10221,11 @@ class China(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -10236,8 +10236,8 @@ class China(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -10245,14 +10245,14 @@ class China(Country):
             T_55 = vehicles.Armor.T_55
             ZBD04A = vehicles.Armor.ZBD04A
             ZTZ96B = vehicles.Armor.ZTZ96B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             TYPE_59 = vehicles.Armor.TYPE_59
 
         class MissilesSS:
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -10416,7 +10416,7 @@ class China(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         KILO = ships.KILO
         Type_052B = ships.Type_052B
         Type_052C = ships.Type_052C
@@ -10427,7 +10427,7 @@ class China(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignHelipad:
         Otkrytka = "Otkrytka"
@@ -10482,14 +10482,14 @@ class Croatia(Country):
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -10498,11 +10498,11 @@ class Croatia(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -10511,16 +10511,16 @@ class Croatia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
             BRDM_2 = vehicles.Armor.BRDM_2
             T_55 = vehicles.Armor.T_55
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -10663,10 +10663,10 @@ class Croatia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -10806,13 +10806,13 @@ class Egypt(Country):
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
             MLRS = vehicles.Artillery.MLRS
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             Vulcan = vehicles.AirDefence.Vulcan
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
@@ -10826,9 +10826,9 @@ class Egypt(Country):
             Hawk_ln = vehicles.AirDefence.Hawk_ln
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
@@ -10853,9 +10853,9 @@ class Egypt(Country):
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             FPS_117 = vehicles.AirDefence.FPS_117
@@ -10873,11 +10873,11 @@ class Egypt(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -10892,8 +10892,8 @@ class Egypt(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -10908,14 +10908,14 @@ class Egypt(Country):
             T_80UD = vehicles.Armor.T_80UD
             M10_GMC = vehicles.Armor.M10_GMC
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -11078,14 +11078,14 @@ class Egypt(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         PERRY = ships.PERRY
         MOLNIYA = ships.MOLNIYA
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -11225,7 +11225,7 @@ class Finland(Country):
             Grad_URAL = vehicles.Artillery.Grad_URAL
             MLRS = vehicles.Artillery.MLRS
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -11233,16 +11233,16 @@ class Finland(Country):
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             SA_11_Buk_LN_9A310M1 = vehicles.AirDefence.SA_11_Buk_LN_9A310M1
             SA_11_Buk_CC_9S470M1 = vehicles.AirDefence.SA_11_Buk_CC_9S470M1
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
@@ -11255,31 +11255,31 @@ class Finland(Country):
             NASAMS_Radar_MPQ64F1 = vehicles.AirDefence.NASAMS_Radar_MPQ64F1
             NASAMS_LN_B = vehicles.AirDefence.NASAMS_LN_B
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             M_818 = vehicles.Unarmed.M_818
@@ -11293,8 +11293,8 @@ class Finland(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -11310,10 +11310,10 @@ class Finland(Country):
             BMP_2 = vehicles.Armor.BMP_2
             T_55 = vehicles.Armor.T_55
             PT_76 = vehicles.Armor.PT_76
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
+            leopard_2A4 = vehicles.Armor.leopard_2A4
             Leopard_2 = vehicles.Armor.Leopard_2
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             Pz_IV_H = vehicles.Armor.Pz_IV_H
@@ -11330,7 +11330,7 @@ class Finland(Country):
             Elefant_SdKfz_184 = vehicles.Armor.Elefant_SdKfz_184
 
         class MissilesSS:
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -11463,10 +11463,10 @@ class Finland(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -11609,7 +11609,7 @@ class Greece(Country):
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -11643,20 +11643,20 @@ class Greece(Country):
             S_300PS_54K6_cp = vehicles.AirDefence.S_300PS_54K6_cp
             S_300PS_5H63C_30H6_tr = vehicles.AirDefence.S_300PS_5H63C_30H6_tr
             S_300PS_40B6MD_sr_19J6 = vehicles.AirDefence.S_300PS_40B6MD_sr_19J6
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            generator_5i57 = vehicles.AirDefence.generator_5i57
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -11669,8 +11669,8 @@ class Greece(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -11686,9 +11686,9 @@ class Greece(Country):
             M_60 = vehicles.Armor.M_60
             M8_Greyhound = vehicles.Armor.M8_Greyhound
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -11853,11 +11853,11 @@ class Greece(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -11994,11 +11994,11 @@ class Hungary(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -12006,17 +12006,17 @@ class Hungary(Country):
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
@@ -12028,36 +12028,36 @@ class Hungary(Country):
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
             RD_75 = vehicles.AirDefence.RD_75
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             Ural_375 = vehicles.Unarmed.Ural_375
@@ -12070,8 +12070,8 @@ class Hungary(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -12087,9 +12087,9 @@ class Hungary(Country):
             BRDM_2 = vehicles.Armor.BRDM_2
             BMP_1 = vehicles.Armor.BMP_1
             T_55 = vehicles.Armor.T_55
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             Pz_IV_H = vehicles.Armor.Pz_IV_H
@@ -12107,7 +12107,7 @@ class Hungary(Country):
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -12254,10 +12254,10 @@ class Hungary(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -12400,20 +12400,20 @@ class India(Country):
             Smerch_HE = vehicles.Artillery.Smerch_HE
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
@@ -12428,17 +12428,17 @@ class India(Country):
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -12450,8 +12450,8 @@ class India(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -12463,8 +12463,8 @@ class India(Country):
             T_90 = vehicles.Armor.T_90
             Daimler_AC = vehicles.Armor.Daimler_AC
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -12625,7 +12625,7 @@ class India(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         MOLNIYA = ships.MOLNIYA
         KILO = ships.KILO
         MOLNIYA = ships.MOLNIYA
@@ -12633,7 +12633,7 @@ class India(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -12773,7 +12773,7 @@ class Iran(Country):
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             M_109 = vehicles.Artillery.M_109
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -12804,22 +12804,22 @@ class Iran(Country):
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_11_Buk_CC_9S470M1 = vehicles.AirDefence.SA_11_Buk_CC_9S470M1
             SA_11_Buk_LN_9A310M1 = vehicles.AirDefence.SA_11_Buk_LN_9A310M1
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             Tor_9A331 = vehicles.AirDefence.Tor_9A331
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             HQ_7_STR_SP = vehicles.AirDefence.HQ_7_STR_SP
             HQ_7_LN_SP = vehicles.AirDefence.HQ_7_LN_SP
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -12827,11 +12827,11 @@ class Iran(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -12842,8 +12842,8 @@ class Iran(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
@@ -12858,14 +12858,14 @@ class Iran(Country):
             M_60 = vehicles.Armor.M_60
             BMD_1 = vehicles.Armor.BMD_1
             Chieftain_mk3 = vehicles.Armor.Chieftain_mk3
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -13035,7 +13035,7 @@ class Iran(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         KILO = ships.KILO
         Dry_cargo_ship_1 = ships.Dry_cargo_ship_1
         Dry_cargo_ship_2 = ships.Dry_cargo_ship_2
@@ -13044,7 +13044,7 @@ class Iran(Country):
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -13181,16 +13181,16 @@ class Iraq(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Closed_Insurgent = vehicles.AirDefence.ZU_23_Closed_Insurgent
             ZU_23_Insurgent = vehicles.AirDefence.ZU_23_Insurgent
             Ural_375_ZU_23_Insurgent = vehicles.AirDefence.Ural_375_ZU_23_Insurgent
@@ -13199,9 +13199,9 @@ class Iraq(Country):
             Roland_Radar = vehicles.AirDefence.Roland_Radar
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
@@ -13211,13 +13211,13 @@ class Iraq(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             FPS_117 = vehicles.AirDefence.FPS_117
@@ -13227,11 +13227,11 @@ class Iraq(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -13243,8 +13243,8 @@ class Iraq(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
@@ -13263,14 +13263,14 @@ class Iraq(Country):
             T_90 = vehicles.Armor.T_90
             PT_76 = vehicles.Armor.PT_76
             Chieftain_mk3 = vehicles.Armor.Chieftain_mk3
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -13426,10 +13426,10 @@ class Iraq(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -13570,16 +13570,16 @@ class Japan(Country):
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
             L118_Unit = vehicles.Artillery.L118_Unit
             HL_B8M1 = vehicles.Artillery.HL_B8M1
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             Wespe124 = vehicles.Artillery.Wespe124
             Pak40 = vehicles.Artillery.Pak40
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_sr = vehicles.AirDefence.Hawk_sr
             Hawk_cwar = vehicles.AirDefence.Hawk_cwar
@@ -13594,30 +13594,30 @@ class Japan(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             M_818 = vehicles.Unarmed.M_818
@@ -13626,8 +13626,8 @@ class Japan(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -13638,8 +13638,8 @@ class Japan(Country):
         class Armor:
             HL_DSHK = vehicles.Armor.HL_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
-            Tt_KORD = vehicles.Armor.Tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
             Pz_IV_H = vehicles.Armor.Pz_IV_H
             Sd_Kfz_251 = vehicles.Armor.Sd_Kfz_251
             Tiger_I = vehicles.Armor.Tiger_I
@@ -13654,7 +13654,7 @@ class Japan(Country):
             Elefant_SdKfz_184 = vehicles.Armor.Elefant_SdKfz_184
 
         class MissilesSS:
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -13801,12 +13801,12 @@ class Japan(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -13953,9 +13953,9 @@ class Kazakhstan(Country):
             Smerch = vehicles.Artillery.Smerch
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Smerch_HE = vehicles.Artillery.Smerch_HE
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -13967,8 +13967,8 @@ class Kazakhstan(Country):
             Infantry_AK_ver3 = vehicles.Infantry.Infantry_AK_ver3
 
         class AirDefence:
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
             S_300PS_64H6E_sr = vehicles.AirDefence.S_300PS_64H6E_sr
@@ -13987,23 +13987,23 @@ class Kazakhstan(Country):
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Tor_9A331 = vehicles.AirDefence.Tor_9A331
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -14013,11 +14013,11 @@ class Kazakhstan(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -14052,8 +14052,8 @@ class Kazakhstan(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -14071,8 +14071,8 @@ class Kazakhstan(Country):
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             Cobra = vehicles.Armor.Cobra
             BTR_82A = vehicles.Armor.BTR_82A
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -14246,10 +14246,10 @@ class Kazakhstan(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -14387,16 +14387,16 @@ class NorthKorea(Country):
 
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
@@ -14405,7 +14405,7 @@ class NorthKorea(Country):
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -14413,11 +14413,11 @@ class NorthKorea(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -14427,8 +14427,8 @@ class NorthKorea(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -14439,14 +14439,14 @@ class NorthKorea(Country):
             BMP_1 = vehicles.Armor.BMP_1
             T_55 = vehicles.Armor.T_55
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -14588,10 +14588,10 @@ class NorthKorea(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -14731,13 +14731,13 @@ class Pakistan(Country):
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
@@ -14750,7 +14750,7 @@ class Pakistan(Country):
             HQ_7_STR_SP = vehicles.AirDefence.HQ_7_STR_SP
             HQ_7_LN_SP = vehicles.AirDefence.HQ_7_LN_SP
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -14761,11 +14761,11 @@ class Pakistan(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -14774,8 +14774,8 @@ class Pakistan(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -14783,13 +14783,13 @@ class Pakistan(Country):
             BRDM_2 = vehicles.Armor.BRDM_2
             T_55 = vehicles.Armor.T_55
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
         class MissilesSS:
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -14939,13 +14939,13 @@ class Pakistan(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         PERRY = ships.PERRY
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -15083,25 +15083,25 @@ class Poland(Country):
 
         class Artillery:
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
             M2A1_105 = vehicles.Artillery.M2A1_105
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
@@ -15112,7 +15112,7 @@ class Poland(Country):
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -15123,11 +15123,11 @@ class Poland(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -15144,8 +15144,8 @@ class Poland(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
@@ -15168,9 +15168,9 @@ class Poland(Country):
             Daimler_AC = vehicles.Armor.Daimler_AC
             PT_76 = vehicles.Armor.PT_76
             Leopard_2A5 = vehicles.Armor.Leopard_2A5
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -15339,7 +15339,7 @@ class Poland(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         PERRY = ships.PERRY
         KILO = ships.KILO
         MOLNIYA = ships.MOLNIYA
@@ -15347,7 +15347,7 @@ class Poland(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -15489,7 +15489,7 @@ class Romania(Country):
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -15497,14 +15497,14 @@ class Romania(Country):
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
@@ -15514,33 +15514,33 @@ class Romania(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             Ural_375 = vehicles.Unarmed.Ural_375
@@ -15556,8 +15556,8 @@ class Romania(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -15572,8 +15572,8 @@ class Romania(Country):
             BMP_1 = vehicles.Armor.BMP_1
             T_55 = vehicles.Armor.T_55
             Chieftain_mk3 = vehicles.Armor.Chieftain_mk3
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             Pz_IV_H = vehicles.Armor.Pz_IV_H
@@ -15591,7 +15591,7 @@ class Romania(Country):
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -15738,7 +15738,7 @@ class Romania(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         MOLNIYA = ships.MOLNIYA
         KILO = ships.KILO
         MOLNIYA = ships.MOLNIYA
@@ -15746,7 +15746,7 @@ class Romania(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -15889,7 +15889,7 @@ class SaudiArabia(Country):
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -15908,8 +15908,8 @@ class SaudiArabia(Country):
             Hawk_pcp = vehicles.AirDefence.Hawk_pcp
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_ln = vehicles.AirDefence.Hawk_ln
-            Bofors40 = vehicles.AirDefence.Bofors40
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            bofors40 = vehicles.AirDefence.bofors40
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -15918,11 +15918,11 @@ class SaudiArabia(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -15934,8 +15934,8 @@ class SaudiArabia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -15948,8 +15948,8 @@ class SaudiArabia(Country):
             TPZ = vehicles.Armor.TPZ
             Cobra = vehicles.Armor.Cobra
             LAV_25 = vehicles.Armor.LAV_25
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -16110,12 +16110,12 @@ class SaudiArabia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -16254,8 +16254,8 @@ class Serbia(Country):
         class Artillery:
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -16267,7 +16267,7 @@ class Serbia(Country):
             Infantry_AK_ver3 = vehicles.Infantry.Infantry_AK_ver3
 
         class AirDefence:
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_11_Buk_CC_9S470M1 = vehicles.AirDefence.SA_11_Buk_CC_9S470M1
             SA_11_Buk_LN_9A310M1 = vehicles.AirDefence.SA_11_Buk_LN_9A310M1
@@ -16280,23 +16280,23 @@ class Serbia(Country):
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -16320,8 +16320,8 @@ class Serbia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -16333,8 +16333,8 @@ class Serbia(Country):
             T_72B = vehicles.Armor.T_72B
             T_55 = vehicles.Armor.T_55
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -16481,10 +16481,10 @@ class Serbia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -16625,16 +16625,16 @@ class Slovakia(Country):
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             S_300PS_5P85C_ln = vehicles.AirDefence.S_300PS_5P85C_ln
@@ -16648,18 +16648,18 @@ class Slovakia(Country):
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            generator_5i57 = vehicles.AirDefence.generator_5i57
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -16676,8 +16676,8 @@ class Slovakia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -16686,8 +16686,8 @@ class Slovakia(Country):
             BMP_2 = vehicles.Armor.BMP_2
             T_55 = vehicles.Armor.T_55
             T_72B = vehicles.Armor.T_72B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -16838,10 +16838,10 @@ class Slovakia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -16980,12 +16980,12 @@ class SouthKorea(Country):
         class Artillery:
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Vulcan = vehicles.AirDefence.Vulcan
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_sr = vehicles.AirDefence.Hawk_sr
@@ -17002,7 +17002,7 @@ class SouthKorea(Country):
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -17011,11 +17011,11 @@ class SouthKorea(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -17026,8 +17026,8 @@ class SouthKorea(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -17036,8 +17036,8 @@ class SouthKorea(Country):
             BMP_3 = vehicles.Armor.BMP_3
             T_80UD = vehicles.Armor.T_80UD
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -17190,12 +17190,12 @@ class SouthKorea(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -17332,28 +17332,28 @@ class Sweden(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_sr = vehicles.AirDefence.Hawk_sr
             Hawk_cwar = vehicles.AirDefence.Hawk_cwar
             Hawk_pcp = vehicles.AirDefence.Hawk_pcp
             Hawk_ln = vehicles.AirDefence.Hawk_ln
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -17363,17 +17363,17 @@ class Sweden(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             BMP_1 = vehicles.Armor.BMP_1
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
+            leopard_2A4 = vehicles.Armor.leopard_2A4
             Leopard_2A5 = vehicles.Armor.Leopard_2A5
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -17516,10 +17516,10 @@ class Sweden(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -17656,14 +17656,14 @@ class Syria(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
             Uragan_BM_27 = vehicles.Artillery.Uragan_BM_27
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -17672,14 +17672,14 @@ class Syria(Country):
             Soldier_AK = vehicles.Infantry.Soldier_AK
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
@@ -17697,7 +17697,7 @@ class Syria(Country):
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             S_300PS_5P85C_ln = vehicles.AirDefence.S_300PS_5P85C_ln
             S_300PS_5P85D_ln = vehicles.AirDefence.S_300PS_5P85D_ln
@@ -17707,7 +17707,7 @@ class Syria(Country):
             S_300PS_64H6E_sr = vehicles.AirDefence.S_300PS_64H6E_sr
             S_300PS_5H63C_30H6_tr = vehicles.AirDefence.S_300PS_5H63C_30H6_tr
             S_300PS_40B6MD_sr_19J6 = vehicles.AirDefence.S_300PS_40B6MD_sr_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -17716,11 +17716,11 @@ class Syria(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -17738,8 +17738,8 @@ class Syria(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -17753,8 +17753,8 @@ class Syria(Country):
             BTR_82A = vehicles.Armor.BTR_82A
             PT_76 = vehicles.Armor.PT_76
             T_72B = vehicles.Armor.T_72B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -17908,10 +17908,10 @@ class Syria(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -18051,28 +18051,28 @@ class Yemen(Country):
             Uragan_BM_27 = vehicles.Artillery.Uragan_BM_27
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             Vulcan = vehicles.AirDefence.Vulcan
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -18080,11 +18080,11 @@ class Yemen(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -18096,8 +18096,8 @@ class Yemen(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -18108,8 +18108,8 @@ class Yemen(Country):
             BMP_2 = vehicles.Armor.BMP_2
             T_55 = vehicles.Armor.T_55
             T_72B = vehicles.Armor.T_72B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -18261,12 +18261,12 @@ class Yemen(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         MOLNIYA = ships.MOLNIYA
         BDK_775 = ships.BDK_775
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -18406,20 +18406,20 @@ class Vietnam(Country):
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
@@ -18435,10 +18435,10 @@ class Vietnam(Country):
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -18446,11 +18446,11 @@ class Vietnam(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -18460,8 +18460,8 @@ class Vietnam(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -18473,8 +18473,8 @@ class Vietnam(Country):
             T_55 = vehicles.Armor.T_55
             T_90 = vehicles.Armor.T_90
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -18629,12 +18629,12 @@ class Vietnam(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         MOLNIYA = ships.MOLNIYA
         HandyWind = ships.HandyWind
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -18775,22 +18775,22 @@ class Venezuela(Country):
             Smerch = vehicles.Artillery.Smerch
             SAU_Msta = vehicles.Artillery.SAU_Msta
             Smerch_HE = vehicles.Artillery.Smerch_HE
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             Roland_ADS = vehicles.AirDefence.Roland_ADS
             Roland_Radar = vehicles.AirDefence.Roland_Radar
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_300PS_5P85C_ln = vehicles.AirDefence.S_300PS_5P85C_ln
             S_300PS_5P85D_ln = vehicles.AirDefence.S_300PS_5P85D_ln
             S_300PS_54K6_cp = vehicles.AirDefence.S_300PS_54K6_cp
@@ -18802,18 +18802,18 @@ class Venezuela(Country):
             Tor_9A331 = vehicles.AirDefence.Tor_9A331
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            generator_5i57 = vehicles.AirDefence.generator_5i57
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -18823,8 +18823,8 @@ class Venezuela(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -18832,8 +18832,8 @@ class Venezuela(Country):
             TPZ = vehicles.Armor.TPZ
             T_72B = vehicles.Armor.T_72B
             BMP_3 = vehicles.Armor.BMP_3
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -18979,10 +18979,10 @@ class Venezuela(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -19119,23 +19119,23 @@ class Tunisia(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
             M48_Chaparral = vehicles.AirDefence.M48_Chaparral
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -19145,16 +19145,16 @@ class Tunisia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
             M_113 = vehicles.Armor.M_113
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_60 = vehicles.Armor.M_60
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -19291,10 +19291,10 @@ class Tunisia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -19431,19 +19431,19 @@ class Thailand(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Vulcan = vehicles.AirDefence.Vulcan
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -19452,11 +19452,11 @@ class Thailand(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -19467,8 +19467,8 @@ class Thailand(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -19476,8 +19476,8 @@ class Thailand(Country):
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_60 = vehicles.Armor.M_60
             AAV7 = vehicles.Armor.AAV7
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -19626,12 +19626,12 @@ class Thailand(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -19770,20 +19770,20 @@ class Sudan(Country):
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             Vulcan = vehicles.AirDefence.Vulcan
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -19791,11 +19791,11 @@ class Sudan(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -19805,8 +19805,8 @@ class Sudan(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -19818,8 +19818,8 @@ class Sudan(Country):
             BMP_1 = vehicles.Armor.BMP_1
             BMP_2 = vehicles.Armor.BMP_2
             T_55 = vehicles.Armor.T_55
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -19966,10 +19966,10 @@ class Sudan(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -20109,16 +20109,16 @@ class Philippines(Country):
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -20128,8 +20128,8 @@ class Philippines(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -20275,10 +20275,10 @@ class Philippines(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -20420,7 +20420,7 @@ class Morocco(Country):
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -20432,7 +20432,7 @@ class Morocco(Country):
             Hawk_pcp = vehicles.AirDefence.Hawk_pcp
             M48_Chaparral = vehicles.AirDefence.M48_Chaparral
             Vulcan = vehicles.AirDefence.Vulcan
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
@@ -20441,18 +20441,18 @@ class Morocco(Country):
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -20464,8 +20464,8 @@ class Morocco(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -20476,8 +20476,8 @@ class Morocco(Country):
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             VAB_Mephisto = vehicles.Armor.VAB_Mephisto
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -20626,10 +20626,10 @@ class Morocco(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -20766,25 +20766,25 @@ class Mexico(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -20794,16 +20794,16 @@ class Mexico(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -20948,12 +20948,12 @@ class Mexico(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -21090,18 +21090,18 @@ class Malaysia(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -21110,11 +21110,11 @@ class Malaysia(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -21123,16 +21123,16 @@ class Malaysia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
 
         class Armor:
             Daimler_AC = vehicles.Armor.Daimler_AC
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -21273,13 +21273,13 @@ class Malaysia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -21420,20 +21420,20 @@ class Libya(Country):
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
@@ -21445,22 +21445,22 @@ class Libya(Country):
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -21470,8 +21470,8 @@ class Libya(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
@@ -21480,8 +21480,8 @@ class Libya(Country):
             BRDM_2 = vehicles.Armor.BRDM_2
             BMP_1 = vehicles.Armor.BMP_1
             T_55 = vehicles.Armor.T_55
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -21629,10 +21629,10 @@ class Libya(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         La_Combattante_II = ships.La_Combattante_II
 
     class CallsignAWACS:
@@ -21770,12 +21770,12 @@ class Jordan(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Vulcan = vehicles.AirDefence.Vulcan
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_sr = vehicles.AirDefence.Hawk_sr
@@ -21789,7 +21789,7 @@ class Jordan(Country):
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             Gepard = vehicles.AirDefence.Gepard
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -21798,11 +21798,11 @@ class Jordan(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -21814,8 +21814,8 @@ class Jordan(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -21826,8 +21826,8 @@ class Jordan(Country):
             M_60 = vehicles.Armor.M_60
             BMP_2 = vehicles.Armor.BMP_2
             Chieftain_mk3 = vehicles.Armor.Chieftain_mk3
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -21980,10 +21980,10 @@ class Jordan(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -22122,7 +22122,7 @@ class Indonesia(Country):
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             M_109 = vehicles.Artillery.M_109
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -22131,8 +22131,8 @@ class Indonesia(Country):
             Soldier_M249 = vehicles.Infantry.Soldier_M249
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Bofors40 = vehicles.AirDefence.Bofors40
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
@@ -22140,26 +22140,26 @@ class Indonesia(Country):
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             NASAMS_Command_Post = vehicles.AirDefence.NASAMS_Command_Post
             NASAMS_Radar_MPQ64F1 = vehicles.AirDefence.NASAMS_Radar_MPQ64F1
             NASAMS_LN_B = vehicles.AirDefence.NASAMS_LN_B
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -22175,8 +22175,8 @@ class Indonesia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -22187,11 +22187,11 @@ class Indonesia(Country):
             BMP_3 = vehicles.Armor.BMP_3
             Marder = vehicles.Armor.Marder
             PT_76 = vehicles.Armor.PT_76
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
+            leopard_2A4 = vehicles.Armor.leopard_2A4
             Cobra = vehicles.Armor.Cobra
             VAB_Mephisto = vehicles.Armor.VAB_Mephisto
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -22348,13 +22348,13 @@ class Indonesia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -22491,22 +22491,22 @@ class Honduras(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -22516,15 +22516,15 @@ class Honduras(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -22663,10 +22663,10 @@ class Honduras(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -22807,37 +22807,37 @@ class Ethiopia(Country):
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Msta = vehicles.Artillery.SAU_Msta
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -22847,8 +22847,8 @@ class Ethiopia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -22859,8 +22859,8 @@ class Ethiopia(Country):
             BMP_1 = vehicles.Armor.BMP_1
             T_55 = vehicles.Armor.T_55
             T_72B = vehicles.Armor.T_72B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -23005,10 +23005,10 @@ class Ethiopia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -23146,7 +23146,7 @@ class Chile(Country):
 
         class Artillery:
             M_109 = vehicles.Artillery.M_109
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -23154,7 +23154,7 @@ class Chile(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Vulcan = vehicles.AirDefence.Vulcan
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             M1097_Avenger = vehicles.AirDefence.M1097_Avenger
             M48_Chaparral = vehicles.AirDefence.M48_Chaparral
             Gepard = vehicles.AirDefence.Gepard
@@ -23162,17 +23162,17 @@ class Chile(Country):
             NASAMS_Radar_MPQ64F1 = vehicles.AirDefence.NASAMS_Radar_MPQ64F1
             NASAMS_LN_B = vehicles.AirDefence.NASAMS_LN_B
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -23182,8 +23182,8 @@ class Chile(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -23194,9 +23194,9 @@ class Chile(Country):
             Marder = vehicles.Armor.Marder
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             Leopard_2A5 = vehicles.Armor.Leopard_2A5
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            leopard_2A4 = vehicles.Armor.leopard_2A4
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -23351,13 +23351,13 @@ class Chile(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -23495,7 +23495,7 @@ class Brazil(Country):
 
         class Artillery:
             M_109 = vehicles.Artillery.M_109
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -23506,7 +23506,7 @@ class Brazil(Country):
         class AirDefence:
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Roland_ADS = vehicles.AirDefence.Roland_ADS
             Roland_Radar = vehicles.AirDefence.Roland_Radar
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
@@ -23514,7 +23514,7 @@ class Brazil(Country):
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
             Gepard = vehicles.AirDefence.Gepard
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -23523,11 +23523,11 @@ class Brazil(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -23538,8 +23538,8 @@ class Brazil(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -23548,8 +23548,8 @@ class Brazil(Country):
             M_60 = vehicles.Armor.M_60
             Leopard1A3 = vehicles.Armor.Leopard1A3
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -23692,12 +23692,12 @@ class Brazil(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -23837,7 +23837,7 @@ class Bahrain(Country):
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -23854,8 +23854,8 @@ class Bahrain(Country):
             Hawk_pcp = vehicles.AirDefence.Hawk_pcp
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Bofors40 = vehicles.AirDefence.Bofors40
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            bofors40 = vehicles.AirDefence.bofors40
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -23864,11 +23864,11 @@ class Bahrain(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -23878,8 +23878,8 @@ class Bahrain(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -23888,8 +23888,8 @@ class Bahrain(Country):
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             M_60 = vehicles.Armor.M_60
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -24026,11 +24026,11 @@ class Bahrain(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         PERRY = ships.PERRY
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -24173,40 +24173,40 @@ class ThirdReich(Country):
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             TugHarlan_drivable = vehicles.Unarmed.TugHarlan_drivable
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -24229,7 +24229,7 @@ class ThirdReich(Country):
             Elefant_SdKfz_184 = vehicles.Armor.Elefant_SdKfz_184
 
         class MissilesSS:
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -24364,10 +24364,10 @@ class ThirdReich(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -24507,25 +24507,25 @@ class Yugoslavia(Country):
 
         class Artillery:
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
             M2A1_105 = vehicles.Artillery.M2A1_105
 
         class AirDefence:
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             RD_75 = vehicles.AirDefence.RD_75
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             QF_37_AA = vehicles.AirDefence.QF_37_AA
             Allies_Director = vehicles.AirDefence.Allies_Director
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
@@ -24534,11 +24534,11 @@ class Yugoslavia(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -24549,8 +24549,8 @@ class Yugoslavia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
             CCKW_353 = vehicles.Unarmed.CCKW_353
@@ -24561,8 +24561,8 @@ class Yugoslavia(Country):
             BRDM_2 = vehicles.Armor.BRDM_2
             T_55 = vehicles.Armor.T_55
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             M4_Sherman = vehicles.Armor.M4_Sherman
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             Cromwell_IV = vehicles.Armor.Cromwell_IV
@@ -24717,10 +24717,10 @@ class Yugoslavia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -24776,7 +24776,7 @@ class USSR(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
@@ -24799,15 +24799,15 @@ class USSR(Country):
             Paratrooper_RPG_16 = vehicles.Infantry.Paratrooper_RPG_16
 
         class AirDefence:
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
@@ -24822,7 +24822,7 @@ class USSR(Country):
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SNR_75V = vehicles.AirDefence.SNR_75V
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
@@ -24831,11 +24831,11 @@ class USSR(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
             SON_9 = vehicles.AirDefence.SON_9
@@ -24849,11 +24849,11 @@ class USSR(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -24888,8 +24888,8 @@ class USSR(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             AA8 = vehicles.Unarmed.AA8
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
@@ -25118,7 +25118,7 @@ class USSR(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         ALBATROS = ships.ALBATROS
         KILO = ships.KILO
         IMPROVED_KILO = ships.IMPROVED_KILO
@@ -25134,7 +25134,7 @@ class USSR(Country):
         BDK_775 = ships.BDK_775
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -25196,40 +25196,40 @@ class ItalianSocialRepublic(Country):
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             TugHarlan_drivable = vehicles.Unarmed.TugHarlan_drivable
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -25252,7 +25252,7 @@ class ItalianSocialRepublic(Country):
             Elefant_SdKfz_184 = vehicles.Armor.Elefant_SdKfz_184
 
         class MissilesSS:
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -25385,10 +25385,10 @@ class ItalianSocialRepublic(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -25527,14 +25527,14 @@ class Algeria(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -25546,14 +25546,14 @@ class Algeria(Country):
             Paratrooper_RPG_16 = vehicles.Infantry.Paratrooper_RPG_16
 
         class AirDefence:
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
             S_300PS_54K6_cp = vehicles.AirDefence.S_300PS_54K6_cp
@@ -25567,22 +25567,22 @@ class Algeria(Country):
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -25593,11 +25593,11 @@ class Algeria(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -25633,8 +25633,8 @@ class Algeria(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -25647,8 +25647,8 @@ class Algeria(Country):
             T_72B = vehicles.Armor.T_72B
             T_90 = vehicles.Armor.T_90
             TPZ = vehicles.Armor.TPZ
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -25832,7 +25832,7 @@ class Algeria(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         ELNYA = ships.ELNYA
         ALBATROS = ships.ALBATROS
         MOLNIYA = ships.MOLNIYA
@@ -25843,7 +25843,7 @@ class Algeria(Country):
         REZKY = ships.REZKY
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -25982,7 +25982,7 @@ class Kuwait(Country):
         class Artillery:
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -25999,7 +25999,7 @@ class Kuwait(Country):
             Patriot_cp = vehicles.AirDefence.Patriot_cp
             Patriot_str = vehicles.AirDefence.Patriot_str
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -26008,11 +26008,11 @@ class Kuwait(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -26024,8 +26024,8 @@ class Kuwait(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -26038,8 +26038,8 @@ class Kuwait(Country):
             MCV_80 = vehicles.Armor.MCV_80
             M_1_Abrams = vehicles.Armor.M_1_Abrams
             Chieftain_mk3 = vehicles.Armor.Chieftain_mk3
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -26182,10 +26182,10 @@ class Kuwait(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -26323,32 +26323,32 @@ class Qatar(Country):
 
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Roland_ADS = vehicles.AirDefence.Roland_ADS
             Roland_Radar = vehicles.AirDefence.Roland_Radar
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -26360,16 +26360,16 @@ class Qatar(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             Daimler_AC = vehicles.Armor.Daimler_AC
             VAB_Mephisto = vehicles.Armor.VAB_Mephisto
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -26512,10 +26512,10 @@ class Qatar(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -26654,7 +26654,7 @@ class Oman(Country):
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -26669,28 +26669,28 @@ class Oman(Country):
             Patriot_EPP = vehicles.AirDefence.Patriot_EPP
             Patriot_ECS = vehicles.AirDefence.Patriot_ECS
             Patriot_cp = vehicles.AirDefence.Patriot_cp
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             NASAMS_Command_Post = vehicles.AirDefence.NASAMS_Command_Post
             NASAMS_Radar_MPQ64F1 = vehicles.AirDefence.NASAMS_Radar_MPQ64F1
             NASAMS_LN_B = vehicles.AirDefence.NASAMS_LN_B
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -26702,8 +26702,8 @@ class Oman(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
@@ -26714,8 +26714,8 @@ class Oman(Country):
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             BTR_80 = vehicles.Armor.BTR_80
             M_60 = vehicles.Armor.M_60
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -26861,12 +26861,12 @@ class Oman(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -27007,7 +27007,7 @@ class UnitedArabEmirates(Country):
             Grad_URAL = vehicles.Artillery.Grad_URAL
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -27019,26 +27019,26 @@ class UnitedArabEmirates(Country):
             Patriot_ECS = vehicles.AirDefence.Patriot_ECS
             Patriot_cp = vehicles.AirDefence.Patriot_cp
             M1097_Avenger = vehicles.AirDefence.M1097_Avenger
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_sr = vehicles.AirDefence.Hawk_sr
             Hawk_cwar = vehicles.AirDefence.Hawk_cwar
             Hawk_pcp = vehicles.AirDefence.Hawk_pcp
             Hawk_ln = vehicles.AirDefence.Hawk_ln
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -27051,8 +27051,8 @@ class UnitedArabEmirates(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
             Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
@@ -27062,8 +27062,8 @@ class UnitedArabEmirates(Country):
             TPZ = vehicles.Armor.TPZ
             Leclerc = vehicles.Armor.Leclerc
             Cobra = vehicles.Armor.Cobra
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -27221,12 +27221,12 @@ class UnitedArabEmirates(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -27363,25 +27363,25 @@ class SouthAfrica(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
-            Bofors40 = vehicles.AirDefence.Bofors40
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            bofors40 = vehicles.AirDefence.bofors40
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -27391,13 +27391,13 @@ class SouthAfrica(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -27542,12 +27542,12 @@ class SouthAfrica(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -27686,9 +27686,9 @@ class Cuba(Country):
         class Artillery:
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -27706,9 +27706,9 @@ class Cuba(Country):
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
@@ -27720,7 +27720,7 @@ class Cuba(Country):
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             KS_19 = vehicles.AirDefence.KS_19
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
@@ -27728,11 +27728,11 @@ class Cuba(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -27753,8 +27753,8 @@ class Cuba(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -27765,8 +27765,8 @@ class Cuba(Country):
             T_55 = vehicles.Armor.T_55
             BMD_1 = vehicles.Armor.BMD_1
             PT_76 = vehicles.Armor.PT_76
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -27930,7 +27930,7 @@ class Cuba(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         ELNYA = ships.ELNYA
         ALBATROS = ships.ALBATROS
         MOLNIYA = ships.MOLNIYA
@@ -27939,7 +27939,7 @@ class Cuba(Country):
         Dry_cargo_ship_2 = ships.Dry_cargo_ship_2
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -28077,7 +28077,7 @@ class Portugal(Country):
 
         class Artillery:
             M_109 = vehicles.Artillery.M_109
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -28086,19 +28086,19 @@ class Portugal(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Vulcan = vehicles.AirDefence.Vulcan
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -28107,8 +28107,8 @@ class Portugal(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -28119,8 +28119,8 @@ class Portugal(Country):
             Cromwell_IV = vehicles.Armor.Cromwell_IV
             Centaur_IV = vehicles.Armor.Centaur_IV
             M4_Tractor = vehicles.Armor.M4_Tractor
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -28267,10 +28267,10 @@ class Portugal(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -28407,7 +28407,7 @@ class GDR(Country):
     class Vehicle:
 
         class Artillery:
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
@@ -28424,9 +28424,9 @@ class GDR(Country):
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_300PS_5P85C_ln = vehicles.AirDefence.S_300PS_5P85C_ln
             S_300PS_5P85D_ln = vehicles.AirDefence.S_300PS_5P85D_ln
             S_300PS_54K6_cp = vehicles.AirDefence.S_300PS_54K6_cp
@@ -28443,7 +28443,7 @@ class GDR(Country):
             ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
             SON_9 = vehicles.AirDefence.SON_9
@@ -28451,11 +28451,11 @@ class GDR(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -28479,8 +28479,8 @@ class GDR(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -28635,10 +28635,10 @@ class GDR(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -28777,7 +28777,7 @@ class Lebanon(Country):
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             M_109 = vehicles.Artillery.M_109
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -28791,24 +28791,24 @@ class Lebanon(Country):
             Soldier_M4 = vehicles.Infantry.Soldier_M4
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -28822,8 +28822,8 @@ class Lebanon(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -28835,8 +28835,8 @@ class Lebanon(Country):
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             T_55 = vehicles.Armor.T_55
             VAB_Mephisto = vehicles.Armor.VAB_Mephisto
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -28977,12 +28977,12 @@ class Lebanon(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HandyWind = ships.HandyWind
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -29123,7 +29123,7 @@ class CombinedJointTaskForcesBlue(Country):
             Wespe124 = vehicles.Artillery.Wespe124
             Pak40 = vehicles.Artillery.Pak40
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
@@ -29136,7 +29136,7 @@ class CombinedJointTaskForcesBlue(Country):
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
             M12_GMC = vehicles.Artillery.M12_GMC
             M2A1_105 = vehicles.Artillery.M2A1_105
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -29145,7 +29145,7 @@ class CombinedJointTaskForcesBlue(Country):
             T155_Firtina = vehicles.Artillery.T155_Firtina
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
             Infantry_AK = vehicles.Infantry.Infantry_AK
             Infantry_AK_ver2 = vehicles.Infantry.Infantry_AK_ver2
             Infantry_AK_ver3 = vehicles.Infantry.Infantry_AK_ver3
@@ -29158,30 +29158,30 @@ class CombinedJointTaskForcesBlue(Country):
             JTAC = vehicles.Infantry.JTAC
             Soldier_M249 = vehicles.Infantry.Soldier_M249
             Soldier_M4_GRG = vehicles.Infantry.Soldier_M4_GRG
-            Soldier_wwii_us = vehicles.Infantry.Soldier_wwii_us
-            Soldier_wwii_br_01 = vehicles.Infantry.Soldier_wwii_br_01
+            soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
@@ -29196,7 +29196,7 @@ class CombinedJointTaskForcesBlue(Country):
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SNR_75V = vehicles.AirDefence.SNR_75V
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
@@ -29205,11 +29205,11 @@ class CombinedJointTaskForcesBlue(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
             SON_9 = vehicles.AirDefence.SON_9
@@ -29220,7 +29220,7 @@ class CombinedJointTaskForcesBlue(Country):
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             M1_37mm = vehicles.AirDefence.M1_37mm
             Vulcan = vehicles.AirDefence.Vulcan
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_sr = vehicles.AirDefence.Hawk_sr
@@ -29239,9 +29239,9 @@ class CombinedJointTaskForcesBlue(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
@@ -29266,22 +29266,22 @@ class CombinedJointTaskForcesBlue(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             TugHarlan_drivable = vehicles.Unarmed.TugHarlan_drivable
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -29370,8 +29370,8 @@ class CombinedJointTaskForcesBlue(Country):
             M4_Tractor = vehicles.Armor.M4_Tractor
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_113 = vehicles.Armor.M_113
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             TPZ = vehicles.Armor.TPZ
@@ -29384,7 +29384,7 @@ class CombinedJointTaskForcesBlue(Country):
             AAV7 = vehicles.Armor.AAV7
             Leopard1A3 = vehicles.Armor.Leopard1A3
             Leopard_2 = vehicles.Armor.Leopard_2
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
+            leopard_2A4 = vehicles.Armor.leopard_2A4
             T_72B3 = vehicles.Armor.T_72B3
             BTR_82A = vehicles.Armor.BTR_82A
             M_2_Bradley = vehicles.Armor.M_2_Bradley
@@ -29397,7 +29397,7 @@ class CombinedJointTaskForcesBlue(Country):
             ZBD04A = vehicles.Armor.ZBD04A
             ZTZ96B = vehicles.Armor.ZTZ96B
             TYPE_59 = vehicles.Armor.TYPE_59
-            Leopard_2A4_trs = vehicles.Armor.Leopard_2A4_trs
+            leopard_2A4_trs = vehicles.Armor.leopard_2A4_trs
             Challenger2 = vehicles.Armor.Challenger2
             M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             M1128_Stryker_MGS = vehicles.Armor.M1128_Stryker_MGS
@@ -29405,9 +29405,9 @@ class CombinedJointTaskForcesBlue(Country):
             MCV_80 = vehicles.Armor.MCV_80
 
         class MissilesSS:
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
             Scud_B = vehicles.MissilesSS.Scud_B
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -29744,10 +29744,10 @@ class CombinedJointTaskForcesBlue(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -29771,10 +29771,10 @@ class CombinedJointTaskForcesBlue(Country):
         PERRY = ships.PERRY
         PIOTR = ships.PIOTR
         CV_1143_5 = ships.CV_1143_5
-        Santafe = ships.Santafe
+        santafe = ships.santafe
         La_Combattante_II = ships.La_Combattante_II
-        Leander_gun_condell = ships.Leander_gun_condell
-        Leander_gun_lynch = ships.Leander_gun_lynch
+        leander_gun_condell = ships.leander_gun_condell
+        leander_gun_lynch = ships.leander_gun_lynch
         Type_052B = ships.Type_052B
         Type_052C = ships.Type_052C
         Type_054A = ships.Type_054A
@@ -29790,10 +29790,10 @@ class CombinedJointTaskForcesBlue(Country):
         CVN_75 = ships.CVN_75
         Forrestal = ships.Forrestal
         CastleClass_01 = ships.CastleClass_01
-        Hms_invincible = ships.Hms_invincible
-        Leander_gun_achilles = ships.Leander_gun_achilles
-        Leander_gun_andromeda = ships.Leander_gun_andromeda
-        Leander_gun_ariadne = ships.Leander_gun_ariadne
+        hms_invincible = ships.hms_invincible
+        leander_gun_achilles = ships.leander_gun_achilles
+        leander_gun_andromeda = ships.leander_gun_andromeda
+        leander_gun_ariadne = ships.leander_gun_ariadne
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -29934,7 +29934,7 @@ class CombinedJointTaskForcesRed(Country):
             Wespe124 = vehicles.Artillery.Wespe124
             Pak40 = vehicles.Artillery.Pak40
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
@@ -29947,7 +29947,7 @@ class CombinedJointTaskForcesRed(Country):
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
             M12_GMC = vehicles.Artillery.M12_GMC
             M2A1_105 = vehicles.Artillery.M2A1_105
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -29956,7 +29956,7 @@ class CombinedJointTaskForcesRed(Country):
             T155_Firtina = vehicles.Artillery.T155_Firtina
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
             Infantry_AK = vehicles.Infantry.Infantry_AK
             Infantry_AK_ver2 = vehicles.Infantry.Infantry_AK_ver2
             Infantry_AK_ver3 = vehicles.Infantry.Infantry_AK_ver3
@@ -29969,30 +29969,30 @@ class CombinedJointTaskForcesRed(Country):
             JTAC = vehicles.Infantry.JTAC
             Soldier_M249 = vehicles.Infantry.Soldier_M249
             Soldier_M4_GRG = vehicles.Infantry.Soldier_M4_GRG
-            Soldier_wwii_us = vehicles.Infantry.Soldier_wwii_us
-            Soldier_wwii_br_01 = vehicles.Infantry.Soldier_wwii_br_01
+            soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
@@ -30007,7 +30007,7 @@ class CombinedJointTaskForcesRed(Country):
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SNR_75V = vehicles.AirDefence.SNR_75V
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
@@ -30016,11 +30016,11 @@ class CombinedJointTaskForcesRed(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
             SON_9 = vehicles.AirDefence.SON_9
@@ -30031,7 +30031,7 @@ class CombinedJointTaskForcesRed(Country):
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             M1_37mm = vehicles.AirDefence.M1_37mm
             Vulcan = vehicles.AirDefence.Vulcan
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_sr = vehicles.AirDefence.Hawk_sr
@@ -30050,9 +30050,9 @@ class CombinedJointTaskForcesRed(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
@@ -30077,22 +30077,22 @@ class CombinedJointTaskForcesRed(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             TugHarlan_drivable = vehicles.Unarmed.TugHarlan_drivable
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -30181,8 +30181,8 @@ class CombinedJointTaskForcesRed(Country):
             M4_Tractor = vehicles.Armor.M4_Tractor
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_113 = vehicles.Armor.M_113
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             TPZ = vehicles.Armor.TPZ
@@ -30195,7 +30195,7 @@ class CombinedJointTaskForcesRed(Country):
             AAV7 = vehicles.Armor.AAV7
             Leopard1A3 = vehicles.Armor.Leopard1A3
             Leopard_2 = vehicles.Armor.Leopard_2
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
+            leopard_2A4 = vehicles.Armor.leopard_2A4
             T_72B3 = vehicles.Armor.T_72B3
             BTR_82A = vehicles.Armor.BTR_82A
             M_2_Bradley = vehicles.Armor.M_2_Bradley
@@ -30208,7 +30208,7 @@ class CombinedJointTaskForcesRed(Country):
             ZBD04A = vehicles.Armor.ZBD04A
             ZTZ96B = vehicles.Armor.ZTZ96B
             TYPE_59 = vehicles.Armor.TYPE_59
-            Leopard_2A4_trs = vehicles.Armor.Leopard_2A4_trs
+            leopard_2A4_trs = vehicles.Armor.leopard_2A4_trs
             Challenger2 = vehicles.Armor.Challenger2
             M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             M1128_Stryker_MGS = vehicles.Armor.M1128_Stryker_MGS
@@ -30216,9 +30216,9 @@ class CombinedJointTaskForcesRed(Country):
             MCV_80 = vehicles.Armor.MCV_80
 
         class MissilesSS:
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
             Scud_B = vehicles.MissilesSS.Scud_B
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -30555,10 +30555,10 @@ class CombinedJointTaskForcesRed(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -30582,10 +30582,10 @@ class CombinedJointTaskForcesRed(Country):
         PERRY = ships.PERRY
         PIOTR = ships.PIOTR
         CV_1143_5 = ships.CV_1143_5
-        Santafe = ships.Santafe
+        santafe = ships.santafe
         La_Combattante_II = ships.La_Combattante_II
-        Leander_gun_condell = ships.Leander_gun_condell
-        Leander_gun_lynch = ships.Leander_gun_lynch
+        leander_gun_condell = ships.leander_gun_condell
+        leander_gun_lynch = ships.leander_gun_lynch
         Type_052B = ships.Type_052B
         Type_052C = ships.Type_052C
         Type_054A = ships.Type_054A
@@ -30601,10 +30601,10 @@ class CombinedJointTaskForcesRed(Country):
         CVN_75 = ships.CVN_75
         Forrestal = ships.Forrestal
         CastleClass_01 = ships.CastleClass_01
-        Hms_invincible = ships.Hms_invincible
-        Leander_gun_achilles = ships.Leander_gun_achilles
-        Leander_gun_andromeda = ships.Leander_gun_andromeda
-        Leander_gun_ariadne = ships.Leander_gun_ariadne
+        hms_invincible = ships.hms_invincible
+        leander_gun_achilles = ships.leander_gun_achilles
+        leander_gun_andromeda = ships.leander_gun_andromeda
+        leander_gun_ariadne = ships.leander_gun_ariadne
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -30745,7 +30745,7 @@ class UnitedNationsPeacekeepers(Country):
             Wespe124 = vehicles.Artillery.Wespe124
             Pak40 = vehicles.Artillery.Pak40
             LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
@@ -30758,7 +30758,7 @@ class UnitedNationsPeacekeepers(Country):
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
             M12_GMC = vehicles.Artillery.M12_GMC
             M2A1_105 = vehicles.Artillery.M2A1_105
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -30767,7 +30767,7 @@ class UnitedNationsPeacekeepers(Country):
             T155_Firtina = vehicles.Artillery.T155_Firtina
 
         class Infantry:
-            Soldier_mauser98 = vehicles.Infantry.Soldier_mauser98
+            soldier_mauser98 = vehicles.Infantry.soldier_mauser98
             Infantry_AK = vehicles.Infantry.Infantry_AK
             Infantry_AK_ver2 = vehicles.Infantry.Infantry_AK_ver2
             Infantry_AK_ver3 = vehicles.Infantry.Infantry_AK_ver3
@@ -30780,30 +30780,30 @@ class UnitedNationsPeacekeepers(Country):
             JTAC = vehicles.Infantry.JTAC
             Soldier_M249 = vehicles.Infantry.Soldier_M249
             Soldier_M4_GRG = vehicles.Infantry.Soldier_M4_GRG
-            Soldier_wwii_us = vehicles.Infantry.Soldier_wwii_us
-            Soldier_wwii_br_01 = vehicles.Infantry.Soldier_wwii_br_01
+            soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
-            Flak18 = vehicles.AirDefence.Flak18
-            Flak30 = vehicles.AirDefence.Flak30
-            Flak36 = vehicles.AirDefence.Flak36
-            Flak37 = vehicles.AirDefence.Flak37
-            Flak38 = vehicles.AirDefence.Flak38
+            flak18 = vehicles.AirDefence.flak18
+            flak30 = vehicles.AirDefence.flak30
+            flak36 = vehicles.AirDefence.flak36
+            flak37 = vehicles.AirDefence.flak37
+            flak38 = vehicles.AirDefence.flak38
             KDO_Mod40 = vehicles.AirDefence.KDO_Mod40
             Flakscheinwerfer_37 = vehicles.AirDefence.Flakscheinwerfer_37
             Maschinensatz_33 = vehicles.AirDefence.Maschinensatz_33
-            Flak41 = vehicles.AirDefence.Flak41
+            flak41 = vehicles.AirDefence.flak41
             FuMG_401 = vehicles.AirDefence.FuMG_401
             FuSe_65 = vehicles.AirDefence.FuSe_65
-            X_1L13_EWR = vehicles.AirDefence.X_1L13_EWR
-            X_2S6_Tunguska = vehicles.AirDefence.X_2S6_Tunguska
-            X_55G6_EWR = vehicles.AirDefence.X_55G6_EWR
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
+            x_1L13_EWR = vehicles.AirDefence.x_1L13_EWR
+            x_2S6_Tunguska = vehicles.AirDefence.x_2S6_Tunguska
+            x_55G6_EWR = vehicles.AirDefence.x_55G6_EWR
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
             Dog_Ear_radar = vehicles.AirDefence.Dog_Ear_radar
             Kub_1S91_str = vehicles.AirDefence.Kub_1S91_str
             Kub_2P25_ln = vehicles.AirDefence.Kub_2P25_ln
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
@@ -30818,7 +30818,7 @@ class UnitedNationsPeacekeepers(Country):
             SA_11_Buk_SR_9S18M1 = vehicles.AirDefence.SA_11_Buk_SR_9S18M1
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SNR_75V = vehicles.AirDefence.SNR_75V
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
@@ -30827,11 +30827,11 @@ class UnitedNationsPeacekeepers(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             S_200_Launcher = vehicles.AirDefence.S_200_Launcher
             RPC_5N62V = vehicles.AirDefence.RPC_5N62V
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
-            Generator_5i57 = vehicles.AirDefence.Generator_5i57
+            generator_5i57 = vehicles.AirDefence.generator_5i57
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
             SON_9 = vehicles.AirDefence.SON_9
@@ -30842,7 +30842,7 @@ class UnitedNationsPeacekeepers(Country):
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             M1_37mm = vehicles.AirDefence.M1_37mm
             Vulcan = vehicles.AirDefence.Vulcan
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             Hawk_tr = vehicles.AirDefence.Hawk_tr
             Hawk_sr = vehicles.AirDefence.Hawk_sr
@@ -30861,9 +30861,9 @@ class UnitedNationsPeacekeepers(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
-            Rapier_fsa_launcher = vehicles.AirDefence.Rapier_fsa_launcher
-            Rapier_fsa_optical_tracker_unit = vehicles.AirDefence.Rapier_fsa_optical_tracker_unit
-            Rapier_fsa_blindfire_radar = vehicles.AirDefence.Rapier_fsa_blindfire_radar
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
@@ -30888,22 +30888,22 @@ class UnitedNationsPeacekeepers(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             SK_C_28_naval_gun = vehicles.Fortification.SK_C_28_naval_gun
-            Fire_control = vehicles.Fortification.Fire_control
+            fire_control = vehicles.Fortification.fire_control
 
         class Unarmed:
             TugHarlan_drivable = vehicles.Unarmed.TugHarlan_drivable
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
             Blitz_36_6700A = vehicles.Unarmed.Blitz_36_6700A
             Kubelwagen_82 = vehicles.Unarmed.Kubelwagen_82
@@ -30992,8 +30992,8 @@ class UnitedNationsPeacekeepers(Country):
             M4_Tractor = vehicles.Armor.M4_Tractor
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M_113 = vehicles.Armor.M_113
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             TPZ = vehicles.Armor.TPZ
@@ -31006,7 +31006,7 @@ class UnitedNationsPeacekeepers(Country):
             AAV7 = vehicles.Armor.AAV7
             Leopard1A3 = vehicles.Armor.Leopard1A3
             Leopard_2 = vehicles.Armor.Leopard_2
-            Leopard_2A4 = vehicles.Armor.Leopard_2A4
+            leopard_2A4 = vehicles.Armor.leopard_2A4
             T_72B3 = vehicles.Armor.T_72B3
             BTR_82A = vehicles.Armor.BTR_82A
             M_2_Bradley = vehicles.Armor.M_2_Bradley
@@ -31019,7 +31019,7 @@ class UnitedNationsPeacekeepers(Country):
             ZBD04A = vehicles.Armor.ZBD04A
             ZTZ96B = vehicles.Armor.ZTZ96B
             TYPE_59 = vehicles.Armor.TYPE_59
-            Leopard_2A4_trs = vehicles.Armor.Leopard_2A4_trs
+            leopard_2A4_trs = vehicles.Armor.leopard_2A4_trs
             Challenger2 = vehicles.Armor.Challenger2
             M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             M1128_Stryker_MGS = vehicles.Armor.M1128_Stryker_MGS
@@ -31027,9 +31027,9 @@ class UnitedNationsPeacekeepers(Country):
             MCV_80 = vehicles.Armor.MCV_80
 
         class MissilesSS:
-            V1_launcher = vehicles.MissilesSS.V1_launcher
+            v1_launcher = vehicles.MissilesSS.v1_launcher
             Scud_B = vehicles.MissilesSS.Scud_B
-            Hy_launcher = vehicles.MissilesSS.Hy_launcher
+            hy_launcher = vehicles.MissilesSS.hy_launcher
             Silkworm_SR = vehicles.MissilesSS.Silkworm_SR
 
         class Locomotive:
@@ -31366,10 +31366,10 @@ class UnitedNationsPeacekeepers(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -31393,10 +31393,10 @@ class UnitedNationsPeacekeepers(Country):
         PERRY = ships.PERRY
         PIOTR = ships.PIOTR
         CV_1143_5 = ships.CV_1143_5
-        Santafe = ships.Santafe
+        santafe = ships.santafe
         La_Combattante_II = ships.La_Combattante_II
-        Leander_gun_condell = ships.Leander_gun_condell
-        Leander_gun_lynch = ships.Leander_gun_lynch
+        leander_gun_condell = ships.leander_gun_condell
+        leander_gun_lynch = ships.leander_gun_lynch
         Type_052B = ships.Type_052B
         Type_052C = ships.Type_052C
         Type_054A = ships.Type_054A
@@ -31412,10 +31412,10 @@ class UnitedNationsPeacekeepers(Country):
         CVN_75 = ships.CVN_75
         Forrestal = ships.Forrestal
         CastleClass_01 = ships.CastleClass_01
-        Hms_invincible = ships.Hms_invincible
-        Leander_gun_achilles = ships.Leander_gun_achilles
-        Leander_gun_andromeda = ships.Leander_gun_andromeda
-        Leander_gun_ariadne = ships.Leander_gun_ariadne
+        hms_invincible = ships.hms_invincible
+        leander_gun_achilles = ships.leander_gun_achilles
+        leander_gun_andromeda = ships.leander_gun_andromeda
+        leander_gun_ariadne = ships.leander_gun_ariadne
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -31552,25 +31552,25 @@ class Argentina(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             Roland_ADS = vehicles.AirDefence.Roland_ADS
             Roland_Radar = vehicles.AirDefence.Roland_Radar
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -31581,8 +31581,8 @@ class Argentina(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -31591,8 +31591,8 @@ class Argentina(Country):
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             M_113 = vehicles.Armor.M_113
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -31739,11 +31739,11 @@ class Argentina(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Santafe = ships.Santafe
-        Ara_vdm = ships.Ara_vdm
+        santafe = ships.santafe
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -31882,7 +31882,7 @@ class Cyprus(Country):
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -31890,7 +31890,7 @@ class Cyprus(Country):
             Soldier_M4 = vehicles.Infantry.Soldier_M4
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             S_300PS_40B6M_tr = vehicles.AirDefence.S_300PS_40B6M_tr
             S_300PS_40B6MD_sr = vehicles.AirDefence.S_300PS_40B6MD_sr
             S_300PS_54K6_cp = vehicles.AirDefence.S_300PS_54K6_cp
@@ -31907,17 +31907,17 @@ class Cyprus(Country):
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -31929,16 +31929,16 @@ class Cyprus(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
             BMP_3 = vehicles.Armor.BMP_3
             T_80UD = vehicles.Armor.T_80UD
             VAB_Mephisto = vehicles.Armor.VAB_Mephisto
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -32077,10 +32077,10 @@ class Cyprus(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -32218,7 +32218,7 @@ class Slovenia(Country):
 
         class Artillery:
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -32231,17 +32231,17 @@ class Slovenia(Country):
             Roland_Radar = vehicles.AirDefence.Roland_Radar
             Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
@@ -32254,8 +32254,8 @@ class Slovenia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -32266,8 +32266,8 @@ class Slovenia(Country):
             MTLB = vehicles.Armor.MTLB
             T_55 = vehicles.Armor.T_55
             T_72B = vehicles.Armor.T_72B
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -32410,11 +32410,11 @@ class Slovenia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         MOLNIYA = ships.MOLNIYA
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -32551,7 +32551,7 @@ class Bolivia(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -32561,17 +32561,17 @@ class Bolivia(Country):
         class AirDefence:
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -32585,8 +32585,8 @@ class Bolivia(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -32595,8 +32595,8 @@ class Bolivia(Country):
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -32741,10 +32741,10 @@ class Bolivia(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -32881,7 +32881,7 @@ class Ghana(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -32893,17 +32893,17 @@ class Ghana(Country):
         class AirDefence:
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -32911,14 +32911,14 @@ class Ghana(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
             Cobra = vehicles.Armor.Cobra
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -33059,10 +33059,10 @@ class Ghana(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -33199,7 +33199,7 @@ class Nigeria(Country):
     class Vehicle:
 
         class Artillery:
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -33213,17 +33213,17 @@ class Nigeria(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -33232,8 +33232,8 @@ class Nigeria(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -33244,8 +33244,8 @@ class Nigeria(Country):
             T_72B = vehicles.Armor.T_72B
             BTR_80 = vehicles.Armor.BTR_80
             MTLB = vehicles.Armor.MTLB
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -33390,10 +33390,10 @@ class Nigeria(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -33532,7 +33532,7 @@ class Peru(Country):
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             M_109 = vehicles.Artillery.M_109
-            Tt_B8M1 = vehicles.Artillery.Tt_B8M1
+            tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -33542,26 +33542,26 @@ class Peru(Country):
             Infantry_AK_ver3 = vehicles.Infantry.Infantry_AK_ver3
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             SA_18_Igla_S_comm = vehicles.AirDefence.SA_18_Igla_S_comm
             SA_18_Igla_S_manpad = vehicles.AirDefence.SA_18_Igla_S_manpad
-            X_5p73_s_125_ln = vehicles.AirDefence.X_5p73_s_125_ln
-            P_19_s_125_sr = vehicles.AirDefence.P_19_s_125_sr
-            Snr_s_125_tr = vehicles.AirDefence.Snr_s_125_tr
+            x_5p73_s_125_ln = vehicles.AirDefence.x_5p73_s_125_ln
+            p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
+            snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
-            Tt_ZU_23 = vehicles.AirDefence.Tt_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -33569,8 +33569,8 @@ class Peru(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -33578,8 +33578,8 @@ class Peru(Country):
             M_113 = vehicles.Armor.M_113
             T_55 = vehicles.Armor.T_55
             M8_Greyhound = vehicles.Armor.M8_Greyhound
-            Tt_KORD = vehicles.Armor.Tt_KORD
-            Tt_DSHK = vehicles.Armor.Tt_DSHK
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
 
@@ -33736,10 +33736,10 @@ class Peru(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"
@@ -33877,11 +33877,11 @@ class Ecuador(Country):
 
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
-            X_2B11_mortar = vehicles.Artillery.X_2B11_mortar
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
-            Bofors40 = vehicles.AirDefence.Bofors40
+            bofors40 = vehicles.AirDefence.bofors40
             ZU_23_Emplacement_Closed = vehicles.AirDefence.ZU_23_Emplacement_Closed
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
@@ -33894,11 +33894,11 @@ class Ecuador(Country):
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
             Sandbox = vehicles.Fortification.Sandbox
-            House1arm = vehicles.Fortification.House1arm
-            House2arm = vehicles.Fortification.House2arm
-            Outpost_road = vehicles.Fortification.Outpost_road
-            Outpost = vehicles.Fortification.Outpost
-            HouseA_arm = vehicles.Fortification.HouseA_arm
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
             TACAN_beacon = vehicles.Fortification.TACAN_beacon
 
         class Unarmed:
@@ -33908,8 +33908,8 @@ class Ecuador(Country):
             B600_drivable = vehicles.Unarmed.B600_drivable
             MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
             P20_drivable = vehicles.Unarmed.P20_drivable
-            R11_volvo_drivable = vehicles.Unarmed.R11_volvo_drivable
-            Tacr2a = vehicles.Unarmed.Tacr2a
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
 
         class Armor:
@@ -34063,10 +34063,10 @@ class Ecuador(Country):
     ]
 
     class Ship:
-        Speedboat = ships.Speedboat
+        speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        Ara_vdm = ships.Ara_vdm
+        ara_vdm = ships.ara_vdm
 
     class CallsignAWACS:
         Overlord = "Overlord"

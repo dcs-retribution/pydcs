@@ -894,7 +894,7 @@ class Fortification:
         shape_name = "M92_Revetment_x8"
         rate = 1
 
-    class R11_volvo(unittype.StaticType):
+    class r11_volvo(unittype.StaticType):
         id = "r11_volvo"
         name = "M92 R11 Volvo"
         shape_name = "M92_r11_volvo"
@@ -1092,7 +1092,7 @@ class Fortification:
         shape_name = "WindTurbine_11"
         rate = 3
 
-    class Billboard_motorized(unittype.StaticType):
+    class billboard_motorized(unittype.StaticType):
         id = "billboard_motorized"
         name = "Billboard Motorized"
         shape_name = "billboard_motorized"
@@ -1104,7 +1104,7 @@ class Fortification:
         shape_name = "ST_LightHouse"
         rate = 3
 
-    class X_345_Excavator(unittype.StaticType):
+    class x_345_Excavator(unittype.StaticType):
         id = "345 Excavator"
         name = "Excavator"
         shape_name = "cat_345l"
@@ -1128,13 +1128,13 @@ class Fortification:
         shape_name = "Nodding_Donkey"
         rate = 3
 
-    class Offshore_WindTurbine(unittype.StaticType):
+    class offshore_WindTurbine(unittype.StaticType):
         id = "offshore WindTurbine"
         name = "Offshore Wind Turbine"
         shape_name = "offshore_windturbine"
         rate = 3
 
-    class Offshore_WindTurbine2(unittype.StaticType):
+    class offshore_WindTurbine2(unittype.StaticType):
         id = "offshore WindTurbine2"
         name = "Offshore Wind Turbine 2"
         shape_name = "offshore_windturbine2"
@@ -1164,13 +1164,13 @@ class Fortification:
         shape_name = "FarpHide_Dmed"
         rate = 3
 
-    class Container_40ft(unittype.StaticType):
+    class container_40ft(unittype.StaticType):
         id = "container_40ft"
         name = "Container 40ft"
         shape_name = "container_40ft"
         rate = 1
 
-    class Container_20ft(unittype.StaticType):
+    class container_20ft(unittype.StaticType):
         id = "container_20ft"
         name = "Container 20ft"
         shape_name = "container_20ft"
@@ -1182,13 +1182,13 @@ class Fortification:
         shape_name = "FlagPoleStatic"
         rate = 1
 
-    class Warning_board_a(unittype.StaticType):
+    class warning_board_a(unittype.StaticType):
         id = "warning_board_a"
         name = "Warning Board: Spy Cannot Escape!"
         shape_name = "biaoyu"
         rate = 1
 
-    class Warning_board_b(unittype.StaticType):
+    class warning_board_b(unittype.StaticType):
         id = "warning_board_b"
         name = "Warning Board: Catch Spy!"
         shape_name = "biaoyu-2"
@@ -1493,7 +1493,7 @@ fortification_map = {
     "P20_01": Fortification.P20_01,
     "Revetment_x4": Fortification.Revetment_x4,
     "Revetment_x8": Fortification.Revetment_x8,
-    "r11_volvo": Fortification.R11_volvo,
+    "r11_volvo": Fortification.r11_volvo,
     "Sandbag_01": Fortification.Sandbag_01,
     "Sandbag_02": Fortification.Sandbag_02,
     "Sandbag_03": Fortification.Sandbag_03,
@@ -1526,23 +1526,23 @@ fortification_map = {
     "Orca": Fortification.Orca,
     "WindTurbine": Fortification.WindTurbine,
     "WindTurbine_11": Fortification.WindTurbine_11,
-    "billboard_motorized": Fortification.Billboard_motorized,
+    "billboard_motorized": Fortification.billboard_motorized,
     "Stanley_LightHouse": Fortification.Stanley_LightHouse,
-    "345 Excavator": Fortification.X_345_Excavator,
+    "345 Excavator": Fortification.x_345_Excavator,
     "Tower Crane": Fortification.Tower_Crane,
     "Small_LightHouse": Fortification.Small_LightHouse,
     "Nodding_Donkey_Pump": Fortification.Nodding_Donkey_Pump,
-    "offshore WindTurbine": Fortification.Offshore_WindTurbine,
-    "offshore WindTurbine2": Fortification.Offshore_WindTurbine2,
+    "offshore WindTurbine": Fortification.offshore_WindTurbine,
+    "offshore WindTurbine2": Fortification.offshore_WindTurbine2,
     "FarpHide_small": Fortification.FarpHide_small,
     "FarpHide_Med": Fortification.FarpHide_Med,
     "FarpHide_Dsmall": Fortification.FarpHide_Dsmall,
     "FarpHide_Dmed": Fortification.FarpHide_Dmed,
-    "container_40ft": Fortification.Container_40ft,
-    "container_20ft": Fortification.Container_20ft,
+    "container_40ft": Fortification.container_40ft,
+    "container_20ft": Fortification.container_20ft,
     "FlagPole": Fortification.FlagPole,
-    "warning_board_a": Fortification.Warning_board_a,
-    "warning_board_b": Fortification.Warning_board_b,
+    "warning_board_a": Fortification.warning_board_a,
+    "warning_board_b": Fortification.warning_board_b,
     "Belgian gate": Fortification.Belgian_gate,
     "Concertina wire": Fortification.Concertina_wire,
     "Tetrahydra": Fortification.Tetrahydra,
@@ -1649,7 +1649,7 @@ warehouse_map = {
 
 class Cargo:
 
-    class Uh1h_cargo(unittype.StaticType):
+    class uh1h_cargo(unittype.StaticType):
         id = "uh1h_cargo"
         name = "UH-1H cargo"
         shape_name = "ab-212_cargo"
@@ -1657,7 +1657,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Ammo_cargo(unittype.StaticType):
+    class ammo_cargo(unittype.StaticType):
         id = "ammo_cargo"
         name = "Ammo"
         shape_name = "ammo_box_cargo"
@@ -1665,7 +1665,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class F_bar_cargo(unittype.StaticType):
+    class f_bar_cargo(unittype.StaticType):
         id = "f_bar_cargo"
         name = "F-shape barrier"
         shape_name = "f_bar_cargo"
@@ -1673,7 +1673,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class M117_cargo(unittype.StaticType):
+    class m117_cargo(unittype.StaticType):
         id = "m117_cargo"
         name = "M117 bombs"
         shape_name = "m117_cargo"
@@ -1681,7 +1681,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Iso_container(unittype.StaticType):
+    class iso_container(unittype.StaticType):
         id = "iso_container"
         name = "ISO container"
         shape_name = "iso_container_cargo"
@@ -1689,7 +1689,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Iso_container_small(unittype.StaticType):
+    class iso_container_small(unittype.StaticType):
         id = "iso_container_small"
         name = "ISO container small"
         shape_name = "iso_container_small_cargo"
@@ -1697,7 +1697,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Barrels_cargo(unittype.StaticType):
+    class barrels_cargo(unittype.StaticType):
         id = "barrels_cargo"
         name = "Barrels"
         shape_name = "barrels_cargo"
@@ -1705,7 +1705,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Container_cargo(unittype.StaticType):
+    class container_cargo(unittype.StaticType):
         id = "container_cargo"
         name = "Container"
         shape_name = "bw_container_cargo"
@@ -1713,7 +1713,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Tetrapod_cargo(unittype.StaticType):
+    class tetrapod_cargo(unittype.StaticType):
         id = "tetrapod_cargo"
         name = "Tetrapod"
         shape_name = "tetrapod_cargo"
@@ -1721,7 +1721,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Fueltank_cargo(unittype.StaticType):
+    class fueltank_cargo(unittype.StaticType):
         id = "fueltank_cargo"
         name = "Fueltank"
         shape_name = "fueltank_cargo"
@@ -1729,7 +1729,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Oiltank_cargo(unittype.StaticType):
+    class oiltank_cargo(unittype.StaticType):
         id = "oiltank_cargo"
         name = "Oiltank"
         shape_name = "oiltank_cargo"
@@ -1737,7 +1737,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Pipes_big_cargo(unittype.StaticType):
+    class pipes_big_cargo(unittype.StaticType):
         id = "pipes_big_cargo"
         name = "Pipes big"
         shape_name = "pipes_big_cargo"
@@ -1745,7 +1745,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Pipes_small_cargo(unittype.StaticType):
+    class pipes_small_cargo(unittype.StaticType):
         id = "pipes_small_cargo"
         name = "Pipes small"
         shape_name = "pipes_small_cargo"
@@ -1753,7 +1753,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Trunks_small_cargo(unittype.StaticType):
+    class trunks_small_cargo(unittype.StaticType):
         id = "trunks_small_cargo"
         name = "Trunks short"
         shape_name = "trunks_small_cargo"
@@ -1761,7 +1761,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class Trunks_long_cargo(unittype.StaticType):
+    class trunks_long_cargo(unittype.StaticType):
         id = "trunks_long_cargo"
         name = "Trunks long"
         shape_name = "trunks_long_cargo"
@@ -1769,7 +1769,7 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class L118(unittype.StaticType):
+    class l118(unittype.StaticType):
         id = "l118"
         name = "L118 Light Artillery"
         shape_name = "l118_cargo"
@@ -1778,22 +1778,22 @@ class Cargo:
         can_cargo = True
 
 cargo_map = {
-    "uh1h_cargo": Cargo.Uh1h_cargo,
-    "ammo_cargo": Cargo.Ammo_cargo,
-    "f_bar_cargo": Cargo.F_bar_cargo,
-    "m117_cargo": Cargo.M117_cargo,
-    "iso_container": Cargo.Iso_container,
-    "iso_container_small": Cargo.Iso_container_small,
-    "barrels_cargo": Cargo.Barrels_cargo,
-    "container_cargo": Cargo.Container_cargo,
-    "tetrapod_cargo": Cargo.Tetrapod_cargo,
-    "fueltank_cargo": Cargo.Fueltank_cargo,
-    "oiltank_cargo": Cargo.Oiltank_cargo,
-    "pipes_big_cargo": Cargo.Pipes_big_cargo,
-    "pipes_small_cargo": Cargo.Pipes_small_cargo,
-    "trunks_small_cargo": Cargo.Trunks_small_cargo,
-    "trunks_long_cargo": Cargo.Trunks_long_cargo,
-    "l118": Cargo.L118,
+    "uh1h_cargo": Cargo.uh1h_cargo,
+    "ammo_cargo": Cargo.ammo_cargo,
+    "f_bar_cargo": Cargo.f_bar_cargo,
+    "m117_cargo": Cargo.m117_cargo,
+    "iso_container": Cargo.iso_container,
+    "iso_container_small": Cargo.iso_container_small,
+    "barrels_cargo": Cargo.barrels_cargo,
+    "container_cargo": Cargo.container_cargo,
+    "tetrapod_cargo": Cargo.tetrapod_cargo,
+    "fueltank_cargo": Cargo.fueltank_cargo,
+    "oiltank_cargo": Cargo.oiltank_cargo,
+    "pipes_big_cargo": Cargo.pipes_big_cargo,
+    "pipes_small_cargo": Cargo.pipes_small_cargo,
+    "trunks_small_cargo": Cargo.trunks_small_cargo,
+    "trunks_long_cargo": Cargo.trunks_long_cargo,
+    "l118": Cargo.l118,
 }
 
 
