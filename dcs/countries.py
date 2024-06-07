@@ -13,7 +13,6 @@ class Russia(Country):
     shortname = "RUS"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
@@ -495,6 +494,7 @@ class Russia(Country):
         Mi_28N = helicopters.Mi_28N
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -509,6 +509,7 @@ class Russia(Country):
         Helicopter.Mi_28N,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -627,12 +628,12 @@ class Russia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -642,7 +643,7 @@ class Russia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.Otkrytka,
@@ -654,7 +655,7 @@ class Russia(Country):
             CallsignHelipad.Kaemka,
             CallsignHelipad.Podkova,
             CallsignHelipad.Skala,
-            CallsignHelipad.Kapel
+            CallsignHelipad.Kapel,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -675,20 +676,13 @@ class Russia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.A01,
-            CallsignGrassAirfield.B01
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.A01, CallsignGrassAirfield.B01],
     }
 
     def __init__(self):
-        super(Russia, self).__init__(
-            Russia.id,
-            Russia.name,
-            Russia.shortname
-        )
+        super(Russia, self).__init__(Russia.id, Russia.name, Russia.shortname)
 
 
 class Ukraine(Country):
@@ -697,7 +691,6 @@ class Ukraine(Country):
     shortname = "UKR"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -1174,6 +1167,7 @@ class Ukraine(Country):
         Ka_27 = helicopters.Ka_27
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -1187,6 +1181,7 @@ class Ukraine(Country):
         Helicopter.Ka_27,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -1251,20 +1246,13 @@ class Ukraine(Country):
             CallsignHelipad.Kaemka,
             CallsignHelipad.Podkova,
             CallsignHelipad.Skala,
-            CallsignHelipad.Kapel
+            CallsignHelipad.Kapel,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.A01,
-            CallsignGrassAirfield.B01
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.A01, CallsignGrassAirfield.B01],
     }
 
     def __init__(self):
-        super(Ukraine, self).__init__(
-            Ukraine.id,
-            Ukraine.name,
-            Ukraine.shortname
-        )
+        super(Ukraine, self).__init__(Ukraine.id, Ukraine.name, Ukraine.shortname)
 
 
 class USA(Country):
@@ -1273,7 +1261,6 @@ class USA(Country):
     shortname = "USA"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             M_109 = vehicles.Artillery.M_109
@@ -1313,7 +1300,9 @@ class USA(Country):
             Roland_ADS = vehicles.AirDefence.Roland_ADS
             Roland_Radar = vehicles.AirDefence.Roland_Radar
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             M1_37mm = vehicles.AirDefence.M1_37mm
@@ -1715,6 +1704,7 @@ class USA(Country):
         UH_1H = helicopters.UH_1H
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -1733,6 +1723,7 @@ class USA(Country):
         Helicopter.UH_1H,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -1848,12 +1839,12 @@ class USA(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -1863,7 +1854,7 @@ class USA(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -1875,7 +1866,7 @@ class USA(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -1896,19 +1887,13 @@ class USA(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(USA, self).__init__(
-            USA.id,
-            USA.name,
-            USA.shortname
-        )
+        super(USA, self).__init__(USA.id, USA.name, USA.shortname)
 
 
 class Turkey(Country):
@@ -1917,7 +1902,6 @@ class Turkey(Country):
     shortname = "TUR"
 
     class Vehicle:
-
         class Artillery:
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
@@ -1940,7 +1924,9 @@ class Turkey(Country):
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -2214,6 +2200,7 @@ class Turkey(Country):
         UH_1H = helicopters.UH_1H
         CH_47D = helicopters.CH_47D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -2227,6 +2214,7 @@ class Turkey(Country):
         Helicopter.UH_1H,
         Helicopter.CH_47D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -2316,12 +2304,12 @@ class Turkey(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -2331,7 +2319,7 @@ class Turkey(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -2343,7 +2331,7 @@ class Turkey(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -2364,19 +2352,13 @@ class Turkey(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Turkey, self).__init__(
-            Turkey.id,
-            Turkey.name,
-            Turkey.shortname
-        )
+        super(Turkey, self).__init__(Turkey.id, Turkey.name, Turkey.shortname)
 
 
 class UK(Country):
@@ -2385,7 +2367,6 @@ class UK(Country):
     shortname = "UK"
 
     class Vehicle:
-
         class Artillery:
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
@@ -2404,7 +2385,9 @@ class UK(Country):
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             QF_37_AA = vehicles.AirDefence.QF_37_AA
@@ -2702,6 +2685,7 @@ class UK(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -2715,6 +2699,7 @@ class UK(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -2812,14 +2797,11 @@ class UK(Country):
         New_York = "New York"
 
     callsign = {
-        "AWACS": [
-            CallsignAWACS.Solex,
-            CallsignAWACS.Image
-        ],
+        "AWACS": [CallsignAWACS.Solex, CallsignAWACS.Image],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -2829,7 +2811,7 @@ class UK(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -2841,7 +2823,7 @@ class UK(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -2862,19 +2844,13 @@ class UK(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(UK, self).__init__(
-            UK.id,
-            UK.name,
-            UK.shortname
-        )
+        super(UK, self).__init__(UK.id, UK.name, UK.shortname)
 
 
 class France(Country):
@@ -2883,7 +2859,6 @@ class France(Country):
     shortname = "FRA"
 
     class Vehicle:
-
         class Artillery:
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
@@ -3193,6 +3168,7 @@ class France(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -3203,6 +3179,7 @@ class France(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -3288,14 +3265,11 @@ class France(Country):
         New_York = "New York"
 
     callsign = {
-        "AWACS": [
-            CallsignAWACS.Cyrano,
-            CallsignAWACS.Roxanne
-        ],
+        "AWACS": [CallsignAWACS.Cyrano, CallsignAWACS.Roxanne],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -3305,7 +3279,7 @@ class France(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -3317,7 +3291,7 @@ class France(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -3338,19 +3312,13 @@ class France(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(France, self).__init__(
-            France.id,
-            France.name,
-            France.shortname
-        )
+        super(France, self).__init__(France.id, France.name, France.shortname)
 
 
 class Germany(Country):
@@ -3359,7 +3327,6 @@ class Germany(Country):
     shortname = "GER"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -3417,7 +3384,9 @@ class Germany(Country):
             S_300PS_5H63C_30H6_tr = vehicles.AirDefence.S_300PS_5H63C_30H6_tr
             S_300PS_40B6MD_sr_19J6 = vehicles.AirDefence.S_300PS_40B6MD_sr_19J6
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
@@ -3821,6 +3790,7 @@ class Germany(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -3831,6 +3801,7 @@ class Germany(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -3924,12 +3895,12 @@ class Germany(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -3939,7 +3910,7 @@ class Germany(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -3951,7 +3922,7 @@ class Germany(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -3972,19 +3943,13 @@ class Germany(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Germany, self).__init__(
-            Germany.id,
-            Germany.name,
-            Germany.shortname
-        )
+        super(Germany, self).__init__(Germany.id, Germany.name, Germany.shortname)
 
 
 class USAFAggressors(Country):
@@ -3993,7 +3958,6 @@ class USAFAggressors(Country):
     shortname = "AUSAF"
 
     class Vehicle:
-
         class Artillery:
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -4116,7 +4080,9 @@ class USAFAggressors(Country):
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -4885,6 +4851,7 @@ class USAFAggressors(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -4907,6 +4874,7 @@ class USAFAggressors(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -5096,12 +5064,12 @@ class USAFAggressors(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -5111,7 +5079,7 @@ class USAFAggressors(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -5123,7 +5091,7 @@ class USAFAggressors(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -5144,18 +5112,14 @@ class USAFAggressors(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(USAFAggressors, self).__init__(
-            USAFAggressors.id,
-            USAFAggressors.name,
-            USAFAggressors.shortname
+            USAFAggressors.id, USAFAggressors.name, USAFAggressors.shortname
         )
 
 
@@ -5165,7 +5129,6 @@ class Canada(Country):
     shortname = "CAN"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -5450,6 +5413,7 @@ class Canada(Country):
         UH_1H = helicopters.UH_1H
         CH_47D = helicopters.CH_47D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -5461,6 +5425,7 @@ class Canada(Country):
         Helicopter.UH_1H,
         Helicopter.CH_47D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -5552,12 +5517,12 @@ class Canada(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -5567,7 +5532,7 @@ class Canada(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -5579,7 +5544,7 @@ class Canada(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -5600,19 +5565,13 @@ class Canada(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Canada, self).__init__(
-            Canada.id,
-            Canada.name,
-            Canada.shortname
-        )
+        super(Canada, self).__init__(Canada.id, Canada.name, Canada.shortname)
 
 
 class Spain(Country):
@@ -5621,7 +5580,6 @@ class Spain(Country):
     shortname = "SPN"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
@@ -5910,6 +5868,7 @@ class Spain(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -5921,6 +5880,7 @@ class Spain(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -6010,12 +5970,12 @@ class Spain(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -6025,7 +5985,7 @@ class Spain(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -6037,7 +5997,7 @@ class Spain(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -6058,19 +6018,13 @@ class Spain(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Spain, self).__init__(
-            Spain.id,
-            Spain.name,
-            Spain.shortname
-        )
+        super(Spain, self).__init__(Spain.id, Spain.name, Spain.shortname)
 
 
 class TheNetherlands(Country):
@@ -6079,7 +6033,6 @@ class TheNetherlands(Country):
     shortname = "NETH"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -6106,7 +6059,9 @@ class TheNetherlands(Country):
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             bofors40 = vehicles.AirDefence.bofors40
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             Gepard = vehicles.AirDefence.Gepard
             NASAMS_Command_Post = vehicles.AirDefence.NASAMS_Command_Post
@@ -6416,6 +6371,7 @@ class TheNetherlands(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -6429,6 +6385,7 @@ class TheNetherlands(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -6522,12 +6479,12 @@ class TheNetherlands(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -6537,7 +6494,7 @@ class TheNetherlands(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -6549,7 +6506,7 @@ class TheNetherlands(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -6570,18 +6527,14 @@ class TheNetherlands(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(TheNetherlands, self).__init__(
-            TheNetherlands.id,
-            TheNetherlands.name,
-            TheNetherlands.shortname
+            TheNetherlands.id, TheNetherlands.name, TheNetherlands.shortname
         )
 
 
@@ -6591,7 +6544,6 @@ class Belgium(Country):
     shortname = "BEL"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -6881,6 +6833,7 @@ class Belgium(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -6891,6 +6844,7 @@ class Belgium(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -6982,12 +6936,12 @@ class Belgium(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -6997,7 +6951,7 @@ class Belgium(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -7009,7 +6963,7 @@ class Belgium(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -7030,19 +6984,13 @@ class Belgium(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Belgium, self).__init__(
-            Belgium.id,
-            Belgium.name,
-            Belgium.shortname
-        )
+        super(Belgium, self).__init__(Belgium.id, Belgium.name, Belgium.shortname)
 
 
 class Norway(Country):
@@ -7051,7 +6999,6 @@ class Norway(Country):
     shortname = "NOR"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -7311,6 +7258,7 @@ class Norway(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -7321,6 +7269,7 @@ class Norway(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -7408,12 +7357,12 @@ class Norway(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -7423,7 +7372,7 @@ class Norway(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -7435,7 +7384,7 @@ class Norway(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -7456,19 +7405,13 @@ class Norway(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Norway, self).__init__(
-            Norway.id,
-            Norway.name,
-            Norway.shortname
-        )
+        super(Norway, self).__init__(Norway.id, Norway.name, Norway.shortname)
 
 
 class Denmark(Country):
@@ -7477,7 +7420,6 @@ class Denmark(Country):
     shortname = "DEN"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -7737,6 +7679,7 @@ class Denmark(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -7747,6 +7690,7 @@ class Denmark(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -7830,12 +7774,12 @@ class Denmark(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -7845,7 +7789,7 @@ class Denmark(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -7857,7 +7801,7 @@ class Denmark(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -7878,19 +7822,13 @@ class Denmark(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Denmark, self).__init__(
-            Denmark.id,
-            Denmark.name,
-            Denmark.shortname
-        )
+        super(Denmark, self).__init__(Denmark.id, Denmark.name, Denmark.shortname)
 
 
 class Israel(Country):
@@ -7899,7 +7837,6 @@ class Israel(Country):
     shortname = "ISR"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -8199,6 +8136,7 @@ class Israel(Country):
         UH_1H = helicopters.UH_1H
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -8213,6 +8151,7 @@ class Israel(Country):
         Helicopter.UH_1H,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -8300,12 +8239,12 @@ class Israel(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -8315,7 +8254,7 @@ class Israel(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -8327,7 +8266,7 @@ class Israel(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -8348,19 +8287,13 @@ class Israel(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Israel, self).__init__(
-            Israel.id,
-            Israel.name,
-            Israel.shortname
-        )
+        super(Israel, self).__init__(Israel.id, Israel.name, Israel.shortname)
 
 
 class Georgia(Country):
@@ -8369,7 +8302,6 @@ class Georgia(Country):
     shortname = "GRG"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -8740,6 +8672,7 @@ class Georgia(Country):
         Mi_8MT = helicopters.Mi_8MT
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -8751,6 +8684,7 @@ class Georgia(Country):
         Helicopter.Mi_8MT,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -8848,12 +8782,12 @@ class Georgia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -8863,7 +8797,7 @@ class Georgia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -8875,7 +8809,7 @@ class Georgia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -8896,19 +8830,13 @@ class Georgia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Georgia, self).__init__(
-            Georgia.id,
-            Georgia.name,
-            Georgia.shortname
-        )
+        super(Georgia, self).__init__(Georgia.id, Georgia.name, Georgia.shortname)
 
 
 class Insurgents(Country):
@@ -8917,7 +8845,6 @@ class Insurgents(Country):
     shortname = "INS"
 
     class Vehicle:
-
         class Artillery:
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
             SAU_2_C9 = vehicles.Artillery.SAU_2_C9
@@ -9201,6 +9128,7 @@ class Insurgents(Country):
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
         Ka_50 = helicopters.Ka_50
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -9211,6 +9139,7 @@ class Insurgents(Country):
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
         Helicopter.Ka_50,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -9267,19 +9196,14 @@ class Insurgents(Country):
             CallsignHelipad.Kaemka,
             CallsignHelipad.Podkova,
             CallsignHelipad.Skala,
-            CallsignHelipad.Kapel
+            CallsignHelipad.Kapel,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.A01,
-            CallsignGrassAirfield.B01
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.A01, CallsignGrassAirfield.B01],
     }
 
     def __init__(self):
         super(Insurgents, self).__init__(
-            Insurgents.id,
-            Insurgents.name,
-            Insurgents.shortname
+            Insurgents.id, Insurgents.name, Insurgents.shortname
         )
 
 
@@ -9289,7 +9213,6 @@ class Abkhazia(Country):
     shortname = "ABH"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -9610,6 +9533,7 @@ class Abkhazia(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -9621,6 +9545,7 @@ class Abkhazia(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -9677,20 +9602,13 @@ class Abkhazia(Country):
             CallsignHelipad.Kaemka,
             CallsignHelipad.Podkova,
             CallsignHelipad.Skala,
-            CallsignHelipad.Kapel
+            CallsignHelipad.Kapel,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.A01,
-            CallsignGrassAirfield.B01
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.A01, CallsignGrassAirfield.B01],
     }
 
     def __init__(self):
-        super(Abkhazia, self).__init__(
-            Abkhazia.id,
-            Abkhazia.name,
-            Abkhazia.shortname
-        )
+        super(Abkhazia, self).__init__(Abkhazia.id, Abkhazia.name, Abkhazia.shortname)
 
 
 class SouthOssetia(Country):
@@ -9699,7 +9617,6 @@ class SouthOssetia(Country):
     shortname = "RSO"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -9996,6 +9913,7 @@ class SouthOssetia(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -10007,6 +9925,7 @@ class SouthOssetia(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -10051,19 +9970,14 @@ class SouthOssetia(Country):
             CallsignHelipad.Kaemka,
             CallsignHelipad.Podkova,
             CallsignHelipad.Skala,
-            CallsignHelipad.Kapel
+            CallsignHelipad.Kapel,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.A01,
-            CallsignGrassAirfield.B01
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.A01, CallsignGrassAirfield.B01],
     }
 
     def __init__(self):
         super(SouthOssetia, self).__init__(
-            SouthOssetia.id,
-            SouthOssetia.name,
-            SouthOssetia.shortname
+            SouthOssetia.id, SouthOssetia.name, SouthOssetia.shortname
         )
 
 
@@ -10073,7 +9987,6 @@ class Italy(Country):
     shortname = "ITA"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -10348,6 +10261,7 @@ class Italy(Country):
         UH_1H = helicopters.UH_1H
         CH_47D = helicopters.CH_47D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -10359,6 +10273,7 @@ class Italy(Country):
         Helicopter.UH_1H,
         Helicopter.CH_47D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -10446,12 +10361,12 @@ class Italy(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -10461,7 +10376,7 @@ class Italy(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -10473,7 +10388,7 @@ class Italy(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -10494,19 +10409,13 @@ class Italy(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Italy, self).__init__(
-            Italy.id,
-            Italy.name,
-            Italy.shortname
-        )
+        super(Italy, self).__init__(Italy.id, Italy.name, Italy.shortname)
 
 
 class Australia(Country):
@@ -10515,7 +10424,6 @@ class Australia(Country):
     shortname = "AUS"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -10529,7 +10437,9 @@ class Australia(Country):
         class AirDefence:
             bofors40 = vehicles.AirDefence.bofors40
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             QF_37_AA = vehicles.AirDefence.QF_37_AA
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
@@ -10805,6 +10715,7 @@ class Australia(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -10817,6 +10728,7 @@ class Australia(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -10912,12 +10824,12 @@ class Australia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -10927,7 +10839,7 @@ class Australia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -10939,7 +10851,7 @@ class Australia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -10960,18 +10872,14 @@ class Australia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(Australia, self).__init__(
-            Australia.id,
-            Australia.name,
-            Australia.shortname
+            Australia.id, Australia.name, Australia.shortname
         )
 
 
@@ -10981,7 +10889,6 @@ class Switzerland(Country):
     shortname = "SUI"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -10993,7 +10900,9 @@ class Switzerland(Country):
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             bofors40 = vehicles.AirDefence.bofors40
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
@@ -11205,6 +11114,7 @@ class Switzerland(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -11213,6 +11123,7 @@ class Switzerland(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -11296,12 +11207,12 @@ class Switzerland(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -11311,7 +11222,7 @@ class Switzerland(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -11323,7 +11234,7 @@ class Switzerland(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -11344,18 +11255,14 @@ class Switzerland(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(Switzerland, self).__init__(
-            Switzerland.id,
-            Switzerland.name,
-            Switzerland.shortname
+            Switzerland.id, Switzerland.name, Switzerland.shortname
         )
 
 
@@ -11365,7 +11272,6 @@ class Austria(Country):
     shortname = "AUT"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -11578,6 +11484,7 @@ class Austria(Country):
         Ka_50 = helicopters.Ka_50
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -11587,6 +11494,7 @@ class Austria(Country):
         Helicopter.Ka_50,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -11670,12 +11578,12 @@ class Austria(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -11685,7 +11593,7 @@ class Austria(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -11697,7 +11605,7 @@ class Austria(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -11718,19 +11626,13 @@ class Austria(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Austria, self).__init__(
-            Austria.id,
-            Austria.name,
-            Austria.shortname
-        )
+        super(Austria, self).__init__(Austria.id, Austria.name, Austria.shortname)
 
 
 class Belarus(Country):
@@ -11739,7 +11641,6 @@ class Belarus(Country):
     shortname = "BLR"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
@@ -12150,6 +12051,7 @@ class Belarus(Country):
         Mi_8MT = helicopters.Mi_8MT
         Mi_26 = helicopters.Mi_26
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -12161,6 +12063,7 @@ class Belarus(Country):
         Helicopter.Mi_8MT,
         Helicopter.Mi_26,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -12207,20 +12110,13 @@ class Belarus(Country):
             CallsignHelipad.Kaemka,
             CallsignHelipad.Podkova,
             CallsignHelipad.Skala,
-            CallsignHelipad.Kapel
+            CallsignHelipad.Kapel,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.A01,
-            CallsignGrassAirfield.B01
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.A01, CallsignGrassAirfield.B01],
     }
 
     def __init__(self):
-        super(Belarus, self).__init__(
-            Belarus.id,
-            Belarus.name,
-            Belarus.shortname
-        )
+        super(Belarus, self).__init__(Belarus.id, Belarus.name, Belarus.shortname)
 
 
 class Bulgaria(Country):
@@ -12229,7 +12125,6 @@ class Bulgaria(Country):
     shortname = "BGR"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -12621,6 +12516,7 @@ class Bulgaria(Country):
         Mi_24V = helicopters.Mi_24V
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -12631,6 +12527,7 @@ class Bulgaria(Country):
         Helicopter.Mi_24V,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -12718,12 +12615,12 @@ class Bulgaria(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -12733,7 +12630,7 @@ class Bulgaria(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -12745,7 +12642,7 @@ class Bulgaria(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -12766,19 +12663,13 @@ class Bulgaria(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Bulgaria, self).__init__(
-            Bulgaria.id,
-            Bulgaria.name,
-            Bulgaria.shortname
-        )
+        super(Bulgaria, self).__init__(Bulgaria.id, Bulgaria.name, Bulgaria.shortname)
 
 
 class CzechRepublic(Country):
@@ -12787,7 +12678,6 @@ class CzechRepublic(Country):
     shortname = "CZE"
 
     class Vehicle:
-
         class Artillery:
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -13099,6 +12989,7 @@ class CzechRepublic(Country):
         Mi_24V = helicopters.Mi_24V
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -13109,6 +13000,7 @@ class CzechRepublic(Country):
         Helicopter.Mi_24V,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -13198,12 +13090,12 @@ class CzechRepublic(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -13213,7 +13105,7 @@ class CzechRepublic(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -13225,7 +13117,7 @@ class CzechRepublic(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -13246,18 +13138,14 @@ class CzechRepublic(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(CzechRepublic, self).__init__(
-            CzechRepublic.id,
-            CzechRepublic.name,
-            CzechRepublic.shortname
+            CzechRepublic.id, CzechRepublic.name, CzechRepublic.shortname
         )
 
 
@@ -13267,7 +13155,6 @@ class China(Country):
     shortname = "CHN"
 
     class Vehicle:
-
         class Artillery:
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
@@ -13568,6 +13455,7 @@ class China(Country):
         Mi_26 = helicopters.Mi_26
         Ka_27 = helicopters.Ka_27
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -13579,6 +13467,7 @@ class China(Country):
         Helicopter.Mi_26,
         Helicopter.Ka_27,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -13641,20 +13530,13 @@ class China(Country):
             CallsignHelipad.Kaemka,
             CallsignHelipad.Podkova,
             CallsignHelipad.Skala,
-            CallsignHelipad.Kapel
+            CallsignHelipad.Kapel,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.A01,
-            CallsignGrassAirfield.B01
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.A01, CallsignGrassAirfield.B01],
     }
 
     def __init__(self):
-        super(China, self).__init__(
-            China.id,
-            China.name,
-            China.shortname
-        )
+        super(China, self).__init__(China.id, China.name, China.shortname)
 
 
 class Croatia(Country):
@@ -13663,7 +13545,6 @@ class Croatia(Country):
     shortname = "HRV"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
@@ -13884,6 +13765,7 @@ class Croatia(Country):
         Mi_8MT = helicopters.Mi_8MT
         OH_58D = helicopters.OH_58D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -13895,6 +13777,7 @@ class Croatia(Country):
         Helicopter.Mi_8MT,
         Helicopter.OH_58D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -13978,12 +13861,12 @@ class Croatia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -13993,7 +13876,7 @@ class Croatia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -14005,7 +13888,7 @@ class Croatia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -14026,19 +13909,13 @@ class Croatia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Croatia, self).__init__(
-            Croatia.id,
-            Croatia.name,
-            Croatia.shortname
-        )
+        super(Croatia, self).__init__(Croatia.id, Croatia.name, Croatia.shortname)
 
 
 class Egypt(Country):
@@ -14047,7 +13924,6 @@ class Egypt(Country):
     shortname = "EGY"
 
     class Vehicle:
-
         class Artillery:
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -14431,6 +14307,7 @@ class Egypt(Country):
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
         Mi_8MT = helicopters.Mi_8MT
         Mi_24V = helicopters.Mi_24V
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -14445,6 +14322,7 @@ class Egypt(Country):
         Helicopter.AH_64D_BLK_II,
         Helicopter.Mi_8MT,
         Helicopter.Mi_24V,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -14532,12 +14410,12 @@ class Egypt(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -14547,7 +14425,7 @@ class Egypt(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -14559,7 +14437,7 @@ class Egypt(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -14580,19 +14458,13 @@ class Egypt(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Egypt, self).__init__(
-            Egypt.id,
-            Egypt.name,
-            Egypt.shortname
-        )
+        super(Egypt, self).__init__(Egypt.id, Egypt.name, Egypt.shortname)
 
 
 class Finland(Country):
@@ -14601,7 +14473,6 @@ class Finland(Country):
     shortname = "FIN"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             MLRS = vehicles.Artillery.MLRS
@@ -14945,6 +14816,7 @@ class Finland(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -14953,6 +14825,7 @@ class Finland(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -15040,12 +14913,12 @@ class Finland(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -15055,7 +14928,7 @@ class Finland(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -15067,7 +14940,7 @@ class Finland(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -15088,19 +14961,13 @@ class Finland(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Finland, self).__init__(
-            Finland.id,
-            Finland.name,
-            Finland.shortname
-        )
+        super(Finland, self).__init__(Finland.id, Finland.name, Finland.shortname)
 
 
 class Greece(Country):
@@ -15109,7 +14976,6 @@ class Greece(Country):
     shortname = "GRC"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -15433,6 +15299,7 @@ class Greece(Country):
         SH_60B = helicopters.SH_60B
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -15447,6 +15314,7 @@ class Greece(Country):
         Helicopter.SH_60B,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -15532,12 +15400,12 @@ class Greece(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -15547,7 +15415,7 @@ class Greece(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -15559,7 +15427,7 @@ class Greece(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -15580,19 +15448,13 @@ class Greece(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Greece, self).__init__(
-            Greece.id,
-            Greece.name,
-            Greece.shortname
-        )
+        super(Greece, self).__init__(Greece.id, Greece.name, Greece.shortname)
 
 
 class Hungary(Country):
@@ -15601,7 +15463,6 @@ class Hungary(Country):
     shortname = "HUN"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -15967,6 +15828,7 @@ class Hungary(Country):
         Mi_24V = helicopters.Mi_24V
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -15977,6 +15839,7 @@ class Hungary(Country):
         Helicopter.Mi_24V,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -16064,12 +15927,12 @@ class Hungary(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -16079,7 +15942,7 @@ class Hungary(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -16091,7 +15954,7 @@ class Hungary(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -16112,19 +15975,13 @@ class Hungary(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Hungary, self).__init__(
-            Hungary.id,
-            Hungary.name,
-            Hungary.shortname
-        )
+        super(Hungary, self).__init__(Hungary.id, Hungary.name, Hungary.shortname)
 
 
 class India(Country):
@@ -16133,7 +15990,6 @@ class India(Country):
     shortname = "IND"
 
     class Vehicle:
-
         class Artillery:
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
@@ -16427,6 +16283,7 @@ class India(Country):
         Mi_26 = helicopters.Mi_26
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -16439,6 +16296,7 @@ class India(Country):
         Helicopter.Mi_26,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -16532,12 +16390,12 @@ class India(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -16547,7 +16405,7 @@ class India(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -16559,7 +16417,7 @@ class India(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -16580,19 +16438,13 @@ class India(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(India, self).__init__(
-            India.id,
-            India.name,
-            India.shortname
-        )
+        super(India, self).__init__(India.id, India.name, India.shortname)
 
 
 class Iran(Country):
@@ -16601,7 +16453,6 @@ class Iran(Country):
     shortname = "IRN"
 
     class Vehicle:
-
         class Artillery:
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             M_109 = vehicles.Artillery.M_109
@@ -16642,7 +16493,9 @@ class Iran(Country):
             SNR_75V = vehicles.AirDefence.SNR_75V
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             HQ_7_STR_SP = vehicles.AirDefence.HQ_7_STR_SP
@@ -16952,6 +16805,7 @@ class Iran(Country):
         Mi_8MT = helicopters.Mi_8MT
         CH_47D = helicopters.CH_47D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -16965,6 +16819,7 @@ class Iran(Country):
         Helicopter.Mi_8MT,
         Helicopter.CH_47D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -17060,12 +16915,12 @@ class Iran(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -17075,7 +16930,7 @@ class Iran(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -17087,7 +16942,7 @@ class Iran(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -17108,19 +16963,13 @@ class Iran(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Iran, self).__init__(
-            Iran.id,
-            Iran.name,
-            Iran.shortname
-        )
+        super(Iran, self).__init__(Iran.id, Iran.name, Iran.shortname)
 
 
 class Iraq(Country):
@@ -17129,7 +16978,6 @@ class Iraq(Country):
     shortname = "IRQ"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -17162,7 +17010,9 @@ class Iraq(Country):
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
@@ -17464,6 +17314,7 @@ class Iraq(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -17473,6 +17324,7 @@ class Iraq(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -17552,12 +17404,12 @@ class Iraq(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -17567,7 +17419,7 @@ class Iraq(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -17579,7 +17431,7 @@ class Iraq(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -17600,19 +17452,13 @@ class Iraq(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Iraq, self).__init__(
-            Iraq.id,
-            Iraq.name,
-            Iraq.shortname
-        )
+        super(Iraq, self).__init__(Iraq.id, Iraq.name, Iraq.shortname)
 
 
 class Japan(Country):
@@ -17621,7 +17467,6 @@ class Japan(Country):
     shortname = "JPN"
 
     class Vehicle:
-
         class Artillery:
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
@@ -17935,6 +17780,7 @@ class Japan(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -17947,6 +17793,7 @@ class Japan(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -18038,12 +17885,12 @@ class Japan(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -18053,7 +17900,7 @@ class Japan(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -18065,7 +17912,7 @@ class Japan(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -18086,19 +17933,13 @@ class Japan(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Japan, self).__init__(
-            Japan.id,
-            Japan.name,
-            Japan.shortname
-        )
+        super(Japan, self).__init__(Japan.id, Japan.name, Japan.shortname)
 
 
 class Kazakhstan(Country):
@@ -18107,7 +17948,6 @@ class Kazakhstan(Country):
     shortname = "KAZ"
 
     class Vehicle:
-
         class Artillery:
             SAU_Msta = vehicles.Artillery.SAU_Msta
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
@@ -18533,6 +18373,7 @@ class Kazakhstan(Country):
         Mi_26 = helicopters.Mi_26
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -18545,6 +18386,7 @@ class Kazakhstan(Country):
         Helicopter.Mi_26,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -18628,12 +18470,12 @@ class Kazakhstan(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -18643,7 +18485,7 @@ class Kazakhstan(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -18655,7 +18497,7 @@ class Kazakhstan(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -18676,18 +18518,14 @@ class Kazakhstan(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(Kazakhstan, self).__init__(
-            Kazakhstan.id,
-            Kazakhstan.name,
-            Kazakhstan.shortname
+            Kazakhstan.id, Kazakhstan.name, Kazakhstan.shortname
         )
 
 
@@ -18697,7 +18535,6 @@ class NorthKorea(Country):
     shortname = "PRK"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -18956,6 +18793,7 @@ class NorthKorea(Country):
         Ka_50 = helicopters.Ka_50
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -18965,6 +18803,7 @@ class NorthKorea(Country):
         Helicopter.Ka_50,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -19048,12 +18887,12 @@ class NorthKorea(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -19063,7 +18902,7 @@ class NorthKorea(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -19075,7 +18914,7 @@ class NorthKorea(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -19096,18 +18935,14 @@ class NorthKorea(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(NorthKorea, self).__init__(
-            NorthKorea.id,
-            NorthKorea.name,
-            NorthKorea.shortname
+            NorthKorea.id, NorthKorea.name, NorthKorea.shortname
         )
 
 
@@ -19117,7 +18952,6 @@ class Pakistan(Country):
     shortname = "PAK"
 
     class Vehicle:
-
         class Artillery:
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
@@ -19387,6 +19221,7 @@ class Pakistan(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -19395,6 +19230,7 @@ class Pakistan(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -19484,12 +19320,12 @@ class Pakistan(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -19499,7 +19335,7 @@ class Pakistan(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -19511,7 +19347,7 @@ class Pakistan(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -19532,19 +19368,13 @@ class Pakistan(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Pakistan, self).__init__(
-            Pakistan.id,
-            Pakistan.name,
-            Pakistan.shortname
-        )
+        super(Pakistan, self).__init__(Pakistan.id, Pakistan.name, Pakistan.shortname)
 
 
 class Poland(Country):
@@ -19553,7 +19383,6 @@ class Poland(Country):
     shortname = "POL"
 
     class Vehicle:
-
         class Artillery:
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
@@ -19906,6 +19735,7 @@ class Poland(Country):
         Ka_50 = helicopters.Ka_50
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -19915,6 +19745,7 @@ class Poland(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -20014,12 +19845,12 @@ class Poland(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -20029,7 +19860,7 @@ class Poland(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -20041,7 +19872,7 @@ class Poland(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -20062,19 +19893,13 @@ class Poland(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Poland, self).__init__(
-            Poland.id,
-            Poland.name,
-            Poland.shortname
-        )
+        super(Poland, self).__init__(Poland.id, Poland.name, Poland.shortname)
 
 
 class Romania(Country):
@@ -20083,7 +19908,6 @@ class Romania(Country):
     shortname = "ROU"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
@@ -20432,6 +20256,7 @@ class Romania(Country):
         Ka_50 = helicopters.Ka_50
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -20441,6 +20266,7 @@ class Romania(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -20538,12 +20364,12 @@ class Romania(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -20553,7 +20379,7 @@ class Romania(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -20565,7 +20391,7 @@ class Romania(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -20586,19 +20412,13 @@ class Romania(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Romania, self).__init__(
-            Romania.id,
-            Romania.name,
-            Romania.shortname
-        )
+        super(Romania, self).__init__(Romania.id, Romania.name, Romania.shortname)
 
 
 class SaudiArabia(Country):
@@ -20607,7 +20427,6 @@ class SaudiArabia(Country):
     shortname = "SAU"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -20891,6 +20710,7 @@ class SaudiArabia(Country):
         CH_47D = helicopters.CH_47D
         AH_64A = helicopters.AH_64A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -20905,6 +20725,7 @@ class SaudiArabia(Country):
         Helicopter.CH_47D,
         Helicopter.AH_64A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -20992,12 +20813,12 @@ class SaudiArabia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -21007,7 +20828,7 @@ class SaudiArabia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -21019,7 +20840,7 @@ class SaudiArabia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -21040,18 +20861,14 @@ class SaudiArabia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(SaudiArabia, self).__init__(
-            SaudiArabia.id,
-            SaudiArabia.name,
-            SaudiArabia.shortname
+            SaudiArabia.id, SaudiArabia.name, SaudiArabia.shortname
         )
 
 
@@ -21061,7 +20878,6 @@ class Serbia(Country):
     shortname = "SRB"
 
     class Vehicle:
-
         class Artillery:
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -21374,6 +21190,7 @@ class Serbia(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -21383,6 +21200,7 @@ class Serbia(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -21462,12 +21280,12 @@ class Serbia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -21477,7 +21295,7 @@ class Serbia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -21489,7 +21307,7 @@ class Serbia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -21510,19 +21328,13 @@ class Serbia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Serbia, self).__init__(
-            Serbia.id,
-            Serbia.name,
-            Serbia.shortname
-        )
+        super(Serbia, self).__init__(Serbia.id, Serbia.name, Serbia.shortname)
 
 
 class Slovakia(Country):
@@ -21531,7 +21343,6 @@ class Slovakia(Country):
     shortname = "SVK"
 
     class Vehicle:
-
         class Artillery:
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -21816,6 +21627,7 @@ class Slovakia(Country):
         Ka_50 = helicopters.Ka_50
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -21825,6 +21637,7 @@ class Slovakia(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -21908,12 +21721,12 @@ class Slovakia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -21923,7 +21736,7 @@ class Slovakia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -21935,7 +21748,7 @@ class Slovakia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -21956,19 +21769,13 @@ class Slovakia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Slovakia, self).__init__(
-            Slovakia.id,
-            Slovakia.name,
-            Slovakia.shortname
-        )
+        super(Slovakia, self).__init__(Slovakia.id, Slovakia.name, Slovakia.shortname)
 
 
 class SouthKorea(Country):
@@ -21977,7 +21784,6 @@ class SouthKorea(Country):
     shortname = "KOR"
 
     class Vehicle:
-
         class Artillery:
             MLRS = vehicles.Artillery.MLRS
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
@@ -22247,6 +22053,7 @@ class SouthKorea(Country):
         Ka_27 = helicopters.Ka_27
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -22257,6 +22064,7 @@ class SouthKorea(Country):
         Helicopter.Ka_27,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -22344,12 +22152,12 @@ class SouthKorea(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -22359,7 +22167,7 @@ class SouthKorea(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -22371,7 +22179,7 @@ class SouthKorea(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -22392,18 +22200,14 @@ class SouthKorea(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(SouthKorea, self).__init__(
-            SouthKorea.id,
-            SouthKorea.name,
-            SouthKorea.shortname
+            SouthKorea.id, SouthKorea.name, SouthKorea.shortname
         )
 
 
@@ -22413,7 +22217,6 @@ class Sweden(Country):
     shortname = "SWE"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -22639,6 +22442,7 @@ class Sweden(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -22647,6 +22451,7 @@ class Sweden(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -22730,12 +22535,12 @@ class Sweden(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -22745,7 +22550,7 @@ class Sweden(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -22757,7 +22562,7 @@ class Sweden(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -22778,19 +22583,13 @@ class Sweden(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Sweden, self).__init__(
-            Sweden.id,
-            Sweden.name,
-            Sweden.shortname
-        )
+        super(Sweden, self).__init__(Sweden.id, Sweden.name, Sweden.shortname)
 
 
 class Syria(Country):
@@ -22799,7 +22598,6 @@ class Syria(Country):
     shortname = "SYR"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Smerch = vehicles.Artillery.Smerch
@@ -23151,6 +22949,7 @@ class Syria(Country):
         SA342Minigun = helicopters.SA342Minigun
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -23161,6 +22960,7 @@ class Syria(Country):
         Helicopter.SA342Minigun,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -23240,12 +23040,12 @@ class Syria(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -23255,7 +23055,7 @@ class Syria(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -23267,7 +23067,7 @@ class Syria(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -23288,19 +23088,13 @@ class Syria(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Syria, self).__init__(
-            Syria.id,
-            Syria.name,
-            Syria.shortname
-        )
+        super(Syria, self).__init__(Syria.id, Syria.name, Syria.shortname)
 
 
 class Yemen(Country):
@@ -23309,7 +23103,6 @@ class Yemen(Country):
     shortname = "YEM"
 
     class Vehicle:
-
         class Artillery:
             Uragan_BM_27 = vehicles.Artillery.Uragan_BM_27
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -23582,6 +23375,7 @@ class Yemen(Country):
         Mi_24V = helicopters.Mi_24V
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -23593,6 +23387,7 @@ class Yemen(Country):
         Helicopter.Mi_24V,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -23680,12 +23475,12 @@ class Yemen(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -23695,7 +23490,7 @@ class Yemen(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -23707,7 +23502,7 @@ class Yemen(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -23728,19 +23523,13 @@ class Yemen(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Yemen, self).__init__(
-            Yemen.id,
-            Yemen.name,
-            Yemen.shortname
-        )
+        super(Yemen, self).__init__(Yemen.id, Yemen.name, Yemen.shortname)
 
 
 class Vietnam(Country):
@@ -23749,7 +23538,6 @@ class Vietnam(Country):
     shortname = "VNM"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
@@ -24047,6 +23835,7 @@ class Vietnam(Country):
         Ka_27 = helicopters.Ka_27
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -24057,6 +23846,7 @@ class Vietnam(Country):
         Helicopter.Ka_27,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -24144,12 +23934,12 @@ class Vietnam(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -24159,7 +23949,7 @@ class Vietnam(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -24171,7 +23961,7 @@ class Vietnam(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -24192,19 +23982,13 @@ class Vietnam(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Vietnam, self).__init__(
-            Vietnam.id,
-            Vietnam.name,
-            Vietnam.shortname
-        )
+        super(Vietnam, self).__init__(Vietnam.id, Vietnam.name, Vietnam.shortname)
 
 
 class Venezuela(Country):
@@ -24213,7 +23997,6 @@ class Venezuela(Country):
     shortname = "VEN"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             Smerch = vehicles.Artillery.Smerch
@@ -24483,6 +24266,7 @@ class Venezuela(Country):
         Mi_26 = helicopters.Mi_26
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -24493,6 +24277,7 @@ class Venezuela(Country):
         Helicopter.Mi_26,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -24576,12 +24361,12 @@ class Venezuela(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -24591,7 +24376,7 @@ class Venezuela(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -24603,7 +24388,7 @@ class Venezuela(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -24624,18 +24409,14 @@ class Venezuela(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(Venezuela, self).__init__(
-            Venezuela.id,
-            Venezuela.name,
-            Venezuela.shortname
+            Venezuela.id, Venezuela.name, Venezuela.shortname
         )
 
 
@@ -24645,7 +24426,6 @@ class Tunisia(Country):
     shortname = "TUN"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -24857,6 +24637,7 @@ class Tunisia(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -24865,6 +24646,7 @@ class Tunisia(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -24944,12 +24726,12 @@ class Tunisia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -24959,7 +24741,7 @@ class Tunisia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -24971,7 +24753,7 @@ class Tunisia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -24992,19 +24774,13 @@ class Tunisia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Tunisia, self).__init__(
-            Tunisia.id,
-            Tunisia.name,
-            Tunisia.shortname
-        )
+        super(Tunisia, self).__init__(Tunisia.id, Tunisia.name, Tunisia.shortname)
 
 
 class Thailand(Country):
@@ -25013,7 +24789,6 @@ class Thailand(Country):
     shortname = "THA"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -25252,6 +25027,7 @@ class Thailand(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -25263,6 +25039,7 @@ class Thailand(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -25350,12 +25127,12 @@ class Thailand(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -25365,7 +25142,7 @@ class Thailand(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -25377,7 +25154,7 @@ class Thailand(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -25398,19 +25175,13 @@ class Thailand(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Thailand, self).__init__(
-            Thailand.id,
-            Thailand.name,
-            Thailand.shortname
-        )
+        super(Thailand, self).__init__(Thailand.id, Thailand.name, Thailand.shortname)
 
 
 class Sudan(Country):
@@ -25419,7 +25190,6 @@ class Sudan(Country):
     shortname = "SDN"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
@@ -25668,6 +25438,7 @@ class Sudan(Country):
         Ka_50 = helicopters.Ka_50
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -25677,6 +25448,7 @@ class Sudan(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -25760,12 +25532,12 @@ class Sudan(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -25775,7 +25547,7 @@ class Sudan(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -25787,7 +25559,7 @@ class Sudan(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -25808,19 +25580,13 @@ class Sudan(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Sudan, self).__init__(
-            Sudan.id,
-            Sudan.name,
-            Sudan.shortname
-        )
+        super(Sudan, self).__init__(Sudan.id, Sudan.name, Sudan.shortname)
 
 
 class Philippines(Country):
@@ -25829,7 +25595,6 @@ class Philippines(Country):
     shortname = "PHL"
 
     class Vehicle:
-
         class Artillery:
             L118_Unit = vehicles.Artillery.L118_Unit
 
@@ -26027,6 +25792,7 @@ class Philippines(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -26035,6 +25801,7 @@ class Philippines(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -26118,12 +25885,12 @@ class Philippines(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -26133,7 +25900,7 @@ class Philippines(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -26145,7 +25912,7 @@ class Philippines(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -26166,18 +25933,14 @@ class Philippines(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(Philippines, self).__init__(
-            Philippines.id,
-            Philippines.name,
-            Philippines.shortname
+            Philippines.id, Philippines.name, Philippines.shortname
         )
 
 
@@ -26187,7 +25950,6 @@ class Morocco(Country):
     shortname = "MAR"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             SAU_Msta = vehicles.Artillery.SAU_Msta
@@ -26463,6 +26225,7 @@ class Morocco(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -26473,6 +26236,7 @@ class Morocco(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -26552,12 +26316,12 @@ class Morocco(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -26567,7 +26331,7 @@ class Morocco(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -26579,7 +26343,7 @@ class Morocco(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -26600,19 +26364,13 @@ class Morocco(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Morocco, self).__init__(
-            Morocco.id,
-            Morocco.name,
-            Morocco.shortname
-        )
+        super(Morocco, self).__init__(Morocco.id, Morocco.name, Morocco.shortname)
 
 
 class Mexico(Country):
@@ -26621,7 +26379,6 @@ class Mexico(Country):
     shortname = "MEX"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -26838,6 +26595,7 @@ class Mexico(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -26849,6 +26607,7 @@ class Mexico(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -26936,12 +26695,12 @@ class Mexico(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -26951,7 +26710,7 @@ class Mexico(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -26963,7 +26722,7 @@ class Mexico(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -26984,19 +26743,13 @@ class Mexico(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Mexico, self).__init__(
-            Mexico.id,
-            Mexico.name,
-            Mexico.shortname
-        )
+        super(Mexico, self).__init__(Mexico.id, Mexico.name, Mexico.shortname)
 
 
 class Malaysia(Country):
@@ -27005,7 +26758,6 @@ class Malaysia(Country):
     shortname = "MYS"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -27016,7 +26768,9 @@ class Malaysia(Country):
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
@@ -27230,6 +26984,7 @@ class Malaysia(Country):
         Ka_50 = helicopters.Ka_50
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -27239,6 +26994,7 @@ class Malaysia(Country):
         Helicopter.Ka_50,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -27328,12 +27084,12 @@ class Malaysia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -27343,7 +27099,7 @@ class Malaysia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -27355,7 +27111,7 @@ class Malaysia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -27376,19 +27132,13 @@ class Malaysia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Malaysia, self).__init__(
-            Malaysia.id,
-            Malaysia.name,
-            Malaysia.shortname
-        )
+        super(Malaysia, self).__init__(Malaysia.id, Malaysia.name, Malaysia.shortname)
 
 
 class Libya(Country):
@@ -27397,7 +27147,6 @@ class Libya(Country):
     shortname = "LBY"
 
     class Vehicle:
-
         class Artillery:
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -27433,7 +27182,9 @@ class Libya(Country):
             SON_9 = vehicles.AirDefence.SON_9
             RD_75 = vehicles.AirDefence.RD_75
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
 
         class Fortification:
@@ -27677,6 +27428,7 @@ class Libya(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -27685,6 +27437,7 @@ class Libya(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -27770,12 +27523,12 @@ class Libya(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -27785,7 +27538,7 @@ class Libya(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -27797,7 +27550,7 @@ class Libya(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -27818,19 +27571,13 @@ class Libya(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Libya, self).__init__(
-            Libya.id,
-            Libya.name,
-            Libya.shortname
-        )
+        super(Libya, self).__init__(Libya.id, Libya.name, Libya.shortname)
 
 
 class Jordan(Country):
@@ -27839,7 +27586,6 @@ class Jordan(Country):
     shortname = "JOR"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -28103,6 +27849,7 @@ class Jordan(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -28115,6 +27862,7 @@ class Jordan(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -28198,12 +27946,12 @@ class Jordan(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -28213,7 +27961,7 @@ class Jordan(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -28225,7 +27973,7 @@ class Jordan(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -28246,19 +27994,13 @@ class Jordan(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Jordan, self).__init__(
-            Jordan.id,
-            Jordan.name,
-            Jordan.shortname
-        )
+        super(Jordan, self).__init__(Jordan.id, Jordan.name, Jordan.shortname)
 
 
 class Indonesia(Country):
@@ -28267,7 +28009,6 @@ class Indonesia(Country):
     shortname = "IDN"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             M_109 = vehicles.Artillery.M_109
@@ -28290,7 +28031,9 @@ class Indonesia(Country):
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             NASAMS_Command_Post = vehicles.AirDefence.NASAMS_Command_Post
@@ -28566,6 +28309,7 @@ class Indonesia(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -28577,6 +28321,7 @@ class Indonesia(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -28662,12 +28407,12 @@ class Indonesia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -28677,7 +28422,7 @@ class Indonesia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -28689,7 +28434,7 @@ class Indonesia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -28710,18 +28455,14 @@ class Indonesia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(Indonesia, self).__init__(
-            Indonesia.id,
-            Indonesia.name,
-            Indonesia.shortname
+            Indonesia.id, Indonesia.name, Indonesia.shortname
         )
 
 
@@ -28731,7 +28472,6 @@ class Honduras(Country):
     shortname = "HND"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -28936,6 +28676,7 @@ class Honduras(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -28945,6 +28686,7 @@ class Honduras(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -29028,12 +28770,12 @@ class Honduras(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -29043,7 +28785,7 @@ class Honduras(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -29055,7 +28797,7 @@ class Honduras(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -29076,19 +28818,13 @@ class Honduras(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Honduras, self).__init__(
-            Honduras.id,
-            Honduras.name,
-            Honduras.shortname
-        )
+        super(Honduras, self).__init__(Honduras.id, Honduras.name, Honduras.shortname)
 
 
 class Ethiopia(Country):
@@ -29097,7 +28833,6 @@ class Ethiopia(Country):
     shortname = "ETH"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
@@ -29356,6 +29091,7 @@ class Ethiopia(Country):
         Ka_50 = helicopters.Ka_50
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -29365,6 +29101,7 @@ class Ethiopia(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -29448,12 +29185,12 @@ class Ethiopia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -29463,7 +29200,7 @@ class Ethiopia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -29475,7 +29212,7 @@ class Ethiopia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -29496,19 +29233,13 @@ class Ethiopia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Ethiopia, self).__init__(
-            Ethiopia.id,
-            Ethiopia.name,
-            Ethiopia.shortname
-        )
+        super(Ethiopia, self).__init__(Ethiopia.id, Ethiopia.name, Ethiopia.shortname)
 
 
 class Chile(Country):
@@ -29517,7 +29248,6 @@ class Chile(Country):
     shortname = "CHL"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -29772,6 +29502,7 @@ class Chile(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -29783,6 +29514,7 @@ class Chile(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -29872,12 +29604,12 @@ class Chile(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -29887,7 +29619,7 @@ class Chile(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -29899,7 +29631,7 @@ class Chile(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -29920,19 +29652,13 @@ class Chile(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Chile, self).__init__(
-            Chile.id,
-            Chile.name,
-            Chile.shortname
-        )
+        super(Chile, self).__init__(Chile.id, Chile.name, Chile.shortname)
 
 
 class Brazil(Country):
@@ -29941,7 +29667,6 @@ class Brazil(Country):
     shortname = "BRA"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -30191,6 +29916,7 @@ class Brazil(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -30201,6 +29927,7 @@ class Brazil(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -30288,12 +30015,12 @@ class Brazil(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -30303,7 +30030,7 @@ class Brazil(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -30315,7 +30042,7 @@ class Brazil(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -30336,19 +30063,13 @@ class Brazil(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Brazil, self).__init__(
-            Brazil.id,
-            Brazil.name,
-            Brazil.shortname
-        )
+        super(Brazil, self).__init__(Brazil.id, Brazil.name, Brazil.shortname)
 
 
 class Bahrain(Country):
@@ -30357,7 +30078,6 @@ class Bahrain(Country):
     shortname = "BHR"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             MLRS = vehicles.Artillery.MLRS
@@ -30602,6 +30322,7 @@ class Bahrain(Country):
         Ka_50 = helicopters.Ka_50
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -30611,6 +30332,7 @@ class Bahrain(Country):
         Helicopter.Ka_50,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -30696,12 +30418,12 @@ class Bahrain(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -30711,7 +30433,7 @@ class Bahrain(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -30723,7 +30445,7 @@ class Bahrain(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -30744,19 +30466,13 @@ class Bahrain(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Bahrain, self).__init__(
-            Bahrain.id,
-            Bahrain.name,
-            Bahrain.shortname
-        )
+        super(Bahrain, self).__init__(Bahrain.id, Bahrain.name, Bahrain.shortname)
 
 
 class ThirdReich(Country):
@@ -30765,7 +30481,6 @@ class ThirdReich(Country):
     shortname = "NZG"
 
     class Vehicle:
-
         class Artillery:
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -31019,6 +30734,7 @@ class ThirdReich(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -31027,6 +30743,7 @@ class ThirdReich(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -31114,12 +30831,12 @@ class ThirdReich(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -31129,7 +30846,7 @@ class ThirdReich(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -31141,7 +30858,7 @@ class ThirdReich(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -31162,18 +30879,14 @@ class ThirdReich(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(ThirdReich, self).__init__(
-            ThirdReich.id,
-            ThirdReich.name,
-            ThirdReich.shortname
+            ThirdReich.id, ThirdReich.name, ThirdReich.shortname
         )
 
 
@@ -31183,7 +30896,6 @@ class Yugoslavia(Country):
     shortname = "YUG"
 
     class Vehicle:
-
         class Artillery:
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -31464,6 +31176,7 @@ class Yugoslavia(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -31473,6 +31186,7 @@ class Yugoslavia(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -31521,19 +31235,14 @@ class Yugoslavia(Country):
             CallsignHelipad.Kaemka,
             CallsignHelipad.Podkova,
             CallsignHelipad.Skala,
-            CallsignHelipad.Kapel
+            CallsignHelipad.Kapel,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.A01,
-            CallsignGrassAirfield.B01
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.A01, CallsignGrassAirfield.B01],
     }
 
     def __init__(self):
         super(Yugoslavia, self).__init__(
-            Yugoslavia.id,
-            Yugoslavia.name,
-            Yugoslavia.shortname
+            Yugoslavia.id, Yugoslavia.name, Yugoslavia.shortname
         )
 
 
@@ -31543,7 +31252,6 @@ class USSR(Country):
     shortname = "SUN"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
@@ -32025,6 +31733,7 @@ class USSR(Country):
         Mi_26 = helicopters.Mi_26
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -32037,6 +31746,7 @@ class USSR(Country):
         Helicopter.Mi_26,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -32115,20 +31825,13 @@ class USSR(Country):
             CallsignHelipad.Kaemka,
             CallsignHelipad.Podkova,
             CallsignHelipad.Skala,
-            CallsignHelipad.Kapel
+            CallsignHelipad.Kapel,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.A01,
-            CallsignGrassAirfield.B01
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.A01, CallsignGrassAirfield.B01],
     }
 
     def __init__(self):
-        super(USSR, self).__init__(
-            USSR.id,
-            USSR.name,
-            USSR.shortname
-        )
+        super(USSR, self).__init__(USSR.id, USSR.name, USSR.shortname)
 
 
 class ItalianSocialRepublic(Country):
@@ -32137,7 +31840,6 @@ class ItalianSocialRepublic(Country):
     shortname = "RSI"
 
     class Vehicle:
-
         class Artillery:
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -32389,6 +32091,7 @@ class ItalianSocialRepublic(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -32397,6 +32100,7 @@ class ItalianSocialRepublic(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -32484,12 +32188,12 @@ class ItalianSocialRepublic(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -32499,7 +32203,7 @@ class ItalianSocialRepublic(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -32511,7 +32215,7 @@ class ItalianSocialRepublic(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -32532,18 +32236,16 @@ class ItalianSocialRepublic(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(ItalianSocialRepublic, self).__init__(
             ItalianSocialRepublic.id,
             ItalianSocialRepublic.name,
-            ItalianSocialRepublic.shortname
+            ItalianSocialRepublic.shortname,
         )
 
 
@@ -32553,7 +32255,6 @@ class Algeria(Country):
     shortname = "DZA"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_FDDM = vehicles.Artillery.Grad_FDDM
@@ -32972,6 +32673,7 @@ class Algeria(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -32987,6 +32689,7 @@ class Algeria(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -33086,12 +32789,12 @@ class Algeria(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -33101,7 +32804,7 @@ class Algeria(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -33113,7 +32816,7 @@ class Algeria(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -33134,19 +32837,13 @@ class Algeria(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Algeria, self).__init__(
-            Algeria.id,
-            Algeria.name,
-            Algeria.shortname
-        )
+        super(Algeria, self).__init__(Algeria.id, Algeria.name, Algeria.shortname)
 
 
 class Kuwait(Country):
@@ -33155,7 +32852,6 @@ class Kuwait(Country):
     shortname = "KWT"
 
     class Vehicle:
-
         class Artillery:
             Smerch = vehicles.Artillery.Smerch
             Smerch_HE = vehicles.Artillery.Smerch_HE
@@ -33420,6 +33116,7 @@ class Kuwait(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -33429,6 +33126,7 @@ class Kuwait(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -33508,12 +33206,12 @@ class Kuwait(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -33523,7 +33221,7 @@ class Kuwait(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -33535,7 +33233,7 @@ class Kuwait(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -33556,19 +33254,13 @@ class Kuwait(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Kuwait, self).__init__(
-            Kuwait.id,
-            Kuwait.name,
-            Kuwait.shortname
-        )
+        super(Kuwait, self).__init__(Kuwait.id, Kuwait.name, Kuwait.shortname)
 
 
 class Qatar(Country):
@@ -33577,7 +33269,6 @@ class Qatar(Country):
     shortname = "QAT"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -33593,7 +33284,9 @@ class Qatar(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
@@ -33819,6 +33512,7 @@ class Qatar(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -33827,6 +33521,7 @@ class Qatar(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -33906,12 +33601,12 @@ class Qatar(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -33921,7 +33616,7 @@ class Qatar(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -33933,7 +33628,7 @@ class Qatar(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -33954,19 +33649,13 @@ class Qatar(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Qatar, self).__init__(
-            Qatar.id,
-            Qatar.name,
-            Qatar.shortname
-        )
+        super(Qatar, self).__init__(Qatar.id, Qatar.name, Qatar.shortname)
 
 
 class Oman(Country):
@@ -33975,7 +33664,6 @@ class Oman(Country):
     shortname = "OMN"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -33999,7 +33687,9 @@ class Oman(Country):
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             NASAMS_Command_Post = vehicles.AirDefence.NASAMS_Command_Post
             NASAMS_Radar_MPQ64F1 = vehicles.AirDefence.NASAMS_Radar_MPQ64F1
@@ -34248,6 +33938,7 @@ class Oman(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -34257,6 +33948,7 @@ class Oman(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -34344,12 +34036,12 @@ class Oman(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -34359,7 +34051,7 @@ class Oman(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -34371,7 +34063,7 @@ class Oman(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -34392,19 +34084,13 @@ class Oman(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Oman, self).__init__(
-            Oman.id,
-            Oman.name,
-            Oman.shortname
-        )
+        super(Oman, self).__init__(Oman.id, Oman.name, Oman.shortname)
 
 
 class UnitedArabEmirates(Country):
@@ -34413,7 +34099,6 @@ class UnitedArabEmirates(Country):
     shortname = "ARE"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -34438,7 +34123,9 @@ class UnitedArabEmirates(Country):
             Hawk_pcp = vehicles.AirDefence.Hawk_pcp
             Hawk_ln = vehicles.AirDefence.Hawk_ln
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
@@ -34692,6 +34379,7 @@ class UnitedArabEmirates(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -34705,6 +34393,7 @@ class UnitedArabEmirates(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -34788,12 +34477,12 @@ class UnitedArabEmirates(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -34803,7 +34492,7 @@ class UnitedArabEmirates(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -34815,7 +34504,7 @@ class UnitedArabEmirates(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -34836,18 +34525,14 @@ class UnitedArabEmirates(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(UnitedArabEmirates, self).__init__(
-            UnitedArabEmirates.id,
-            UnitedArabEmirates.name,
-            UnitedArabEmirates.shortname
+            UnitedArabEmirates.id, UnitedArabEmirates.name, UnitedArabEmirates.shortname
         )
 
 
@@ -34857,7 +34542,6 @@ class SouthAfrica(Country):
     shortname = "RSA"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -35070,6 +34754,7 @@ class SouthAfrica(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -35079,6 +34764,7 @@ class SouthAfrica(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -35166,12 +34852,12 @@ class SouthAfrica(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -35181,7 +34867,7 @@ class SouthAfrica(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -35193,7 +34879,7 @@ class SouthAfrica(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -35214,18 +34900,14 @@ class SouthAfrica(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(SouthAfrica, self).__init__(
-            SouthAfrica.id,
-            SouthAfrica.name,
-            SouthAfrica.shortname
+            SouthAfrica.id, SouthAfrica.name, SouthAfrica.shortname
         )
 
 
@@ -35235,7 +34917,6 @@ class Cuba(Country):
     shortname = "CUB"
 
     class Vehicle:
-
         class Artillery:
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -35561,6 +35242,7 @@ class Cuba(Country):
         Mi_8MT = helicopters.Mi_8MT
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -35571,6 +35253,7 @@ class Cuba(Country):
         Helicopter.Mi_8MT,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -35666,12 +35349,12 @@ class Cuba(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -35681,7 +35364,7 @@ class Cuba(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -35693,7 +35376,7 @@ class Cuba(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -35714,19 +35397,13 @@ class Cuba(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Cuba, self).__init__(
-            Cuba.id,
-            Cuba.name,
-            Cuba.shortname
-        )
+        super(Cuba, self).__init__(Cuba.id, Cuba.name, Cuba.shortname)
 
 
 class Portugal(Country):
@@ -35735,7 +35412,6 @@ class Portugal(Country):
     shortname = "PRT"
 
     class Vehicle:
-
         class Artillery:
             M_109 = vehicles.Artillery.M_109
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -35971,6 +35647,7 @@ class Portugal(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -35979,6 +35656,7 @@ class Portugal(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -36062,12 +35740,12 @@ class Portugal(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -36077,7 +35755,7 @@ class Portugal(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -36089,7 +35767,7 @@ class Portugal(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -36110,19 +35788,13 @@ class Portugal(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Portugal, self).__init__(
-            Portugal.id,
-            Portugal.name,
-            Portugal.shortname
-        )
+        super(Portugal, self).__init__(Portugal.id, Portugal.name, Portugal.shortname)
 
 
 class GDR(Country):
@@ -36131,7 +35803,6 @@ class GDR(Country):
     shortname = "GDR"
 
     class Vehicle:
-
         class Artillery:
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
             Grad_URAL = vehicles.Artillery.Grad_URAL
@@ -36441,6 +36112,7 @@ class GDR(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -36449,6 +36121,7 @@ class GDR(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -36532,12 +36205,12 @@ class GDR(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -36547,7 +36220,7 @@ class GDR(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -36559,7 +36232,7 @@ class GDR(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -36580,19 +36253,13 @@ class GDR(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(GDR, self).__init__(
-            GDR.id,
-            GDR.name,
-            GDR.shortname
-        )
+        super(GDR, self).__init__(GDR.id, GDR.name, GDR.shortname)
 
 
 class Lebanon(Country):
@@ -36601,7 +36268,6 @@ class Lebanon(Country):
     shortname = "LBN"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             M_109 = vehicles.Artillery.M_109
@@ -36866,6 +36532,7 @@ class Lebanon(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -36875,6 +36542,7 @@ class Lebanon(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -36958,12 +36626,12 @@ class Lebanon(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -36973,7 +36641,7 @@ class Lebanon(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -36985,7 +36653,7 @@ class Lebanon(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -37006,19 +36674,13 @@ class Lebanon(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Lebanon, self).__init__(
-            Lebanon.id,
-            Lebanon.name,
-            Lebanon.shortname
-        )
+        super(Lebanon, self).__init__(Lebanon.id, Lebanon.name, Lebanon.shortname)
 
 
 class CombinedJointTaskForcesBlue(Country):
@@ -37027,7 +36689,6 @@ class CombinedJointTaskForcesBlue(Country):
     shortname = "BLUE"
 
     class Vehicle:
-
         class Artillery:
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -37150,7 +36811,9 @@ class CombinedJointTaskForcesBlue(Country):
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -37919,6 +37582,7 @@ class CombinedJointTaskForcesBlue(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -37941,6 +37605,7 @@ class CombinedJointTaskForcesBlue(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -38130,12 +37795,12 @@ class CombinedJointTaskForcesBlue(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -38145,7 +37810,7 @@ class CombinedJointTaskForcesBlue(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -38157,7 +37822,7 @@ class CombinedJointTaskForcesBlue(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -38178,18 +37843,16 @@ class CombinedJointTaskForcesBlue(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(CombinedJointTaskForcesBlue, self).__init__(
             CombinedJointTaskForcesBlue.id,
             CombinedJointTaskForcesBlue.name,
-            CombinedJointTaskForcesBlue.shortname
+            CombinedJointTaskForcesBlue.shortname,
         )
 
 
@@ -38199,7 +37862,6 @@ class CombinedJointTaskForcesRed(Country):
     shortname = "RED"
 
     class Vehicle:
-
         class Artillery:
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -38322,7 +37984,9 @@ class CombinedJointTaskForcesRed(Country):
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -39091,6 +38755,7 @@ class CombinedJointTaskForcesRed(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -39113,6 +38778,7 @@ class CombinedJointTaskForcesRed(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -39302,12 +38968,12 @@ class CombinedJointTaskForcesRed(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -39317,7 +38983,7 @@ class CombinedJointTaskForcesRed(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -39329,7 +38995,7 @@ class CombinedJointTaskForcesRed(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -39350,18 +39016,16 @@ class CombinedJointTaskForcesRed(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(CombinedJointTaskForcesRed, self).__init__(
             CombinedJointTaskForcesRed.id,
             CombinedJointTaskForcesRed.name,
-            CombinedJointTaskForcesRed.shortname
+            CombinedJointTaskForcesRed.shortname,
         )
 
 
@@ -39371,7 +39035,6 @@ class UnitedNationsPeacekeepers(Country):
     shortname = "UN"
 
     class Vehicle:
-
         class Artillery:
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
@@ -39494,7 +39157,9 @@ class UnitedNationsPeacekeepers(Country):
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
-            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_optical_tracker_unit = (
+                vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            )
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
@@ -40263,6 +39928,7 @@ class UnitedNationsPeacekeepers(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -40285,6 +39951,7 @@ class UnitedNationsPeacekeepers(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -40474,12 +40141,12 @@ class UnitedNationsPeacekeepers(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -40489,7 +40156,7 @@ class UnitedNationsPeacekeepers(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -40501,7 +40168,7 @@ class UnitedNationsPeacekeepers(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -40522,18 +40189,16 @@ class UnitedNationsPeacekeepers(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(UnitedNationsPeacekeepers, self).__init__(
             UnitedNationsPeacekeepers.id,
             UnitedNationsPeacekeepers.name,
-            UnitedNationsPeacekeepers.shortname
+            UnitedNationsPeacekeepers.shortname,
         )
 
 
@@ -40543,7 +40208,6 @@ class Argentina(Country):
     shortname = "ARG"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -40767,6 +40431,7 @@ class Argentina(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -40779,6 +40444,7 @@ class Argentina(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -40864,12 +40530,12 @@ class Argentina(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -40879,7 +40545,7 @@ class Argentina(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -40891,7 +40557,7 @@ class Argentina(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -40912,18 +40578,14 @@ class Argentina(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
         super(Argentina, self).__init__(
-            Argentina.id,
-            Argentina.name,
-            Argentina.shortname
+            Argentina.id, Argentina.name, Argentina.shortname
         )
 
 
@@ -40933,7 +40595,6 @@ class Cyprus(Country):
     shortname = "CYP"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             SpGH_Dana = vehicles.Artillery.SpGH_Dana
@@ -41190,6 +40851,7 @@ class Cyprus(Country):
         SA342Minigun = helicopters.SA342Minigun
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -41199,6 +40861,7 @@ class Cyprus(Country):
         Helicopter.SA342Minigun,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -41278,12 +40941,12 @@ class Cyprus(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -41293,7 +40956,7 @@ class Cyprus(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -41305,7 +40968,7 @@ class Cyprus(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -41326,19 +40989,13 @@ class Cyprus(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Cyprus, self).__init__(
-            Cyprus.id,
-            Cyprus.name,
-            Cyprus.shortname
-        )
+        super(Cyprus, self).__init__(Cyprus.id, Cyprus.name, Cyprus.shortname)
 
 
 class Slovenia(Country):
@@ -41347,7 +41004,6 @@ class Slovenia(Country):
     shortname = "SVN"
 
     class Vehicle:
-
         class Artillery:
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             tt_B8M1 = vehicles.Artillery.tt_B8M1
@@ -41587,6 +41243,7 @@ class Slovenia(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -41597,6 +41254,7 @@ class Slovenia(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -41682,12 +41340,12 @@ class Slovenia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -41697,7 +41355,7 @@ class Slovenia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -41709,7 +41367,7 @@ class Slovenia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -41730,19 +41388,13 @@ class Slovenia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Slovenia, self).__init__(
-            Slovenia.id,
-            Slovenia.name,
-            Slovenia.shortname
-        )
+        super(Slovenia, self).__init__(Slovenia.id, Slovenia.name, Slovenia.shortname)
 
 
 class Bolivia(Country):
@@ -41751,7 +41403,6 @@ class Bolivia(Country):
     shortname = "BOL"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -41984,6 +41635,7 @@ class Bolivia(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -41993,6 +41645,7 @@ class Bolivia(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -42076,12 +41729,12 @@ class Bolivia(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -42091,7 +41744,7 @@ class Bolivia(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -42103,7 +41756,7 @@ class Bolivia(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -42124,19 +41777,13 @@ class Bolivia(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Bolivia, self).__init__(
-            Bolivia.id,
-            Bolivia.name,
-            Bolivia.shortname
-        )
+        super(Bolivia, self).__init__(Bolivia.id, Bolivia.name, Bolivia.shortname)
 
 
 class Ghana(Country):
@@ -42145,7 +41792,6 @@ class Ghana(Country):
     shortname = "GHA"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -42357,6 +42003,7 @@ class Ghana(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -42367,6 +42014,7 @@ class Ghana(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -42450,12 +42098,12 @@ class Ghana(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -42465,7 +42113,7 @@ class Ghana(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -42477,7 +42125,7 @@ class Ghana(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -42498,19 +42146,13 @@ class Ghana(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Ghana, self).__init__(
-            Ghana.id,
-            Ghana.name,
-            Ghana.shortname
-        )
+        super(Ghana, self).__init__(Ghana.id, Ghana.name, Ghana.shortname)
 
 
 class Nigeria(Country):
@@ -42519,7 +42161,6 @@ class Nigeria(Country):
     shortname = "NGA"
 
     class Vehicle:
-
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
@@ -42752,6 +42393,7 @@ class Nigeria(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -42763,6 +42405,7 @@ class Nigeria(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -42846,12 +42489,12 @@ class Nigeria(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -42861,7 +42504,7 @@ class Nigeria(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -42873,7 +42516,7 @@ class Nigeria(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -42894,19 +42537,13 @@ class Nigeria(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Nigeria, self).__init__(
-            Nigeria.id,
-            Nigeria.name,
-            Nigeria.shortname
-        )
+        super(Nigeria, self).__init__(Nigeria.id, Nigeria.name, Nigeria.shortname)
 
 
 class Peru(Country):
@@ -42915,7 +42552,6 @@ class Peru(Country):
     shortname = "PER"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             M_109 = vehicles.Artillery.M_109
@@ -43165,6 +42801,7 @@ class Peru(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -43177,6 +42814,7 @@ class Peru(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -43260,12 +42898,12 @@ class Peru(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -43275,7 +42913,7 @@ class Peru(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -43287,7 +42925,7 @@ class Peru(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -43308,19 +42946,13 @@ class Peru(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Peru, self).__init__(
-            Peru.id,
-            Peru.name,
-            Peru.shortname
-        )
+        super(Peru, self).__init__(Peru.id, Peru.name, Peru.shortname)
 
 
 class Ecuador(Country):
@@ -43329,7 +42961,6 @@ class Ecuador(Country):
     shortname = "ECU"
 
     class Vehicle:
-
         class Artillery:
             Grad_URAL = vehicles.Artillery.Grad_URAL
             x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
@@ -43559,6 +43190,7 @@ class Ecuador(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -43569,6 +43201,7 @@ class Ecuador(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -43648,12 +43281,12 @@ class Ecuador(Country):
             CallsignAWACS.Magic,
             CallsignAWACS.Wizard,
             CallsignAWACS.Focus,
-            CallsignAWACS.Darkstar
+            CallsignAWACS.Darkstar,
         ],
         "Tankers": [
             CallsignTankers.Texaco,
             CallsignTankers.Arco,
-            CallsignTankers.Shell
+            CallsignTankers.Shell,
         ],
         "Air": [
             CallsignAir.Enfield,
@@ -43663,7 +43296,7 @@ class Ecuador(Country):
             CallsignAir.Dodge,
             CallsignAir.Ford,
             CallsignAir.Chevy,
-            CallsignAir.Pontiac
+            CallsignAir.Pontiac,
         ],
         "Helipad": [
             CallsignHelipad.London,
@@ -43675,7 +43308,7 @@ class Ecuador(Country):
             CallsignHelipad.Madrid,
             CallsignHelipad.Warsaw,
             CallsignHelipad.Dublin,
-            CallsignHelipad.Perth
+            CallsignHelipad.Perth,
         ],
         "GroundUnits": [
             CallsignGroundUnits.Axeman,
@@ -43696,19 +43329,13 @@ class Ecuador(Country):
             CallsignGroundUnits.Anvil,
             CallsignGroundUnits.Firefly,
             CallsignGroundUnits.Mantis,
-            CallsignGroundUnits.Badger
+            CallsignGroundUnits.Badger,
         ],
-        "GrassAirfield": [
-            CallsignGrassAirfield.New_York
-        ],
+        "GrassAirfield": [CallsignGrassAirfield.New_York],
     }
 
     def __init__(self):
-        super(Ecuador, self).__init__(
-            Ecuador.id,
-            Ecuador.name,
-            Ecuador.shortname
-        )
+        super(Ecuador, self).__init__(Ecuador.id, Ecuador.name, Ecuador.shortname)
 
 
 country_dict = {

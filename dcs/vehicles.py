@@ -4,7 +4,6 @@ import dcs.unittype as unittype
 
 
 class Artillery:
-
     class x_2B11_mortar(unittype.VehicleType):
         id = "2B11 mortar"
         name = "Mortar 2B11 120mm"
@@ -179,7 +178,6 @@ class Artillery:
 
 
 class Infantry:
-
     class Paratrooper_RPG_16(unittype.VehicleType):
         id = "Paratrooper RPG-16"
         name = "Paratrooper RPG-16"
@@ -288,66 +286,65 @@ class Infantry:
 
 
 class AirDefence:
-
     class x_2S6_Tunguska(unittype.VehicleType):
         id = "2S6 Tunguska"
-        name = "SAM SA-19 Tunguska \"Grison\" "
+        name = 'SAM SA-19 Tunguska "Grison" '
         detection_range = 18000
         threat_range = 8000
         air_weapon_dist = 8000
 
     class Kub_2P25_ln(unittype.VehicleType):
         id = "Kub 2P25 ln"
-        name = "SAM SA-6 Kub \"Gainful\" TEL"
+        name = 'SAM SA-6 Kub "Gainful" TEL'
         detection_range = 0
         threat_range = 25000
         air_weapon_dist = 25000
 
     class x_5p73_s_125_ln(unittype.VehicleType):
         id = "5p73 s-125 ln"
-        name = "SAM SA-3 S-125 \"Goa\" LN"
+        name = 'SAM SA-3 S-125 "Goa" LN'
         detection_range = 0
         threat_range = 18000
         air_weapon_dist = 18000
 
     class SA_11_Buk_LN_9A310M1(unittype.VehicleType):
         id = "SA-11 Buk LN 9A310M1"
-        name = "SAM SA-11 Buk \"Gadfly\" Fire Dome TEL"
+        name = 'SAM SA-11 Buk "Gadfly" Fire Dome TEL'
         detection_range = 50000
         threat_range = 35000
         air_weapon_dist = 35000
 
     class Osa_9A33_ln(unittype.VehicleType):
         id = "Osa 9A33 ln"
-        name = "SAM SA-8 Osa \"Gecko\" TEL"
+        name = 'SAM SA-8 Osa "Gecko" TEL'
         detection_range = 30000
         threat_range = 10300
         air_weapon_dist = 10300
 
     class Tor_9A331(unittype.VehicleType):
         id = "Tor 9A331"
-        name = "SAM SA-15 Tor \"Gauntlet\""
+        name = 'SAM SA-15 Tor "Gauntlet"'
         detection_range = 25000
         threat_range = 12000
         air_weapon_dist = 12000
 
     class Strela_10M3(unittype.VehicleType):
         id = "Strela-10M3"
-        name = "SAM SA-13 Strela 10M3 \"Gopher\" TEL"
+        name = 'SAM SA-13 Strela 10M3 "Gopher" TEL'
         detection_range = 8000
         threat_range = 5000
         air_weapon_dist = 5000
 
     class Strela_1_9P31(unittype.VehicleType):
         id = "Strela-1 9P31"
-        name = "SAM SA-9 Strela 1 \"Gaskin\" TEL"
+        name = 'SAM SA-9 Strela 1 "Gaskin" TEL'
         detection_range = 5000
         threat_range = 4200
         air_weapon_dist = 4200
 
     class SA_11_Buk_CC_9S470M1(unittype.VehicleType):
         id = "SA-11 Buk CC 9S470M1"
-        name = "SAM SA-11 Buk \"Gadfly\" C2 "
+        name = 'SAM SA-11 Buk "Gadfly" C2 '
         detection_range = 0
         threat_range = 0
         air_weapon_dist = 0
@@ -471,7 +468,7 @@ class AirDefence:
 
     class ZSU_23_4_Shilka(unittype.VehicleType):
         id = "ZSU-23-4 Shilka"
-        name = "SPAAA ZSU-23-4 Shilka \"Gun Dish\""
+        name = 'SPAAA ZSU-23-4 Shilka "Gun Dish"'
         detection_range = 5000
         threat_range = 2500
         air_weapon_dist = 2500
@@ -520,35 +517,35 @@ class AirDefence:
 
     class SA_18_Igla_manpad(unittype.VehicleType):
         id = "SA-18 Igla manpad"
-        name = "MANPADS SA-18 Igla \"Grouse\""
+        name = 'MANPADS SA-18 Igla "Grouse"'
         detection_range = 5000
         threat_range = 5200
         air_weapon_dist = 5200
 
     class SA_18_Igla_comm(unittype.VehicleType):
         id = "SA-18 Igla comm"
-        name = "MANPADS SA-18 Igla \"Grouse\" C2"
+        name = 'MANPADS SA-18 Igla "Grouse" C2'
         detection_range = 5000
         threat_range = 0
         air_weapon_dist = 0
 
     class SA_18_Igla_S_manpad(unittype.VehicleType):
         id = "SA-18 Igla-S manpad"
-        name = "MANPADS SA-18 Igla-S \"Grouse\""
+        name = 'MANPADS SA-18 Igla-S "Grouse"'
         detection_range = 5000
         threat_range = 5200
         air_weapon_dist = 5200
 
     class SA_18_Igla_S_comm(unittype.VehicleType):
         id = "SA-18 Igla-S comm"
-        name = "MANPADS SA-18 Igla-S \"Grouse\" C2"
+        name = 'MANPADS SA-18 Igla-S "Grouse" C2'
         detection_range = 5000
         threat_range = 0
         air_weapon_dist = 0
 
     class Igla_manpad_INS(unittype.VehicleType):
         id = "Igla manpad INS"
-        name = "MANPADS SA-18 Igla \"Grouse\" Ins"
+        name = 'MANPADS SA-18 Igla "Grouse" Ins'
         detection_range = 5000
         threat_range = 5200
         air_weapon_dist = 5200
@@ -562,7 +559,7 @@ class AirDefence:
 
     class Kub_1S91_str(unittype.VehicleType):
         id = "Kub 1S91 str"
-        name = "SAM SA-6 Kub \"Straight Flush\" STR"
+        name = 'SAM SA-6 Kub "Straight Flush" STR'
         detection_range = 70000
         threat_range = 0
         air_weapon_dist = 0
@@ -576,14 +573,14 @@ class AirDefence:
 
     class SA_11_Buk_SR_9S18M1(unittype.VehicleType):
         id = "SA-11 Buk SR 9S18M1"
-        name = "SAM SA-11 Buk \"Gadfly\" Snow Drift SR"
+        name = 'SAM SA-11 Buk "Gadfly" Snow Drift SR'
         detection_range = 100000
         threat_range = 0
         air_weapon_dist = 0
 
     class Dog_Ear_radar(unittype.VehicleType):
         id = "Dog Ear radar"
-        name = "MCC-SR Sborka \"Dog Ear\" SR"
+        name = 'MCC-SR Sborka "Dog Ear" SR'
         detection_range = 35000
         threat_range = 0
         air_weapon_dist = 0
@@ -620,7 +617,7 @@ class AirDefence:
 
     class p_19_s_125_sr(unittype.VehicleType):
         id = "p-19 s-125 sr"
-        name = "SAM SA-2/3/5 P19 \"Flat Face\" SR "
+        name = 'SAM SA-2/3/5 P19 "Flat Face" SR '
         detection_range = 160000
         threat_range = 0
         air_weapon_dist = 0
@@ -634,7 +631,7 @@ class AirDefence:
 
     class snr_s_125_tr(unittype.VehicleType):
         id = "snr s-125 tr"
-        name = "SAM SA-3 S-125 \"Low Blow\" TR"
+        name = 'SAM SA-3 S-125 "Low Blow" TR'
         detection_range = 100000
         threat_range = 0
         air_weapon_dist = 0
@@ -649,56 +646,56 @@ class AirDefence:
 
     class S_300PS_5P85C_ln(unittype.VehicleType):
         id = "S-300PS 5P85C ln"
-        name = "SAM SA-10 S-300 \"Grumble\" TEL C"
+        name = 'SAM SA-10 S-300 "Grumble" TEL C'
         detection_range = 0
         threat_range = 120000
         air_weapon_dist = 120000
 
     class S_300PS_5P85D_ln(unittype.VehicleType):
         id = "S-300PS 5P85D ln"
-        name = "SAM SA-10 S-300 \"Grumble\" TEL D"
+        name = 'SAM SA-10 S-300 "Grumble" TEL D'
         detection_range = 0
         threat_range = 120000
         air_weapon_dist = 120000
 
     class S_300PS_54K6_cp(unittype.VehicleType):
         id = "S-300PS 54K6 cp"
-        name = "SAM SA-10 S-300 \"Grumble\" C2"
+        name = 'SAM SA-10 S-300 "Grumble" C2'
         detection_range = 0
         threat_range = 0
         air_weapon_dist = 0
 
     class S_300PS_40B6M_tr(unittype.VehicleType):
         id = "S-300PS 40B6M tr"
-        name = "SAM SA-10 S-300 \"Grumble\" Flap Lid-A TR"
+        name = 'SAM SA-10 S-300 "Grumble" Flap Lid-A TR'
         detection_range = 160000
         threat_range = 0
         air_weapon_dist = 0
 
     class S_300PS_64H6E_sr(unittype.VehicleType):
         id = "S-300PS 64H6E sr"
-        name = "SAM SA-10 S-300 \"Grumble\" Big Bird SR"
+        name = 'SAM SA-10 S-300 "Grumble" Big Bird SR'
         detection_range = 160000
         threat_range = 0
         air_weapon_dist = 0
 
     class S_300PS_40B6MD_sr_19J6(unittype.VehicleType):
         id = "S-300PS 40B6MD sr_19J6"
-        name = "SAM SA-10 S-300 \"Grumble\" Tin Shield SR"
+        name = 'SAM SA-10 S-300 "Grumble" Tin Shield SR'
         detection_range = 150000
         threat_range = 0
         air_weapon_dist = 0
 
     class S_300PS_5H63C_30H6_tr(unittype.VehicleType):
         id = "S-300PS 5H63C 30H6_tr"
-        name = "SAM SA-10 S-300 \"Grumble\" Flap Lid-B TR"
+        name = 'SAM SA-10 S-300 "Grumble" Flap Lid-B TR'
         detection_range = 120000
         threat_range = 0
         air_weapon_dist = 0
 
     class S_300PS_40B6MD_sr(unittype.VehicleType):
         id = "S-300PS 40B6MD sr"
-        name = "SAM SA-10 S-300 \"Grumble\" Clam Shell SR"
+        name = 'SAM SA-10 S-300 "Grumble" Clam Shell SR'
         detection_range = 60000
         threat_range = 0
         air_weapon_dist = 0
@@ -792,35 +789,35 @@ class AirDefence:
 
     class S_75M_Volhov(unittype.VehicleType):
         id = "S_75M_Volhov"
-        name = "SAM SA-2 S-75 \"Guideline\" LN"
+        name = 'SAM SA-2 S-75 "Guideline" LN'
         detection_range = 0
         threat_range = 43000
         air_weapon_dist = 43000
 
     class SNR_75V(unittype.VehicleType):
         id = "SNR_75V"
-        name = "SAM SA-2 S-75 \"Fan Song\" TR"
+        name = 'SAM SA-2 S-75 "Fan Song" TR'
         detection_range = 100000
         threat_range = 0
         air_weapon_dist = 0
 
     class RLS_19J6(unittype.VehicleType):
         id = "RLS_19J6"
-        name = "SAM SA-5 S-200 ST-68U \"Tin Shield\" SR"
+        name = 'SAM SA-5 S-200 ST-68U "Tin Shield" SR'
         detection_range = 150000
         threat_range = 0
         air_weapon_dist = 0
 
     class RPC_5N62V(unittype.VehicleType):
         id = "RPC_5N62V"
-        name = "SAM SA-5 S-200 \"Square Pair\" TR"
+        name = 'SAM SA-5 S-200 "Square Pair" TR'
         detection_range = 400000
         threat_range = 0
         air_weapon_dist = 0
 
     class S_200_Launcher(unittype.VehicleType):
         id = "S-200_Launcher"
-        name = "SAM SA-5 S-200 \"Gammon\" LN"
+        name = 'SAM SA-5 S-200 "Gammon" LN'
         detection_range = 0
         threat_range = 255000
         air_weapon_dist = 255000
@@ -974,7 +971,7 @@ class AirDefence:
 
     class QF_37_AA(unittype.VehicleType):
         id = "QF_37_AA"
-        name = "AAA QF 3.7\""
+        name = 'AAA QF 3.7"'
         detection_range = 0
         threat_range = 9000
         air_weapon_dist = 9000
@@ -1002,7 +999,6 @@ class AirDefence:
 
 
 class Fortification:
-
     class Bunker(unittype.VehicleType):
         id = "Bunker"
         name = "Bunker 2"
@@ -1075,7 +1071,6 @@ class Fortification:
 
 
 class Unarmed:
-
     class Ural_4320_APA_5D(unittype.VehicleType):
         id = "Ural-4320 APA-5D"
         name = "GPU APA-5D on Ural 4320"
@@ -1450,7 +1445,7 @@ class Unarmed:
 
     class CCKW_353(unittype.VehicleType):
         id = "CCKW_353"
-        name = "Truck GMC \"Jimmy\" 6x6"
+        name = 'Truck GMC "Jimmy" 6x6'
         detection_range = 0
         threat_range = 0
         air_weapon_dist = 0
@@ -1471,7 +1466,6 @@ class Unarmed:
 
 
 class Armor:
-
     class AAV7(unittype.VehicleType):
         id = "AAV7"
         name = "APC AAV-7 Amphibious"
@@ -1975,7 +1969,6 @@ class Armor:
 
 
 class MissilesSS:
-
     class Scud_B(unittype.VehicleType):
         id = "Scud_B"
         name = "SSM SS-1C Scud-B"
@@ -2006,7 +1999,6 @@ class MissilesSS:
 
 
 class Locomotive:
-
     class Electric_locomotive(unittype.VehicleType):
         id = "Electric locomotive"
         name = "Loco VL80 Electric"
@@ -2037,7 +2029,6 @@ class Locomotive:
 
 
 class Carriage:
-
     class Coach_cargo(unittype.VehicleType):
         id = "Coach cargo"
         name = "Freight Van"
@@ -2121,6 +2112,7 @@ class Carriage:
         detection_range = 0
         threat_range = 0
         air_weapon_dist = 0
+
 
 vehicle_map = {
     "2B11 mortar": Artillery.x_2B11_mortar,
