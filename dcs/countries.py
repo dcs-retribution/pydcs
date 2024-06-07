@@ -495,6 +495,7 @@ class Russia(Country):
         Mi_28N = helicopters.Mi_28N
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -509,6 +510,7 @@ class Russia(Country):
         Helicopter.Mi_28N,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -1174,6 +1176,7 @@ class Ukraine(Country):
         Ka_27 = helicopters.Ka_27
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -1187,6 +1190,7 @@ class Ukraine(Country):
         Helicopter.Ka_27,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -1715,6 +1719,7 @@ class USA(Country):
         UH_1H = helicopters.UH_1H
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -1733,6 +1738,7 @@ class USA(Country):
         Helicopter.UH_1H,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -2214,6 +2220,7 @@ class Turkey(Country):
         UH_1H = helicopters.UH_1H
         CH_47D = helicopters.CH_47D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -2227,6 +2234,7 @@ class Turkey(Country):
         Helicopter.UH_1H,
         Helicopter.CH_47D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -2702,6 +2710,7 @@ class UK(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -2715,6 +2724,7 @@ class UK(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -3193,6 +3203,7 @@ class France(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -3203,6 +3214,7 @@ class France(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -3821,6 +3833,7 @@ class Germany(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -3831,6 +3844,7 @@ class Germany(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -4885,6 +4899,7 @@ class USAFAggressors(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -4907,6 +4922,7 @@ class USAFAggressors(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -5450,6 +5466,7 @@ class Canada(Country):
         UH_1H = helicopters.UH_1H
         CH_47D = helicopters.CH_47D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -5461,6 +5478,7 @@ class Canada(Country):
         Helicopter.UH_1H,
         Helicopter.CH_47D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -5910,6 +5928,7 @@ class Spain(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -5921,6 +5940,7 @@ class Spain(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -6416,6 +6436,7 @@ class TheNetherlands(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -6429,6 +6450,7 @@ class TheNetherlands(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -6881,6 +6903,7 @@ class Belgium(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -6891,6 +6914,7 @@ class Belgium(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -7311,6 +7335,7 @@ class Norway(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -7321,6 +7346,7 @@ class Norway(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -7737,6 +7763,7 @@ class Denmark(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -7747,6 +7774,7 @@ class Denmark(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -8199,6 +8227,7 @@ class Israel(Country):
         UH_1H = helicopters.UH_1H
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -8213,6 +8242,7 @@ class Israel(Country):
         Helicopter.UH_1H,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -8740,6 +8770,7 @@ class Georgia(Country):
         Mi_8MT = helicopters.Mi_8MT
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -8751,6 +8782,7 @@ class Georgia(Country):
         Helicopter.Mi_8MT,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -9201,6 +9233,7 @@ class Insurgents(Country):
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
         Ka_50 = helicopters.Ka_50
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -9211,6 +9244,7 @@ class Insurgents(Country):
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
         Helicopter.Ka_50,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -9610,6 +9644,7 @@ class Abkhazia(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -9621,6 +9656,7 @@ class Abkhazia(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -9996,6 +10032,7 @@ class SouthOssetia(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -10007,6 +10044,7 @@ class SouthOssetia(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -10348,6 +10386,7 @@ class Italy(Country):
         UH_1H = helicopters.UH_1H
         CH_47D = helicopters.CH_47D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -10359,6 +10398,7 @@ class Italy(Country):
         Helicopter.UH_1H,
         Helicopter.CH_47D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -10805,6 +10845,7 @@ class Australia(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -10817,6 +10858,7 @@ class Australia(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -11205,6 +11247,7 @@ class Switzerland(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -11213,6 +11256,7 @@ class Switzerland(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -11578,6 +11622,7 @@ class Austria(Country):
         Ka_50 = helicopters.Ka_50
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -11587,6 +11632,7 @@ class Austria(Country):
         Helicopter.Ka_50,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -12150,6 +12196,7 @@ class Belarus(Country):
         Mi_8MT = helicopters.Mi_8MT
         Mi_26 = helicopters.Mi_26
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -12161,6 +12208,7 @@ class Belarus(Country):
         Helicopter.Mi_8MT,
         Helicopter.Mi_26,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -12621,6 +12669,7 @@ class Bulgaria(Country):
         Mi_24V = helicopters.Mi_24V
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -12631,6 +12680,7 @@ class Bulgaria(Country):
         Helicopter.Mi_24V,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -13099,6 +13149,7 @@ class CzechRepublic(Country):
         Mi_24V = helicopters.Mi_24V
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -13109,6 +13160,7 @@ class CzechRepublic(Country):
         Helicopter.Mi_24V,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -13568,6 +13620,7 @@ class China(Country):
         Mi_26 = helicopters.Mi_26
         Ka_27 = helicopters.Ka_27
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -13579,6 +13632,7 @@ class China(Country):
         Helicopter.Mi_26,
         Helicopter.Ka_27,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -13884,6 +13938,7 @@ class Croatia(Country):
         Mi_8MT = helicopters.Mi_8MT
         OH_58D = helicopters.OH_58D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -13895,6 +13950,7 @@ class Croatia(Country):
         Helicopter.Mi_8MT,
         Helicopter.OH_58D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -14431,6 +14487,7 @@ class Egypt(Country):
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
         Mi_8MT = helicopters.Mi_8MT
         Mi_24V = helicopters.Mi_24V
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -14445,6 +14502,7 @@ class Egypt(Country):
         Helicopter.AH_64D_BLK_II,
         Helicopter.Mi_8MT,
         Helicopter.Mi_24V,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -14945,6 +15003,7 @@ class Finland(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -14953,6 +15012,7 @@ class Finland(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -15433,6 +15493,7 @@ class Greece(Country):
         SH_60B = helicopters.SH_60B
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -15447,6 +15508,7 @@ class Greece(Country):
         Helicopter.SH_60B,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -15967,6 +16029,7 @@ class Hungary(Country):
         Mi_24V = helicopters.Mi_24V
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -15977,6 +16040,7 @@ class Hungary(Country):
         Helicopter.Mi_24V,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -16427,6 +16491,7 @@ class India(Country):
         Mi_26 = helicopters.Mi_26
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -16439,6 +16504,7 @@ class India(Country):
         Helicopter.Mi_26,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -16952,6 +17018,7 @@ class Iran(Country):
         Mi_8MT = helicopters.Mi_8MT
         CH_47D = helicopters.CH_47D
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -16965,6 +17032,7 @@ class Iran(Country):
         Helicopter.Mi_8MT,
         Helicopter.CH_47D,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -17464,6 +17532,7 @@ class Iraq(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -17473,6 +17542,7 @@ class Iraq(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -17935,6 +18005,7 @@ class Japan(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -17947,6 +18018,7 @@ class Japan(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -18533,6 +18605,7 @@ class Kazakhstan(Country):
         Mi_26 = helicopters.Mi_26
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -18545,6 +18618,7 @@ class Kazakhstan(Country):
         Helicopter.Mi_26,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -18956,6 +19030,7 @@ class NorthKorea(Country):
         Ka_50 = helicopters.Ka_50
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -18965,6 +19040,7 @@ class NorthKorea(Country):
         Helicopter.Ka_50,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -19387,6 +19463,7 @@ class Pakistan(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -19395,6 +19472,7 @@ class Pakistan(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -19906,6 +19984,7 @@ class Poland(Country):
         Ka_50 = helicopters.Ka_50
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -19915,6 +19994,7 @@ class Poland(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -20432,6 +20512,7 @@ class Romania(Country):
         Ka_50 = helicopters.Ka_50
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -20441,6 +20522,7 @@ class Romania(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -20891,6 +20973,7 @@ class SaudiArabia(Country):
         CH_47D = helicopters.CH_47D
         AH_64A = helicopters.AH_64A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -20905,6 +20988,7 @@ class SaudiArabia(Country):
         Helicopter.CH_47D,
         Helicopter.AH_64A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -21374,6 +21458,7 @@ class Serbia(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -21383,6 +21468,7 @@ class Serbia(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -21816,6 +21902,7 @@ class Slovakia(Country):
         Ka_50 = helicopters.Ka_50
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -21825,6 +21912,7 @@ class Slovakia(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -22247,6 +22335,7 @@ class SouthKorea(Country):
         Ka_27 = helicopters.Ka_27
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -22257,6 +22346,7 @@ class SouthKorea(Country):
         Helicopter.Ka_27,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -22639,6 +22729,7 @@ class Sweden(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -22647,6 +22738,7 @@ class Sweden(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -23151,6 +23243,7 @@ class Syria(Country):
         SA342Minigun = helicopters.SA342Minigun
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -23161,6 +23254,7 @@ class Syria(Country):
         Helicopter.SA342Minigun,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -23582,6 +23676,7 @@ class Yemen(Country):
         Mi_24V = helicopters.Mi_24V
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -23593,6 +23688,7 @@ class Yemen(Country):
         Helicopter.Mi_24V,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -24047,6 +24143,7 @@ class Vietnam(Country):
         Ka_27 = helicopters.Ka_27
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -24057,6 +24154,7 @@ class Vietnam(Country):
         Helicopter.Ka_27,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -24483,6 +24581,7 @@ class Venezuela(Country):
         Mi_26 = helicopters.Mi_26
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -24493,6 +24592,7 @@ class Venezuela(Country):
         Helicopter.Mi_26,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -24857,6 +24957,7 @@ class Tunisia(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -24865,6 +24966,7 @@ class Tunisia(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -25252,6 +25354,7 @@ class Thailand(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -25263,6 +25366,7 @@ class Thailand(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -25668,6 +25772,7 @@ class Sudan(Country):
         Ka_50 = helicopters.Ka_50
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -25677,6 +25782,7 @@ class Sudan(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -26027,6 +26133,7 @@ class Philippines(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -26035,6 +26142,7 @@ class Philippines(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -26463,6 +26571,7 @@ class Morocco(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -26473,6 +26582,7 @@ class Morocco(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -26838,6 +26948,7 @@ class Mexico(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -26849,6 +26960,7 @@ class Mexico(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -27230,6 +27342,7 @@ class Malaysia(Country):
         Ka_50 = helicopters.Ka_50
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -27239,6 +27352,7 @@ class Malaysia(Country):
         Helicopter.Ka_50,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -27677,6 +27791,7 @@ class Libya(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -27685,6 +27800,7 @@ class Libya(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -28103,6 +28219,7 @@ class Jordan(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -28115,6 +28232,7 @@ class Jordan(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -28566,6 +28684,7 @@ class Indonesia(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -28577,6 +28696,7 @@ class Indonesia(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -28936,6 +29056,7 @@ class Honduras(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -28945,6 +29066,7 @@ class Honduras(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -29356,6 +29478,7 @@ class Ethiopia(Country):
         Ka_50 = helicopters.Ka_50
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -29365,6 +29488,7 @@ class Ethiopia(Country):
         Helicopter.Ka_50,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -29772,6 +29896,7 @@ class Chile(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -29783,6 +29908,7 @@ class Chile(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -30191,6 +30317,7 @@ class Brazil(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -30201,6 +30328,7 @@ class Brazil(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -30602,6 +30730,7 @@ class Bahrain(Country):
         Ka_50 = helicopters.Ka_50
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -30611,6 +30740,7 @@ class Bahrain(Country):
         Helicopter.Ka_50,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -31019,6 +31149,7 @@ class ThirdReich(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -31027,6 +31158,7 @@ class ThirdReich(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -31464,6 +31596,7 @@ class Yugoslavia(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -31473,6 +31606,7 @@ class Yugoslavia(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -32025,6 +32159,7 @@ class USSR(Country):
         Mi_26 = helicopters.Mi_26
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -32037,6 +32172,7 @@ class USSR(Country):
         Helicopter.Mi_26,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -32389,6 +32525,7 @@ class ItalianSocialRepublic(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -32397,6 +32534,7 @@ class ItalianSocialRepublic(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -32972,6 +33110,7 @@ class Algeria(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -32987,6 +33126,7 @@ class Algeria(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -33420,6 +33560,7 @@ class Kuwait(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -33429,6 +33570,7 @@ class Kuwait(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -33819,6 +33961,7 @@ class Qatar(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -33827,6 +33970,7 @@ class Qatar(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -34248,6 +34392,7 @@ class Oman(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -34257,6 +34402,7 @@ class Oman(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -34692,6 +34838,7 @@ class UnitedArabEmirates(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -34705,6 +34852,7 @@ class UnitedArabEmirates(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -35070,6 +35218,7 @@ class SouthAfrica(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -35079,6 +35228,7 @@ class SouthAfrica(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -35561,6 +35711,7 @@ class Cuba(Country):
         Mi_8MT = helicopters.Mi_8MT
         Mi_24V = helicopters.Mi_24V
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -35571,6 +35722,7 @@ class Cuba(Country):
         Helicopter.Mi_8MT,
         Helicopter.Mi_24V,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -35971,6 +36123,7 @@ class Portugal(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -35979,6 +36132,7 @@ class Portugal(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -36441,6 +36595,7 @@ class GDR(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -36449,6 +36604,7 @@ class GDR(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -36866,6 +37022,7 @@ class Lebanon(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -36875,6 +37032,7 @@ class Lebanon(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -37919,6 +38077,7 @@ class CombinedJointTaskForcesBlue(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -37941,6 +38100,7 @@ class CombinedJointTaskForcesBlue(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -39091,6 +39251,7 @@ class CombinedJointTaskForcesRed(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -39113,6 +39274,7 @@ class CombinedJointTaskForcesRed(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -40263,6 +40425,7 @@ class UnitedNationsPeacekeepers(Country):
     class Helicopter:
         Ka_50 = helicopters.Ka_50
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -40285,6 +40448,7 @@ class UnitedNationsPeacekeepers(Country):
     helicopters = [
         Helicopter.Ka_50,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -40767,6 +40931,7 @@ class Argentina(Country):
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -40779,6 +40944,7 @@ class Argentina(Country):
         Helicopter.UH_1H,
         Helicopter.UH_60A,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -41190,6 +41356,7 @@ class Cyprus(Country):
         SA342Minigun = helicopters.SA342Minigun
         Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -41199,6 +41366,7 @@ class Cyprus(Country):
         Helicopter.SA342Minigun,
         Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
@@ -41587,6 +41755,7 @@ class Slovenia(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -41597,6 +41766,7 @@ class Slovenia(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -41984,6 +42154,7 @@ class Bolivia(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -41993,6 +42164,7 @@ class Bolivia(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -42357,6 +42529,7 @@ class Ghana(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -42367,6 +42540,7 @@ class Ghana(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -42752,6 +42926,7 @@ class Nigeria(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -42763,6 +42938,7 @@ class Nigeria(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -43165,6 +43341,7 @@ class Peru(Country):
         Mi_8MT = helicopters.Mi_8MT
         UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
         SA342M = helicopters.SA342M
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
@@ -43177,6 +43354,7 @@ class Peru(Country):
         Helicopter.Mi_8MT,
         Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
         Helicopter.SA342M,
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
@@ -43559,6 +43737,7 @@ class Ecuador(Country):
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        OH58D = helicopters.OH58D
 
     helicopters = [
         Helicopter.Ka_50,
@@ -43569,6 +43748,7 @@ class Ecuador(Country):
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
         Helicopter.AH_64D_BLK_II,
+        Helicopter.OH58D,
     ]
 
     class Ship:
