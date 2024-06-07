@@ -3,7 +3,7 @@
 import dcs.unittype as unittype
 
 
-class speedboat(unittype.ShipType):
+class Speedboat(unittype.ShipType):
     id = "speedboat"
     name = "Boat Armed Hi-speed"
     detection_range = 5000
@@ -193,7 +193,7 @@ class HarborTug(unittype.ShipType):
     air_weapon_dist = 0
 
 
-class hms_invincible(unittype.ShipType):
+class Hms_invincible(unittype.ShipType):
     id = "hms_invincible"
     name = "HMS Invincible (R05)"
     plane_num = 7
@@ -204,7 +204,7 @@ class hms_invincible(unittype.ShipType):
     air_weapon_dist = 74000
 
 
-class leander_gun_achilles(unittype.ShipType):
+class Leander_gun_achilles(unittype.ShipType):
     id = "leander-gun-achilles"
     name = "HMS Achilles (F12)"
     helicopter_num = 1
@@ -214,7 +214,7 @@ class leander_gun_achilles(unittype.ShipType):
     air_weapon_dist = 8000
 
 
-class leander_gun_andromeda(unittype.ShipType):
+class Leander_gun_andromeda(unittype.ShipType):
     id = "leander-gun-andromeda"
     name = "HMS Andromeda (F57)"
     helicopter_num = 1
@@ -224,7 +224,7 @@ class leander_gun_andromeda(unittype.ShipType):
     air_weapon_dist = 140000
 
 
-class leander_gun_ariadne(unittype.ShipType):
+class Leander_gun_ariadne(unittype.ShipType):
     id = "leander-gun-ariadne"
     name = "HMS Ariadne (F72)"
     helicopter_num = 1
@@ -234,7 +234,7 @@ class leander_gun_ariadne(unittype.ShipType):
     air_weapon_dist = 100000
 
 
-class leander_gun_condell(unittype.ShipType):
+class Leander_gun_condell(unittype.ShipType):
     id = "leander-gun-condell"
     name = "CNS Almirante Condell (PFG-06)"
     helicopter_num = 1
@@ -244,7 +244,7 @@ class leander_gun_condell(unittype.ShipType):
     air_weapon_dist = 100000
 
 
-class leander_gun_lynch(unittype.ShipType):
+class Leander_gun_lynch(unittype.ShipType):
     id = "leander-gun-lynch"
     name = "CNS Almirante Lynch (PFG-07)"
     helicopter_num = 1
@@ -264,7 +264,7 @@ class Ship_Tilde_Supply(unittype.ShipType):
     air_weapon_dist = 0
 
 
-class santafe(unittype.ShipType):
+class Santafe(unittype.ShipType):
     id = "santafe"
     name = "ARA Santa Fe S-21"
     detection_range = 0
@@ -272,7 +272,7 @@ class santafe(unittype.ShipType):
     air_weapon_dist = 30000
 
 
-class ara_vdm(unittype.ShipType):
+class Ara_vdm(unittype.ShipType):
     id = "ara_vdm"
     name = "ARA Veinticinco de Mayo"
     plane_num = 15
@@ -497,7 +497,7 @@ class Schnellboot_type_S130(unittype.ShipType):
     air_weapon_dist = 4000
 
 ship_map = {
-    "speedboat": speedboat,
+    "speedboat": Speedboat,
     "VINSON": VINSON,
     "PERRY": PERRY,
     "TICONDEROG": TICONDEROG,
@@ -518,15 +518,15 @@ ship_map = {
     "CV_1143_5": CV_1143_5,
     "CastleClass_01": CastleClass_01,
     "HarborTug": HarborTug,
-    "hms_invincible": hms_invincible,
-    "leander-gun-achilles": leander_gun_achilles,
-    "leander-gun-andromeda": leander_gun_andromeda,
-    "leander-gun-ariadne": leander_gun_ariadne,
-    "leander-gun-condell": leander_gun_condell,
-    "leander-gun-lynch": leander_gun_lynch,
+    "hms_invincible": Hms_invincible,
+    "leander-gun-achilles": Leander_gun_achilles,
+    "leander-gun-andromeda": Leander_gun_andromeda,
+    "leander-gun-ariadne": Leander_gun_ariadne,
+    "leander-gun-condell": Leander_gun_condell,
+    "leander-gun-lynch": Leander_gun_lynch,
     "Ship_Tilde_Supply": Ship_Tilde_Supply,
-    "santafe": santafe,
-    "ara_vdm": ara_vdm,
+    "santafe": Santafe,
+    "ara_vdm": Ara_vdm,
     "HandyWind": HandyWind,
     "Seawise_Giant": Seawise_Giant,
     "La_Combattante_II": La_Combattante_II,

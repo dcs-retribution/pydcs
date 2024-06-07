@@ -5,7 +5,7 @@ import dcs.unittype as unittype
 
 class Artillery:
 
-    class x_2B11_mortar(unittype.VehicleType):
+    class X_2B11_mortar(unittype.VehicleType):
         id = "2B11 mortar"
         name = "Mortar 2B11 120mm"
         detection_range = 0
@@ -120,7 +120,7 @@ class Artillery:
         threat_range = 5000
         air_weapon_dist = 5000
 
-    class tt_B8M1(unittype.VehicleType):
+    class Tt_B8M1(unittype.VehicleType):
         id = "tt_B8M1"
         name = "MLRS LC with B8M1 80mm"
         detection_range = 5000
@@ -265,21 +265,21 @@ class Infantry:
         air_weapon_dist = 0
         eplrs = True
 
-    class soldier_mauser98(unittype.VehicleType):
+    class Soldier_mauser98(unittype.VehicleType):
         id = "soldier_mauser98"
         name = "Infantry Mauser 98"
         detection_range = 0
         threat_range = 500
         air_weapon_dist = 500
 
-    class soldier_wwii_br_01(unittype.VehicleType):
+    class Soldier_wwii_br_01(unittype.VehicleType):
         id = "soldier_wwii_br_01"
         name = "Infantry SMLE No.4 Mk-1"
         detection_range = 0
         threat_range = 500
         air_weapon_dist = 500
 
-    class soldier_wwii_us(unittype.VehicleType):
+    class Soldier_wwii_us(unittype.VehicleType):
         id = "soldier_wwii_us"
         name = "Infantry M1 Garand"
         detection_range = 0
@@ -289,7 +289,7 @@ class Infantry:
 
 class AirDefence:
 
-    class x_2S6_Tunguska(unittype.VehicleType):
+    class X_2S6_Tunguska(unittype.VehicleType):
         id = "2S6 Tunguska"
         name = "SAM SA-19 Tunguska \"Grison\" "
         detection_range = 18000
@@ -303,7 +303,7 @@ class AirDefence:
         threat_range = 25000
         air_weapon_dist = 25000
 
-    class x_5p73_s_125_ln(unittype.VehicleType):
+    class X_5p73_s_125_ln(unittype.VehicleType):
         id = "5p73 s-125 ln"
         name = "SAM SA-3 S-125 \"Goa\" LN"
         detection_range = 0
@@ -553,7 +553,7 @@ class AirDefence:
         threat_range = 5200
         air_weapon_dist = 5200
 
-    class x_1L13_EWR(unittype.VehicleType):
+    class X_1L13_EWR(unittype.VehicleType):
         id = "1L13 EWR"
         name = "EWR 1L13"
         detection_range = 300000
@@ -567,7 +567,7 @@ class AirDefence:
         threat_range = 0
         air_weapon_dist = 0
 
-    class x_55G6_EWR(unittype.VehicleType):
+    class X_55G6_EWR(unittype.VehicleType):
         id = "55G6 EWR"
         name = "EWR 55G6"
         detection_range = 400000
@@ -618,7 +618,7 @@ class AirDefence:
         air_weapon_dist = 0
         eplrs = True
 
-    class p_19_s_125_sr(unittype.VehicleType):
+    class P_19_s_125_sr(unittype.VehicleType):
         id = "p-19 s-125 sr"
         name = "SAM SA-2/3/5 P19 \"Flat Face\" SR "
         detection_range = 160000
@@ -632,7 +632,7 @@ class AirDefence:
         threat_range = 0
         air_weapon_dist = 0
 
-    class snr_s_125_tr(unittype.VehicleType):
+    class Snr_s_125_tr(unittype.VehicleType):
         id = "snr s-125 tr"
         name = "SAM SA-3 S-125 \"Low Blow\" TR"
         detection_range = 100000
@@ -724,7 +724,7 @@ class AirDefence:
         threat_range = 2500
         air_weapon_dist = 2500
 
-    class tt_ZU_23(unittype.VehicleType):
+    class Tt_ZU_23(unittype.VehicleType):
         id = "tt_ZU-23"
         name = "SPAAA LC with ZU-23"
         detection_range = 0
@@ -839,42 +839,42 @@ class AirDefence:
         threat_range = 6000
         air_weapon_dist = 6000
 
-    class generator_5i57(unittype.VehicleType):
+    class Generator_5i57(unittype.VehicleType):
         id = "generator_5i57"
         name = "Diesel Power Station 5I57A"
         detection_range = 0
         threat_range = 0
         air_weapon_dist = 0
 
-    class rapier_fsa_launcher(unittype.VehicleType):
+    class Rapier_fsa_launcher(unittype.VehicleType):
         id = "rapier_fsa_launcher"
         name = "SAM Rapier LN"
         detection_range = 30000
         threat_range = 6800
         air_weapon_dist = 6800
 
-    class rapier_fsa_optical_tracker_unit(unittype.VehicleType):
+    class Rapier_fsa_optical_tracker_unit(unittype.VehicleType):
         id = "rapier_fsa_optical_tracker_unit"
         name = "SAM Rapier Tracker"
         detection_range = 20000
         threat_range = 0
         air_weapon_dist = 0
 
-    class rapier_fsa_blindfire_radar(unittype.VehicleType):
+    class Rapier_fsa_blindfire_radar(unittype.VehicleType):
         id = "rapier_fsa_blindfire_radar"
         name = "SAM Rapier Blindfire TR"
         detection_range = 30000
         threat_range = 0
         air_weapon_dist = 0
 
-    class bofors40(unittype.VehicleType):
+    class Bofors40(unittype.VehicleType):
         id = "bofors40"
         name = "AAA Bofors 40mm"
         detection_range = 0
         threat_range = 4000
         air_weapon_dist = 4000
 
-    class flak18(unittype.VehicleType):
+    class Flak18(unittype.VehicleType):
         id = "flak18"
         name = "AAA 8,8cm Flak 18"
         detection_range = 0
@@ -902,28 +902,28 @@ class AirDefence:
         threat_range = 0
         air_weapon_dist = 0
 
-    class flak30(unittype.VehicleType):
+    class Flak30(unittype.VehicleType):
         id = "flak30"
         name = "AAA Flak 38 20mm"
         detection_range = 0
         threat_range = 2500
         air_weapon_dist = 2500
 
-    class flak36(unittype.VehicleType):
+    class Flak36(unittype.VehicleType):
         id = "flak36"
         name = "AAA 8,8cm Flak 36"
         detection_range = 0
         threat_range = 5000
         air_weapon_dist = 5000
 
-    class flak37(unittype.VehicleType):
+    class Flak37(unittype.VehicleType):
         id = "flak37"
         name = "AAA 8,8cm Flak 37"
         detection_range = 0
         threat_range = 5000
         air_weapon_dist = 5000
 
-    class flak38(unittype.VehicleType):
+    class Flak38(unittype.VehicleType):
         id = "flak38"
         name = "AAA Flak-Vierling 38 Quad 20mm"
         detection_range = 0
@@ -951,7 +951,7 @@ class AirDefence:
         threat_range = 0
         air_weapon_dist = 0
 
-    class flak41(unittype.VehicleType):
+    class Flak41(unittype.VehicleType):
         id = "flak41"
         name = "AAA 8,8cm Flak 41"
         detection_range = 0
@@ -1017,35 +1017,35 @@ class Fortification:
         threat_range = 800
         air_weapon_dist = 800
 
-    class house1arm(unittype.VehicleType):
+    class House1arm(unittype.VehicleType):
         id = "house1arm"
         name = "Barracks armed"
         detection_range = 0
         threat_range = 800
         air_weapon_dist = 800
 
-    class house2arm(unittype.VehicleType):
+    class House2arm(unittype.VehicleType):
         id = "house2arm"
         name = "Watch tower armed"
         detection_range = 0
         threat_range = 800
         air_weapon_dist = 800
 
-    class outpost_road(unittype.VehicleType):
+    class Outpost_road(unittype.VehicleType):
         id = "outpost_road"
         name = "Road outpost"
         detection_range = 0
         threat_range = 800
         air_weapon_dist = 800
 
-    class outpost(unittype.VehicleType):
+    class Outpost(unittype.VehicleType):
         id = "outpost"
         name = "Outpost"
         detection_range = 0
         threat_range = 800
         air_weapon_dist = 800
 
-    class houseA_arm(unittype.VehicleType):
+    class HouseA_arm(unittype.VehicleType):
         id = "houseA_arm"
         name = "Building armed"
         detection_range = 0
@@ -1066,7 +1066,7 @@ class Fortification:
         threat_range = 20000
         air_weapon_dist = 0
 
-    class fire_control(unittype.VehicleType):
+    class Fire_control(unittype.VehicleType):
         id = "fire_control"
         name = "Bunker with Fire Control Center"
         detection_range = 0
@@ -1329,14 +1329,14 @@ class Unarmed:
         threat_range = 0
         air_weapon_dist = 0
 
-    class r11_volvo_drivable(unittype.VehicleType):
+    class R11_volvo_drivable(unittype.VehicleType):
         id = "r11_volvo_drivable"
         name = "M92 R11 Volvo drivable"
         detection_range = 0
         threat_range = 0
         air_weapon_dist = 0
 
-    class tacr2a(unittype.VehicleType):
+    class Tacr2a(unittype.VehicleType):
         id = "tacr2a"
         name = "Firefighter RAF Rescue"
         detection_range = 0
@@ -1704,14 +1704,14 @@ class Armor:
         threat_range = 1200
         air_weapon_dist = 1200
 
-    class tt_DSHK(unittype.VehicleType):
+    class Tt_DSHK(unittype.VehicleType):
         id = "tt_DSHK"
         name = "Scout LC with DSHK 12.7mm"
         detection_range = 5000
         threat_range = 1200
         air_weapon_dist = 1200
 
-    class tt_KORD(unittype.VehicleType):
+    class Tt_KORD(unittype.VehicleType):
         id = "tt_KORD"
         name = "Scout LC with KORD 12.7mm"
         detection_range = 5000
@@ -1788,14 +1788,14 @@ class Armor:
         threat_range = 3500
         air_weapon_dist = 1500
 
-    class leopard_2A4(unittype.VehicleType):
+    class Leopard_2A4(unittype.VehicleType):
         id = "leopard-2A4"
         name = "MBT Leopard-2A4"
         detection_range = 0
         threat_range = 3500
         air_weapon_dist = 1500
 
-    class leopard_2A4_trs(unittype.VehicleType):
+    class Leopard_2A4_trs(unittype.VehicleType):
         id = "leopard-2A4_trs"
         name = "MBT Leopard-2A4 Trs"
         detection_range = 0
@@ -1983,7 +1983,7 @@ class MissilesSS:
         threat_range = 285000
         air_weapon_dist = 285000
 
-    class hy_launcher(unittype.VehicleType):
+    class Hy_launcher(unittype.VehicleType):
         id = "hy_launcher"
         name = "AShM SS-N-2 Silkworm"
         detection_range = 100000
@@ -1997,7 +1997,7 @@ class MissilesSS:
         threat_range = 0
         air_weapon_dist = 0
 
-    class v1_launcher(unittype.VehicleType):
+    class V1_launcher(unittype.VehicleType):
         id = "v1_launcher"
         name = "V-1 Launch Ramp"
         detection_range = 0
@@ -2123,7 +2123,7 @@ class Carriage:
         air_weapon_dist = 0
 
 vehicle_map = {
-    "2B11 mortar": Artillery.x_2B11_mortar,
+    "2B11 mortar": Artillery.X_2B11_mortar,
     "SAU Gvozdika": Artillery.SAU_Gvozdika,
     "SAU Msta": Artillery.SAU_Msta,
     "SAU Akatsia": Artillery.SAU_Akatsia,
@@ -2169,9 +2169,9 @@ vehicle_map = {
     "Smerch": Artillery.Smerch,
     "Smerch_HE": Artillery.Smerch_HE,
     "MLRS": Artillery.MLRS,
-    "2S6 Tunguska": AirDefence.x_2S6_Tunguska,
+    "2S6 Tunguska": AirDefence.X_2S6_Tunguska,
     "Kub 2P25 ln": AirDefence.Kub_2P25_ln,
-    "5p73 s-125 ln": AirDefence.x_5p73_s_125_ln,
+    "5p73 s-125 ln": AirDefence.X_5p73_s_125_ln,
     "SA-11 Buk LN 9A310M1": AirDefence.SA_11_Buk_LN_9A310M1,
     "Osa 9A33 ln": AirDefence.Osa_9A33_ln,
     "Tor 9A331": AirDefence.Tor_9A331,
@@ -2206,23 +2206,23 @@ vehicle_map = {
     "SA-18 Igla-S manpad": AirDefence.SA_18_Igla_S_manpad,
     "SA-18 Igla-S comm": AirDefence.SA_18_Igla_S_comm,
     "Igla manpad INS": AirDefence.Igla_manpad_INS,
-    "1L13 EWR": AirDefence.x_1L13_EWR,
+    "1L13 EWR": AirDefence.X_1L13_EWR,
     "Kub 1S91 str": AirDefence.Kub_1S91_str,
-    "55G6 EWR": AirDefence.x_55G6_EWR,
+    "55G6 EWR": AirDefence.X_55G6_EWR,
     "SA-11 Buk SR 9S18M1": AirDefence.SA_11_Buk_SR_9S18M1,
     "Dog Ear radar": AirDefence.Dog_Ear_radar,
     "Hawk tr": AirDefence.Hawk_tr,
     "Hawk sr": AirDefence.Hawk_sr,
     "Patriot str": AirDefence.Patriot_str,
     "Hawk cwar": AirDefence.Hawk_cwar,
-    "p-19 s-125 sr": AirDefence.p_19_s_125_sr,
+    "p-19 s-125 sr": AirDefence.P_19_s_125_sr,
     "Roland Radar": AirDefence.Roland_Radar,
-    "snr s-125 tr": AirDefence.snr_s_125_tr,
-    "house1arm": Fortification.house1arm,
-    "house2arm": Fortification.house2arm,
-    "outpost_road": Fortification.outpost_road,
-    "outpost": Fortification.outpost,
-    "houseA_arm": Fortification.houseA_arm,
+    "snr s-125 tr": AirDefence.Snr_s_125_tr,
+    "house1arm": Fortification.House1arm,
+    "house2arm": Fortification.House2arm,
+    "outpost_road": Fortification.Outpost_road,
+    "outpost": Fortification.Outpost,
+    "houseA_arm": Fortification.HouseA_arm,
     "TACAN_beacon": Fortification.TACAN_beacon,
     "Challenger2": Armor.Challenger2,
     "Leclerc": Armor.Leclerc,
@@ -2281,7 +2281,7 @@ vehicle_map = {
     "B600_drivable": Unarmed.B600_drivable,
     "MJ-1_drivable": Unarmed.MJ_1_drivable,
     "P20_drivable": Unarmed.P20_drivable,
-    "r11_volvo_drivable": Unarmed.r11_volvo_drivable,
+    "r11_volvo_drivable": Unarmed.R11_volvo_drivable,
     "Electric locomotive": Locomotive.Electric_locomotive,
     "Locomotive": Locomotive.Locomotive,
     "Coach cargo": Carriage.Coach_cargo,
@@ -2291,19 +2291,19 @@ vehicle_map = {
     "Coach a passenger": Carriage.Coach_a_passenger,
     "Coach a platform": Carriage.Coach_a_platform,
     "L118_Unit": Artillery.L118_Unit,
-    "tacr2a": Unarmed.tacr2a,
+    "tacr2a": Unarmed.Tacr2a,
     "LARC-V": Unarmed.LARC_V,
     "KS-19": AirDefence.KS_19,
     "SON_9": AirDefence.SON_9,
     "Scud_B": MissilesSS.Scud_B,
     "HL_DSHK": Armor.HL_DSHK,
     "HL_KORD": Armor.HL_KORD,
-    "tt_DSHK": Armor.tt_DSHK,
-    "tt_KORD": Armor.tt_KORD,
+    "tt_DSHK": Armor.Tt_DSHK,
+    "tt_KORD": Armor.Tt_KORD,
     "HL_ZU-23": AirDefence.HL_ZU_23,
-    "tt_ZU-23": AirDefence.tt_ZU_23,
+    "tt_ZU-23": AirDefence.Tt_ZU_23,
     "HL_B8M1": Artillery.HL_B8M1,
-    "tt_B8M1": Artillery.tt_B8M1,
+    "tt_B8M1": Artillery.Tt_B8M1,
     "NASAMS_Radar_MPQ64F1": AirDefence.NASAMS_Radar_MPQ64F1,
     "NASAMS_Command_Post": AirDefence.NASAMS_Command_Post,
     "NASAMS_LN_B": AirDefence.NASAMS_LN_B,
@@ -2322,7 +2322,7 @@ vehicle_map = {
     "S-200_Launcher": AirDefence.S_200_Launcher,
     "ZSU_57_2": AirDefence.ZSU_57_2,
     "S-60_Type59_Artillery": AirDefence.S_60_Type59_Artillery,
-    "generator_5i57": AirDefence.generator_5i57,
+    "generator_5i57": AirDefence.Generator_5i57,
     "T-72B3": Armor.T_72B3,
     "PT_76": Armor.PT_76,
     "BTR-82A": Armor.BTR_82A,
@@ -2332,26 +2332,26 @@ vehicle_map = {
     "ATZ-60_Maz": Unarmed.ATZ_60_Maz,
     "ZIL-135": Unarmed.ZIL_135,
     "S_75_ZIL": Unarmed.S_75_ZIL,
-    "rapier_fsa_launcher": AirDefence.rapier_fsa_launcher,
-    "rapier_fsa_optical_tracker_unit": AirDefence.rapier_fsa_optical_tracker_unit,
-    "rapier_fsa_blindfire_radar": AirDefence.rapier_fsa_blindfire_radar,
-    "bofors40": AirDefence.bofors40,
+    "rapier_fsa_launcher": AirDefence.Rapier_fsa_launcher,
+    "rapier_fsa_optical_tracker_unit": AirDefence.Rapier_fsa_optical_tracker_unit,
+    "rapier_fsa_blindfire_radar": AirDefence.Rapier_fsa_blindfire_radar,
+    "bofors40": AirDefence.Bofors40,
     "Chieftain_mk3": Armor.Chieftain_mk3,
     "Bedford_MWD": Unarmed.Bedford_MWD,
     "Land_Rover_101_FC": Unarmed.Land_Rover_101_FC,
     "Land_Rover_109_S3": Unarmed.Land_Rover_109_S3,
-    "hy_launcher": MissilesSS.hy_launcher,
+    "hy_launcher": MissilesSS.Hy_launcher,
     "Silkworm_SR": MissilesSS.Silkworm_SR,
     "ES44AH": Locomotive.ES44AH,
     "Boxcartrinity": Carriage.Boxcartrinity,
     "Tankcartrinity": Carriage.Tankcartrinity,
     "Wellcarnsc": Carriage.Wellcarnsc,
-    "flak18": AirDefence.flak18,
+    "flak18": AirDefence.Flak18,
     "Pz_IV_H": Armor.Pz_IV_H,
     "Leopard-2A5": Armor.Leopard_2A5,
     "Leopard-2": Armor.Leopard_2,
-    "leopard-2A4": Armor.leopard_2A4,
-    "leopard-2A4_trs": Armor.leopard_2A4_trs,
+    "leopard-2A4": Armor.Leopard_2A4,
+    "leopard-2A4_trs": Armor.Leopard_2A4_trs,
     "Sd_Kfz_251": Armor.Sd_Kfz_251,
     "Blitz_36-6700A": Unarmed.Blitz_36_6700A,
     "T155_Firtina": Artillery.T155_Firtina,
@@ -2376,27 +2376,27 @@ vehicle_map = {
     "SturmPzIV": Armor.SturmPzIV,
     "Wespe124": Artillery.Wespe124,
     "Sd_Kfz_234_2_Puma": Armor.Sd_Kfz_234_2_Puma,
-    "flak30": AirDefence.flak30,
-    "flak36": AirDefence.flak36,
-    "flak37": AirDefence.flak37,
-    "flak38": AirDefence.flak38,
+    "flak30": AirDefence.Flak30,
+    "flak36": AirDefence.Flak36,
+    "flak37": AirDefence.Flak37,
+    "flak38": AirDefence.Flak38,
     "KDO_Mod40": AirDefence.KDO_Mod40,
     "Flakscheinwerfer_37": AirDefence.Flakscheinwerfer_37,
     "Maschinensatz_33": AirDefence.Maschinensatz_33,
-    "soldier_mauser98": Infantry.soldier_mauser98,
+    "soldier_mauser98": Infantry.Soldier_mauser98,
     "SK_C_28_naval_gun": Fortification.SK_C_28_naval_gun,
-    "fire_control": Fortification.fire_control,
+    "fire_control": Fortification.Fire_control,
     "Stug_III": Armor.Stug_III,
     "Elefant_SdKfz_184": Armor.Elefant_SdKfz_184,
-    "flak41": AirDefence.flak41,
-    "v1_launcher": MissilesSS.v1_launcher,
+    "flak41": AirDefence.Flak41,
+    "v1_launcher": MissilesSS.V1_launcher,
     "FuMG-401": AirDefence.FuMG_401,
     "FuSe-65": AirDefence.FuSe_65,
     "Pak40": Artillery.Pak40,
     "LeFH_18-40-105": Artillery.LeFH_18_40_105,
     "Cromwell_IV": Armor.Cromwell_IV,
     "M4A4_Sherman_FF": Armor.M4A4_Sherman_FF,
-    "soldier_wwii_br_01": Infantry.soldier_wwii_br_01,
+    "soldier_wwii_br_01": Infantry.Soldier_wwii_br_01,
     "Centaur_IV": Armor.Centaur_IV,
     "Churchill_VII": Armor.Churchill_VII,
     "Daimler_AC": Armor.Daimler_AC,
@@ -2407,7 +2407,7 @@ vehicle_map = {
     "Willys_MB": Unarmed.Willys_MB,
     "M12_GMC": Artillery.M12_GMC,
     "M30_CC": Unarmed.M30_CC,
-    "soldier_wwii_us": Infantry.soldier_wwii_us,
+    "soldier_wwii_us": Infantry.Soldier_wwii_us,
     "M10_GMC": Armor.M10_GMC,
     "M8_Greyhound": Armor.M8_Greyhound,
     "M2A1-105": Artillery.M2A1_105,
