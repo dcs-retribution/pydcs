@@ -4,6 +4,7 @@ import dcs.unittype as unittype
 
 
 class Fortification:
+
     class _Command_Center(unittype.StaticType):
         id = ".Command Center"
         name = "Command Center"
@@ -1343,7 +1344,6 @@ class Fortification:
         shape_name = "Freya_Shelter_Concrete"
         rate = 20
 
-
 fortification_map = {
     ".Command Center": Fortification._Command_Center,
     "Hangar A": Fortification.Hangar_A,
@@ -1572,6 +1572,7 @@ fortification_map = {
 
 
 class GroundObject:
+
     class Building(unittype.StaticType):
         id = "Building"
         name = "Building"
@@ -1592,7 +1593,6 @@ class GroundObject:
         name = "Train"
         category = ""
 
-
 groundobject_map = {
     "Building": GroundObject.Building,
     "Bridge": GroundObject.Bridge,
@@ -1602,6 +1602,7 @@ groundobject_map = {
 
 
 class Warehouse:
+
     class Warehouse(unittype.StaticType):
         id = "Warehouse"
         name = "Warehouse"
@@ -1637,7 +1638,6 @@ class Warehouse:
         category = "Warehouses"
         rate = 100
 
-
 warehouse_map = {
     "Warehouse": Warehouse.Warehouse,
     "Tank": Warehouse.Tank,
@@ -1648,6 +1648,7 @@ warehouse_map = {
 
 
 class Cargo:
+
     class uh1h_cargo(unittype.StaticType):
         id = "uh1h_cargo"
         name = "UH-1H cargo"
@@ -1776,7 +1777,6 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-
 cargo_map = {
     "uh1h_cargo": Cargo.uh1h_cargo,
     "ammo_cargo": Cargo.ammo_cargo,
@@ -1798,6 +1798,7 @@ cargo_map = {
 
 
 class Heliport:
+
     class FARP(unittype.StaticType):
         id = "FARP"
         name = "FARP"
@@ -1840,7 +1841,6 @@ class Heliport:
         shape_name = "invisiblefarp"
         category = "Heliports"
         rate = 100
-
 
 heliport_map = {
     "FARP": Heliport.FARP,

@@ -496,7 +496,6 @@ class Schnellboot_type_S130(unittype.ShipType):
     threat_range = 4000
     air_weapon_dist = 4000
 
-
 ship_map = {
     "speedboat": speedboat,
     "VINSON": VINSON,
