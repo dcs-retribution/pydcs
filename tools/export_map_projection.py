@@ -37,6 +37,8 @@ from typing import Any, Dict
 
 from dcs import Mission
 from dcs.action import DoScriptFile
+from dcs.terrain import Kola
+from dcs.terrain.afghanistan import Afghanistan
 from dcs.terrain.caucasus import Caucasus
 from dcs.terrain.falklands import Falklands
 from dcs.terrain.nevada import Nevada
@@ -69,6 +71,8 @@ ARG_TO_TERRAIN_MAP = {
     "syria": Syria(),
     "marianaislands": MarianaIslands(),
     "sinai": Sinai(),
+    "kola": Kola(),
+    "afghanistan": Afghanistan(),
 }
 
 # https://gisgeography.com/central-meridian/
@@ -84,6 +88,8 @@ CENTRAL_MERIDIANS = {
     "syria": 39,
     "marianaislands": 147,
     "sinai": 33,
+    "kola": 23,
+    "afghanistan": 63,
 }
 
 
@@ -276,8 +282,10 @@ def main() -> None:
     )
     terrain = ARG_TO_TERRAIN_MAP[args.map]
     mission = create_mission(terrain)
-   
-    if "OpenBeta" in args.dcs:
+
+    global DCS_SAVED_GAMES
+
+    if "OpenBeta" in str(args.dcs):
          DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS.openbeta"
          
     with mission_scripting(args.dcs):
