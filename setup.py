@@ -43,6 +43,7 @@ setup(
         'dcs/lua',
         'dcs/scripts',
         'dcs/terrain',
+        'dcs/terrain/afghanistan',
         'dcs/terrain/caucasus',
         'dcs/terrain/falklands',
         'dcs/terrain/kola',
