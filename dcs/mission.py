@@ -301,6 +301,8 @@ class Mission:
             self.terrain = terrain_.Sinai()
         elif imp_mission["theatre"] == "Kola":
             self.terrain = terrain_.Kola()
+        elif imp_mission["theatre"] == "Afghanistan":
+            self.terrain = terrain_.Afghanistan()
         else:
             raise RuntimeError("Unknown theatre: '{theatre}'".format(theatre=imp_mission["theatre"]))
 
