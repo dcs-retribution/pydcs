@@ -80,17 +80,27 @@ class Unit:
 
 
 class Vehicle(Unit):
-    def __init__(self, terrain: Terrain, id: Optional[int] = None, name: Optional[str] = None, _type="Sandbox"):
+    def __init__(
+            self,
+            terrain: Terrain,
+            id: Optional[int] = None,
+            name: Optional[str] = None,
+            _type="Sandbox",
+            cold_at_start: bool = False
+    ):
         super().__init__(id, terrain, name, _type)
         self.player_can_drive = False
+        self.cold_at_start = cold_at_start
 
     def load_from_dict(self, d: Dict[str, Any]) -> None:
         super().load_from_dict(d)
         self.player_can_drive = d["playerCanDrive"]
+        self.cold_at_start = d["coldAtStart"]
 
     def dict(self):
         d = super(Vehicle, self).dict()
         d["playerCanDrive"] = self.player_can_drive
+        d["coldAtStart"] = self.cold_at_start
         return d
 
 
