@@ -158,6 +158,14 @@ class Airport:
         self.methanol_mixture_init = 100
         self.diesel_init = 100
         self.jet_init = 100
+        self.allow_hot_start = False
+        self.dynamic_cargo = False
+        self.dynamic_spawn = False
+
+    def __setstate__(self, state):
+        new_state = Airport(state["position"], state["_terrain"]).__dict__
+        new_state.update(state)
+        self.__dict__.update(new_state)
 
     def load_from_dict(self, d):
         self.coalition = d["coalition"]
@@ -176,6 +184,9 @@ class Airport:
         self.methanol_mixture_init = d.get("methanol_mixture", {}).get("InitFuel", 100)
         self.aircrafts = d["aircrafts"]
         self.weapons = d["weapons"]
+        self.allow_hot_start = d["allowHotStart"]
+        self.dynamic_cargo = d["dynamicCargo"]
+        self.dynamic_spawn = d["dynamicSpawn"]
 
     def set_blue(self):
         self.set_coalition("BLUE")
@@ -302,7 +313,10 @@ class Airport:
             "methanol_mixture": {"InitFuel": self.methanol_mixture_init},
             "aircrafts": self.aircrafts,
             "weapons": self.weapons,
-            "suppliers": self.suppliers
+            "suppliers": self.suppliers,
+            "allowHotStart": self.allow_hot_start,
+            "dynamicCargo": self.dynamic_cargo,
+            "dynamicSpawn": self.dynamic_spawn,
         }
         return d
 
@@ -590,7 +604,7 @@ class Terrain:
 class Warehouses:
     def __init__(self, terrain: Terrain):
         self.terrain = terrain
-        self.warehouses: Dict[str, Any] = {}
+        self.warehouses: Dict[int, Any] = {}
 
     def load_dict(self, data):
         for x in data.get("airports", {}):
