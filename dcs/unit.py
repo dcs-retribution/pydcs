@@ -95,7 +95,7 @@ class Vehicle(Unit):
     def load_from_dict(self, d: Dict[str, Any]) -> None:
         super().load_from_dict(d)
         self.player_can_drive = d["playerCanDrive"]
-        self.cold_at_start = d["coldAtStart"]
+        self.cold_at_start = d.get("coldAtStart", False)
 
     def dict(self):
         d = super(Vehicle, self).dict()

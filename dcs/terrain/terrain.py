@@ -184,9 +184,9 @@ class Airport:
         self.methanol_mixture_init = d.get("methanol_mixture", {}).get("InitFuel", 100)
         self.aircrafts = d["aircrafts"]
         self.weapons = d["weapons"]
-        self.allow_hot_start = d["allowHotStart"]
-        self.dynamic_cargo = d["dynamicCargo"]
-        self.dynamic_spawn = d["dynamicSpawn"]
+        self.allow_hot_start = d.get("allowHotStart", False)
+        self.dynamic_cargo = d.get("dynamicCargo", False)
+        self.dynamic_spawn = d.get("dynamicSpawn", False)
 
     def set_blue(self):
         self.set_coalition("BLUE")
