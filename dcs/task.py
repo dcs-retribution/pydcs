@@ -912,14 +912,15 @@ class Land(Task):
     """
     Id = "Land"
 
-    def __init__(self, position: Vector2 = Vector2(0, 0), duration: Optional[int] = None):
+    def __init__(self, position: Vector2 = Vector2(0, 0), duration: Optional[int] = None, combat_landing: bool = True):
         super(Land, self).__init__(self.Id)
 
         self.params = {
             "x": position.x,
             "y": position.y,
             "duration": duration if duration else 300,
-            "durationFlag": duration is not None
+            "durationFlag": duration is not None,
+            "combatLandingFlag": combat_landing
         }
 
 
