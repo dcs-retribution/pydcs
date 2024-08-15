@@ -151,8 +151,9 @@ def main():
             # ID in the warehouses file of the miz, and we shouldn't be skipping errors
             # when parsing that file, so we need to at least have some record of the
             # airport even if it's probably bogus.
-            runways = [Runway.from_lua(data, runway_beacons)
-                       for data in airport["airport"].get("runways", {}).values()]
+            runway_data = airport["airport"].get("runways", {})
+            runways = [Runway.from_lua(data, runway_beacons, len(runway_data) == 1)
+                       for data in runway_data.values()]
 
             # Ditto.
             standlist = airport.get("standlist", {})

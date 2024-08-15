@@ -84,7 +84,11 @@ class Runway:
         return self.main.heading
 
     @staticmethod
-    def from_lua(data: Dict[str, Any], runway_beacons: RunwayBeaconMapping) -> Runway:
+    def from_lua(
+        data: Dict[str, Any],
+        runway_beacons: RunwayBeaconMapping,
+        single_runway: bool,
+    ) -> Runway:
         # Example data:
         # {
         #     ["start"] = "13R",
@@ -102,11 +106,13 @@ class Runway:
             beacons = {}
         if runway_id is not None:
             beacons = runway_beacons.get(runway_id, {})
+        start = data["start"].rstrip("LCR") if single_runway else data["start"]
+        end = data["end"].rstrip("LCR") if single_runway else data["end"]
         return Runway(
             id=runway_id,
             name=data["name"],
-            main=RunwayApproach.from_lua(data["start"], beacons),
-            opposite=RunwayApproach.from_lua(data["end"], beacons),
+            main=RunwayApproach.from_lua(start, beacons),
+            opposite=RunwayApproach.from_lua(end, beacons),
         )
 
 
