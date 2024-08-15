@@ -276,6 +276,7 @@ flyable["Yak-52"] = true
 
 -- Helicopters
 flyable["AH-64D_BLK_II"] = true
+flyable["CH-47F"] = true
 flyable["Ka-50"] = true
 flyable["Ka-50_3"] = true
 flyable["Mi-8MT"] = true
