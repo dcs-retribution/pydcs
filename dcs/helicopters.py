@@ -1543,11 +1543,17 @@ class CH_47Fbl1(HelicopterType):
 
     class Pylon1:
         M60D = (1, Weapons.M60D)
+        M240H = (1, Weapons.M240H)
 
     class Pylon2:
         M60D_ = (2, Weapons.M60D_)
+        M240H_ = (2, Weapons.M240H_)
 
-    pylons: Set[int] = {1, 2}
+    class Pylon3:
+        M60D__ = (3, Weapons.M60D__)
+        M240H__ = (3, Weapons.M240H__)
+
+    pylons: Set[int] = {1, 2, 3}
 
     tasks = [task.Reconnaissance, task.Escort, task.Transport, task.CAS]
     task_default = task.Transport
