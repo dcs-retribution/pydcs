@@ -391,6 +391,7 @@ class Russia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -472,6 +473,7 @@ class Russia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -553,6 +555,7 @@ class Russia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -576,6 +579,7 @@ class Russia(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -1097,6 +1101,7 @@ class Ukraine(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -1170,6 +1175,7 @@ class Ukraine(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -1241,6 +1247,7 @@ class Ukraine(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -1256,6 +1263,7 @@ class Ukraine(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -1612,6 +1620,7 @@ class USA(Country):
         B_17G = planes.B_17G
         F_16A_MLU = planes.F_16A_MLU
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -1693,6 +1702,7 @@ class USA(Country):
         Plane.B_17G,
         Plane.F_16A_MLU,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -1809,6 +1819,7 @@ class USA(Country):
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         santafe = ships.santafe
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Forrestal = ships.Forrestal
 
     ships = [
@@ -1831,6 +1842,7 @@ class USA(Country):
         Ship.Ship_Tilde_Supply,
         Ship.santafe,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Forrestal,
     ]
 
@@ -2153,6 +2165,7 @@ class Turkey(Country):
         KC_135 = planes.KC_135
         C_17A = planes.C_17A
         E_3A = planes.E_3A
+        F_16C_50 = planes.F_16C_50
         F_16C_bl_52d = planes.F_16C_bl_52d
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -2213,6 +2226,7 @@ class Turkey(Country):
         Plane.KC_135,
         Plane.C_17A,
         Plane.E_3A,
+        Plane.F_16C_50,
         Plane.F_16C_bl_52d,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -2305,6 +2319,7 @@ class Turkey(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -2314,6 +2329,7 @@ class Turkey(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -2683,6 +2699,7 @@ class UK(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -2742,6 +2759,7 @@ class UK(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -2815,6 +2833,7 @@ class UK(Country):
         leander_gun_lynch = ships.leander_gun_lynch
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
 
@@ -2834,6 +2853,7 @@ class UK(Country):
         Ship.leander_gun_lynch,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
     ]
@@ -3185,6 +3205,7 @@ class France(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -3249,6 +3270,7 @@ class France(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -3312,6 +3334,7 @@ class France(Country):
         leander_gun_lynch = ships.leander_gun_lynch
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -3325,6 +3348,7 @@ class France(Country):
         Ship.leander_gun_lynch,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -3840,6 +3864,7 @@ class Germany(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -3901,6 +3926,7 @@ class Germany(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -3957,6 +3983,7 @@ class Germany(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -3968,6 +3995,7 @@ class Germany(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -4145,9 +4173,9 @@ class USAFAggressors(Country):
             Soldier_M4 = vehicles.Infantry.Soldier_M4
             JTAC = vehicles.Infantry.JTAC
             Soldier_M249 = vehicles.Infantry.Soldier_M249
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
             Soldier_M4_GRG = vehicles.Infantry.Soldier_M4_GRG
             soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
-            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
             flak18 = vehicles.AirDefence.flak18
@@ -4388,9 +4416,9 @@ class USAFAggressors(Country):
             ZBD04A = vehicles.Armor.ZBD04A
             ZTZ96B = vehicles.Armor.ZTZ96B
             TYPE_59 = vehicles.Armor.TYPE_59
+            M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             leopard_2A4_trs = vehicles.Armor.leopard_2A4_trs
             Challenger2 = vehicles.Armor.Challenger2
-            M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             M1128_Stryker_MGS = vehicles.Armor.M1128_Stryker_MGS
             M1134_Stryker_ATGM = vehicles.Armor.M1134_Stryker_ATGM
             M1A2C_SEP_V3 = vehicles.Armor.M1A2C_SEP_V3
@@ -4470,9 +4498,9 @@ class USAFAggressors(Country):
         vehicles.Infantry.Soldier_M4,
         vehicles.Infantry.JTAC,
         vehicles.Infantry.Soldier_M249,
+        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.Infantry.Soldier_M4_GRG,
         vehicles.Infantry.soldier_wwii_us,
-        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -4705,9 +4733,9 @@ class USAFAggressors(Country):
         vehicles.Armor.ZBD04A,
         vehicles.Armor.ZTZ96B,
         vehicles.Armor.TYPE_59,
+        vehicles.Armor.M1126_Stryker_ICV,
         vehicles.Armor.leopard_2A4_trs,
         vehicles.Armor.Challenger2,
-        vehicles.Armor.M1126_Stryker_ICV,
         vehicles.Armor.M1128_Stryker_MGS,
         vehicles.Armor.M1134_Stryker_ATGM,
         vehicles.Armor.M1A2C_SEP_V3,
@@ -4769,6 +4797,7 @@ class USAFAggressors(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -4901,6 +4930,7 @@ class USAFAggressors(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -5064,6 +5094,7 @@ class USAFAggressors(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -5116,6 +5147,7 @@ class USAFAggressors(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
         Ship.ALBATROS,
@@ -5306,6 +5338,9 @@ class Canada(Country):
             M12_GMC = vehicles.Artillery.M12_GMC
             M2A1_105 = vehicles.Artillery.M2A1_105
 
+        class Infantry:
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
+
         class AirDefence:
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
@@ -5400,6 +5435,7 @@ class Canada(Country):
         vehicles.Artillery.L118_Unit,
         vehicles.Artillery.M12_GMC,
         vehicles.Artillery.M2A1_105,
+        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.AirDefence.Soldier_stinger,
         vehicles.AirDefence.Stinger_comm,
         vehicles.AirDefence.bofors40,
@@ -5511,6 +5547,7 @@ class Canada(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -5566,6 +5603,7 @@ class Canada(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -5622,6 +5660,7 @@ class Canada(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
 
@@ -5632,6 +5671,7 @@ class Canada(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
     ]
@@ -5974,6 +6014,7 @@ class Spain(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -6035,6 +6076,7 @@ class Spain(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -6099,6 +6141,7 @@ class Spain(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -6108,6 +6151,7 @@ class Spain(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -6476,6 +6520,7 @@ class TheNetherlands(Country):
         E_3A = planes.E_3A
         F_16A = planes.F_16A
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         MQ_9_Reaper = planes.MQ_9_Reaper
         C_47 = planes.C_47
         FW_190A8 = planes.FW_190A8
@@ -6535,6 +6580,7 @@ class TheNetherlands(Country):
         Plane.E_3A,
         Plane.F_16A,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.MQ_9_Reaper,
         Plane.C_47,
         Plane.FW_190A8,
@@ -6622,6 +6668,7 @@ class TheNetherlands(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -6633,6 +6680,7 @@ class TheNetherlands(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -6984,6 +7032,7 @@ class Belgium(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -7041,6 +7090,7 @@ class Belgium(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -7099,6 +7149,7 @@ class Belgium(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -7109,6 +7160,7 @@ class Belgium(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -7432,6 +7484,7 @@ class Norway(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -7489,6 +7542,7 @@ class Norway(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -7546,6 +7600,7 @@ class Norway(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -7554,6 +7609,7 @@ class Norway(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -7874,6 +7930,7 @@ class Denmark(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -7931,6 +7988,7 @@ class Denmark(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -7986,12 +8044,14 @@ class Denmark(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -8322,6 +8382,7 @@ class Israel(Country):
         E_2C = planes.E_2C
         F_16A = planes.F_16A
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         MiG_21Bis = planes.MiG_21Bis
         SpitfireLFMkIX = planes.SpitfireLFMkIX
         SpitfireLFMkIXCW = planes.SpitfireLFMkIXCW
@@ -8382,6 +8443,7 @@ class Israel(Country):
         Plane.E_2C,
         Plane.F_16A,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.MiG_21Bis,
         Plane.SpitfireLFMkIX,
         Plane.SpitfireLFMkIXCW,
@@ -8470,6 +8532,7 @@ class Israel(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -8478,6 +8541,7 @@ class Israel(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -8907,6 +8971,7 @@ class Georgia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -8964,6 +9029,7 @@ class Georgia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -9029,6 +9095,7 @@ class Georgia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -9042,6 +9109,7 @@ class Georgia(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -9389,6 +9457,7 @@ class Insurgents(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -9440,6 +9509,7 @@ class Insurgents(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -9503,6 +9573,7 @@ class Insurgents(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -9514,6 +9585,7 @@ class Insurgents(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -9812,6 +9884,7 @@ class Abkhazia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -9867,6 +9940,7 @@ class Abkhazia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -9929,6 +10003,7 @@ class Abkhazia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -9940,6 +10015,7 @@ class Abkhazia(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -10216,6 +10292,7 @@ class SouthOssetia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -10266,6 +10343,7 @@ class SouthOssetia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -10325,11 +10403,13 @@ class SouthOssetia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -10576,6 +10656,7 @@ class Italy(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -10637,6 +10718,7 @@ class Italy(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -10696,6 +10778,7 @@ class Italy(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -10704,6 +10787,7 @@ class Italy(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -10849,6 +10933,7 @@ class Australia(Country):
 
         class Infantry:
             JTAC = vehicles.Infantry.JTAC
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
             bofors40 = vehicles.AirDefence.bofors40
@@ -10945,6 +11030,7 @@ class Australia(Country):
         vehicles.Artillery.M12_GMC,
         vehicles.Artillery.M2A1_105,
         vehicles.Infantry.JTAC,
+        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.AirDefence.bofors40,
         vehicles.AirDefence.rapier_fsa_launcher,
         vehicles.AirDefence.rapier_fsa_optical_tracker_unit,
@@ -11056,6 +11142,7 @@ class Australia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -11111,6 +11198,7 @@ class Australia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -11171,6 +11259,7 @@ class Australia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -11183,6 +11272,7 @@ class Australia(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -11479,6 +11569,7 @@ class Switzerland(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_86F_Sabre = planes.F_86F_Sabre
@@ -11531,6 +11622,7 @@ class Switzerland(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_86F_Sabre,
@@ -11580,12 +11672,14 @@ class Switzerland(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -11866,6 +11960,7 @@ class Austria(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -11917,6 +12012,7 @@ class Austria(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -11970,12 +12066,14 @@ class Austria(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -12440,6 +12538,7 @@ class Belarus(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -12502,6 +12601,7 @@ class Belarus(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -12560,12 +12660,14 @@ class Belarus(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -12934,6 +13036,7 @@ class Bulgaria(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -12993,6 +13096,7 @@ class Bulgaria(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -13046,6 +13150,7 @@ class Bulgaria(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -13054,6 +13159,7 @@ class Bulgaria(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -13427,6 +13533,7 @@ class CzechRepublic(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -13483,6 +13590,7 @@ class CzechRepublic(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -13540,6 +13648,7 @@ class CzechRepublic(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -13549,6 +13658,7 @@ class CzechRepublic(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -13909,6 +14019,7 @@ class China(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -13971,6 +14082,7 @@ class China(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -14034,6 +14146,7 @@ class China(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -14048,6 +14161,7 @@ class China(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -14250,6 +14364,7 @@ class Croatia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -14301,6 +14416,7 @@ class Croatia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -14360,12 +14476,14 @@ class Croatia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -14781,6 +14899,7 @@ class Egypt(Country):
         M_2000C = planes.M_2000C
         WingLoong_I = planes.WingLoong_I
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         F_16C_bl_52d = planes.F_16C_bl_52d
         IL_76MD = planes.IL_76MD
         FW_190A8 = planes.FW_190A8
@@ -14838,6 +14957,7 @@ class Egypt(Country):
         Plane.M_2000C,
         Plane.WingLoong_I,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.F_16C_bl_52d,
         Plane.IL_76MD,
         Plane.FW_190A8,
@@ -14926,6 +15046,7 @@ class Egypt(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -14936,6 +15057,7 @@ class Egypt(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -15352,6 +15474,7 @@ class Finland(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -15403,6 +15526,7 @@ class Finland(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -15456,6 +15580,7 @@ class Finland(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -15464,6 +15589,7 @@ class Finland(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -15820,6 +15946,7 @@ class Greece(Country):
         Yak_40 = planes.Yak_40
         P_51D = planes.P_51D
         C_17A = planes.C_17A
+        F_16C_50 = planes.F_16C_50
         M_2000C = planes.M_2000C
         C_47 = planes.C_47
         FW_190A8 = planes.FW_190A8
@@ -15878,6 +16005,7 @@ class Greece(Country):
         Plane.Yak_40,
         Plane.P_51D,
         Plane.C_17A,
+        Plane.F_16C_50,
         Plane.M_2000C,
         Plane.C_47,
         Plane.FW_190A8,
@@ -15967,6 +16095,7 @@ class Greece(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -15974,6 +16103,7 @@ class Greece(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -16406,6 +16536,7 @@ class Hungary(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -16461,6 +16592,7 @@ class Hungary(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -16514,6 +16646,7 @@ class Hungary(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -16522,6 +16655,7 @@ class Hungary(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -16875,6 +17009,7 @@ class India(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -16934,6 +17069,7 @@ class India(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -16997,6 +17133,7 @@ class India(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -17008,6 +17145,7 @@ class India(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -17408,6 +17546,7 @@ class Iran(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
@@ -17469,6 +17608,7 @@ class Iran(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_14B,
         Plane.F_14A_135_GR,
@@ -17536,6 +17676,7 @@ class Iran(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -17548,6 +17689,7 @@ class Iran(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -17908,6 +18050,7 @@ class Iraq(Country):
         An_26B = planes.An_26B
         C_130 = planes.C_130
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         F_16C_bl_52d = planes.F_16C_bl_52d
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -17968,6 +18111,7 @@ class Iraq(Country):
         Plane.An_26B,
         Plane.C_130,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.F_16C_bl_52d,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -18052,12 +18196,14 @@ class Iraq(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -18434,6 +18580,7 @@ class Japan(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -18487,6 +18634,7 @@ class Japan(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -18548,6 +18696,7 @@ class Japan(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -18558,6 +18707,7 @@ class Japan(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -19036,6 +19186,7 @@ class Kazakhstan(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -19099,6 +19250,7 @@ class Kazakhstan(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -19160,12 +19312,14 @@ class Kazakhstan(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -19489,6 +19643,7 @@ class NorthKorea(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -19542,6 +19697,7 @@ class NorthKorea(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -19596,12 +19752,14 @@ class NorthKorea(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -19908,6 +20066,7 @@ class Pakistan(Country):
         F_16A = planes.F_16A
         F_16A_MLU = planes.F_16A_MLU
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         F_16C_bl_52d = planes.F_16C_bl_52d
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -19966,6 +20125,7 @@ class Pakistan(Country):
         Plane.F_16A,
         Plane.F_16A_MLU,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.F_16C_bl_52d,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -20047,6 +20207,7 @@ class Pakistan(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -20056,6 +20217,7 @@ class Pakistan(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -20442,6 +20604,7 @@ class Poland(Country):
         An_26B = planes.An_26B
         C_130 = planes.C_130
         C_17A = planes.C_17A
+        F_16C_50 = planes.F_16C_50
         F_16C_bl_52d = planes.F_16C_bl_52d
         MiG_15bis = planes.MiG_15bis
         MiG_15bis_FC = planes.MiG_15bis_FC
@@ -20503,6 +20666,7 @@ class Poland(Country):
         Plane.An_26B,
         Plane.C_130,
         Plane.C_17A,
+        Plane.F_16C_50,
         Plane.F_16C_bl_52d,
         Plane.MiG_15bis,
         Plane.MiG_15bis_FC,
@@ -20587,6 +20751,7 @@ class Poland(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -20601,6 +20766,7 @@ class Poland(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -21019,6 +21185,7 @@ class Romania(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -21075,6 +21242,7 @@ class Romania(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -21131,6 +21299,7 @@ class Romania(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -21144,6 +21313,7 @@ class Romania(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -21489,6 +21659,7 @@ class SaudiArabia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_A_18A = planes.F_A_18A
         F_A_18C = planes.F_A_18C
@@ -21546,6 +21717,7 @@ class SaudiArabia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_A_18A,
         Plane.F_A_18C,
@@ -21608,6 +21780,7 @@ class SaudiArabia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -21616,6 +21789,7 @@ class SaudiArabia(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -21986,6 +22160,7 @@ class Serbia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -22041,6 +22216,7 @@ class Serbia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -22096,12 +22272,14 @@ class Serbia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -22448,6 +22626,7 @@ class Slovakia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -22503,6 +22682,7 @@ class Slovakia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -22558,12 +22738,14 @@ class Slovakia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -22874,6 +23056,7 @@ class SouthKorea(Country):
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         F_16C_bl_52d = planes.F_16C_bl_52d
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -22930,6 +23113,7 @@ class SouthKorea(Country):
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.F_16C_bl_52d,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -23008,6 +23192,7 @@ class SouthKorea(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -23016,6 +23201,7 @@ class SouthKorea(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -23306,6 +23492,7 @@ class Sweden(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -23360,6 +23547,7 @@ class Sweden(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -23412,12 +23600,14 @@ class Sweden(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -23829,6 +24019,7 @@ class Syria(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -23887,6 +24078,7 @@ class Syria(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -23944,12 +24136,14 @@ class Syria(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -24288,6 +24482,7 @@ class Yemen(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -24342,6 +24537,7 @@ class Yemen(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -24400,6 +24596,7 @@ class Yemen(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -24408,6 +24605,7 @@ class Yemen(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -24771,6 +24969,7 @@ class Vietnam(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -24827,6 +25026,7 @@ class Vietnam(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -24880,6 +25080,7 @@ class Vietnam(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -24888,6 +25089,7 @@ class Vietnam(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -25222,6 +25424,7 @@ class Venezuela(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -25275,6 +25478,7 @@ class Venezuela(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -25330,12 +25534,14 @@ class Venezuela(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -25614,6 +25820,7 @@ class Tunisia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_A_18A = planes.F_A_18A
         F_A_18C = planes.F_A_18C
@@ -25665,6 +25872,7 @@ class Tunisia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_A_18A,
         Plane.F_A_18C,
@@ -25714,12 +25922,14 @@ class Tunisia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -26024,6 +26234,7 @@ class Thailand(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_A_18A = planes.F_A_18A
         F_A_18C = planes.F_A_18C
@@ -26078,6 +26289,7 @@ class Thailand(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_A_18A,
         Plane.F_A_18C,
@@ -26134,6 +26346,7 @@ class Thailand(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -26142,6 +26355,7 @@ class Thailand(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -26454,6 +26668,7 @@ class Sudan(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -26509,6 +26724,7 @@ class Sudan(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -26562,12 +26778,14 @@ class Sudan(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -26836,6 +27054,7 @@ class Philippines(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_A_18A = planes.F_A_18A
         F_A_18C = planes.F_A_18C
@@ -26889,6 +27108,7 @@ class Philippines(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_A_18A,
         Plane.F_A_18C,
@@ -26936,12 +27156,14 @@ class Philippines(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -27252,6 +27474,7 @@ class Morocco(Country):
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         F_16C_bl_52d = planes.F_16C_bl_52d
         KC130 = planes.KC130
         FW_190A8 = planes.FW_190A8
@@ -27307,6 +27530,7 @@ class Morocco(Country):
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.F_16C_bl_52d,
         Plane.KC130,
         Plane.FW_190A8,
@@ -27386,12 +27610,14 @@ class Morocco(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -27673,6 +27899,7 @@ class Mexico(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -27725,6 +27952,7 @@ class Mexico(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -27784,6 +28012,7 @@ class Mexico(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -27792,6 +28021,7 @@ class Mexico(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -28085,6 +28315,7 @@ class Malaysia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -28137,6 +28368,7 @@ class Malaysia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -28191,6 +28423,7 @@ class Malaysia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -28200,6 +28433,7 @@ class Malaysia(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -28540,6 +28774,7 @@ class Libya(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -28596,6 +28831,7 @@ class Libya(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -28652,6 +28888,7 @@ class Libya(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         La_Combattante_II = ships.La_Combattante_II
 
     ships = [
@@ -28659,6 +28896,7 @@ class Libya(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.La_Combattante_II,
     ]
 
@@ -28983,6 +29221,7 @@ class Jordan(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -29038,6 +29277,7 @@ class Jordan(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -29098,12 +29338,14 @@ class Jordan(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -29460,6 +29702,7 @@ class Indonesia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -29518,6 +29761,7 @@ class Indonesia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -29575,6 +29819,7 @@ class Indonesia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -29584,6 +29829,7 @@ class Indonesia(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -29857,6 +30103,7 @@ class Honduras(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -29908,6 +30155,7 @@ class Honduras(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -29960,12 +30208,14 @@ class Honduras(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -30294,6 +30544,7 @@ class Ethiopia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_A_18A = planes.F_A_18A
         F_A_18C = planes.F_A_18C
@@ -30348,6 +30599,7 @@ class Ethiopia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_A_18A,
         Plane.F_A_18C,
@@ -30396,12 +30648,14 @@ class Ethiopia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -30690,6 +30944,7 @@ class Chile(Country):
         P_51D = planes.P_51D
         KC_135 = planes.KC_135
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         F_16C_bl_52d = planes.F_16C_bl_52d
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -30747,6 +31002,7 @@ class Chile(Country):
         Plane.P_51D,
         Plane.KC_135,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.F_16C_bl_52d,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -30833,6 +31089,7 @@ class Chile(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -30842,6 +31099,7 @@ class Chile(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -31161,6 +31419,7 @@ class Brazil(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -31213,6 +31472,7 @@ class Brazil(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -31240,6 +31500,7 @@ class Brazil(Country):
         Ka_50 = helicopters.Ka_50
         UH_1H = helicopters.UH_1H
         UH_60A = helicopters.UH_60A
+        SH_60B = helicopters.SH_60B
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
         CH_47Fbl1 = helicopters.CH_47Fbl1
         OH58D = helicopters.OH58D
@@ -31252,6 +31513,7 @@ class Brazil(Country):
         Helicopter.Ka_50,
         Helicopter.UH_1H,
         Helicopter.UH_60A,
+        Helicopter.SH_60B,
         Helicopter.AH_64D_BLK_II,
         Helicopter.CH_47Fbl1,
         Helicopter.OH58D,
@@ -31268,6 +31530,7 @@ class Brazil(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -31276,6 +31539,7 @@ class Brazil(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -31590,6 +31854,7 @@ class Bahrain(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -31640,6 +31905,7 @@ class Bahrain(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -31693,6 +31959,7 @@ class Bahrain(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -31700,6 +31967,7 @@ class Bahrain(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -32019,6 +32287,7 @@ class ThirdReich(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -32070,6 +32339,7 @@ class ThirdReich(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -32124,6 +32394,7 @@ class ThirdReich(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -32132,6 +32403,7 @@ class ThirdReich(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -32475,6 +32747,7 @@ class Yugoslavia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -32528,6 +32801,7 @@ class Yugoslavia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -32582,6 +32856,7 @@ class Yugoslavia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -32591,6 +32866,7 @@ class Yugoslavia(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -33037,6 +33313,7 @@ class USSR(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -33113,6 +33390,7 @@ class USSR(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -33179,6 +33457,7 @@ class USSR(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -33201,6 +33480,7 @@ class USSR(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -33438,6 +33718,7 @@ class ItalianSocialRepublic(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -33488,6 +33769,7 @@ class ItalianSocialRepublic(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -33542,6 +33824,7 @@ class ItalianSocialRepublic(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -33550,6 +33833,7 @@ class ItalianSocialRepublic(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -34019,6 +34303,7 @@ class Algeria(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -34086,6 +34371,7 @@ class Algeria(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -34158,6 +34444,7 @@ class Algeria(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -34172,6 +34459,7 @@ class Algeria(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -34496,6 +34784,7 @@ class Kuwait(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -34549,6 +34838,7 @@ class Kuwait(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -34604,12 +34894,14 @@ class Kuwait(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -34909,6 +35201,7 @@ class Qatar(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -34963,6 +35256,7 @@ class Qatar(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -35018,12 +35312,14 @@ class Qatar(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -35338,6 +35634,7 @@ class Oman(Country):
         C_130 = planes.C_130
         F_16C_bl_52d = planes.F_16C_bl_52d
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         Hawk = planes.Hawk
         FW_190A8 = planes.FW_190A8
         Bf_109K_4 = planes.Bf_109K_4
@@ -35391,6 +35688,7 @@ class Oman(Country):
         Plane.C_130,
         Plane.F_16C_bl_52d,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.Hawk,
         Plane.FW_190A8,
         Plane.Bf_109K_4,
@@ -35470,6 +35768,7 @@ class Oman(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -35478,6 +35777,7 @@ class Oman(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -35814,6 +36114,7 @@ class UnitedArabEmirates(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -35869,6 +36170,7 @@ class UnitedArabEmirates(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -35932,6 +36234,7 @@ class UnitedArabEmirates(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -35940,6 +36243,7 @@ class UnitedArabEmirates(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -36218,6 +36522,7 @@ class SouthAfrica(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -36273,6 +36578,7 @@ class SouthAfrica(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -36328,6 +36634,7 @@ class SouthAfrica(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -36336,6 +36643,7 @@ class SouthAfrica(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -36721,6 +37029,7 @@ class Cuba(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -36782,6 +37091,7 @@ class Cuba(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -36840,6 +37150,7 @@ class Cuba(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -36852,6 +37163,7 @@ class Cuba(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -37125,6 +37437,7 @@ class Portugal(Country):
         F_16A_MLU = planes.F_16A_MLU
         F_16A = planes.F_16A
         F_16C_bl_50 = planes.F_16C_bl_50
+        F_16C_50 = planes.F_16C_50
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         SpitfireLFMkIX = planes.SpitfireLFMkIX
@@ -37181,6 +37494,7 @@ class Portugal(Country):
         Plane.F_16A_MLU,
         Plane.F_16A,
         Plane.F_16C_bl_50,
+        Plane.F_16C_50,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.SpitfireLFMkIX,
@@ -37258,12 +37572,14 @@ class Portugal(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -37639,6 +37955,7 @@ class GDR(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -37693,6 +38010,7 @@ class GDR(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -37744,12 +38062,14 @@ class GDR(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -38075,6 +38395,7 @@ class Lebanon(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -38127,6 +38448,7 @@ class Lebanon(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -38184,6 +38506,7 @@ class Lebanon(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -38192,6 +38515,7 @@ class Lebanon(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -38367,9 +38691,9 @@ class CombinedJointTaskForcesBlue(Country):
             Soldier_M4 = vehicles.Infantry.Soldier_M4
             JTAC = vehicles.Infantry.JTAC
             Soldier_M249 = vehicles.Infantry.Soldier_M249
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
             Soldier_M4_GRG = vehicles.Infantry.Soldier_M4_GRG
             soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
-            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
             flak18 = vehicles.AirDefence.flak18
@@ -38610,9 +38934,9 @@ class CombinedJointTaskForcesBlue(Country):
             ZBD04A = vehicles.Armor.ZBD04A
             ZTZ96B = vehicles.Armor.ZTZ96B
             TYPE_59 = vehicles.Armor.TYPE_59
+            M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             leopard_2A4_trs = vehicles.Armor.leopard_2A4_trs
             Challenger2 = vehicles.Armor.Challenger2
-            M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             M1128_Stryker_MGS = vehicles.Armor.M1128_Stryker_MGS
             M1134_Stryker_ATGM = vehicles.Armor.M1134_Stryker_ATGM
             M1A2C_SEP_V3 = vehicles.Armor.M1A2C_SEP_V3
@@ -38692,9 +39016,9 @@ class CombinedJointTaskForcesBlue(Country):
         vehicles.Infantry.Soldier_M4,
         vehicles.Infantry.JTAC,
         vehicles.Infantry.Soldier_M249,
+        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.Infantry.Soldier_M4_GRG,
         vehicles.Infantry.soldier_wwii_us,
-        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -38927,9 +39251,9 @@ class CombinedJointTaskForcesBlue(Country):
         vehicles.Armor.ZBD04A,
         vehicles.Armor.ZTZ96B,
         vehicles.Armor.TYPE_59,
+        vehicles.Armor.M1126_Stryker_ICV,
         vehicles.Armor.leopard_2A4_trs,
         vehicles.Armor.Challenger2,
-        vehicles.Armor.M1126_Stryker_ICV,
         vehicles.Armor.M1128_Stryker_MGS,
         vehicles.Armor.M1134_Stryker_ATGM,
         vehicles.Armor.M1A2C_SEP_V3,
@@ -38990,6 +39314,7 @@ class CombinedJointTaskForcesBlue(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -39122,6 +39447,7 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -39286,6 +39612,7 @@ class CombinedJointTaskForcesBlue(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -39338,6 +39665,7 @@ class CombinedJointTaskForcesBlue(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
         Ship.ALBATROS,
@@ -39559,9 +39887,9 @@ class CombinedJointTaskForcesRed(Country):
             Soldier_M4 = vehicles.Infantry.Soldier_M4
             JTAC = vehicles.Infantry.JTAC
             Soldier_M249 = vehicles.Infantry.Soldier_M249
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
             Soldier_M4_GRG = vehicles.Infantry.Soldier_M4_GRG
             soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
-            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
             flak18 = vehicles.AirDefence.flak18
@@ -39802,9 +40130,9 @@ class CombinedJointTaskForcesRed(Country):
             ZBD04A = vehicles.Armor.ZBD04A
             ZTZ96B = vehicles.Armor.ZTZ96B
             TYPE_59 = vehicles.Armor.TYPE_59
+            M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             leopard_2A4_trs = vehicles.Armor.leopard_2A4_trs
             Challenger2 = vehicles.Armor.Challenger2
-            M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             M1128_Stryker_MGS = vehicles.Armor.M1128_Stryker_MGS
             M1134_Stryker_ATGM = vehicles.Armor.M1134_Stryker_ATGM
             M1A2C_SEP_V3 = vehicles.Armor.M1A2C_SEP_V3
@@ -39884,9 +40212,9 @@ class CombinedJointTaskForcesRed(Country):
         vehicles.Infantry.Soldier_M4,
         vehicles.Infantry.JTAC,
         vehicles.Infantry.Soldier_M249,
+        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.Infantry.Soldier_M4_GRG,
         vehicles.Infantry.soldier_wwii_us,
-        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -40119,9 +40447,9 @@ class CombinedJointTaskForcesRed(Country):
         vehicles.Armor.ZBD04A,
         vehicles.Armor.ZTZ96B,
         vehicles.Armor.TYPE_59,
+        vehicles.Armor.M1126_Stryker_ICV,
         vehicles.Armor.leopard_2A4_trs,
         vehicles.Armor.Challenger2,
-        vehicles.Armor.M1126_Stryker_ICV,
         vehicles.Armor.M1128_Stryker_MGS,
         vehicles.Armor.M1134_Stryker_ATGM,
         vehicles.Armor.M1A2C_SEP_V3,
@@ -40182,6 +40510,7 @@ class CombinedJointTaskForcesRed(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -40314,6 +40643,7 @@ class CombinedJointTaskForcesRed(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -40478,6 +40808,7 @@ class CombinedJointTaskForcesRed(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -40530,6 +40861,7 @@ class CombinedJointTaskForcesRed(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
         Ship.ALBATROS,
@@ -40751,9 +41083,9 @@ class UnitedNationsPeacekeepers(Country):
             Soldier_M4 = vehicles.Infantry.Soldier_M4
             JTAC = vehicles.Infantry.JTAC
             Soldier_M249 = vehicles.Infantry.Soldier_M249
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
             Soldier_M4_GRG = vehicles.Infantry.Soldier_M4_GRG
             soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
-            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
 
         class AirDefence:
             flak18 = vehicles.AirDefence.flak18
@@ -40994,9 +41326,9 @@ class UnitedNationsPeacekeepers(Country):
             ZBD04A = vehicles.Armor.ZBD04A
             ZTZ96B = vehicles.Armor.ZTZ96B
             TYPE_59 = vehicles.Armor.TYPE_59
+            M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             leopard_2A4_trs = vehicles.Armor.leopard_2A4_trs
             Challenger2 = vehicles.Armor.Challenger2
-            M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
             M1128_Stryker_MGS = vehicles.Armor.M1128_Stryker_MGS
             M1134_Stryker_ATGM = vehicles.Armor.M1134_Stryker_ATGM
             M1A2C_SEP_V3 = vehicles.Armor.M1A2C_SEP_V3
@@ -41076,9 +41408,9 @@ class UnitedNationsPeacekeepers(Country):
         vehicles.Infantry.Soldier_M4,
         vehicles.Infantry.JTAC,
         vehicles.Infantry.Soldier_M249,
+        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.Infantry.Soldier_M4_GRG,
         vehicles.Infantry.soldier_wwii_us,
-        vehicles.Infantry.soldier_wwii_br_01,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -41311,9 +41643,9 @@ class UnitedNationsPeacekeepers(Country):
         vehicles.Armor.ZBD04A,
         vehicles.Armor.ZTZ96B,
         vehicles.Armor.TYPE_59,
+        vehicles.Armor.M1126_Stryker_ICV,
         vehicles.Armor.leopard_2A4_trs,
         vehicles.Armor.Challenger2,
-        vehicles.Armor.M1126_Stryker_ICV,
         vehicles.Armor.M1128_Stryker_MGS,
         vehicles.Armor.M1134_Stryker_ATGM,
         vehicles.Armor.M1A2C_SEP_V3,
@@ -41374,6 +41706,7 @@ class UnitedNationsPeacekeepers(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -41506,6 +41839,7 @@ class UnitedNationsPeacekeepers(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -41670,6 +42004,7 @@ class UnitedNationsPeacekeepers(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -41722,6 +42057,7 @@ class UnitedNationsPeacekeepers(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
         Ship.ALBATROS,
@@ -42056,6 +42392,7 @@ class Argentina(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -42108,6 +42445,7 @@ class Argentina(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -42167,6 +42505,7 @@ class Argentina(Country):
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         santafe = ships.santafe
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -42174,6 +42513,7 @@ class Argentina(Country):
         Ship.Ship_Tilde_Supply,
         Ship.santafe,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -42491,6 +42831,7 @@ class Cyprus(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -42542,6 +42883,7 @@ class Cyprus(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -42598,12 +42940,14 @@ class Cyprus(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -42906,6 +43250,7 @@ class Slovenia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -42958,6 +43303,7 @@ class Slovenia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -43017,6 +43363,7 @@ class Slovenia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -43024,6 +43371,7 @@ class Slovenia(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -43322,6 +43670,7 @@ class Bolivia(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -43376,6 +43725,7 @@ class Bolivia(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -43428,12 +43778,14 @@ class Bolivia(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -43710,6 +44062,7 @@ class Ghana(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -43761,6 +44114,7 @@ class Ghana(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -43818,12 +44172,14 @@ class Ghana(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -44121,6 +44477,7 @@ class Nigeria(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -44173,6 +44530,7 @@ class Nigeria(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -44232,12 +44590,14 @@ class Nigeria(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -44546,6 +44906,7 @@ class Peru(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -44603,6 +44964,7 @@ class Peru(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -44662,12 +45024,14 @@ class Peru(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -44955,6 +45319,7 @@ class Ecuador(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -45008,6 +45373,7 @@ class Ecuador(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -45066,12 +45432,14 @@ class Ecuador(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -45418,6 +45786,7 @@ class Afghanistan(Country):
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
+        F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
@@ -45472,6 +45841,7 @@ class Afghanistan(Country):
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
+        Plane.F_16C_50,
         Plane.F_4E_45MC,
         Plane.F_5E,
         Plane.F_5E_3,
@@ -45530,12 +45900,14 @@ class Afghanistan(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.ara_vdm,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -45665,6 +46037,452 @@ class Afghanistan(Country):
         )
 
 
+class NewZealand(Country):
+    id = 92
+    name = "New Zealand"
+    shortname = "NZL"
+
+    class Vehicle:
+
+        class Artillery:
+            M_109 = vehicles.Artillery.M_109
+            x_2B11_mortar = vehicles.Artillery.x_2B11_mortar
+            L118_Unit = vehicles.Artillery.L118_Unit
+
+        class Infantry:
+            soldier_wwii_br_01 = vehicles.Infantry.soldier_wwii_br_01
+            Soldier_M4 = vehicles.Infantry.Soldier_M4
+            Soldier_M249 = vehicles.Infantry.Soldier_M249
+
+        class AirDefence:
+            rapier_fsa_launcher = vehicles.AirDefence.rapier_fsa_launcher
+            rapier_fsa_optical_tracker_unit = vehicles.AirDefence.rapier_fsa_optical_tracker_unit
+            rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
+            FPS_117 = vehicles.AirDefence.FPS_117
+            FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
+            FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
+            HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
+            tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
+            Soldier_stinger = vehicles.AirDefence.Soldier_stinger
+            Vulcan = vehicles.AirDefence.Vulcan
+            bofors40 = vehicles.AirDefence.bofors40
+            QF_37_AA = vehicles.AirDefence.QF_37_AA
+
+        class Fortification:
+            Bunker = vehicles.Fortification.Bunker
+            Sandbox = vehicles.Fortification.Sandbox
+            house1arm = vehicles.Fortification.house1arm
+            house2arm = vehicles.Fortification.house2arm
+            outpost_road = vehicles.Fortification.outpost_road
+            outpost_road_l = vehicles.Fortification.outpost_road_l
+            outpost_road_r = vehicles.Fortification.outpost_road_r
+            outpost = vehicles.Fortification.outpost
+            houseA_arm = vehicles.Fortification.houseA_arm
+            TACAN_beacon = vehicles.Fortification.TACAN_beacon
+
+        class Unarmed:
+            Land_Rover_101_FC = vehicles.Unarmed.Land_Rover_101_FC
+            M_818 = vehicles.Unarmed.M_818
+            M978_HEMTT_Tanker = vehicles.Unarmed.M978_HEMTT_Tanker
+            Hummer = vehicles.Unarmed.Hummer
+            Land_Rover_109_S3 = vehicles.Unarmed.Land_Rover_109_S3
+            TugHarlan_drivable = vehicles.Unarmed.TugHarlan_drivable
+            B600_drivable = vehicles.Unarmed.B600_drivable
+            MJ_1_drivable = vehicles.Unarmed.MJ_1_drivable
+            P20_drivable = vehicles.Unarmed.P20_drivable
+            r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
+            tacr2a = vehicles.Unarmed.tacr2a
+            LARC_V = vehicles.Unarmed.LARC_V
+
+        class Armor:
+            LAV_25 = vehicles.Armor.LAV_25
+            Leopard1A3 = vehicles.Armor.Leopard1A3
+            tt_KORD = vehicles.Armor.tt_KORD
+            tt_DSHK = vehicles.Armor.tt_DSHK
+            HL_KORD = vehicles.Armor.HL_KORD
+            HL_DSHK = vehicles.Armor.HL_DSHK
+            M1126_Stryker_ICV = vehicles.Armor.M1126_Stryker_ICV
+            M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
+            M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
+            M_113 = vehicles.Armor.M_113
+            M4_Sherman = vehicles.Armor.M4_Sherman
+            M4A4_Sherman_FF = vehicles.Armor.M4A4_Sherman_FF
+            Daimler_AC = vehicles.Armor.Daimler_AC
+
+        class Locomotive:
+            Electric_locomotive = vehicles.Locomotive.Electric_locomotive
+            Locomotive = vehicles.Locomotive.Locomotive
+            ES44AH = vehicles.Locomotive.ES44AH
+            DRG_Class_86 = vehicles.Locomotive.DRG_Class_86
+
+        class Carriage:
+            Coach_cargo = vehicles.Carriage.Coach_cargo
+            Coach_cargo_open = vehicles.Carriage.Coach_cargo_open
+            Coach_a_tank_blue = vehicles.Carriage.Coach_a_tank_blue
+            Coach_a_tank_yellow = vehicles.Carriage.Coach_a_tank_yellow
+            Coach_a_passenger = vehicles.Carriage.Coach_a_passenger
+            Coach_a_platform = vehicles.Carriage.Coach_a_platform
+            Boxcartrinity = vehicles.Carriage.Boxcartrinity
+            Tankcartrinity = vehicles.Carriage.Tankcartrinity
+            Wellcarnsc = vehicles.Carriage.Wellcarnsc
+            DR_50Ton_Flat_Wagon = vehicles.Carriage.DR_50Ton_Flat_Wagon
+            German_covered_wagon_G10 = vehicles.Carriage.German_covered_wagon_G10
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+
+    vehicles = [
+        vehicles.Artillery.M_109,
+        vehicles.Artillery.x_2B11_mortar,
+        vehicles.Artillery.L118_Unit,
+        vehicles.Infantry.soldier_wwii_br_01,
+        vehicles.Infantry.Soldier_M4,
+        vehicles.Infantry.Soldier_M249,
+        vehicles.AirDefence.rapier_fsa_launcher,
+        vehicles.AirDefence.rapier_fsa_optical_tracker_unit,
+        vehicles.AirDefence.rapier_fsa_blindfire_radar,
+        vehicles.AirDefence.FPS_117,
+        vehicles.AirDefence.FPS_117_ECS,
+        vehicles.AirDefence.FPS_117_Dome,
+        vehicles.AirDefence.HL_ZU_23,
+        vehicles.AirDefence.tt_ZU_23,
+        vehicles.AirDefence.Soldier_stinger,
+        vehicles.AirDefence.Vulcan,
+        vehicles.AirDefence.bofors40,
+        vehicles.AirDefence.QF_37_AA,
+        vehicles.Fortification.Bunker,
+        vehicles.Fortification.Sandbox,
+        vehicles.Fortification.house1arm,
+        vehicles.Fortification.house2arm,
+        vehicles.Fortification.outpost_road,
+        vehicles.Fortification.outpost_road_l,
+        vehicles.Fortification.outpost_road_r,
+        vehicles.Fortification.outpost,
+        vehicles.Fortification.houseA_arm,
+        vehicles.Fortification.TACAN_beacon,
+        vehicles.Unarmed.Land_Rover_101_FC,
+        vehicles.Unarmed.M_818,
+        vehicles.Unarmed.M978_HEMTT_Tanker,
+        vehicles.Unarmed.Hummer,
+        vehicles.Unarmed.Land_Rover_109_S3,
+        vehicles.Unarmed.TugHarlan_drivable,
+        vehicles.Unarmed.B600_drivable,
+        vehicles.Unarmed.MJ_1_drivable,
+        vehicles.Unarmed.P20_drivable,
+        vehicles.Unarmed.r11_volvo_drivable,
+        vehicles.Unarmed.tacr2a,
+        vehicles.Unarmed.LARC_V,
+        vehicles.Armor.LAV_25,
+        vehicles.Armor.Leopard1A3,
+        vehicles.Armor.tt_KORD,
+        vehicles.Armor.tt_DSHK,
+        vehicles.Armor.HL_KORD,
+        vehicles.Armor.HL_DSHK,
+        vehicles.Armor.M1126_Stryker_ICV,
+        vehicles.Armor.M1043_HMMWV_Armament,
+        vehicles.Armor.M1045_HMMWV_TOW,
+        vehicles.Armor.M_113,
+        vehicles.Armor.M4_Sherman,
+        vehicles.Armor.M4A4_Sherman_FF,
+        vehicles.Armor.Daimler_AC,
+        vehicles.Locomotive.Electric_locomotive,
+        vehicles.Locomotive.Locomotive,
+        vehicles.Locomotive.ES44AH,
+        vehicles.Locomotive.DRG_Class_86,
+        vehicles.Carriage.Coach_cargo,
+        vehicles.Carriage.Coach_cargo_open,
+        vehicles.Carriage.Coach_a_tank_blue,
+        vehicles.Carriage.Coach_a_tank_yellow,
+        vehicles.Carriage.Coach_a_passenger,
+        vehicles.Carriage.Coach_a_platform,
+        vehicles.Carriage.Boxcartrinity,
+        vehicles.Carriage.Tankcartrinity,
+        vehicles.Carriage.Wellcarnsc,
+        vehicles.Carriage.DR_50Ton_Flat_Wagon,
+        vehicles.Carriage.German_covered_wagon_G10,
+        vehicles.Carriage.German_tank_wagon,
+    ]
+
+    class Plane:
+        A_10C = planes.A_10C
+        MosquitoFBMkVI = planes.MosquitoFBMkVI
+        C_130 = planes.C_130
+        MB_339A = planes.MB_339A
+        F_16C_50 = planes.F_16C_50
+        P_51D = planes.P_51D
+        C_47 = planes.C_47
+        FW_190A8 = planes.FW_190A8
+        Bf_109K_4 = planes.Bf_109K_4
+        SpitfireLFMkIX = planes.SpitfireLFMkIX
+        SpitfireLFMkIXCW = planes.SpitfireLFMkIXCW
+        P_47D_30 = planes.P_47D_30
+        P_47D_30bl1 = planes.P_47D_30bl1
+        P_47D_40 = planes.P_47D_40
+        A_20G = planes.A_20G
+        A_10A = planes.A_10A
+        A_10C_2 = planes.A_10C_2
+        AJS37 = planes.AJS37
+        AV8BNA = planes.AV8BNA
+        KC130 = planes.KC130
+        KC135MPRS = planes.KC135MPRS
+        C_101EB = planes.C_101EB
+        C_101CC = planes.C_101CC
+        JF_17 = planes.JF_17
+        Falcon_Gyrocopter = planes.Falcon_Gyrocopter
+        Christen_Eagle_II = planes.Christen_Eagle_II
+        F_15ESE = planes.F_15ESE
+        F_4E_45MC = planes.F_4E_45MC
+        F_5E = planes.F_5E
+        F_5E_3 = planes.F_5E_3
+        F_5E_3_FC = planes.F_5E_3_FC
+        F_86F_Sabre = planes.F_86F_Sabre
+        F_86F_FC = planes.F_86F_FC
+        F_A_18A = planes.F_A_18A
+        F_A_18C = planes.F_A_18C
+        FA_18C_hornet = planes.FA_18C_hornet
+        Hawk = planes.Hawk
+        I_16 = planes.I_16
+        L_39C = planes.L_39C
+        M_2000C = planes.M_2000C
+        MB_339APAN = planes.MB_339APAN
+        MiG_15bis = planes.MiG_15bis
+        MiG_15bis_FC = planes.MiG_15bis_FC
+        MiG_19P = planes.MiG_19P
+        MiG_21Bis = planes.MiG_21Bis
+        Mirage_F1CE = planes.Mirage_F1CE
+        Mirage_F1EE = planes.Mirage_F1EE
+        Mirage_F1BE = planes.Mirage_F1BE
+        TF_51D = planes.TF_51D
+        Yak_52 = planes.Yak_52
+        Ju_88A4 = planes.Ju_88A4
+
+    planes = [
+        Plane.A_10C,
+        Plane.MosquitoFBMkVI,
+        Plane.C_130,
+        Plane.MB_339A,
+        Plane.F_16C_50,
+        Plane.P_51D,
+        Plane.C_47,
+        Plane.FW_190A8,
+        Plane.Bf_109K_4,
+        Plane.SpitfireLFMkIX,
+        Plane.SpitfireLFMkIXCW,
+        Plane.P_47D_30,
+        Plane.P_47D_30bl1,
+        Plane.P_47D_40,
+        Plane.A_20G,
+        Plane.A_10A,
+        Plane.A_10C_2,
+        Plane.AJS37,
+        Plane.AV8BNA,
+        Plane.KC130,
+        Plane.KC135MPRS,
+        Plane.C_101EB,
+        Plane.C_101CC,
+        Plane.JF_17,
+        Plane.Falcon_Gyrocopter,
+        Plane.Christen_Eagle_II,
+        Plane.F_15ESE,
+        Plane.F_4E_45MC,
+        Plane.F_5E,
+        Plane.F_5E_3,
+        Plane.F_5E_3_FC,
+        Plane.F_86F_Sabre,
+        Plane.F_86F_FC,
+        Plane.F_A_18A,
+        Plane.F_A_18C,
+        Plane.FA_18C_hornet,
+        Plane.Hawk,
+        Plane.I_16,
+        Plane.L_39C,
+        Plane.M_2000C,
+        Plane.MB_339APAN,
+        Plane.MiG_15bis,
+        Plane.MiG_15bis_FC,
+        Plane.MiG_19P,
+        Plane.MiG_21Bis,
+        Plane.Mirage_F1CE,
+        Plane.Mirage_F1EE,
+        Plane.Mirage_F1BE,
+        Plane.TF_51D,
+        Plane.Yak_52,
+        Plane.Ju_88A4,
+    ]
+
+    class Helicopter:
+        Ka_50 = helicopters.Ka_50
+        UH_1H = helicopters.UH_1H
+        AH_64D_BLK_II = helicopters.AH_64D_BLK_II
+        CH_47Fbl1 = helicopters.CH_47Fbl1
+        OH58D = helicopters.OH58D
+        SA342M = helicopters.SA342M
+        SA342L = helicopters.SA342L
+        SA342Mistral = helicopters.SA342Mistral
+        SA342Minigun = helicopters.SA342Minigun
+
+    helicopters = [
+        Helicopter.Ka_50,
+        Helicopter.UH_1H,
+        Helicopter.AH_64D_BLK_II,
+        Helicopter.CH_47Fbl1,
+        Helicopter.OH58D,
+        Helicopter.SA342M,
+        Helicopter.SA342L,
+        Helicopter.SA342Mistral,
+        Helicopter.SA342Minigun,
+    ]
+
+    class Ship:
+        speedboat = ships.speedboat
+        HandyWind = ships.HandyWind
+        PERRY = ships.PERRY
+        speedboat = ships.speedboat
+        Seawise_Giant = ships.Seawise_Giant
+        Higgins_boat = ships.Higgins_boat
+        HarborTug = ships.HarborTug
+        Ship_Tilde_Supply = ships.Ship_Tilde_Supply
+        ara_vdm = ships.ara_vdm
+        atconveyor = ships.atconveyor
+
+    ships = [
+        Ship.speedboat,
+        Ship.HandyWind,
+        Ship.PERRY,
+        Ship.speedboat,
+        Ship.Seawise_Giant,
+        Ship.Higgins_boat,
+        Ship.HarborTug,
+        Ship.Ship_Tilde_Supply,
+        Ship.ara_vdm,
+        Ship.atconveyor,
+    ]
+
+    class CallsignAWACS:
+        Overlord = "Overlord"
+        Magic = "Magic"
+        Wizard = "Wizard"
+        Focus = "Focus"
+        Darkstar = "Darkstar"
+
+    class CallsignTankers:
+        Texaco = "Texaco"
+        Arco = "Arco"
+        Shell = "Shell"
+
+    class CallsignAir:
+        Enfield = "Enfield"
+        Springfield = "Springfield"
+        Uzi = "Uzi"
+        Colt = "Colt"
+        Dodge = "Dodge"
+        Ford = "Ford"
+        Chevy = "Chevy"
+        Pontiac = "Pontiac"
+
+    class CallsignHelipad:
+        London = "London"
+        Dallas = "Dallas"
+        Paris = "Paris"
+        Moscow = "Moscow"
+        Berlin = "Berlin"
+        Rome = "Rome"
+        Madrid = "Madrid"
+        Warsaw = "Warsaw"
+        Dublin = "Dublin"
+        Perth = "Perth"
+
+    class CallsignGroundUnits:
+        Axeman = "Axeman"
+        Darknight = "Darknight"
+        Warrior = "Warrior"
+        Pointer = "Pointer"
+        Eyeball = "Eyeball"
+        Moonbeam = "Moonbeam"
+        Whiplash = "Whiplash"
+        Finger = "Finger"
+        Pinpoint = "Pinpoint"
+        Ferret = "Ferret"
+        Shaba = "Shaba"
+        Playboy = "Playboy"
+        Hammer = "Hammer"
+        Jaguar = "Jaguar"
+        Deathstar = "Deathstar"
+        Anvil = "Anvil"
+        Firefly = "Firefly"
+        Mantis = "Mantis"
+        Badger = "Badger"
+
+    class CallsignGrassAirfield:
+        New_York = "New York"
+
+    callsign = {
+        "AWACS": [
+            CallsignAWACS.Overlord,
+            CallsignAWACS.Magic,
+            CallsignAWACS.Wizard,
+            CallsignAWACS.Focus,
+            CallsignAWACS.Darkstar
+        ],
+        "Tankers": [
+            CallsignTankers.Texaco,
+            CallsignTankers.Arco,
+            CallsignTankers.Shell
+        ],
+        "Air": [
+            CallsignAir.Enfield,
+            CallsignAir.Springfield,
+            CallsignAir.Uzi,
+            CallsignAir.Colt,
+            CallsignAir.Dodge,
+            CallsignAir.Ford,
+            CallsignAir.Chevy,
+            CallsignAir.Pontiac
+        ],
+        "Helipad": [
+            CallsignHelipad.London,
+            CallsignHelipad.Dallas,
+            CallsignHelipad.Paris,
+            CallsignHelipad.Moscow,
+            CallsignHelipad.Berlin,
+            CallsignHelipad.Rome,
+            CallsignHelipad.Madrid,
+            CallsignHelipad.Warsaw,
+            CallsignHelipad.Dublin,
+            CallsignHelipad.Perth
+        ],
+        "GroundUnits": [
+            CallsignGroundUnits.Axeman,
+            CallsignGroundUnits.Darknight,
+            CallsignGroundUnits.Warrior,
+            CallsignGroundUnits.Pointer,
+            CallsignGroundUnits.Eyeball,
+            CallsignGroundUnits.Moonbeam,
+            CallsignGroundUnits.Whiplash,
+            CallsignGroundUnits.Finger,
+            CallsignGroundUnits.Pinpoint,
+            CallsignGroundUnits.Ferret,
+            CallsignGroundUnits.Shaba,
+            CallsignGroundUnits.Playboy,
+            CallsignGroundUnits.Hammer,
+            CallsignGroundUnits.Jaguar,
+            CallsignGroundUnits.Deathstar,
+            CallsignGroundUnits.Anvil,
+            CallsignGroundUnits.Firefly,
+            CallsignGroundUnits.Mantis,
+            CallsignGroundUnits.Badger
+        ],
+        "GrassAirfield": [
+            CallsignGrassAirfield.New_York
+        ],
+    }
+
+    def __init__(self):
+        super(NewZealand, self).__init__(
+            NewZealand.id,
+            NewZealand.name,
+            NewZealand.shortname
+        )
+
+
 country_dict = {
     Russia.id: Russia,
     Ukraine.id: Ukraine,
@@ -45757,6 +46575,7 @@ country_dict = {
     Peru.id: Peru,
     Ecuador.id: Ecuador,
     Afghanistan.id: Afghanistan,
+    NewZealand.id: NewZealand,
 }
 
 
@@ -45852,6 +46671,7 @@ countries_by_name = {
     Peru.name: Peru,
     Ecuador.name: Ecuador,
     Afghanistan.name: Afghanistan,
+    NewZealand.name: NewZealand,
 }
 
 
@@ -45947,6 +46767,7 @@ countries_by_short_name = {
     Peru.shortname: Peru,
     Ecuador.shortname: Ecuador,
     Afghanistan.shortname: Afghanistan,
+    NewZealand.shortname: NewZealand,
 }
 
 
