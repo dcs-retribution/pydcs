@@ -10,6 +10,7 @@ from typing import Any, Dict, Iterator, List, Optional, Set, Type, Union, TYPE_C
 
 from dcs.liveries.livery import Livery
 from dcs.liveries.liverycache import LiveryCache
+from .datalinks.datalink import DataLink
 
 if TYPE_CHECKING:
     from dcs.country import Country
@@ -215,3 +216,28 @@ class FlyingType(UnitType):
             if liveries:
                 return liveries[0].id
         return ""
+
+    @classmethod
+    def get_default_datalink(cls) -> Optional[DataLink]:
+        if cls.networked_datalink:
+            return DataLink.for_aircraft_id(cls.id)
+        return None
+
+    @classmethod
+    def is_link16_capable(cls) -> bool:
+        # i.e. can be added as team-member/donor for L16
+        return "STN_L16" in cls.properties
+
+    @classmethod
+    def is_sadl_capable(cls) -> bool:
+        # i.e. can be added as team-member/donor for SADL
+        return "SADL_TN" in cls.properties
+
+    @classmethod
+    def is_idm_capable(cls) -> bool:
+        # i.e. can be added as team-member for IDM
+        return "TN_IDM_LB" in cls.properties
+
+    @classmethod
+    def datalink_networkable(cls) -> bool:
+        return cls.is_link16_capable() or cls.is_sadl_capable() or cls.is_idm_capable()

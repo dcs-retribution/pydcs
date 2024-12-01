@@ -5,6 +5,7 @@ import json
 import logging
 from typing import TYPE_CHECKING, Dict, Optional, Type
 
+from dcs.datalinks.datalink import DataLink
 from dcs.helicopters import HelicopterType, Ka_50
 from dcs.planes import PlaneType, A_10C
 from dcs.terrain import ParkingSlot
@@ -46,6 +47,14 @@ class FlyingUnit(Unit):
         self.radio: Optional[AircraftRadioPresets] = None
         self.hardpoint_racks = True
         self.addpropaircraft = dict(_type.property_defaults) if _type.property_defaults else None
+        self.datalink: Optional[DataLink]
+        self._initialize_datalink()
+
+    def _initialize_datalink(self):
+        self.datalink = self.unit_type.get_default_datalink()
+        if not self.datalink:  # no datalink for this unit, nothing to set up...
+            return
+        self.datalink.network.add_member(self.id)
 
     def load_from_dict(self, d):
         super(FlyingUnit, self).load_from_dict(d)
@@ -212,7 +221,11 @@ class FlyingUnit(Unit):
         if self.hardpoint_racks is not None:
             d["hardpoint_racks"] = self.hardpoint_racks
         if self.addpropaircraft is not None:
-            d["AddPropAircraft"] = self.addpropaircraft
+            d["AddPropAircraft"] = {
+                key: value
+                for key, value in self.addpropaircraft.items()
+                if value is not None
+            }
         d["payload"] = {
             "flare": self.flare,
             "chaff": self.chaff,
@@ -226,6 +239,8 @@ class FlyingUnit(Unit):
             d["callsign"] = self.callsign
         else:
             d["callsign"] = self.callsign_dict
+        if self.datalink is not None:
+            d["datalinks"] = self.datalink.dict()
         if self.radio:
             d["Radio"] = self.radio
         return d
