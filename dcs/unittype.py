@@ -84,6 +84,7 @@ class FlyingType(UnitType):
 
     tacan = False
     eplrs = False
+    networked_datalink = False
 
     radio_frequency: float = 251
 

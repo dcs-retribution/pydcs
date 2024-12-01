@@ -352,6 +352,10 @@ from dcs.unittype import FlyingType
             writeln(file, '    eplrs = True')
         end
 
+        if plane.datalinks then
+            writeln(file, '    networked_datalink = True')
+        end
+
         if plane.Categories and plane.Categories[1] then
             local clsid = plane.Categories[1]
             if plane.Categories[1].CLSID then
