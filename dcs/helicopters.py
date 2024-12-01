@@ -1010,6 +1010,7 @@ class AH_64D_BLK_II(HelicopterType):
     chaff_charge_size = 1
     flare_charge_size = 1
     eplrs = True
+    networked_datalink = True
     radio_frequency = 225
 
     panel_radio = {
