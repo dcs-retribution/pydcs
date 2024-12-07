@@ -3172,7 +3172,6 @@ class France(Country):
     class Plane:
         A_10C = planes.A_10C
         Mirage_2000_5 = planes.Mirage_2000_5
-        Mirage_F1C = planes.Mirage_F1C
         C_130 = planes.C_130
         P_51D = planes.P_51D
         C_17A = planes.C_17A
@@ -3223,6 +3222,7 @@ class France(Country):
         MiG_15bis_FC = planes.MiG_15bis_FC
         MiG_19P = planes.MiG_19P
         MiG_21Bis = planes.MiG_21Bis
+        Mirage_F1C = planes.Mirage_F1C
         Mirage_F1CE = planes.Mirage_F1CE
         Mirage_F1EE = planes.Mirage_F1EE
         Mirage_F1C_200 = planes.Mirage_F1C_200
@@ -3237,7 +3237,6 @@ class France(Country):
     planes = [
         Plane.A_10C,
         Plane.Mirage_2000_5,
-        Plane.Mirage_F1C,
         Plane.C_130,
         Plane.P_51D,
         Plane.C_17A,
@@ -3288,6 +3287,7 @@ class France(Country):
         Plane.MiG_15bis_FC,
         Plane.MiG_19P,
         Plane.MiG_21Bis,
+        Plane.Mirage_F1C,
         Plane.Mirage_F1CE,
         Plane.Mirage_F1EE,
         Plane.Mirage_F1C_200,
@@ -5992,8 +5992,6 @@ class Spain(Country):
         F_86F_FC = planes.F_86F_FC
         MQ_9_Reaper = planes.MQ_9_Reaper
         AV8BNA = planes.AV8BNA
-        C_101EB = planes.C_101EB
-        C_101CC = planes.C_101CC
         I_16 = planes.I_16
         KC130 = planes.KC130
         FW_190A8 = planes.FW_190A8
@@ -6010,6 +6008,8 @@ class Spain(Country):
         A_10C_2 = planes.A_10C_2
         AJS37 = planes.AJS37
         KC135MPRS = planes.KC135MPRS
+        C_101EB = planes.C_101EB
+        C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
@@ -6054,8 +6054,6 @@ class Spain(Country):
         Plane.F_86F_FC,
         Plane.MQ_9_Reaper,
         Plane.AV8BNA,
-        Plane.C_101EB,
-        Plane.C_101CC,
         Plane.I_16,
         Plane.KC130,
         Plane.FW_190A8,
@@ -6072,6 +6070,8 @@ class Spain(Country):
         Plane.A_10C_2,
         Plane.AJS37,
         Plane.KC135MPRS,
+        Plane.C_101EB,
+        Plane.C_101CC,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
@@ -29200,8 +29200,6 @@ class Jordan(Country):
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
         Hawk = planes.Hawk
-        C_101EB = planes.C_101EB
-        C_101CC = planes.C_101CC
         FW_190A8 = planes.FW_190A8
         Bf_109K_4 = planes.Bf_109K_4
         SpitfireLFMkIX = planes.SpitfireLFMkIX
@@ -29217,6 +29215,8 @@ class Jordan(Country):
         AV8BNA = planes.AV8BNA
         KC130 = planes.KC130
         KC135MPRS = planes.KC135MPRS
+        C_101EB = planes.C_101EB
+        C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
@@ -29256,8 +29256,6 @@ class Jordan(Country):
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
         Plane.Hawk,
-        Plane.C_101EB,
-        Plane.C_101CC,
         Plane.FW_190A8,
         Plane.Bf_109K_4,
         Plane.SpitfireLFMkIX,
@@ -29273,6 +29271,8 @@ class Jordan(Country):
         Plane.AV8BNA,
         Plane.KC130,
         Plane.KC135MPRS,
+        Plane.C_101EB,
+        Plane.C_101CC,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
@@ -30081,8 +30081,6 @@ class Honduras(Country):
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
-        C_101EB = planes.C_101EB
-        C_101CC = planes.C_101CC
         C_47 = planes.C_47
         FW_190A8 = planes.FW_190A8
         Bf_109K_4 = planes.Bf_109K_4
@@ -30099,6 +30097,8 @@ class Honduras(Country):
         AV8BNA = planes.AV8BNA
         KC130 = planes.KC130
         KC135MPRS = planes.KC135MPRS
+        C_101EB = planes.C_101EB
+        C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
@@ -30133,8 +30133,6 @@ class Honduras(Country):
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
-        Plane.C_101EB,
-        Plane.C_101CC,
         Plane.C_47,
         Plane.FW_190A8,
         Plane.Bf_109K_4,
@@ -30151,6 +30149,8 @@ class Honduras(Country):
         Plane.AV8BNA,
         Plane.KC130,
         Plane.KC135MPRS,
+        Plane.C_101EB,
+        Plane.C_101CC,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
@@ -30951,8 +30951,6 @@ class Chile(Country):
         F_5E_3_FC = planes.F_5E_3_FC
         KC135MPRS = planes.KC135MPRS
         C_130 = planes.C_130
-        C_101EB = planes.C_101EB
-        C_101CC = planes.C_101CC
         FW_190A8 = planes.FW_190A8
         Bf_109K_4 = planes.Bf_109K_4
         SpitfireLFMkIX = planes.SpitfireLFMkIX
@@ -30967,6 +30965,8 @@ class Chile(Country):
         AJS37 = planes.AJS37
         AV8BNA = planes.AV8BNA
         KC130 = planes.KC130
+        C_101EB = planes.C_101EB
+        C_101CC = planes.C_101CC
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
@@ -31009,8 +31009,6 @@ class Chile(Country):
         Plane.F_5E_3_FC,
         Plane.KC135MPRS,
         Plane.C_130,
-        Plane.C_101EB,
-        Plane.C_101CC,
         Plane.FW_190A8,
         Plane.Bf_109K_4,
         Plane.SpitfireLFMkIX,
@@ -31025,6 +31023,8 @@ class Chile(Country):
         Plane.AJS37,
         Plane.AV8BNA,
         Plane.KC130,
+        Plane.C_101EB,
+        Plane.C_101CC,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
@@ -45296,8 +45296,6 @@ class Ecuador(Country):
     class Plane:
         A_10C = planes.A_10C
         C_130 = planes.C_130
-        Mirage_F1C = planes.Mirage_F1C
-        Mirage_F1CE = planes.Mirage_F1CE
         P_47D_30 = planes.P_47D_30
         P_47D_30bl1 = planes.P_47D_30bl1
         P_47D_40 = planes.P_47D_40
@@ -45339,6 +45337,7 @@ class Ecuador(Country):
         MiG_15bis_FC = planes.MiG_15bis_FC
         MiG_19P = planes.MiG_19P
         MiG_21Bis = planes.MiG_21Bis
+        Mirage_F1CE = planes.Mirage_F1CE
         Mirage_F1EE = planes.Mirage_F1EE
         Mirage_F1JA = planes.Mirage_F1JA
         Mirage_F1BE = planes.Mirage_F1BE
@@ -45350,8 +45349,6 @@ class Ecuador(Country):
     planes = [
         Plane.A_10C,
         Plane.C_130,
-        Plane.Mirage_F1C,
-        Plane.Mirage_F1CE,
         Plane.P_47D_30,
         Plane.P_47D_30bl1,
         Plane.P_47D_40,
@@ -45393,6 +45390,7 @@ class Ecuador(Country):
         Plane.MiG_15bis_FC,
         Plane.MiG_19P,
         Plane.MiG_21Bis,
+        Plane.Mirage_F1CE,
         Plane.Mirage_F1EE,
         Plane.Mirage_F1JA,
         Plane.Mirage_F1BE,
