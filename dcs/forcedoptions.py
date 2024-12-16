@@ -54,6 +54,7 @@ class ForcedOptions:
         self.birds: Optional[int] = None
         self.cockpit_status_bar: Optional[bool] = None
         self.battle_damage_assessment: Optional[bool] = None
+        self.supercarrier_deck_crew: bool = True
 
     def load_from_dict(self, d):
         self.fuel = d.get("fuel")
@@ -83,6 +84,8 @@ class ForcedOptions:
         self.cockpit_status_bar = d.get("cockpitStatusBarAllowed")
         self.battle_damage_assessment = d.get("RBDAI")
         self.user_marks = d.get("userMarks")
+        if (sc := d.get("Supercarrier")) is not None:
+            self.supercarrier_deck_crew = sc.get("deck_crew", True)
 
     def dict(self):
         d = {}
@@ -132,4 +135,7 @@ class ForcedOptions:
             d["RBDAI"] = self.battle_damage_assessment
         if self.user_marks is not None:
             d["userMarks"] = self.user_marks
+        d["Supercarrier"] = {
+            "deck_crew": self.supercarrier_deck_crew
+        }
         return d
