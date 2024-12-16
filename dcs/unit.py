@@ -5,7 +5,7 @@ from enum import Enum
 import math
 from typing import TYPE_CHECKING, Any, Callable, Dict, Type, Union, Optional
 
-from dcs.ships import CVN_71, CVN_72, CVN_73, CVN_75
+from dcs.ships import CVN_71, CVN_72, CVN_73, CVN_75, Stennis
 from dcs.unittype import UnitType, StaticType, ShipType, VehicleType
 import dcs.mapping as mapping
 
@@ -122,11 +122,11 @@ class Ship(Unit):
         super().load_from_dict(d)
         self.frequency = d.get("frequency", self.frequency)
 
-    def dict(self, STENNIS=None):
+    def dict(self):
         d = super(Ship, self).dict()
         d["frequency"] = self.frequency
         if self.type in [
-            STENNIS.id,
+            Stennis.id,
             CVN_71.id,
             CVN_72.id,
             CVN_73.id,
