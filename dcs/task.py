@@ -222,6 +222,24 @@ class Targets(metaclass=TargetType):
             class Helicopters(TargetType, metaclass=TargetType):
                 id = "Helicopters"
 
+        class Missile(TargetType, metaclass=TargetType):
+            id = "Missile"
+
+            class SAMissile(TargetType, metaclass=TargetType):
+                id = "SA Missiles"
+
+            class AAMissiles(TargetType, metaclass=TargetType):
+                id = "AA Missiles"
+
+            class AntishipMissiles(TargetType, metaclass=TargetType):
+                id = "Antiship Missiles"
+
+            class CruiseMissiles(TargetType, metaclass=TargetType):
+                id = "Cruise missiles"
+
+            class AGMissiles(TargetType, metaclass=TargetType):
+                id = "AG Missiles"
+
         class GroundUnits(TargetType, metaclass=TargetType):
             id = "Ground Units"
 
