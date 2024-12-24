@@ -219,6 +219,9 @@ class Targets(metaclass=TargetType):
                 class Bombers(TargetType, metaclass=TargetType):
                     id = "Bombers"
 
+                class Interceptors(TargetType, metaclass=TargetType):
+                    id = "Interceptors"
+
             class Helicopters(TargetType, metaclass=TargetType):
                 id = "Helicopters"
 
