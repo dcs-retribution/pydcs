@@ -303,6 +303,8 @@ class Mission:
             self.terrain = terrain_.Kola()
         elif imp_mission["theatre"] == "Afghanistan":
             self.terrain = terrain_.Afghanistan()
+        elif imp_mission["theatre"] == "Iraq":
+            self.terrain = terrain_.Iraq()
         else:
             raise RuntimeError("Unknown theatre: '{theatre}'".format(theatre=imp_mission["theatre"]))
 

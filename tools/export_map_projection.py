@@ -41,6 +41,7 @@ from dcs.terrain import Kola
 from dcs.terrain.afghanistan import Afghanistan
 from dcs.terrain.caucasus import Caucasus
 from dcs.terrain.falklands import Falklands
+from dcs.terrain.iraq import Iraq
 from dcs.terrain.nevada import Nevada
 from dcs.terrain.normandy import Normandy
 from dcs.terrain.persiangulf import PersianGulf
@@ -73,6 +74,7 @@ ARG_TO_TERRAIN_MAP = {
     "sinai": Sinai(),
     "kola": Kola(),
     "afghanistan": Afghanistan(),
+    "iraq": Iraq(),
 }
 
 # https://gisgeography.com/central-meridian/
@@ -90,6 +92,7 @@ CENTRAL_MERIDIANS = {
     "sinai": 33,
     "kola": 23,
     "afghanistan": 63,
+    "iraq": 45,
 }
 
 
