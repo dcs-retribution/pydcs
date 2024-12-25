@@ -10,248 +10,281 @@ class Clouds(Enum):
     def from_name(name: str) -> "Clouds":
         return CLOUD_PRESETS[name]
 
+    LightRain4 = CloudPreset(
+        name='NEWRAINPRESET4',
+        ui_name='Light Rain 4',
+        description='34 ##Two Layers Overcast At Low Level \nMETAR: --',
+        min_base=840.0,
+        max_base=5174.4,
+    )
+
     LightScattered1 = CloudPreset(
         name='Preset1',
         ui_name='Light Scattered 1',
-        description='01 ##Few Scattered Clouds \nMETAR:FEW/SCT 7/8',
-        min_base=840,
-        max_base=4200,
+        description='01 ##Few Scattered Clouds \nMETAR: FEW/SCT 7/8',
+        min_base=840.0,
+        max_base=4200.0,
     )
 
     Scattered5 = CloudPreset(
         name='Preset10',
         ui_name='Scattered 5',
-        description='10 ##Two Layers Scattered Large Thick Clouds  \nMETAR:SCT/BKN 18/20 FEW36/38 FEW 40',
-        min_base=1260,
-        max_base=4200,
+        description='10 ##Two Layers Scattered Large Thick Clouds  \nMETAR: SCT/BKN 18/20 FEW36/38 FEW 40',
+        min_base=1260.0,
+        max_base=4200.0,
     )
 
     Scattered6 = CloudPreset(
         name='Preset11',
         ui_name='Scattered 6',
-        description='11 ##Two Layers Scattered Large Clouds High Ceiling \nMETAR:BKN 18/20 BKN 32/33 FEW 41',
-        min_base=2520,
-        max_base=5460,
+        description='11 ##Two Layers Scattered Large Clouds High Ceiling \nMETAR: BKN 18/20 BKN 32/33 FEW 41',
+        min_base=2520.0,
+        max_base=5460.0,
     )
 
     Scattered7 = CloudPreset(
         name='Preset12',
         ui_name='Scattered 7',
-        description='12 ##Two Layers Scattered Large Clouds High Ceiling \nMETAR:BKN 12/14 SCT 22/23 FEW 41',
-        min_base=1680,
-        max_base=3360,
+        description='12 ##Two Layers Scattered Large Clouds High Ceiling \nMETAR: BKN 12/14 SCT 22/23 FEW 41',
+        min_base=1680.0,
+        max_base=3360.0,
     )
 
     Broken1 = CloudPreset(
         name='Preset13',
         ui_name='Broken 1',
-        description='13 ##Two Layers Broken Clouds \nMETAR:BKN 12/14 BKN 26/28 FEW 41',
-        min_base=1680,
-        max_base=3360,
+        description='13 ##Two Layers Broken Clouds \nMETAR: BKN 12/14 BKN 26/28 FEW 41',
+        min_base=1680.0,
+        max_base=3360.0,
     )
 
     Broken2 = CloudPreset(
         name='Preset14',
         ui_name='Broken 2',
-        description='14 ##Broken Thick Low Layer with Few High Layer\nMETAR:BKN LYR 7/16 FEW 41',
-        min_base=1680,
-        max_base=3360,
+        description='14 ##Broken Thick Low Layer with Few High Layer\nMETAR: BKN LYR 7/16 FEW 41',
+        min_base=1680.0,
+        max_base=3360.0,
     )
 
     Broken3 = CloudPreset(
         name='Preset15',
         ui_name='Broken 3',
-        description='15 ##Two Layers Broken Large Clouds \nMETAR:SCT/BKN 14/18 BKN 24/27 FEW 40',
-        min_base=840,
-        max_base=5040,
+        description='15 ##Two Layers Broken Large Clouds \nMETAR: SCT/BKN 14/18 BKN 24/27 FEW 40',
+        min_base=840.0,
+        max_base=5040.0,
     )
 
     Broken4 = CloudPreset(
         name='Preset16',
         ui_name='Broken 4',
-        description='16 ##Two Layers Broken Large Clouds \nMETAR:BKN 14/18 BKN 28/30 FEW 40',
-        min_base=1260,
-        max_base=4200,
+        description='16 ##Two Layers Broken Large Clouds \nMETAR: BKN 14/18 BKN 28/30 FEW 40',
+        min_base=1260.0,
+        max_base=4200.0,
     )
 
     Broken5 = CloudPreset(
         name='Preset17',
         ui_name='Broken 5',
-        description='17 ##Three Layers Broken/Overcast \nMETAR:BKN/OVC LYR 7/13 20/22 32/34',
-        min_base=0,
-        max_base=2520,
+        description='17 ##Three Layers Broken/Overcast \nMETAR: BKN/OVC LYR 7/13 20/22 32/34',
+        min_base=0.0,
+        max_base=2520.0,
     )
 
     Broken6 = CloudPreset(
         name='Preset18',
         ui_name='Broken 6',
-        description='18 ##Three Layers Broken/Overcast \nMETAR:BKN/OVC LYR 13/15 25/29 38/41',
-        min_base=0,
-        max_base=3780,
+        description='18 ##Three Layers Broken/Overcast \nMETAR: BKN/OVC LYR 13/15 25/29 38/41',
+        min_base=0.0,
+        max_base=3780.0,
     )
 
     Broken7 = CloudPreset(
         name='Preset19',
         ui_name='Broken 7',
-        description='19 ##Three Layers Overcast At Low Level \nMETAR:OVC 9/16 BKN/OVC LYR 23/24 31/33',
-        min_base=0,
-        max_base=2940,
+        description='19 ##Three Layers Overcast At Low Level \nMETAR: OVC 9/16 BKN/OVC LYR 23/24 31/33',
+        min_base=0.0,
+        max_base=2940.0,
     )
 
     LightScattered2 = CloudPreset(
         name='Preset2',
         ui_name='Light Scattered 2',
-        description='02 ##Two Layers Few and Scattered \nMETAR:FEW/SCT 8/10 SCT 23/24',
-        min_base=1260,
-        max_base=2520,
+        description='02 ##Two Layers Few and Scattered \nMETAR: FEW/SCT 8/10 SCT 23/24',
+        min_base=1260.0,
+        max_base=2520.0,
     )
 
     Broken8 = CloudPreset(
         name='Preset20',
         ui_name='Broken 8',
-        description='20 ##Three Layers Overcast Low Level \nMETAR:BKN/OVC 13/18 BKN 28/30 SCT FEW 38',
-        min_base=0,
-        max_base=3780,
+        description='20 ##Three Layers Overcast Low Level \nMETAR: BKN/OVC 13/18 BKN 28/30 SCT FEW 38',
+        min_base=0.0,
+        max_base=3780.0,
     )
 
     Overcast1 = CloudPreset(
         name='Preset21',
         ui_name='Overcast 1',
-        description='21 ##Overcast low level \nMETAR:BKN/OVC LYR 7/8 17/19',
-        min_base=1260,
-        max_base=4200,
+        description='21 ##Overcast low level \nMETAR: BKN/OVC LYR 7/8 17/19',
+        min_base=1260.0,
+        max_base=4200.0,
     )
 
     Overcast2 = CloudPreset(
         name='Preset22',
         ui_name='Overcast 2',
-        description='22 ##Overcast low Level \nMETAR:BKN LYR 7/10 17/20',
-        min_base=420,
-        max_base=4200,
+        description='22 ##Overcast low Level \nMETAR: BKN LYR 7/10 17/20',
+        min_base=420.0,
+        max_base=4200.0,
     )
 
     Overcast3 = CloudPreset(
         name='Preset23',
         ui_name='Overcast 3',
-        description='23 ##Three Layer Broken Low Level Scattered High \nMETAR:BKN LYR 11/14 18/25 SCT 32/35',
-        min_base=840,
-        max_base=3360,
+        description='23 ##Three Layer Broken Low Level Scattered High \nMETAR: BKN LYR 11/14 18/25 SCT 32/35',
+        min_base=840.0,
+        max_base=3360.0,
     )
 
     Overcast4 = CloudPreset(
         name='Preset24',
         ui_name='Overcast 4',
-        description='24 ##Three Layer Overcast \nMETAR:BKN/OVC 3/7 17/22 BKN 34',
-        min_base=420,
-        max_base=2520,
+        description='24 ##Three Layer Overcast \nMETAR: BKN/OVC 3/7 17/22 BKN 34',
+        min_base=420.0,
+        max_base=2520.0,
     )
 
     Overcast5 = CloudPreset(
         name='Preset25',
         ui_name='Overcast 5',
-        description='25 ##Three Layer Overcast \nMETAR:OVC LYR 12/14 22/25 40/42',
-        min_base=420,
-        max_base=3360,
+        description='25 ##Three Layer Overcast \nMETAR: OVC LYR 12/14 22/25 40/42',
+        min_base=420.0,
+        max_base=3360.0,
     )
 
     Overcast6 = CloudPreset(
         name='Preset26',
         ui_name='Overcast 6',
-        description='26 ##Three Layer Overcast \nMETAR:OVC 9/15 BKN 23/25 SCT 32',
-        min_base=420,
-        max_base=2940,
+        description='26 ##Three Layer Overcast \nMETAR: OVC 9/15 BKN 23/25 SCT 32',
+        min_base=420.0,
+        max_base=2940.0,
     )
 
     Overcast7 = CloudPreset(
         name='Preset27',
         ui_name='Overcast 7',
-        description='27 ##Three Layer Overcast \nMETAR:OVC 8/15 SCT/BKN 25/26 34/36',
-        min_base=420,
-        max_base=2520,
+        description='27 ##Three Layer Overcast \nMETAR: OVC 8/15 SCT/BKN 25/26 34/36',
+        min_base=420.0,
+        max_base=2520.0,
     )
 
     HighScattered1 = CloudPreset(
         name='Preset3',
         ui_name='High Scattered 1',
-        description='03 ##Two Layer Scattered \nMETAR:SCT 8/9 FEW 21',
-        min_base=840,
-        max_base=2520,
+        description='03 ##Two Layer Scattered \nMETAR: SCT 8/9 FEW 21',
+        min_base=840.0,
+        max_base=2520.0,
     )
 
     HighScattered2 = CloudPreset(
         name='Preset4',
         ui_name='High Scattered 2',
-        description='04 ##Two Layer Scattered \nMETAR:SCT 8/10 FEW/SCT 24/26',
-        min_base=1260,
-        max_base=2520,
+        description='04 ##Two Layer Scattered \nMETAR: SCT 8/10 FEW/SCT 24/26',
+        min_base=1260.0,
+        max_base=2520.0,
     )
 
     Scattered1 = CloudPreset(
         name='Preset5',
         ui_name='Scattered 1',
-        description='05 ##Three Layer High altitude Scattered \nMETAR:SCT 14/17 FEW 27/29 BKN 40',
-        min_base=1260,
-        max_base=4620,
+        description='05 ##Three Layer High altitude Scattered \nMETAR: SCT 14/17 FEW 27/29 BKN 40',
+        min_base=1260.0,
+        max_base=4620.0,
     )
 
     Scattered2 = CloudPreset(
         name='Preset6',
         ui_name='Scattered 2',
-        description='06 ##One Layer Scattered/Broken \nMETAR:SCT/BKN 8/10 FEW 40',
-        min_base=1260,
-        max_base=4200,
+        description='06 ##One Layer Scattered/Broken \nMETAR: SCT/BKN 8/10 FEW 40',
+        min_base=1260.0,
+        max_base=4200.0,
     )
 
     Scattered3 = CloudPreset(
         name='Preset7',
         ui_name='Scattered 3',
-        description='07 ##Two Layer Scattered/Broken \nMETAR:BKN 7.5/12 SCT/BKN 21/23 SCT 40',
-        min_base=1680,
-        max_base=5040,
+        description='07 ##Two Layer Scattered/Broken \nMETAR: BKN 7.5/12 SCT/BKN 21/23 SCT 40',
+        min_base=1680.0,
+        max_base=5040.0,
     )
 
     HighScattered3 = CloudPreset(
         name='Preset8',
         ui_name='High Scattered 3',
-        description='08 ##Two Layer Scattered/Broken High Altitude \nMETAR:SCT/BKN 18/20 FEW 36/38 FEW 40',
-        min_base=3780,
-        max_base=5460,
+        description='08 ##Two Layer Scattered/Broken High Altitude \nMETAR: SCT/BKN 18/20 FEW 36/38 FEW 40',
+        min_base=3780.0,
+        max_base=5460.0,
     )
 
     Scattered4 = CloudPreset(
         name='Preset9',
         ui_name='Scattered 4',
-        description='09 ##Two Layer Broken/Scattered \nMETAR:BKN 7.5/10 SCT 20/22 FEW41',
-        min_base=1680,
-        max_base=3780,
+        description='09 ##Two Layer Broken/Scattered \nMETAR: BKN 7.5/10 SCT 20/22 FEW41',
+        min_base=1680.0,
+        max_base=3780.0,
     )
 
     OvercastAndRain1 = CloudPreset(
         name='RainyPreset1',
         ui_name='Overcast And Rain 1',
-        description='28 ##Overcast with Rain \nMETAR:VIS 3-5KM RA OVC 3/15 28/30 FEW 40',
-        min_base=420,
-        max_base=2940,
+        description='28 ##Overcast with Rain \nMETAR: VIS 3-5KM RA OVC 3/15 28/30 FEW 40',
+        min_base=420.0,
+        max_base=2940.0,
     )
 
     OvercastAndRain2 = CloudPreset(
         name='RainyPreset2',
         ui_name='Overcast And Rain 2',
-        description='29 ##Overcast with Rain \nMETAR:VIS 1-5KM RA BKN/OVC 3/11 SCT 18/29 FEW 40',
-        min_base=840,
-        max_base=2520,
+        description='29 ##Overcast with Rain \nMETAR: VIS 1-5KM RA BKN/OVC 3/11 SCT 18/29 FEW 40',
+        min_base=840.0,
+        max_base=2520.0,
     )
 
     OvercastAndRain3 = CloudPreset(
         name='RainyPreset3',
         ui_name='Overcast And Rain 3',
-        description='30 ##Overcast with Rain \nMETAR:VIS 3-5KM RA OVC LYR 6/18 19/21 SCT 34',
-        min_base=840,
-        max_base=2520,
+        description='30 ##Overcast with Rain \nMETAR: VIS 3-5KM RA OVC LYR 6/18 19/21 SCT 34',
+        min_base=840.0,
+        max_base=2520.0,
+    )
+
+    LightRain1 = CloudPreset(
+        name='RainyPreset4',
+        ui_name='Light Rain 1',
+        description='31 ##Two Layers Scattered Large Thick Clouds  \nMETAR: SCT/BKN 18/20 FEW36/38 FEW 40',
+        min_base=1260.0,
+        max_base=4200.0,
+    )
+
+    LightRain2 = CloudPreset(
+        name='RainyPreset5',
+        ui_name='Light Rain 2',
+        description='32 ##Three Layers Broken/Overcast \nMETAR: BKN/OVC LYR 7/13 20/22 32/34',
+        min_base=1260.0,
+        max_base=2520.0,
+    )
+
+    LightRain3 = CloudPreset(
+        name='RainyPreset6',
+        ui_name='Light Rain 3',
+        description='33 ##Three Layers Overcast At Low Level \nMETAR: OVC 9/16 BKN/OVC LYR 23/24 31/33',
+        min_base=1260.0,
+        max_base=2940.0,
     )
 
 
 CLOUD_PRESETS = {
+    'NEWRAINPRESET4': Clouds.LightRain4,
     'Preset1': Clouds.LightScattered1,
     'Preset10': Clouds.Scattered5,
     'Preset11': Clouds.Scattered6,
@@ -282,4 +315,7 @@ CLOUD_PRESETS = {
     'RainyPreset1': Clouds.OvercastAndRain1,
     'RainyPreset2': Clouds.OvercastAndRain2,
     'RainyPreset3': Clouds.OvercastAndRain3,
+    'RainyPreset4': Clouds.LightRain1,
+    'RainyPreset5': Clouds.LightRain2,
+    'RainyPreset6': Clouds.LightRain3,
 }

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from datetime import datetime
 import random
 import math
@@ -88,8 +90,8 @@ class Cyclone:
 
 
 class CloudPreset:
-    def __init__(self, name: str, ui_name: str, description: str, min_base: int,
-                 max_base: int) -> None:
+    def __init__(self, name: str, ui_name: str, description: str, min_base: int | float,
+                 max_base: int | float) -> None:
         self.name = name
         self.ui_name = ui_name
         self.description = description
