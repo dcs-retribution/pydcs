@@ -19,7 +19,6 @@ class Iraq(Terrain):
         (12, 29),
         (5, 20),
         (2, 14),
-        (5, 17),
     ]
     assert len(temperature) == 12
 
