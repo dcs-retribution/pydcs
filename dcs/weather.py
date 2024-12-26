@@ -147,6 +147,8 @@ class Weather:
         self.enable_dust = False
         self.dust_density = 0
 
+        self.auto_fog = False
+
     def load_from_dict(self, d):
         self.atmosphere_type = d["atmosphere_type"]
         wind = d.get("wind", {})
@@ -195,6 +197,9 @@ class Weather:
 
         self.enable_dust = d.get("enable_dust", False)
         self.dust_density = d.get("dust_density", 0)
+
+        fog2 = d.get("fog2", {})
+        self.auto_fog = fog2.get("mode") == 2
 
     @staticmethod
     def random_normals() -> List[float]:
@@ -400,4 +405,7 @@ class Weather:
         d["clouds"] = self._make_cloud_dict()
         d["enable_dust"] = self.enable_dust
         d["dust_density"] = self.dust_density
+        if self.auto_fog:
+            d["fog2"] = {}
+            d["fog2"]["mode"] = 2
         return d
