@@ -2486,6 +2486,13 @@ class OptRestrictTargets(Option):
         super(OptRestrictTargets, self).__init__(value)
 
 
+class OptVerticalTakeoffLanding(Option):
+    Key = 32
+
+    def __init__(self, value: bool = True):
+        super(OptVerticalTakeoffLanding, self).__init__(value)
+
+
 options: Dict[int, Type[Option]] = {
     OptROE.Key: OptROE,
     OptReactOnThreat.Key: OptReactOnThreat,
