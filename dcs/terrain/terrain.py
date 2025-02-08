@@ -215,6 +215,12 @@ class Airport:
     def is_blue(self):
         return self.coalition == "BLUE"
 
+    def is_neutral(self):
+        if self.dynamic_spawn:
+            return self.coalition == "NEUTRAL"
+        else:
+            return False
+
     def random_unit_zone(self, terrain: Terrain) -> mapping.Rectangle:
         if self.unit_zones:
             return self.unit_zones[random.randrange(0, len(self.unit_zones))]
