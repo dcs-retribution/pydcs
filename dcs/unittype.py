@@ -193,7 +193,7 @@ class FlyingType(UnitType):
     def iter_liveries(cls) -> Iterator[Livery]:
         if cls.livery_name is None:
             return
-        yield from LiveryCache.for_unit(cls.livery_name)
+        yield from LiveryCache.for_unit(cls.livery_name.upper())
 
     @classmethod
     def iter_liveries_for_country(cls, country: Country) -> Iterator[Livery]:
