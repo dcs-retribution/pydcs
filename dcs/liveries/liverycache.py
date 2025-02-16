@@ -16,10 +16,10 @@ class LiveryCache:
     @classmethod
     def for_unit(cls, livery_id: str) -> LiverySet:
         try:
-            return LiveryCache.cache()[livery_id.lower()]
+            return LiveryCache.cache()[livery_id]
         except KeyError:
-            return LiverySet(livery_id.lower())
+            return LiverySet(livery_id)
 
     @classmethod
     def __getitem__(cls, livery_id: str) -> LiverySet:
-        return cls.for_unit(livery_id.lower())
+        return cls.for_unit(livery_id)
