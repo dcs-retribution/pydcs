@@ -152,6 +152,10 @@ class LiveryScanner:
 
         path1 = os.path.join(root, "Liveries")
         path2 = os.path.join(root, "Mods", "aircraft")
+        path3 = os.path.join(root, "Mods", "tech")
 
         self.scan_liveries(path1)
         self.scan_mods_path(path2)
+        if os.path.isdir(path3):
+            for pack in os.listdir(path3):
+                self.scan_liveries(os.path.join(path3, pack, "Liveries"))
