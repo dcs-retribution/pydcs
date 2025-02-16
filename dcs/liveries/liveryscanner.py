@@ -157,4 +157,4 @@ class LiveryScanner:
         self.scan_liveries(path1)
         self.scan_mods_path(path2)
         for pack in os.listdir(path3):
-            self.scan_liveries(path3 / pack / "Liveries")
+            self.scan_liveries(os.path.join(path3, pack, "Liveries"))
