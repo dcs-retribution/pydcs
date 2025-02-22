@@ -149,6 +149,11 @@ class FlyingType(UnitType):
             if not payload_dir.exists():
                 continue
             for payload_path in payload_dir.glob("*.lua"):
+                try:
+                    FlyingType._payload_cache[payload_path]
+                except KeyError:
+                    print("Error: Payload file '{f}' not in cache, likely due to a bad lua file".format(f=payload_path))
+                    continue
                 if FlyingType._payload_cache[payload_path] == cls.id and payload_path.exists():
                     try:
                         payload_main = lua.loads(payload_path.read_text(), _globals=FlyingType._UnitPayloadGlobals)
