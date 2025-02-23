@@ -4,6 +4,7 @@ from pathlib import Path
 
 import dcs.lua as lua
 from dcs.payloads import PayloadDirectories
+import logging
 import re
 import sys
 from typing import Any, Dict, Iterator, List, Optional, Set, Type, Union, TYPE_CHECKING
@@ -149,6 +150,13 @@ class FlyingType(UnitType):
             if not payload_dir.exists():
                 continue
             for payload_path in payload_dir.glob("*.lua"):
+                try:
+                    FlyingType._payload_cache[payload_path]
+                except KeyError:
+                    logging.getLogger("pydcs").exception(
+                        "Failed to parse Lua code in %s", payload_path
+                    )
+                    continue
                 if FlyingType._payload_cache[payload_path] == cls.id and payload_path.exists():
                     try:
                         payload_main = lua.loads(payload_path.read_text(), _globals=FlyingType._UnitPayloadGlobals)
