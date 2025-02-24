@@ -252,6 +252,7 @@ flyable["MiG-29A"] = true
 flyable["MiG-29S"] = true
 flyable["Mirage-F1CE"] = true
 flyable["Mirage-F1EE"] = true
+flyable["Mirage-F1BE"] = true
 flyable["Su-25"] = true
 flyable["Su-25T"] = true
 flyable["Su-27"] = true
