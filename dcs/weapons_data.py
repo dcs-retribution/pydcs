@@ -139,6 +139,7 @@ class Weapons:
     AN_M64___500lb_GP_Bomb_LD_ = {"clsid": "{F86ANM64}", "name": "AN-M64 - 500lb GP Bomb LD", "weight": 227}
     AN_M65___1000lb_GP_Bomb_LD = {"clsid": "{AN_M65}", "name": "AN-M65 - 1000lb GP Bomb LD", "weight": 475}
     AN_M66___2000lb_GP_Bomb_LD = {"clsid": "{AN_M66}", "name": "AN-M66 - 2000lb GP Bomb LD", "weight": 977}
+    APK_9_Datalink_Pod = {"clsid": "{APK_9}", "name": "APK-9 Datalink Pod", "weight": 260}
     APU_13MT_with_R_13M1__AA_2_Atoll_D____IR_AAM = {"clsid": "{R-13M1}", "name": "APU-13MT with R-13M1 (AA-2 Atoll-D) - IR AAM", "weight": 146.8}
     APU_13MT_with_R_13M__AA_2_Atoll_D____IR_AAM = {"clsid": "{R-13M}", "name": "APU-13MT with R-13M (AA-2 Atoll-D) - IR AAM", "weight": 143.9}
     APU_13MT_with_R_3S__AA_2_Atoll_B____IR_AAM = {"clsid": "{APU_13MT_R_3S}", "name": "APU-13MT with R-3S (AA-2 Atoll-B) - IR AAM", "weight": 122.8}
@@ -492,7 +493,6 @@ class Weapons:
     DIS_TYPE200_DUAL_L = {"clsid": "DIS_TYPE200_DUAL_L", "name": "TYPE-200A Dual", "weight": 400}
     DIS_TYPE200_DUAL_R = {"clsid": "DIS_TYPE200_DUAL_R", "name": "TYPE-200A Dual", "weight": 400}
     DIS_WMD7 = {"clsid": "DIS_WMD7", "name": "AVIC WMD7 FLIR/LDT POD", "weight": 295}
-    DIS_YJ12 = {"clsid": "DIS_YJ12", "name": "YJ-12", "weight": 1750}
     DIS_YJ83K = {"clsid": "DIS_YJ83K", "name": "YJ83K", "weight": 715}
     DIS_YU_6 = {"clsid": "DIS_YU_6", "name": "YU-6", "weight": 1558}
     Dipole_Antanna__aesthetic_ = {"clsid": "{SA342_Dipole}", "name": "Dipole Antanna (aesthetic)", "weight": 5}
@@ -1330,6 +1330,7 @@ class Weapons:
     XM158_M274 = {"clsid": "XM158_M274", "name": "XM158 - 7 x UnGd Rkts, 70 mm Hydra 70 M274 TP-SM", "weight": 90.5}
     XM158_MK1 = {"clsid": "XM158_MK1", "name": "XM158 - 7 x UnGd Rkts, 70 mm Hydra 70 Mk 1 HE", "weight": 81.61}
     XM158_MK5 = {"clsid": "XM158_MK5", "name": "XM158 - 7 x UnGd Rkts, 70 mm Hydra 70 Mk 5 HEAT", "weight": 82.1}
+    YJ_12 = {"clsid": "{YJ_12}", "name": "YJ-12", "weight": 1750}
     YJ_83 = {"clsid": "{YJ_83}", "name": "YJ-83", "weight": 715}
     YU_6 = {"clsid": "{Yu_6}", "name": "YU-6", "weight": 1558}
     _100_gal__Drop_Tank = {"clsid": "{MOSQUITO_100GAL_SLIPPER_TANK}", "name": "100 gal. Drop Tank", "weight": 375.3}
@@ -1874,6 +1875,7 @@ weapon_ids = {
     "{F86ANM64}": Weapons.AN_M64___500lb_GP_Bomb_LD_,
     "{AN_M65}": Weapons.AN_M65___1000lb_GP_Bomb_LD,
     "{AN_M66}": Weapons.AN_M66___2000lb_GP_Bomb_LD,
+    "{APK_9}": Weapons.APK_9_Datalink_Pod,
     "{R-13M1}": Weapons.APU_13MT_with_R_13M1__AA_2_Atoll_D____IR_AAM,
     "{R-13M}": Weapons.APU_13MT_with_R_13M__AA_2_Atoll_D____IR_AAM,
     "{APU_13MT_R_3S}": Weapons.APU_13MT_with_R_3S__AA_2_Atoll_B____IR_AAM,
@@ -2227,7 +2229,6 @@ weapon_ids = {
     "DIS_TYPE200_DUAL_L": Weapons.DIS_TYPE200_DUAL_L,
     "DIS_TYPE200_DUAL_R": Weapons.DIS_TYPE200_DUAL_R,
     "DIS_WMD7": Weapons.DIS_WMD7,
-    "DIS_YJ12": Weapons.DIS_YJ12,
     "DIS_YJ83K": Weapons.DIS_YJ83K,
     "DIS_YU_6": Weapons.DIS_YU_6,
     "{SA342_Dipole}": Weapons.Dipole_Antanna__aesthetic_,
@@ -3065,6 +3066,7 @@ weapon_ids = {
     "XM158_M274": Weapons.XM158_M274,
     "XM158_MK1": Weapons.XM158_MK1,
     "XM158_MK5": Weapons.XM158_MK5,
+    "{YJ_12}": Weapons.YJ_12,
     "{YJ_83}": Weapons.YJ_83,
     "{Yu_6}": Weapons.YU_6,
     "{MOSQUITO_100GAL_SLIPPER_TANK}": Weapons._100_gal__Drop_Tank,

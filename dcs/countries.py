@@ -554,8 +554,6 @@ class Russia(Country):
         CV_1143_5 = ships.CV_1143_5
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -578,8 +576,6 @@ class Russia(Country):
         Ship.CV_1143_5,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -778,6 +774,7 @@ class Ukraine(Country):
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
             NASAMS_Command_Post = vehicles.AirDefence.NASAMS_Command_Post
@@ -949,6 +946,7 @@ class Ukraine(Country):
         vehicles.AirDefence.RLS_19J6,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.Soldier_stinger,
         vehicles.AirDefence.Stinger_comm,
         vehicles.AirDefence.NASAMS_Command_Post,
@@ -1246,8 +1244,6 @@ class Ukraine(Country):
         BDK_775 = ships.BDK_775
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -1262,8 +1258,6 @@ class Ukraine(Country):
         Ship.BDK_775,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -1818,8 +1812,6 @@ class USA(Country):
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         santafe = ships.santafe
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Forrestal = ships.Forrestal
 
     ships = [
@@ -1841,8 +1833,6 @@ class USA(Country):
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
         Ship.santafe,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Forrestal,
     ]
 
@@ -2318,8 +2308,6 @@ class Turkey(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -2328,8 +2316,6 @@ class Turkey(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -2991,6 +2977,7 @@ class France(Country):
             MLRS_FDDM = vehicles.Artillery.MLRS_FDDM
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
+            LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
             L118_Unit = vehicles.Artillery.L118_Unit
             M12_GMC = vehicles.Artillery.M12_GMC
             M2A1_105 = vehicles.Artillery.M2A1_105
@@ -3088,6 +3075,7 @@ class France(Country):
         vehicles.Artillery.MLRS_FDDM,
         vehicles.Artillery.tt_B8M1,
         vehicles.Artillery.HL_B8M1,
+        vehicles.Artillery.LeFH_18_40_105,
         vehicles.Artillery.L118_Unit,
         vehicles.Artillery.M12_GMC,
         vehicles.Artillery.M2A1_105,
@@ -3333,8 +3321,6 @@ class France(Country):
         leander_gun_condell = ships.leander_gun_condell
         leander_gun_lynch = ships.leander_gun_lynch
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -3347,8 +3333,6 @@ class France(Country):
         Ship.leander_gun_condell,
         Ship.leander_gun_lynch,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -3982,8 +3966,6 @@ class Germany(Country):
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -3994,8 +3976,6 @@ class Germany(Country):
         Ship.La_Combattante_II,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -5093,8 +5073,6 @@ class USAFAggressors(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -5119,6 +5097,7 @@ class USAFAggressors(Country):
         PIOTR = ships.PIOTR
         CV_1143_5 = ships.CV_1143_5
         santafe = ships.santafe
+        ara_vdm = ships.ara_vdm
         La_Combattante_II = ships.La_Combattante_II
         leander_gun_condell = ships.leander_gun_condell
         leander_gun_lynch = ships.leander_gun_lynch
@@ -5141,13 +5120,12 @@ class USAFAggressors(Country):
         leander_gun_achilles = ships.leander_gun_achilles
         leander_gun_andromeda = ships.leander_gun_andromeda
         leander_gun_ariadne = ships.leander_gun_ariadne
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
         Ship.ALBATROS,
@@ -5172,6 +5150,7 @@ class USAFAggressors(Country):
         Ship.PIOTR,
         Ship.CV_1143_5,
         Ship.santafe,
+        Ship.ara_vdm,
         Ship.La_Combattante_II,
         Ship.leander_gun_condell,
         Ship.leander_gun_lynch,
@@ -5194,6 +5173,7 @@ class USAFAggressors(Country):
         Ship.leander_gun_achilles,
         Ship.leander_gun_andromeda,
         Ship.leander_gun_ariadne,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -5659,8 +5639,6 @@ class Canada(Country):
         LST_Mk2 = ships.LST_Mk2
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
 
@@ -5670,8 +5648,6 @@ class Canada(Country):
         Ship.LST_Mk2,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
     ]
@@ -6140,8 +6116,6 @@ class Spain(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -6150,8 +6124,6 @@ class Spain(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -6667,8 +6639,6 @@ class TheNetherlands(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -6679,8 +6649,6 @@ class TheNetherlands(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -7148,8 +7116,6 @@ class Belgium(Country):
         HandyWind = ships.HandyWind
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -7159,8 +7125,6 @@ class Belgium(Country):
         Ship.HandyWind,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -7599,8 +7563,6 @@ class Norway(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -7608,8 +7570,6 @@ class Norway(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -8043,15 +8003,11 @@ class Denmark(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -8531,8 +8487,6 @@ class Israel(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -8540,8 +8494,6 @@ class Israel(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -9094,8 +9046,6 @@ class Georgia(Country):
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -9108,8 +9058,6 @@ class Georgia(Country):
         Ship.La_Combattante_II,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -9572,8 +9520,6 @@ class Insurgents(Country):
         ZWEZDNY = ships.ZWEZDNY
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -9584,8 +9530,6 @@ class Insurgents(Country):
         Ship.ZWEZDNY,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -10002,8 +9946,6 @@ class Abkhazia(Country):
         Dry_cargo_ship_2 = ships.Dry_cargo_ship_2
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -10014,8 +9956,6 @@ class Abkhazia(Country):
         Ship.Dry_cargo_ship_2,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -10402,14 +10342,10 @@ class SouthOssetia(Country):
     class Ship:
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -10777,8 +10713,6 @@ class Italy(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -10786,8 +10720,6 @@ class Italy(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -11258,8 +11190,6 @@ class Australia(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -11271,8 +11201,6 @@ class Australia(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -11671,15 +11599,11 @@ class Switzerland(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -12065,15 +11989,11 @@ class Austria(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -12659,15 +12579,11 @@ class Belarus(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -12727,10 +12643,10 @@ class Bulgaria(Country):
             SAU_Akatsia = vehicles.Artillery.SAU_Akatsia
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
+            LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
             Pak40 = vehicles.Artillery.Pak40
-            LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
             soldier_mauser98 = vehicles.Infantry.soldier_mauser98
@@ -12765,6 +12681,7 @@ class Bulgaria(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
@@ -12874,10 +12791,10 @@ class Bulgaria(Country):
         vehicles.Artillery.SAU_Akatsia,
         vehicles.Artillery.tt_B8M1,
         vehicles.Artillery.HL_B8M1,
+        vehicles.Artillery.LeFH_18_40_105,
         vehicles.Artillery.L118_Unit,
         vehicles.Artillery.Wespe124,
         vehicles.Artillery.Pak40,
-        vehicles.Artillery.LeFH_18_40_105,
         vehicles.Infantry.soldier_mauser98,
         vehicles.AirDefence.p_19_s_125_sr,
         vehicles.AirDefence.SNR_75V,
@@ -12908,6 +12825,7 @@ class Bulgaria(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
@@ -13149,8 +13067,6 @@ class Bulgaria(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -13158,8 +13074,6 @@ class Bulgaria(Country):
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -13647,8 +13561,6 @@ class CzechRepublic(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -13657,8 +13569,6 @@ class CzechRepublic(Country):
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -14145,8 +14055,6 @@ class China(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -14160,8 +14068,6 @@ class China(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignHelipad:
@@ -14475,15 +14381,11 @@ class Croatia(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -15045,8 +14947,6 @@ class Egypt(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -15056,8 +14956,6 @@ class Egypt(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -15200,10 +15098,10 @@ class Finland(Country):
             SAU_Gvozdika = vehicles.Artillery.SAU_Gvozdika
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
+            LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
             L118_Unit = vehicles.Artillery.L118_Unit
             Wespe124 = vehicles.Artillery.Wespe124
             Pak40 = vehicles.Artillery.Pak40
-            LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
 
         class Infantry:
             soldier_mauser98 = vehicles.Infantry.soldier_mauser98
@@ -15230,6 +15128,7 @@ class Finland(Country):
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
             flak36 = vehicles.AirDefence.flak36
@@ -15333,10 +15232,10 @@ class Finland(Country):
         vehicles.Artillery.SAU_Gvozdika,
         vehicles.Artillery.tt_B8M1,
         vehicles.Artillery.HL_B8M1,
+        vehicles.Artillery.LeFH_18_40_105,
         vehicles.Artillery.L118_Unit,
         vehicles.Artillery.Wespe124,
         vehicles.Artillery.Pak40,
-        vehicles.Artillery.LeFH_18_40_105,
         vehicles.Infantry.soldier_mauser98,
         vehicles.AirDefence.bofors40,
         vehicles.AirDefence.ZU_23_Emplacement_Closed,
@@ -15359,6 +15258,7 @@ class Finland(Country):
         vehicles.AirDefence.NASAMS_LN_C,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -15579,8 +15479,6 @@ class Finland(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -15588,8 +15486,6 @@ class Finland(Country):
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -16094,16 +15990,12 @@ class Greece(Country):
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.La_Combattante_II,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -16281,6 +16173,7 @@ class Hungary(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
@@ -16416,6 +16309,7 @@ class Hungary(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
@@ -16645,8 +16539,6 @@ class Hungary(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -16654,8 +16546,6 @@ class Hungary(Country):
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -17132,8 +17022,6 @@ class India(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -17144,8 +17032,6 @@ class India(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -17335,6 +17221,7 @@ class Iran(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
@@ -17452,6 +17339,7 @@ class Iran(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -17675,8 +17563,6 @@ class Iran(Country):
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -17688,8 +17574,6 @@ class Iran(Country):
         Ship.La_Combattante_II,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -17869,6 +17753,7 @@ class Iraq(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -17983,6 +17868,7 @@ class Iraq(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -18175,6 +18061,7 @@ class Iraq(Country):
         SA342L = helicopters.SA342L
         SA342Mistral = helicopters.SA342Mistral
         SA342Minigun = helicopters.SA342Minigun
+        Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
         CH_47Fbl1 = helicopters.CH_47Fbl1
         OH58D = helicopters.OH58D
@@ -18186,6 +18073,7 @@ class Iraq(Country):
         Helicopter.SA342L,
         Helicopter.SA342Mistral,
         Helicopter.SA342Minigun,
+        Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
         Helicopter.CH_47Fbl1,
         Helicopter.OH58D,
@@ -18195,15 +18083,11 @@ class Iraq(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -18695,8 +18579,6 @@ class Japan(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -18706,8 +18588,6 @@ class Japan(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -19311,15 +19191,11 @@ class Kazakhstan(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -19479,6 +19355,7 @@ class NorthKorea(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
@@ -19563,6 +19440,7 @@ class NorthKorea(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -19751,15 +19629,11 @@ class NorthKorea(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -20206,8 +20080,6 @@ class Pakistan(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -20216,8 +20088,6 @@ class Pakistan(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -20388,6 +20258,7 @@ class Poland(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
             Allies_Director = vehicles.AirDefence.Allies_Director
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
@@ -20512,6 +20383,7 @@ class Poland(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.AirDefence.Allies_Director,
         vehicles.AirDefence.M45_Quadmount,
@@ -20750,8 +20622,6 @@ class Poland(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -20765,8 +20635,6 @@ class Poland(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -20937,6 +20805,7 @@ class Romania(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
@@ -21063,6 +20932,7 @@ class Romania(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
@@ -21298,8 +21168,6 @@ class Romania(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -21312,8 +21180,6 @@ class Romania(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -21779,8 +21645,6 @@ class SaudiArabia(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -21788,8 +21652,6 @@ class SaudiArabia(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -22271,15 +22133,11 @@ class Serbia(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -22737,15 +22595,11 @@ class Slovakia(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -23191,8 +23045,6 @@ class SouthKorea(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -23200,8 +23052,6 @@ class SouthKorea(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -23341,6 +23191,7 @@ class Sweden(Country):
         class Artillery:
             tt_B8M1 = vehicles.Artillery.tt_B8M1
             HL_B8M1 = vehicles.Artillery.HL_B8M1
+            LeFH_18_40_105 = vehicles.Artillery.LeFH_18_40_105
             L118_Unit = vehicles.Artillery.L118_Unit
 
         class AirDefence:
@@ -23409,6 +23260,7 @@ class Sweden(Country):
     vehicles = [
         vehicles.Artillery.tt_B8M1,
         vehicles.Artillery.HL_B8M1,
+        vehicles.Artillery.LeFH_18_40_105,
         vehicles.Artillery.L118_Unit,
         vehicles.AirDefence.bofors40,
         vehicles.AirDefence.Hawk_tr,
@@ -23599,15 +23451,11 @@ class Sweden(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -23799,8 +23647,8 @@ class Syria(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
-            RD_75 = vehicles.AirDefence.RD_75
             ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
+            RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -23923,8 +23771,8 @@ class Syria(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
-        vehicles.AirDefence.RD_75,
         vehicles.AirDefence.ZSU_57_2,
+        vehicles.AirDefence.RD_75,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -24135,15 +23983,11 @@ class Syria(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -24595,8 +24439,6 @@ class Yemen(Country):
         BDK_775 = ships.BDK_775
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -24604,8 +24446,6 @@ class Yemen(Country):
         Ship.BDK_775,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -24781,6 +24621,7 @@ class Vietnam(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
@@ -24881,6 +24722,7 @@ class Vietnam(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -25079,8 +24921,6 @@ class Vietnam(Country):
         HandyWind = ships.HandyWind
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -25088,8 +24928,6 @@ class Vietnam(Country):
         Ship.HandyWind,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -25533,15 +25371,11 @@ class Venezuela(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -25921,15 +25755,11 @@ class Tunisia(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -26345,8 +26175,6 @@ class Thailand(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -26354,8 +26182,6 @@ class Thailand(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -26777,15 +26603,11 @@ class Sudan(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -27155,15 +26977,11 @@ class Philippines(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -27609,15 +27427,11 @@ class Morocco(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -28011,8 +27825,6 @@ class Mexico(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -28020,8 +27832,6 @@ class Mexico(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -28422,8 +28232,6 @@ class Malaysia(Country):
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -28432,8 +28240,6 @@ class Malaysia(Country):
         Ship.La_Combattante_II,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -28887,16 +28693,12 @@ class Libya(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         La_Combattante_II = ships.La_Combattante_II
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.La_Combattante_II,
     ]
 
@@ -29337,15 +29139,11 @@ class Jordan(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -29818,8 +29616,6 @@ class Indonesia(Country):
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -29828,8 +29624,6 @@ class Indonesia(Country):
         Ship.La_Combattante_II,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -30207,15 +30001,11 @@ class Honduras(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -30378,6 +30168,7 @@ class Ethiopia(Country):
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
@@ -30460,6 +30251,7 @@ class Ethiopia(Country):
         vehicles.AirDefence.S_60_Type59_Artillery,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -30647,15 +30439,11 @@ class Ethiopia(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -31087,9 +30875,9 @@ class Chile(Country):
         Seawise_Giant = ships.Seawise_Giant
         La_Combattante_II = ships.La_Combattante_II
         HarborTug = ships.HarborTug
+        leander_gun_condell = ships.leander_gun_condell
+        leander_gun_lynch = ships.leander_gun_lynch
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -31097,9 +30885,9 @@ class Chile(Country):
         Ship.Seawise_Giant,
         Ship.La_Combattante_II,
         Ship.HarborTug,
+        Ship.leander_gun_condell,
+        Ship.leander_gun_lynch,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -31529,8 +31317,6 @@ class Brazil(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -31538,8 +31324,6 @@ class Brazil(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -31958,16 +31742,12 @@ class Bahrain(Country):
         PERRY = ships.PERRY
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.PERRY,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -32393,8 +32173,6 @@ class ThirdReich(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -32402,8 +32180,6 @@ class ThirdReich(Country):
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -32561,6 +32337,7 @@ class Yugoslavia(Country):
             ZSU_23_4_Shilka = vehicles.AirDefence.ZSU_23_4_Shilka
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
             bofors40 = vehicles.AirDefence.bofors40
             QF_37_AA = vehicles.AirDefence.QF_37_AA
@@ -32654,6 +32431,7 @@ class Yugoslavia(Country):
         vehicles.AirDefence.ZSU_23_4_Shilka,
         vehicles.AirDefence.S_60_Type59_Artillery,
         vehicles.AirDefence.tt_ZU_23,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.AirDefence.bofors40,
         vehicles.AirDefence.QF_37_AA,
@@ -32855,8 +32633,6 @@ class Yugoslavia(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -32865,8 +32641,6 @@ class Yugoslavia(Country):
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -33456,8 +33230,6 @@ class USSR(Country):
         BDK_775 = ships.BDK_775
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         LST_Mk2 = ships.LST_Mk2
         USS_Samuel_Chase = ships.USS_Samuel_Chase
         Higgins_boat = ships.Higgins_boat
@@ -33479,8 +33251,6 @@ class USSR(Country):
         Ship.BDK_775,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.LST_Mk2,
         Ship.USS_Samuel_Chase,
         Ship.Higgins_boat,
@@ -33823,8 +33593,6 @@ class ItalianSocialRepublic(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
 
@@ -33832,8 +33600,6 @@ class ItalianSocialRepublic(Country):
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
     ]
@@ -34031,6 +33797,7 @@ class Algeria(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
             HQ_7_LN_SP = vehicles.AirDefence.HQ_7_LN_SP
             HQ_7_LN_P = vehicles.AirDefence.HQ_7_LN_P
@@ -34177,6 +33944,7 @@ class Algeria(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.AirDefence.HQ_7_LN_SP,
         vehicles.AirDefence.HQ_7_LN_P,
@@ -34443,8 +34211,6 @@ class Algeria(Country):
         REZKY = ships.REZKY
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -34458,8 +34224,6 @@ class Algeria(Country):
         Ship.REZKY,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -34893,15 +34657,11 @@ class Kuwait(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -35311,15 +35071,11 @@ class Qatar(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -35767,8 +35523,6 @@ class Oman(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -35776,8 +35530,6 @@ class Oman(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -36233,8 +35985,6 @@ class UnitedArabEmirates(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -36242,8 +35992,6 @@ class UnitedArabEmirates(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -36633,8 +36381,6 @@ class SouthAfrica(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -36642,8 +36388,6 @@ class SouthAfrica(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -36820,6 +36564,7 @@ class Cuba(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
+            ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
             RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
@@ -36928,6 +36673,7 @@ class Cuba(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
+        vehicles.AirDefence.ZSU_57_2,
         vehicles.AirDefence.RD_75,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -37149,8 +36895,6 @@ class Cuba(Country):
         Dry_cargo_ship_2 = ships.Dry_cargo_ship_2
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -37162,8 +36906,6 @@ class Cuba(Country):
         Ship.Dry_cargo_ship_2,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -37571,15 +37313,11 @@ class Portugal(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -38061,15 +37799,11 @@ class GDR(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -38505,8 +38239,6 @@ class Lebanon(Country):
         Seawise_Giant = ships.Seawise_Giant
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -38514,8 +38246,6 @@ class Lebanon(Country):
         Ship.Seawise_Giant,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -39611,8 +39341,6 @@ class CombinedJointTaskForcesBlue(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -39637,6 +39365,7 @@ class CombinedJointTaskForcesBlue(Country):
         PIOTR = ships.PIOTR
         CV_1143_5 = ships.CV_1143_5
         santafe = ships.santafe
+        ara_vdm = ships.ara_vdm
         La_Combattante_II = ships.La_Combattante_II
         leander_gun_condell = ships.leander_gun_condell
         leander_gun_lynch = ships.leander_gun_lynch
@@ -39659,13 +39388,12 @@ class CombinedJointTaskForcesBlue(Country):
         leander_gun_achilles = ships.leander_gun_achilles
         leander_gun_andromeda = ships.leander_gun_andromeda
         leander_gun_ariadne = ships.leander_gun_ariadne
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
         Ship.ALBATROS,
@@ -39690,6 +39418,7 @@ class CombinedJointTaskForcesBlue(Country):
         Ship.PIOTR,
         Ship.CV_1143_5,
         Ship.santafe,
+        Ship.ara_vdm,
         Ship.La_Combattante_II,
         Ship.leander_gun_condell,
         Ship.leander_gun_lynch,
@@ -39712,6 +39441,7 @@ class CombinedJointTaskForcesBlue(Country):
         Ship.leander_gun_achilles,
         Ship.leander_gun_andromeda,
         Ship.leander_gun_ariadne,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -40807,8 +40537,6 @@ class CombinedJointTaskForcesRed(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -40833,6 +40561,7 @@ class CombinedJointTaskForcesRed(Country):
         PIOTR = ships.PIOTR
         CV_1143_5 = ships.CV_1143_5
         santafe = ships.santafe
+        ara_vdm = ships.ara_vdm
         La_Combattante_II = ships.La_Combattante_II
         leander_gun_condell = ships.leander_gun_condell
         leander_gun_lynch = ships.leander_gun_lynch
@@ -40855,13 +40584,12 @@ class CombinedJointTaskForcesRed(Country):
         leander_gun_achilles = ships.leander_gun_achilles
         leander_gun_andromeda = ships.leander_gun_andromeda
         leander_gun_ariadne = ships.leander_gun_ariadne
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
         Ship.ALBATROS,
@@ -40886,6 +40614,7 @@ class CombinedJointTaskForcesRed(Country):
         Ship.PIOTR,
         Ship.CV_1143_5,
         Ship.santafe,
+        Ship.ara_vdm,
         Ship.La_Combattante_II,
         Ship.leander_gun_condell,
         Ship.leander_gun_lynch,
@@ -40908,6 +40637,7 @@ class CombinedJointTaskForcesRed(Country):
         Ship.leander_gun_achilles,
         Ship.leander_gun_andromeda,
         Ship.leander_gun_ariadne,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -42003,8 +41733,6 @@ class UnitedNationsPeacekeepers(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
         Uboat_VIIC = ships.Uboat_VIIC
         Schnellboot_type_S130 = ships.Schnellboot_type_S130
         ALBATROS = ships.ALBATROS
@@ -42029,6 +41757,7 @@ class UnitedNationsPeacekeepers(Country):
         PIOTR = ships.PIOTR
         CV_1143_5 = ships.CV_1143_5
         santafe = ships.santafe
+        ara_vdm = ships.ara_vdm
         La_Combattante_II = ships.La_Combattante_II
         leander_gun_condell = ships.leander_gun_condell
         leander_gun_lynch = ships.leander_gun_lynch
@@ -42051,13 +41780,12 @@ class UnitedNationsPeacekeepers(Country):
         leander_gun_achilles = ships.leander_gun_achilles
         leander_gun_andromeda = ships.leander_gun_andromeda
         leander_gun_ariadne = ships.leander_gun_ariadne
+        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
         Ship.Uboat_VIIC,
         Ship.Schnellboot_type_S130,
         Ship.ALBATROS,
@@ -42082,6 +41810,7 @@ class UnitedNationsPeacekeepers(Country):
         Ship.PIOTR,
         Ship.CV_1143_5,
         Ship.santafe,
+        Ship.ara_vdm,
         Ship.La_Combattante_II,
         Ship.leander_gun_condell,
         Ship.leander_gun_lynch,
@@ -42104,6 +41833,7 @@ class UnitedNationsPeacekeepers(Country):
         Ship.leander_gun_achilles,
         Ship.leander_gun_andromeda,
         Ship.leander_gun_ariadne,
+        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -42505,7 +42235,6 @@ class Argentina(Country):
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
         santafe = ships.santafe
         ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -42513,7 +42242,6 @@ class Argentina(Country):
         Ship.Ship_Tilde_Supply,
         Ship.santafe,
         Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -42939,15 +42667,11 @@ class Cyprus(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -43362,16 +43086,12 @@ class Slovenia(Country):
         MOLNIYA = ships.MOLNIYA
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.MOLNIYA,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -43777,15 +43497,11 @@ class Bolivia(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -44171,15 +43887,11 @@ class Ghana(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -44589,15 +44301,11 @@ class Nigeria(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -45023,15 +44731,11 @@ class Peru(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -45429,15 +45133,11 @@ class Ecuador(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -45897,15 +45597,11 @@ class Afghanistan(Country):
         speedboat = ships.speedboat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
@@ -46338,8 +46034,6 @@ class NewZealand(Country):
         Higgins_boat = ships.Higgins_boat
         HarborTug = ships.HarborTug
         Ship_Tilde_Supply = ships.Ship_Tilde_Supply
-        ara_vdm = ships.ara_vdm
-        atconveyor = ships.atconveyor
 
     ships = [
         Ship.speedboat,
@@ -46350,8 +46044,6 @@ class NewZealand(Country):
         Ship.Higgins_boat,
         Ship.HarborTug,
         Ship.Ship_Tilde_Supply,
-        Ship.ara_vdm,
-        Ship.atconveyor,
     ]
 
     class CallsignAWACS:
