@@ -32,7 +32,7 @@ class DataLink:
 
     @staticmethod
     def for_aircraft_id(ac_id: str) -> DataLink:
-        if ac_id == ["FA-18C_hornet", "FA-18E", "FA-18F", "EA-18G"]:
+        if ac_id in ["FA-18C_hornet", "FA-18E", "FA-18F", "EA-18G"]:
             # Link16 - Hornet
             return DataLink(
                 link_type=DataLinkType.LINK16,
