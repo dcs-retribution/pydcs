@@ -11674,6 +11674,7 @@ class F_4E_45MC(PlaneType):
         "Wear": 0,
         "UseReferenceAircraft": False,
         "INSAlignmentStored": True,
+        "IsModifiedJesterAllowed": True,
         "IsNvgAllowed": True,
         "TacanChannel": 0,
         "TacanBand": 0,
@@ -11704,6 +11705,9 @@ class F_4E_45MC(PlaneType):
 
         class INSAlignmentStored:
             id = "INSAlignmentStored"
+
+        class IsModifiedJesterAllowed:
+            id = "IsModifiedJesterAllowed"
 
         class IsNvgAllowed:
             id = "IsNvgAllowed"
@@ -11806,6 +11810,13 @@ class F_4E_45MC(PlaneType):
             identifier="INSAlignmentStored",
             control="checkbox",
             label="INS Reference Alignment Stored",
+            player_only=True,
+            default=True,
+        ),
+        "IsModifiedJesterAllowed": UnitPropertyDescription(
+            identifier="IsModifiedJesterAllowed",
+            control="checkbox",
+            label="Allow Jester Modifications",
             player_only=True,
             default=True,
         ),
@@ -11985,6 +11996,9 @@ class F_4E_45MC(PlaneType):
         _3x_SAMP_250___250KG_GP_Bomb_LD__TER_ = (1, Weapons._3x_SAMP_250___250KG_GP_Bomb_LD__TER_)
         _2x_SAMP_250___250KG_GP_Bomb_LD__TER_ = (1, Weapons._2x_SAMP_250___250KG_GP_Bomb_LD__TER_)
         _1x_SAMP_250___250KG_GP_Bomb_LD__TER_ = (1, Weapons._1x_SAMP_250___250KG_GP_Bomb_LD__TER_)
+        _3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_ = (1, Weapons._3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_)
+        _2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_ = (1, Weapons._2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_)
+        _1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_ = (1, Weapons._1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_)
         _2x_CBU_1A_A_x_27x19__513__BLU_4B_Bomblets__HE__MER_ = (1, Weapons._2x_CBU_1A_A_x_27x19__513__BLU_4B_Bomblets__HE__MER_)
         _2x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER_ = (1, Weapons._2x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER_)
         _2x_CBU_2B_A_x_22x19__418__BLU_3B_Bomblets__HE__MER_ = (1, Weapons._2x_CBU_2B_A_x_22x19__418__BLU_3B_Bomblets__HE__MER_)
@@ -12076,6 +12090,9 @@ class F_4E_45MC(PlaneType):
         _3x_SAMP_250___250KG_GP_Bomb_LD__TER_ = (3, Weapons._3x_SAMP_250___250KG_GP_Bomb_LD__TER_)
         _2x_SAMP_250___250KG_GP_Bomb_LD__TER___ = (3, Weapons._2x_SAMP_250___250KG_GP_Bomb_LD__TER___)
         _1x_SAMP_250___250KG_GP_Bomb_LD__TER__ = (3, Weapons._1x_SAMP_250___250KG_GP_Bomb_LD__TER__)
+        _3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_ = (3, Weapons._3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_)
+        _2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER___ = (3, Weapons._2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER___)
+        _1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__ = (3, Weapons._1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__)
         Mk_84_AIR__BSU_50____2000_lb_GP_Chute_Retarded_Bomb_HD = (3, Weapons.Mk_84_AIR__BSU_50____2000_lb_GP_Chute_Retarded_Bomb_HD)
         GBU_24A_B_Paveway_III___2000lb_Laser_Guided_Bomb = (3, Weapons.GBU_24A_B_Paveway_III___2000lb_Laser_Guided_Bomb)
         GBU_10___2000lb_Laser_Guided_Bomb = (3, Weapons.GBU_10___2000lb_Laser_Guided_Bomb)
@@ -12202,6 +12219,9 @@ class F_4E_45MC(PlaneType):
         _3x_SAMP_250___250KG_GP_Bomb_LD__TER_ = (7, Weapons._3x_SAMP_250___250KG_GP_Bomb_LD__TER_)
         _2x_SAMP_250___250KG_GP_Bomb_LD__TER___ = (7, Weapons._2x_SAMP_250___250KG_GP_Bomb_LD__TER___)
         _1x_SAMP_250___250KG_GP_Bomb_LD__TER__ = (7, Weapons._1x_SAMP_250___250KG_GP_Bomb_LD__TER__)
+        _3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_ = (7, Weapons._3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_)
+        _2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER___ = (7, Weapons._2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER___)
+        _1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__ = (7, Weapons._1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__)
         Mk_84___2000lb_GP_Bomb_LD = (7, Weapons.Mk_84___2000lb_GP_Bomb_LD)
         _3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__MER_ = (7, Weapons._3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__MER_)
         _3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__MER_ = (7, Weapons._3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__MER_)
@@ -12278,6 +12298,9 @@ class F_4E_45MC(PlaneType):
         _3x_SAMP_250___250KG_GP_Bomb_LD__TER_ = (11, Weapons._3x_SAMP_250___250KG_GP_Bomb_LD__TER_)
         _2x_SAMP_250___250KG_GP_Bomb_LD__TER___ = (11, Weapons._2x_SAMP_250___250KG_GP_Bomb_LD__TER___)
         _1x_SAMP_250___250KG_GP_Bomb_LD__TER__ = (11, Weapons._1x_SAMP_250___250KG_GP_Bomb_LD__TER__)
+        _3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_ = (11, Weapons._3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_)
+        _2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER___ = (11, Weapons._2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER___)
+        _1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__ = (11, Weapons._1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__)
         Mk_84_AIR__BSU_50____2000_lb_GP_Chute_Retarded_Bomb_HD = (11, Weapons.Mk_84_AIR__BSU_50____2000_lb_GP_Chute_Retarded_Bomb_HD)
         GBU_24A_B_Paveway_III___2000lb_Laser_Guided_Bomb = (11, Weapons.GBU_24A_B_Paveway_III___2000lb_Laser_Guided_Bomb)
         GBU_10___2000lb_Laser_Guided_Bomb = (11, Weapons.GBU_10___2000lb_Laser_Guided_Bomb)
@@ -12379,6 +12402,9 @@ class F_4E_45MC(PlaneType):
         _3x_SAMP_250___250KG_GP_Bomb_LD__TER_ = (13, Weapons._3x_SAMP_250___250KG_GP_Bomb_LD__TER_)
         _2x_SAMP_250___250KG_GP_Bomb_LD__TER__ = (13, Weapons._2x_SAMP_250___250KG_GP_Bomb_LD__TER__)
         _1x_SAMP_250___250KG_GP_Bomb_LD__TER__ = (13, Weapons._1x_SAMP_250___250KG_GP_Bomb_LD__TER__)
+        _3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_ = (13, Weapons._3x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER_)
+        _2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__ = (13, Weapons._2x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__)
+        _1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__ = (13, Weapons._1x_SAMP_250___250KG_GP_Chute_Retarded_Bomb_HD__TER__)
         _2x_CBU_1A_A_x_27x19__513__BLU_4B_Bomblets__HE__MER__ = (13, Weapons._2x_CBU_1A_A_x_27x19__513__BLU_4B_Bomblets__HE__MER__)
         _2x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER__ = (13, Weapons._2x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER__)
         _2x_CBU_2B_A_x_22x19__418__BLU_3B_Bomblets__HE__MER__ = (13, Weapons._2x_CBU_2B_A_x_22x19__418__BLU_3B_Bomblets__HE__MER__)
@@ -17298,8 +17324,8 @@ class Mirage_F1C(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -17391,16 +17417,16 @@ class Mirage_F1C(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -17543,10 +17569,10 @@ class Mirage_F1C(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -17556,10 +17582,10 @@ class Mirage_F1C(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -17836,8 +17862,8 @@ class Mirage_F1CE(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
         "IFFMode4Disabled": 1,
     }
@@ -17930,16 +17956,16 @@ class Mirage_F1CE(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -18090,10 +18116,10 @@ class Mirage_F1CE(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -18103,10 +18129,10 @@ class Mirage_F1CE(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -18451,8 +18477,8 @@ class Mirage_F1EE(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
         "IFFMode4Disabled": 1,
         "INSStartMode": 1,
@@ -18547,16 +18573,16 @@ class Mirage_F1EE(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -18721,10 +18747,10 @@ class Mirage_F1EE(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -18734,10 +18760,10 @@ class Mirage_F1EE(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -19107,8 +19133,8 @@ class Mirage_F1M_EE(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -19200,16 +19226,16 @@ class Mirage_F1M_EE(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -19352,10 +19378,10 @@ class Mirage_F1M_EE(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -19365,10 +19391,10 @@ class Mirage_F1M_EE(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -19701,8 +19727,8 @@ class Mirage_F1M_CE(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -19794,16 +19820,16 @@ class Mirage_F1M_CE(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -19946,10 +19972,10 @@ class Mirage_F1M_CE(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -19959,10 +19985,10 @@ class Mirage_F1M_CE(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -20293,8 +20319,8 @@ class Mirage_F1C_200(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -20386,16 +20412,16 @@ class Mirage_F1C_200(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -20538,10 +20564,10 @@ class Mirage_F1C_200(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -20551,10 +20577,10 @@ class Mirage_F1C_200(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -20834,8 +20860,8 @@ class Mirage_F1EH(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -20927,16 +20953,16 @@ class Mirage_F1EH(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -21079,10 +21105,10 @@ class Mirage_F1EH(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -21092,10 +21118,10 @@ class Mirage_F1EH(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -21375,8 +21401,8 @@ class Mirage_F1CH(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -21468,16 +21494,16 @@ class Mirage_F1CH(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -21620,10 +21646,10 @@ class Mirage_F1CH(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -21633,10 +21659,10 @@ class Mirage_F1CH(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -21916,8 +21942,8 @@ class Mirage_F1JA(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -22009,16 +22035,16 @@ class Mirage_F1JA(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -22161,10 +22187,10 @@ class Mirage_F1JA(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -22174,10 +22200,10 @@ class Mirage_F1JA(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -22439,8 +22465,8 @@ class Mirage_F1CG(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -22532,16 +22558,16 @@ class Mirage_F1CG(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -22684,10 +22710,10 @@ class Mirage_F1CG(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -22697,10 +22723,10 @@ class Mirage_F1CG(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -22988,8 +23014,8 @@ class Mirage_F1CZ(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -23081,16 +23107,16 @@ class Mirage_F1CZ(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -23233,10 +23259,10 @@ class Mirage_F1CZ(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -23246,10 +23272,10 @@ class Mirage_F1CZ(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -23529,8 +23555,8 @@ class Mirage_F1CJ(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -23622,16 +23648,16 @@ class Mirage_F1CJ(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -23774,10 +23800,10 @@ class Mirage_F1CJ(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -23787,10 +23813,10 @@ class Mirage_F1CJ(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -24070,8 +24096,8 @@ class Mirage_F1CK(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -24163,16 +24189,16 @@ class Mirage_F1CK(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -24315,10 +24341,10 @@ class Mirage_F1CK(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -24328,10 +24354,10 @@ class Mirage_F1CK(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -24611,8 +24637,8 @@ class Mirage_F1EQ(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -24704,16 +24730,16 @@ class Mirage_F1EQ(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -24856,10 +24882,10 @@ class Mirage_F1EQ(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -24869,10 +24895,10 @@ class Mirage_F1EQ(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -25177,8 +25203,8 @@ class Mirage_F1ED(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -25270,16 +25296,16 @@ class Mirage_F1ED(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -25422,10 +25448,10 @@ class Mirage_F1ED(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -25435,10 +25461,10 @@ class Mirage_F1ED(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -25743,8 +25769,8 @@ class Mirage_F1EDA(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -25836,16 +25862,16 @@ class Mirage_F1EDA(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -25988,10 +26014,10 @@ class Mirage_F1EDA(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -26001,10 +26027,10 @@ class Mirage_F1EDA(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -26299,8 +26325,8 @@ class Mirage_F1CR(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -26392,16 +26418,16 @@ class Mirage_F1CR(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -26544,10 +26570,10 @@ class Mirage_F1CR(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -26557,10 +26583,10 @@ class Mirage_F1CR(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -26842,8 +26868,8 @@ class Mirage_F1CT(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -26935,16 +26961,16 @@ class Mirage_F1CT(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -27087,10 +27113,10 @@ class Mirage_F1CT(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -27100,10 +27126,10 @@ class Mirage_F1CT(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -27385,8 +27411,8 @@ class Mirage_F1AD(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -27478,16 +27504,16 @@ class Mirage_F1AD(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -27630,10 +27656,10 @@ class Mirage_F1AD(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -27643,10 +27669,10 @@ class Mirage_F1AD(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -27914,8 +27940,8 @@ class Mirage_F1AZ(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
     }
 
@@ -28007,16 +28033,16 @@ class Mirage_F1AZ(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -28159,10 +28185,10 @@ class Mirage_F1AZ(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -28172,10 +28198,10 @@ class Mirage_F1AZ(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -28441,8 +28467,8 @@ class Mirage_F1B(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
         "SoloFlight": False,
         "NetCrewControlPriority": 1,
@@ -28536,16 +28562,16 @@ class Mirage_F1B(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -28700,10 +28726,10 @@ class Mirage_F1B(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -28713,10 +28739,10 @@ class Mirage_F1B(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -29014,8 +29040,8 @@ class Mirage_F1BE(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
         "IFFMode4Disabled": 1,
         "SoloFlight": False,
@@ -29110,16 +29136,16 @@ class Mirage_F1BE(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -29282,10 +29308,10 @@ class Mirage_F1BE(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -29295,10 +29321,10 @@ class Mirage_F1BE(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -29663,8 +29689,8 @@ class Mirage_F1BQ(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
         "SoloFlight": False,
         "NetCrewControlPriority": 1,
@@ -29758,16 +29784,16 @@ class Mirage_F1BQ(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -29922,10 +29948,10 @@ class Mirage_F1BQ(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -29935,10 +29961,10 @@ class Mirage_F1BQ(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -30264,8 +30290,8 @@ class Mirage_F1BD(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
         "SoloFlight": False,
         "NetCrewControlPriority": 1,
@@ -30359,16 +30385,16 @@ class Mirage_F1BD(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -30523,10 +30549,10 @@ class Mirage_F1BD(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -30536,10 +30562,10 @@ class Mirage_F1BD(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -30865,8 +30891,8 @@ class Mirage_F1DDA(PlaneType):
         "FlareMultiNumber": 1,
         "FlareMultiTime": 1,
         "GunBurstSettings": 1,
-        "RocketSalvoF1": 1,
-        "RocketSalvoF4": 1,
+        "RocketBurstF1": 1,
+        "RocketBurstF4": 1,
         "IFFMode2Code": None,
         "SoloFlight": False,
         "NetCrewControlPriority": 1,
@@ -30960,16 +30986,16 @@ class Mirage_F1DDA(PlaneType):
                 x_0_5_s = 2
                 x_1_s = 3
 
-        class RocketSalvoF1:
-            id = "RocketSalvoF1"
+        class RocketBurstF1:
+            id = "RocketBurstF1"
 
             class Values:
                 x_6 = 1
                 x_12 = 2
                 x_18 = 3
 
-        class RocketSalvoF4:
-            id = "RocketSalvoF4"
+        class RocketBurstF4:
+            id = "RocketBurstF4"
 
             class Values:
                 x_1 = 1
@@ -31124,10 +31150,10 @@ class Mirage_F1DDA(PlaneType):
                 3: "1 s",
             },
         ),
-        "RocketSalvoF1": UnitPropertyDescription(
-            identifier="RocketSalvoF1",
+        "RocketBurstF1": UnitPropertyDescription(
+            identifier="RocketBurstF1",
             control="comboList",
-            label="F1 Rocket Launcher Salvo Count",
+            label="F1 Rocket Launcher Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,
@@ -31137,10 +31163,10 @@ class Mirage_F1DDA(PlaneType):
                 3: "18",
             },
         ),
-        "RocketSalvoF4": UnitPropertyDescription(
-            identifier="RocketSalvoF4",
+        "RocketBurstF4": UnitPropertyDescription(
+            identifier="RocketBurstF4",
             control="comboList",
-            label="F4/JL100 Rocket Launchers Salvo Count",
+            label="F4/JL100 Rocket Launchers Burst Count",
             player_only=True,
             default=1,
             w_ctrl=75,

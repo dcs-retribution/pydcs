@@ -4440,6 +4440,9 @@ class USAFAggressors(Country):
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
 
     vehicles = [
         vehicles.Artillery.L118_Unit,
@@ -4739,6 +4742,9 @@ class USAFAggressors(Country):
         vehicles.Carriage.Wellcarnsc,
         vehicles.Carriage.DR_50Ton_Flat_Wagon,
         vehicles.Carriage.German_covered_wagon_G10,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
@@ -37495,6 +37501,7 @@ class GDR(Country):
             KS_19 = vehicles.AirDefence.KS_19
             RLS_19J6 = vehicles.AirDefence.RLS_19J6
             SON_9 = vehicles.AirDefence.SON_9
+            S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -37540,6 +37547,7 @@ class GDR(Country):
             BMP_2 = vehicles.Armor.BMP_2
             T_55 = vehicles.Armor.T_55
             T_72B = vehicles.Armor.T_72B
+            PT_76 = vehicles.Armor.PT_76
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
@@ -37551,6 +37559,9 @@ class GDR(Country):
             DRG_Class_86 = vehicles.Locomotive.DRG_Class_86
 
         class Carriage:
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             Coach_cargo = vehicles.Carriage.Coach_cargo
@@ -37603,6 +37614,7 @@ class GDR(Country):
         vehicles.AirDefence.KS_19,
         vehicles.AirDefence.RLS_19J6,
         vehicles.AirDefence.SON_9,
+        vehicles.AirDefence.S_60_Type59_Artillery,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -37642,11 +37654,15 @@ class GDR(Country):
         vehicles.Armor.BMP_2,
         vehicles.Armor.T_55,
         vehicles.Armor.T_72B,
+        vehicles.Armor.PT_76,
         vehicles.MissilesSS.Scud_B,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
         vehicles.Locomotive.DRG_Class_86,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.Coach_cargo,
@@ -37672,6 +37688,8 @@ class GDR(Country):
         MiG_29A = planes.MiG_29A
         Su_17M4 = planes.Su_17M4
         Yak_40 = planes.Yak_40
+        Su_25 = planes.Su_25
+        MiG_23MLD = planes.MiG_23MLD
         FW_190A8 = planes.FW_190A8
         Bf_109K_4 = planes.Bf_109K_4
         SpitfireLFMkIX = planes.SpitfireLFMkIX
@@ -37727,6 +37745,8 @@ class GDR(Country):
         Plane.MiG_29A,
         Plane.Su_17M4,
         Plane.Yak_40,
+        Plane.Su_25,
+        Plane.MiG_23MLD,
         Plane.FW_190A8,
         Plane.Bf_109K_4,
         Plane.SpitfireLFMkIX,
@@ -37776,6 +37796,8 @@ class GDR(Country):
 
     class Helicopter:
         Ka_50 = helicopters.Ka_50
+        Mi_24V = helicopters.Mi_24V
+        Mi_8MT = helicopters.Mi_8MT
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
         CH_47Fbl1 = helicopters.CH_47Fbl1
         OH58D = helicopters.OH58D
@@ -37786,6 +37808,8 @@ class GDR(Country):
 
     helicopters = [
         Helicopter.Ka_50,
+        Helicopter.Mi_24V,
+        Helicopter.Mi_8MT,
         Helicopter.AH_64D_BLK_II,
         Helicopter.CH_47Fbl1,
         Helicopter.OH58D,
@@ -38708,6 +38732,9 @@ class CombinedJointTaskForcesBlue(Country):
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
 
     vehicles = [
         vehicles.Artillery.L118_Unit,
@@ -39007,6 +39034,9 @@ class CombinedJointTaskForcesBlue(Country):
         vehicles.Carriage.Wellcarnsc,
         vehicles.Carriage.DR_50Ton_Flat_Wagon,
         vehicles.Carriage.German_covered_wagon_G10,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
@@ -39904,6 +39934,9 @@ class CombinedJointTaskForcesRed(Country):
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
 
     vehicles = [
         vehicles.Artillery.L118_Unit,
@@ -40203,6 +40236,9 @@ class CombinedJointTaskForcesRed(Country):
         vehicles.Carriage.Wellcarnsc,
         vehicles.Carriage.DR_50Ton_Flat_Wagon,
         vehicles.Carriage.German_covered_wagon_G10,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
@@ -41100,6 +41136,9 @@ class UnitedNationsPeacekeepers(Country):
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
             German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
+            German_tank_wagon = vehicles.Carriage.German_tank_wagon
 
     vehicles = [
         vehicles.Artillery.L118_Unit,
@@ -41399,6 +41438,9 @@ class UnitedNationsPeacekeepers(Country):
         vehicles.Carriage.Wellcarnsc,
         vehicles.Carriage.DR_50Ton_Flat_Wagon,
         vehicles.Carriage.German_covered_wagon_G10,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
+        vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
         vehicles.Carriage.German_tank_wagon,
