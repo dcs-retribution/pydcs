@@ -358,6 +358,7 @@ class FlyingGroup(Generic[FlyingUnitT], MovingGroup[FlyingUnitT]):
         self.uncontrolled = False
         self.radio_set = False
         self.task = "CAS"
+        self.password = None
         self.units = []  # type: List[FlyingUnit]
         self.nav_target_points = []  # type: List[NavTargetPoint]
 
@@ -387,6 +388,10 @@ class FlyingGroup(Generic[FlyingUnitT], MovingGroup[FlyingUnitT]):
         self.modulation = d.get("modulation")
         self.communication = d.get("communication", False)
         self.uncontrolled = d["uncontrolled"]
+        try:
+            self.password = d["password"]
+        except KeyError:
+            self.password = None
         self.radio_set = d.get("radioSet", False)
         self.nav_target_points = []
         for n in d.get("NavTargetPoints", []):
@@ -552,6 +557,8 @@ class FlyingGroup(Generic[FlyingUnitT], MovingGroup[FlyingUnitT]):
         d["modulation"] = self.modulation
         d["communication"] = self.communication
         d["uncontrolled"] = self.uncontrolled
+        if self.password is not None:
+            d["password"] = self.password
         d["radioSet"] = self.radio_set
 
         if self.nav_target_points:
