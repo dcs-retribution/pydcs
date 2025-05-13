@@ -19,6 +19,7 @@ to test the projection for errors.
 The resulting data is exported to dcs/theater/projections/<map>.py as a
 TransverseMercator object.
 """
+
 from __future__ import annotations
 
 import argparse
@@ -50,6 +51,7 @@ from dcs.terrain.sinai.sinai import Sinai
 from dcs.terrain.terrain import Terrain
 from dcs.terrain.thechannel import TheChannel
 from dcs.terrain.marianaislands import MarianaIslands
+from dcs.terrain.germanycoldwar import GermanyColdWar
 from dcs.terrain.projections import TransverseMercator
 from dcs.triggers import TriggerStart
 from pyproj import CRS, Transformer
@@ -75,6 +77,7 @@ ARG_TO_TERRAIN_MAP = {
     "kola": Kola(),
     "afghanistan": Afghanistan(),
     "iraq": Iraq(),
+    "germanycoldwar": GermanyColdWar(),
 }
 
 # https://gisgeography.com/central-meridian/
@@ -93,6 +96,7 @@ CENTRAL_MERIDIANS = {
     "kola": 23,
     "afghanistan": 63,
     "iraq": 45,
+    "germanycoldwar": 21,
 }
 
 
@@ -281,7 +285,7 @@ def main() -> None:
     args = parse_args()
     logging.info(
         "Using %s as DCS saved game directory. If this is not correct, edit %s",
-        Path(__file__).resolve()
+        Path(__file__).resolve(),
     )
     terrain = ARG_TO_TERRAIN_MAP[args.map]
     mission = create_mission(terrain)
@@ -289,8 +293,8 @@ def main() -> None:
     global DCS_SAVED_GAMES
 
     if "OpenBeta" in str(args.dcs):
-         DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS.openbeta"
-         
+        DCS_SAVED_GAMES = Path.home() / "Saved Games/DCS.openbeta"
+
     with mission_scripting(args.dcs):
         input(
             f"Created {mission} and replaced MissionScript.lua. Open DCS and load the "
