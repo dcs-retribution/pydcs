@@ -31,7 +31,7 @@ class GermanyColdWar(Terrain):
             bounds=mapping.Rectangle(-425000.0, -600000.0, -1100000.0, 260000.0, self),
             map_view_default=MapView(mapping.Point(0, 0, self), self, 1000000),
         )
-        self.bullseye_blue = {"x": 0, "y": 0}
-        self.bullseye_red = {"x": 0, "y": 0}
+        self.bullseye_blue = {"x": -384, "y": -781}
+        self.bullseye_red = {"x": -384, "y": -781}
 
         self.airports = {a.name: a(self) for a in ALL_AIRPORTS}
