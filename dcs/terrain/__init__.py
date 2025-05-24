@@ -12,3 +12,4 @@ from dcs.terrain.thechannel import TheChannel
 from dcs.terrain.kola import Kola
 from dcs.terrain.afghanistan import Afghanistan
 from dcs.terrain.iraq import Iraq
+from dcs.terrain.germanycoldwar import GermanyColdWar
