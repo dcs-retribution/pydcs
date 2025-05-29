@@ -2493,6 +2493,13 @@ class OptVerticalTakeoffLanding(Option):
         super(OptVerticalTakeoffLanding, self).__init__(value)
 
 
+class OptAllowFormationSideSwap(Option):
+    Key = 35
+
+    def __init__(self, value: bool = True):
+        super(OptAllowFormationSideSwap, self).__init__(value)
+
+
 options: Dict[int, Type[Option]] = {
     OptROE.Key: OptROE,
     OptReactOnThreat.Key: OptReactOnThreat,
@@ -2516,5 +2523,7 @@ options: Dict[int, Type[Option]] = {
     OptRadioUsageEngage.Key: OptRadioUsageEngage,
     OptRadioUsageKill.Key: OptRadioUsageKill,
     OptInterceptionRange.Key: OptInterceptionRange,
-    OptRestrictTargets.Key: OptRestrictTargets
+    OptRestrictTargets.Key: OptRestrictTargets,
+    OptVerticalTakeoffLanding.Key: OptVerticalTakeoffLanding,
+    OptAllowFormationSideSwap.Key: OptAllowFormationSideSwap,
 }
