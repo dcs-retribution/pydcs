@@ -1791,7 +1791,7 @@ class Ka_50_3(HelicopterType):
             id = "Helmet-mounted device"
 
             class Values:
-                Auto = 0
+                AUTO = 0
                 HMS = 1
                 NVG = 2
 
@@ -1834,7 +1834,7 @@ class Ka_50_3(HelicopterType):
             default=0,
             w_ctrl=150,
             values={
-                0: "Auto",
+                0: "AUTO",
                 1: "HMS",
                 2: "NVG",
             },

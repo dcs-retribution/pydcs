@@ -12916,7 +12916,7 @@ class F_5E_3(PlaneType):
         ),
     }
 
-    livery_name = "F-5E-3"  # from livery_entry
+    livery_name = "F-5E3_2024"  # from livery_entry
 
     class Pylon1:
         AIM_9B_Sidewinder_IR_AAM = (1, Weapons.AIM_9B_Sidewinder_IR_AAM)
