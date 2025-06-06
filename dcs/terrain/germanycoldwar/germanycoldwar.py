@@ -5,7 +5,7 @@ from .projection import PARAMETERS
 
 
 class GermanyColdWar(Terrain):
-    center = {"lat": 52.468, "long": 59.173}
+    center = {"lat": 51.000, "long": 11.000}
     temperature = [
         # From Berlin's Wikipedia page
         (-2, 3),
