@@ -25,11 +25,12 @@ class Nevada(Terrain):
     assert len(temperature) == 12
 
     def __init__(self):
+        bounds = mapping.Rectangle(-167000.0, -330000.0, -500000.0, 210000.0, self)
         super().__init__(
             "Nevada",
             PARAMETERS,
-            bounds=mapping.Rectangle(-166934.953125, -329334.875000, -497177.656250, 209836.890625, self),
-            map_view_default=MapView(mapping.Point(-340928.57142857, -55928.571428568, self), self, 1000000)
+            bounds=bounds,
+            map_view_default=MapView(bounds.center(), self, 1000000)
         )
         # nttr center MGRS
         # 11SPE9400410022

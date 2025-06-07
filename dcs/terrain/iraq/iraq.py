@@ -23,11 +23,12 @@ class Iraq(Terrain):
     assert len(temperature) == 12
 
     def __init__(self):
+        bounds = mapping.Rectangle(440000.0, -500000.0, -950000.0, 850000.0, self)
         super().__init__(
             "Iraq",
             PARAMETERS,
-            bounds=mapping.Rectangle(440000, -500000, -950000, 850000, self),
-            map_view_default=MapView(mapping.Point(0, 0, self), self, 1000000)
+            bounds=bounds,
+            map_view_default=MapView(bounds.center(), self, 1000000)
         )
         self.bullseye_blue = {"x": 0, "y": 0}
         self.bullseye_red = {"x": 0, "y": 0}
