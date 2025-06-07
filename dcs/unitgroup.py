@@ -358,7 +358,7 @@ class FlyingGroup(Generic[FlyingUnitT], MovingGroup[FlyingUnitT]):
         self.uncontrolled = False
         self.radio_set = False
         self.task = "CAS"
-        self.units = []  # type: List[FlyingUnit]
+        self.units = []  # type: List[FlyingUnitT]
         self.nav_target_points = []  # type: List[NavTargetPoint]
 
     def starts_from_airport(self) -> bool:
@@ -560,23 +560,22 @@ class FlyingGroup(Generic[FlyingUnitT], MovingGroup[FlyingUnitT]):
         return d
 
 
-class PlaneGroup(FlyingGroup[Plane]):
+class PlaneGroup(FlyingGroup[FlyingUnit]):
     def __init__(self, _id, name=None, start_time=0):
         super(PlaneGroup, self).__init__(_id, name, start_time)
 
-    def add_unit(self, unit: Plane):
+    def add_unit(self, unit: FlyingUnit):
         if not issubclass(unit.unit_type, PlaneType):
-            print(unit.unit_type)
             raise TypeError("unit.unit_type is not a plane")
         super(PlaneGroup, self).add_unit(unit)
 
 
-class HelicopterGroup(FlyingGroup[Helicopter]):
+class HelicopterGroup(FlyingGroup[FlyingUnit]):
     def __init__(self, _id, name=None, start_time=0):
         super(HelicopterGroup, self).__init__(_id, name, start_time)
         self.frequency = 127.5
 
-    def add_unit(self, unit: Helicopter):
+    def add_unit(self, unit: FlyingUnit):
         if not issubclass(unit.unit_type, HelicopterType):
             raise TypeError("unit.unit_type is not a helicopter")
         super(HelicopterGroup, self).add_unit(unit)
