@@ -6,7 +6,7 @@ from typing import Any, Dict, Generic, List, Type, TypeVar, Optional
 from dcs.terrain.terrain import Terrain
 
 from dcs.unit import Unit, Skill, Ship, Vehicle, Static
-from dcs.flyingunit import FlyingUnit, Plane, Helicopter
+from dcs.flyingunit import FlyingUnit
 from dcs.unittype import FlyingType
 from dcs.planes import PlaneType
 from dcs.helicopters import HelicopterType
