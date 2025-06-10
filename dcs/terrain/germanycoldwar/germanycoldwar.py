@@ -24,7 +24,7 @@ class GermanyColdWar(Terrain):
     assert len(temperature) == 12
 
     def __init__(self):
-        bounds = mapping.Rectangle(-425000.0, -600000.0, -1100000.0, 260000.0, self)
+        bounds = mapping.Rectangle(260000.0, -1100000.0, -600000.0, -425000.0, self)
         super().__init__(
             "GermanyCW",
             PARAMETERS,
@@ -32,7 +32,7 @@ class GermanyColdWar(Terrain):
             bounds=bounds,
             map_view_default=MapView(bounds.center(), self, 1000000),
         )
-        self.bullseye_blue = {"x": -384, "y": -781}
-        self.bullseye_red = {"x": -384, "y": -781}
+        self.bullseye_blue = {"x": -781 * 1000, "y": -384 * 1000}
+        self.bullseye_red = {"x": -781 * 1000, "y": -384 * 1000}
 
         self.airports = {a.name: a(self) for a in ALL_AIRPORTS}
