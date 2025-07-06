@@ -790,7 +790,7 @@ class Hatzerim(Airport):
                 crossroad_idx=8, position=mapping.Point(132342, 326014.9375, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='09', length=26.0, width=22.0, height=11.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=9, position=mapping.Point(131454.4375, 328287.125, self._terrain), large=False, heli=True,
+                crossroad_idx=9, position=mapping.Point(131454.40625, 328287.59375, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='115', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=10, position=mapping.Point(131419, 328281.0625, self._terrain), large=False, heli=True,
@@ -799,7 +799,7 @@ class Hatzerim(Airport):
                 crossroad_idx=11, position=mapping.Point(130687.046875, 328877, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='139', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=12, position=mapping.Point(132063.40625, 328380.96875, self._terrain), large=False, heli=False,
+                crossroad_idx=12, position=mapping.Point(132073.953125, 328384.875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='110', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=13, position=mapping.Point(130663.5078125, 328868.34375, self._terrain), large=False, heli=True,
@@ -811,364 +811,364 @@ class Hatzerim(Airport):
                 crossroad_idx=15, position=mapping.Point(130712.234375, 328882.71875, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='138', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=16, position=mapping.Point(131268.34375, 328632.09375, self._terrain), large=False, heli=False,
+                crossroad_idx=16, position=mapping.Point(131281.96875, 328624.09375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='120', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=17, position=mapping.Point(130640.796875, 328859.65625, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='141', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=22, position=mapping.Point(132634.4375, 326381.90625, self._terrain), large=False, heli=False,
+                crossroad_idx=22, position=mapping.Point(132632.46875, 326385.46875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='23', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=23, position=mapping.Point(132618.625, 326377.78125, self._terrain), large=False, heli=False,
+                crossroad_idx=23, position=mapping.Point(132616.671875, 326381.5, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='22', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=24, position=mapping.Point(132602.84375, 326373.8125, self._terrain), large=False, heli=False,
+                crossroad_idx=24, position=mapping.Point(132600.921875, 326377.34375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='21', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=25, position=mapping.Point(132586.984375, 326369.84375, self._terrain), large=False, heli=False,
+                crossroad_idx=25, position=mapping.Point(132585.1875, 326373.3125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='20', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=26, position=mapping.Point(132571.28125, 326365.90625, self._terrain), large=False, heli=False,
+                crossroad_idx=26, position=mapping.Point(132569.40625, 326369.3125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='19', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=27, position=mapping.Point(132539.640625, 326357.8125, self._terrain), large=False, heli=False,
+                crossroad_idx=27, position=mapping.Point(132537.859375, 326361.25, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='18', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=28, position=mapping.Point(132523.984375, 326353.84375, self._terrain), large=False, heli=False,
+                crossroad_idx=28, position=mapping.Point(132522.109375, 326357.21875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='17', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=29, position=mapping.Point(132508.140625, 326349.84375, self._terrain), large=False, heli=False,
+                crossroad_idx=29, position=mapping.Point(132506.3125, 326353.25, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='16', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=30, position=mapping.Point(132476.625, 326341.6875, self._terrain), large=False, heli=False,
+                crossroad_idx=30, position=mapping.Point(132474.796875, 326345.125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='15', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=31, position=mapping.Point(132460.984375, 326337.65625, self._terrain), large=False, heli=False,
+                crossroad_idx=31, position=mapping.Point(132459.046875, 326341.03125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='14', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=32, position=mapping.Point(132445.09375, 326333.5625, self._terrain), large=False, heli=False,
+                crossroad_idx=32, position=mapping.Point(132443.28125, 326336.96875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='13', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=33, position=mapping.Point(132429.296875, 326329.46875, self._terrain), large=False, heli=False,
+                crossroad_idx=33, position=mapping.Point(132427.5, 326332.96875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='12', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=34, position=mapping.Point(132413.4375, 326325.46875, self._terrain), large=False, heli=False,
+                crossroad_idx=34, position=mapping.Point(132411.734375, 326328.9375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='11', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=35, position=mapping.Point(132382.03125, 326317.40625, self._terrain), large=False, heli=False,
+                crossroad_idx=35, position=mapping.Point(132380.21875, 326320.8125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='10', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=36, position=mapping.Point(132473.4375, 326492.1875, self._terrain), large=False, heli=False,
+                crossroad_idx=36, position=mapping.Point(132470.984375, 326498.84375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='30', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=37, position=mapping.Point(132520.8125, 326504.125, self._terrain), large=False, heli=False,
+                crossroad_idx=37, position=mapping.Point(132518.140625, 326511.09375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='33', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=38, position=mapping.Point(132552.21875, 326512.5, self._terrain), large=False, heli=False,
+                crossroad_idx=38, position=mapping.Point(132549.703125, 326519.1875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='34', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=39, position=mapping.Point(132583.90625, 326520.46875, self._terrain), large=False, heli=False,
+                crossroad_idx=39, position=mapping.Point(132581.203125, 326527.34375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='36', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=40, position=mapping.Point(132505.21875, 326500.09375, self._terrain), large=False, heli=False,
+                crossroad_idx=40, position=mapping.Point(132502.390625, 326507.0625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='32', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=41, position=mapping.Point(132568.078125, 326516.5, self._terrain), large=False, heli=False,
+                crossroad_idx=41, position=mapping.Point(132565.453125, 326523.25, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='35', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=42, position=mapping.Point(132599.5625, 326524.5, self._terrain), large=False, heli=False,
+                crossroad_idx=42, position=mapping.Point(132596.96875, 326531.34375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='37', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=43, position=mapping.Point(132394.5625, 326472.28125, self._terrain), large=False, heli=False,
+                crossroad_idx=43, position=mapping.Point(132392.03125, 326478.78125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='26', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=44, position=mapping.Point(132410.375, 326476.28125, self._terrain), large=False, heli=False,
+                crossroad_idx=44, position=mapping.Point(132407.796875, 326482.84375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='27', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=45, position=mapping.Point(132489.328125, 326496.15625, self._terrain), large=False, heli=False,
+                crossroad_idx=45, position=mapping.Point(132486.765625, 326502.84375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='31', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=46, position=mapping.Point(132426.125, 326480.28125, self._terrain), large=False, heli=False,
+                crossroad_idx=46, position=mapping.Point(132423.59375, 326486.84375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='28', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=47, position=mapping.Point(132378.765625, 326468.28125, self._terrain), large=False, heli=False,
+                crossroad_idx=47, position=mapping.Point(132376.28125, 326474.78125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='25', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=48, position=mapping.Point(132457.640625, 326488.5625, self._terrain), large=False, heli=False,
+                crossroad_idx=48, position=mapping.Point(132455.078125, 326494.9375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='29', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=49, position=mapping.Point(132347.171875, 326460.4375, self._terrain), large=False, heli=False,
+                crossroad_idx=49, position=mapping.Point(132344.75, 326466.625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='24', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=50, position=mapping.Point(132432.5625, 326686.71875, self._terrain), large=False, heli=False,
+                crossroad_idx=50, position=mapping.Point(132431.90625, 326693.0625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='44', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=51, position=mapping.Point(132479.875, 326698.75, self._terrain), large=False, heli=False,
+                crossroad_idx=51, position=mapping.Point(132479.21875, 326705.09375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='47', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=52, position=mapping.Point(132463.953125, 326694.84375, self._terrain), large=False, heli=False,
+                crossroad_idx=52, position=mapping.Point(132463.421875, 326701.09375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='46', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=53, position=mapping.Point(132354.046875, 326665.34375, self._terrain), large=False, heli=False,
+                crossroad_idx=53, position=mapping.Point(132353.078125, 326672.78125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='40', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=54, position=mapping.Point(132369.4375, 326670.65625, self._terrain), large=False, heli=False,
+                crossroad_idx=54, position=mapping.Point(132368.828125, 326676.90625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='41', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=55, position=mapping.Point(132448.234375, 326690.78125, self._terrain), large=False, heli=False,
+                crossroad_idx=55, position=mapping.Point(132447.65625, 326697.0625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='45', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=56, position=mapping.Point(132385.140625, 326674.65625, self._terrain), large=False, heli=False,
+                crossroad_idx=56, position=mapping.Point(132384.578125, 326680.90625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='42', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=57, position=mapping.Point(132338.203125, 326661.5, self._terrain), large=False, heli=False,
+                crossroad_idx=57, position=mapping.Point(132337.3125, 326668.8125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='39', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=58, position=mapping.Point(132416.75, 326682.59375, self._terrain), large=False, heli=False,
+                crossroad_idx=58, position=mapping.Point(132416.15625, 326688.90625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='43', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=59, position=mapping.Point(132306.359375, 326654.46875, self._terrain), large=False, heli=False,
+                crossroad_idx=59, position=mapping.Point(132305.765625, 326660.71875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='38', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=60, position=mapping.Point(132412.703125, 326830.375, self._terrain), large=False, heli=False,
+                crossroad_idx=60, position=mapping.Point(132410.984375, 326836.625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='55', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=61, position=mapping.Point(132428.609375, 326833.875, self._terrain), large=False, heli=False,
+                crossroad_idx=61, position=mapping.Point(132426.8125, 326840.40625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='56', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=62, position=mapping.Point(132334.015625, 326809.75, self._terrain), large=False, heli=False,
+                crossroad_idx=62, position=mapping.Point(132332.1875, 326816.25, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='51', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=63, position=mapping.Point(132318.171875, 326805.875, self._terrain), large=False, heli=False,
+                crossroad_idx=63, position=mapping.Point(132316.421875, 326812.1875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='50', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=64, position=mapping.Point(132396.96875, 326826.28125, self._terrain), large=False, heli=False,
+                crossroad_idx=64, position=mapping.Point(132395.203125, 326832.59375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='54', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=65, position=mapping.Point(132349.78125, 326813.71875, self._terrain), large=False, heli=False,
+                crossroad_idx=65, position=mapping.Point(132347.953125, 326820.25, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='52', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=66, position=mapping.Point(132365.625, 326817.625, self._terrain), large=False, heli=False,
+                crossroad_idx=66, position=mapping.Point(132363.75, 326824.3125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='53', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=67, position=mapping.Point(132286.53125, 326797.875, self._terrain), large=False, heli=False,
+                crossroad_idx=67, position=mapping.Point(132284.890625, 326804.09375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='49', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=68, position=mapping.Point(132444.421875, 326837.78125, self._terrain), large=False, heli=False,
+                crossroad_idx=68, position=mapping.Point(132443.0625, 326843.0625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='57', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=69, position=mapping.Point(132270.875, 326793.8125, self._terrain), large=False, heli=False,
+                crossroad_idx=69, position=mapping.Point(132269.109375, 326800.09375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='48', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=70, position=mapping.Point(132375.015625, 326978.21875, self._terrain), large=False, heli=False,
+                crossroad_idx=70, position=mapping.Point(132370.234375, 326984.3125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='65', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=71, position=mapping.Point(132390.890625, 326981.96875, self._terrain), large=False, heli=False,
+                crossroad_idx=71, position=mapping.Point(132386, 326988.4375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='66', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=72, position=mapping.Point(132296.328125, 326958.03125, self._terrain), large=False, heli=False,
+                crossroad_idx=72, position=mapping.Point(132291.375, 326964.28125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='61', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=73, position=mapping.Point(132280.484375, 326954.125, self._terrain), large=False, heli=False,
+                crossroad_idx=73, position=mapping.Point(132275.578125, 326960.3125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='60', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=74, position=mapping.Point(132359.53125, 326974.3125, self._terrain), large=False, heli=False,
+                crossroad_idx=74, position=mapping.Point(132354.453125, 326980.34375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='64', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=75, position=mapping.Point(132328.125, 326965.03125, self._terrain), large=False, heli=False,
+                crossroad_idx=75, position=mapping.Point(132322.921875, 326972.28125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='62', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=76, position=mapping.Point(132343.46875, 326970.03125, self._terrain), large=False, heli=False,
+                crossroad_idx=76, position=mapping.Point(132338.671875, 326976.34375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='63', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=77, position=mapping.Point(132249.09375, 326945.59375, self._terrain), large=False, heli=False,
+                crossroad_idx=77, position=mapping.Point(132244.109375, 326952.0625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='59', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=78, position=mapping.Point(132406.625, 326985.8125, self._terrain), large=False, heli=False,
+                crossroad_idx=78, position=mapping.Point(132401.75, 326992.40625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='67', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=79, position=mapping.Point(132233.296875, 326941.65625, self._terrain), large=False, heli=False,
+                crossroad_idx=79, position=mapping.Point(132228.3125, 326948.125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='58', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=80, position=mapping.Point(132359.578125, 327468.15625, self._terrain), large=False, heli=False,
+                crossroad_idx=80, position=mapping.Point(132357.734375, 327474.71875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='81', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=81, position=mapping.Point(132320.8125, 327458.3125, self._terrain), large=False, heli=False,
+                crossroad_idx=81, position=mapping.Point(132318.96875, 327464.875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='79', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=82, position=mapping.Point(132262.65625, 327443.5, self._terrain), large=False, heli=False,
+                crossroad_idx=82, position=mapping.Point(132260.8125, 327450.0625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='76', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=83, position=mapping.Point(132340.1875, 327463.21875, self._terrain), large=False, heli=False,
+                crossroad_idx=83, position=mapping.Point(132338.34375, 327469.78125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='80', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=84, position=mapping.Point(132301.421875, 327453.375, self._terrain), large=False, heli=False,
+                crossroad_idx=84, position=mapping.Point(132299.578125, 327459.9375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='78', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=85, position=mapping.Point(132282.046875, 327448.4375, self._terrain), large=False, heli=False,
+                crossroad_idx=85, position=mapping.Point(132280.203125, 327455, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='77', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=86, position=mapping.Point(132223.890625, 327433.65625, self._terrain), large=False, heli=False,
+                crossroad_idx=86, position=mapping.Point(132222.046875, 327440.21875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='74', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=87, position=mapping.Point(132204.515625, 327428.71875, self._terrain), large=False, heli=False,
+                crossroad_idx=87, position=mapping.Point(132202.671875, 327435.28125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='73', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=88, position=mapping.Point(132126.984375, 327409, self._terrain), large=False, heli=False,
+                crossroad_idx=88, position=mapping.Point(132125.140625, 327415.5625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='69', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=89, position=mapping.Point(132107.59375, 327404.0625, self._terrain), large=False, heli=False,
+                crossroad_idx=89, position=mapping.Point(132105.75, 327410.625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='68', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=90, position=mapping.Point(132185.125, 327423.78125, self._terrain), large=False, heli=False,
+                crossroad_idx=90, position=mapping.Point(132183.28125, 327430.34375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='72', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=91, position=mapping.Point(132243.28125, 327438.5625, self._terrain), large=False, heli=False,
+                crossroad_idx=91, position=mapping.Point(132241.4375, 327445.125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='75', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=92, position=mapping.Point(132165.75, 327418.84375, self._terrain), large=False, heli=False,
+                crossroad_idx=92, position=mapping.Point(132163.90625, 327425.40625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='71', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=93, position=mapping.Point(132146.359375, 327413.9375, self._terrain), large=False, heli=False,
+                crossroad_idx=93, position=mapping.Point(132144.515625, 327420.5, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='70', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=94, position=mapping.Point(132293.03125, 327568.15625, self._terrain), large=False, heli=False,
+                crossroad_idx=94, position=mapping.Point(132289.78125, 327576.3125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='93', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=95, position=mapping.Point(132230.046875, 327551.875, self._terrain), large=False, heli=False,
+                crossroad_idx=95, position=mapping.Point(132226.640625, 327560.40625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='90', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=96, position=mapping.Point(132308.765625, 327572.3125, self._terrain), large=False, heli=False,
+                crossroad_idx=96, position=mapping.Point(132305.515625, 327580.4375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='94', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=97, position=mapping.Point(132277.375, 327564.0625, self._terrain), large=False, heli=False,
+                crossroad_idx=97, position=mapping.Point(132273.9375, 327572.65625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='92', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=98, position=mapping.Point(132261.453125, 327560.3125, self._terrain), large=False, heli=False,
+                crossroad_idx=98, position=mapping.Point(132258.171875, 327568.5, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='91', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=99, position=mapping.Point(132099.265625, 327517.9375, self._terrain), large=False, heli=False,
+                crossroad_idx=99, position=mapping.Point(132095.828125, 327526.0625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='83', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=100, position=mapping.Point(132118.65625, 327522.875, self._terrain), large=False, heli=False,
+                crossroad_idx=100, position=mapping.Point(132115.21875, 327531, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='84', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=101, position=mapping.Point(132196.1875, 327542.59375, self._terrain), large=False, heli=False,
+                crossroad_idx=101, position=mapping.Point(132192.75, 327550.71875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='88', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=102, position=mapping.Point(132176.796875, 327537.65625, self._terrain), large=False, heli=False,
+                crossroad_idx=102, position=mapping.Point(132173.359375, 327545.78125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='87', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=103, position=mapping.Point(132157.421875, 327532.75, self._terrain), large=False, heli=False,
+                crossroad_idx=103, position=mapping.Point(132153.984375, 327540.875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='86', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=104, position=mapping.Point(132214.171875, 327547.96875, self._terrain), large=False, heli=False,
+                crossroad_idx=104, position=mapping.Point(132210.90625, 327556.34375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='89', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=105, position=mapping.Point(132079.890625, 327513, self._terrain), large=False, heli=False,
+                crossroad_idx=105, position=mapping.Point(132076.453125, 327521.125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='82', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=106, position=mapping.Point(132138.03125, 327527.8125, self._terrain), large=False, heli=False,
+                crossroad_idx=106, position=mapping.Point(132134.59375, 327535.9375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='85', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=107, position=mapping.Point(132324.703125, 327576.1875, self._terrain), large=False, heli=False,
+                crossroad_idx=107, position=mapping.Point(132321.21875, 327584.71875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='95', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=108, position=mapping.Point(132064.46875, 327845.125, self._terrain), large=False, heli=False,
+                crossroad_idx=108, position=mapping.Point(132062.265625, 327851, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='99', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=109, position=mapping.Point(132017.3125, 327832.5, self._terrain), large=False, heli=False,
+                crossroad_idx=109, position=mapping.Point(132015.109375, 327838.28125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='97', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=110, position=mapping.Point(132048.796875, 327840.96875, self._terrain), large=False, heli=False,
+                crossroad_idx=110, position=mapping.Point(132046.5, 327846.78125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='98', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=111, position=mapping.Point(132001.484375, 327828.5625, self._terrain), large=False, heli=False,
+                crossroad_idx=111, position=mapping.Point(131999.28125, 327834.46875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='96', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=112, position=mapping.Point(131985.109375, 328026.25, self._terrain), large=False, heli=False,
+                crossroad_idx=112, position=mapping.Point(131983.6875, 328032.96875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='102', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=113, position=mapping.Point(132017.0625, 328034.4375, self._terrain), large=False, heli=False,
+                crossroad_idx=113, position=mapping.Point(132015.28125, 328040.9375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='103', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=114, position=mapping.Point(131953.765625, 328018.5, self._terrain), large=False, heli=False,
+                crossroad_idx=114, position=mapping.Point(131952.21875, 328024.8125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='100', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=115, position=mapping.Point(131969.5625, 328022.375, self._terrain), large=False, heli=False,
+                crossroad_idx=115, position=mapping.Point(131967.96875, 328028.8125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='101', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=116, position=mapping.Point(132067.53125, 328365.21875, self._terrain), large=False, heli=False,
+                crossroad_idx=116, position=mapping.Point(132078.078125, 328369.125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='109', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=117, position=mapping.Point(132071.546875, 328349.34375, self._terrain), large=False, heli=False,
+                crossroad_idx=117, position=mapping.Point(132082.09375, 328353.25, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='108', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=118, position=mapping.Point(132075.5625, 328333.71875, self._terrain), large=False, heli=False,
+                crossroad_idx=118, position=mapping.Point(132086.171875, 328337.5625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='107', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=119, position=mapping.Point(132079.65625, 328317.90625, self._terrain), large=False, heli=False,
+                crossroad_idx=119, position=mapping.Point(132090.203125, 328321.8125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='106', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=120, position=mapping.Point(132083.703125, 328302.09375, self._terrain), large=False, heli=False,
+                crossroad_idx=120, position=mapping.Point(132094.25, 328306.03125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='105', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=121, position=mapping.Point(132088.03125, 328286.40625, self._terrain), large=False, heli=False,
+                crossroad_idx=121, position=mapping.Point(132098.578125, 328290.3125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='104', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=122, position=mapping.Point(131259.796875, 328618.3125, self._terrain), large=False, heli=False,
+                crossroad_idx=122, position=mapping.Point(131273.4375, 328610.21875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='121', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=123, position=mapping.Point(131251.484375, 328604.25, self._terrain), large=False, heli=False,
+                crossroad_idx=123, position=mapping.Point(131264.96875, 328596.3125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='122', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=124, position=mapping.Point(131243.078125, 328590.34375, self._terrain), large=False, heli=False,
+                crossroad_idx=124, position=mapping.Point(131256.4375, 328582.40625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='123', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=125, position=mapping.Point(131225.828125, 328562.65625, self._terrain), large=False, heli=False,
+                crossroad_idx=125, position=mapping.Point(131239.4375, 328554.625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='124', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=126, position=mapping.Point(131217.1875, 328548.84375, self._terrain), large=False, heli=False,
+                crossroad_idx=126, position=mapping.Point(131230.9375, 328540.75, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='125', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=127, position=mapping.Point(130846.71875, 328896.96875, self._terrain), large=False, heli=False,
+                crossroad_idx=127, position=mapping.Point(130857.765625, 328890.875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='132', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=128, position=mapping.Point(130821.890625, 328854.84375, self._terrain), large=False, heli=False,
+                crossroad_idx=128, position=mapping.Point(130832.796875, 328848.875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='134', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=129, position=mapping.Point(130788.2109375, 328799.09375, self._terrain), large=False, heli=False,
+                crossroad_idx=129, position=mapping.Point(130799.484375, 328792.90625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='137', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=130, position=mapping.Point(130796.59375, 328813.09375, self._terrain), large=False, heli=False,
+                crossroad_idx=130, position=mapping.Point(130807.796875, 328806.90625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='136', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=131, position=mapping.Point(130830.125, 328868.90625, self._terrain), large=False, heli=False,
+                crossroad_idx=131, position=mapping.Point(130841.125, 328862.875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='133', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=132, position=mapping.Point(130813.53125, 328840.90625, self._terrain), large=False, heli=False,
+                crossroad_idx=132, position=mapping.Point(130824.453125, 328834.875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='135', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=133, position=mapping.Point(131686.671875, 328383.3125, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='112', length=26.0, width=22.0, height=11.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=134, position=mapping.Point(131132.421875, 328842.03125, self._terrain), large=False, heli=False,
+                crossroad_idx=134, position=mapping.Point(131123.921875, 328847.28125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='127', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=135, position=mapping.Point(131140.875, 328856.21875, self._terrain), large=False, heli=False,
+                crossroad_idx=135, position=mapping.Point(131132.265625, 328861.28125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='128', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=136, position=mapping.Point(131123.84375, 328828.3125, self._terrain), large=False, heli=False,
+                crossroad_idx=136, position=mapping.Point(131115.28125, 328833.5, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='126', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=137, position=mapping.Point(131149.265625, 328869.8125, self._terrain), large=False, heli=False,
+                crossroad_idx=137, position=mapping.Point(131140.828125, 328875.15625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='129', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=138, position=mapping.Point(131166.421875, 328897.625, self._terrain), large=False, heli=False,
+                crossroad_idx=138, position=mapping.Point(131157.875, 328902.90625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='130', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=139, position=mapping.Point(131174.90625, 328911.6875, self._terrain), large=False, heli=False,
+                crossroad_idx=139, position=mapping.Point(131166.328125, 328916.84375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='131', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=140, position=mapping.Point(131254.5, 328235.5625, self._terrain), large=False, heli=False,
@@ -1188,6 +1188,84 @@ class Hatzerim(Airport):
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=145, position=mapping.Point(131233.21875, 328174.5625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='147', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=146, position=mapping.Point(130615.625, 329236.5625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='159', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=147, position=mapping.Point(130632.9765625, 329225.71875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='158', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=148, position=mapping.Point(130668.2265625, 329205.40625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='157', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=149, position=mapping.Point(130685.5546875, 329195.875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='156', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=150, position=mapping.Point(130569.3828125, 329314.1875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='160', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=151, position=mapping.Point(131289.6875, 326372.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='01', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=152, position=mapping.Point(131280.390625, 326409.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='02', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=153, position=mapping.Point(131270.765625, 326447.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='03', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=154, position=mapping.Point(131261.21875, 326484.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='04', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=155, position=mapping.Point(131251.609375, 326521.4375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='05', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=156, position=mapping.Point(132290.21875, 328388.84375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='161', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=157, position=mapping.Point(132273.09375, 328399, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='162', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=158, position=mapping.Point(132229.796875, 328572.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='168', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=159, position=mapping.Point(132239.796875, 328590.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='169', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=160, position=mapping.Point(132219.6875, 328547.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='167', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=161, position=mapping.Point(132204.59375, 328520.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='166', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=162, position=mapping.Point(132252.21875, 328414.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='163', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=163, position=mapping.Point(132226.078125, 328431.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='165', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=164, position=mapping.Point(130579.8046875, 328962.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='155', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=165, position=mapping.Point(130602.0859375, 328957.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='154', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=166, position=mapping.Point(130624.7109375, 328951.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='153', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=167, position=mapping.Point(130646.703125, 328945.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='152', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=168, position=mapping.Point(130669.8046875, 328939.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='151', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=169, position=mapping.Point(130692.0625, 328933.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='150', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=170, position=mapping.Point(130716.15625, 328929.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='149', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=171, position=mapping.Point(130738.6015625, 328924.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='148', length=21.0, width=15.0, height=8.0, shelter=False))
 
 
 class Nevatim(Airport):
@@ -1200,404 +1278,407 @@ class Nevatim(Airport):
     atc_radio = AtcRadio(hf_hz=4850000, vhf_low_hz=40600000, vhf_high_hz=132400000, uhf_hz=252200000)
 
     def __init__(self, terrain: Terrain) -> None:
-        super().__init__(mapping.Point(129123.308594, 360906.375, terrain), terrain)
+        super().__init__(mapping.Point(127170.644531, 361898.1875, terrain), terrain)
 
+        self.runways.append(Runway(id=2, name='08R-26L', main=RunwayApproach(name='08R', heading=80, beacons=[]), opposite=RunwayApproach(name='26L', heading=260, beacons=[])))
         self.runways.append(Runway(id=1, name='08L-26R', main=RunwayApproach(name='08L', heading=80, beacons=[]), opposite=RunwayApproach(name='26R', heading=260, beacons=[RunwayBeacon(id='airfield8_0', runway_name='08L-26R', runway_id=1, runway_side='26R')])))
         self.runways.append(Runway(id=3, name='07-25', main=RunwayApproach(name='07', heading=70, beacons=[]), opposite=RunwayApproach(name='25', heading=250, beacons=[RunwayBeacon(id='airfield8_1', runway_name='07-25', runway_id=3, runway_side='25'), RunwayBeacon(id='airfield8_2', runway_name='07-25', runway_id=3, runway_side='25')])))
-        self.runways.append(Runway(id=2, name='08R-26L', main=RunwayApproach(name='08R', heading=80, beacons=[]), opposite=RunwayApproach(name='26L', heading=260, beacons=[])))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=0, position=mapping.Point(129447.609375, 361887, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='55', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=1, position=mapping.Point(129466.53125, 361874.625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='56', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=2, position=mapping.Point(129162.640625, 361705.21875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='53', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=3, position=mapping.Point(129135.71875, 361723.40625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='52', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=4, position=mapping.Point(129044.3203125, 361785.0625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='50', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=5, position=mapping.Point(129098.3515625, 361748.25, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='51', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=6, position=mapping.Point(129483.875, 361863.46875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='57', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=7, position=mapping.Point(129503.2890625, 361849.8125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='58', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=8, position=mapping.Point(129190.15625, 361687.1875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='54', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=9, position=mapping.Point(129520.703125, 361837.21875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='59', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=10, position=mapping.Point(127129.8828125, 363605.09375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='19', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=11, position=mapping.Point(127115.6015625, 363550.4375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='18', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=12, position=mapping.Point(127174.8984375, 363780.5625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='22', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=13, position=mapping.Point(127170.3984375, 364006.125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='23', length=60.0, width=52.0, height=18.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=14, position=mapping.Point(127159.546875, 363720.71875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='21', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=15, position=mapping.Point(128338.8828125, 363699.84375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='30', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=16, position=mapping.Point(127101.296875, 363487.4375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='17', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=17, position=mapping.Point(127086.78125, 363432.9375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='16', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=18, position=mapping.Point(128346.125, 363731.90625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='31', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=19, position=mapping.Point(127144.25, 363666.84375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='20', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=20, position=mapping.Point(128322.5390625, 363636.5, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='28', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=21, position=mapping.Point(128459.4453125, 363738.96875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='33', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=22, position=mapping.Point(128404.953125, 363652.8125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='36', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=23, position=mapping.Point(128436.703125, 363645.125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='37', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=24, position=mapping.Point(128500.25, 363629.21875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='39', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=25, position=mapping.Point(128468.046875, 363636.375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='38', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=26, position=mapping.Point(128427.5859375, 363746.625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='32', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=27, position=mapping.Point(128330.484375, 363668.03125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='29', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=28, position=mapping.Point(128491.171875, 363731.4375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='34', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=29, position=mapping.Point(128522.6953125, 363723.46875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='35', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=30, position=mapping.Point(129557.765625, 361811.1875, self._terrain), large=False, heli=True,
+                crossroad_idx=0, position=mapping.Point(129557.765625, 361811.1875, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='61', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=31, position=mapping.Point(129593.921875, 361785.8125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='63', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=1, position=mapping.Point(129219.9296875, 362534.8125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='108', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=32, position=mapping.Point(128551.6484375, 363576.90625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='41', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=33, position=mapping.Point(129540.4765625, 361823.1875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='60', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=34, position=mapping.Point(129612.484375, 361772.53125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='64', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=35, position=mapping.Point(129576.5078125, 361797.84375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='62', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=36, position=mapping.Point(128537.265625, 363519.375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='43', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=37, position=mapping.Point(129630.015625, 361760.28125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='65', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=38, position=mapping.Point(128543.8671875, 363548.46875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='42', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=39, position=mapping.Point(128557.9609375, 363605.21875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='40', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=40, position=mapping.Point(128528.15625, 359637.8125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='78', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=41, position=mapping.Point(128557.4609375, 359955.28125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='76', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=42, position=mapping.Point(128532.2109375, 360009.75, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='74', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=43, position=mapping.Point(128494.59375, 359599.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='79', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=44, position=mapping.Point(128463.390625, 359563.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='80', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=45, position=mapping.Point(128488.609375, 359503.75, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='83', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=46, position=mapping.Point(128520.4375, 359538.96875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='82', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=47, position=mapping.Point(128557.3828125, 359578.625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='81', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=48, position=mapping.Point(128612.203125, 359961.78125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='75', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=49, position=mapping.Point(128510.3046875, 359950.03125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='77', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=50, position=mapping.Point(126983.359375, 362998.84375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='09', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=51, position=mapping.Point(127021.1484375, 363148.3125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='12', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=52, position=mapping.Point(127007.2578125, 363097.15625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='11', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=53, position=mapping.Point(127045.828125, 363246.8125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='14', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=54, position=mapping.Point(126969.734375, 362944, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='08', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=55, position=mapping.Point(126932.375, 362818.875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='07', length=60.0, width=52.0, height=18.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=56, position=mapping.Point(126907.7890625, 362716.3125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='05', length=60.0, width=52.0, height=18.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=57, position=mapping.Point(126850.3671875, 362504.375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='01', length=60.0, width=52.0, height=18.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=58, position=mapping.Point(126882.609375, 362615.78125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='03', length=60.0, width=52.0, height=18.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=59, position=mapping.Point(126865.0390625, 362563.0625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='02', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=60, position=mapping.Point(126898.734375, 362666.71875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='04', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=61, position=mapping.Point(127033.375, 363197, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='13', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=62, position=mapping.Point(126924.453125, 362764.34375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='06', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=63, position=mapping.Point(126968.34375, 363846.8125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='25', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=64, position=mapping.Point(126924.140625, 363858.875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='26', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=65, position=mapping.Point(127060.5859375, 363299.9375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='15', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=66, position=mapping.Point(127012.625, 363837.1875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='24', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=67, position=mapping.Point(126878.8671875, 363870.75, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='27', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=68, position=mapping.Point(126995.3125, 363047.78125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='10', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=69, position=mapping.Point(128717.2265625, 360282.15625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='66', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=70, position=mapping.Point(128667.375, 362041.5, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='46', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=71, position=mapping.Point(129030.484375, 361793.9375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='49', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=72, position=mapping.Point(128724.4296875, 360234.9375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='67', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=73, position=mapping.Point(128640.2578125, 362060.21875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='45', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=74, position=mapping.Point(128694.640625, 362023.5, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='47', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=75, position=mapping.Point(128613.5625, 362078.875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='44', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=76, position=mapping.Point(128662.3046875, 360245.9375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='69', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=77, position=mapping.Point(128732.921875, 360180.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='68', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=78, position=mapping.Point(129016.8828125, 361803.125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='48', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=83, position=mapping.Point(128454.59375, 359205.4375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='93', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=84, position=mapping.Point(128407.734375, 359177.5, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='92', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=85, position=mapping.Point(128418.609375, 359117.625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='96', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=86, position=mapping.Point(128442.2109375, 359331.96875, self._terrain), large=False, heli=True,
+                crossroad_idx=2, position=mapping.Point(128442.2109375, 359331.96875, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='85', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=87, position=mapping.Point(128486.8515625, 359319.71875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='87', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=3, position=mapping.Point(128346.125, 363731.90625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='31', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=88, position=mapping.Point(128465.7578125, 359325.9375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='86', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=4, position=mapping.Point(128717.2265625, 360282.15625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='66', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=89, position=mapping.Point(128533.2890625, 359308.1875, self._terrain), large=False, heli=True,
+                crossroad_idx=5, position=mapping.Point(129540.4765625, 361823.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='60', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=6, position=mapping.Point(128669.53125, 360198.84375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='70', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=7, position=mapping.Point(128479.296875, 361779.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='129', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=8, position=mapping.Point(128471.5625, 361753.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='128', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=9, position=mapping.Point(126834.375, 363879.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='27', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=10, position=mapping.Point(129138.5546875, 362259.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='122', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=11, position=mapping.Point(129265.0859375, 362550.9375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='109', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=12, position=mapping.Point(129447.609375, 361887, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='55', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=14, position=mapping.Point(128537.265625, 363519.375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='43', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=15, position=mapping.Point(127159.546875, 363720.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='21', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=16, position=mapping.Point(126994.578125, 363046.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='10', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=17, position=mapping.Point(128468.33942502, 363636.39937917, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='38', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=18, position=mapping.Point(128484.640625, 361806.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='130', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=19, position=mapping.Point(129398.1953125, 362801.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='114', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=20, position=mapping.Point(129202.46875, 362466.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='110', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=21, position=mapping.Point(128613.5625, 362078.875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='44', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=22, position=mapping.Point(128557.3828125, 359578.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='81', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=23, position=mapping.Point(126922, 362774.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='06', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=24, position=mapping.Point(128322.5390625, 363636.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='28', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=25, position=mapping.Point(128551.6484375, 363576.90625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='41', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=26, position=mapping.Point(128819.921875, 359236.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='98', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=27, position=mapping.Point(128569.734375, 361731.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='124', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=28, position=mapping.Point(128491.6484375, 361832.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='131', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=29, position=mapping.Point(129379.9140625, 362848.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='113', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=30, position=mapping.Point(126981.3515625, 362993.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='09', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=31, position=mapping.Point(128533.2890625, 359308.1875, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='89', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=90, position=mapping.Point(128556.25, 359301.65625, self._terrain), large=False, heli=True,
+                crossroad_idx=32, position=mapping.Point(129162.640625, 361705.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='53', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=33, position=mapping.Point(126923.65625, 363853.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='25', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=34, position=mapping.Point(128405.05064167, 363652.98315418, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='36', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=35, position=mapping.Point(129135.71875, 361723.40625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='52', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=36, position=mapping.Point(128790.5078125, 359247.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='97', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=37, position=mapping.Point(128582.7578125, 361783.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='126', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=38, position=mapping.Point(128576.28125, 361757.65625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='125', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=39, position=mapping.Point(128732.921875, 360180.3125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='68', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=40, position=mapping.Point(127020.7578125, 363154.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='12', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=41, position=mapping.Point(128407.734375, 359177.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='92', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=43, position=mapping.Point(129630.015625, 361760.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='65', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=44, position=mapping.Point(127115.6015625, 363550.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='18', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=45, position=mapping.Point(129520.703125, 361837.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='59', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=46, position=mapping.Point(128923.46875, 359210.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='101', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=47, position=mapping.Point(128590.34375, 361810.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='127', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=49, position=mapping.Point(127007.90625, 363101.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='11', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=50, position=mapping.Point(128508.9609375, 359312.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='88', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=51, position=mapping.Point(126879.921875, 362611.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='03', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=52, position=mapping.Point(127129.8828125, 363605.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='19', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=53, position=mapping.Point(127013.8125, 363832.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='23', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=54, position=mapping.Point(129593.921875, 361785.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='63', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=55, position=mapping.Point(128855.125, 359228.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='99', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=56, position=mapping.Point(129417.125, 362756.1875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='115', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=57, position=mapping.Point(128557.9609375, 363605.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='40', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=58, position=mapping.Point(128679.3046875, 360146.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='71', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=59, position=mapping.Point(129098.3515625, 361748.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='51', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=60, position=mapping.Point(129125.4765625, 362206.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='120', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=61, position=mapping.Point(129247.4375, 362482.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='111', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=62, position=mapping.Point(127033.6875, 363207.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='13', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=63, position=mapping.Point(127174.8984375, 363780.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='22', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=64, position=mapping.Point(128491.171875, 363731.4375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='34', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=65, position=mapping.Point(128956.2734375, 359201.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='102', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=66, position=mapping.Point(129483.875, 361863.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='57', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=67, position=mapping.Point(129133.2109375, 362232.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='121', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=68, position=mapping.Point(126476.5, 363031.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='106', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=69, position=mapping.Point(126850.265625, 362500.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='01', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=70, position=mapping.Point(128528.15625, 359637.8125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='78', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=71, position=mapping.Point(129503.2890625, 361849.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='58', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=72, position=mapping.Point(128510.3046875, 359950.03125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='77', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=73, position=mapping.Point(128557.4609375, 359955.28125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='76', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=74, position=mapping.Point(128338.8828125, 363699.84375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='30', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=75, position=mapping.Point(126878.9921875, 363866.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='26', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=76, position=mapping.Point(129190.15625, 361687.1875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='54', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=77, position=mapping.Point(129172.9609375, 362519.09375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='107', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=78, position=mapping.Point(126463.1015625, 362973.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='105', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=79, position=mapping.Point(129612.484375, 361772.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='64', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=80, position=mapping.Point(128662.3046875, 360245.9375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='69', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=81, position=mapping.Point(127046.875, 363260.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='14', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=82, position=mapping.Point(128459.4453125, 363738.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='33', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=83, position=mapping.Point(127060.7265625, 363315.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='15', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=84, position=mapping.Point(128522.6953125, 363723.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='35', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=86, position=mapping.Point(126967.46875, 362937.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='08', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=87, position=mapping.Point(128556.25, 359301.65625, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='90', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=91, position=mapping.Point(128459.375, 359141.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='95', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=88, position=mapping.Point(128532.2109375, 360009.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='74', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=92, position=mapping.Point(128419.59375, 359339.625, self._terrain), large=False, heli=True,
+                crossroad_idx=89, position=mapping.Point(128419.59375, 359339.625, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='84', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=93, position=mapping.Point(128508.9609375, 359312.96875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='88', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=90, position=mapping.Point(128463.390625, 359563.3125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='80', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=91, position=mapping.Point(128628.796875, 360023.1875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='72', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=92, position=mapping.Point(129244.2578125, 362263.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='119', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=93, position=mapping.Point(126936.59375, 362830.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='07', length=60.0, width=52.0, height=18.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=94, position=mapping.Point(128366.5, 359153.6875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='91', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=95, position=mapping.Point(128504.8203125, 359167.5, self._terrain), large=False, heli=False,
+                crossroad_idx=95, position=mapping.Point(129466.53125, 361874.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='56', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=96, position=mapping.Point(126894.28125, 362665.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='04', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=97, position=mapping.Point(128488.609375, 359503.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='83', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=98, position=mapping.Point(129030.484375, 361793.9375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='49', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=99, position=mapping.Point(128504.8203125, 359167.5, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='94', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=96, position=mapping.Point(128679.3046875, 360146.625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='71', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=100, position=mapping.Point(129145.5625, 362285.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='123', length=20.0, width=14.0, height=6.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=97, position=mapping.Point(128669.53125, 360198.84375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='70', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=101, position=mapping.Point(129016.8828125, 361803.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='48', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=98, position=mapping.Point(128628.796875, 360023.1875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='72', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=102, position=mapping.Point(128465.7578125, 359325.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='86', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=99, position=mapping.Point(128576.59375, 360018, self._terrain), large=False, heli=False,
+                crossroad_idx=103, position=mapping.Point(128520.4375, 359538.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='82', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=104, position=mapping.Point(128576.59375, 360018, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='73', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=100, position=mapping.Point(128819.921875, 359236.4375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='98', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=105, position=mapping.Point(129223.6484375, 362184.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='116', length=20.0, width=14.0, height=6.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=101, position=mapping.Point(128855.125, 359228.375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='99', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=106, position=mapping.Point(128486.8515625, 359319.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='87', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=102, position=mapping.Point(128790.5078125, 359247.5625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='97', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=107, position=mapping.Point(128667.375, 362041.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='46', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=103, position=mapping.Point(128887.640625, 359219.0625, self._terrain), large=False, heli=True,
+                crossroad_idx=108, position=mapping.Point(128436.703125, 363645.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='37', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=109, position=mapping.Point(128887.640625, 359219.0625, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='100', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=104, position=mapping.Point(128923.46875, 359210.90625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='101', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=105, position=mapping.Point(128956.2734375, 359201.78125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='102', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=108, position=mapping.Point(126475.265625, 363027.4375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='106', length=26.0, width=24.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=109, position=mapping.Point(126462.2109375, 362967.90625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='105', length=26.0, width=24.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=110, position=mapping.Point(126433.1953125, 362891.40625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='104', length=26.0, width=24.0, height=11.0, shelter=False))
+                crossroad_idx=110, position=mapping.Point(129230.1953125, 362210.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='117', length=20.0, width=14.0, height=6.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=111, position=mapping.Point(126420.625, 362841.03125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='103', length=26.0, width=24.0, height=11.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=112, position=mapping.Point(129172.9609375, 362519.09375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='107', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=112, position=mapping.Point(126433.1953125, 362891.40625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='104', length=26.0, width=24.0, height=11.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=113, position=mapping.Point(129219.9296875, 362534.8125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='108', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=113, position=mapping.Point(128459.375, 359141.3125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='95', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=114, position=mapping.Point(129265.0859375, 362550.9375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='109', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=114, position=mapping.Point(128543.8671875, 363548.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='42', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=115, position=mapping.Point(129202.46875, 362466.96875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='110', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=115, position=mapping.Point(127144.25, 363666.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='20', length=60.0, width=52.0, height=18.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=116, position=mapping.Point(129247.4375, 362482.6875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='111', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=116, position=mapping.Point(128724.4296875, 360234.9375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='67', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=117, position=mapping.Point(129295.328125, 362497.625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='112', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=118, position=mapping.Point(129417.125, 362756.1875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='115', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=119, position=mapping.Point(129398.1953125, 362801.46875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='114', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=120, position=mapping.Point(129379.9140625, 362848.21875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='113', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=121, position=mapping.Point(129125.4765625, 362206.21875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='120', length=20.0, width=14.0, height=6.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=122, position=mapping.Point(129133.2109375, 362232.78125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='121', length=20.0, width=14.0, height=6.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=123, position=mapping.Point(129138.5546875, 362259.3125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='122', length=20.0, width=14.0, height=6.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=124, position=mapping.Point(129145.5625, 362285.5625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='123', length=20.0, width=14.0, height=6.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=125, position=mapping.Point(129223.6484375, 362184.5, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='116', length=20.0, width=14.0, height=6.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=126, position=mapping.Point(129230.1953125, 362210.75, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='117', length=20.0, width=14.0, height=6.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=127, position=mapping.Point(129236.671875, 362237, self._terrain), large=False, heli=True,
+                crossroad_idx=117, position=mapping.Point(129236.671875, 362237, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='118', length=20.0, width=14.0, height=6.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=128, position=mapping.Point(129244.2578125, 362263.6875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='119', length=20.0, width=14.0, height=6.0, shelter=False))
+                crossroad_idx=119, position=mapping.Point(128612.203125, 359961.78125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='75', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=129, position=mapping.Point(128471.5625, 361753.125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='128', length=20.0, width=14.0, height=6.0, shelter=False))
+                crossroad_idx=120, position=mapping.Point(126864.9296875, 362556.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='02', length=60.0, width=52.0, height=18.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=130, position=mapping.Point(128479.296875, 361779.6875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='129', length=20.0, width=14.0, height=6.0, shelter=False))
+                crossroad_idx=121, position=mapping.Point(127170.3984375, 364006.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='132', length=60.0, width=52.0, height=18.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=131, position=mapping.Point(128484.640625, 361806.21875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='130', length=20.0, width=14.0, height=6.0, shelter=False))
+                crossroad_idx=122, position=mapping.Point(128640.2578125, 362060.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='45', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=132, position=mapping.Point(128491.6484375, 361832.46875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='131', length=20.0, width=14.0, height=6.0, shelter=False))
+                crossroad_idx=123, position=mapping.Point(128330.484375, 363668.03125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='29', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=133, position=mapping.Point(128569.734375, 361731.40625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='124', length=20.0, width=14.0, height=6.0, shelter=False))
+                crossroad_idx=124, position=mapping.Point(129295.328125, 362497.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='112', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=134, position=mapping.Point(128576.28125, 361757.65625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='125', length=20.0, width=14.0, height=6.0, shelter=False))
+                crossroad_idx=125, position=mapping.Point(128694.640625, 362023.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='47', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=135, position=mapping.Point(128582.7578125, 361783.90625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='126', length=20.0, width=14.0, height=6.0, shelter=False))
+                crossroad_idx=126, position=mapping.Point(128454.59375, 359205.4375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='93', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=136, position=mapping.Point(128590.34375, 361810.59375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='127', length=20.0, width=14.0, height=6.0, shelter=False))
+                crossroad_idx=127, position=mapping.Point(126967.8203125, 363844, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='24', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=128, position=mapping.Point(129576.5078125, 361797.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='62', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=129, position=mapping.Point(127086.78125, 363432.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='16', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=130, position=mapping.Point(128500.25, 363629.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='39', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=132, position=mapping.Point(128418.609375, 359117.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='96', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=133, position=mapping.Point(126907.5390625, 362720.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='05', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=134, position=mapping.Point(128494.59375, 359599.3125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='79', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=135, position=mapping.Point(127101.296875, 363487.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='17', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=136, position=mapping.Point(128427.5859375, 363746.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='32', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=137, position=mapping.Point(129044.3203125, 361785.0625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='50', length=21.0, width=15.0, height=8.0, shelter=False))
 
 
 class Ramon_Airbase(Airport):
@@ -1610,386 +1691,413 @@ class Ramon_Airbase(Airport):
     atc_radio = AtcRadio(hf_hz=4875000, vhf_low_hz=40650000, vhf_high_hz=119800000, uhf_hz=252250000)
 
     def __init__(self, terrain: Terrain) -> None:
-        super().__init__(mapping.Point(80825.4375, 328661.15625, terrain), terrain)
+        super().__init__(mapping.Point(80533.039063, 328870.265625, terrain), terrain)
 
         self.beacons.append(AirportBeacon(id='airfield9_2'))
-        self.runways.append(Runway(id=1, name='07R-25L', main=RunwayApproach(name='07R', heading=70, beacons=[]), opposite=RunwayApproach(name='25L', heading=250, beacons=[])))
         self.runways.append(Runway(id=2, name='07L-25R', main=RunwayApproach(name='07L', heading=70, beacons=[]), opposite=RunwayApproach(name='25R', heading=250, beacons=[])))
+        self.runways.append(Runway(id=1, name='07R-25L', main=RunwayApproach(name='07R', heading=70, beacons=[]), opposite=RunwayApproach(name='25L', heading=250, beacons=[])))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=4, position=mapping.Point(79515.140625, 329132.3125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H27', length=42.0, width=34.0, height=14.0, shelter=False))
+                crossroad_idx=0, position=mapping.Point(79251.7109375, 327757.5625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='24', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=5, position=mapping.Point(79468.921875, 329151.84375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H28', length=42.0, width=34.0, height=14.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=6, position=mapping.Point(79454.8359375, 330063.8125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H19', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=7, position=mapping.Point(79478.9609375, 330083.46875, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H20', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=8, position=mapping.Point(79502.625, 330102.40625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H21', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=9, position=mapping.Point(79589.53125, 330170.40625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H22', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=10, position=mapping.Point(79613.9140625, 330189.65625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H23', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=11, position=mapping.Point(79637.2109375, 330208.15625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H24', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=12, position=mapping.Point(79662.234375, 330227.5, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H25', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=13, position=mapping.Point(79686.078125, 330246.84375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H26', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=14, position=mapping.Point(79684.5625, 330367.75, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H01', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=15, position=mapping.Point(79345.796875, 330075.8125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H17', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=16, position=mapping.Point(79365.59375, 330091.0625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H16', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=17, position=mapping.Point(79385.5078125, 330106.4375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H15', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=18, position=mapping.Point(79444.203125, 330152.84375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H12', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=19, position=mapping.Point(79424.515625, 330137.9375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H13', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=20, position=mapping.Point(79404.9296875, 330122.25, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H14', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=21, position=mapping.Point(79483.3203125, 330184.03125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H10', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=22, position=mapping.Point(79463.6640625, 330168.65625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H11', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=23, position=mapping.Point(79503.0703125, 330199.53125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H09', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=24, position=mapping.Point(79522.78125, 330215.28125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H08', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=25, position=mapping.Point(79542.46875, 330230.46875, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H07', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=26, position=mapping.Point(79562.09375, 330245.9375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H06', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=27, position=mapping.Point(79581.7578125, 330261.46875, self._terrain), large=False, heli=True,
+                crossroad_idx=1, position=mapping.Point(79581.7578125, 330261.46875, self._terrain), large=False, heli=True,
                 airplanes=False, slot_name='H05', length=30.0, width=23.0, height=10.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=28, position=mapping.Point(79601.421875, 330276.84375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H04', length=30.0, width=23.0, height=10.0, shelter=False))
+                crossroad_idx=3, position=mapping.Point(79684.5625, 330367.75, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H01', length=30.0, width=23.0, height=10.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=29, position=mapping.Point(79620.8203125, 330292.40625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H03', length=30.0, width=23.0, height=10.0, shelter=False))
+                crossroad_idx=4, position=mapping.Point(79744.0390625, 327474.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='09', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=30, position=mapping.Point(79640.7890625, 330307.5, self._terrain), large=False, heli=True,
+                crossroad_idx=5, position=mapping.Point(79750.015625, 328745.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='44', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=6, position=mapping.Point(80167.125, 329572.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='61', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=7, position=mapping.Point(79836.390625, 328807.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='104', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=8, position=mapping.Point(79640.7890625, 330307.5, self._terrain), large=False, heli=True,
                 airplanes=False, slot_name='H02', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=9, position=mapping.Point(80605.7265625, 330224.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='71', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=10, position=mapping.Point(79345.796875, 330075.8125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H17', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=11, position=mapping.Point(79232.9140625, 327700.4375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='20', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=12, position=mapping.Point(79206.8125, 327778.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='23', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=13, position=mapping.Point(80287.9140625, 329903.90625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='69', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=14, position=mapping.Point(80573.2421875, 330188.34375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='70', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=15, position=mapping.Point(81094.3125, 330594, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='90', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=16, position=mapping.Point(79515.140625, 329132.3125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H27', length=42.0, width=34.0, height=14.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=17, position=mapping.Point(79871.1640625, 328898.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='51', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=18, position=mapping.Point(79715.1953125, 328978.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='45', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=19, position=mapping.Point(80535.703125, 330516.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='81', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=20, position=mapping.Point(80268.40625, 329842.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='65', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=21, position=mapping.Point(81040.9375, 330221.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='86', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=22, position=mapping.Point(79468.921875, 329151.84375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H28', length=42.0, width=34.0, height=14.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=23, position=mapping.Point(79806.5859375, 328937.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='49', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=24, position=mapping.Point(79452.328125, 328953.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='94', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=25, position=mapping.Point(79444.203125, 330152.84375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H12', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=26, position=mapping.Point(79365.59375, 330091.0625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H16', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=27, position=mapping.Point(80313.109375, 329821.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='64', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=28, position=mapping.Point(79818.375, 328714.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='41', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=29, position=mapping.Point(79454.8359375, 330063.8125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H19', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=30, position=mapping.Point(80224.4140625, 329862.28125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='66', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=31, position=mapping.Point(79477.046875, 328942.9375, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='93', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=32, position=mapping.Point(79452.328125, 328953.46875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='94', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=33, position=mapping.Point(79426, 328965.5, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='95', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=34, position=mapping.Point(79398.5390625, 328975.1875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='96', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=35, position=mapping.Point(79373.203125, 328985.9375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='97', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=36, position=mapping.Point(79715.1953125, 328978.09375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='45', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=37, position=mapping.Point(79737.9375, 328967.90625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='46', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=38, position=mapping.Point(79760.734375, 328957.53125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='47', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=39, position=mapping.Point(79783.7421875, 328947.53125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='48', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=40, position=mapping.Point(79806.5859375, 328937.375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='49', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=41, position=mapping.Point(79848.7421875, 328909.09375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='50', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=42, position=mapping.Point(79871.1640625, 328898.46875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='51', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=43, position=mapping.Point(79894.1640625, 328888.6875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='52', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=44, position=mapping.Point(79917.2421875, 328878.84375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='53', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=45, position=mapping.Point(79940.3203125, 328869.6875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='54', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=46, position=mapping.Point(79963.46875, 328860.375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='55', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=47, position=mapping.Point(79986.78125, 328850.875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='56', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=48, position=mapping.Point(80009.703125, 328840.34375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='57', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=49, position=mapping.Point(79845.90625, 328674.53125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='40', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=50, position=mapping.Point(79867.6875, 328663.9375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='39', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=51, position=mapping.Point(79888.65625, 328654.46875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='38', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=52, position=mapping.Point(79911.65625, 328644.34375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='37', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=53, position=mapping.Point(79587.715611107, 327247.34537155, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='03', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=54, position=mapping.Point(79548.578125, 327219.37894967, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='02', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=55, position=mapping.Point(79508.689846148, 327191.19751641, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='01', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=56, position=mapping.Point(79669.638640059, 327230.61469351, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='06', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=57, position=mapping.Point(79363.6015625, 327501.125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='15', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=58, position=mapping.Point(79244.59375, 327453.25, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='16', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=59, position=mapping.Point(79278.4296875, 327491.125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='17', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=60, position=mapping.Point(79307.71875, 327528.09375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='18', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=61, position=mapping.Point(79681.609375, 327505.84375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='12', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=62, position=mapping.Point(79698.6484375, 327493.46875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='11', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=63, position=mapping.Point(79722.8984375, 327484.1875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='10', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=64, position=mapping.Point(79744.0390625, 327474.0625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='09', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=65, position=mapping.Point(79764.21875, 327463.3125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='08', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=66, position=mapping.Point(79787.9765625, 327454.65625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='07', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=67, position=mapping.Point(79502.0390625, 327987.71875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='28', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=68, position=mapping.Point(79532.802698871, 328025.67669192, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='29', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=69, position=mapping.Point(79562.04511483, 328063.55123491, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='30', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=70, position=mapping.Point(79622.4140625, 328036.4375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='27', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=71, position=mapping.Point(79503.627540489, 328268.96607058, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='31', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=72, position=mapping.Point(79527.301353935, 328329.19243708, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='36', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=73, position=mapping.Point(79486.976066353, 328356.35286734, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='35', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=74, position=mapping.Point(79445.828401588, 328386.00292306, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='34', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=75, position=mapping.Point(79277.999541852, 327680.13515865, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='19', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=76, position=mapping.Point(79161.482965822, 327798.87232058, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='22', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=77, position=mapping.Point(79206.812326333, 327778.12105033, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='23', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=78, position=mapping.Point(79251.709354655, 327757.55199071, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='24', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=79, position=mapping.Point(80167.123943898, 329572.48620292, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='61', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=80, position=mapping.Point(80200.445295133, 329607.69850349, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='62', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=81, position=mapping.Point(80234.91090624, 329642.71247221, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='63', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=82, position=mapping.Point(80316.921875, 329639.0625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='60', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=83, position=mapping.Point(80224.41716666, 329862.29056248, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='66', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=84, position=mapping.Point(80199.171205026, 329944.40558003, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='67', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=85, position=mapping.Point(80244.564558292, 329921.69060416, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='68', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=86, position=mapping.Point(80287.916620355, 329903.90625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='69', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=87, position=mapping.Point(80490.842410289, 330188.10793109, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='75', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=88, position=mapping.Point(80522.717163187, 330224.74054859, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='74', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=89, position=mapping.Point(80554.447922456, 330261.27596062, self._terrain), large=False, heli=False,
+                crossroad_idx=32, position=mapping.Point(80554.4453125, 330261.28125, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='73', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=90, position=mapping.Point(80605.7265625, 330224.75, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='71', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=33, position=mapping.Point(79613.9140625, 330189.65625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H23', length=30.0, width=23.0, height=10.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=91, position=mapping.Point(80461.4375, 330497.15625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='78', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=92, position=mapping.Point(80461.837765005, 330580.38630002, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='79', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=93, position=mapping.Point(80498.930058815, 330549.10983315, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='80', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=94, position=mapping.Point(80535.703478011, 330516.22248814, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='81', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=95, position=mapping.Point(81046.7109375, 330474.6875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='87', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=96, position=mapping.Point(81104.5, 330497.5, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='92', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=97, position=mapping.Point(81099.5625, 330545.53125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='91', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=98, position=mapping.Point(81094.3125, 330594, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='90', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=99, position=mapping.Point(81040.9375, 330221.6875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='86', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=100, position=mapping.Point(81004.6015625, 330237.40625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='85', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=101, position=mapping.Point(80969.7421875, 330253.5625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='84', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=102, position=mapping.Point(80933.75, 330273.5625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='83', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=103, position=mapping.Point(80900.6015625, 330283.28125, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='82', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=104, position=mapping.Point(79818.375, 328714.375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='41', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=105, position=mapping.Point(79795.34375, 328724.84375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='42', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=106, position=mapping.Point(79773.4296875, 328735.5625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='43', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=107, position=mapping.Point(79750.015625, 328745.96875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='44', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=108, position=mapping.Point(79281.4296875, 330049.9375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H18', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=109, position=mapping.Point(81041.125, 330522.8125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='88', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=110, position=mapping.Point(81035.684378473, 330571.08592013, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='89', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=111, position=mapping.Point(80497.9296875, 330465.875, self._terrain), large=False, heli=False,
+                crossroad_idx=34, position=mapping.Point(80497.9296875, 330465.875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='77', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=112, position=mapping.Point(80534.8359375, 330432.625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='76', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=35, position=mapping.Point(79888.65625, 328654.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='38', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=113, position=mapping.Point(80637.223228935, 330261.34995898, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='72', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=36, position=mapping.Point(79478.9609375, 330083.46875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H20', length=30.0, width=23.0, height=10.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=114, position=mapping.Point(80573.2421875, 330188.33178001, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='70', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=37, position=mapping.Point(79795.34375, 328724.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='42', length=26.0, width=22.0, height=11.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=115, position=mapping.Point(80268.407784713, 329842.46712845, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='65', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=38, position=mapping.Point(80199.171875, 329944.40625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='67', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=116, position=mapping.Point(80313.107805553, 329821.95464235, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='64', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=39, position=mapping.Point(79426, 328965.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='95', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=117, position=mapping.Point(80283.3828125, 329603.71875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='59', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=40, position=mapping.Point(80244.5625, 329921.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='68', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=118, position=mapping.Point(80250.4296875, 329568.78125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='58', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=41, position=mapping.Point(79385.5078125, 330106.4375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H15', length=30.0, width=23.0, height=10.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=119, position=mapping.Point(79462.7265625, 328297.125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='32', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=120, position=mapping.Point(79422.5390625, 328323.40625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='33', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=121, position=mapping.Point(79591.3828125, 327997.90625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='26', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=122, position=mapping.Point(79561.6484375, 327960.03125, self._terrain), large=False, heli=False,
+                crossroad_idx=42, position=mapping.Point(79570.0240565, 327970.30930153, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='25', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=123, position=mapping.Point(79232.9140625, 327700.4375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='20', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=43, position=mapping.Point(80283.3828125, 329603.71875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='59', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=124, position=mapping.Point(79188.634100111, 327719.45873359, self._terrain), large=False, heli=False,
+                crossroad_idx=44, position=mapping.Point(79911.65625, 328644.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='37', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=45, position=mapping.Point(80933.75, 330273.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='83', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=46, position=mapping.Point(79797.5390625, 328824.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='106', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=47, position=mapping.Point(80250.4296875, 329568.78125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='58', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=48, position=mapping.Point(79764.21875, 327463.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='08', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=49, position=mapping.Point(79773.4296875, 328735.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='43', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=50, position=mapping.Point(79856.953125, 328798.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='103', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=51, position=mapping.Point(80461.8359375, 330580.375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='79', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=52, position=mapping.Point(79188.6328125, 327719.46875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='21', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=125, position=mapping.Point(79333.704870759, 327462.7137418, self._terrain), large=False, heli=False,
+                crossroad_idx=53, position=mapping.Point(79502.0390625, 327987.71875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='28', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=54, position=mapping.Point(80534.8359375, 330432.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='76', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=55, position=mapping.Point(79462.7265625, 328297.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='32', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=56, position=mapping.Point(79848.7421875, 328909.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='50', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=57, position=mapping.Point(79161.484375, 327798.875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='22', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=58, position=mapping.Point(79398.5390625, 328975.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='96', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=59, position=mapping.Point(79463.6640625, 330168.65625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H11', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=61, position=mapping.Point(79422.5390625, 328323.40625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='33', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=62, position=mapping.Point(80637.2265625, 330261.34375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='72', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=63, position=mapping.Point(79894.1640625, 328888.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='52', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=64, position=mapping.Point(79601.421875, 330276.84375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H04', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=65, position=mapping.Point(80498.9296875, 330549.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='80', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=66, position=mapping.Point(79527.3046875, 328329.1875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='36', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=67, position=mapping.Point(79783.7421875, 328947.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='48', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=68, position=mapping.Point(79919.5546875, 328772.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='101', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=69, position=mapping.Point(79879.671875, 328788.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='102', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=70, position=mapping.Point(79503.0703125, 330199.53125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H09', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=71, position=mapping.Point(79486.9765625, 328356.34375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='35', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=72, position=mapping.Point(79516.114441877, 327209.28343563, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='01', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=73, position=mapping.Point(81104.5, 330497.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='92', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=74, position=mapping.Point(79940.3203125, 328869.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='54', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=75, position=mapping.Point(79278.4296875, 327491.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='17', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=76, position=mapping.Point(79967.5546875, 328751.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='98', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=77, position=mapping.Point(81046.7109375, 330474.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='87', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=78, position=mapping.Point(79502.625, 330102.40625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H21', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=79, position=mapping.Point(79341.304676314, 327471.3078745, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='14', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=126, position=mapping.Point(79302.0859375, 327424.4375, self._terrain), large=False, heli=False,
+                crossroad_idx=80, position=mapping.Point(79679.026592336, 327227.98655023, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='06', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=81, position=mapping.Point(80234.9140625, 329642.71875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='63', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=82, position=mapping.Point(79698.6484375, 327493.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='11', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=83, position=mapping.Point(79935.1640625, 328765.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='100', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=84, position=mapping.Point(80522.71875, 330224.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='74', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=85, position=mapping.Point(79522.78125, 330215.28125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H08', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=86, position=mapping.Point(79589.53125, 330170.40625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H22', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=87, position=mapping.Point(81041.125, 330522.8125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='88', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=88, position=mapping.Point(79371.512114938, 327509.64472813, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='15', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=90, position=mapping.Point(79278, 327680.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='19', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=91, position=mapping.Point(79737.9375, 328967.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='46', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=92, position=mapping.Point(80461.4375, 330497.15625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='78', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=93, position=mapping.Point(79637.2109375, 330208.15625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H24', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=94, position=mapping.Point(79722.8984375, 327484.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='10', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=95, position=mapping.Point(79963.46875, 328860.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='55', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=96, position=mapping.Point(80200.4453125, 329607.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='62', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=97, position=mapping.Point(79244.59375, 327453.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='16', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=98, position=mapping.Point(79951.0078125, 328758.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='99', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=99, position=mapping.Point(79373.203125, 328985.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='97', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=100, position=mapping.Point(79404.9296875, 330122.25, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H14', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=101, position=mapping.Point(79310.841043749, 327433.28376671, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='13', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=127, position=mapping.Point(79630.734375, 327201.53125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='05', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=102, position=mapping.Point(79532.8046875, 328025.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='29', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=128, position=mapping.Point(79590.8203125, 327173.375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='04', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=103, position=mapping.Point(80316.921875, 329639.0625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='60', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=104, position=mapping.Point(79816.234375, 328816.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='105', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=106, position=mapping.Point(79787.9765625, 327454.65625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='07', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=107, position=mapping.Point(81035.6875, 330571.09375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='89', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=108, position=mapping.Point(80009.703125, 328840.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='57', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=109, position=mapping.Point(79424.515625, 330137.9375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H13', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=110, position=mapping.Point(79281.4296875, 330049.9375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H18', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=111, position=mapping.Point(79662.234375, 330227.5, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H25', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=112, position=mapping.Point(81004.6015625, 330237.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='85', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=113, position=mapping.Point(81099.5625, 330545.53125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='91', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=114, position=mapping.Point(79307.71875, 327528.09375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='18', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=115, position=mapping.Point(79620.8203125, 330292.40625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H03', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=116, position=mapping.Point(79503.625, 328268.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='31', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=117, position=mapping.Point(79867.6875, 328663.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='39', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=118, position=mapping.Point(80900.6015625, 330283.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='82', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=119, position=mapping.Point(80969.7421875, 330253.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='84', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=120, position=mapping.Point(79986.78125, 328850.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='56', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=121, position=mapping.Point(79445.828125, 328386, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='34', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=122, position=mapping.Point(79681.609375, 327505.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='12', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=123, position=mapping.Point(79483.3203125, 330184.03125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H10', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=124, position=mapping.Point(79845.90625, 328674.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='40', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=125, position=mapping.Point(79917.2421875, 328878.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='53', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=126, position=mapping.Point(79542.46875, 330230.46875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H07', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=127, position=mapping.Point(79686.078125, 330246.84375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H26', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=128, position=mapping.Point(79562.046875, 328063.5625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='30', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=129, position=mapping.Point(80490.84375, 330188.09375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='75', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=130, position=mapping.Point(79562.09375, 330245.9375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H06', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=131, position=mapping.Point(79760.734375, 328957.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='47', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=132, position=mapping.Point(79597.780083193, 328006.16446474, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='25', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=133, position=mapping.Point(79627.771836023, 328042.57787348, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='25', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=134, position=mapping.Point(79555.010296252, 327236.44087803, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='01', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=135, position=mapping.Point(79596.29294498, 327262.76502883, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='01', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=136, position=mapping.Point(79638.425332918, 327199.43575642, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='06', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=137, position=mapping.Point(79600.202153159, 327170.83716455, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='06', length=21.0, width=15.0, height=8.0, shelter=False))
 
 
 class Ovda(Airport):
@@ -4157,6 +4265,7 @@ class Hatzor(Airport):
         super().__init__(mapping.Point(189869.304688, 332622.0625, terrain), terrain)
 
         self.beacons.append(AirportBeacon(id='airfield20_1'))
+        self.beacons.append(AirportBeacon(id='airfield20_0'))
         self.runways.append(Runway(id=3, name='29R-11L', main=RunwayApproach(name='29R', heading=290, beacons=[]), opposite=RunwayApproach(name='11L', heading=110, beacons=[])))
         self.runways.append(Runway(id=2, name='29L-11R', main=RunwayApproach(name='29L', heading=290, beacons=[]), opposite=RunwayApproach(name='11R', heading=110, beacons=[])))
         self.runways.append(Runway(id=1, name='05-23', main=RunwayApproach(name='05', heading=50, beacons=[RunwayBeacon(id='airfield20_2', runway_name='05-23', runway_id=1, runway_side='05'), RunwayBeacon(id='airfield20_3', runway_name='05-23', runway_id=1, runway_side='05')]), opposite=RunwayApproach(name='23', heading=230, beacons=[])))
@@ -4468,7 +4577,7 @@ class Palmachim(Airport):
     def __init__(self, terrain: Terrain) -> None:
         super().__init__(mapping.Point(205486.703125, 329304.75, terrain), terrain)
 
-        self.runways.append(Runway(id=1, name='03R-21L', main=RunwayApproach(name='03R', heading=30, beacons=[]), opposite=RunwayApproach(name='21L', heading=210, beacons=[])))
+        self.runways.append(Runway(id=1, name='03R-21L', main=RunwayApproach(name='03', heading=30, beacons=[]), opposite=RunwayApproach(name='21', heading=210, beacons=[])))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=2, position=mapping.Point(206004.984375, 329723, self._terrain), large=False, heli=True,
                 airplanes=False, slot_name='H30', length=30.0, width=23.0, height=10.0, shelter=False))
@@ -4863,404 +4972,413 @@ class Tel_Nof(Airport):
         self.runways.append(Runway(id=3, name='33R-15L', main=RunwayApproach(name='33R', heading=330, beacons=[]), opposite=RunwayApproach(name='15L', heading=150, beacons=[])))
         self.runways.append(Runway(id=1, name='36-18', main=RunwayApproach(name='36', heading=360, beacons=[RunwayBeacon(id='airfield23_1', runway_name='36-18', runway_id=1, runway_side='36'), RunwayBeacon(id='airfield23_2', runway_name='36-18', runway_id=1, runway_side='36')]), opposite=RunwayApproach(name='18', heading=180, beacons=[])))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=6, position=mapping.Point(199667.40625, 341034.375, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='01', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=7, position=mapping.Point(199611, 341007.71875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='02', length=40.0, width=40.0, height=12.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=8, position=mapping.Point(199205.3260128, 340963.24763327, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='04', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=9, position=mapping.Point(199179.09375, 340992.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='03', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=10, position=mapping.Point(199074.98035421, 340938.14199944, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='05', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=11, position=mapping.Point(199035.90625, 340937.78817166, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='06', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=12, position=mapping.Point(198997.23680798, 340870.30643326, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='07', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=13, position=mapping.Point(198969.58843149, 340897.9822628, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='08', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=14, position=mapping.Point(198728.578125, 340806.75, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H03', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=15, position=mapping.Point(198707.421875, 340827.5625, self._terrain), large=False, heli=True,
+                crossroad_idx=0, position=mapping.Point(198707.421875, 340827.5625, self._terrain), large=False, heli=True,
                 airplanes=False, slot_name='H04', length=30.0, width=23.0, height=10.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=16, position=mapping.Point(198688.171875, 340848.15625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H05', length=30.0, width=23.0, height=10.0, shelter=False))
+                crossroad_idx=1, position=mapping.Point(197348.21875, 342505.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='86', length=20.0, width=12.5, height=5.5, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=17, position=mapping.Point(198669.171875, 340868.40625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H06', length=30.0, width=23.0, height=10.0, shelter=False))
+                crossroad_idx=2, position=mapping.Point(197303.53125, 342458.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='90', length=20.0, width=12.5, height=5.5, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=18, position=mapping.Point(198648.796875, 340890.15625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H07', length=30.0, width=23.0, height=10.0, shelter=False))
+                crossroad_idx=3, position=mapping.Point(197000.59375, 342476.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='97', length=20.0, width=12.5, height=5.5, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=19, position=mapping.Point(198660.671875, 340708.3125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H17', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=20, position=mapping.Point(198639.84375, 340730.59375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H16', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=21, position=mapping.Point(198619.015625, 340753.0625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H15', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=22, position=mapping.Point(198599.484375, 340774.21875, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H14', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=23, position=mapping.Point(198579, 340795.71875, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H13', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=24, position=mapping.Point(198558.75, 340817.625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H12', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=25, position=mapping.Point(198475.5625, 340927.15625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H11', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=26, position=mapping.Point(198497.203125, 340946.625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H10', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=27, position=mapping.Point(198519.84375, 340966.5, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H09', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=28, position=mapping.Point(198541.171875, 340986.59375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H08', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=29, position=mapping.Point(198583.265625, 341412.53125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H18', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=30, position=mapping.Point(198561.171875, 341433.71875, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H19', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=31, position=mapping.Point(198517.359375, 341474.8125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H20', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=32, position=mapping.Point(198495.59375, 341494.8125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H21', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=33, position=mapping.Point(198474.015625, 341515.15625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H22', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=34, position=mapping.Point(198452.1875, 341537.5625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H23', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=35, position=mapping.Point(198492.421875, 341416.53125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H24', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=36, position=mapping.Point(198470.90625, 341437.09375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H25', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=37, position=mapping.Point(198450.015625, 341458.71875, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H26', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=38, position=mapping.Point(198428.171875, 341480.28125, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H27', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=39, position=mapping.Point(198212.90625, 341341.625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H32', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=40, position=mapping.Point(198236.4375, 341364.84375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H31', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=41, position=mapping.Point(198259.5, 341388.625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H30', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=42, position=mapping.Point(198282.078125, 341412.96875, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H29', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=43, position=mapping.Point(198303.796875, 341435.65625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H28', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=44, position=mapping.Point(198251.140625, 341486.5625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H37', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=45, position=mapping.Point(198228.8125, 341464, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H36', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=46, position=mapping.Point(198206.53125, 341439.0625, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H35', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=47, position=mapping.Point(198184.359375, 341415.375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H34', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=48, position=mapping.Point(198161.65625, 341391.4375, self._terrain), large=False, heli=True,
-                airplanes=False, slot_name='H33', length=30.0, width=23.0, height=10.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=49, position=mapping.Point(198757.55622221, 340303.67487496, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='10', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=50, position=mapping.Point(198744.58851016, 340340.61500539, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='09', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=51, position=mapping.Point(198665.41256252, 340249.46407511, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='12', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=52, position=mapping.Point(198678.60870503, 340212.68483503, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='11', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=53, position=mapping.Point(198613.35398265, 340126.45607784, self._terrain), large=False, heli=False,
+                crossroad_idx=4, position=mapping.Point(198757.5625, 340303.6875, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='13', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=54, position=mapping.Point(198605.97478465, 340164.22057995, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='14', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=55, position=mapping.Point(198495.22274, 340201.21542998, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='15', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=56, position=mapping.Point(198482.13919578, 340237.93394173, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='16', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=57, position=mapping.Point(197912.515625, 340051.46875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='17', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=58, position=mapping.Point(197913.140625, 340100.25, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='18', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=59, position=mapping.Point(197913.95658583, 340148.70236142, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='19', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=60, position=mapping.Point(197707.65996535, 340465.89375531, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='20', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=61, position=mapping.Point(197756.62204823, 340471.00025526, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='21', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=62, position=mapping.Point(197806.16826219, 340475.03211613, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='22', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=63, position=mapping.Point(197573.17744803, 340686.16317166, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='32', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=64, position=mapping.Point(197609.26319202, 340719.31264224, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='31', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=65, position=mapping.Point(197648.18996157, 340752.01545828, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='30', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=66, position=mapping.Point(197870.734375, 340703.25, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='23', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=67, position=mapping.Point(197865.09375, 340718.5, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='24', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=68, position=mapping.Point(197859.421875, 340733.8125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='25', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=69, position=mapping.Point(197853.703125, 340749, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='26', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=70, position=mapping.Point(197848.015625, 340764.28125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='27', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=71, position=mapping.Point(197842.296875, 340779.46875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='28', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=72, position=mapping.Point(197836.53125, 340794.78125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='29', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=73, position=mapping.Point(197164.796875, 340908.6875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='33', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=74, position=mapping.Point(197153.453125, 340920.28125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='34', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=75, position=mapping.Point(197141.953125, 340931.75, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='35', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=76, position=mapping.Point(197130.5, 340943.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='36', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=77, position=mapping.Point(197119.125, 340954.9375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='37', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=78, position=mapping.Point(197080.265625, 340870.375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='38', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=79, position=mapping.Point(197060.171875, 340869.625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='39', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=80, position=mapping.Point(197040.015625, 340869.625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='40', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=81, position=mapping.Point(196945.546875, 340922.40625, self._terrain), large=False, heli=False,
+                crossroad_idx=5, position=mapping.Point(197119.125, 340954.9375, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='41', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=82, position=mapping.Point(196930.71875, 340935.875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='42', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=6, position=mapping.Point(198428.171875, 341480.28125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H27', length=30.0, width=23.0, height=10.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=83, position=mapping.Point(196915.765625, 340950.0625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='43', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=7, position=mapping.Point(198470.90625, 341437.09375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H25', length=30.0, width=23.0, height=10.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=84, position=mapping.Point(197020.8125, 342451.6875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='96', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=8, position=mapping.Point(197648.1875, 340752, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='34', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=85, position=mapping.Point(197010.59375, 342464.375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='95', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=9, position=mapping.Point(197707.65625, 340465.90625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='26', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=86, position=mapping.Point(197000.328125, 342476.96875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='94', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=10, position=mapping.Point(197913.953125, 340148.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='23', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=87, position=mapping.Point(196990.015625, 342489.6875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='93', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=11, position=mapping.Point(198619.015625, 340753.0625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H15', length=30.0, width=23.0, height=10.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=88, position=mapping.Point(196979.8125, 342502.375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='92', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=12, position=mapping.Point(199187.390625, 341548, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='59', length=20.0, width=12.5, height=5.5, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=89, position=mapping.Point(196969.453125, 342514.84375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='91', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=13, position=mapping.Point(198958.03125, 341508.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='64', length=20.0, width=12.5, height=5.5, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=90, position=mapping.Point(196959.109375, 342527.46875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='90', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=14, position=mapping.Point(199188.671875, 341499, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='56', length=20.0, width=12.5, height=5.5, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=91, position=mapping.Point(197283.34375, 342435.75, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='78', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=92, position=mapping.Point(197294.484375, 342447.65625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='79', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=93, position=mapping.Point(197305.5625, 342459.5625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='80', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=94, position=mapping.Point(197316.734375, 342471.53125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='81', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=95, position=mapping.Point(197327.875, 342483.375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='82', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=96, position=mapping.Point(197338.796875, 342495.375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='83', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=97, position=mapping.Point(197349.859375, 342507.34375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='84', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=98, position=mapping.Point(197380.046875, 342680.625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='87', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=99, position=mapping.Point(197431.9375, 342656.21875, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='86', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=100, position=mapping.Point(197409.4375, 342595.5625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='85', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=101, position=mapping.Point(197268.46875, 342683.65625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='88', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=102, position=mapping.Point(197235.546875, 342704.0625, self._terrain), large=False, heli=True,
-                airplanes=True, slot_name='89', length=26.0, width=22.0, height=11.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=103, position=mapping.Point(197955.03125, 342038.40625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='77', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=104, position=mapping.Point(197966.171875, 342050.28125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='76', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=105, position=mapping.Point(197977.25, 342062.1875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='75', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=106, position=mapping.Point(197988.40625, 342074.15625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='74', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=107, position=mapping.Point(197999.546875, 342086.03125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='73', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=108, position=mapping.Point(198010.46875, 342098, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='72', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=109, position=mapping.Point(198021.53125, 342110, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='71', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=110, position=mapping.Point(198785.5, 341526.875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='44', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=111, position=mapping.Point(198792.140625, 341512.21875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='45', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=112, position=mapping.Point(198798.515625, 341497.1875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='46', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=113, position=mapping.Point(198805.1875, 341482.34375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='47', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=114, position=mapping.Point(198822.59375, 341451.90625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='48', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=115, position=mapping.Point(198463.859375, 341973.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='65', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=116, position=mapping.Point(198449.8125, 341981.5625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='66', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=117, position=mapping.Point(198435.765625, 341989.75, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='67', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=118, position=mapping.Point(198421.640625, 341998.03125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='68', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=119, position=mapping.Point(198407.625, 342006.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='69', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=120, position=mapping.Point(198393.53125, 342014.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='70', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=121, position=mapping.Point(198959.671875, 341443.03125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='55', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=122, position=mapping.Point(198959.328125, 341459.40625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='54', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=123, position=mapping.Point(198958.859375, 341475.59375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='53', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=124, position=mapping.Point(198958.4375, 341491.90625, self._terrain), large=False, heli=False,
+                crossroad_idx=15, position=mapping.Point(198822.59375, 341451.90625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='52', length=21.0, width=15.0, height=8.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=125, position=mapping.Point(198958.0625, 341508.21875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='51', length=21.0, width=15.0, height=8.0, shelter=False))
+                crossroad_idx=16, position=mapping.Point(197966.84375, 342051.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='75', length=20.0, width=12.5, height=5.5, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=126, position=mapping.Point(198957.578125, 341524.4375, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='50', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=127, position=mapping.Point(198957.21875, 341540.75, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='49', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=128, position=mapping.Point(198960.1875, 341426.75, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='56', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=129, position=mapping.Point(199188.546875, 341513.96875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='59', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=130, position=mapping.Point(199188.078125, 341530.1875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='58', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=131, position=mapping.Point(199187.71875, 341546.46875, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='57', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=132, position=mapping.Point(199190.6875, 341432.5, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='64', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=133, position=mapping.Point(199190.171875, 341448.78125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='63', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=134, position=mapping.Point(199189.828125, 341465.15625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='62', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=135, position=mapping.Point(199189.359375, 341481.3125, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='61', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=136, position=mapping.Point(199188.9375, 341497.625, self._terrain), large=False, heli=False,
-                airplanes=True, slot_name='60', length=21.0, width=15.0, height=8.0, shelter=False))
-        self.parking_slots.append(ParkingSlot(
-                crossroad_idx=137, position=mapping.Point(198865, 341331.625, self._terrain), large=False, heli=True,
+                crossroad_idx=18, position=mapping.Point(198865, 341331.625, self._terrain), large=False, heli=True,
                 airplanes=False, slot_name='H01', length=42.0, width=34.0, height=14.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=138, position=mapping.Point(198827.03125, 341332.53125, self._terrain), large=False, heli=True,
+                crossroad_idx=19, position=mapping.Point(198688.171875, 340848.15625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H05', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=20, position=mapping.Point(199613.1875, 341006.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='05', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=21, position=mapping.Point(199656.3125, 341027.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='03', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=22, position=mapping.Point(198665.40625, 340249.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='16', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=23, position=mapping.Point(198282.078125, 341412.96875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H29', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=24, position=mapping.Point(197609.265625, 340719.3125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='35', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=25, position=mapping.Point(198495.59375, 341494.8125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H21', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=26, position=mapping.Point(197573.171875, 340686.15625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='36', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=27, position=mapping.Point(197130.5, 340943.3125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='40', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=28, position=mapping.Point(198583.265625, 341412.53125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H18', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=29, position=mapping.Point(198957.1875, 341541.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='66', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=30, position=mapping.Point(198422.65625, 341997, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='70', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=31, position=mapping.Point(197956, 342039.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='74', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=32, position=mapping.Point(197380.046875, 342680.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='83', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=33, position=mapping.Point(196990.28125, 342489.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='96', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=34, position=mapping.Point(198161.65625, 341391.4375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H33', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=35, position=mapping.Point(198228.8125, 341464, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H36', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=36, position=mapping.Point(196930.71875, 340935.875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='46', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=37, position=mapping.Point(198452.1875, 341537.5625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H23', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=38, position=mapping.Point(197756.625, 340471, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='25', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=39, position=mapping.Point(198558.75, 340817.625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H12', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=40, position=mapping.Point(198579, 340795.71875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H13', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=41, position=mapping.Point(199190.0625, 341450.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='53', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=42, position=mapping.Point(198958.4375, 341492.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='63', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=43, position=mapping.Point(199189.0625, 341482.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='55', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=44, position=mapping.Point(198464.953125, 341972.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='67', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=45, position=mapping.Point(198011.109375, 342098.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='79', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=46, position=mapping.Point(197978.03125, 342062.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='76', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=47, position=mapping.Point(198669.171875, 340868.40625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H06', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=48, position=mapping.Point(197314.859375, 342469.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='89', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=49, position=mapping.Point(197292.53125, 342446.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='91', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=50, position=mapping.Point(198678.609375, 340212.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='15', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=51, position=mapping.Point(197848.015625, 340764.28125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='31', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=52, position=mapping.Point(197870.734375, 340703.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='27', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=53, position=mapping.Point(198517.359375, 341474.8125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H20', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=54, position=mapping.Point(197080.265625, 340870.375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='42', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=55, position=mapping.Point(198605.96875, 340164.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='18', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=56, position=mapping.Point(199189.734375, 341466.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='54', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=57, position=mapping.Point(198959.734375, 341443.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='60', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=58, position=mapping.Point(197409.4375, 342595.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='81', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=59, position=mapping.Point(199074.984375, 340938.15625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='09', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=60, position=mapping.Point(197431.9375, 342656.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='82', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=61, position=mapping.Point(196969.671875, 342514.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='94', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=62, position=mapping.Point(196980.0625, 342501.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='95', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=63, position=mapping.Point(198744.59375, 340340.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='14', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=64, position=mapping.Point(197164.796875, 340908.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='37', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=65, position=mapping.Point(197853.703125, 340749, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='30', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=66, position=mapping.Point(197806.171875, 340475.03125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='24', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=67, position=mapping.Point(198497.203125, 340946.625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H10', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=68, position=mapping.Point(199187.515625, 341531.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='58', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=69, position=mapping.Point(198957.359375, 341525.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='65', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=70, position=mapping.Point(198450.65625, 341980.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='68', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=72, position=mapping.Point(198969.59375, 340897.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='12', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=73, position=mapping.Point(199179.09375, 340992.3125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='08', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=74, position=mapping.Point(197060.171875, 340869.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='43', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=75, position=mapping.Point(198236.4375, 341364.84375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H31', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=76, position=mapping.Point(197865.09375, 340718.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='28', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=77, position=mapping.Point(199685.390625, 341041.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='01', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=78, position=mapping.Point(198482.140625, 340237.9375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='20', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=79, position=mapping.Point(198495.21875, 340201.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='19', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=80, position=mapping.Point(198639.84375, 340730.59375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H16', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=81, position=mapping.Point(198394.5, 342013.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='72', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=82, position=mapping.Point(198021.890625, 342111.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='80', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=83, position=mapping.Point(197235.546875, 342704.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='85', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=84, position=mapping.Point(199205.328125, 340963.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='07', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=85, position=mapping.Point(197268.46875, 342683.65625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='84', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=86, position=mapping.Point(197281.484375, 342434.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='92', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=87, position=mapping.Point(196959.359375, 342527.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='93', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=88, position=mapping.Point(198206.53125, 341439.0625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H35', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=89, position=mapping.Point(197141.953125, 340931.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='39', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=90, position=mapping.Point(198212.90625, 341341.625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H32', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=91, position=mapping.Point(197836.53125, 340794.78125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='33', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=92, position=mapping.Point(198541.171875, 340986.59375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H08', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=93, position=mapping.Point(198660.671875, 340708.3125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H17', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=94, position=mapping.Point(198436.59375, 341988.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='69', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=95, position=mapping.Point(198827.03125, 341332.53125, self._terrain), large=False, heli=True,
                 airplanes=False, slot_name='H02', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=96, position=mapping.Point(198648.796875, 340890.15625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H07', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=97, position=mapping.Point(199035.90625, 340937.78125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='10', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=98, position=mapping.Point(197325.90625, 342481.65625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='88', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=99, position=mapping.Point(196915.765625, 340950.0625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='47', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=100, position=mapping.Point(198251.140625, 341486.5625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H37', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=101, position=mapping.Point(197040.015625, 340869.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='44', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=102, position=mapping.Point(197859.421875, 340733.8125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='29', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=103, position=mapping.Point(197913.140625, 340100.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='22', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=105, position=mapping.Point(198599.484375, 340774.21875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H14', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=106, position=mapping.Point(198959.28125, 341459.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='61', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=107, position=mapping.Point(198785.5, 341526.875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='48', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=108, position=mapping.Point(198000.265625, 342086.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='78', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=110, position=mapping.Point(197020.96875, 342451.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='99', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=111, position=mapping.Point(198380.140625, 342020.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='73', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=112, position=mapping.Point(198259.5, 341388.625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H30', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=113, position=mapping.Point(198519.84375, 340966.5, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H09', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=114, position=mapping.Point(198958.859375, 341476.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='62', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=115, position=mapping.Point(198408.8125, 342005.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='71', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=116, position=mapping.Point(197988.953125, 342074.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='77', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=118, position=mapping.Point(198728.578125, 340806.75, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H03', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=119, position=mapping.Point(197337.078125, 342493.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='87', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=120, position=mapping.Point(197010.796875, 342464.15625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='98', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=121, position=mapping.Point(198184.359375, 341415.375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H34', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=122, position=mapping.Point(198450.015625, 341458.71875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H26', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=123, position=mapping.Point(198492.421875, 341416.53125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H24', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=124, position=mapping.Point(198474.015625, 341515.15625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H22', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=125, position=mapping.Point(197842.296875, 340779.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='32', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=126, position=mapping.Point(196945.546875, 340922.40625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='45', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=127, position=mapping.Point(197912.515625, 340051.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='21', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=128, position=mapping.Point(198613.359375, 340126.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='17', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=129, position=mapping.Point(198805.1875, 341482.34375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='51', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=130, position=mapping.Point(198792.140625, 341512.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='49', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=131, position=mapping.Point(199627.3125, 341014.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='04', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=132, position=mapping.Point(199598.265625, 341001.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='06', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=133, position=mapping.Point(198997.234375, 340870.3125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='11', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=134, position=mapping.Point(198303.796875, 341435.65625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H28', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=135, position=mapping.Point(197153.453125, 340920.28125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='38', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=136, position=mapping.Point(198561.171875, 341433.71875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H19', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=137, position=mapping.Point(199670.8125, 341034.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='02', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=138, position=mapping.Point(198475.5625, 340927.15625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H11', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=139, position=mapping.Point(199188.34375, 341515.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='57', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=140, position=mapping.Point(198798.515625, 341497.1875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='50', length=21.0, width=15.0, height=8.0, shelter=False))
 
 
 class Ben_Gurion(Airport):
@@ -6319,7 +6437,7 @@ class Birma_Air_Base(Airport):
     unit_zones: List[mapping.Rectangle] = []
     civilian = False
     slot_version = 2
-    atc_radio = AtcRadio(hf_hz=4425000, vhf_low_hz=39750000, vhf_high_hz=119100000, uhf_hz=251350000)
+    atc_radio = AtcRadio(hf_hz=4425000, vhf_low_hz=39750000, vhf_high_hz=119150000, uhf_hz=251350000)
 
     def __init__(self, terrain: Terrain) -> None:
         super().__init__(mapping.Point(88051.835938, -28172.807617, terrain), terrain)
@@ -6424,23 +6542,23 @@ class Birma_Air_Base(Airport):
                 airplanes=True, slot_name='25', length=21.0, width=15.0, height=8.0, shelter=False))
 
 
-class Borj_El_Arab_International_Airport(Airport):
+class Borg_El_Arab_International_Airport(Airport):
     id = 35
-    name = "Borj El Arab International Airport"
+    name = "Borg El Arab International Airport"
     tacan = None
     unit_zones: List[mapping.Rectangle] = []
     civilian = True
     slot_version = 2
-    atc_radio = AtcRadio(hf_hz=4450000, vhf_low_hz=39800000, vhf_high_hz=119150000, uhf_hz=251400000)
+    atc_radio = AtcRadio(hf_hz=4450000, vhf_low_hz=39800000, vhf_high_hz=119100000, uhf_hz=251400000)
 
     def __init__(self, terrain: Terrain) -> None:
         super().__init__(mapping.Point(99766.792969, -146755.710938, terrain), terrain)
 
         self.beacons.append(AirportBeacon(id='airfield35_1'))
-        self.runways.append(Runway(id=1, name='14L-32R', main=RunwayApproach(name='14L', heading=140, beacons=[]), opposite=RunwayApproach(name='32R', heading=320, beacons=[])))
+        self.runways.append(Runway(id=1, name='14L-32R', main=RunwayApproach(name='14L', heading=140, beacons=[]), opposite=RunwayApproach(name='32R', heading=320, beacons=[RunwayBeacon(id='airfield35_2', runway_name='14L-32R', runway_id=1, runway_side='32R'), RunwayBeacon(id='airfield35_0', runway_name='14L-32R', runway_id=1, runway_side='32R')])))
         self.runways.append(Runway(id=4, name='14-32', main=RunwayApproach(name='14', heading=140, beacons=[]), opposite=RunwayApproach(name='32', heading=320, beacons=[])))
         self.runways.append(Runway(id=3, name='14-32', main=RunwayApproach(name='14', heading=140, beacons=[]), opposite=RunwayApproach(name='32', heading=320, beacons=[])))
-        self.runways.append(Runway(id=2, name='14R-32L', main=RunwayApproach(name='14R', heading=140, beacons=[]), opposite=RunwayApproach(name='32L', heading=320, beacons=[RunwayBeacon(id='airfield35_2', runway_name='14R-32L', runway_id=2, runway_side='32L'), RunwayBeacon(id='airfield35_0', runway_name='14R-32L', runway_id=2, runway_side='32L')])))
+        self.runways.append(Runway(id=2, name='14R-32L', main=RunwayApproach(name='14R', heading=140, beacons=[]), opposite=RunwayApproach(name='32L', heading=320, beacons=[])))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=8, position=mapping.Point(98761.7890625, -145492.890625, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='44', length=21.0, width=15.0, height=8.0, shelter=False))
@@ -8049,8 +8167,7 @@ class Wadi_Abu_Rish(Airport):
     def __init__(self, terrain: Terrain) -> None:
         super().__init__(mapping.Point(-119840.890625, 42431.076172, terrain), terrain)
 
-        self.beacons.append(AirportBeacon(id='airfield43_0'))
-        self.runways.append(Runway(id=2, name='19R-01L', main=RunwayApproach(name='19R', heading=190, beacons=[]), opposite=RunwayApproach(name='01L', heading=10, beacons=[RunwayBeacon(id='airfield43_1', runway_name='19R-01L', runway_id=2, runway_side='01L'), RunwayBeacon(id='airfield43_2', runway_name='19R-01L', runway_id=2, runway_side='01L')])))
+        self.runways.append(Runway(id=2, name='19R-01L', main=RunwayApproach(name='19R', heading=190, beacons=[]), opposite=RunwayApproach(name='01L', heading=10, beacons=[RunwayBeacon(id='airfield43_1', runway_name='19R-01L', runway_id=2, runway_side='01L'), RunwayBeacon(id='airfield43_0', runway_name='19R-01L', runway_id=2, runway_side='01L')])))
         self.runways.append(Runway(id=1, name='19L-01R', main=RunwayApproach(name='19L', heading=190, beacons=[]), opposite=RunwayApproach(name='01R', heading=10, beacons=[])))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=0, position=mapping.Point(-121889.703125, 42152.17578125, self._terrain), large=False, heli=True,
@@ -8436,6 +8553,1547 @@ class Quwaysina(Airport):
                 airplanes=False, slot_name='H11', length=30.0, width=23.0, height=10.0, shelter=False))
 
 
+class Rafic_Hariri_Intl(Airport):
+    id = 46
+    name = "Rafic Hariri Intl"
+    tacan = None
+    unit_zones: List[mapping.Rectangle] = []
+    civilian = True
+    slot_version = 2
+    atc_radio = None
+
+    def __init__(self, terrain: Terrain) -> None:
+        super().__init__(mapping.Point(420154.5625, 399041.296875, terrain), terrain)
+
+        self.beacons.append(AirportBeacon(id='airfield46_2'))
+        self.beacons.append(AirportBeacon(id='airfield46_5'))
+        self.beacons.append(AirportBeacon(id='airfield46_0'))
+        self.runways.append(Runway(id=1, name='03-21', main=RunwayApproach(name='03', heading=30, beacons=[RunwayBeacon(id='airfield46_3', runway_name='03-21', runway_id=1, runway_side='03')]), opposite=RunwayApproach(name='21', heading=210, beacons=[])))
+        self.runways.append(Runway(id=2, name='16-34', main=RunwayApproach(name='16', heading=160, beacons=[RunwayBeacon(id='airfield46_1', runway_name='16-34', runway_id=2, runway_side='16'), RunwayBeacon(id='airfield46_4', runway_name='16-34', runway_id=2, runway_side='16')]), opposite=RunwayApproach(name='34', heading=340, beacons=[])))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=0, position=mapping.Point(420174.53443762, 399745.03320639, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='17', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=1, position=mapping.Point(419842.8125, 399790.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='18', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=2, position=mapping.Point(421386.65625, 399706.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='34', length=40.0, width=40.0, height=12.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=3, position=mapping.Point(420593.15625, 400418.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='48', length=61.0, width=61.0, height=20.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=4, position=mapping.Point(420133.24818708, 399960.65501877, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='10', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=5, position=mapping.Point(420224.00337564, 400151.5953794, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='03', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=6, position=mapping.Point(420303.0520269, 400203.81852974, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='02', length=61.0, width=61.0, height=20.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=7, position=mapping.Point(421532.75, 399804.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='39', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=8, position=mapping.Point(420838.84375, 400581.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='46', length=61.0, width=61.0, height=20.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=9, position=mapping.Point(419831.25, 399857.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='19', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=11, position=mapping.Point(419961.9375, 400011.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='07', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=12, position=mapping.Point(420080.42776957, 399866.91597853, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='12', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=13, position=mapping.Point(421252.21875, 399707.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='32', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=15, position=mapping.Point(420017.53370921, 399835.14138442, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='13', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=16, position=mapping.Point(421111.84375, 399715.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='30', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=17, position=mapping.Point(419819.75, 399922.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='20', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=18, position=mapping.Point(420393.96875, 399734.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='23', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=19, position=mapping.Point(420239.125, 399739.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='21', length=61.0, width=61.0, height=20.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=20, position=mapping.Point(419972.53125, 399949.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='08', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=21, position=mapping.Point(421395.40625, 399800.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='36', length=40.0, width=40.0, height=12.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=22, position=mapping.Point(420073.89694945, 399946.21360683, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='09', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=23, position=mapping.Point(420730.9375, 399740.0625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H01', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=24, position=mapping.Point(420169.87124571, 399872.24352, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='11', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=25, position=mapping.Point(420940.53125, 399735.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='28', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=26, position=mapping.Point(421524.65625, 399708.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='42', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=28, position=mapping.Point(420355.4227864, 400240.06852974, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='01', length=61.0, width=61.0, height=20.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=29, position=mapping.Point(419990.51367469, 399786.41034087, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='14', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=30, position=mapping.Point(420422.15625, 399739.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='24', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=31, position=mapping.Point(421530.0625, 399772.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='40', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=32, position=mapping.Point(420081.87725113, 399725.8795701, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='16', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=33, position=mapping.Point(421535.21875, 399836.15625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='38', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=34, position=mapping.Point(420084.5625, 400088.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='05', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=35, position=mapping.Point(421527.625, 399740.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='41', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=36, position=mapping.Point(420321.72310185, 399734.49485497, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='22', length=61.0, width=61.0, height=20.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=37, position=mapping.Point(420656.9375, 400462.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='47', length=61.0, width=61.0, height=20.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=38, position=mapping.Point(420146.125, 400102.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='04', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=39, position=mapping.Point(421522.1875, 399676.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='43', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=40, position=mapping.Point(421025.34375, 399725, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='29', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=41, position=mapping.Point(420518.5, 399740.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='26', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=43, position=mapping.Point(421190.375, 399713.15625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='31', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=44, position=mapping.Point(420473.5625, 399734.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='25', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=45, position=mapping.Point(420812.65625, 399733.34375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H02', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=46, position=mapping.Point(420894.53125, 400618.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='45', length=61.0, width=61.0, height=20.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=47, position=mapping.Point(420044.28125, 400060.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='06', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=48, position=mapping.Point(421398.84375, 399846.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='37', length=40.0, width=40.0, height=12.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=49, position=mapping.Point(421391.375, 399752.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='35', length=40.0, width=40.0, height=12.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=50, position=mapping.Point(421519.6875, 399644.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='44', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=51, position=mapping.Point(421383, 399658.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='33', length=40.0, width=40.0, height=12.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=52, position=mapping.Point(420029.46116355, 399733.69673197, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='15', length=36.0, width=36.0, height=15.0, shelter=False))
+
+
+class Tabuk(Airport):
+    id = 47
+    name = "Tabuk"
+    tacan = None
+    unit_zones: List[mapping.Rectangle] = []
+    civilian = False
+    slot_version = 2
+    atc_radio = AtcRadio(hf_hz=4225000, vhf_low_hz=42150000, vhf_high_hz=125900000, uhf_hz=229400000)
+
+    def __init__(self, terrain: Terrain) -> None:
+        super().__init__(mapping.Point(-181161.148438, 525597.328125, terrain), terrain)
+
+        self.beacons.append(AirportBeacon(id='airfield47_1'))
+        self.runways.append(Runway(id=1, name='13-31', main=RunwayApproach(name='13', heading=130, beacons=[]), opposite=RunwayApproach(name='31', heading=310, beacons=[RunwayBeacon(id='airfield47_2', runway_name='13-31', runway_id=1, runway_side='31'), RunwayBeacon(id='airfield47_4', runway_name='13-31', runway_id=1, runway_side='31')])))
+        self.runways.append(Runway(id=2, name='24R-06L', main=RunwayApproach(name='24R', heading=240, beacons=[RunwayBeacon(id='airfield47_3', runway_name='24R-06L', runway_id=2, runway_side='24R')]), opposite=RunwayApproach(name='06L', heading=60, beacons=[])))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=0, position=mapping.Point(-182339.859375, 525170.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='134', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=1, position=mapping.Point(-181468.875, 521905.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='01', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=2, position=mapping.Point(-180652.109375, 527097.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='150', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=3, position=mapping.Point(-180979.09375, 527721.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='159', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=4, position=mapping.Point(-180600.59375, 527113.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='152', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=5, position=mapping.Point(-182392.125, 524123.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='94', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=6, position=mapping.Point(-181651.015625, 523121.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='26', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=7, position=mapping.Point(-181186.03125, 524675.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='68', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=8, position=mapping.Point(-181275.90625, 524561.375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H06', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=9, position=mapping.Point(-181337.75, 523857.53125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='56', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=10, position=mapping.Point(-181249.921875, 527235.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='141', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=12, position=mapping.Point(-181663.515625, 522132.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='06', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=13, position=mapping.Point(-180725.75, 522019.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='20', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=14, position=mapping.Point(-181310.828125, 524157, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='63', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=15, position=mapping.Point(-181127.4375, 524679.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='74', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=16, position=mapping.Point(-180792.625, 527062.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='149', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=17, position=mapping.Point(-180619.515625, 527657.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='162', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=19, position=mapping.Point(-181390.921875, 524007.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='43', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=20, position=mapping.Point(-181608.421875, 523693.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='46', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=21, position=mapping.Point(-181595.46875, 523719.28125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='47', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=22, position=mapping.Point(-181218.484375, 527307.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='143', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=23, position=mapping.Point(-181164.8125, 524716.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='70', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=24, position=mapping.Point(-180635.109375, 521913.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='15', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=25, position=mapping.Point(-182492.84375, 524069.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='97', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=26, position=mapping.Point(-181729.234375, 523212.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='28', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=27, position=mapping.Point(-181193.640625, 524521.4375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H03', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=28, position=mapping.Point(-182452.859375, 525218.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='137', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=29, position=mapping.Point(-182138.65625, 524039.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='91', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=30, position=mapping.Point(-182412, 525200.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='136', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=31, position=mapping.Point(-180690.546875, 521976.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='18', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=32, position=mapping.Point(-182303.71875, 525155.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='133', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=33, position=mapping.Point(-182044.515625, 524489.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='112', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=34, position=mapping.Point(-181483.265625, 523824.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='37', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=35, position=mapping.Point(-180189.28125, 526988.5, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H11', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=36, position=mapping.Point(-181464.34375, 523979.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='51', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=37, position=mapping.Point(-181079.875, 524891.8125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='79', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=38, position=mapping.Point(-180544.875, 527215.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='155', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=39, position=mapping.Point(-181473.921875, 526931.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='138', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=40, position=mapping.Point(-181429.703125, 523930.375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='40', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=41, position=mapping.Point(-181139.375, 524655.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='73', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=42, position=mapping.Point(-181624.890625, 522087.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='05', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=43, position=mapping.Point(-181573.75, 523643.9375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='30', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=44, position=mapping.Point(-181303.15625, 521597.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='10', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=45, position=mapping.Point(-181621.34375, 523667.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='45', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=46, position=mapping.Point(-180741.84375, 521123.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='13', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=47, position=mapping.Point(-181176.078125, 524556.5, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H07', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=48, position=mapping.Point(-181015.25, 525020.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='84', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=49, position=mapping.Point(-180947.046875, 524931.5625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='87', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=50, position=mapping.Point(-181547.890625, 523695.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='32', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=51, position=mapping.Point(-181403.859375, 523981.90625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='42', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=52, position=mapping.Point(-181522.046875, 523747, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='34', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=53, position=mapping.Point(-182528.71875, 524212.15625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='104', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=54, position=mapping.Point(-182423.71875, 524115.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='96', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=55, position=mapping.Point(-180816.53125, 527055.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='148', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=56, position=mapping.Point(-181236.75, 524028.1875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='62', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=57, position=mapping.Point(-182605.09375, 524619.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='129', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=58, position=mapping.Point(-181250.640625, 523963.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='61', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=59, position=mapping.Point(-181154.0625, 524738.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='71', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=60, position=mapping.Point(-180708.703125, 521998.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='19', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=61, position=mapping.Point(-181230.34375, 524583.625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H09', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=62, position=mapping.Point(-180653.390625, 521934.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='16', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=63, position=mapping.Point(-181311.625, 523845.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='55', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=64, position=mapping.Point(-180864.171875, 521253.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='12', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=65, position=mapping.Point(-181416.78125, 523956.15625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='41', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=66, position=mapping.Point(-181225.546875, 524492.1875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H01', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=67, position=mapping.Point(-180604.96875, 527616.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='161', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=68, position=mapping.Point(-182800.09375, 524363.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='Stand01', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=69, position=mapping.Point(-179725.79377084, 527351.31560416, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='170', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=70, position=mapping.Point(-181253.03125, 524505.6875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H02', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=71, position=mapping.Point(-180651.5625, 527770.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='165', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=72, position=mapping.Point(-181336.59375, 522925.65625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='25', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=74, position=mapping.Point(-181768.28125, 523258.15625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='29', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=75, position=mapping.Point(-181234.4375, 521373.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='11', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=76, position=mapping.Point(-181102.125, 524729.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='76', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=77, position=mapping.Point(-182519.25, 524155.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='102', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=78, position=mapping.Point(-181582.5625, 523745.03125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='48', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=80, position=mapping.Point(-179761.75, 527336.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='169', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=81, position=mapping.Point(-182227.9375, 524475.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='125', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=82, position=mapping.Point(-180988.53125, 525072.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='86', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=83, position=mapping.Point(-179689.703125, 527366.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='171', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=84, position=mapping.Point(-181690.515625, 523167.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='27', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=85, position=mapping.Point(-180900.765625, 524989.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='88', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=86, position=mapping.Point(-182282.609375, 524671.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='108', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=87, position=mapping.Point(-180553.609375, 527241.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='156', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=88, position=mapping.Point(-181290.546875, 524221.34375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='64', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=89, position=mapping.Point(-182084.453125, 524593.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='116', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=90, position=mapping.Point(-181114.421875, 524704.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='75', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=91, position=mapping.Point(-181477.25, 523954.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='50', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=92, position=mapping.Point(-180625.71875, 527105.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='151', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=93, position=mapping.Point(-182533.34375, 524034.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='99', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=94, position=mapping.Point(-180664.40625, 527813.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='166', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=95, position=mapping.Point(-181151.03125, 524632.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='72', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=96, position=mapping.Point(-182095.90625, 524019.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='89', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=97, position=mapping.Point(-181546.25, 521995.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='03', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=98, position=mapping.Point(-181257.4375, 524597.8125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H10', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=99, position=mapping.Point(-180641.908245, 527732.25399, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='164', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=100, position=mapping.Point(-181361.6875, 523870.3125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='57', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=101, position=mapping.Point(-182102.90625, 524643.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='118', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=102, position=mapping.Point(-180630.69437083, 527694.76374166, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='163', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=103, position=mapping.Point(-182302.125, 524649.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='107', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=104, position=mapping.Point(-181014.4375, 526869.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='146', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=105, position=mapping.Point(-182093.75, 524618.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='117', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=106, position=mapping.Point(-182554.9375, 524988.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='110', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=107, position=mapping.Point(-182598.15625, 524702.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='131', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=108, position=mapping.Point(-182257.765625, 524935.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='109', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=109, position=mapping.Point(-180671.125, 521955.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='17', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=110, position=mapping.Point(-182064.296875, 524541.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='114', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=111, position=mapping.Point(-181569.640625, 523770.78125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='49', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=112, position=mapping.Point(-181265.84375, 527194.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='140', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=113, position=mapping.Point(-182515.078125, 524130.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='101', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=114, position=mapping.Point(-181560.828125, 523669.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='31', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=115, position=mapping.Point(-181257.921875, 524266.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='65', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=116, position=mapping.Point(-182117.21875, 524029.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='90', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=117, position=mapping.Point(-181337.265625, 523934.34375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='58', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=118, position=mapping.Point(-182524.109375, 524184.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='103', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=119, position=mapping.Point(-181259.765625, 522836, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='23', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=120, position=mapping.Point(-182609.03125, 524541.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='127', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=121, position=mapping.Point(-181054.03125, 524943.375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='81', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=122, position=mapping.Point(-181182.9375, 527383.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='145', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=123, position=mapping.Point(-180615.96875, 521892.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='14', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=124, position=mapping.Point(-181221.671875, 524532.8125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H04', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=125, position=mapping.Point(-181002.328125, 525046.375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='85', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=126, position=mapping.Point(-182512.9375, 524052.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='98', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=127, position=mapping.Point(-181509.125, 523772.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='35', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=128, position=mapping.Point(-182186.09375, 524359.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='122', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=129, position=mapping.Point(-182376.0625, 525185.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='135', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=130, position=mapping.Point(-181783.625, 522272.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='09', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=131, position=mapping.Point(-181463.296875, 526954.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='139', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=132, position=mapping.Point(-182428.734375, 524554.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='106', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=133, position=mapping.Point(-179797.078125, 527319.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='168', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=134, position=mapping.Point(-182610, 524497.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='126', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=135, position=mapping.Point(-181507.625, 521950.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='02', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=136, position=mapping.Point(-182602.828125, 524658.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='130', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=137, position=mapping.Point(-181298.28125, 522880.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='24', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=138, position=mapping.Point(-181451.390625, 524005.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='52', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=139, position=mapping.Point(-181226.9375, 522797.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='22', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=140, position=mapping.Point(-180787.015625, 527489.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='158', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=141, position=mapping.Point(-181202.390625, 524570.625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H08', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=142, position=mapping.Point(-182606.8125, 524580.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='128', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=143, position=mapping.Point(-181300.484375, 523989.5625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='59', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=144, position=mapping.Point(-181105.6875, 524840.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='77', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=145, position=mapping.Point(-181092.765625, 524866.0625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='78', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=146, position=mapping.Point(-182411.171875, 524537.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='105', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=147, position=mapping.Point(-182317.359375, 524021.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='93', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=148, position=mapping.Point(-181744.90625, 522227.65625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='08', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=149, position=mapping.Point(-181496.1875, 523798.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='36', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=150, position=mapping.Point(-181378, 524033.4375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='44', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=151, position=mapping.Point(-181175.5, 524696.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='69', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=152, position=mapping.Point(-182034.640625, 524463.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='111', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=153, position=mapping.Point(-181702.21875, 522177.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='07', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=154, position=mapping.Point(-182262.625, 525140.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='132', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=155, position=mapping.Point(-181470.34375, 523850.03125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='38', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=156, position=mapping.Point(-182205.38119794, 524184.86049538, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='92', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=157, position=mapping.Point(-180573.8125, 527121.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='153', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=158, position=mapping.Point(-181438.484375, 524031.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='53', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=159, position=mapping.Point(-181274.46875, 523976.9375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='60', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=160, position=mapping.Point(-182510.453125, 524102.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='100', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=161, position=mapping.Point(-181066.953125, 524917.5625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='80', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=162, position=mapping.Point(-180562.625, 527267.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='157', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=163, position=mapping.Point(-181202.78125, 527343.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='144', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=164, position=mapping.Point(-179837.203125, 527301.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='167', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=165, position=mapping.Point(-182154.6875, 524283, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='120', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=166, position=mapping.Point(-181277.203125, 524384.25, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='67', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=167, position=mapping.Point(-181028.1875, 524994.875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='83', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=168, position=mapping.Point(-181131.96875, 527579.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='160', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=169, position=mapping.Point(-180743.75, 522040.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='21', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=170, position=mapping.Point(-179647.75, 527382.37579115, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='172', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=171, position=mapping.Point(-181290.125, 524358.5, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='66', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=172, position=mapping.Point(-181234.285106, 527271.39468199, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='142', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=173, position=mapping.Point(-182074.671875, 524567.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='115', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=174, position=mapping.Point(-182407.765625, 524119.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='95', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=175, position=mapping.Point(-181041.109375, 524969.125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='82', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=176, position=mapping.Point(-180938.59375, 527045.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='147', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=177, position=mapping.Point(-182172.15625, 524323.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='121', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=178, position=mapping.Point(-182198.63607596, 524396.70767404, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='123', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=179, position=mapping.Point(-181425.5625, 524057.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='54', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=180, position=mapping.Point(-181248.296875, 524547.75, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H05', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=181, position=mapping.Point(-181584.984375, 522040.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='04', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=182, position=mapping.Point(-180538.03125, 527188.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='154', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=183, position=mapping.Point(-182054.34375, 524515.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='113', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=184, position=mapping.Point(-181457.421875, 523875.78125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='39', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=185, position=mapping.Point(-181534.96875, 523721.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='33', length=20.0, width=18.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=186, position=mapping.Point(-182212.70014933, 524433.53046558, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='123', length=20.0, width=14.0, height=6.0, shelter=False))
+
+
+class Damascus_Intl(Airport):
+    id = 48
+    name = "Damascus Intl"
+    tacan = None
+    unit_zones: List[mapping.Rectangle] = []
+    civilian = True
+    slot_version = 2
+    atc_radio = AtcRadio(hf_hz=4025000, vhf_low_hz=40950000, vhf_high_hz=118500000, uhf_hz=226100000)
+
+    def __init__(self, terrain: Terrain) -> None:
+        super().__init__(mapping.Point(378690.875, 496382.8125, terrain), terrain)
+
+        self.beacons.append(AirportBeacon(id='airfield48_3'))
+        self.beacons.append(AirportBeacon(id='airfield48_5'))
+        self.beacons.append(AirportBeacon(id='airfield48_6'))
+        self.runways.append(Runway(id=1, name='05R-23L', main=RunwayApproach(name='05R', heading=50, beacons=[RunwayBeacon(id='airfield48_1', runway_name='05R-23L', runway_id=1, runway_side='05R'), RunwayBeacon(id='airfield48_2', runway_name='05R-23L', runway_id=1, runway_side='05R')]), opposite=RunwayApproach(name='23L', heading=230, beacons=[])))
+        self.runways.append(Runway(id=2, name='05L-23R', main=RunwayApproach(name='05L', heading=50, beacons=[]), opposite=RunwayApproach(name='23R', heading=230, beacons=[RunwayBeacon(id='airfield48_4', runway_name='05L-23R', runway_id=2, runway_side='23R'), RunwayBeacon(id='airfield48_0', runway_name='05L-23R', runway_id=2, runway_side='23R')])))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=0, position=mapping.Point(377305.90625, 496216.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='39', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=1, position=mapping.Point(376837.03125, 496295.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='25', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=2, position=mapping.Point(376370.09375, 497433.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='55', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=3, position=mapping.Point(376786.9375, 496343.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='24', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=4, position=mapping.Point(376954.78125, 496207.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='26', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=5, position=mapping.Point(377384.84375, 495794.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='45', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=6, position=mapping.Point(377463.125, 496115, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='41', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=7, position=mapping.Point(376883.3125, 496454.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='22', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=8, position=mapping.Point(374593.90625, 494071.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='03', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=9, position=mapping.Point(374637.875, 494117.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='04', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=10, position=mapping.Point(375877.375, 497098, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='52', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=11, position=mapping.Point(376924.40625, 496669.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='17', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=12, position=mapping.Point(375141.5625, 494655.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='09', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=13, position=mapping.Point(377096.8125, 496253.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='31', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=14, position=mapping.Point(377112.58339976, 496142.43820261, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='32', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=15, position=mapping.Point(374571.9375, 494048.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='02', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=16, position=mapping.Point(377480.46875, 495965.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='42', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=17, position=mapping.Point(377042.34375, 496267.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='28', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=18, position=mapping.Point(373763.4375, 494744.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='48', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=20, position=mapping.Point(377308.89174668, 495965.40462839, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='36', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=22, position=mapping.Point(375119.40625, 494632.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='08', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=23, position=mapping.Point(377206.82905534, 496056.34235036, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='34', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=24, position=mapping.Point(374010.9375, 495091.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='50', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=26, position=mapping.Point(376293.03125, 495975.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='12', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=27, position=mapping.Point(375162.59375, 494677.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='10', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=28, position=mapping.Point(377375.46875, 495944.15625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='37', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=30, position=mapping.Point(374037.78125, 494944.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='49', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=31, position=mapping.Point(374108.9375, 495111.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='51', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=32, position=mapping.Point(376734.84375, 496392.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='23', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=33, position=mapping.Point(377265.91258057, 496016.81171037, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='35', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=34, position=mapping.Point(376976.40625, 496621.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='18', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=35, position=mapping.Point(374549.875, 494025, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='01', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=36, position=mapping.Point(376780.96875, 496552.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='20', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=37, position=mapping.Point(376069.96875, 497128.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='54', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=38, position=mapping.Point(376345.1875, 496031.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='13', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=39, position=mapping.Point(377015.78125, 496215.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='27', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=40, position=mapping.Point(377162.70068638, 496107.68531282, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='33', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=41, position=mapping.Point(377007.75, 496328.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='29', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=42, position=mapping.Point(376389.34375, 497536.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='56', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=43, position=mapping.Point(376221.8125, 496035.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='11', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=44, position=mapping.Point(377481.375, 495915.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='43', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=45, position=mapping.Point(373695.375, 494578.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='46', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=46, position=mapping.Point(376831.125, 496504.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='21', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=47, position=mapping.Point(377252.15625, 496310.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='38', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=48, position=mapping.Point(375097.34375, 494608.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='07', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=49, position=mapping.Point(375947.65625, 497175.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='53', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=50, position=mapping.Point(376821.0625, 496767.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='15', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=51, position=mapping.Point(376525.53125, 497469.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='57', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=52, position=mapping.Point(377031.375, 496569.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='19', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=53, position=mapping.Point(376871.78125, 496720.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='16', length=60.0, width=52.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=54, position=mapping.Point(377080.90625, 496318.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='30', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=55, position=mapping.Point(373664.96875, 494727.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='47', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=56, position=mapping.Point(377433.21875, 495795.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='44', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=57, position=mapping.Point(374682.03125, 494164.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='05', length=41.0, width=41.0, height=18.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=58, position=mapping.Point(375075.53125, 494585.65625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='06', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=59, position=mapping.Point(377362.90625, 496147.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='40', length=36.0, width=36.0, height=15.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=60, position=mapping.Point(376620.09375, 496443.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='14', length=36.0, width=36.0, height=15.0, shelter=False))
+
+
+class Mezzeh_Air_Base(Airport):
+    id = 49
+    name = "Mezzeh Air Base"
+    tacan = None
+    unit_zones: List[mapping.Rectangle] = []
+    civilian = False
+    slot_version = 2
+    atc_radio = AtcRadio(hf_hz=4450000, vhf_low_hz=41350000, vhf_high_hz=126000000, uhf_hz=227200000)
+
+    def __init__(self, terrain: Terrain) -> None:
+        super().__init__(mapping.Point(383579.703125, 468789.203125, terrain), terrain)
+
+        self.beacons.append(AirportBeacon(id='airfield49_0'))
+        self.runways.append(Runway(id=1, name='06-24', main=RunwayApproach(name='06', heading=60, beacons=[]), opposite=RunwayApproach(name='24', heading=240, beacons=[])))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=0, position=mapping.Point(384307.34375, 469274.59375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H37', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=1, position=mapping.Point(383973.90625, 469151.375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H28', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=2, position=mapping.Point(383983.90625, 469131.625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H27', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=3, position=mapping.Point(383470.1875, 469936.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='17', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=4, position=mapping.Point(384007.9375, 468979.40625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H16', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=5, position=mapping.Point(383779.28125, 469485.375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H10', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=6, position=mapping.Point(382802.25, 467888.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='01', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=7, position=mapping.Point(384371.65625, 469424.71875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H41', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=8, position=mapping.Point(383170.3125, 468964.1875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H48', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=9, position=mapping.Point(384033.5, 469021.65625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H20', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=10, position=mapping.Point(383945.125, 469123.75, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H25', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=11, position=mapping.Point(383714.375, 469630.25, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H06', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=12, position=mapping.Point(384209.6875, 469017.21875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H34', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=13, position=mapping.Point(383964.125, 469172.15625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H29', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=14, position=mapping.Point(383386.90625, 467993.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='05', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=15, position=mapping.Point(383176.03125, 467623.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='02', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=16, position=mapping.Point(383760.1875, 469526.96875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H09', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=17, position=mapping.Point(383801.6875, 469435.46875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H12', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=18, position=mapping.Point(383830.59375, 469371.09375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H14', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=19, position=mapping.Point(384356.53125, 469388.15625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H40', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=20, position=mapping.Point(384160.40625, 470317.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='11', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=21, position=mapping.Point(384131.40625, 469063.71875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H31', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=22, position=mapping.Point(383998.375, 468999.8125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H17', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=23, position=mapping.Point(384500.53125, 469998.15625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='09', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=24, position=mapping.Point(383173.6875, 468747.6875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H52', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=25, position=mapping.Point(384187.5, 468991.125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H33', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=26, position=mapping.Point(383955.65625, 469100.84375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H24', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=27, position=mapping.Point(383348.3125, 468959.28125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H46', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=28, position=mapping.Point(383298.6875, 468992.03125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H47', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=29, position=mapping.Point(383646.15625, 469783.65625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H01', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=30, position=mapping.Point(383737.78125, 469576.875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H07', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=31, position=mapping.Point(383791.0625, 469460.1875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H11', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=32, position=mapping.Point(384341.28125, 469351.28125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H39', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=33, position=mapping.Point(384103.8125, 469037.71875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H30', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=34, position=mapping.Point(383935.4375, 469145.03125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H26', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=35, position=mapping.Point(383989.53125, 469019.8125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H18', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=36, position=mapping.Point(383657.9375, 469758.46875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H02', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=37, position=mapping.Point(384255.9375, 470184.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='10', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=38, position=mapping.Point(384323.09375, 469311.34375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H38', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=39, position=mapping.Point(383231.28125, 468716.90625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H53', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=40, position=mapping.Point(384157.59375, 469088.75, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H32', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=41, position=mapping.Point(383373.375, 468851.125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H44', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=42, position=mapping.Point(383359.4375, 468906.375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H45', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=43, position=mapping.Point(383259.5, 467852.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='03', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=44, position=mapping.Point(383703.78125, 469654.96875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H05', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=45, position=mapping.Point(383818.8125, 469396.28125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H13', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=46, position=mapping.Point(383947.34375, 469844.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='13', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=47, position=mapping.Point(383367.28125, 467859.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='04', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=48, position=mapping.Point(384275.40625, 469201.125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H35', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=50, position=mapping.Point(383505.09375, 468099.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='06', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=51, position=mapping.Point(383841.21875, 469346.375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H15', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=52, position=mapping.Point(383874.21875, 469683.15625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='15', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=53, position=mapping.Point(383666.78125, 470032.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='16', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=54, position=mapping.Point(384399.78125, 469673.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='08', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=55, position=mapping.Point(383164.9375, 468803.46875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H51', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=56, position=mapping.Point(383351.03125, 468745.15625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H42', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=57, position=mapping.Point(383692, 469680.15625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H04', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=58, position=mapping.Point(384096.15625, 469954.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='12', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=60, position=mapping.Point(384005.375, 469080.53125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H23', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=61, position=mapping.Point(384015.03125, 469062.53125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H22', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=62, position=mapping.Point(383979.6875, 469039.71875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H19', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=63, position=mapping.Point(383518.9375, 468213.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='07', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=64, position=mapping.Point(383668.5625, 469733.71875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H03', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=65, position=mapping.Point(383861.875, 470017.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='14', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=66, position=mapping.Point(384291.34375, 469237.6875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H36', length=30.0, width=23.0, height=10.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=67, position=mapping.Point(383136.375, 468914.5625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H49', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=68, position=mapping.Point(383142.21875, 468859.4375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H50', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=69, position=mapping.Point(384024.375, 469043.1875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H21', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=70, position=mapping.Point(383390.25, 468796.25, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H43', length=18.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=71, position=mapping.Point(383749.5625, 469551.6875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H08', length=18.0, width=15.0, height=8.0, shelter=False))
+
+
+class Ramat_David(Airport):
+    id = 50
+    name = "Ramat David"
+    tacan = None
+    unit_zones: List[mapping.Rectangle] = []
+    civilian = False
+    slot_version = 2
+    atc_radio = AtcRadio(hf_hz=3750000, vhf_low_hz=38400000, vhf_high_hz=118000000, uhf_hz=251100000)
+
+    def __init__(self, terrain: Terrain) -> None:
+        super().__init__(mapping.Point(291107.234375, 374035.84375, terrain), terrain)
+
+        self.beacons.append(AirportBeacon(id='airfield50_0'))
+        self.runways.append(Runway(id=2, name='09-27', main=RunwayApproach(name='09', heading=90, beacons=[]), opposite=RunwayApproach(name='27', heading=270, beacons=[])))
+        self.runways.append(Runway(id=1, name='11-29', main=RunwayApproach(name='11', heading=110, beacons=[]), opposite=RunwayApproach(name='29', heading=290, beacons=[])))
+        self.runways.append(Runway(id=3, name='15-33', main=RunwayApproach(name='15', heading=150, beacons=[]), opposite=RunwayApproach(name='33', heading=330, beacons=[])))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=0, position=mapping.Point(290144.03125, 374487.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='79', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=1, position=mapping.Point(291969.25, 372951.65625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='19', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=2, position=mapping.Point(291951.75, 373006.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='22', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=3, position=mapping.Point(290720.625, 374846.8125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='101', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=4, position=mapping.Point(291083.4375, 372090.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='06', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=5, position=mapping.Point(291253.71875, 372333.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='14', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=6, position=mapping.Point(290154.71875, 374518.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='77', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=7, position=mapping.Point(290122.78125, 374426.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='83', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=8, position=mapping.Point(291806.9375, 373207.96875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='40', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=9, position=mapping.Point(291919.875, 373042.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='25', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=10, position=mapping.Point(291940.875, 373244.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='32', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=11, position=mapping.Point(290326.96875, 374926.4375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='94', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=12, position=mapping.Point(291286.53125, 372277.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='10', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=14, position=mapping.Point(291772.46875, 373205.40625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='41', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=15, position=mapping.Point(291928.9375, 373253.25, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='33', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=16, position=mapping.Point(290802.34375, 372067.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='03', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=17, position=mapping.Point(290921.28125, 373613.4375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='58', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=18, position=mapping.Point(291378.53125, 373441.625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='48', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=19, position=mapping.Point(291930.4375, 373030.15625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='24', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=20, position=mapping.Point(290730.09375, 374880.8125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='102', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=21, position=mapping.Point(290772.34375, 372058.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='02', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=22, position=mapping.Point(290292.65625, 374401.8125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='72', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=23, position=mapping.Point(291941.15625, 373018.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='23', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=24, position=mapping.Point(291259.25, 373467, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='55', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=25, position=mapping.Point(290696.875, 374822.90625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='100', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=26, position=mapping.Point(290448.65625, 374123.4375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='71', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=27, position=mapping.Point(291410.84375, 373451.5625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='47', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=28, position=mapping.Point(290956.875, 374774.59375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='104', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=29, position=mapping.Point(290806.96875, 373932.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='65', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=30, position=mapping.Point(290768.125, 373880.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='61', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=31, position=mapping.Point(291361.75, 373011.90625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='44', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=32, position=mapping.Point(291384.09375, 374612.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='109', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=33, position=mapping.Point(291979.5, 373038.65625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='28', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=34, position=mapping.Point(290399.46875, 374962.34375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='95', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=35, position=mapping.Point(290185.8125, 374529.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='76', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=36, position=mapping.Point(290826.4375, 373958.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='67', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=37, position=mapping.Point(290662.03125, 373729.875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='60', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=38, position=mapping.Point(291411.3125, 373023.875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='43', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=39, position=mapping.Point(291427.875, 374540.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='111', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=40, position=mapping.Point(291880.6875, 373289.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='37', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=41, position=mapping.Point(291259.4375, 373444.03125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='54', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=42, position=mapping.Point(291092.5, 374788.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='106', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=43, position=mapping.Point(290392, 374828.0625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='98', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=44, position=mapping.Point(290853.21875, 373960.625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='68', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=45, position=mapping.Point(290388.375, 374083.53125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='69', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=46, position=mapping.Point(291464.28125, 373942.96875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H14', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=47, position=mapping.Point(291065.8125, 374807.875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='105', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=48, position=mapping.Point(290021.09375, 374476.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='85', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=49, position=mapping.Point(290252.78125, 374412, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='73', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=50, position=mapping.Point(291468.9375, 373994.09375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H12', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=51, position=mapping.Point(291916.78125, 373262.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='34', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=52, position=mapping.Point(290415.03125, 374967.5, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='96', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=53, position=mapping.Point(290278.28125, 374897.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='92', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=54, position=mapping.Point(290787.875, 373906.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='63', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=55, position=mapping.Point(290638.34375, 373706.15625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='59', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=56, position=mapping.Point(291475.375, 374073.875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H09', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=57, position=mapping.Point(291464.0625, 374209.34375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H05', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=58, position=mapping.Point(291336.6875, 374681.28125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='107', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=59, position=mapping.Point(290061.375, 374595.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='89', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=60, position=mapping.Point(290816.6875, 373945.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='66', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=61, position=mapping.Point(290428.21875, 374097.15625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='70', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=62, position=mapping.Point(290924.59375, 373580.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='57', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=63, position=mapping.Point(291472.8125, 374112.8125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H08', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=64, position=mapping.Point(291260.8125, 373418.875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='53', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=66, position=mapping.Point(290149.34375, 374503.21875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='78', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=67, position=mapping.Point(290231.75, 374387.84375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='74', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=68, position=mapping.Point(291468.4375, 374177.84375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H06', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=69, position=mapping.Point(291952.9375, 373235.125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='31', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=70, position=mapping.Point(291461.21875, 374232.40625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H04', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=72, position=mapping.Point(290011.0625, 374451.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='84', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=73, position=mapping.Point(290778.125, 373893.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='62', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=74, position=mapping.Point(291330.125, 373020.53125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='45', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=75, position=mapping.Point(291473.0625, 374044.875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H10', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=76, position=mapping.Point(291957.9375, 373062.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='30', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=77, position=mapping.Point(291269.21875, 373298.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='49', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=78, position=mapping.Point(291868.625, 373297.96875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='38', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=79, position=mapping.Point(291107.25, 372087.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='07', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=80, position=mapping.Point(290031.375, 374504.71875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='86', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=81, position=mapping.Point(291470.90625, 374146, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H07', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=82, position=mapping.Point(291264.34375, 373360.46875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='50', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=83, position=mapping.Point(291457.03125, 374253.65625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H03', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=84, position=mapping.Point(290186.5, 374387.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='75', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=85, position=mapping.Point(290743.34375, 372049.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='01', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=87, position=mapping.Point(290043.5, 374533.40625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='87', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=88, position=mapping.Point(291453.25, 373436.90625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='46', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=89, position=mapping.Point(291263.4375, 373379.84375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='51', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=90, position=mapping.Point(291450.625, 374276.59375, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H02', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=91, position=mapping.Point(291744.1875, 372915.75, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='18', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=92, position=mapping.Point(291302.75, 372249.84375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='08', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=94, position=mapping.Point(290053.40625, 374569.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='88', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=95, position=mapping.Point(291909.125, 373054.90625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='26', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=96, position=mapping.Point(291262, 373399.5625, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='52', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=97, position=mapping.Point(291444.1875, 374299.78125, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H01', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=98, position=mapping.Point(291767.8125, 372888.6875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='17', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=99, position=mapping.Point(291267.15625, 372366.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='15', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=101, position=mapping.Point(290069.5625, 374623.46875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='90', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=102, position=mapping.Point(290797.4375, 373919.375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='64', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=103, position=mapping.Point(292004.5625, 372982, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='27', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=104, position=mapping.Point(291359.9375, 374646.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='108', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=105, position=mapping.Point(291968.75, 373050.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='29', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=106, position=mapping.Point(291856.53125, 373307.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='39', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=107, position=mapping.Point(290937.90625, 374746.9375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='103', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=108, position=mapping.Point(290831.875, 372076.75, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='04', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=109, position=mapping.Point(291270.25, 372305.9375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='12', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=110, position=mapping.Point(290078.8125, 374649.03125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='91', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=111, position=mapping.Point(290897.8125, 373550.8125, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='56', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=112, position=mapping.Point(291406.40625, 374577.59375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='110', length=26.0, width=22.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=113, position=mapping.Point(291973.09375, 372981.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='20', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=114, position=mapping.Point(291904.75, 373271.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='35', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=115, position=mapping.Point(290301.96875, 374912.8125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='93', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=116, position=mapping.Point(291278.65625, 372292.09375, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='11', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=117, position=mapping.Point(290378.6875, 374861.59375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='97', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=118, position=mapping.Point(290128.03125, 374442, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='82', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=119, position=mapping.Point(291738.75, 373167.34375, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='42', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=120, position=mapping.Point(291892.75, 373280.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='36', length=20.0, width=14.0, height=6.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=121, position=mapping.Point(291294.78125, 372263.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='09', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=122, position=mapping.Point(291262.15625, 372320.0625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='13', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=123, position=mapping.Point(290419.78125, 374799.21875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='99', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=124, position=mapping.Point(290138.625, 374472.53125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='80', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=125, position=mapping.Point(291466.34375, 373968.90625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H13', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=126, position=mapping.Point(291764.3125, 372838.71875, self._terrain), large=False, heli=False,
+                airplanes=True, slot_name='16', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=127, position=mapping.Point(290860.3125, 372086.78125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='05', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=128, position=mapping.Point(290133.4375, 374457.1875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='81', length=20.0, width=12.5, height=5.5, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=129, position=mapping.Point(291471.1875, 374018.625, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H11', length=20.0, width=17.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=130, position=mapping.Point(291962.5, 372993.5625, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='21', length=20.0, width=12.5, height=5.5, shelter=False))
+
+
 ALL_AIRPORTS: List[Type[Airport]] = [
     Difarsuwar_Airfield,
     Abu_Suwayr,
@@ -8471,7 +10129,7 @@ ALL_AIRPORTS: List[Type[Airport]] = [
     Al_Rahmaniyah_Air_Base,
     Beni_Suef,
     Birma_Air_Base,
-    Borj_El_Arab_International_Airport,
+    Borg_El_Arab_International_Airport,
     El_Minya,
     Gebel_El_Basur_Air_Base,
     Hurghada_International_Airport,
@@ -8482,5 +10140,10 @@ ALL_AIRPORTS: List[Type[Airport]] = [
     Wadi_Abu_Rish,
     Al_Bahr_al_Ahmar,
     Quwaysina,
+    Rafic_Hariri_Intl,
+    Tabuk,
+    Damascus_Intl,
+    Mezzeh_Air_Base,
+    Ramat_David,
 ]
 
