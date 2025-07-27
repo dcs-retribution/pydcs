@@ -491,8 +491,8 @@ class USS_Samuel_Chase(unittype.ShipType):
     id = "USS_Samuel_Chase"
     name = "LS Samuel Chase"
     detection_range = 0
-    threat_range = 7000
-    air_weapon_dist = 7000
+    threat_range = 15000
+    air_weapon_dist = 15000
 
 
 class Higgins_boat(unittype.ShipType):
