@@ -46,7 +46,20 @@ class CaucasusTest(unittest.TestCase):
         slot.unit_id = 1
 
         hslots = m.terrain.airports["Tbilisi-Lochini"].free_parking_slots(dcs.helicopters.UH_1H)
+        self.assertEqual(len(hslots), 44)
+
+        slots = m.terrain.airports["Tbilisi-Lochini"].free_parking_slots(dcs.planes.A_10A)
+        self.assertEqual(len(slots), 69)
+
+        slot = m.terrain.airports["Tbilisi-Lochini"].free_parking_slot(dcs.helicopters.UH_1H)
+        slot.unit_id = 1
+        assert slot.slot_name == "H01"
+        
+        hslots = m.terrain.airports["Tbilisi-Lochini"].free_parking_slots(dcs.helicopters.UH_1H)
         self.assertEqual(len(hslots), 43)
+
+        slots = m.terrain.airports["Tbilisi-Lochini"].free_parking_slots(dcs.planes.A_10A)
+        self.assertEqual(len(slots), 69)
 
     def test_parking_mixed_used(self):
         m = dcs.mission.Mission(terrain=dcs.terrain.Caucasus())
