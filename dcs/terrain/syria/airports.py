@@ -3614,7 +3614,7 @@ class Ramat_David(Airport):
                 crossroad_idx=37, position=mapping.Point(-258909.046875, -74462.1796875, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='31', length=26.0, width=24.0, height=11.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
-                crossroad_idx=38, position=mapping.Point(-258684.953125, -74703, self._terrain), large=False, heli=True,
+                crossroad_idx=38, position=mapping.Point(-258684.953125, -74703, self._terrain), large=False, heli=False,
                 airplanes=True, slot_name='37', length=26.0, width=24.0, height=11.0, shelter=False))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=39, position=mapping.Point(-258781.375, -74895.6796875, self._terrain), large=False, heli=True,
