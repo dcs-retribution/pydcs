@@ -11772,6 +11772,8 @@ class F_4E_45MC(PlaneType):
         "INSAlignmentStored": True,
         "IsModifiedJesterAllowed": True,
         "IsNvgAllowed": True,
+        "IsEfbAllowed": True,
+        "CombatTreeSpoofable": 2,
         "TacanChannel": 0,
         "TacanBand": 0,
         "VORILSFrequencyMHZ": 108,
@@ -11807,6 +11809,17 @@ class F_4E_45MC(PlaneType):
 
         class IsNvgAllowed:
             id = "IsNvgAllowed"
+
+        class IsEfbAllowed:
+            id = "IsEfbAllowed"
+
+        class CombatTreeSpoofable:
+            id = "CombatTreeSpoofable"
+
+            class Values:
+                All = 0
+                Historical = 1
+                None_ = 2
 
         class TacanChannel:
             id = "TacanChannel"
@@ -11922,6 +11935,25 @@ class F_4E_45MC(PlaneType):
             label="Allow Night Vision Goggles",
             player_only=True,
             default=True,
+        ),
+        "IsEfbAllowed": UnitPropertyDescription(
+            identifier="IsEfbAllowed",
+            control="checkbox",
+            label="Allow use of EFB",
+            player_only=True,
+            default=True,
+        ),
+        "CombatTreeSpoofable": UnitPropertyDescription(
+            identifier="CombatTreeSpoofable",
+            control="comboList",
+            label="Combat-Tree Spoofable",
+            player_only=True,
+            default=2,
+            values={
+                0: "All",
+                1: "Historical",
+                2: "None",
+            },
         ),
         "TacanChannel": UnitPropertyDescription(
             identifier="TacanChannel",
