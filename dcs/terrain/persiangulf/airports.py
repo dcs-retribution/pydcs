@@ -62,7 +62,7 @@ class Bandar_Abbas_Intl(Airport):
         self.beacons.append(AirportBeacon(id='airfield2_1'))
         self.beacons.append(AirportBeacon(id='airfield2_4'))
         self.beacons.append(AirportBeacon(id='airfield2_0'))
-        self.runways.append(Runway(id=1, name='03R-21L', main=RunwayApproach(name='03R', heading=30, beacons=[]), opposite=RunwayApproach(name='21L', heading=210, beacons=[])))
+        self.runways.append(Runway(id=1, name='03R-21L', main=RunwayApproach(name='03', heading=30, beacons=[]), opposite=RunwayApproach(name='21', heading=210, beacons=[RunwayBeacon(id='airfield2_2', runway_name='3-21', runway_id=1, runway_side='21'), RunwayBeacon(id='airfield2_3', runway_name='3-21', runway_id=1, runway_side='21')])))
         self.parking_slots.append(ParkingSlot(
                 crossroad_idx=2, position=mapping.Point(117866.46875, 15125.918945312, self._terrain), large=False, heli=True,
                 airplanes=True, slot_name='H06', length=25.0, width=20.0, height=11.0, shelter=False))

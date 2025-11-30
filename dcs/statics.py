@@ -11,17 +11,107 @@ class Fortification:
         shape_name = "ComCenter"
         rate = 100
 
-    class Hangar_A(unittype.StaticType):
-        id = "Hangar A"
-        name = "Hangar A"
-        shape_name = "angar_a"
+    class Airshow_Cone(unittype.StaticType):
+        id = "Airshow_Cone"
+        name = "Airshow cone"
+        shape_name = "Comp_cone"
         rate = 100
 
-    class Tech_hangar_A(unittype.StaticType):
-        id = "Tech hangar A"
-        name = "Tech hangar A"
-        shape_name = "ceh_ang_a"
+    class Airshow_Crowd(unittype.StaticType):
+        id = "Airshow_Crowd"
+        name = "Airshow Crowd"
+        shape_name = "Crowd1"
         rate = 100
+
+    class Barracks_2(unittype.StaticType):
+        id = "Barracks 2"
+        name = "Barracks 2"
+        shape_name = "kazarma2"
+        rate = 100
+
+    class Boiler_house_A(unittype.StaticType):
+        id = "Boiler-house A"
+        name = "Boiler-house A"
+        shape_name = "kotelnaya_a"
+        rate = 100
+
+    class Cafe(unittype.StaticType):
+        id = "Cafe"
+        name = "Cafe"
+        shape_name = "stolovaya"
+        rate = 100
+
+    class Chemical_tank_A(unittype.StaticType):
+        id = "Chemical tank A"
+        name = "Chemical tank A"
+        shape_name = "him_bak_a"
+        rate = 100
+
+    class Comms_tower_M(unittype.StaticType):
+        id = "Comms tower M"
+        name = "Comms tower M"
+        shape_name = "tele_bash_m"
+        rate = 100
+
+    class Container_brown(unittype.StaticType):
+        id = "Container brown"
+        name = "Container brown"
+        shape_name = "konteiner_brown"
+        rate = 100
+
+    class Container_red_1(unittype.StaticType):
+        id = "Container red 1"
+        name = "Container red 1"
+        shape_name = "konteiner_red1"
+        rate = 100
+
+    class Container_red_2(unittype.StaticType):
+        id = "Container red 2"
+        name = "Container red 2"
+        shape_name = "konteiner_red2"
+        rate = 100
+
+    class Container_red_3(unittype.StaticType):
+        id = "Container red 3"
+        name = "Container red 3"
+        shape_name = "konteiner_red3"
+        rate = 100
+
+    class Container_white(unittype.StaticType):
+        id = "Container white"
+        name = "Container white"
+        shape_name = "konteiner_white"
+        rate = 100
+
+    class Electric_power_box(unittype.StaticType):
+        id = "Electric power box"
+        name = "Electric power box"
+        shape_name = "tr_budka"
+        rate = 100
+
+    class FARP_Ammo_Dump_Coating(unittype.StaticType):
+        id = "FARP Ammo Dump Coating"
+        name = "FARP Ammo Storage"
+        shape_name = "SetkaKP"
+        rate = 50
+
+    class FARP_CP_Blindage(unittype.StaticType):
+        id = "FARP CP Blindage"
+        name = "FARP Command Post"
+        shape_name = "kp_ug"
+        rate = 100
+
+    class FARP_Fuel_Depot(unittype.StaticType):
+        id = "FARP Fuel Depot"
+        name = "FARP Fuel Depot"
+        shape_name = "GSM Rus"
+        rate = 20
+
+    class FARP_Tent(unittype.StaticType):
+        id = "FARP Tent"
+        name = "FARP Tent"
+        shape_name = "PalatkaB"
+        rate = 50
 
     class Farm_A(unittype.StaticType):
         id = "Farm A"
@@ -35,82 +125,83 @@ class Fortification:
         shape_name = "ferma_b"
         rate = 100
 
+    class Fuel_tank(unittype.StaticType):
+        id = "Fuel tank"
+        name = "Fuel tank"
+        shape_name = "toplivo-bak"
+        rate = 100
+
     class Garage_A(unittype.StaticType):
         id = "Garage A"
         name = "Garage A"
         shape_name = "garage_a"
         rate = 100
 
-    class Boiler_house_A(unittype.StaticType):
-        id = "Boiler-house A"
-        name = "Boiler-house A"
-        shape_name = "kotelnaya_a"
+    class Garage_B(unittype.StaticType):
+        id = "Garage B"
+        name = "Garage B"
+        shape_name = "garage_b"
         rate = 100
 
-    class Restaurant_1(unittype.StaticType):
-        id = "Restaurant 1"
-        name = "Restaurant 1"
-        shape_name = "restoran1"
+    class Garage_small_A(unittype.StaticType):
+        id = "Garage small A"
+        name = "Garage small A"
+        shape_name = "garagh-small-a"
         rate = 100
 
-    class Comms_tower_M(unittype.StaticType):
-        id = "Comms tower M"
-        name = "Comms tower M"
-        shape_name = "tele_bash_m"
+    class Garage_small_B(unittype.StaticType):
+        id = "Garage small B"
+        name = "Garage small B"
+        shape_name = "garagh-small-b"
         rate = 100
 
-    class Cafe(unittype.StaticType):
-        id = "Cafe"
-        name = "Cafe"
-        shape_name = "stolovaya"
+    class GeneratorF(unittype.StaticType):
+        id = "GeneratorF"
+        name = "GeneratorF"
+        shape_name = "GeneratorF"
         rate = 100
 
-    class Workshop_A(unittype.StaticType):
-        id = "Workshop A"
-        name = "Workshop A"
-        shape_name = "tec_a"
+    class Hangar_A(unittype.StaticType):
+        id = "Hangar A"
+        name = "Hangar A"
+        shape_name = "angar_a"
         rate = 100
 
-    class Electric_power_box(unittype.StaticType):
-        id = "Electric power box"
-        name = "Electric power box"
-        shape_name = "tr_budka"
+    class Hangar_B(unittype.StaticType):
+        id = "Hangar B"
+        name = "Hangar B"
+        shape_name = "angar_b"
         rate = 100
 
-    class Supermarket_A(unittype.StaticType):
-        id = "Supermarket A"
-        name = "Supermarket A"
-        shape_name = "uniwersam_a"
+    class Landmine(unittype.StaticType):
+        id = "Landmine"
+        name = "Landmine"
+        shape_name = "landmine"
+        rate = 1
+
+    class Military_staff(unittype.StaticType):
+        id = "Military staff"
+        name = "Military staff"
+        shape_name = "aviashtab"
         rate = 100
 
-    class Water_tower_A(unittype.StaticType):
-        id = "Water tower A"
-        name = "Water tower A"
-        shape_name = "wodokachka_a"
+    class Oil_derrick(unittype.StaticType):
+        id = "Oil derrick"
+        name = "Oil derrick"
+        shape_name = "neftevyshka"
         rate = 100
 
-    class TV_tower(unittype.StaticType):
-        id = "TV tower"
-        name = "TV tower"
-        shape_name = "tele_bash"
+    class Oil_platform(unittype.StaticType):
+        id = "Oil platform"
+        name = "Oil platform"
+        shape_name = "plavbaza"
         rate = 100
+        sea_object = True
 
-    class Shelter(unittype.StaticType):
-        id = "Shelter"
-        name = "Shelter"
-        shape_name = "ukrytie"
-        rate = 100
-
-    class Repair_workshop(unittype.StaticType):
-        id = "Repair workshop"
-        name = "Repair workshop"
-        shape_name = "tech"
-        rate = 100
-
-    class Railway_station(unittype.StaticType):
-        id = "Railway station"
-        name = "Railway station"
-        shape_name = "r_vok_sd"
+    class Pump_station(unittype.StaticType):
+        id = "Pump station"
+        name = "Pump station"
+        shape_name = "nasos"
         rate = 100
 
     class Railway_crossing_A(unittype.StaticType):
@@ -125,10 +216,40 @@ class Fortification:
         shape_name = "pereezd_small"
         rate = 100
 
-    class WC(unittype.StaticType):
-        id = "WC"
-        name = "WC"
-        shape_name = "WC"
+    class Railway_station(unittype.StaticType):
+        id = "Railway station"
+        name = "Railway station"
+        shape_name = "r_vok_sd"
+        rate = 100
+
+    class Repair_workshop(unittype.StaticType):
+        id = "Repair workshop"
+        name = "Repair workshop"
+        shape_name = "tech"
+        rate = 100
+
+    class Restaurant_1(unittype.StaticType):
+        id = "Restaurant 1"
+        name = "Restaurant 1"
+        shape_name = "restoran1"
+        rate = 100
+
+    class Shelter_B(unittype.StaticType):
+        id = "Shelter B"
+        name = "Shelter B"
+        shape_name = "ukrytie_b"
+        rate = 100
+
+    class Shelter(unittype.StaticType):
+        id = "Shelter"
+        name = "Shelter"
+        shape_name = "ukrytie"
+        rate = 100
+
+    class Shop(unittype.StaticType):
+        id = "Shop"
+        name = "Shop"
+        shape_name = "magazin"
         rate = 100
 
     class Small_house_1A_area(unittype.StaticType):
@@ -167,24 +288,6 @@ class Fortification:
         shape_name = "dom2c"
         rate = 100
 
-    class Shop(unittype.StaticType):
-        id = "Shop"
-        name = "Shop"
-        shape_name = "magazin"
-        rate = 100
-
-    class Tech_combine(unittype.StaticType):
-        id = "Tech combine"
-        name = "Tech combine"
-        shape_name = "kombinat"
-        rate = 100
-
-    class Chemical_tank_A(unittype.StaticType):
-        id = "Chemical tank A"
-        name = "Chemical tank A"
-        shape_name = "him_bak_a"
-        rate = 100
-
     class Small_werehouse_1(unittype.StaticType):
         id = "Small werehouse 1"
         name = "Small warehouse 1"
@@ -208,103 +311,6 @@ class Fortification:
         name = "Small warehouse 4"
         shape_name = "s4"
         rate = 100
-
-    class Garage_B(unittype.StaticType):
-        id = "Garage B"
-        name = "Garage B"
-        shape_name = "garage_b"
-        rate = 100
-
-    class Garage_small_A(unittype.StaticType):
-        id = "Garage small A"
-        name = "Garage small A"
-        shape_name = "garagh-small-a"
-        rate = 100
-
-    class Garage_small_B(unittype.StaticType):
-        id = "Garage small B"
-        name = "Garage small B"
-        shape_name = "garagh-small-b"
-        rate = 100
-
-    class Pump_station(unittype.StaticType):
-        id = "Pump station"
-        name = "Pump station"
-        shape_name = "nasos"
-        rate = 100
-
-    class Oil_derrick(unittype.StaticType):
-        id = "Oil derrick"
-        name = "Oil derrick"
-        shape_name = "neftevyshka"
-        rate = 100
-
-    class Container_red_1(unittype.StaticType):
-        id = "Container red 1"
-        name = "Container red 1"
-        shape_name = "konteiner_red1"
-        rate = 100
-
-    class Container_red_2(unittype.StaticType):
-        id = "Container red 2"
-        name = "Container red 2"
-        shape_name = "konteiner_red2"
-        rate = 100
-
-    class Container_red_3(unittype.StaticType):
-        id = "Container red 3"
-        name = "Container red 3"
-        shape_name = "konteiner_red3"
-        rate = 100
-
-    class Container_white(unittype.StaticType):
-        id = "Container white"
-        name = "Container white"
-        shape_name = "konteiner_white"
-        rate = 100
-
-    class Container_brown(unittype.StaticType):
-        id = "Container brown"
-        name = "Container brown"
-        shape_name = "konteiner_brown"
-        rate = 100
-
-    class Barracks_2(unittype.StaticType):
-        id = "Barracks 2"
-        name = "Barracks 2"
-        shape_name = "kazarma2"
-        rate = 100
-
-    class Military_staff(unittype.StaticType):
-        id = "Military staff"
-        name = "Military staff"
-        shape_name = "aviashtab"
-        rate = 100
-
-    class Hangar_B(unittype.StaticType):
-        id = "Hangar B"
-        name = "Hangar B"
-        shape_name = "angar_b"
-        rate = 100
-
-    class Fuel_tank(unittype.StaticType):
-        id = "Fuel tank"
-        name = "Fuel tank"
-        shape_name = "toplivo-bak"
-        rate = 100
-
-    class Shelter_B(unittype.StaticType):
-        id = "Shelter B"
-        name = "Shelter B"
-        shape_name = "ukrytie_b"
-        rate = 100
-
-    class Oil_platform(unittype.StaticType):
-        id = "Oil platform"
-        name = "Oil platform"
-        shape_name = "plavbaza"
-        rate = 100
-        sea_object = True
 
     class Subsidiary_structure_1(unittype.StaticType):
         id = "Subsidiary structure 1"
@@ -366,52 +372,46 @@ class Fortification:
         shape_name = "saray-g"
         rate = 100
 
-    class Landmine(unittype.StaticType):
-        id = "Landmine"
-        name = "Landmine"
-        shape_name = "landmine"
-        rate = 1
-
-    class FARP_Ammo_Dump_Coating(unittype.StaticType):
-        id = "FARP Ammo Dump Coating"
-        name = "FARP Ammo Storage"
-        shape_name = "SetkaKP"
-        rate = 50
-
-    class FARP_Tent(unittype.StaticType):
-        id = "FARP Tent"
-        name = "FARP Tent"
-        shape_name = "PalatkaB"
-        rate = 50
-
-    class FARP_CP_Blindage(unittype.StaticType):
-        id = "FARP CP Blindage"
-        name = "FARP Command Post"
-        shape_name = "kp_ug"
+    class Supermarket_A(unittype.StaticType):
+        id = "Supermarket A"
+        name = "Supermarket A"
+        shape_name = "uniwersam_a"
         rate = 100
 
-    class FARP_Fuel_Depot(unittype.StaticType):
-        id = "FARP Fuel Depot"
-        name = "FARP Fuel Depot"
-        shape_name = "GSM Rus"
-        rate = 20
-
-    class GeneratorF(unittype.StaticType):
-        id = "GeneratorF"
-        name = "GeneratorF"
-        shape_name = "GeneratorF"
+    class TV_tower(unittype.StaticType):
+        id = "TV tower"
+        name = "TV tower"
+        shape_name = "tele_bash"
         rate = 100
 
-    class Airshow_Cone(unittype.StaticType):
-        id = "Airshow_Cone"
-        name = "Airshow cone"
-        shape_name = "Comp_cone"
+    class Tech_combine(unittype.StaticType):
+        id = "Tech combine"
+        name = "Tech combine"
+        shape_name = "kombinat"
         rate = 100
 
-    class Airshow_Crowd(unittype.StaticType):
-        id = "Airshow_Crowd"
-        name = "Airshow Crowd"
-        shape_name = "Crowd1"
+    class Tech_hangar_A(unittype.StaticType):
+        id = "Tech hangar A"
+        name = "Tech hangar A"
+        shape_name = "ceh_ang_a"
+        rate = 100
+
+    class WC(unittype.StaticType):
+        id = "WC"
+        name = "WC"
+        shape_name = "WC"
+        rate = 100
+
+    class Water_tower_A(unittype.StaticType):
+        id = "Water tower A"
+        name = "Water tower A"
+        shape_name = "wodokachka_a"
+        rate = 100
+
+    class Workshop_A(unittype.StaticType):
+        id = "Workshop A"
+        name = "Workshop A"
+        shape_name = "tec_a"
         rate = 100
 
     class Red_Flag(unittype.StaticType):
@@ -461,6 +461,36 @@ class Fortification:
         name = "Barrel"
         shape_name = "barrelofbeer_support"
         rate = 5
+
+    class Drop_Zone_Marker_A(unittype.StaticType):
+        id = "Drop Zone Marker A"
+        name = "Drop Zone Marker A"
+        shape_name = "asc_drop_marker_tent"
+        rate = 1
+
+    class Drop_Zone_Marker_B(unittype.StaticType):
+        id = "Drop Zone Marker B"
+        name = "Drop Zone Marker B"
+        shape_name = "asc_drop_marker_cylinder"
+        rate = 1
+
+    class Drop_Zone_Marker_C(unittype.StaticType):
+        id = "Drop Zone Marker C"
+        name = "Drop Zone Marker C"
+        shape_name = "asc_drop_marker_triangle"
+        rate = 1
+
+    class Drop_Zone_Marker_D(unittype.StaticType):
+        id = "Drop Zone Marker D"
+        name = "Drop Zone Marker D"
+        shape_name = "asc_drop_marker_vertical_tall"
+        rate = 1
+
+    class Drop_Zone_Marker_E(unittype.StaticType):
+        id = "Drop Zone Marker E"
+        name = "Drop Zone Marker E"
+        shape_name = "asc_drop_marker_vertical_short"
+        rate = 1
 
     class AM32a_60_01(unittype.StaticType):
         id = "AM32a-60_01"
@@ -1358,55 +1388,56 @@ class Fortification:
 
 fortification_map = {
     ".Command Center": Fortification._Command_Center,
-    "Hangar A": Fortification.Hangar_A,
-    "Tech hangar A": Fortification.Tech_hangar_A,
+    "Airshow_Cone": Fortification.Airshow_Cone,
+    "Airshow_Crowd": Fortification.Airshow_Crowd,
+    "Barracks 2": Fortification.Barracks_2,
+    "Boiler-house A": Fortification.Boiler_house_A,
+    "Cafe": Fortification.Cafe,
+    "Chemical tank A": Fortification.Chemical_tank_A,
+    "Comms tower M": Fortification.Comms_tower_M,
+    "Container brown": Fortification.Container_brown,
+    "Container red 1": Fortification.Container_red_1,
+    "Container red 2": Fortification.Container_red_2,
+    "Container red 3": Fortification.Container_red_3,
+    "Container white": Fortification.Container_white,
+    "Electric power box": Fortification.Electric_power_box,
+    "FARP Ammo Dump Coating": Fortification.FARP_Ammo_Dump_Coating,
+    "FARP CP Blindage": Fortification.FARP_CP_Blindage,
+    "FARP Fuel Depot": Fortification.FARP_Fuel_Depot,
+    "FARP Tent": Fortification.FARP_Tent,
     "Farm A": Fortification.Farm_A,
     "Farm B": Fortification.Farm_B,
+    "Fuel tank": Fortification.Fuel_tank,
     "Garage A": Fortification.Garage_A,
-    "Boiler-house A": Fortification.Boiler_house_A,
-    "Restaurant 1": Fortification.Restaurant_1,
-    "Comms tower M": Fortification.Comms_tower_M,
-    "Cafe": Fortification.Cafe,
-    "Workshop A": Fortification.Workshop_A,
-    "Electric power box": Fortification.Electric_power_box,
-    "Supermarket A": Fortification.Supermarket_A,
-    "Water tower A": Fortification.Water_tower_A,
-    "TV tower": Fortification.TV_tower,
-    "Shelter": Fortification.Shelter,
-    "Repair workshop": Fortification.Repair_workshop,
-    "Railway station": Fortification.Railway_station,
+    "Garage B": Fortification.Garage_B,
+    "Garage small A": Fortification.Garage_small_A,
+    "Garage small B": Fortification.Garage_small_B,
+    "GeneratorF": Fortification.GeneratorF,
+    "Hangar A": Fortification.Hangar_A,
+    "Hangar B": Fortification.Hangar_B,
+    "Landmine": Fortification.Landmine,
+    "Military staff": Fortification.Military_staff,
+    "Oil derrick": Fortification.Oil_derrick,
+    "Oil platform": Fortification.Oil_platform,
+    "Pump station": Fortification.Pump_station,
     "Railway crossing A": Fortification.Railway_crossing_A,
     "Railway crossing B": Fortification.Railway_crossing_B,
-    "WC": Fortification.WC,
+    "Railway station": Fortification.Railway_station,
+    "Repair workshop": Fortification.Repair_workshop,
+    "Restaurant 1": Fortification.Restaurant_1,
+    "Shelter B": Fortification.Shelter_B,
+    "Shelter": Fortification.Shelter,
+    "Shop": Fortification.Shop,
     "Small house 1A area": Fortification.Small_house_1A_area,
     "Small house 1A": Fortification.Small_house_1A,
     "Small house 1B area": Fortification.Small_house_1B_area,
     "Small house 1B": Fortification.Small_house_1B,
     "Small house 1C area": Fortification.Small_house_1C_area,
     "Small house 2C": Fortification.Small_house_2C,
-    "Shop": Fortification.Shop,
-    "Tech combine": Fortification.Tech_combine,
-    "Chemical tank A": Fortification.Chemical_tank_A,
     "Small werehouse 1": Fortification.Small_werehouse_1,
     "Small werehouse 2": Fortification.Small_werehouse_2,
     "Small werehouse 3": Fortification.Small_werehouse_3,
     "Small werehouse 4": Fortification.Small_werehouse_4,
-    "Garage B": Fortification.Garage_B,
-    "Garage small A": Fortification.Garage_small_A,
-    "Garage small B": Fortification.Garage_small_B,
-    "Pump station": Fortification.Pump_station,
-    "Oil derrick": Fortification.Oil_derrick,
-    "Container red 1": Fortification.Container_red_1,
-    "Container red 2": Fortification.Container_red_2,
-    "Container red 3": Fortification.Container_red_3,
-    "Container white": Fortification.Container_white,
-    "Container brown": Fortification.Container_brown,
-    "Barracks 2": Fortification.Barracks_2,
-    "Military staff": Fortification.Military_staff,
-    "Hangar B": Fortification.Hangar_B,
-    "Fuel tank": Fortification.Fuel_tank,
-    "Shelter B": Fortification.Shelter_B,
-    "Oil platform": Fortification.Oil_platform,
     "Subsidiary structure 1": Fortification.Subsidiary_structure_1,
     "Subsidiary structure 2": Fortification.Subsidiary_structure_2,
     "Subsidiary structure 3": Fortification.Subsidiary_structure_3,
@@ -1417,14 +1448,13 @@ fortification_map = {
     "Subsidiary structure E": Fortification.Subsidiary_structure_E,
     "Subsidiary structure F": Fortification.Subsidiary_structure_F,
     "Subsidiary structure G": Fortification.Subsidiary_structure_G,
-    "Landmine": Fortification.Landmine,
-    "FARP Ammo Dump Coating": Fortification.FARP_Ammo_Dump_Coating,
-    "FARP Tent": Fortification.FARP_Tent,
-    "FARP CP Blindage": Fortification.FARP_CP_Blindage,
-    "FARP Fuel Depot": Fortification.FARP_Fuel_Depot,
-    "GeneratorF": Fortification.GeneratorF,
-    "Airshow_Cone": Fortification.Airshow_Cone,
-    "Airshow_Crowd": Fortification.Airshow_Crowd,
+    "Supermarket A": Fortification.Supermarket_A,
+    "TV tower": Fortification.TV_tower,
+    "Tech combine": Fortification.Tech_combine,
+    "Tech hangar A": Fortification.Tech_hangar_A,
+    "WC": Fortification.WC,
+    "Water tower A": Fortification.Water_tower_A,
+    "Workshop A": Fortification.Workshop_A,
     "Red_Flag": Fortification.Red_Flag,
     "White_Flag": Fortification.White_Flag,
     "Black_Tyre": Fortification.Black_Tyre,
@@ -1433,6 +1463,11 @@ fortification_map = {
     "Black_Tyre_WF": Fortification.Black_Tyre_WF,
     "Windsock": Fortification.Windsock,
     "Beer Bomb": Fortification.Beer_Bomb,
+    "Drop Zone Marker A": Fortification.Drop_Zone_Marker_A,
+    "Drop Zone Marker B": Fortification.Drop_Zone_Marker_B,
+    "Drop Zone Marker C": Fortification.Drop_Zone_Marker_C,
+    "Drop Zone Marker D": Fortification.Drop_Zone_Marker_D,
+    "Drop Zone Marker E": Fortification.Drop_Zone_Marker_E,
     "AM32a-60_01": Fortification.AM32a_60_01,
     "AM32a-60_02": Fortification.AM32a_60_02,
     "APFC fuel": Fortification.APFC_fuel,
@@ -1663,6 +1698,30 @@ warehouse_map = {
 
 class Cargo:
 
+    class barrels_cargo(unittype.StaticType):
+        id = "barrels_cargo"
+        name = "Barrels"
+        shape_name = "barrels_cargo"
+        category = "Cargos"
+        rate = 100
+        can_cargo = True
+
+    class fueltank_cargo(unittype.StaticType):
+        id = "fueltank_cargo"
+        name = "Fueltank"
+        shape_name = "fueltank_cargo"
+        category = "Cargos"
+        rate = 100
+        can_cargo = True
+
+    class oiltank_cargo(unittype.StaticType):
+        id = "oiltank_cargo"
+        name = "Oiltank"
+        shape_name = "oiltank_cargo"
+        category = "Cargos"
+        rate = 100
+        can_cargo = True
+
     class uh1h_cargo(unittype.StaticType):
         id = "uh1h_cargo"
         name = "UH-1H cargo"
@@ -1711,14 +1770,6 @@ class Cargo:
         rate = 100
         can_cargo = True
 
-    class barrels_cargo(unittype.StaticType):
-        id = "barrels_cargo"
-        name = "Barrels"
-        shape_name = "barrels_cargo"
-        category = "Cargos"
-        rate = 100
-        can_cargo = True
-
     class container_cargo(unittype.StaticType):
         id = "container_cargo"
         name = "Container"
@@ -1731,22 +1782,6 @@ class Cargo:
         id = "tetrapod_cargo"
         name = "Tetrapod"
         shape_name = "tetrapod_cargo"
-        category = "Cargos"
-        rate = 100
-        can_cargo = True
-
-    class fueltank_cargo(unittype.StaticType):
-        id = "fueltank_cargo"
-        name = "Fueltank"
-        shape_name = "fueltank_cargo"
-        category = "Cargos"
-        rate = 100
-        can_cargo = True
-
-    class oiltank_cargo(unittype.StaticType):
-        id = "oiltank_cargo"
-        name = "Oiltank"
-        shape_name = "oiltank_cargo"
         category = "Cargos"
         rate = 100
         can_cargo = True
@@ -1783,6 +1818,70 @@ class Cargo:
         rate = 100
         can_cargo = True
 
+    class gbu_43b_airdrop(unittype.StaticType):
+        id = "gbu_43b_airdrop"
+        name = "GBU-43 MOAB"
+        shape_name = "gbu_43_full"
+        category = "Cargos"
+        rate = 100
+        can_cargo = True
+
+    class cds_crate(unittype.StaticType):
+        id = "cds_crate"
+        name = "CDS Crate"
+        shape_name = "cds_crate"
+        category = "Cargos"
+        rate = 1200
+        can_cargo = True
+
+    class cds_barrels(unittype.StaticType):
+        id = "cds_barrels"
+        name = "CDS Barrels"
+        shape_name = "cds_barrels"
+        category = "Cargos"
+        rate = 1200
+        can_cargo = True
+
+    class x_463_Pallet(unittype.StaticType):
+        id = "463_Pallet"
+        name = "463 Pallet"
+        shape_name = "463_Pallet"
+        category = "Cargos"
+        rate = 100
+        can_cargo = True
+
+    class M92_Concrete_Barrier_Cargo(unittype.StaticType):
+        id = "M92_Concrete_Barrier_Cargo"
+        name = "Concrete Barrier"
+        shape_name = "M92_barrierb"
+        category = "Cargos"
+        rate = 1
+        can_cargo = True
+
+    class M92_MRE_Pallet(unittype.StaticType):
+        id = "M92_MRE_Pallet"
+        name = "MRE Pallet"
+        shape_name = "M92_Cargo01"
+        category = "Cargos"
+        rate = 1
+        can_cargo = True
+
+    class M92_Ammo_Pallet(unittype.StaticType):
+        id = "M92_Ammo_Pallet"
+        name = "Ammo Pallet"
+        shape_name = "M92_Cargo03"
+        category = "Cargos"
+        rate = 1
+        can_cargo = True
+
+    class M92_10Ft_Container(unittype.StaticType):
+        id = "M92_10Ft_Container"
+        name = "10ft Container"
+        shape_name = "M92_Container_10ft"
+        category = "Cargos"
+        rate = 1
+        can_cargo = True
+
     class l118(unittype.StaticType):
         id = "l118"
         name = "L118 Light Artillery"
@@ -1792,21 +1891,29 @@ class Cargo:
         can_cargo = True
 
 cargo_map = {
+    "barrels_cargo": Cargo.barrels_cargo,
+    "fueltank_cargo": Cargo.fueltank_cargo,
+    "oiltank_cargo": Cargo.oiltank_cargo,
     "uh1h_cargo": Cargo.uh1h_cargo,
     "ammo_cargo": Cargo.ammo_cargo,
     "f_bar_cargo": Cargo.f_bar_cargo,
     "m117_cargo": Cargo.m117_cargo,
     "iso_container": Cargo.iso_container,
     "iso_container_small": Cargo.iso_container_small,
-    "barrels_cargo": Cargo.barrels_cargo,
     "container_cargo": Cargo.container_cargo,
     "tetrapod_cargo": Cargo.tetrapod_cargo,
-    "fueltank_cargo": Cargo.fueltank_cargo,
-    "oiltank_cargo": Cargo.oiltank_cargo,
     "pipes_big_cargo": Cargo.pipes_big_cargo,
     "pipes_small_cargo": Cargo.pipes_small_cargo,
     "trunks_small_cargo": Cargo.trunks_small_cargo,
     "trunks_long_cargo": Cargo.trunks_long_cargo,
+    "gbu_43b_airdrop": Cargo.gbu_43b_airdrop,
+    "cds_crate": Cargo.cds_crate,
+    "cds_barrels": Cargo.cds_barrels,
+    "463_Pallet": Cargo.x_463_Pallet,
+    "M92_Concrete_Barrier_Cargo": Cargo.M92_Concrete_Barrier_Cargo,
+    "M92_MRE_Pallet": Cargo.M92_MRE_Pallet,
+    "M92_Ammo_Pallet": Cargo.M92_Ammo_Pallet,
+    "M92_10Ft_Container": Cargo.M92_10Ft_Container,
     "l118": Cargo.l118,
 }
 
