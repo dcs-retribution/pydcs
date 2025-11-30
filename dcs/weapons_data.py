@@ -377,6 +377,7 @@ class Weapons:
     B_8V20A_OM = {"clsid": "B_8V20A_OM", "name": "B-8V20A - 20 x UnGd Rkts, 80 mm S-8OM IL", "weight": 364}
     B_8V20A___20_x_UnGd_Rkts__80_mm_S_8KOM_HEAT_Frag = {"clsid": "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}", "name": "B-8V20A - 20 x UnGd Rkts, 80 mm S-8KOM HEAT/Frag", "weight": 348}
     CATM_9M = {"clsid": "CATM-9M", "name": "Captive AIM-9M for ACM", "weight": 85.73}
+    Cargo_Bay_M4 = {"clsid": "{C130-Cargo-Bay-M4}", "name": "Cargo-Bay-M4", "weight": 1}
     CBLS_200 = {"clsid": "CBLS-200", "name": "4*BDU-33 - AF/B37K Rack with 4*25lb Practice Bomb LD", "weight": 84.4}
     CBM___28_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD = {"clsid": "{CBM_Mk82AIR}", "name": "CBM - 28 x Mk-82 AIR Ballute - 500lb GP Bomb HD", "weight": 8211.4}
     CBU87_10 = {"clsid": "CBU87*10", "name": "SECBM - 10 x CBU-87 - 202 x CEM Cluster Bomb", "weight": 5477.3}
@@ -545,6 +546,8 @@ class Weapons:
     Fuel_Tank_490_L_Central__21_ = {"clsid": "{PTB_490C_MIG21}", "name": "Fuel Tank 490 L Central (21)", "weight": 434}
     Fuel_Tank_490_L__21_ = {"clsid": "{PTB_490_MIG21}", "name": "Fuel Tank 490 L (21)", "weight": 434}
     Fuel_Tank_800_L__21_ = {"clsid": "{PTB_800_MIG21}", "name": "Fuel Tank 800 L (21)", "weight": 682}
+    Fuel_Tank_8900_pounds = {"clsid": "{C130J_Ext_Tank_L}", "name": "Fuel Tank 8900 pounds", "weight": 4145.83088}
+    Fuel_Tank_8900_pounds_ = {"clsid": "{C130J_Ext_Tank_R}", "name": "Fuel Tank 8900 pounds", "weight": 4145.83088}
     Fuel_Tank_FT600 = {"clsid": "Fuel_Tank_FT600", "name": "Fuel tank FT600", "weight": 1925}
     Fuel_tank_1150L = {"clsid": "{414E383A-59EB-41BC-8566-2B5E0788ED1F}", "name": "Fuel tank 1150L", "weight": 975.25}
     Fuel_tank_1150L_MiG_29 = {"clsid": "{C0FF4842-FBAC-11d5-9190-00A0249B6F00}", "name": "Fuel tank 1150L MiG-29", "weight": 975.25}
@@ -615,6 +618,7 @@ class Weapons:
     GBU_38___3 = {"clsid": "{CFT_L_GBU_38_x_3}", "name": "GBU-38 * 3", "weight": 723}
     GBU_38___3_ = {"clsid": "{CFT_R_GBU_38_x_3}", "name": "GBU-38 * 3", "weight": 723}
     GBU_39 = {"clsid": "{GBU-39}", "name": "GBU-39", "weight": 130}
+    GBU_43 = {"clsid": "{GBU-43}", "name": "GBU-43", "weight": 9840}
     GBU_54B___3 = {"clsid": "{CFT_L_GBU_54_x_3}", "name": "GBU-54B * 3", "weight": 759}
     GBU_54B___3_ = {"clsid": "{CFT_R_GBU_54_x_3}", "name": "GBU-54B * 3", "weight": 759}
     GBU_54_V_1_B___LJDAM__500lb_Laser__GPS_Guided_Bomb_LD = {"clsid": "{GBU_54_V_1B}", "name": "GBU-54(V)1/B - LJDAM, 500lb Laser & GPS Guided Bomb LD", "weight": 253}
@@ -904,6 +908,7 @@ class Weapons:
     M134_SIDE_L = {"clsid": "M134_SIDE_L", "name": "M134 - 6 x 7.62mm MiniGun left door", "weight": 270.4}
     M134_SIDE_R = {"clsid": "M134_SIDE_R", "name": "M134 - 6 x 7.62mm MiniGun right door", "weight": 270.4}
     M134___6_x_7_62mm_MiniGun_right_door = {"clsid": "{SA342_M134_SIDE_R}", "name": "M134 - 6 x 7.62mm MiniGun right door", "weight": 270.4}
+    M18_Sidearm = {"clsid": "{C130-M18-Sidearm}", "name": "M18-Sidearm", "weight": 4.3}
     M2000_Fuel_tank = {"clsid": "{414DA830-B61A-4F9E-B71B-C2F6832E1D7A}", "name": "M2000 Fuel tank", "weight": 1050}
     M240H = {"clsid": "{CH47_PORT_M240H}", "name": "M240H", "weight": 150.4}
     M240H_ = {"clsid": "{CH47_STBD_M240H}", "name": "M240H", "weight": 150.4}
@@ -1065,14 +1070,14 @@ class Weapons:
     Missile_Launcher_Rack__Empty_ = {"clsid": "{9M114 Shturm-V-2 Rack}", "name": "Missile Launcher Rack (Empty)", "weight": 13}
     MK_82_28 = {"clsid": "MK_82*28", "name": "CBM - 28 x Mk-82 - 500lb GP Bomb LD", "weight": 7819.4}
     MK_84___2 = {"clsid": "{CFT_R_MK84LD_x_2}", "name": "MK-84 * 2", "weight": 1788}
-    Mk5_Universal_Drop_Tank_150_Corsair = {"clsid": "{150_USgal_Corsair_droptank_mk5}", "name": "Mk5 Universal Drop Tank 150 Corsair", "weight": 469}
     Mk_20 = {"clsid": "{BRU-32 MK-20}", "name": "Mk-20", "weight": 279.38}
     Mk_20_Rockeye___3 = {"clsid": "{CFT_L_CBU_100_x_3}", "name": "Mk-20 Rockeye * 3", "weight": 666}
     Mk_20_Rockeye___3_ = {"clsid": "{CFT_R_CBU_100_x_3}", "name": "Mk-20 Rockeye * 3", "weight": 666}
     Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets = {"clsid": "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}", "name": "Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets", "weight": 222}
     Mk_20_Rockeye___6 = {"clsid": "{CFT_L_CBU_100_x_6}", "name": "Mk-20 Rockeye * 6", "weight": 1332}
     Mk_20_Rockeye___6_ = {"clsid": "{CFT_R_CBU_100_x_6}", "name": "Mk-20 Rockeye * 6", "weight": 1332}
-    Mk_6_Lockheed_Drop_Tank_150_U_S__Gal = {"clsid": "{150_USgal_Corsair_droptank_mk6}", "name": "Mk.6 Lockheed Drop Tank 150 U.S. Gal", "weight": 471}
+    Mk_5_Universal_Drop_Tank_150_U_S__Gal = {"clsid": "{150_USgal_Corsair_droptank_mk5}", "name": "Mk.5 Universal Drop Tank 150 U.S. Gal", "weight": 469}
+    Mk_6_Lockheed_Drop_Tank_165_U_S__Gal = {"clsid": "{150_USgal_Corsair_droptank_mk6}", "name": "Mk.6 Lockheed Drop Tank 165 U.S. Gal", "weight": 500}
     Mk_81___250lb_GP_Bomb_LD = {"clsid": "{90321C8E-7ED1-47D4-A160-E074D5ABD902}", "name": "Mk-81 - 250lb GP Bomb LD", "weight": 118}
     Mk_82 = {"clsid": "{BRU-32 MK-82}", "name": "Mk-82", "weight": 298.38}
     Mk_82AIR = {"clsid": "{BRU-32 MK-82AIR}", "name": "Mk-82AIR", "weight": 298.38}
@@ -1410,6 +1415,8 @@ class Weapons:
     _1x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER_ = {"clsid": "{HB_F4E_CBU-2A_MER_1x_Left}", "name": "1x CBU-2/A x 19x19 (361) BLU-3 Bomblets, HE (MER)", "weight": 437.96644376}
     _1x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER__ = {"clsid": "{HB_F4E_CBU-2A_MER_1x_Right}", "name": "1x CBU-2/A x 19x19 (361) BLU-3 Bomblets, HE (MER)", "weight": 437.96644376}
     _1x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER___ = {"clsid": "{HB_F4E_CBU-2A_MER_1x}", "name": "1x CBU-2/A x 19x19 (361) BLU-3 Bomblets, HE (MER)", "weight": 437.96644376}
+    _1x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__MER_ = {"clsid": "{HB_F4E_LAU-10_ZUNI_MER_1x}", "name": "1x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (MER)", "weight": 388.7}
+    _1x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER_ = {"clsid": "{HB_F4E_LAU-10_ZUNI_1x}", "name": "1x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (TER)", "weight": 416.9}
     _1x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__TER_ = {"clsid": "{HB_F4E_LAU-3_WP156_1x}", "name": "1x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts M156, Wht Phos (TER)", "weight": 375.4}
     _1x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__TER_ = {"clsid": "{HB_F4E_LAU-3_MK1_1x}", "name": "1x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts Mk1, HE (TER)", "weight": 347.8}
     _1x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk5__HEAT__TER_ = {"clsid": "{HB_F4E_LAU-3_MK5_1x}", "name": "1x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)", "weight": 348.7}
@@ -1475,6 +1482,10 @@ class Weapons:
     _2x_CBU_52B___220_x_HE_Frag_bomblets__TER_ = {"clsid": "{HB_F4E_CBU-52B_2x}", "name": "2x CBU-52B - 220 x HE/Frag bomblets (TER)", "weight": 840}
     _2x_CBU_87___202_x_CEM_Cluster_Bomb__TER_ = {"clsid": "{HB_F4E_CBU-87_2x}", "name": "2x CBU-87 - 202 x CEM Cluster Bomb (TER)", "weight": 988}
     _2x_GBU_12___500lb_Laser_Guided_Bomb__TER_ = {"clsid": "{HB_F4E_GBU-12_2x}", "name": "2x GBU-12 - 500lb Laser Guided Bomb (TER)", "weight": 682}
+    _2x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__MER_ = {"clsid": "{HB_F4E_LAU-10_ZUNI_MER_2x}", "name": "2x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (MER)", "weight": 677.6}
+    _2x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER_ = {"clsid": "{HB_F4E_LAU-10_ZUNI_2x_Right}", "name": "2x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (TER)", "weight": 705.8}
+    _2x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER__ = {"clsid": "{HB_F4E_LAU-10_ZUNI_2x_Left}", "name": "2x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (TER)", "weight": 705.8}
+    _2x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER__Opposed = {"clsid": "{HB_F4E_LAU-10_ZUNI_2x_Opposed}", "name": "2x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (TER) Opposed", "weight": 705.8}
     _2x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__TER_ = {"clsid": "{HB_F4E_LAU-3_WP156_2x_Right}", "name": "2x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts M156, Wht Phos (TER)", "weight": 622.8}
     _2x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__TER__ = {"clsid": "{HB_F4E_LAU-3_WP156_2x_Left}", "name": "2x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts M156, Wht Phos (TER)", "weight": 622.8}
     _2x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__TER_ = {"clsid": "{HB_F4E_LAU-3_MK1_2x_Right}", "name": "2x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts Mk1, HE (TER)", "weight": 567.6}
@@ -1667,6 +1678,8 @@ class Weapons:
     _3x_CBU_52B___220_x_HE_Frag_bomblets__MER__ = {"clsid": "{HB_F4E_CBU-52B_MER_3x_Right}", "name": "3x CBU-52B - 220 x HE/Frag bomblets (MER)", "weight": 1167.8}
     _3x_CBU_87___202_x_CEM_Cluster_Bomb__MER_ = {"clsid": "{HB_F4E_CBU-87_MER_3x_Left}", "name": "3x CBU-87 - 202 x CEM Cluster Bomb (MER)", "weight": 1389.8}
     _3x_CBU_87___202_x_CEM_Cluster_Bomb__MER__ = {"clsid": "{HB_F4E_CBU-87_MER_3x_Right}", "name": "3x CBU-87 - 202 x CEM Cluster Bomb (MER)", "weight": 1389.8}
+    _3x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__MER_ = {"clsid": "{HB_F4E_LAU-10_ZUNI_MER_3x}", "name": "3x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (MER)", "weight": 966.5}
+    _3x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER_ = {"clsid": "{HB_F4E_LAU-10_ZUNI_3x}", "name": "3x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (TER)", "weight": 994.7}
     _3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__MER_ = {"clsid": "{HB_F4E_LAU-3_WP156_MER_3x}", "name": "3x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts M156, Wht Phos (MER)", "weight": 842}
     _3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__TER_ = {"clsid": "{HB_F4E_LAU-3_WP156_3x}", "name": "3x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts M156, Wht Phos (TER)", "weight": 870.2}
     _3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__MER_ = {"clsid": "{HB_F4E_LAU-3_MK1_MER_3x}", "name": "3x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts Mk1, HE (MER)", "weight": 759.2}
@@ -2178,6 +2191,7 @@ weapon_ids = {
     "B_8V20A_OM": Weapons.B_8V20A_OM,
     "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}": Weapons.B_8V20A___20_x_UnGd_Rkts__80_mm_S_8KOM_HEAT_Frag,
     "CATM-9M": Weapons.CATM_9M,
+    "{C130-Cargo-Bay-M4}": Weapons.Cargo_Bay_M4,
     "CBLS-200": Weapons.CBLS_200,
     "{CBM_Mk82AIR}": Weapons.CBM___28_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD,
     "CBU87*10": Weapons.CBU87_10,
@@ -2346,6 +2360,8 @@ weapon_ids = {
     "{PTB_490C_MIG21}": Weapons.Fuel_Tank_490_L_Central__21_,
     "{PTB_490_MIG21}": Weapons.Fuel_Tank_490_L__21_,
     "{PTB_800_MIG21}": Weapons.Fuel_Tank_800_L__21_,
+    "{C130J_Ext_Tank_L}": Weapons.Fuel_Tank_8900_pounds,
+    "{C130J_Ext_Tank_R}": Weapons.Fuel_Tank_8900_pounds_,
     "Fuel_Tank_FT600": Weapons.Fuel_Tank_FT600,
     "{414E383A-59EB-41BC-8566-2B5E0788ED1F}": Weapons.Fuel_tank_1150L,
     "{C0FF4842-FBAC-11d5-9190-00A0249B6F00}": Weapons.Fuel_tank_1150L_MiG_29,
@@ -2416,6 +2432,7 @@ weapon_ids = {
     "{CFT_L_GBU_38_x_3}": Weapons.GBU_38___3,
     "{CFT_R_GBU_38_x_3}": Weapons.GBU_38___3_,
     "{GBU-39}": Weapons.GBU_39,
+    "{GBU-43}": Weapons.GBU_43,
     "{CFT_L_GBU_54_x_3}": Weapons.GBU_54B___3,
     "{CFT_R_GBU_54_x_3}": Weapons.GBU_54B___3_,
     "{GBU_54_V_1B}": Weapons.GBU_54_V_1_B___LJDAM__500lb_Laser__GPS_Guided_Bomb_LD,
@@ -2705,6 +2722,7 @@ weapon_ids = {
     "M134_SIDE_L": Weapons.M134_SIDE_L,
     "M134_SIDE_R": Weapons.M134_SIDE_R,
     "{SA342_M134_SIDE_R}": Weapons.M134___6_x_7_62mm_MiniGun_right_door,
+    "{C130-M18-Sidearm}": Weapons.M18_Sidearm,
     "{414DA830-B61A-4F9E-B71B-C2F6832E1D7A}": Weapons.M2000_Fuel_tank,
     "{CH47_PORT_M240H}": Weapons.M240H,
     "{CH47_STBD_M240H}": Weapons.M240H_,
@@ -2866,14 +2884,14 @@ weapon_ids = {
     "{9M114 Shturm-V-2 Rack}": Weapons.Missile_Launcher_Rack__Empty_,
     "MK_82*28": Weapons.MK_82_28,
     "{CFT_R_MK84LD_x_2}": Weapons.MK_84___2,
-    "{150_USgal_Corsair_droptank_mk5}": Weapons.Mk5_Universal_Drop_Tank_150_Corsair,
     "{BRU-32 MK-20}": Weapons.Mk_20,
     "{CFT_L_CBU_100_x_3}": Weapons.Mk_20_Rockeye___3,
     "{CFT_R_CBU_100_x_3}": Weapons.Mk_20_Rockeye___3_,
     "{ADD3FAE1-EBF6-4EF9-8EFC-B36B5DDF1E6B}": Weapons.Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets,
     "{CFT_L_CBU_100_x_6}": Weapons.Mk_20_Rockeye___6,
     "{CFT_R_CBU_100_x_6}": Weapons.Mk_20_Rockeye___6_,
-    "{150_USgal_Corsair_droptank_mk6}": Weapons.Mk_6_Lockheed_Drop_Tank_150_U_S__Gal,
+    "{150_USgal_Corsair_droptank_mk5}": Weapons.Mk_5_Universal_Drop_Tank_150_U_S__Gal,
+    "{150_USgal_Corsair_droptank_mk6}": Weapons.Mk_6_Lockheed_Drop_Tank_165_U_S__Gal,
     "{90321C8E-7ED1-47D4-A160-E074D5ABD902}": Weapons.Mk_81___250lb_GP_Bomb_LD,
     "{BRU-32 MK-82}": Weapons.Mk_82,
     "{BRU-32 MK-82AIR}": Weapons.Mk_82AIR,
@@ -3211,6 +3229,8 @@ weapon_ids = {
     "{HB_F4E_CBU-2A_MER_1x_Left}": Weapons._1x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER_,
     "{HB_F4E_CBU-2A_MER_1x_Right}": Weapons._1x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER__,
     "{HB_F4E_CBU-2A_MER_1x}": Weapons._1x_CBU_2_A_x_19x19__361__BLU_3_Bomblets__HE__MER___,
+    "{HB_F4E_LAU-10_ZUNI_MER_1x}": Weapons._1x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__MER_,
+    "{HB_F4E_LAU-10_ZUNI_1x}": Weapons._1x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER_,
     "{HB_F4E_LAU-3_WP156_1x}": Weapons._1x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__TER_,
     "{HB_F4E_LAU-3_MK1_1x}": Weapons._1x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__TER_,
     "{HB_F4E_LAU-3_MK5_1x}": Weapons._1x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk5__HEAT__TER_,
@@ -3276,6 +3296,10 @@ weapon_ids = {
     "{HB_F4E_CBU-52B_2x}": Weapons._2x_CBU_52B___220_x_HE_Frag_bomblets__TER_,
     "{HB_F4E_CBU-87_2x}": Weapons._2x_CBU_87___202_x_CEM_Cluster_Bomb__TER_,
     "{HB_F4E_GBU-12_2x}": Weapons._2x_GBU_12___500lb_Laser_Guided_Bomb__TER_,
+    "{HB_F4E_LAU-10_ZUNI_MER_2x}": Weapons._2x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__MER_,
+    "{HB_F4E_LAU-10_ZUNI_2x_Right}": Weapons._2x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER_,
+    "{HB_F4E_LAU-10_ZUNI_2x_Left}": Weapons._2x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER__,
+    "{HB_F4E_LAU-10_ZUNI_2x_Opposed}": Weapons._2x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER__Opposed,
     "{HB_F4E_LAU-3_WP156_2x_Right}": Weapons._2x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__TER_,
     "{HB_F4E_LAU-3_WP156_2x_Left}": Weapons._2x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__TER__,
     "{HB_F4E_LAU-3_MK1_2x_Right}": Weapons._2x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__TER_,
@@ -3468,6 +3492,8 @@ weapon_ids = {
     "{HB_F4E_CBU-52B_MER_3x_Right}": Weapons._3x_CBU_52B___220_x_HE_Frag_bomblets__MER__,
     "{HB_F4E_CBU-87_MER_3x_Left}": Weapons._3x_CBU_87___202_x_CEM_Cluster_Bomb__MER_,
     "{HB_F4E_CBU-87_MER_3x_Right}": Weapons._3x_CBU_87___202_x_CEM_Cluster_Bomb__MER__,
+    "{HB_F4E_LAU-10_ZUNI_MER_3x}": Weapons._3x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__MER_,
+    "{HB_F4E_LAU-10_ZUNI_3x}": Weapons._3x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__TER_,
     "{HB_F4E_LAU-3_WP156_MER_3x}": Weapons._3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__MER_,
     "{HB_F4E_LAU-3_WP156_3x}": Weapons._3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__TER_,
     "{HB_F4E_LAU-3_MK1_MER_3x}": Weapons._3x_LAU_3_pod___19_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__MER_,

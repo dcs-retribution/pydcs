@@ -1597,6 +1597,48 @@ class Unarmed:
         threat_range = 0
         air_weapon_dist = 0
 
+    class kamaz_tent_civil(unittype.VehicleType):
+        id = "kamaz_tent_civil"
+        name = "Truck KAMAZ-43101 civil"
+        detection_range = 0
+        threat_range = 0
+        air_weapon_dist = 0
+
+    class ural_atz5_civil(unittype.VehicleType):
+        id = "ural_atz5_civil"
+        name = "Refueler ATZ-5 civil"
+        detection_range = 0
+        threat_range = 0
+        air_weapon_dist = 0
+
+    class ural_4230_civil_b(unittype.VehicleType):
+        id = "ural_4230_civil_b"
+        name = "Truck Ural-4320 civil"
+        detection_range = 0
+        threat_range = 0
+        air_weapon_dist = 0
+
+    class ural_4230_civil_t(unittype.VehicleType):
+        id = "ural_4230_civil_t"
+        name = "Truck Ural-4320T civil"
+        detection_range = 0
+        threat_range = 0
+        air_weapon_dist = 0
+
+    class zil_131_civil(unittype.VehicleType):
+        id = "zil-131_civil"
+        name = "Truck ZiL-131 civil"
+        detection_range = 0
+        threat_range = 0
+        air_weapon_dist = 0
+
+    class gaz_66_civil(unittype.VehicleType):
+        id = "gaz-66_civil"
+        name = "Truck GAZ-66 civil"
+        detection_range = 0
+        threat_range = 0
+        air_weapon_dist = 0
+
     class GD_20(unittype.VehicleType):
         id = "GD-20"
         name = "GD-20 Lift Truck"
@@ -2709,6 +2751,12 @@ vehicle_map = {
     "Blitz_36-6700A": Unarmed.Blitz_36_6700A,
     "T155_Firtina": Artillery.T155_Firtina,
     "VAB_Mephisto": Armor.VAB_Mephisto,
+    "kamaz_tent_civil": Unarmed.kamaz_tent_civil,
+    "ural_atz5_civil": Unarmed.ural_atz5_civil,
+    "ural_4230_civil_b": Unarmed.ural_4230_civil_b,
+    "ural_4230_civil_t": Unarmed.ural_4230_civil_t,
+    "zil-131_civil": Unarmed.zil_131_civil,
+    "gaz-66_civil": Unarmed.gaz_66_civil,
     "ZTZ96B": Armor.ZTZ96B,
     "ZBD04A": Armor.ZBD04A,
     "HQ-7_LN_SP": AirDefence.HQ_7_LN_SP,
