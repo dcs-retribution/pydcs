@@ -83,6 +83,131 @@ function ternary ( cond , T , F )
     if cond then return T else return F end
 end
 
+-------------------------------------------------------------------------------
+-- helper functions for weapon settings export
+-------------------------------------------------------------------------------
+
+local function escape_string(str)
+    if not str then return "" end
+    str = string.gsub(str, "\\", "\\\\")
+    str = string.gsub(str, "\"", "\\\"") 
+    str = string.gsub(str, "\n", "\\n")
+    str = string.gsub(str, "\r", "\\r")
+    return str
+end
+
+local function serialize_value(value)
+    if type(value) == "string" then
+        return "\"" .. escape_string(value) .. "\""
+    elseif type(value) == "boolean" then
+        return value and "True" or "False"
+    elseif type(value) == "nil" then
+        return "None"
+    else
+        return tostring(value)
+    end
+end
+
+local function serialize_dict(dict)
+    if not dict or type(dict) ~= "table" then
+        return "{}"
+    end
+    local parts = {}
+    for k, v in pairs(dict) do
+        if type(v) == "table" then
+            table.insert(parts, "\"" .. escape_string(tostring(k)) .. "\": " .. serialize_dict(v))
+        else
+            table.insert(parts, "\"" .. escape_string(tostring(k)) .. "\": " .. serialize_value(v))
+        end
+    end
+    return "{" .. table.concat(parts, ", ") .. "}"
+end
+
+local function serialize_list(list)
+    if not list or type(list) ~= "table" then
+        return "[]"
+    end
+    local parts = {}
+    for _, item in ipairs(list) do
+        if type(item) == "table" then
+            table.insert(parts, serialize_dict(item))
+        else
+            table.insert(parts, serialize_value(item))
+        end
+    end
+    return "[" .. table.concat(parts, ", ") .. "]"
+end
+
+-- Function to extract weapon settings from weapon object
+local function extract_weapon_settings(weapon)
+    -- Try to get settings from weapon
+    if weapon.settings and type(weapon.settings) == "table" and #weapon.settings > 0 then
+        return weapon.settings
+    elseif weapon["settings"] and type(weapon["settings"]) == "table" and #weapon["settings"] > 0 then
+        return weapon["settings"]
+    end
+    return nil
+end
+
+-- Function to serialize settings as Python data structure
+local function serialize_settings_data(settings)
+    if not settings or #settings == 0 then
+        return "None"
+    end
+    
+    local result = "["
+    for i, setting in ipairs(settings) do
+        result = result .. "\n        {\n"
+        result = result .. "            \"id\": \"" .. escape_string(setting.id) .. "\",\n"
+        result = result .. "            \"label\": \"" .. escape_string(setting.label) .. "\",\n"
+        result = result .. "            \"control\": \"" .. escape_string(setting.control) .. "\",\n"
+        result = result .. "            \"defValue\": " .. serialize_value(setting.defValue) .. ",\n"
+        
+        -- Serialize values for comboList controls
+        if setting.values and type(setting.values) == "table" then
+            result = result .. "            \"values\": [\n"
+            for j, val in ipairs(setting.values) do
+                result = result .. "                {\n"
+                result = result .. "                    \"id\": " .. serialize_value(val.id) .. ",\n" 
+                result = result .. "                    \"dispName\": \"" .. escape_string(val.dispName) .. "\""
+                result = result .. "\n                }"
+                if j < #setting.values then
+                    result = result .. ","
+                end
+                result = result .. "\n"
+            end
+            result = result .. "            ],\n"
+        end
+        
+        -- Serialize optional fields
+        if setting.min then 
+            result = result .. "            \"min\": " .. tostring(setting.min) .. ",\n" 
+        end
+        if setting.max then 
+            result = result .. "            \"max\": " .. tostring(setting.max) .. ",\n" 
+        end
+        if setting.baseDim then 
+            result = result .. "            \"baseDim\": \"" .. escape_string(setting.baseDim) .. "\",\n" 
+        end
+        if setting.dimension then 
+            result = result .. "            \"dimension\": \"" .. escape_string(setting.dimension) .. "\",\n" 
+        end
+        if setting.readOnly then 
+            result = result .. "            \"readOnly\": True,\n" 
+        end
+        if setting.VisibilityCondition then
+            result = result .. "            \"VisibilityCondition\": " .. serialize_list(setting.VisibilityCondition) .. ",\n"
+        end
+        
+        result = result .. "        }"
+        if i < #settings then
+            result = result .. ","
+        end
+    end
+    result = result .. "\n    ]"
+    return result
+end
+
 local function handle_weapon(weapon, weaponKeys, weaponTable)
     if weapon.displayName == nil then
         -- There appears to be some garbage data in the weapon table where there are weapons without display names. Based on
@@ -146,10 +271,19 @@ local function handle_weapon(weapon, weaponKeys, weaponTable)
     if weapon["Weight"] ~= nil then
         w = weapon["Weight"]
     end
+    
+    -- Extract settings if available
+    local settings = extract_weapon_settings(weapon)
+    
     while weaponTable[key] ~= nil do
         key = key..'_'
     end
-    weaponTable[key] = {clsid = myclsid, displayName = safe_display_name(weapon.displayName), weight = w}
+    weaponTable[key] = {
+        clsid = myclsid, 
+        displayName = safe_display_name(weapon.displayName), 
+        weight = w,
+        settings = settings
+    }
     table.insert(weaponKeys, key)
     -- print("    " .. key .. " = {\"clsid\": \"" .. weapon.CLSID .. "\", \"name\": \"" .. weapon.displayName .. "\"}")
 end
@@ -193,8 +327,20 @@ while i <= #keys do
 
     if weapons[x].displayName ~= nil then
         local displayName = replace_backslash_star(weapons[x].displayName)
-        writeln(file, "    " .. remove_semi_colons(x) .. " = {\"clsid\": \"" .. weapons[x].clsid
-                .. "\", \"name\": \"" .. displayName .. "\", \"weight\": " .. weapons[x].weight .. "}")
+        
+        -- Write weapon definition
+        writeln(file, "    " .. remove_semi_colons(x) .. " = {")
+        writeln(file, "        \"clsid\": \"" .. weapons[x].clsid .. "\",")
+        writeln(file, "        \"name\": \"" .. displayName .. "\",")
+        writeln(file, "        \"weight\": " .. weapons[x].weight .. ",")
+        
+        -- Serialize and include settings if available
+        if weapons[x].settings then
+            local settings_data = serialize_settings_data(weapons[x].settings)
+            writeln(file, "        \"settings\": " .. settings_data .. ",")
+        end
+        
+        writeln(file, "    }")
     end
     i = i + 1
 end
