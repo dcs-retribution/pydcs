@@ -4004,6 +4004,7 @@ class Germany(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
@@ -4070,6 +4071,7 @@ class Germany(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,

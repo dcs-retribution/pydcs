@@ -9930,7 +9930,6 @@ class C_101CC(PlaneType):
 
 class C_130J_30(PlaneType):
     id = "C-130J-30"
-    flyable = True
     height = 11.84
     width = 40.41
     length = 44.36
@@ -15930,9 +15929,9 @@ class F4U_1D_CW(PlaneType):
         "F4U_GunsConvergence_Mid": 2,
         "F4U_GunsConvergence_Outer": 2,
         "F4U_CW_number": True,
-        "F4U_CW_number_1": 6,
-        "F4U_CW_number_2": 3,
-        "F4U_CW_number_3": 9,
+        "F4U_CW_number_1": 8,
+        "F4U_CW_number_2": 2,
+        "F4U_CW_number_3": 5,
     }
 
     class Properties:
@@ -16080,7 +16079,7 @@ class F4U_1D_CW(PlaneType):
             identifier="F4U_CW_number_1",
             control="comboList",
             label="1st number",
-            default=6,
+            default=8,
             values={
                 0: "0",
                 1: "1",
@@ -16098,7 +16097,7 @@ class F4U_1D_CW(PlaneType):
             identifier="F4U_CW_number_2",
             control="comboList",
             label="2nd number",
-            default=3,
+            default=2,
             values={
                 0: "0",
                 1: "1",
@@ -16116,7 +16115,7 @@ class F4U_1D_CW(PlaneType):
             identifier="F4U_CW_number_3",
             control="comboList",
             label="3rd number",
-            default=9,
+            default=5,
             values={
                 0: "0",
                 1: "1",
