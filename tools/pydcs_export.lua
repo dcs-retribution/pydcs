@@ -138,6 +138,51 @@ local function serialize_list(list)
     return "[" .. table.concat(parts, ", ") .. "]"
 end
 
+local function hash_settings(settings)
+    if not settings or #settings == 0 then
+        return nil
+    end
+    
+    local str_parts = {}
+    for i, setting in ipairs(settings) do
+        local parts = {
+            "id=" .. tostring(setting.id),
+            "label=" .. tostring(setting.label),
+            "control=" .. tostring(setting.control),
+            "defValue=" .. tostring(setting.defValue)
+        }
+        
+        if setting.values then
+            local val_parts = {}
+            for j, val in ipairs(setting.values) do
+                table.insert(val_parts, tostring(val.id) .. ":" .. tostring(val.dispName))
+            end
+            table.insert(parts, "values=" .. table.concat(val_parts, ","))
+        end
+        
+        if setting.min then table.insert(parts, "min=" .. tostring(setting.min)) end
+        if setting.max then table.insert(parts, "max=" .. tostring(setting.max)) end
+        if setting.baseDim then table.insert(parts, "baseDim=" .. tostring(setting.baseDim)) end
+        if setting.dimension then table.insert(parts, "dimension=" .. tostring(setting.dimension)) end
+        if setting.readOnly then table.insert(parts, "readOnly=true") end
+        if setting.VisibilityCondition then
+            table.insert(parts, "vis=" .. serialize_dict(setting.VisibilityCondition))
+        end
+        
+        table.insert(str_parts, "{" .. table.concat(parts, "|") .. "}")
+    end
+    
+    local canonical = table.concat(str_parts, ";")
+    
+    -- Compute a simple hash using DJB2 algorithm
+    local hash = 5381
+    for i = 1, #canonical do
+        hash = ((hash * 33) + string.byte(canonical, i)) % 4294967296
+    end
+    
+    return string.format("%08x", hash)
+end
+
 -- Function to extract weapon settings from weapon object
 local function extract_weapon_settings(weapon)
     -- Try to get settings from weapon
@@ -294,6 +339,9 @@ end
 
 local weapons = {}
 local keys = {}
+local settings_registry = {}  -- Maps hash -> settings data
+local settings_hash_map = {}  -- Maps hash -> list of weapon keys using that hash
+
 -- The categories are not enumerated anywhere visible, but uses can be found in various lua files in the CoreMods directory.
 -- At time of writing this list only omits the CAT_SHELLS and CAT_CLUSTER_DESC categories. CAT_SHELLS we probably don't need,
 -- but CAT_CLUSTER_DESC doesn't have a Launchers entry. It's not clear if we need that category or not.
@@ -307,6 +355,30 @@ end
 
 table.sort( keys )
 
+-- Build settings registry with hashes
+local total_weapons_with_settings = 0
+for i = 1, #keys do
+    local key = keys[i]
+    if weapons[key].settings then
+        total_weapons_with_settings = total_weapons_with_settings + 1
+        local hash = hash_settings(weapons[key].settings)
+        if hash then
+            if not settings_registry[hash] then
+                settings_registry[hash] = weapons[key].settings
+                settings_hash_map[hash] = {}
+            end
+            table.insert(settings_hash_map[hash], key)
+            -- Store the hash reference instead of the full settings
+            weapons[key].settings_hash = hash
+        end
+    end
+end
+
+debugln("Weapon settings deduplication stats:")
+debugln("  Total weapons with settings: %d", total_weapons_with_settings)
+debugln("  Unique settings configurations: %d", table.maxn(settings_registry))
+debugln("  Deduplication ratio: %.1f%%", (1 - table.maxn(settings_registry) / total_weapons_with_settings) * 100)
+
 local weapons_map = {}
 local i = 1
 while i <= #keys do
@@ -315,9 +387,47 @@ while i <= #keys do
     i = i + 1
 end
 
+-- Export weapon settings to a separate file
+debugln("Exporting %d unique weapon settings configurations", table.maxn(settings_registry))
+local settings_file = io.open(export_path.."weapon_settings_data.py", "w")
+settings_file:write([[# This file is generated from pydcs_export.lua
+# Contains deduplicated weapon settings data referenced by hash
+
+
+weapon_settings_registry = {
+]])
+
+-- Sort hashes for consistent output
+local sorted_hashes = {}
+for hash, _ in pairs(settings_registry) do
+    table.insert(sorted_hashes, hash)
+end
+table.sort(sorted_hashes)
+
+for _, hash in ipairs(sorted_hashes) do
+    local settings = settings_registry[hash]
+    
+    -- Add a comment showing which weapons use this setting
+    local weapon_list = settings_hash_map[hash]
+    if weapon_list and #weapon_list > 0 then
+        writeln(settings_file, "    # Used by " .. #weapon_list .. " weapon(s): " .. table.concat(weapon_list, ", ", 1, math.min(5, #weapon_list)))
+        if #weapon_list > 5 then
+            writeln(settings_file, "    # ... and " .. (#weapon_list - 5) .. " more")
+        end
+    end
+    
+    local settings_data = serialize_settings_data(settings)
+    writeln(settings_file, "    \"" .. hash .. "\": " .. settings_data .. ",")
+end
+
+writeln(settings_file, "}")
+settings_file:close()
+
+-- Export main weapons data
 file = io.open(export_path.."weapons_data.py", "w")
 file:write([[# This file is generated from pydcs_export.lua
 
+from dcs.weapon_settings_data import weapon_settings_registry
 
 class Weapons:
 ]])
@@ -334,10 +444,9 @@ while i <= #keys do
         writeln(file, "        \"name\": \"" .. displayName .. "\",")
         writeln(file, "        \"weight\": " .. weapons[x].weight .. ",")
         
-        -- Serialize and include settings if available
-        if weapons[x].settings then
-            local settings_data = serialize_settings_data(weapons[x].settings)
-            writeln(file, "        \"settings\": " .. settings_data .. ",")
+        -- Reference settings by hash if available
+        if weapons[x].settings_hash then
+            writeln(file, "        \"settings\": weapon_settings_registry[\"" .. weapons[x].settings_hash .. "\"],")
         end
         
         writeln(file, "    }")
