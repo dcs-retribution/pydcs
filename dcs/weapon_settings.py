@@ -463,3 +463,30 @@ class WeaponSettings:
             List of setting dictionaries
         """
         return [setting.to_dict() for setting in self._settings.values()]
+
+def has_settings(weapon_def: Dict[str, Any]) -> bool:
+    """
+    Check if a weapon definition has configurable settings.
+    
+    Args:
+        weapon_def: Weapon definition dictionary from weapons_data.py
+        
+    Returns:
+        True if the weapon has settings, False otherwise
+    """
+    return "settings" in weapon_def and isinstance(weapon_def["settings"], list)
+
+
+def create_settings(weapon_def: Dict[str, Any]) -> Optional[WeaponSettings]:
+    """
+    Create a WeaponSettings instance from a weapon definition.
+    
+    Args:
+        weapon_def: Weapon definition dictionary from weapons_data.py
+        
+    Returns:
+        WeaponSettings instance, or None if weapon has no settings
+    """
+    if not has_settings(weapon_def):
+        return None
+    return WeaponSettings(weapon_def["settings"])
