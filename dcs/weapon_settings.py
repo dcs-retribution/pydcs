@@ -6,7 +6,6 @@ handling based on VisibilityCondition rules.
 """
 
 from typing import Any, Dict, List, Optional
-from copy import deepcopy
 
 
 class WeaponSetting:
@@ -25,18 +24,22 @@ class WeaponSetting:
         self.base_dim: str = setting_dict.get("baseDim", "")
         self.dimension: str = setting_dict.get("dimension", "")
         self.read_only: bool = setting_dict.get("readOnly", False)
+        self.values: List[Dict[str, Any]]
+        self.def_value: Any
+        self.min_value: Optional[float]
+        self.max_value: Optional[float]
         
         # Handle different control types
         if self.control == "comboList":
-            self.values: List[Dict[str, Any]] = setting_dict.get("values", [])
-            self.def_value: int = setting_dict.get("defValue", 0)
-            self.min_value: Optional[float] = None
-            self.max_value: Optional[float] = None
+            self.values = setting_dict.get("values", [])
+            self.def_value = setting_dict.get("defValue", 0)
+            self.min_value = None
+            self.max_value = None
         elif self.control == "spinbox":
             self.values = []
-            self.def_value: float = setting_dict.get("defValue", 0)
-            self.min_value: Optional[float] = setting_dict.get("min")
-            self.max_value: Optional[float] = setting_dict.get("max")
+            self.def_value = setting_dict.get("defValue", 0)
+            self.min_value = setting_dict.get("min")
+            self.max_value = setting_dict.get("max")
         else:
             self.values = []
             self.def_value = setting_dict.get("defValue")
@@ -109,7 +112,7 @@ class WeaponSetting:
         # Parse visibility condition which can include AND/OR operators
         # Format: [{"id": "x", "value": 1}, "and", {"id": "y", "value": 2}]
         conditions = []
-        operators = []
+        operators: List[str] = []
         
         for item in self.visibility_condition:
             if isinstance(item, str):
@@ -151,7 +154,7 @@ class WeaponSetting:
     
     def to_dict(self) -> Dict[str, Any]:
         """Convert this setting back to a dictionary representation."""
-        result = {
+        result: Dict[str, Any] = {
             "id": self.id,
             "label": self.label,
             "control": self.control,
@@ -162,7 +165,7 @@ class WeaponSetting:
             result["dimension"] = self.dimension
         
         if self.read_only:
-            result["readOnly"] = self.read_only
+            result["readOnly"] = True
         
         if self.control == "comboList":
             result["values"] = self.values
@@ -293,7 +296,7 @@ class WeaponSettings:
         This makes dir(ws) show all available setting IDs along with methods.
         """
         # Get default attributes/methods
-        default_attrs = object.__dir__(self)
+        default_attrs = list(object.__dir__(self))
         # Add all setting IDs
         setting_ids = list(self._settings.keys())
         return sorted(default_attrs + setting_ids)
