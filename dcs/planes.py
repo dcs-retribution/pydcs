@@ -9930,6 +9930,7 @@ class C_101CC(PlaneType):
 
 class C_130J_30(PlaneType):
     id = "C-130J-30"
+    flyable = True
     height = 11.84
     width = 40.41
     length = 44.36
