@@ -162,7 +162,7 @@ class Weather:
         halo_preset = halo.get("preset", {})
         halo_crystals_preset = halo.get("crystalsPreset", {})
         self.halo = Halo(halo_preset, halo_crystals_preset)
-        self.enable_fog = d["enable_fog"]
+        self.enable_fog = d.get("enable_fog", False)
         self.turbulence_at_ground = d.get("groundTurbulence", 0)
         season = d.get("season", {})
         self.season_temperature = season.get("temperature", 20)
