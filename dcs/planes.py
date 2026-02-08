@@ -10874,6 +10874,7 @@ class C_130J_30(PlaneType):
         "ramp_down": False,
         "save_custom_data": True,
         "allow_air_load": False,
+        "allow_moab": True,
         "cargo_1": None,
         "cargo_2": None,
         "cargo_3": None,
@@ -10908,6 +10909,9 @@ class C_130J_30(PlaneType):
 
         class allow_air_load:
             id = "allow_air_load"
+
+        class allow_moab:
+            id = "allow_moab"
 
         class cargo_1:
             id = "cargo_1"
@@ -10976,6 +10980,12 @@ class C_130J_30(PlaneType):
             control="checkbox",
             label="Allow Cargo Loading In Flight",
             default=False,
+        ),
+        "allow_moab": UnitPropertyDescription(
+            identifier="allow_moab",
+            control="checkbox",
+            label="Allow MOAB Cargo",
+            default=True,
         ),
         "cargo_1": UnitPropertyDescription(
             identifier="cargo_1",
@@ -11402,7 +11412,7 @@ class JF_17(PlaneType):
         DIS_MK_20_DUAL_GDJ_II19_L = (2, Weapons.DIS_MK_20_DUAL_GDJ_II19_L)
         DIS_GBU_12_DUAL_GDJ_II19_L = (2, Weapons.DIS_GBU_12_DUAL_GDJ_II19_L)
         DIS_BRM1_90 = (2, Weapons.DIS_BRM1_90)
-        DIS_RKT_90_UG = (2, Weapons.DIS_RKT_90_UG)
+        DIS_HF20_90_1_HE = (2, Weapons.DIS_HF20_90_1_HE)
         DIS_LAU68_MK5_DUAL_GDJ_II19_L = (2, Weapons.DIS_LAU68_MK5_DUAL_GDJ_II19_L)
         DIS_WMD7 = (2, Weapons.DIS_WMD7)
         DIS_AKG_DLPOD = (2, Weapons.DIS_AKG_DLPOD)
@@ -11498,7 +11508,7 @@ class JF_17(PlaneType):
         DIS_MK_20_DUAL_GDJ_II19_R = (6, Weapons.DIS_MK_20_DUAL_GDJ_II19_R)
         DIS_GBU_12_DUAL_GDJ_II19_R = (6, Weapons.DIS_GBU_12_DUAL_GDJ_II19_R)
         DIS_BRM1_90 = (6, Weapons.DIS_BRM1_90)
-        DIS_RKT_90_UG = (6, Weapons.DIS_RKT_90_UG)
+        DIS_HF20_90_1_HE = (6, Weapons.DIS_HF20_90_1_HE)
         DIS_LAU68_MK5_DUAL_GDJ_II19_R = (6, Weapons.DIS_LAU68_MK5_DUAL_GDJ_II19_R)
         DIS_WMD7 = (6, Weapons.DIS_WMD7)
         DIS_AKG_DLPOD = (6, Weapons.DIS_AKG_DLPOD)
@@ -16813,9 +16823,9 @@ class F4U_1D_CW(PlaneType):
         "F4U_GunsConvergence_Mid": 2,
         "F4U_GunsConvergence_Outer": 2,
         "F4U_CW_number": True,
-        "F4U_CW_number_1": 5,
-        "F4U_CW_number_2": 5,
-        "F4U_CW_number_3": 7,
+        "F4U_CW_number_1": 8,
+        "F4U_CW_number_2": 7,
+        "F4U_CW_number_3": 4,
     }
 
     class Properties:
@@ -16963,7 +16973,7 @@ class F4U_1D_CW(PlaneType):
             identifier="F4U_CW_number_1",
             control="comboList",
             label="1st number",
-            default=5,
+            default=8,
             values={
                 0: "0",
                 1: "1",
@@ -16981,7 +16991,7 @@ class F4U_1D_CW(PlaneType):
             identifier="F4U_CW_number_2",
             control="comboList",
             label="2nd number",
-            default=5,
+            default=7,
             values={
                 0: "0",
                 1: "1",
@@ -16999,7 +17009,7 @@ class F4U_1D_CW(PlaneType):
             identifier="F4U_CW_number_3",
             control="comboList",
             label="3rd number",
-            default=7,
+            default=4,
             values={
                 0: "0",
                 1: "1",
@@ -18093,25 +18103,25 @@ class Hawk(PlaneType):
     livery_name = "HAWK"  # from type
 
     class Pylon1:
-        LAU_7_with_AIM_9M_Sidewinder_IR_AAM_ = (1, Weapons.LAU_7_with_AIM_9M_Sidewinder_IR_AAM_)
+        LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_ = (1, Weapons.LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_)
+        CBU_87___202_x_CEM_Cluster_Bomb = (1, Weapons.CBU_87___202_x_CEM_Cluster_Bomb)
+        BRU_42_3_BDU_33 = (1, Weapons.BRU_42_3_BDU_33)
+        BRU_42_with_3_x_Mk_82___500lb_GP_Bombs_LD = (1, Weapons.BRU_42_with_3_x_Mk_82___500lb_GP_Bombs_LD)
 
     class Pylon2:
-        Matra_Type_155_Rocket_Pod = (2, Weapons.Matra_Type_155_Rocket_Pod)
-        CBU_87___202_x_CEM_Cluster_Bomb = (2, Weapons.CBU_87___202_x_CEM_Cluster_Bomb)
-        BRU_42_3_BDU_33 = (2, Weapons.BRU_42_3_BDU_33)
-        Mk_82___500lb_GP_Bomb_LD = (2, Weapons.Mk_82___500lb_GP_Bomb_LD)
+        LAU_7_with_AIM_9M_Sidewinder_IR_AAM_ = (2, Weapons.LAU_7_with_AIM_9M_Sidewinder_IR_AAM_)
 
     class Pylon3:
         ADEN_GUNPOD = (3, Weapons.ADEN_GUNPOD)
 
     class Pylon4:
-        Matra_Type_155_Rocket_Pod = (4, Weapons.Matra_Type_155_Rocket_Pod)
-        CBU_87___202_x_CEM_Cluster_Bomb = (4, Weapons.CBU_87___202_x_CEM_Cluster_Bomb)
-        BRU_42_3_BDU_33 = (4, Weapons.BRU_42_3_BDU_33)
-        Mk_82___500lb_GP_Bomb_LD = (4, Weapons.Mk_82___500lb_GP_Bomb_LD)
+        LAU_7_with_AIM_9M_Sidewinder_IR_AAM_ = (4, Weapons.LAU_7_with_AIM_9M_Sidewinder_IR_AAM_)
 
     class Pylon5:
-        LAU_7_with_AIM_9M_Sidewinder_IR_AAM_ = (5, Weapons.LAU_7_with_AIM_9M_Sidewinder_IR_AAM_)
+        LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_ = (5, Weapons.LAU_61___19_x_UnGd_Rkts__70_mm_Hydra_70_M151_HE_)
+        CBU_87___202_x_CEM_Cluster_Bomb = (5, Weapons.CBU_87___202_x_CEM_Cluster_Bomb)
+        BRU_42_3_BDU_33 = (5, Weapons.BRU_42_3_BDU_33)
+        BRU_42_with_3_x_Mk_82___500lb_GP_Bombs_LD = (5, Weapons.BRU_42_with_3_x_Mk_82___500lb_GP_Bombs_LD)
 
     class Pylon6:
         Smoke_Generator___red = (6, Weapons.Smoke_Generator___red)

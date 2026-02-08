@@ -7,19 +7,19 @@ class Weapons:
         "clsid": "{AB_250_2_SD_2}",
         "name": "AB 250-2 - 144 x SD-2, 250kg CBU with HE submunitions",
         "weight": 280,
-        "settings": weapon_settings_registry["dc204bf6"],
+        "settings": weapon_settings_registry["67c66429"],
     }
     AB_250_2___17_x_SD_10A__250kg_CBU_with_10kg_Frag_HE_submunitions = {
         "clsid": "{AB_250_2_SD_10A}",
         "name": "AB 250-2 - 17 x SD-10A, 250kg CBU with 10kg Frag/HE submunitions",
         "weight": 220,
-        "settings": weapon_settings_registry["dc204bf6"],
+        "settings": weapon_settings_registry["cde9cff7"],
     }
     AB_500_1___34_x_SD_10A__500kg_CBU_with_10kg_Frag_HE_submunitions = {
         "clsid": "{AB_500_1_SD_10A}",
         "name": "AB 500-1 - 34 x SD-10A, 500kg CBU with 10kg Frag/HE submunitions",
         "weight": 470,
-        "settings": weapon_settings_registry["d72698e6"],
+        "settings": weapon_settings_registry["01c38ded"],
     }
     ADEN_GUNPOD = {
         "clsid": "{ADEN_GUNPOD}",
@@ -47,11 +47,21 @@ class Weapons:
         "weight": 180,
     }
     AERO_1D_300_Gallons_Fuel_Tank_ = {
+        "clsid": "{HB_A6E_AERO1D}",
+        "name": "AERO 1D 300 Gallons Fuel Tank ",
+        "weight": 998.3513,
+    }
+    AERO_1D_300_Gallons_Fuel_Tank__ = {
         "clsid": "{AV8BNA_AERO1D}",
         "name": "AERO 1D 300 Gallons Fuel Tank ",
         "weight": 998.3513,
     }
     AERO_1D_300_Gallons_Fuel_Tank__Empty_ = {
+        "clsid": "{HB_A6E_AERO1D_EMPTY}",
+        "name": "AERO 1D 300 Gallons Fuel Tank (Empty)",
+        "weight": 89.8113,
+    }
+    AERO_1D_300_Gallons_Fuel_Tank__Empty__ = {
         "clsid": "{AV8BNA_AERO1D_EMPTY}",
         "name": "AERO 1D 300 Gallons Fuel Tank (Empty)",
         "weight": 89.8113,
@@ -200,6 +210,11 @@ class Weapons:
         "name": "AGM-78B Standard ARM",
         "weight": 620,
         "settings": weapon_settings_registry["c817f096"],
+    }
+    AGM_78_Standard_ARM = {
+        "clsid": "{HB_A6E_AGM_78}",
+        "name": "AGM-78 Standard ARM",
+        "weight": 645.9,
     }
     AGM_84A_Harpoon_ASM = {
         "clsid": "{8B7CADF9-4954-46B3-8CFB-93F2F5B90B03}",
@@ -2016,7 +2031,8 @@ class Weapons:
     CBU_52B___220_x_HE_Frag_bomblets = {
         "clsid": "{CBU-52B}",
         "name": "CBU-52B - 220 x HE/Frag bomblets",
-        "weight": 356,
+        "weight": 244.6,
+        "settings": weapon_settings_registry["a32eac77"],
     }
     CBU_87___202_x_CEM_Cluster_Bomb = {
         "clsid": "{CBU-87}",
@@ -2245,7 +2261,7 @@ class Weapons:
     DIS_BRM1_90 = {
         "clsid": "DIS_BRM1_90",
         "name": "HF20 - 16 x BRM-1 90mm Laser-guided Rocket",
-        "weight": 462.5,
+        "weight": 361.8,
         "settings": weapon_settings_registry["1796778a"],
     }
     DIS_CM_400AKG = {
@@ -2359,6 +2375,11 @@ class Weapons:
         "name": "24 x 250-2 - 250kg GP Bombs HD",
         "weight": 6000,
         "settings": weapon_settings_registry["8a3b2817"],
+    }
+    DIS_HF20_90_1_HE = {
+        "clsid": "DIS_HF20_90_1_HE",
+        "name": "HF20 - 16 x 90-1 90mm Rocket (HE)",
+        "weight": 366.6,
     }
     DIS_HJ_12 = {
         "clsid": "DIS_HJ-12",
@@ -2529,11 +2550,6 @@ class Weapons:
         "name": "PL-8B",
         "weight": 115,
     }
-    DIS_RKT_90_UG = {
-        "clsid": "DIS_RKT_90_UG",
-        "name": "HF20 - 16 x 90-1 90mm Rocket (HE)",
-        "weight": 376.1,
-    }
     DIS_SD_10 = {
         "clsid": "DIS_SD-10",
         "name": "SD-10A AAM",
@@ -2649,6 +2665,11 @@ class Weapons:
         "name": "DWS39 MJ2",
         "weight": 605,
     }
+    D_704_Refuelling_Pod = {
+        "clsid": "{HB_A6E_D704}",
+        "name": "D-704 Refuelling Pod",
+        "weight": 1234.41,
+    }
     Eclair_16_flares_16_chaffs = {
         "clsid": "{Eclair}",
         "name": "Eclair 16 flares 16 chaffs",
@@ -2699,11 +2720,21 @@ class Weapons:
         "name": "Elliptic Tip Tank 320lt",
         "weight": 314.2,
     }
+    Empty_MER = {
+        "clsid": "{HB_A6E_MER}",
+        "name": "Empty MER",
+        "weight": 99.8,
+    }
+    Empty_TER = {
+        "clsid": "{HB_A6E_TER}",
+        "name": "Empty TER",
+        "weight": 128,
+    }
     ER_4_SC50 = {
         "clsid": "ER_4_SC50",
         "name": "4 x SC 50 - 50kg GP Bomb LD",
         "weight": 220,
-        "settings": weapon_settings_registry["b885d402"],
+        "settings": weapon_settings_registry["265ba940"],
     }
     ETHER = {
         "clsid": "{0519A261-0AB6-11d6-9193-00A0249B6F00}",
@@ -2734,7 +2765,7 @@ class Weapons:
         "clsid": "{FAB_250_M62}",
         "name": "FAB-250M-62 - 250 kg GP Bomb LD",
         "weight": 227,
-        "settings": weapon_settings_registry["19f2e112"],
+        "settings": weapon_settings_registry["8045551b"],
     }
     FAB_250_M54_TU___235_kg__bomb__parachute = {
         "clsid": "{FAB-250-M54-TU}",
@@ -2755,7 +2786,7 @@ class Weapons:
         "clsid": "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
         "name": "FAB-500M-62 - 500 kg GP Bomb LD",
         "weight": 520,
-        "settings": weapon_settings_registry["19f2e112"],
+        "settings": weapon_settings_registry["8045551b"],
     }
     FAB_500_M54_TU___480_kg__bomb__parachute = {
         "clsid": "{FAB-500-M54-TU}",
@@ -4440,6 +4471,11 @@ class Weapons:
         "weight": 179.68,
     }
     LAU_7_with_AIM_9B_Sidewinder_IR_AAM = {
+        "clsid": "{HB_A6E_LAU7_AIM9B}",
+        "name": "LAU-7 with AIM-9B Sidewinder IR AAM",
+        "weight": 115.39,
+    }
+    LAU_7_with_AIM_9B_Sidewinder_IR_AAM_ = {
         "clsid": "{GAR-8}",
         "name": "LAU-7 with AIM-9B Sidewinder IR AAM",
         "weight": 115.39,
@@ -4455,11 +4491,23 @@ class Weapons:
         "weight": 117.93,
     }
     LAU_7_with_AIM_9L_Sidewinder_IR_AAM = {
+        "clsid": "{HB_A6E_LAU7_AIM9L}",
+        "name": "LAU-7 with AIM-9L Sidewinder IR AAM",
+        "weight": 126.73,
+        "settings": weapon_settings_registry["fc240df9"],
+    }
+    LAU_7_with_AIM_9L_Sidewinder_IR_AAM_ = {
         "clsid": "{AIM-9L-ON-ADAPTER}",
         "name": "LAU-7 with AIM-9L Sidewinder IR AAM",
         "weight": 126.55328,
     }
     LAU_7_with_AIM_9M_Sidewinder_IR_AAM = {
+        "clsid": "{HB_A6E_LAU7_AIM9M}",
+        "name": "LAU-7 with AIM-9M Sidewinder IR AAM",
+        "weight": 126.73,
+        "settings": weapon_settings_registry["fc240df9"],
+    }
+    LAU_7_with_AIM_9M_Sidewinder_IR_AAM_ = {
         "clsid": "{AIM-9M-ON-ADAPTER}",
         "name": "LAU-7 with AIM-9M Sidewinder IR AAM",
         "weight": 126.73,
@@ -4679,7 +4727,8 @@ class Weapons:
     M117___750lb_GP_Bomb_LD = {
         "clsid": "{00F5DAC4-0466-4122-998F-B1A298E34113}",
         "name": "M117 - 750lb GP Bomb LD",
-        "weight": 340,
+        "weight": 408,
+        "settings": weapon_settings_registry["d360e0f2"],
     }
     M134D = {
         "clsid": "{CH47_PORT_M134D}",
@@ -5434,7 +5483,7 @@ class Weapons:
         "clsid": "{FA673F4C-D9E4-4993-AA7A-019A92F3C005}",
         "name": "MBD3-U6-68 - 6 x FAB-500M-62 - 500 kg GP Bomb LD",
         "weight": 3268,
-        "settings": weapon_settings_registry["19f2e112"],
+        "settings": weapon_settings_registry["8045551b"],
     }
     MBD3_U6_68___6_x_OFAB_100_120___100_kg_GP_Bomb_LD = {
         "clsid": "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}",
@@ -5521,7 +5570,8 @@ class Weapons:
     MER3_with_3_x_M117___750lb_GP_Bombs_LD = {
         "clsid": "{82F90BEC-0E2E-4CE5-A66E-1E4ADA2B5D1E}",
         "name": "MER3 with 3 x M117 - 750lb GP Bombs LD",
-        "weight": 1060,
+        "weight": 1224,
+        "settings": weapon_settings_registry["d360e0f2"],
     }
     MER6_with_6_x_BLU_107___440lb_Anti_Runway_Penetrator_Bombs = {
         "clsid": "{752B9782-F962-11d5-9190-00A0249B6F00}",
@@ -5531,7 +5581,8 @@ class Weapons:
     MER6_with_6_x_M117___750lb_GP_Bombs_LD = {
         "clsid": "{6CDB6B36-7165-47D0-889F-6625FB333561}",
         "name": "MER6 with 6 x M117 - 750lb GP Bombs LD",
-        "weight": 2100,
+        "weight": 2448,
+        "settings": weapon_settings_registry["d360e0f2"],
     }
     MER6_with_6_x_Mk_20_Rockeye___490lbs_CBUs__247_x_HEAT_Bomblets = {
         "clsid": "{3C7CD675-7D39-41C5-8735-0F4F537818A8}",
@@ -6415,11 +6466,13 @@ class Weapons:
         "clsid": "{0511E528-EA28-4caf-A212-00D1408DF10A}",
         "name": "SAB-100MN - 100 kg Illumination Bomb",
         "weight": 106,
+        "settings": weapon_settings_registry["48994ad3"],
     }
     SAB_250_200___200_kg_Illumination_Bomb = {
         "clsid": "{SAB_250_200}",
         "name": "SAB-250-200 - 200 kg Illumination Bomb",
         "weight": 201,
+        "settings": weapon_settings_registry["48994ad3"],
     }
     SAMP_125___125_kg_GP_Bomb_LD = {
         "clsid": "{SAMP125LD}",
@@ -6485,31 +6538,31 @@ class Weapons:
         "clsid": "{SC_250_T1_L2}",
         "name": "SC 250 Type 1 L2 - 250kg GP Bomb LD",
         "weight": 250,
-        "settings": weapon_settings_registry["b885d402"],
+        "settings": weapon_settings_registry["265ba940"],
     }
     SC_250_Type_3_J___250kg_GP_Bomb_LD = {
         "clsid": "{Schloss500XIIC1_SC_250_T3_J}",
         "name": "SC 250 Type 3 J - 250kg GP Bomb LD",
         "weight": 270,
-        "settings": weapon_settings_registry["b885d402"],
+        "settings": weapon_settings_registry["265ba940"],
     }
     SC_500_L2___500kg_GP_Bomb_LD = {
         "clsid": "{SC_500_L2}",
         "name": "SC 500 L2 - 500kg GP Bomb LD",
         "weight": 500,
-        "settings": weapon_settings_registry["469bf134"],
+        "settings": weapon_settings_registry["64840f71"],
     }
     SC_501_SC250 = {
         "clsid": "SC_501_SC250",
         "name": "SC 250 Type 3 J - 250kg GP Bomb LD",
         "weight": 250,
-        "settings": weapon_settings_registry["b885d402"],
+        "settings": weapon_settings_registry["265ba940"],
     }
     SC_501_SC500 = {
         "clsid": "SC_501_SC500",
         "name": "SC 500 J - 500kg GP Bomb LD",
         "weight": 500,
-        "settings": weapon_settings_registry["469bf134"],
+        "settings": weapon_settings_registry["64840f71"],
     }
     SC_50___50kg_GP_Bomb_LD = {
         "clsid": "{SC_50}",
@@ -6520,13 +6573,13 @@ class Weapons:
         "clsid": "{SD_250_Stg}",
         "name": "SD 250 Stg - 250kg GP Bomb LD",
         "weight": 250,
-        "settings": weapon_settings_registry["2a23ec03"],
+        "settings": weapon_settings_registry["97f24521"],
     }
     SD_500_A___500kg_GP_Bomb_LD = {
         "clsid": "{SD_500_A}",
         "name": "SD 500 A - 500kg GP Bomb LD",
         "weight": 500,
-        "settings": weapon_settings_registry["2a23ec03"],
+        "settings": weapon_settings_registry["97f24521"],
     }
     SECBM___10_x_CBU_103___202_x_CEM__CBU_with_WCMD = {
         "clsid": "{SECBM_CBU103}",
@@ -7316,6 +7369,18 @@ class Weapons:
         "name": "150 US gal. Fuel Tank",
         "weight": 458.8,
     }
+    _1x_BDU_45B___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45_MER_1x}",
+        "name": "1x BDU-45B - 500lb Practice Bomb (MER)",
+        "weight": 331.8,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _1x_BDU_45___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_1x}",
+        "name": "1x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 331.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
+    }
     _1x_BL_755___147_Frag_Pen_bomblets__TER_ = {
         "clsid": "{HB_F4E_BL755_TER_1x_SingleLeft}",
         "name": "1x BL-755 - 147 Frag/Pen bomblets (TER)",
@@ -7373,6 +7438,30 @@ class Weapons:
         "name": "1x CBU-2/A x 19x19 (361) BLU-3 Bomblets, HE (MER)",
         "weight": 437.96644376,
     }
+    _1x_GBU_12___500lb_Laser_Guided_Bomb__TER_ = {
+        "clsid": "{HB_A6E_GBU12_TER_1x}",
+        "name": "1x GBU-12 - 500lb Laser Guided Bomb (TER)",
+        "weight": 405,
+        "settings": weapon_settings_registry["02df7fad"],
+    }
+    _1x_GBU_16___1000lb_Laser_Guided_Bomb__MER_ = {
+        "clsid": "{HB_A6E_GBU16_MER_1x_AFT}",
+        "name": "1x GBU-16 - 1000lb Laser Guided Bomb (MER)",
+        "weight": 612.8,
+        "settings": weapon_settings_registry["02df7fad"],
+    }
+    _1x_GBU_16___1000lb_Laser_Guided_Bomb__MER__ = {
+        "clsid": "{HB_A6E_GBU16_MER_1x_FWD}",
+        "name": "1x GBU-16 - 1000lb Laser Guided Bomb (MER)",
+        "weight": 612.8,
+        "settings": weapon_settings_registry["02df7fad"],
+    }
+    _1x_GBU_16___1000lb_Laser_Guided_Bomb__TER_ = {
+        "clsid": "{HB_A6E_GBU16_TER_1x}",
+        "name": "1x GBU-16 - 1000lb Laser Guided Bomb (TER)",
+        "weight": 641,
+        "settings": weapon_settings_registry["02df7fad"],
+    }
     _1x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__MER_ = {
         "clsid": "{HB_F4E_LAU-10_ZUNI_MER_1x}",
         "name": "1x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (MER)",
@@ -7412,6 +7501,35 @@ class Weapons:
         "clsid": "{HB_F4E_LAU-68_MK5_1x}",
         "name": "1x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)",
         "weight": 238.3,
+    }
+    _1x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER_ = {
+        "clsid": "{HB_A6E_MK20_MER_1x}",
+        "name": "1x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
+        "weight": 321.8,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _1x_Mk_81___250lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK81_MER_1x}",
+        "name": "1x Mk-81 - 250lb GP Bomb LD (MER)",
+        "weight": 217.8,
+    }
+    _1x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER_ = {
+        "clsid": "{HB_A6E_MK82SE_MER_1x}",
+        "name": "1x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 349.3,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _1x_Mk_82___500lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK82_MER_1x}",
+        "name": "1x Mk-82 - 500lb GP Bomb LD (MER)",
+        "weight": 327.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _1x_Mk_83___1000lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK83_MER_1x}",
+        "name": "1x Mk-83 - 1000lb GP Bomb LD (MER)",
+        "weight": 553.8,
+        "settings": weapon_settings_registry["814865ab"],
     }
     _1x_Mk_83___1000lb_GP_Bomb_LD__MER__Ripple = {
         "clsid": "{HB_F4E_MK-83_MER_1x_Left_Ripple}",
@@ -7544,7 +7662,8 @@ class Weapons:
     _27_x_M117___750lb_GP_Bombs_LD = {
         "clsid": "{B58F99BA-5480-4572-8602-28B0449F5260}",
         "name": "27 x M117 - 750lb GP Bombs LD",
-        "weight": 9180,
+        "weight": 11016,
+        "settings": weapon_settings_registry["d360e0f2"],
     }
     _27_x_M117___750lb_GP_Bomb_LD = {
         "clsid": "{B52H_BAY_M117}",
@@ -7594,6 +7713,21 @@ class Weapons:
         "clsid": "{LYSBOMB_V7V}",
         "name": "2x 80kg LYSB-71 Illumination Bomb - V7V",
         "weight": 285,
+    }
+    _2x_ADM_141A_TALD__MER_ = {
+        "clsid": "{HB_A6E_TALD_MER_2x}",
+        "name": "2x ADM-141A TALD (MER)",
+        "weight": 459.8,
+    }
+    _2x_ADM_141A_TALD__MER___OB_ = {
+        "clsid": "{HB_A6E_TALD_MER_2x_RIGHT}",
+        "name": "2x ADM-141A TALD (MER) (OB)",
+        "weight": 459.8,
+    }
+    _2x_ADM_141A_TALD__MER___OB__ = {
+        "clsid": "{HB_A6E_TALD_MER_2x_LEFT}",
+        "name": "2x ADM-141A TALD (MER) (OB)",
+        "weight": 459.8,
     }
     _2x_AGM_65A___Maverick_A__TV_Guided___LAU_88_ = {
         "clsid": "{HB_F4EAGM-65A_LAU88_2x_Right}",
@@ -7650,11 +7784,35 @@ class Weapons:
         "name": "2x BDU-33 - 25lb Practice Bomb LD (TER)",
         "weight": 150.6,
     }
+    _2x_BDU_45B___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45_MER_2x}",
+        "name": "2x BDU-45B - 500lb Practice Bomb (MER)",
+        "weight": 563.8,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _2x_BDU_45B___500lb_Practice_Bomb__TER_ = {
+        "clsid": "{HB_A6E_BDU45_TER_2x_RIGHT}",
+        "name": "2x BDU-45B - 500lb Practice Bomb (TER)",
+        "weight": 592,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
     _2x_BDU_45_LG___500lb_Practice_Laser_Guided_Bomb__TER_ = {
         "clsid": "{HB_F4E_BDU_45LGB_2x}",
         "name": "2x BDU-45 LG - 500lb Practice Laser Guided Bomb (TER)",
         "weight": 682,
         "settings": weapon_settings_registry["1796778a"],
+    }
+    _2x_BDU_45___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_2x}",
+        "name": "2x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 563.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
+    }
+    _2x_BDU_45___500lb_Practice_Bomb__TER_ = {
+        "clsid": "{HB_A6E_BDU45SE_TER_2x_RIGHT}",
+        "name": "2x BDU-45 - 500lb Practice Bomb (TER)",
+        "weight": 592,
+        "settings": weapon_settings_registry["9cb79a0a"],
     }
     _2x_BDU_50HD___500lb_Practice_Bomb_HD__TER_ = {
         "clsid": "{HB_F4E_BDU-50HD_2x}",
@@ -7727,11 +7885,39 @@ class Weapons:
         "weight": 988,
         "settings": weapon_settings_registry["b71311b7"],
     }
+    _2x_GBU_12___500lb_Laser_Guided_Bomb__MER_ = {
+        "clsid": "{HB_A6E_GBU12_MER_2x_RIGHT}",
+        "name": "2x GBU-12 - 500lb Laser Guided Bomb (MER)",
+        "weight": 653.8,
+        "settings": weapon_settings_registry["02df7fad"],
+    }
+    _2x_GBU_12___500lb_Laser_Guided_Bomb__MER__ = {
+        "clsid": "{HB_A6E_GBU12_MER_2x_LEFT}",
+        "name": "2x GBU-12 - 500lb Laser Guided Bomb (MER)",
+        "weight": 653.8,
+        "settings": weapon_settings_registry["02df7fad"],
+    }
     _2x_GBU_12___500lb_Laser_Guided_Bomb__TER_ = {
+        "clsid": "{HB_A6E_GBU12_TER_2x}",
+        "name": "2x GBU-12 - 500lb Laser Guided Bomb (TER)",
+        "weight": 682,
+        "settings": weapon_settings_registry["02df7fad"],
+    }
+    _2x_GBU_12___500lb_Laser_Guided_Bomb__TER__ = {
         "clsid": "{HB_F4E_GBU-12_2x}",
         "name": "2x GBU-12 - 500lb Laser Guided Bomb (TER)",
         "weight": 682,
         "settings": weapon_settings_registry["02df7fad"],
+    }
+    _2x_LAU_10_pod___4_x_127mm_ZUNI__UnGd_Rkts_Mk71__HE_FRAG__TER_ = {
+        "clsid": "{HB_A6E_LAU10_TER_2x_RIGHT}",
+        "name": "2x LAU-10 pod - 4 x 127mm ZUNI, UnGd Rkts Mk71, HE/FRAG (TER)",
+        "weight": 705.8,
+    }
+    _2x_LAU_10_pod___4_x_127mm_ZUNI__UnGd_Rkts_Mk71__HE_FRAG__TER__ = {
+        "clsid": "{HB_A6E_LAU10_TER_2x_LEFT}",
+        "name": "2x LAU-10 pod - 4 x 127mm ZUNI, UnGd Rkts Mk71, HE/FRAG (TER)",
+        "weight": 705.8,
     }
     _2x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__MER_ = {
         "clsid": "{HB_F4E_LAU-10_ZUNI_MER_2x}",
@@ -7783,6 +7969,16 @@ class Weapons:
         "name": "2x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)",
         "weight": 569.4,
     }
+    _2x_LAU_61_pod___19_x_2_75_Hydra__UnGd_Rkts_M151__HE__TER_ = {
+        "clsid": "{HB_A6E_LAU61MK151_TER_2x_RIGHT}",
+        "name": "2x LAU-61 pod - 19 x 2.75\" Hydra, UnGd Rkts M151, HE (TER)",
+        "weight": 674.8,
+    }
+    _2x_LAU_61_pod___19_x_2_75_Hydra__UnGd_Rkts_M151__HE__TER__ = {
+        "clsid": "{HB_A6E_LAU61MK151_TER_2x_LEFT}",
+        "name": "2x LAU-61 pod - 19 x 2.75\" Hydra, UnGd Rkts M151, HE (TER)",
+        "weight": 674.8,
+    }
     _2x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__TER_ = {
         "clsid": "{HB_F4E_LAU-68_WP156_2x_Right}",
         "name": "2x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts M156, Wht Phos (TER)",
@@ -7792,6 +7988,16 @@ class Weapons:
         "clsid": "{HB_F4E_LAU-68_WP156_2x_Left}",
         "name": "2x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts M156, Wht Phos (TER)",
         "weight": 368.4,
+    }
+    _2x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk151__HE__TER_ = {
+        "clsid": "{HB_A6E_LAU68MK151_TER_2x_RIGHT}",
+        "name": "2x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk151, HE (TER)",
+        "weight": 355.8,
+    }
+    _2x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk151__HE__TER__ = {
+        "clsid": "{HB_A6E_LAU68MK151_TER_2x_LEFT}",
+        "name": "2x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk151, HE (TER)",
+        "weight": 355.8,
     }
     _2x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__TER_ = {
         "clsid": "{HB_F4E_LAU-68_MK1_2x_Right}",
@@ -7804,32 +8010,85 @@ class Weapons:
         "weight": 348,
     }
     _2x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk5__HEAT__TER_ = {
-        "clsid": "{HB_F4E_LAU-68_MK5_2x_Right}",
+        "clsid": "{HB_A6E_LAU68MK5_TER_2x_RIGHT}",
         "name": "2x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)",
         "weight": 348.6,
     }
     _2x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk5__HEAT__TER__ = {
+        "clsid": "{HB_A6E_LAU68MK5_TER_2x_LEFT}",
+        "name": "2x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)",
+        "weight": 348.6,
+    }
+    _2x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk5__HEAT__TER___ = {
+        "clsid": "{HB_F4E_LAU-68_MK5_2x_Right}",
+        "name": "2x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)",
+        "weight": 348.6,
+    }
+    _2x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk5__HEAT__TER____ = {
         "clsid": "{HB_F4E_LAU-68_MK5_2x_Left}",
         "name": "2x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)",
         "weight": 348.6,
     }
     _2x_M117___750lb_GP_Bomb_LD__TER_ = {
-        "clsid": "{HB_F4E_M117_2x_Left}",
+        "clsid": "{HB_A6E_M117_TER_2x_RIGHT}",
         "name": "2x M117 - 750lb GP Bomb LD (TER)",
         "weight": 808,
     }
     _2x_M117___750lb_GP_Bomb_LD__TER__ = {
+        "clsid": "{HB_A6E_M117_TER_2x_LEFT}",
+        "name": "2x M117 - 750lb GP Bomb LD (TER)",
+        "weight": 808,
+    }
+    _2x_M117___750lb_GP_Bomb_LD__TER___ = {
+        "clsid": "{HB_F4E_M117_2x_Left}",
+        "name": "2x M117 - 750lb GP Bomb LD (TER)",
+        "weight": 808,
+    }
+    _2x_M117___750lb_GP_Bomb_LD__TER____ = {
         "clsid": "{HB_F4E_M117_2x_Right}",
         "name": "2x M117 - 750lb GP Bomb LD (TER)",
         "weight": 808,
     }
+    _2x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER_ = {
+        "clsid": "{HB_A6E_MK20_MER_2x}",
+        "name": "2x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
+        "weight": 543.8,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
     _2x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__TER_ = {
+        "clsid": "{HB_A6E_MK20_TER_2x_RIGHT}",
+        "name": "2x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (TER)",
+        "weight": 572,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _2x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__TER__ = {
+        "clsid": "{HB_A6E_MK20_TER_2x_LEFT}",
+        "name": "2x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (TER)",
+        "weight": 572,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _2x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__TER___ = {
         "clsid": "{HB_F4E_ROCKEYE_2x}",
         "name": "2x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (TER)",
         "weight": 572,
         "settings": weapon_settings_registry["77ac9721"],
     }
+    _2x_Mk_81___250lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK81_MER_2x}",
+        "name": "2x Mk-81 - 250lb GP Bomb LD (MER)",
+        "weight": 335.8,
+    }
     _2x_Mk_81___250lb_GP_Bomb_LD__TER_ = {
+        "clsid": "{HB_A6E_MK81_TER_2x_RIGHT}",
+        "name": "2x Mk-81 - 250lb GP Bomb LD (TER)",
+        "weight": 364,
+    }
+    _2x_Mk_81___250lb_GP_Bomb_LD__TER__ = {
+        "clsid": "{HB_A6E_MK81_TER_2x_LEFT}",
+        "name": "2x Mk-81 - 250lb GP Bomb LD (TER)",
+        "weight": 364,
+    }
+    _2x_Mk_81___250lb_GP_Bomb_LD__TER___ = {
         "clsid": "{HB_F4E_MK-81_2x}",
         "name": "2x Mk-81 - 250lb GP Bomb LD (TER)",
         "weight": 364,
@@ -7841,31 +8100,91 @@ class Weapons:
         "weight": 612,
         "settings": weapon_settings_registry["814865ab"],
     }
+    _2x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER_ = {
+        "clsid": "{HB_A6E_MK82SE_MER_2x}",
+        "name": "2x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 598.8,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
     _2x_Mk_82_Snakeye___500lb_GP_Bomb_HD__TER_ = {
+        "clsid": "{HB_A6E_MK82SE_TER_2x_RIGHT}",
+        "name": "2x Mk-82 Snakeye - 500lb GP Bomb HD (TER)",
+        "weight": 627,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _2x_Mk_82_Snakeye___500lb_GP_Bomb_HD__TER__ = {
+        "clsid": "{HB_A6E_MK82SE_TER_2x_LEFT}",
+        "name": "2x Mk-82 Snakeye - 500lb GP Bomb HD (TER)",
+        "weight": 627,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _2x_Mk_82_Snakeye___500lb_GP_Bomb_HD__TER___ = {
         "clsid": "{HB_F4E_MK-82_Snakeye_2x}",
         "name": "2x Mk-82 Snakeye - 500lb GP Bomb HD (TER)",
         "weight": 627,
         "settings": weapon_settings_registry["814865ab"],
     }
+    _2x_Mk_82___500lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK82_MER_2x}",
+        "name": "2x Mk-82 - 500lb GP Bomb LD (MER)",
+        "weight": 555.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
     _2x_Mk_82___500lb_GP_Bomb_LD__TER_ = {
+        "clsid": "{HB_A6E_MK82_TER_2x_RIGHT}",
+        "name": "2x Mk-82 - 500lb GP Bomb LD (TER)",
+        "weight": 584,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _2x_Mk_82___500lb_GP_Bomb_LD__TER__ = {
+        "clsid": "{HB_A6E_MK82_TER_2x_LEFT}",
+        "name": "2x Mk-82 - 500lb GP Bomb LD (TER)",
+        "weight": 584,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _2x_Mk_82___500lb_GP_Bomb_LD__TER___ = {
         "clsid": "{HB_F4E_MK-82_2x}",
         "name": "2x Mk-82 - 500lb GP Bomb LD (TER)",
         "weight": 584,
         "settings": weapon_settings_registry["814865ab"],
     }
     _2x_Mk_83___1000lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK83_MER_2x_RIGHT}",
+        "name": "2x Mk-83 - 1000lb GP Bomb LD (MER)",
+        "weight": 1007.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _2x_Mk_83___1000lb_GP_Bomb_LD__MER__ = {
+        "clsid": "{HB_A6E_MK83_MER_2x_LEFT}",
+        "name": "2x Mk-83 - 1000lb GP Bomb LD (MER)",
+        "weight": 1007.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _2x_Mk_83___1000lb_GP_Bomb_LD__MER___ = {
         "clsid": "{HB_F4E_MK-83_MER_2x}",
         "name": "2x Mk-83 - 1000lb GP Bomb LD (MER)",
         "weight": 1007.8,
         "settings": weapon_settings_registry["814865ab"],
     }
     _2x_Mk_83___1000lb_GP_Bomb_LD__TER_ = {
-        "clsid": "{HB_F4E_MK-83_2x_Left}",
+        "clsid": "{HB_A6E_MK83_TER_2x_RIGHT}",
         "name": "2x Mk-83 - 1000lb GP Bomb LD (TER)",
         "weight": 1036,
         "settings": weapon_settings_registry["814865ab"],
     }
     _2x_Mk_83___1000lb_GP_Bomb_LD__TER__ = {
+        "clsid": "{HB_A6E_MK83_TER_2x_LEFT}",
+        "name": "2x Mk-83 - 1000lb GP Bomb LD (TER)",
+        "weight": 1036,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _2x_Mk_83___1000lb_GP_Bomb_LD__TER___ = {
+        "clsid": "{HB_F4E_MK-83_2x_Left}",
+        "name": "2x Mk-83 - 1000lb GP Bomb LD (TER)",
+        "weight": 1036,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _2x_Mk_83___1000lb_GP_Bomb_LD__TER____ = {
         "clsid": "{HB_F4E_MK-83_2x_Right}",
         "name": "2x Mk-83 - 1000lb GP Bomb LD (TER)",
         "weight": 1036,
@@ -7902,16 +8221,26 @@ class Weapons:
         "weight": 666,
     }
     _2x_SUU_25_x_8_LUU_2___Target_Marker_Flares__MER_ = {
-        "clsid": "{HB_F4E_SUU-25_MER_2x_Left}",
+        "clsid": "{HB_A6E_SUU25_MER_2x_RIGHT}",
         "name": "2x SUU-25 x 8 LUU-2 - Target Marker Flares (MER)",
         "weight": 553.4,
     }
     _2x_SUU_25_x_8_LUU_2___Target_Marker_Flares__MER__ = {
-        "clsid": "{HB_F4E_SUU-25_MER_2x_Right}",
+        "clsid": "{HB_A6E_SUU25_MER_2x_LEFT}",
         "name": "2x SUU-25 x 8 LUU-2 - Target Marker Flares (MER)",
         "weight": 553.4,
     }
     _2x_SUU_25_x_8_LUU_2___Target_Marker_Flares__MER___ = {
+        "clsid": "{HB_F4E_SUU-25_MER_2x_Left}",
+        "name": "2x SUU-25 x 8 LUU-2 - Target Marker Flares (MER)",
+        "weight": 553.4,
+    }
+    _2x_SUU_25_x_8_LUU_2___Target_Marker_Flares__MER____ = {
+        "clsid": "{HB_F4E_SUU-25_MER_2x_Right}",
+        "name": "2x SUU-25 x 8 LUU-2 - Target Marker Flares (MER)",
+        "weight": 553.4,
+    }
+    _2x_SUU_25_x_8_LUU_2___Target_Marker_Flares__MER_____ = {
         "clsid": "{HB_F4E_SUU-25_MER_2x}",
         "name": "2x SUU-25 x 8 LUU-2 - Target Marker Flares (MER)",
         "weight": 553.4,
@@ -8561,13 +8890,13 @@ class Weapons:
         "clsid": "{FAB_500_DUAL_L}",
         "name": "2 x FAB-500",
         "weight": 1044,
-        "settings": weapon_settings_registry["19f2e112"],
+        "settings": weapon_settings_registry["8045551b"],
     }
     _2_x_FAB_500_ = {
         "clsid": "{FAB_500_DUAL_R}",
         "name": "2 x FAB-500",
         "weight": 1044,
-        "settings": weapon_settings_registry["19f2e112"],
+        "settings": weapon_settings_registry["8045551b"],
     }
     _2_x_HOT_3___ATGM__SACLOS__HEAT = {
         "clsid": "{HOT3_L2_M}",
@@ -8701,7 +9030,7 @@ class Weapons:
         "clsid": "{AD5E5863-08FC-4283-B92C-162E2B2BD3FF}",
         "name": "33 x FAB-500M-62 - 500 kg GP Bomb LD",
         "weight": 17160,
-        "settings": weapon_settings_registry["19f2e112"],
+        "settings": weapon_settings_registry["8045551b"],
     }
     _33_x_OFAB_250_270___250_kg_GP_Bomb_LD = {
         "clsid": "{BDAD04AA-4D4A-4E51-B958-180A89F963CF}",
@@ -8740,9 +9069,50 @@ class Weapons:
         "weight": 842.5,
     }
     _3x_BDU_33___25lb_Practice_Bomb_LD__TER_ = {
+        "clsid": "{HB_A6E_BDU33_TER_3x}",
+        "name": "3x BDU-33 - 25lb Practice Bomb LD (TER)",
+        "weight": 161.9,
+    }
+    _3x_BDU_33___25lb_Practice_Bomb_LD__TER__ = {
         "clsid": "{HB_F4E_BDU-33_3x}",
         "name": "3x BDU-33 - 25lb Practice Bomb LD (TER)",
         "weight": 161.9,
+    }
+    _3x_BDU_45B___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45_MER_3x_RIGHT}",
+        "name": "3x BDU-45B - 500lb Practice Bomb (MER)",
+        "weight": 795.8,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _3x_BDU_45B___500lb_Practice_Bomb__MER__ = {
+        "clsid": "{HB_A6E_BDU45_MER_3x_LEFT}",
+        "name": "3x BDU-45B - 500lb Practice Bomb (MER)",
+        "weight": 795.8,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _3x_BDU_45B___500lb_Practice_Bomb__TER_ = {
+        "clsid": "{HB_A6E_BDU45_TER_3x}",
+        "name": "3x BDU-45B - 500lb Practice Bomb (TER)",
+        "weight": 824,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _3x_BDU_45___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_3x_RIGHT}",
+        "name": "3x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 795.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
+    }
+    _3x_BDU_45___500lb_Practice_Bomb__MER__ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_3x_LEFT}",
+        "name": "3x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 795.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
+    }
+    _3x_BDU_45___500lb_Practice_Bomb__TER_ = {
+        "clsid": "{HB_A6E_BDU45SE_TER_3x}",
+        "name": "3x BDU-45 - 500lb Practice Bomb (TER)",
+        "weight": 824,
+        "settings": weapon_settings_registry["9cb79a0a"],
     }
     _3x_BDU_50HD___500lb_Practice_Bomb_HD__TER_ = {
         "clsid": "{HB_F4E_BDU-50HD_3x}",
@@ -8789,6 +9159,11 @@ class Weapons:
         "weight": 1389.8,
         "settings": weapon_settings_registry["b71311b7"],
     }
+    _3x_LAU_10_pod___4_x_127mm_ZUNI__UnGd_Rkts_Mk71__HE_FRAG__TER_ = {
+        "clsid": "{HB_A6E_LAU10_TER_3x}",
+        "name": "3x LAU-10 pod - 4 x 127mm ZUNI, UnGd Rkts Mk71, HE/FRAG (TER)",
+        "weight": 994.7,
+    }
     _3x_LAU_10_pod___4_x_5_Zuni__UnGd_Rkts_Mk71__HE_FRAG__MER_ = {
         "clsid": "{HB_F4E_LAU-10_ZUNI_MER_3x}",
         "name": "3x LAU-10 pod - 4 x 5\" Zuni, UnGd Rkts Mk71, HE/FRAG (MER)",
@@ -8829,6 +9204,11 @@ class Weapons:
         "name": "3x LAU-3 pod - 19 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)",
         "weight": 790.1,
     }
+    _3x_LAU_61_pod___19_x_2_75_Hydra__UnGd_Rkts_M151__HE__TER_ = {
+        "clsid": "{HB_A6E_LAU61MK151_TER_3x}",
+        "name": "3x LAU-61 pod - 19 x 2.75\" Hydra, UnGd Rkts M151, HE (TER)",
+        "weight": 948.2,
+    }
     _3x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_M156__Wht_Phos__MER_ = {
         "clsid": "{HB_F4E_LAU-68_WP156_MER_3x}",
         "name": "3x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts M156, Wht Phos (MER)",
@@ -8838,6 +9218,11 @@ class Weapons:
         "clsid": "{HB_F4E_LAU-68_WP156_3x}",
         "name": "3x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts M156, Wht Phos (TER)",
         "weight": 488.6,
+    }
+    _3x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk151__HE__TER_ = {
+        "clsid": "{HB_A6E_LAU68MK151_TER_3x}",
+        "name": "3x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk151, HE (TER)",
+        "weight": 469.7,
     }
     _3x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk1__HE__MER_ = {
         "clsid": "{HB_F4E_LAU-68_MK1_MER_3x}",
@@ -8855,6 +9240,11 @@ class Weapons:
         "weight": 430.7,
     }
     _3x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk5__HEAT__TER_ = {
+        "clsid": "{HB_A6E_LAU68MK5_TER_3x}",
+        "name": "3x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)",
+        "weight": 458.9,
+    }
+    _3x_LAU_68_pod___7_x_2_75_FFAR__UnGd_Rkts_Mk5__HEAT__TER__ = {
         "clsid": "{HB_F4E_LAU-68_MK5_3x}",
         "name": "3x LAU-68 pod - 7 x 2.75\" FFAR, UnGd Rkts Mk5, HEAT (TER)",
         "weight": 458.9,
@@ -8870,17 +9260,65 @@ class Weapons:
         "weight": 1119.8,
     }
     _3x_M117___750lb_GP_Bomb_LD__TER_ = {
+        "clsid": "{HB_A6E_M117_TER_3x}",
+        "name": "3x M117 - 750lb GP Bomb LD (TER)",
+        "weight": 1148,
+    }
+    _3x_M117___750lb_GP_Bomb_LD__TER__ = {
         "clsid": "{HB_F4E_M117_3x}",
         "name": "3x M117 - 750lb GP Bomb LD (TER)",
         "weight": 1148,
     }
+    _3x_Mk_106___5lb_Practice_Bomb_LD__TER_ = {
+        "clsid": "{HB_A6E_MK106_TER_3x}",
+        "name": "3x Mk 106 - 5lb Practice Bomb LD (TER)",
+        "weight": 134.81,
+    }
+    _3x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER_ = {
+        "clsid": "{HB_A6E_MK20_MER_3x_RIGHT}",
+        "name": "3x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
+        "weight": 765.8,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _3x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER__ = {
+        "clsid": "{HB_A6E_MK20_MER_3x_LEFT}",
+        "name": "3x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
+        "weight": 765.8,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
     _3x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__TER_ = {
+        "clsid": "{HB_A6E_MK20_TER_3x}",
+        "name": "3x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (TER)",
+        "weight": 794,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _3x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__TER__ = {
         "clsid": "{HB_F4E_ROCKEYE_3x}",
         "name": "3x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (TER)",
         "weight": 794,
         "settings": weapon_settings_registry["77ac9721"],
     }
+    _3x_Mk_76___25lb_Practice_Bomb_LD__TER_ = {
+        "clsid": "{HB_A6E_MK76_TER_3x}",
+        "name": "3x Mk 76 - 25lb Practice Bomb LD (TER)",
+        "weight": 161.9,
+    }
+    _3x_Mk_81___250lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK81_MER_3x_RIGHT}",
+        "name": "3x Mk-81 - 250lb GP Bomb LD (MER)",
+        "weight": 453.8,
+    }
+    _3x_Mk_81___250lb_GP_Bomb_LD__MER__ = {
+        "clsid": "{HB_A6E_MK81_MER_3x_LEFT}",
+        "name": "3x Mk-81 - 250lb GP Bomb LD (MER)",
+        "weight": 453.8,
+    }
     _3x_Mk_81___250lb_GP_Bomb_LD__TER_ = {
+        "clsid": "{HB_A6E_MK81_TER_3x}",
+        "name": "3x Mk-81 - 250lb GP Bomb LD (TER)",
+        "weight": 482,
+    }
+    _3x_Mk_81___250lb_GP_Bomb_LD__TER__ = {
         "clsid": "{HB_F4E_MK-81_3x}",
         "name": "3x Mk-81 - 250lb GP Bomb LD (TER)",
         "weight": 482,
@@ -8892,20 +9330,62 @@ class Weapons:
         "weight": 854,
         "settings": weapon_settings_registry["814865ab"],
     }
+    _3x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER_ = {
+        "clsid": "{HB_A6E_MK82SE_MER_3x_RIGHT}",
+        "name": "3x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 848.3,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _3x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER__ = {
+        "clsid": "{HB_A6E_MK82SE_MER_3x_LEFT}",
+        "name": "3x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 848.3,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
     _3x_Mk_82_Snakeye___500lb_GP_Bomb_HD__TER_ = {
+        "clsid": "{HB_A6E_MK82SE_TER_3x}",
+        "name": "3x Mk-82 Snakeye - 500lb GP Bomb HD (TER)",
+        "weight": 876.5,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _3x_Mk_82_Snakeye___500lb_GP_Bomb_HD__TER__ = {
         "clsid": "{HB_F4E_MK-82_Snakeye_3x}",
         "name": "3x Mk-82 Snakeye - 500lb GP Bomb HD (TER)",
         "weight": 876.5,
         "settings": weapon_settings_registry["814865ab"],
     }
+    _3x_Mk_82___500lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK82_MER_3x_RIGHT}",
+        "name": "3x Mk-82 - 500lb GP Bomb LD (MER)",
+        "weight": 783.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _3x_Mk_82___500lb_GP_Bomb_LD__MER__ = {
+        "clsid": "{HB_A6E_MK82_MER_3x_LEFT}",
+        "name": "3x Mk-82 - 500lb GP Bomb LD (MER)",
+        "weight": 783.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
     _3x_Mk_82___500lb_GP_Bomb_LD__TER_ = {
+        "clsid": "{HB_A6E_MK82_TER_3x}",
+        "name": "3x Mk-82 - 500lb GP Bomb LD (TER)",
+        "weight": 812,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _3x_Mk_82___500lb_GP_Bomb_LD__TER__ = {
         "clsid": "{HB_F4E_MK-82_3x}",
         "name": "3x Mk-82 - 500lb GP Bomb LD (TER)",
         "weight": 812,
         "settings": weapon_settings_registry["814865ab"],
     }
     _3x_Mk_83___1000lb_GP_Bomb_LD__MER_ = {
-        "clsid": "{HB_F4E_MK-83_MER_3x}",
+        "clsid": "{HB_A6E_MK83_MER_3x_FWD}",
+        "name": "3x Mk-83 - 1000lb GP Bomb LD (MER)",
+        "weight": 1461.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _3x_Mk_83___1000lb_GP_Bomb_LD__MER__ = {
+        "clsid": "{HB_A6E_MK83_MER_3x_AFT}",
         "name": "3x Mk-83 - 1000lb GP Bomb LD (MER)",
         "weight": 1461.8,
         "settings": weapon_settings_registry["814865ab"],
@@ -8916,7 +9396,19 @@ class Weapons:
         "weight": 1461.8,
         "settings": weapon_settings_registry["814865ab"],
     }
+    _3x_Mk_83___1000lb_GP_Bomb_LD__MER___ = {
+        "clsid": "{HB_F4E_MK-83_MER_3x}",
+        "name": "3x Mk-83 - 1000lb GP Bomb LD (MER)",
+        "weight": 1461.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
     _3x_Mk_83___1000lb_GP_Bomb_LD__TER_ = {
+        "clsid": "{HB_A6E_MK83_TER_3x}",
+        "name": "3x Mk-83 - 1000lb GP Bomb LD (TER)",
+        "weight": 1490,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _3x_Mk_83___1000lb_GP_Bomb_LD__TER__ = {
         "clsid": "{HB_F4E_MK-83_3x}",
         "name": "3x Mk-83 - 1000lb GP Bomb LD (TER)",
         "weight": 1490,
@@ -8931,6 +9423,11 @@ class Weapons:
         "clsid": "{HB_F4E_SAMP250HD_TER_3x}",
         "name": "3x SAMP-250 - 250KG GP Chute Retarded Bomb HD (TER)",
         "weight": 935,
+    }
+    _3x_SUU_25_x_8_LUU_2___Target_Marker_Flares__TER_ = {
+        "clsid": "{HB_A6E_SUU25_TER_3x}",
+        "name": "3x SUU-25 x 8 LUU-2 - Target Marker Flares (TER)",
+        "weight": 808.4,
     }
     _3_BDU_33 = {
         "clsid": "{BRU42_3*BDU33}",
@@ -9028,6 +9525,35 @@ class Weapons:
         "name": "4 x SPIKE-ER",
         "weight": 169.7,
     }
+    _4x_ADM_141A_TALD__MER_ = {
+        "clsid": "{HB_A6E_TALD_MER_4x}",
+        "name": "4x ADM-141A TALD (MER)",
+        "weight": 819.8,
+    }
+    _4x_BDU_45B___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45_MER_4x_RIGHT}",
+        "name": "4x BDU-45B - 500lb Practice Bomb (MER)",
+        "weight": 1027.8,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _4x_BDU_45B___500lb_Practice_Bomb__MER__ = {
+        "clsid": "{HB_A6E_BDU45_MER_4x_LEFT}",
+        "name": "4x BDU-45B - 500lb Practice Bomb (MER)",
+        "weight": 1027.8,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _4x_BDU_45___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_4x_RIGHT}",
+        "name": "4x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 1027.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
+    }
+    _4x_BDU_45___500lb_Practice_Bomb__MER__ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_4x_LEFT}",
+        "name": "4x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 1027.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
+    }
     _4x_CBU_52B___220_x_HE_Frag_bomblets__MER_ = {
         "clsid": "{HB_F4E_CBU-52B_MER_6x}",
         "name": "4x CBU-52B - 220 x HE/Frag bomblets (MER)",
@@ -9038,6 +9564,67 @@ class Weapons:
         "name": "4x CBU-87 - 202 x CEM Cluster Bomb (MER)",
         "weight": 1819.8,
         "settings": weapon_settings_registry["b71311b7"],
+    }
+    _4x_M117___750lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_M117_MER_4x}",
+        "name": "4x M117 - 750lb GP Bomb LD (MER)",
+        "weight": 1459.8,
+    }
+    _4x_M117___750lb_GP_Bomb_LD__MER___OB_ = {
+        "clsid": "{HB_A6E_M117_MER_4x_RIGHT}",
+        "name": "4x M117 - 750lb GP Bomb LD (MER) (OB)",
+        "weight": 1459.8,
+    }
+    _4x_M117___750lb_GP_Bomb_LD__MER___OB__ = {
+        "clsid": "{HB_A6E_M117_MER_4x_LEFT}",
+        "name": "4x M117 - 750lb GP Bomb LD (MER) (OB)",
+        "weight": 1459.8,
+    }
+    _4x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER_ = {
+        "clsid": "{HB_A6E_MK20_MER_4x_RIGHT}",
+        "name": "4x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
+        "weight": 987.8,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _4x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER__ = {
+        "clsid": "{HB_A6E_MK20_MER_4x_LEFT}",
+        "name": "4x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
+        "weight": 987.8,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _4x_Mk_81___250lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK81_MER_4x_RIGHT}",
+        "name": "4x Mk-81 - 250lb GP Bomb LD (MER)",
+        "weight": 571.8,
+    }
+    _4x_Mk_81___250lb_GP_Bomb_LD__MER__ = {
+        "clsid": "{HB_A6E_MK81_MER_4x_LEFT}",
+        "name": "4x Mk-81 - 250lb GP Bomb LD (MER)",
+        "weight": 571.8,
+    }
+    _4x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER_ = {
+        "clsid": "{HB_A6E_MK82SE_MER_4x_RIGHT}",
+        "name": "4x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 1097.8,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _4x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER__ = {
+        "clsid": "{HB_A6E_MK82SE_MER_4x_LEFT}",
+        "name": "4x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 1097.8,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _4x_Mk_82___500lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK82_MER_4x_RIGHT}",
+        "name": "4x Mk-82 - 500lb GP Bomb LD (MER)",
+        "weight": 1011.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _4x_Mk_82___500lb_GP_Bomb_LD__MER__ = {
+        "clsid": "{HB_A6E_MK82_MER_4x_LEFT}",
+        "name": "4x Mk-82 - 500lb GP Bomb LD (MER)",
+        "weight": 1011.8,
+        "settings": weapon_settings_registry["814865ab"],
     }
     _4x_SB_M_71_120kg_GP_Bomb_High_drag = {
         "clsid": "{M71BOMBD}",
@@ -9163,10 +9750,92 @@ class Weapons:
         "name": "50 gal. Drop Tank",
         "weight": 187.7,
     }
+    _5x_BDU_45B___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45_MER_5x_RIGHT}",
+        "name": "5x BDU-45B - 500lb Practice Bomb (MER)",
+        "weight": 1259.8,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _5x_BDU_45B___500lb_Practice_Bomb__MER__ = {
+        "clsid": "{HB_A6E_BDU45_MER_5x_LEFT}",
+        "name": "5x BDU-45B - 500lb Practice Bomb (MER)",
+        "weight": 1259.8,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _5x_BDU_45___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_5x}",
+        "name": "5x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 1259.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
+    }
+    _5x_BDU_45___500lb_Practice_Bomb__MER__ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_5x_RIGHT}",
+        "name": "5x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 1259.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
+    }
+    _5x_BDU_45___500lb_Practice_Bomb__MER___ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_5x_LEFT}",
+        "name": "5x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 1259.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
+    }
     _5x_M117___750lb_GP_Bomb_LD__MER_ = {
         "clsid": "{HB_F4E_M117_MER_5x}",
         "name": "5x M117 - 750lb GP Bomb LD (MER)",
         "weight": 1799.8,
+    }
+    _5x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER_ = {
+        "clsid": "{HB_A6E_MK20_MER_5x_RIGHT}",
+        "name": "5x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
+        "weight": 1209.8,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _5x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER__ = {
+        "clsid": "{HB_A6E_MK20_MER_5x_LEFT}",
+        "name": "5x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
+        "weight": 1209.8,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _5x_Mk_81___250lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK81_MER_5x_RIGHT}",
+        "name": "5x Mk-81 - 250lb GP Bomb LD (MER)",
+        "weight": 689.8,
+    }
+    _5x_Mk_81___250lb_GP_Bomb_LD__MER__ = {
+        "clsid": "{HB_A6E_MK81_MER_5x_LEFT}",
+        "name": "5x Mk-81 - 250lb GP Bomb LD (MER)",
+        "weight": 689.8,
+    }
+    _5x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER_ = {
+        "clsid": "{HB_A6E_MK82SE_MER_5x}",
+        "name": "5x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 1347.3,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _5x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER__ = {
+        "clsid": "{HB_A6E_MK82SE_MER_5x_RIGHT}",
+        "name": "5x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 1347.3,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _5x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER___ = {
+        "clsid": "{HB_A6E_MK82SE_MER_5x_LEFT}",
+        "name": "5x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 1347.3,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _5x_Mk_82___500lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK82_MER_5x_RIGHT}",
+        "name": "5x Mk-82 - 500lb GP Bomb LD (MER)",
+        "weight": 1239.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _5x_Mk_82___500lb_GP_Bomb_LD__MER__ = {
+        "clsid": "{HB_A6E_MK82_MER_5x_LEFT}",
+        "name": "5x Mk-82 - 500lb GP Bomb LD (MER)",
+        "weight": 1239.8,
+        "settings": weapon_settings_registry["814865ab"],
     }
     _5_x_HVAR__UnGd_Rkt = {
         "clsid": "{P47_5_HVARS_ON_LEFT_WING_RAILS}",
@@ -9191,9 +9860,26 @@ class Weapons:
         "settings": weapon_settings_registry["814865ab"],
     }
     _6x_BDU_33___25lb_Practice_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_BDU33_MER_6x}",
+        "name": "6x BDU-33 - 25lb Practice Bomb LD (MER)",
+        "weight": 167.6,
+    }
+    _6x_BDU_33___25lb_Practice_Bomb_LD__MER__ = {
         "clsid": "{HB_F4E_BDU-33_6x}",
         "name": "6x BDU-33 - 25lb Practice Bomb LD (MER)",
         "weight": 167.6,
+    }
+    _6x_BDU_45B___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45_MER_6x}",
+        "name": "6x BDU-45B - 500lb Practice Bomb (MER)",
+        "weight": 1491.8,
+        "settings": weapon_settings_registry["72e153a4"],
+    }
+    _6x_BDU_45___500lb_Practice_Bomb__MER_ = {
+        "clsid": "{HB_A6E_BDU45SE_MER_6x}",
+        "name": "6x BDU-45 - 500lb Practice Bomb (MER)",
+        "weight": 1491.8,
+        "settings": weapon_settings_registry["9cb79a0a"],
     }
     _6x_BDU_50HD___500lb_Practice_Bomb_HD__MER_ = {
         "clsid": "{HB_F4E_BDU-50HD_6x}",
@@ -9212,13 +9898,34 @@ class Weapons:
         "name": "6x BLU-107/B Durandal - 219kg Concrete Piercing Chute Retarded Bomb w/Booster (MER)",
         "weight": 1413.8,
     }
+    _6x_Mk_106___5lb_Practice_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK106_MER_6x}",
+        "name": "6x Mk 106 - 5lb Practice Bomb LD (MER)",
+        "weight": 113.42,
+    }
     _6x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER_ = {
+        "clsid": "{HB_A6E_MK20_MER_6x}",
+        "name": "6x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
+        "weight": 1431.8,
+        "settings": weapon_settings_registry["77ac9721"],
+    }
+    _6x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets__MER__ = {
         "clsid": "{HB_F4E_ROCKEYE_6x}",
         "name": "6x Mk-20 Rockeye - 490lbs CBU, 247 x HEAT Bomblets (MER)",
         "weight": 1431.8,
         "settings": weapon_settings_registry["77ac9721"],
     }
+    _6x_Mk_76___25lb_Practice_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK76_MER_6x}",
+        "name": "6x Mk 76 - 25lb Practice Bomb LD (MER)",
+        "weight": 167.6,
+    }
     _6x_Mk_81___250lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK81_MER_6x}",
+        "name": "6x Mk-81 - 250lb GP Bomb LD (MER)",
+        "weight": 807.8,
+    }
+    _6x_Mk_81___250lb_GP_Bomb_LD__MER__ = {
         "clsid": "{HB_F4E_MK-81_6x}",
         "name": "6x Mk-81 - 250lb GP Bomb LD (MER)",
         "weight": 807.8,
@@ -9231,12 +9938,24 @@ class Weapons:
         "settings": weapon_settings_registry["814865ab"],
     }
     _6x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER_ = {
+        "clsid": "{HB_A6E_MK82SE_MER_6x}",
+        "name": "6x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
+        "weight": 1596.8,
+        "settings": weapon_settings_registry["1c1750dc"],
+    }
+    _6x_Mk_82_Snakeye___500lb_GP_Bomb_HD__MER__ = {
         "clsid": "{HB_F4E_MK-82_Snakeye_6x}",
         "name": "6x Mk-82 Snakeye - 500lb GP Bomb HD (MER)",
         "weight": 1596.8,
         "settings": weapon_settings_registry["814865ab"],
     }
     _6x_Mk_82___500lb_GP_Bomb_LD__MER_ = {
+        "clsid": "{HB_A6E_MK82_MER_6x}",
+        "name": "6x Mk-82 - 500lb GP Bomb LD (MER)",
+        "weight": 1467.8,
+        "settings": weapon_settings_registry["814865ab"],
+    }
+    _6x_Mk_82___500lb_GP_Bomb_LD__MER__ = {
         "clsid": "{HB_F4E_MK-82_6x}",
         "name": "6x Mk-82 - 500lb GP Bomb LD (MER)",
         "weight": 1467.8,
@@ -9982,6 +10701,7 @@ weapon_ids = {
     "DIS_GDJ_YJ83K": Weapons.DIS_GDJ_YJ83K,
     "DIS_H6_250_2_N12": Weapons.DIS_H6_250_2_N12,
     "DIS_H6_250_2_N24": Weapons.DIS_H6_250_2_N24,
+    "DIS_HF20_90_1_HE": Weapons.DIS_HF20_90_1_HE,
     "DIS_HJ-12": Weapons.DIS_HJ_12,
     "DIS_KD20": Weapons.DIS_KD20,
     "DIS_KD63": Weapons.DIS_KD63,
@@ -10014,7 +10734,6 @@ weapon_ids = {
     "DIS_PL-5EII": Weapons.DIS_PL_5EII,
     "DIS_PL-8A": Weapons.DIS_PL_8A,
     "DIS_PL-8B": Weapons.DIS_PL_8B,
-    "DIS_RKT_90_UG": Weapons.DIS_RKT_90_UG,
     "DIS_SD-10": Weapons.DIS_SD_10,
     "DIS_SD-10_DUAL_L": Weapons.DIS_SD_10_DUAL_L,
     "DIS_SD-10_DUAL_R": Weapons.DIS_SD_10_DUAL_R,

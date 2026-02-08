@@ -3,8 +3,116 @@
 
 
 weapon_settings_registry = {
-    # Used by 38 weapon(s): AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb, BRU_33_with_2_x_GBU_12___500lb_Laser_Guided_Bomb, BRU_33_with_2_x_GBU_16___1000lb_Laser_Guided_Bomb, BRU_42_3_GBU_12, BRU_42_with_1_x_GBU_12___500lb_Laser_Guided_Bomb
-    # ... and 33 more
+    # Used by 1 weapon(s): AB_500_1___34_x_SD_10A__500kg_CBU_with_10kg_Frag_HE_submunitions
+    "01c38ded": [
+        {
+            "id": "NFP_fuze_type",
+            "label": "Fuze Type",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Zünder 69E"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z69E",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 4,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z69E",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z69E",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z69E",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "NFP_subm_fuze_type",
+            "label": "Submunition Fuze Type",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Zünder 3"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "04_prfx_subm_arm_delay_ctrl_Z3",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 2.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_subm_fuze_type", "value": 1}],
+        },
+        {
+            "id": "04_prfx_subm_func_delay_ctrl_Z3",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 6,
+                    "dispName": "6"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_subm_fuze_type", "value": 1}],
+        }
+    ],
+    # Used by 45 weapon(s): AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb, BRU_33_with_2_x_GBU_12___500lb_Laser_Guided_Bomb, BRU_33_with_2_x_GBU_16___1000lb_Laser_Guided_Bomb, BRU_42_3_GBU_12, BRU_42_with_1_x_GBU_12___500lb_Laser_Guided_Bomb
+    # ... and 40 more
     "02df7fad": [
         {
             "id": "NFP_fuze_type_tail",
@@ -2032,689 +2140,8 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 1}],
         }
     ],
-    # Used by 6 weapon(s): FAB_250M_62___250_kg_GP_Bomb_LD, FAB_500M_62___500_kg_GP_Bomb_LD, MBD3_U6_68___6_x_FAB_500M_62___500_kg_GP_Bomb_LD, _2_x_FAB_500, _2_x_FAB_500_
-    # ... and 1 more
-    "19f2e112": [
-        {
-            "id": "NFP_fuze_type_nose",
-            "label": "Nose Fuze Well",
-            "control": "comboList",
-            "defValue": 1,
-            "values": [
-                {
-                    "id": 1,
-                    "dispName": "AVU-E"
-                },
-                {
-                    "id": 2,
-                    "dispName": "AV-1 + MDV-5"
-                },
-                {
-                    "id": 3,
-                    "dispName": "AV-139E"
-                },
-                {
-                    "id": 4,
-                    "dispName": "AV-2E"
-                },
-                {
-                    "id": 5,
-                    "dispName": "AVShE"
-                },
-                {
-                    "id": 6,
-                    "dispName": "AVT-E"
-                },
-                {
-                    "id": 7,
-                    "dispName": "VDV"
-                },
-                {
-                    "id": "EMPTY_NOSE",
-                    "dispName": "Plugged"
-                }
-            ],
-            "baseDim": "",
-        },
-        {
-            "id": "00_prfx_arm_delay_ctrl_AV2E_NOSE",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 1.8,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 4}],
-        },
-        {
-            "id": "00_prfx_arm_delay_ctrl_AVShE_NOSE",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 3.8,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 5}],
-        },
-        {
-            "id": "00_prfx_arm_delay_ctrl_AVTE_NOSE",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 4.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 6}],
-        },
-        {
-            "id": "00_prfx_arm_delay_ctrl_AV139E_NOSE",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 20.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
-        },
-        {
-            "id": "00_prfx_arm_delay_ctrl_VDV_NOSE",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 6.8,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 7}],
-        },
-        {
-            "id": "00_prfx_arm_delay_ctrl_AV1_NOSE",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 1.9,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 2}],
-        },
-        {
-            "id": "00_prfx_arm_delay_ctrl_AVUE_NOSE",
-            "label": "Arm Delay",
-            "control": "comboList",
-            "defValue": 4.5,
-            "values": [
-                {
-                    "id": 4.5,
-                    "dispName": "4.5"
-                },
-                {
-                    "id": 11.5,
-                    "dispName": "11.5"
-                }
-            ],
-            "baseDim": "s",
-            "dimension": "s",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
-        },
-        {
-            "id": "00_prfx_function_delay_ctrl_AV1_NOSE",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 27,
-            "values": [
-                {
-                    "id": 13.5,
-                    "dispName": "13.5"
-                },
-                {
-                    "id": 27,
-                    "dispName": "27"
-                }
-            ],
-            "baseDim": "s",
-            "dimension": "s",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 2}],
-        },
-        {
-            "id": "00_prfx_function_delay_ctrl_AVUE_NOSE",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 0,
-            "values": [
-                {
-                    "id": 0,
-                    "dispName": "0 s"
-                },
-                {
-                    "id": 0.025,
-                    "dispName": "25 ms"
-                },
-                {
-                    "id": 0.075,
-                    "dispName": "75 ms"
-                }
-            ],
-            "baseDim": "",
-            "dimension": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
-        },
-        {
-            "id": "00_prfx_function_delay_ctrl_VDV_NOSE",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 0,
-            "values": [
-                {
-                    "id": 0,
-                    "dispName": "0"
-                },
-                {
-                    "id": 0.1,
-                    "dispName": "0.1"
-                },
-                {
-                    "id": 0.2,
-                    "dispName": "0.2"
-                }
-            ],
-            "baseDim": "s",
-            "dimension": "s",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 7}],
-        },
-        {
-            "id": "00_prfx_function_delay_ctrl_AVTE_NOSE",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 0.04,
-            "values": [
-                {
-                    "id": 0,
-                    "dispName": "0 s"
-                },
-                {
-                    "id": 0.04,
-                    "dispName": "40 ms"
-                },
-                {
-                    "id": 0.35,
-                    "dispName": "0.35 s"
-                },
-                {
-                    "id": 0.8,
-                    "dispName": "0.8 s"
-                },
-                {
-                    "id": 26,
-                    "dispName": "26 s"
-                }
-            ],
-            "baseDim": "",
-            "dimension": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 6}],
-        },
-        {
-            "id": "00_prfx_function_delay_ctrl_AVShE_NOSE",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 12,
-            "values": [
-                {
-                    "id": 12,
-                    "dispName": "12 s"
-                },
-                {
-                    "id": 25,
-                    "dispName": "25 s"
-                },
-                {
-                    "id": 70,
-                    "dispName": "70 s"
-                },
-                {
-                    "id": 200,
-                    "dispName": "3' 20\""
-                }
-            ],
-            "baseDim": "",
-            "dimension": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 5}],
-        },
-        {
-            "id": "00_prfx_function_delay_ctrl_AV139E_NOSE",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 0.75,
-            "values": [
-                {
-                    "id": 0,
-                    "dispName": "0 s"
-                },
-                {
-                    "id": 0.03,
-                    "dispName": "30 ms"
-                },
-                {
-                    "id": 0.75,
-                    "dispName": "0.75 s"
-                }
-            ],
-            "baseDim": "",
-            "dimension": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
-        },
-        {
-            "id": "00_prfx_function_delay_ctrl_AV2E_NOSE",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 25,
-            "values": [
-                {
-                    "id": 12,
-                    "dispName": "12"
-                },
-                {
-                    "id": 25,
-                    "dispName": "25"
-                }
-            ],
-            "baseDim": "s",
-            "dimension": "s",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 4}],
-        },
-        {
-            "id": "NFP_fuze_type_tail",
-            "label": "Tail Fuze Well",
-            "control": "comboList",
-            "defValue": "EMPTY_TAIL",
-            "values": [
-                {
-                    "id": 1,
-                    "dispName": "AVU-E"
-                },
-                {
-                    "id": 2,
-                    "dispName": "AV-1 + MDV-5"
-                },
-                {
-                    "id": 3,
-                    "dispName": "AV-139E"
-                },
-                {
-                    "id": 4,
-                    "dispName": "AV-2E"
-                },
-                {
-                    "id": 5,
-                    "dispName": "AVDM"
-                },
-                {
-                    "id": 6,
-                    "dispName": "AVShE"
-                },
-                {
-                    "id": 7,
-                    "dispName": "AVT-E"
-                },
-                {
-                    "id": 8,
-                    "dispName": "VDV"
-                },
-                {
-                    "id": "EMPTY_TAIL",
-                    "dispName": "Plugged"
-                }
-            ],
-            "baseDim": "",
-        },
-        {
-            "id": "01_prfx_arm_delay_ctrl_VDV_TAIL",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 6.8,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 8}],
-        },
-        {
-            "id": "01_prfx_arm_delay_ctrl_AVDM",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 5}],
-        },
-        {
-            "id": "01_prfx_arm_delay_ctrl_AVShE_TAIL",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 3.8,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 6}],
-        },
-        {
-            "id": "01_prfx_arm_delay_ctrl_AVTE_TAIL",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 4.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 7}],
-        },
-        {
-            "id": "01_prfx_arm_delay_ctrl_AV139E_TAIL",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 20.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 3}],
-        },
-        {
-            "id": "01_prfx_arm_delay_ctrl_AV2E_TAIL",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 1.8,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 4}],
-        },
-        {
-            "id": "01_prfx_arm_delay_ctrl_AV1_TAIL",
-            "label": "Arm Delay",
-            "control": "spinbox",
-            "defValue": 1.9,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 2}],
-        },
-        {
-            "id": "01_prfx_arm_delay_ctrl_AVUE_TAIL",
-            "label": "Arm Delay",
-            "control": "comboList",
-            "defValue": 4.5,
-            "values": [
-                {
-                    "id": 4.5,
-                    "dispName": "4.5"
-                },
-                {
-                    "id": 11.5,
-                    "dispName": "11.5"
-                }
-            ],
-            "baseDim": "s",
-            "dimension": "s",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 1}],
-        },
-        {
-            "id": "01_prfx_function_delay_ctrl_AV2E_TAIL",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 25,
-            "values": [
-                {
-                    "id": 12,
-                    "dispName": "12"
-                },
-                {
-                    "id": 25,
-                    "dispName": "25"
-                }
-            ],
-            "baseDim": "s",
-            "dimension": "s",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 4}],
-        },
-        {
-            "id": "01_prfx_function_delay_ctrl_AVTE_TAIL",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 0.04,
-            "values": [
-                {
-                    "id": 0,
-                    "dispName": "0 s"
-                },
-                {
-                    "id": 0.04,
-                    "dispName": "40 ms"
-                },
-                {
-                    "id": 0.35,
-                    "dispName": "0.35 s"
-                },
-                {
-                    "id": 0.8,
-                    "dispName": "0.8 s"
-                },
-                {
-                    "id": 26,
-                    "dispName": "26 s"
-                }
-            ],
-            "baseDim": "",
-            "dimension": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 7}],
-        },
-        {
-            "id": "01_prfx_function_delay_ctrl_AV1_TAIL",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 27,
-            "values": [
-                {
-                    "id": 13.5,
-                    "dispName": "13.5"
-                },
-                {
-                    "id": 27,
-                    "dispName": "27"
-                }
-            ],
-            "baseDim": "s",
-            "dimension": "s",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 2}],
-        },
-        {
-            "id": "01_prfx_function_delay_ctrl_AVShE_TAIL",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 12,
-            "values": [
-                {
-                    "id": 12,
-                    "dispName": "12 s"
-                },
-                {
-                    "id": 25,
-                    "dispName": "25 s"
-                },
-                {
-                    "id": 70,
-                    "dispName": "70 s"
-                },
-                {
-                    "id": 200,
-                    "dispName": "3' 20\""
-                }
-            ],
-            "baseDim": "",
-            "dimension": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 6}],
-        },
-        {
-            "id": "01_prfx_function_delay_ctrl_AVDM",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 1800,
-            "values": [
-                {
-                    "id": 1800,
-                    "dispName": "0.5 h"
-                },
-                {
-                    "id": 2880,
-                    "dispName": "0.8 h"
-                },
-                {
-                    "id": 3600,
-                    "dispName": "1 h"
-                },
-                {
-                    "id": 7200,
-                    "dispName": "2 h"
-                },
-                {
-                    "id": 10800,
-                    "dispName": "3 h"
-                },
-                {
-                    "id": 14400,
-                    "dispName": "4 h"
-                },
-                {
-                    "id": 18000,
-                    "dispName": "5 h"
-                },
-                {
-                    "id": 21600,
-                    "dispName": "6 h"
-                },
-                {
-                    "id": 28800,
-                    "dispName": "8 h"
-                },
-                {
-                    "id": 43200,
-                    "dispName": "12 h"
-                },
-                {
-                    "id": 64800,
-                    "dispName": "18 h"
-                },
-                {
-                    "id": 86400,
-                    "dispName": "24 h"
-                },
-                {
-                    "id": 129600,
-                    "dispName": "36 h"
-                },
-                {
-                    "id": 172800,
-                    "dispName": "48 h"
-                }
-            ],
-            "baseDim": "",
-            "dimension": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 5}],
-        },
-        {
-            "id": "01_prfx_function_delay_ctrl_AV139E_TAIL",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 0.75,
-            "values": [
-                {
-                    "id": 0,
-                    "dispName": "0 s"
-                },
-                {
-                    "id": 0.03,
-                    "dispName": "30 ms"
-                },
-                {
-                    "id": 0.75,
-                    "dispName": "0.75 s"
-                }
-            ],
-            "baseDim": "",
-            "dimension": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 3}],
-        },
-        {
-            "id": "01_prfx_function_delay_ctrl_VDV_TAIL",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 0,
-            "values": [
-                {
-                    "id": 0,
-                    "dispName": "0"
-                },
-                {
-                    "id": 0.1,
-                    "dispName": "0.1"
-                },
-                {
-                    "id": 0.2,
-                    "dispName": "0.2"
-                }
-            ],
-            "baseDim": "s",
-            "dimension": "s",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 8}],
-        },
-        {
-            "id": "01_prfx_function_delay_ctrl_AVUE_TAIL",
-            "label": "Function Delay",
-            "control": "comboList",
-            "defValue": 0,
-            "values": [
-                {
-                    "id": 0,
-                    "dispName": "0 s"
-                },
-                {
-                    "id": 0.025,
-                    "dispName": "25 ms"
-                },
-                {
-                    "id": 0.075,
-                    "dispName": "75 ms"
-                }
-            ],
-            "baseDim": "",
-            "dimension": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 1}],
-        }
-    ],
-    # Used by 42 weapon(s): BRU_33_with_2_x_Mk_82Y___500lb_GP_Chute_Retarded_HD, BRU_33_with_2_x_Mk_82_Snakeye___500lb_GP_Bomb_HD, BRU_33_with_2_x_Mk_83_AIR__BSU_85____1000_lb_GP_Chute_Retarded_Bomb_HD, BRU_42_with_1_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD, BRU_42_with_2_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD
-    # ... and 37 more
+    # Used by 55 weapon(s): BRU_33_with_2_x_Mk_82Y___500lb_GP_Chute_Retarded_HD, BRU_33_with_2_x_Mk_82_Snakeye___500lb_GP_Bomb_HD, BRU_33_with_2_x_Mk_83_AIR__BSU_85____1000_lb_GP_Chute_Retarded_Bomb_HD, BRU_42_with_1_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD, BRU_42_with_2_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD
+    # ... and 50 more
     "1c1750dc": [
         {
             "id": "NFP_fuze_type_nose",
@@ -3101,6 +2528,160 @@ weapon_settings_registry = {
             "baseDim": "",
         }
     ],
+    # Used by 4 weapon(s): ER_4_SC50, SC_250_Type_1_L2___250kg_GP_Bomb_LD, SC_250_Type_3_J___250kg_GP_Bomb_LD, SC_501_SC250
+    "265ba940": [
+        {
+            "id": "NFP_fuze_type",
+            "label": "Fuze Type",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Zünder 25C"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "NFP_fuze_operation_mode",
+            "label": "Function Delay Mode",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Variable"
+                },
+                {
+                    "id": 2,
+                    "dispName": "Fixed"
+                }
+            ],
+            "baseDim": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_VFD_Z25C",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_FFD_Z25C",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 8.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_FFD_Z25C",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 8.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_VFD_Z25C",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 0.08,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "ms",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "03_prfx_function_delay_ctrl_Vz_FFD_Z25C",
+            "label": "Vz Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 8.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "03_prfx_function_delay_ctrl_Vz_VFD_Z25C",
+            "label": "Vz Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 8.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_VFD_Z25C",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0.08,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "ms",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_FFD_Z25C",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0.08,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "ms",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_FFD_Z25C",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0.08,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "ms",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_VFD_Z25C",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0.08,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "ms",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        }
+    ],
     # Used by 13 weapon(s): BRU_33_with_2_x_CBU_99___490lbs__247_x_HEAT_Bomblets, CBU_99, CBU_99___490lbs__247_x_HEAT_Bomblets, MAK79_2_CBU_99, MAK79_2_CBU_99_
     # ... and 8 more
     "2735e531": [
@@ -3224,160 +2805,6 @@ weapon_settings_registry = {
             "baseDim": "s",
             "dimension": "s",
             "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": "Mk339Mod1"}],
-        }
-    ],
-    # Used by 2 weapon(s): SD_250_Stg___250kg_GP_Bomb_LD, SD_500_A___500kg_GP_Bomb_LD
-    "2a23ec03": [
-        {
-            "id": "NFP_fuze_type",
-            "label": "Fuze Type",
-            "control": "comboList",
-            "defValue": 1,
-            "values": [
-                {
-                    "id": 1,
-                    "dispName": "Zünder 38"
-                }
-            ],
-            "baseDim": "",
-        },
-        {
-            "id": "NFP_fuze_operation_mode",
-            "label": "Function Delay Mode",
-            "control": "comboList",
-            "defValue": 1,
-            "values": [
-                {
-                    "id": 1,
-                    "dispName": "Variable"
-                },
-                {
-                    "id": 2,
-                    "dispName": "Fixed"
-                }
-            ],
-            "baseDim": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_oV_VFD_Z38",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 0.05,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "ms",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_oV_FFD_Z38",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_FFD_Z38",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_VFD_Z38",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 0.2,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "ms",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_Vz_FFD_Z38",
-            "label": "Vz Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_Vz_VFD_Z38",
-            "label": "Vz Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "arm_delay_ctrl_Strz_VFD_Z38",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 3,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "arm_delay_ctrl_Strz_FFD_Z38",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 1,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "arm_delay_ctrl_Wgrcht_FFD_Z38",
-            "label": "Wagerecht Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 2,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "arm_delay_ctrl_Wgrcht_VFD_Z38",
-            "label": "Wagerecht Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 7.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
         }
     ],
     # Used by 3 weapon(s): BRU_55_with_2_x_GBU_38___JDAM__500lb_GPS_Guided_Bomb, BRU_57_with_2_x_GBU_38___JDAM__500lb_GPS_Guided_Bomb, GBU_38_V_1_B___JDAM__500lb_GPS_Guided_Bomb
@@ -4042,190 +3469,32 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU152AB_LD"}],
         }
     ],
-    # Used by 2 weapon(s): SC_500_L2___500kg_GP_Bomb_LD, SC_501_SC500
-    "469bf134": [
+    # Used by 2 weapon(s): SAB_100MN___100_kg_Illumination_Bomb, SAB_250_200___200_kg_Illumination_Bomb
+    "48994ad3": [
         {
-            "id": "NFP_fuze_type",
-            "label": "Fuze Type",
+            "id": "NFP_fuze_type_nose",
+            "label": "Nose Fuze Well",
             "control": "comboList",
             "defValue": 1,
             "values": [
                 {
                     "id": 1,
-                    "dispName": "Zünder 38"
+                    "dispName": "ATM-E"
                 },
                 {
                     "id": 2,
-                    "dispName": "Zünder 17"
+                    "dispName": "AT-E"
+                },
+                {
+                    "id": 3,
+                    "dispName": "TM-24 + MDV-4"
                 }
             ],
             "baseDim": "",
         },
         {
-            "id": "NFP_fuze_operation_mode",
-            "label": "Function Delay Mode",
-            "control": "comboList",
-            "defValue": 1,
-            "values": [
-                {
-                    "id": 1,
-                    "dispName": "Variable"
-                },
-                {
-                    "id": 2,
-                    "dispName": "Fixed"
-                }
-            ],
-            "baseDim": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_oV_VFD_Z38",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 0.05,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "ms",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_oV_Z17",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 180,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "min",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_oV_FFD_Z38",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_FFD_Z38",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_VFD_Z38",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 0.2,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "ms",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_Z17",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 180,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "min",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_Vz_FFD_Z38",
-            "label": "Vz Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_Vz_Z17",
-            "label": "Vz Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 180,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "min",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_Vz_VFD_Z38",
-            "label": "Vz Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "arm_delay_ctrl_Strz_FFD_Z38",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 1,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "arm_delay_ctrl_Strz_Z17",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
-        },
-        {
-            "id": "arm_delay_ctrl_Strz_VFD_Z38",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 3,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "arm_delay_ctrl_Wgrcht_VFD_Z38",
-            "label": "Wagerecht Mode Arm Delay",
+            "id": "00_prfx_arm_delay_ctrl_ATE",
+            "label": "Arm Delay",
             "control": "spinbox",
             "defValue": 7.5,
             "min": 0,
@@ -4233,11 +3502,11 @@ weapon_settings_registry = {
             "baseDim": "s",
             "dimension": "s",
             "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 2}],
         },
         {
-            "id": "arm_delay_ctrl_Wgrcht_FFD_Z38",
-            "label": "Wagerecht Mode Arm Delay",
+            "id": "00_prfx_arm_delay_ctrl_ATME",
+            "label": "Arm Delay",
             "control": "spinbox",
             "defValue": 2,
             "min": 0,
@@ -4245,19 +3514,52 @@ weapon_settings_registry = {
             "baseDim": "s",
             "dimension": "s",
             "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
         },
         {
-            "id": "arm_delay_ctrl_Wgrcht_Z17",
-            "label": "Wagerecht Mode Arm Delay",
+            "id": "00_prfx_arm_delay_ctrl_TM24",
+            "label": "Arm Delay",
             "control": "spinbox",
-            "defValue": 0,
+            "defValue": 2.5,
             "min": 0,
             "max": 1000000000000,
             "baseDim": "s",
             "dimension": "s",
             "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_ATME",
+            "label": "Airburst Delay",
+            "control": "spinbox",
+            "defValue": 4,
+            "min": 4,
+            "max": 150,
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_TM24",
+            "label": "Airburst Delay",
+            "control": "spinbox",
+            "defValue": 6,
+            "min": 6,
+            "max": 60,
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_ATE",
+            "label": "Airburst Delay",
+            "control": "spinbox",
+            "defValue": 10,
+            "min": 10,
+            "max": 150,
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 2}],
         }
     ],
     # Used by 4 weapon(s): MBD2_67U___4_x_OFAB_100_120___100_kg_GP_Bomb_LD, MBD2_67U___4_x_OFAB_100_120___100_kg_GP_Bomb_LD_, MBD3_U6_68___6_x_OFAB_100_120___100_kg_GP_Bomb_LD, OFAB_100_120___100_kg_GP_Bomb_LD
@@ -4959,6 +4261,224 @@ weapon_settings_registry = {
             "defValue": 1688,
         }
     ],
+    # Used by 2 weapon(s): SC_500_L2___500kg_GP_Bomb_LD, SC_501_SC500
+    "64840f71": [
+        {
+            "id": "NFP_fuze_type",
+            "label": "Fuze Type",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Zünder 38"
+                },
+                {
+                    "id": 2,
+                    "dispName": "Zünder 17"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "NFP_fuze_operation_mode",
+            "label": "Function Delay Mode",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Variable"
+                },
+                {
+                    "id": 2,
+                    "dispName": "Fixed"
+                }
+            ],
+            "baseDim": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_VFD_Z38",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 0.05,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "ms",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z17",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 180,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "min",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_FFD_Z38",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_FFD_Z38",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_VFD_Z38",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 0.2,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "ms",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z17",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 180,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "min",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "03_prfx_function_delay_ctrl_Vz_FFD_Z38",
+            "label": "Vz Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "03_prfx_function_delay_ctrl_Vz_Z17",
+            "label": "Vz Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 180,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "min",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "03_prfx_function_delay_ctrl_Vz_VFD_Z38",
+            "label": "Vz Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_FFD_Z38",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 1,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z17",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_VFD_Z38",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 3,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_VFD_Z38",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 7.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_FFD_Z38",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 2,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z17",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        }
+    ],
     # Used by 1 weapon(s): BetAB_500ShP___500_kg_Concrete_Piercing_Bomb_HD_w_booster
     "64ba4042": [
         {
@@ -4999,8 +4519,335 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
         }
     ],
-    # Used by 34 weapon(s): BDU_45, BDU_45B, BDU_45B___500lb_Practice_Bomb, BDU_50LD___500lb_Inert_Practice_Bomb_LD, BRU_33_with_2_x_BDU_45B___500lb_Practice_Bomb
-    # ... and 29 more
+    # Used by 1 weapon(s): AB_250_2___144_x_SD_2__250kg_CBU_with_HE_submunitions
+    "67c66429": [
+        {
+            "id": "NFP_fuze_type",
+            "label": "Fuze Type",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Zünder 69D"
+                },
+                {
+                    "id": 2,
+                    "dispName": "Zünder 69E"
+                },
+                {
+                    "id": 3,
+                    "dispName": "Zünder 79"
+                },
+                {
+                    "id": 4,
+                    "dispName": "Zünder 79A"
+                },
+                {
+                    "id": 5,
+                    "dispName": "Zünder 89B"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "arm_delay_ctrl_Z89B",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 5}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z69D",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 0.7,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z79",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 3,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z79A",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 3,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z69E",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 4,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z79",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 30,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+        },
+        {
+            "id": "function_delay_ctrl_Z89B",
+            "label": "Function Delay",
+            "control": "spinbox",
+            "defValue": 4,
+            "min": 3,
+            "max": 60,
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 5}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z79A",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 10,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z69E",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z69D",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 1.2,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z79",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z79A",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z69E",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z69D",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z79",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z79A",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z69D",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z69E",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "NFP_subm_fuze_type",
+            "label": "Submunition Fuze Type",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Zünder 41"
+                },
+                {
+                    "id": 2,
+                    "dispName": "Zünder 67"
+                },
+                {
+                    "id": 3,
+                    "dispName": "Zünder 70B"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "04_prfx_subm_arm_delay_ctrl_Z67",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_subm_fuze_type", "value": 2}],
+        },
+        {
+            "id": "04_prfx_subm_arm_delay_ctrl_Z41",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 3.2,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_subm_fuze_type", "value": 1}],
+        },
+        {
+            "id": "04_prfx_subm_arm_delay_ctrl_Z70B",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_subm_fuze_type", "value": 3}],
+        },
+        {
+            "id": "04_prfx_subm_func_delay_ctrl_Z67",
+            "label": "Function Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 30,
+            "baseDim": "min",
+            "dimension": "min",
+            "VisibilityCondition": [{"id": "NFP_subm_fuze_type", "value": 2}],
+        },
+        {
+            "id": "04_prfx_subm_func_delay_ctrl_Z41",
+            "label": "Function Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_subm_fuze_type", "value": 1}],
+        }
+    ],
+    # Used by 45 weapon(s): BDU_45, BDU_45B, BDU_45B___500lb_Practice_Bomb, BDU_50LD___500lb_Inert_Practice_Bomb_LD, BRU_33_with_2_x_BDU_45B___500lb_Practice_Bomb
+    # ... and 40 more
     "72e153a4": [
         {
             "id": "NFP_fuze_type_nose",
@@ -5468,8 +5315,8 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 4}],
         }
     ],
-    # Used by 26 weapon(s): BRU_33_with_2_x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets, BRU_42_with_3_x_Mk_20_Rockeye___490lbs_CBUs__247_x_HEAT_Bomblets, DIS_MK_20, DIS_MK_20_DUAL_GDJ_II19_L, DIS_MK_20_DUAL_GDJ_II19_R
-    # ... and 21 more
+    # Used by 38 weapon(s): BRU_33_with_2_x_Mk_20_Rockeye___490lbs_CBU__247_x_HEAT_Bomblets, BRU_42_with_3_x_Mk_20_Rockeye___490lbs_CBUs__247_x_HEAT_Bomblets, DIS_MK_20, DIS_MK_20_DUAL_GDJ_II19_L, DIS_MK_20_DUAL_GDJ_II19_R
+    # ... and 33 more
     "77ac9721": [
         {
             "id": "NFP_fuze_type_nose",
@@ -5547,8 +5394,689 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 1}],
         }
     ],
-    # Used by 89 weapon(s): AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD, BRU_33_with_2_x_Mk_82___500lb_GP_Bomb_LD, BRU_33_with_2_x_Mk_83___1000lb_GP_Bomb_LD, BRU_41A_with_6_x_Mk_82___500lb_GP_Bomb_LD, BRU_42_with_1_x_Mk_82___500lb_GP_Bomb_LD
-    # ... and 84 more
+    # Used by 6 weapon(s): FAB_250M_62___250_kg_GP_Bomb_LD, FAB_500M_62___500_kg_GP_Bomb_LD, MBD3_U6_68___6_x_FAB_500M_62___500_kg_GP_Bomb_LD, _2_x_FAB_500, _2_x_FAB_500_
+    # ... and 1 more
+    "8045551b": [
+        {
+            "id": "NFP_fuze_type_nose",
+            "label": "Nose Fuze Well",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "AVU-E"
+                },
+                {
+                    "id": 2,
+                    "dispName": "AV-1 + MDV-5"
+                },
+                {
+                    "id": 3,
+                    "dispName": "AV-139E"
+                },
+                {
+                    "id": 4,
+                    "dispName": "AV-2E"
+                },
+                {
+                    "id": 5,
+                    "dispName": "AVShE"
+                },
+                {
+                    "id": 6,
+                    "dispName": "AVT-E"
+                },
+                {
+                    "id": 7,
+                    "dispName": "VDV"
+                },
+                {
+                    "id": "EMPTY_NOSE",
+                    "dispName": "Plugged"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_AV2E_NOSE",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 1.8,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 4}],
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_AVShE_NOSE",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 3.8,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 5}],
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_AVTE_NOSE",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 4.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 6}],
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_AV139E_NOSE",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 20.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_VDV_NOSE",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 6.8,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 7}],
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_AV1_NOSE",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 1.9,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 2}],
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_AVUE_NOSE",
+            "label": "Arm Delay",
+            "control": "comboList",
+            "defValue": 4.5,
+            "values": [
+                {
+                    "id": 4.5,
+                    "dispName": "4.5"
+                },
+                {
+                    "id": 11.5,
+                    "dispName": "11.5"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_AV1_NOSE",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 27,
+            "values": [
+                {
+                    "id": 13.5,
+                    "dispName": "13.5"
+                },
+                {
+                    "id": 27,
+                    "dispName": "27"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 2}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_AVUE_NOSE",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0 s"
+                },
+                {
+                    "id": 0.025,
+                    "dispName": "25 ms"
+                },
+                {
+                    "id": 0.075,
+                    "dispName": "75 ms"
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_VDV_NOSE",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 0.1,
+                    "dispName": "0.1"
+                },
+                {
+                    "id": 0.2,
+                    "dispName": "0.2"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 7}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_AVTE_NOSE",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0.04,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0 s"
+                },
+                {
+                    "id": 0.04,
+                    "dispName": "40 ms"
+                },
+                {
+                    "id": 0.35,
+                    "dispName": "0.35 s"
+                },
+                {
+                    "id": 0.8,
+                    "dispName": "0.8 s"
+                },
+                {
+                    "id": 26,
+                    "dispName": "26 s"
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 6}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_AVShE_NOSE",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 12,
+            "values": [
+                {
+                    "id": 12,
+                    "dispName": "12 s"
+                },
+                {
+                    "id": 25,
+                    "dispName": "25 s"
+                },
+                {
+                    "id": 70,
+                    "dispName": "70 s"
+                },
+                {
+                    "id": 200,
+                    "dispName": "3' 20\""
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 5}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_AV139E_NOSE",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0.75,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0 s"
+                },
+                {
+                    "id": 0.03,
+                    "dispName": "30 ms"
+                },
+                {
+                    "id": 0.75,
+                    "dispName": "0.75 s"
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_AV2E_NOSE",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 25,
+            "values": [
+                {
+                    "id": 12,
+                    "dispName": "12"
+                },
+                {
+                    "id": 25,
+                    "dispName": "25"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 4}],
+        },
+        {
+            "id": "NFP_fuze_type_tail",
+            "label": "Tail Fuze Well",
+            "control": "comboList",
+            "defValue": "EMPTY_TAIL",
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "AVU-E"
+                },
+                {
+                    "id": 2,
+                    "dispName": "AV-1 + MDV-5"
+                },
+                {
+                    "id": 3,
+                    "dispName": "AV-139E"
+                },
+                {
+                    "id": 4,
+                    "dispName": "AV-2E"
+                },
+                {
+                    "id": 5,
+                    "dispName": "AVDM"
+                },
+                {
+                    "id": 6,
+                    "dispName": "AVShE"
+                },
+                {
+                    "id": 7,
+                    "dispName": "AVT-E"
+                },
+                {
+                    "id": 8,
+                    "dispName": "VDV"
+                },
+                {
+                    "id": "EMPTY_TAIL",
+                    "dispName": "Plugged"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_VDV_TAIL",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 6.8,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 8}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_AVDM",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 5}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_AVShE_TAIL",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 3.8,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 6}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_AVTE_TAIL",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 4.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 7}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_AV139E_TAIL",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 20.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 3}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_AV2E_TAIL",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 1.8,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 4}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_AV1_TAIL",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 1.9,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 2}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_AVUE_TAIL",
+            "label": "Arm Delay",
+            "control": "comboList",
+            "defValue": 4.5,
+            "values": [
+                {
+                    "id": 4.5,
+                    "dispName": "4.5"
+                },
+                {
+                    "id": 11.5,
+                    "dispName": "11.5"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 1}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_AV2E_TAIL",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 25,
+            "values": [
+                {
+                    "id": 12,
+                    "dispName": "12"
+                },
+                {
+                    "id": 25,
+                    "dispName": "25"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 4}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_AVTE_TAIL",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0.04,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0 s"
+                },
+                {
+                    "id": 0.04,
+                    "dispName": "40 ms"
+                },
+                {
+                    "id": 0.35,
+                    "dispName": "0.35 s"
+                },
+                {
+                    "id": 0.8,
+                    "dispName": "0.8 s"
+                },
+                {
+                    "id": 26,
+                    "dispName": "26 s"
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 7}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_AV1_TAIL",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 27,
+            "values": [
+                {
+                    "id": 13.5,
+                    "dispName": "13.5"
+                },
+                {
+                    "id": 27,
+                    "dispName": "27"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 2}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_AVShE_TAIL",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 12,
+            "values": [
+                {
+                    "id": 12,
+                    "dispName": "12 s"
+                },
+                {
+                    "id": 25,
+                    "dispName": "25 s"
+                },
+                {
+                    "id": 70,
+                    "dispName": "70 s"
+                },
+                {
+                    "id": 200,
+                    "dispName": "3' 20\""
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 6}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_AVDM",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 1800,
+            "values": [
+                {
+                    "id": 1800,
+                    "dispName": "0.5 h"
+                },
+                {
+                    "id": 2880,
+                    "dispName": "0.8 h"
+                },
+                {
+                    "id": 3600,
+                    "dispName": "1 h"
+                },
+                {
+                    "id": 7200,
+                    "dispName": "2 h"
+                },
+                {
+                    "id": 10800,
+                    "dispName": "3 h"
+                },
+                {
+                    "id": 14400,
+                    "dispName": "4 h"
+                },
+                {
+                    "id": 18000,
+                    "dispName": "5 h"
+                },
+                {
+                    "id": 21600,
+                    "dispName": "6 h"
+                },
+                {
+                    "id": 28800,
+                    "dispName": "8 h"
+                },
+                {
+                    "id": 43200,
+                    "dispName": "12 h"
+                },
+                {
+                    "id": 64800,
+                    "dispName": "18 h"
+                },
+                {
+                    "id": 86400,
+                    "dispName": "24 h"
+                },
+                {
+                    "id": 129600,
+                    "dispName": "1.5 d"
+                },
+                {
+                    "id": 172800,
+                    "dispName": "2 d"
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 5}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_AV139E_TAIL",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0.75,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0 s"
+                },
+                {
+                    "id": 0.03,
+                    "dispName": "30 ms"
+                },
+                {
+                    "id": 0.75,
+                    "dispName": "0.75 s"
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 3}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_VDV_TAIL",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 0.1,
+                    "dispName": "0.1"
+                },
+                {
+                    "id": 0.2,
+                    "dispName": "0.2"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 8}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_AVUE_TAIL",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0 s"
+                },
+                {
+                    "id": 0.025,
+                    "dispName": "25 ms"
+                },
+                {
+                    "id": 0.075,
+                    "dispName": "75 ms"
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 1}],
+        }
+    ],
+    # Used by 109 weapon(s): AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD, BRU_33_with_2_x_Mk_82___500lb_GP_Bomb_LD, BRU_33_with_2_x_Mk_83___1000lb_GP_Bomb_LD, BRU_41A_with_6_x_Mk_82___500lb_GP_Bomb_LD, BRU_42_with_1_x_Mk_82___500lb_GP_Bomb_LD
+    # ... and 104 more
     "814865ab": [
         {
             "id": "NFP_fuze_type_nose",
@@ -6965,7 +7493,162 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU152AB_LD"}],
         }
     ],
-    # Used by 5 weapon(s): BDU_45___500lb_Practice_Bomb, BDU_50HD___500lb_Inert_Practice_Bomb_HD, BRU_33_with_2_x_BDU_45___500lb_Practice_Bomb, Mk_84_AIR__BSU_50____2000_lb_TP_Chute_Retarded_Bomb_HD, TER_9A_with_3_x_BDU_50HD___500lb_Inert_Practice_Bomb_HD
+    # Used by 2 weapon(s): SD_250_Stg___250kg_GP_Bomb_LD, SD_500_A___500kg_GP_Bomb_LD
+    "97f24521": [
+        {
+            "id": "NFP_fuze_type",
+            "label": "Fuze Type",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Zünder 38"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "NFP_fuze_operation_mode",
+            "label": "Function Delay Mode",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Variable"
+                },
+                {
+                    "id": 2,
+                    "dispName": "Fixed"
+                }
+            ],
+            "baseDim": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_VFD_Z38",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 0.05,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "ms",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_FFD_Z38",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_FFD_Z38",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_VFD_Z38",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 0.2,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "ms",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "03_prfx_function_delay_ctrl_Vz_FFD_Z38",
+            "label": "Vz Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "03_prfx_function_delay_ctrl_Vz_VFD_Z38",
+            "label": "Vz Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_VFD_Z38",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 3,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_FFD_Z38",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 1,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_FFD_Z38",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 2,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_VFD_Z38",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 7.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
+        }
+    ],
+    # Used by 17 weapon(s): BDU_45___500lb_Practice_Bomb, BDU_50HD___500lb_Inert_Practice_Bomb_HD, BRU_33_with_2_x_BDU_45___500lb_Practice_Bomb, Mk_84_AIR__BSU_50____2000_lb_TP_Chute_Retarded_Bomb_HD, TER_9A_with_3_x_BDU_50HD___500lb_Inert_Practice_Bomb_HD
+    # ... and 12 more
     "9cb79a0a": [
         {
             "id": "NFP_fuze_type_nose",
@@ -7518,6 +8201,354 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": "FZU39"}],
         }
     ],
+    # Used by 1 weapon(s): CBU_52B___220_x_HE_Frag_bomblets
+    "a32eac77": [
+        {
+            "id": "NFP_fuze_type_nose",
+            "label": "Nose Fuze Well",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "M907"
+                },
+                {
+                    "id": 2,
+                    "dispName": "FMU-26A"
+                },
+                {
+                    "id": 3,
+                    "dispName": "FMU-56"
+                },
+                {
+                    "id": 4,
+                    "dispName": "FMU-56A"
+                },
+                {
+                    "id": 5,
+                    "dispName": "FMU-110"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_FMU56A",
+            "label": "Arm Delay",
+            "control": "comboList",
+            "defValue": 3,
+            "values": [
+                {
+                    "id": 3,
+                    "dispName": "3"
+                },
+                {
+                    "id": 4,
+                    "dispName": "4"
+                },
+                {
+                    "id": 5,
+                    "dispName": "5"
+                },
+                {
+                    "id": 6,
+                    "dispName": "6"
+                },
+                {
+                    "id": 7,
+                    "dispName": "7"
+                },
+                {
+                    "id": 8,
+                    "dispName": "8"
+                },
+                {
+                    "id": 9,
+                    "dispName": "9"
+                },
+                {
+                    "id": 10,
+                    "dispName": "10"
+                },
+                {
+                    "id": 18,
+                    "dispName": "18"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 4}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_FMU26A",
+            "label": "Airburst Delay",
+            "control": "spinbox",
+            "defValue": 2,
+            "min": 2,
+            "max": 100,
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 2}],
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_FMU56",
+            "label": "Arm Delay",
+            "control": "comboList",
+            "defValue": 2,
+            "values": [
+                {
+                    "id": 2,
+                    "dispName": "2"
+                },
+                {
+                    "id": 3,
+                    "dispName": "3"
+                },
+                {
+                    "id": 4,
+                    "dispName": "4"
+                },
+                {
+                    "id": 6,
+                    "dispName": "6"
+                },
+                {
+                    "id": 8,
+                    "dispName": "8"
+                },
+                {
+                    "id": 10,
+                    "dispName": "10"
+                },
+                {
+                    "id": 12,
+                    "dispName": "12"
+                },
+                {
+                    "id": 14,
+                    "dispName": "14"
+                },
+                {
+                    "id": 18,
+                    "dispName": "18"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
+        },
+        {
+            "id": "00_prfx_arm_delay_ctrl_FMU110",
+            "label": "Arm Delay",
+            "control": "comboList",
+            "defValue": 3,
+            "values": [
+                {
+                    "id": 3,
+                    "dispName": "3"
+                },
+                {
+                    "id": 4,
+                    "dispName": "4"
+                },
+                {
+                    "id": 5,
+                    "dispName": "5"
+                },
+                {
+                    "id": 6,
+                    "dispName": "6"
+                },
+                {
+                    "id": 7,
+                    "dispName": "7"
+                },
+                {
+                    "id": 8,
+                    "dispName": "8"
+                },
+                {
+                    "id": 9,
+                    "dispName": "9"
+                },
+                {
+                    "id": 10,
+                    "dispName": "10"
+                },
+                {
+                    "id": 18,
+                    "dispName": "18"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 5}],
+        },
+        {
+            "id": "00_prfx_function_delay_ctrl_M907",
+            "label": "Airburst Delay",
+            "control": "spinbox",
+            "defValue": 4,
+            "min": 4,
+            "max": 92,
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
+        },
+        {
+            "id": "00_prfx_function_altitude_ctrl_FMU56",
+            "label": "Airburst Altitude",
+            "control": "comboList",
+            "defValue": 1500,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 250,
+                    "dispName": "250"
+                },
+                {
+                    "id": 500,
+                    "dispName": "500"
+                },
+                {
+                    "id": 800,
+                    "dispName": "800"
+                },
+                {
+                    "id": 1100,
+                    "dispName": "1100"
+                },
+                {
+                    "id": 1500,
+                    "dispName": "1500"
+                },
+                {
+                    "id": 1800,
+                    "dispName": "1800"
+                },
+                {
+                    "id": 2100,
+                    "dispName": "2100"
+                },
+                {
+                    "id": 2500,
+                    "dispName": "2500"
+                },
+                {
+                    "id": 3000,
+                    "dispName": "3000"
+                }
+            ],
+            "baseDim": "ft",
+            "dimension": "ft",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
+        },
+        {
+            "id": "00_prfx_function_altitude_ctrl_FMU56A",
+            "label": "Airburst Altitude",
+            "control": "comboList",
+            "defValue": 1500,
+            "values": [
+                {
+                    "id": 250,
+                    "dispName": "250"
+                },
+                {
+                    "id": 500,
+                    "dispName": "500"
+                },
+                {
+                    "id": 800,
+                    "dispName": "800"
+                },
+                {
+                    "id": 1100,
+                    "dispName": "1100"
+                },
+                {
+                    "id": 1500,
+                    "dispName": "1500"
+                },
+                {
+                    "id": 1800,
+                    "dispName": "1800"
+                },
+                {
+                    "id": 2000,
+                    "dispName": "2000"
+                },
+                {
+                    "id": 2200,
+                    "dispName": "2200"
+                },
+                {
+                    "id": 2500,
+                    "dispName": "2500"
+                },
+                {
+                    "id": 3000,
+                    "dispName": "3000"
+                }
+            ],
+            "baseDim": "ft",
+            "dimension": "ft",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 4}],
+        },
+        {
+            "id": "00_prfx_function_altitude_ctrl_FMU110",
+            "label": "Airburst Altitude",
+            "control": "comboList",
+            "defValue": 1500,
+            "values": [
+                {
+                    "id": 300,
+                    "dispName": "300"
+                },
+                {
+                    "id": 500,
+                    "dispName": "500"
+                },
+                {
+                    "id": 700,
+                    "dispName": "700"
+                },
+                {
+                    "id": 900,
+                    "dispName": "900"
+                },
+                {
+                    "id": 1200,
+                    "dispName": "1200"
+                },
+                {
+                    "id": 1500,
+                    "dispName": "1500"
+                },
+                {
+                    "id": 1800,
+                    "dispName": "1800"
+                },
+                {
+                    "id": 2200,
+                    "dispName": "2200"
+                },
+                {
+                    "id": 2600,
+                    "dispName": "2600"
+                },
+                {
+                    "id": 3000,
+                    "dispName": "3000"
+                }
+            ],
+            "baseDim": "ft",
+            "dimension": "ft",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 5}],
+        }
+    ],
     # Used by 3 weapon(s): _250_lb_S_A_P_, _250_lb_S_A_P__, _500_lb_S_A_P_
     "b4bf57e5": [
         {
@@ -7710,160 +8741,6 @@ weapon_settings_registry = {
             "dimension": "RPM",
         }
     ],
-    # Used by 4 weapon(s): ER_4_SC50, SC_250_Type_1_L2___250kg_GP_Bomb_LD, SC_250_Type_3_J___250kg_GP_Bomb_LD, SC_501_SC250
-    "b885d402": [
-        {
-            "id": "NFP_fuze_type",
-            "label": "Fuze Type",
-            "control": "comboList",
-            "defValue": 1,
-            "values": [
-                {
-                    "id": 1,
-                    "dispName": "Zünder 25C"
-                }
-            ],
-            "baseDim": "",
-        },
-        {
-            "id": "NFP_fuze_operation_mode",
-            "label": "Function Delay Mode",
-            "control": "comboList",
-            "defValue": 1,
-            "values": [
-                {
-                    "id": 1,
-                    "dispName": "Variable"
-                },
-                {
-                    "id": 2,
-                    "dispName": "Fixed"
-                }
-            ],
-            "baseDim": "",
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_oV_VFD_Z25C",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_oV_FFD_Z25C",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 8.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_FFD_Z25C",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 8.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_VFD_Z25C",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 0.08,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "ms",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_Vz_FFD_Z25C",
-            "label": "Vz Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 8.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_Vz_VFD_Z25C",
-            "label": "Vz Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 8.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "arm_delay_ctrl_Strz_VFD_Z25C",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 0.08,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "ms",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        },
-        {
-            "id": "arm_delay_ctrl_Strz_FFD_Z25C",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 0.08,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "ms",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "arm_delay_ctrl_Wgrcht_FFD_Z25C",
-            "label": "Wagerecht Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 0.08,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "ms",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 2}],
-        },
-        {
-            "id": "arm_delay_ctrl_Wgrcht_VFD_Z25C",
-            "label": "Wagerecht Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 0.08,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "ms",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}, "and", {"id": "NFP_fuze_operation_mode", "bNot": False, "value": 1}],
-        }
-    ],
     # Used by 1 weapon(s): AGM_78B_Standard_ARM
     "c817f096": [
         {
@@ -7950,6 +8827,297 @@ weapon_settings_registry = {
             "dimension": "GHz",
             "readOnly": True,
             "VisibilityCondition": [{"id": "NFP_rfgu_type", "value": 1}],
+        }
+    ],
+    # Used by 1 weapon(s): AB_250_2___17_x_SD_10A__250kg_CBU_with_10kg_Frag_HE_submunitions
+    "cde9cff7": [
+        {
+            "id": "NFP_fuze_type",
+            "label": "Fuze Type",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Zünder 69D"
+                },
+                {
+                    "id": 2,
+                    "dispName": "Zünder 69E"
+                },
+                {
+                    "id": 3,
+                    "dispName": "Zünder 79"
+                },
+                {
+                    "id": 4,
+                    "dispName": "Zünder 79A"
+                },
+                {
+                    "id": 5,
+                    "dispName": "Zünder 89B"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z69D",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 0.7,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z69E",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 4,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "arm_delay_ctrl_Z89B",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 5}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z79A",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 3,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_oV_Z79",
+            "label": "oV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 3,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z69E",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 5.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "function_delay_ctrl_Z89B",
+            "label": "Function Delay",
+            "control": "spinbox",
+            "defValue": 4,
+            "min": 3,
+            "max": 60,
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 5}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z79A",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 10,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z69D",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 1.2,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "02_prfx_function_delay_ctrl_mV_Z79",
+            "label": "mV Mode Function Delay",
+            "control": "spinbox",
+            "defValue": 30,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z79",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z79A",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z69E",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_Strz_Z69D",
+            "label": "Sturz Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z69E",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z69D",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z79",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+        },
+        {
+            "id": "02_prfx_arm_delay_ctrl_Wgrcht_Z79A",
+            "label": "Wagerecht Mode Arm Delay",
+            "control": "spinbox",
+            "defValue": 0,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+        },
+        {
+            "id": "NFP_subm_fuze_type",
+            "label": "Submunition Fuze Type",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "Zünder 3"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "04_prfx_subm_arm_delay_ctrl_Z3",
+            "label": "Arm Delay",
+            "control": "spinbox",
+            "defValue": 2.5,
+            "min": 0,
+            "max": 1000000000000,
+            "baseDim": "s",
+            "dimension": "s",
+            "readOnly": True,
+            "VisibilityCondition": [{"id": "NFP_subm_fuze_type", "value": 1}],
+        },
+        {
+            "id": "04_prfx_subm_func_delay_ctrl_Z3",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 6,
+                    "dispName": "6"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_subm_fuze_type", "value": 1}],
         }
     ],
     # Used by 1 weapon(s): GBU_31_V_4_B___JDAM__2000lb_GPS_Guided_Penetrator_Bomb
@@ -8487,315 +9655,331 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU139CB_HD"}],
         }
     ],
-    # Used by 1 weapon(s): AB_500_1___34_x_SD_10A__500kg_CBU_with_10kg_Frag_HE_submunitions
-    "d72698e6": [
+    # Used by 4 weapon(s): M117___750lb_GP_Bomb_LD, MER3_with_3_x_M117___750lb_GP_Bombs_LD, MER6_with_6_x_M117___750lb_GP_Bombs_LD, _27_x_M117___750lb_GP_Bombs_LD
+    "d360e0f2": [
         {
-            "id": "NFP_fuze_type",
-            "label": "Fuze Type",
+            "id": "NFP_fuze_type_nose",
+            "label": "Nose Fuze Well",
             "control": "comboList",
             "defValue": 1,
             "values": [
                 {
                     "id": 1,
-                    "dispName": "Zünder 69E"
-                }
-            ],
-            "baseDim": "",
-        },
-        {
-            "id": "function_delay_ctrl_oV_Z69E",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 4,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_Z69E",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
-        },
-        {
-            "id": "arm_delay_ctrl_Strz_Z69E",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
-        },
-        {
-            "id": "arm_delay_ctrl_Wgrcht_Z69E",
-            "label": "Wagerecht Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
-        }
-    ],
-    # Used by 2 weapon(s): AB_250_2___144_x_SD_2__250kg_CBU_with_HE_submunitions, AB_250_2___17_x_SD_10A__250kg_CBU_with_10kg_Frag_HE_submunitions
-    "dc204bf6": [
-        {
-            "id": "NFP_fuze_type",
-            "label": "Fuze Type",
-            "control": "comboList",
-            "defValue": 1,
-            "values": [
-                {
-                    "id": 1,
-                    "dispName": "Zünder 69D"
+                    "dispName": "M904E1"
                 },
                 {
-                    "id": 2,
-                    "dispName": "Zünder 69E"
+                    "id": "M904E4",
+                    "dispName": "M904E4"
                 },
                 {
                     "id": 3,
-                    "dispName": "Zünder 79"
+                    "dispName": "FMU-26B"
                 },
                 {
-                    "id": 4,
-                    "dispName": "Zünder 79A"
-                },
-                {
-                    "id": 5,
-                    "dispName": "Zünder 89B"
+                    "id": "EMPTY_NOSE",
+                    "dispName": "Plugged"
                 }
             ],
             "baseDim": "",
         },
         {
-            "id": "function_delay_ctrl_oV_Z79A",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 3,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
-        },
-        {
-            "id": "function_delay_ctrl_oV_Z69E",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
+            "id": "00_prfx_arm_delay_ctrl_M904E1",
+            "label": "Arm Delay",
+            "control": "comboList",
             "defValue": 4,
-            "min": 0,
-            "max": 1000000000000,
+            "values": [
+                {
+                    "id": 4,
+                    "dispName": "4"
+                },
+                {
+                    "id": 6,
+                    "dispName": "6"
+                },
+                {
+                    "id": 8,
+                    "dispName": "8"
+                },
+                {
+                    "id": 12,
+                    "dispName": "12"
+                },
+                {
+                    "id": 16,
+                    "dispName": "16"
+                },
+                {
+                    "id": 20,
+                    "dispName": "20"
+                }
+            ],
             "baseDim": "s",
             "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
         },
         {
-            "id": "function_delay_ctrl_oV_Z79",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 3,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
-        },
-        {
-            "id": "arm_delay_ctrl_Z89B",
+            "id": "00_prfx_arm_delay_ctrl_FMU26B_NOSE",
             "label": "Arm Delay",
             "control": "spinbox",
-            "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
+            "defValue": 4,
+            "min": 2,
+            "max": 20,
             "baseDim": "s",
             "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 5}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
         },
         {
-            "id": "function_delay_ctrl_oV_Z69D",
-            "label": "oV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 0.7,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_Z69E",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 5.5,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
-        },
-        {
-            "id": "function_delay_ctrl_Z89B",
-            "label": "Function Delay",
+            "id": "00_prfx_arm_delay_ctrl_M904E4",
+            "label": "Arm Delay",
             "control": "spinbox",
             "defValue": 4,
-            "min": 3,
-            "max": 60,
+            "min": 2,
+            "max": 18,
             "baseDim": "s",
             "dimension": "s",
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 5}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": "M904E4"}],
         },
         {
-            "id": "function_delay_ctrl_mV_Z69D",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 1.2,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_Z79A",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 10,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
-        },
-        {
-            "id": "function_delay_ctrl_mV_Z79",
-            "label": "mV Mode Function Delay",
-            "control": "spinbox",
-            "defValue": 30,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
-        },
-        {
-            "id": "arm_delay_ctrl_Strz_Z79A",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
+            "id": "00_prfx_function_delay_ctrl_FMU26B_NOSE",
+            "label": "Function Delay",
+            "control": "comboList",
             "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 0.01,
+                    "dispName": "0.01"
+                },
+                {
+                    "id": 0.02,
+                    "dispName": "0.02"
+                },
+                {
+                    "id": 0.05,
+                    "dispName": "0.05"
+                },
+                {
+                    "id": 0.1,
+                    "dispName": "0.1"
+                },
+                {
+                    "id": 0.25,
+                    "dispName": "0.25"
+                }
+            ],
             "baseDim": "s",
             "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 3}],
         },
         {
-            "id": "arm_delay_ctrl_Strz_Z79",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
+            "id": "00_prfx_function_delay_ctrl_M904E4",
+            "label": "Function Delay",
+            "control": "comboList",
             "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 0.01,
+                    "dispName": "0.01"
+                },
+                {
+                    "id": 0.025,
+                    "dispName": "0.025"
+                },
+                {
+                    "id": 0.05,
+                    "dispName": "0.05"
+                },
+                {
+                    "id": 0.1,
+                    "dispName": "0.1"
+                },
+                {
+                    "id": 0.25,
+                    "dispName": "0.25"
+                }
+            ],
             "baseDim": "s",
             "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": "M904E4"}],
         },
         {
-            "id": "arm_delay_ctrl_Strz_Z69D",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
+            "id": "00_prfx_function_delay_ctrl_M904E1",
+            "label": "Function Delay",
+            "control": "comboList",
             "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 0.01,
+                    "dispName": "0.01"
+                },
+                {
+                    "id": 0.025,
+                    "dispName": "0.025"
+                },
+                {
+                    "id": 0.05,
+                    "dispName": "0.05"
+                },
+                {
+                    "id": 0.1,
+                    "dispName": "0.1"
+                },
+                {
+                    "id": 0.25,
+                    "dispName": "0.25"
+                }
+            ],
             "baseDim": "s",
             "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
         },
         {
-            "id": "arm_delay_ctrl_Strz_Z69E",
-            "label": "Sturz Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
-            "baseDim": "s",
-            "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+            "id": "NFP_fuze_type_tail",
+            "label": "Tail Fuze Well",
+            "control": "comboList",
+            "defValue": "M905",
+            "values": [
+                {
+                    "id": "M905",
+                    "dispName": "M905"
+                },
+                {
+                    "id": 2,
+                    "dispName": "FMU-26B"
+                },
+                {
+                    "id": "EMPTY_TAIL",
+                    "dispName": "Plugged"
+                }
+            ],
+            "baseDim": "",
         },
         {
-            "id": "arm_delay_ctrl_Wgrcht_Z79",
-            "label": "Wagerecht Mode Arm Delay",
+            "id": "01_prfx_arm_delay_ctrl_FMU26B_TAIL",
+            "label": "Arm Delay",
             "control": "spinbox",
-            "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
+            "defValue": 4,
+            "min": 2,
+            "max": 20,
             "baseDim": "s",
             "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 3}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 2}],
         },
         {
-            "id": "arm_delay_ctrl_Wgrcht_Z69E",
-            "label": "Wagerecht Mode Arm Delay",
-            "control": "spinbox",
-            "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
+            "id": "01_prfx_arm_delay_ctrl_M905",
+            "label": "Arm Delay",
+            "control": "comboList",
+            "defValue": 4,
+            "values": [
+                {
+                    "id": 4,
+                    "dispName": "4"
+                },
+                {
+                    "id": 6,
+                    "dispName": "6"
+                },
+                {
+                    "id": 8,
+                    "dispName": "8"
+                },
+                {
+                    "id": 12,
+                    "dispName": "12"
+                },
+                {
+                    "id": 16,
+                    "dispName": "16"
+                },
+                {
+                    "id": 20,
+                    "dispName": "20"
+                }
+            ],
             "baseDim": "s",
             "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 2}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "M905"}],
         },
         {
-            "id": "arm_delay_ctrl_Wgrcht_Z79A",
-            "label": "Wagerecht Mode Arm Delay",
-            "control": "spinbox",
+            "id": "01_prfx_function_delay_ctrl_M905",
+            "label": "Function Delay",
+            "control": "comboList",
             "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 0.01,
+                    "dispName": "0.01"
+                },
+                {
+                    "id": 0.025,
+                    "dispName": "0.025"
+                },
+                {
+                    "id": 0.05,
+                    "dispName": "0.05"
+                },
+                {
+                    "id": 0.1,
+                    "dispName": "0.1"
+                },
+                {
+                    "id": 0.25,
+                    "dispName": "0.25"
+                }
+            ],
             "baseDim": "s",
             "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 4}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "M905"}],
         },
         {
-            "id": "arm_delay_ctrl_Wgrcht_Z69D",
-            "label": "Wagerecht Mode Arm Delay",
-            "control": "spinbox",
+            "id": "01_prfx_function_delay_ctrl_FMU26B_TAIL",
+            "label": "Function Delay",
+            "control": "comboList",
             "defValue": 0,
-            "min": 0,
-            "max": 1000000000000,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 0.01,
+                    "dispName": "0.01"
+                },
+                {
+                    "id": 0.02,
+                    "dispName": "0.02"
+                },
+                {
+                    "id": 0.05,
+                    "dispName": "0.05"
+                },
+                {
+                    "id": 0.1,
+                    "dispName": "0.1"
+                },
+                {
+                    "id": 0.25,
+                    "dispName": "0.25"
+                }
+            ],
             "baseDim": "s",
             "dimension": "s",
-            "readOnly": True,
-            "VisibilityCondition": [{"id": "NFP_fuze_type", "value": 1}],
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 2}],
         }
     ],
     # Used by 1 weapon(s): Werfer_Granate_21___21_cm_UnGd_air_to_air_rocket
@@ -9174,8 +10358,8 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU152AB_LD"}],
         }
     ],
-    # Used by 26 weapon(s): AIM_9L_Sidewinder_IR_AAM, AIM_9M, AIM_9M_Sidewinder_IR_AAM, AIM_9X_Sidewinder_IR_AAM, LAU_105_1_AIM_9L_L
-    # ... and 21 more
+    # Used by 28 weapon(s): AIM_9L_Sidewinder_IR_AAM, AIM_9M, AIM_9M_Sidewinder_IR_AAM, AIM_9X_Sidewinder_IR_AAM, LAU_105_1_AIM_9L_L
+    # ... and 23 more
     "fc240df9": [
         {
             "id": "NFP_VIS_DrawArgNo_57",
