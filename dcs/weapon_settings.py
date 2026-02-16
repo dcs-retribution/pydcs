@@ -301,18 +301,6 @@ class WeaponSettings:
         setting_ids = list(self._settings.keys())
         return sorted(default_attrs + setting_ids)
     
-    def get_setting(self, setting_id: str) -> Optional[WeaponSetting]:
-        """
-        Get a setting object by ID.
-        
-        Args:
-            setting_id: The ID of the setting to retrieve
-            
-        Returns:
-            The WeaponSetting object, or None if not found
-        """
-        return self._settings.get(setting_id)
-    
     def get_value(self, setting_id: str) -> Any:
         """
         Get the current value of a setting.
@@ -375,48 +363,6 @@ class WeaponSettings:
             if getattr(setting, '_is_visible', True)
         ]
     
-    def get_adjustable_settings(self) -> List[WeaponSetting]:
-        """
-        Get all currently visible and adjustable (non-read-only) settings.
-        
-        Returns:
-            List of WeaponSetting objects that are visible and adjustable
-        """
-        return [
-            setting for setting in self.get_visible_settings()
-            if not setting.read_only
-        ]
-    
-    def is_visible(self, setting_id: str) -> bool:
-        """
-        Check if a setting is currently visible.
-        
-        Args:
-            setting_id: The ID of the setting to check
-            
-        Returns:
-            True if the setting is visible, False otherwise
-        """
-        setting = self._settings.get(setting_id)
-        if not setting:
-            return False
-        return getattr(setting, '_is_visible', True)
-    
-    def is_adjustable(self, setting_id: str) -> bool:
-        """
-        Check if a setting is currently adjustable (visible and not read-only).
-        
-        Args:
-            setting_id: The ID of the setting to check
-            
-        Returns:
-            True if the setting is adjustable, False otherwise
-        """
-        if not self.is_visible(setting_id):
-            return False
-        setting = self._settings.get(setting_id)
-        return setting and not setting.read_only
-    
     def to_lua_table(self) -> Dict[str, Any]:
         """
         Serialize to Lua table format (for mission file).
@@ -454,15 +400,6 @@ class WeaponSettings:
         for setting in self._settings.values():
             setting.current_value = setting.def_value
         self._update_visibility()
-    
-    def to_dict_list(self) -> List[Dict[str, Any]]:
-        """
-        Convert back to original dictionary list format.
-        
-        Returns:
-            List of setting dictionaries
-        """
-        return [setting.to_dict() for setting in self._settings.values()]
 
 def has_settings(weapon_def: Dict[str, Any]) -> bool:
     """
