@@ -985,8 +985,8 @@ class AirDefence:
         id = "bofors40"
         name = "AAA Bofors 40mm"
         detection_range = 0
-        threat_range = 4000
-        air_weapon_dist = 4000
+        threat_range = 2000
+        air_weapon_dist = 2000
 
     class flak18(unittype.VehicleType):
         id = "flak18"

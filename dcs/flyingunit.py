@@ -100,7 +100,16 @@ class FlyingUnit(Unit):
             return False
         if weapon is None:
             return self.pylons.pop(pylon, None)
-        self.pylons[pylon] = {"CLSID": weapon[1]["clsid"]}
+        # Store the entire weapon dict to preserve settings and other properties
+        weapon_data = weapon[1]
+        if isinstance(weapon_data, dict):
+            self.pylons[pylon] = {"CLSID": weapon_data["clsid"]}
+            # Preserve additional properties like settings
+            if "settings" in weapon_data:
+                self.pylons[pylon]["settings"] = weapon_data["settings"]
+        else:
+            # Fallback for legacy code that might pass non-dict weapon data
+            self.pylons[pylon] = {"CLSID": weapon_data.get("clsid", weapon_data)}
         return True
 
     def store_loadout(self, filename):

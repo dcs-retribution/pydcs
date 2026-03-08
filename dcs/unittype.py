@@ -193,7 +193,7 @@ class FlyingType(UnitType):
             if payload is None:
                 return None
             pylons = payload["pylons"]
-            r = [(pylons[x]["num"], {"clsid": pylons[x]["CLSID"]}) for x in pylons]
+            r = [(pylons[x]["num"], {"clsid": pylons[x]["CLSID"], "settings": pylons[x].get("settings", {})}) for x in pylons]
             return r
         return None
 

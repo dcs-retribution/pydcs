@@ -83,6 +83,176 @@ function ternary ( cond , T , F )
     if cond then return T else return F end
 end
 
+-------------------------------------------------------------------------------
+-- helper functions for weapon settings export
+-------------------------------------------------------------------------------
+
+local function escape_string(str)
+    if not str then return "" end
+    str = string.gsub(str, "\\", "\\\\")
+    str = string.gsub(str, "\"", "\\\"") 
+    str = string.gsub(str, "\n", "\\n")
+    str = string.gsub(str, "\r", "\\r")
+    return str
+end
+
+local function serialize_value(value)
+    if type(value) == "string" then
+        return "\"" .. escape_string(value) .. "\""
+    elseif type(value) == "boolean" then
+        return value and "True" or "False"
+    elseif type(value) == "nil" then
+        return "None"
+    else
+        return tostring(value)
+    end
+end
+
+local function serialize_dict(dict)
+    if not dict or type(dict) ~= "table" then
+        return "{}"
+    end
+    local parts = {}
+    for k, v in pairs(dict) do
+        if type(v) == "table" then
+            table.insert(parts, "\"" .. escape_string(tostring(k)) .. "\": " .. serialize_dict(v))
+        else
+            table.insert(parts, "\"" .. escape_string(tostring(k)) .. "\": " .. serialize_value(v))
+        end
+    end
+    return "{" .. table.concat(parts, ", ") .. "}"
+end
+
+local function serialize_list(list)
+    if not list or type(list) ~= "table" then
+        return "[]"
+    end
+    local parts = {}
+    for _, item in ipairs(list) do
+        if type(item) == "table" then
+            table.insert(parts, serialize_dict(item))
+        else
+            table.insert(parts, serialize_value(item))
+        end
+    end
+    return "[" .. table.concat(parts, ", ") .. "]"
+end
+
+local function hash_settings(settings)
+    if not settings or #settings == 0 then
+        return nil
+    end
+    
+    local str_parts = {}
+    for i, setting in ipairs(settings) do
+        local parts = {
+            "id=" .. tostring(setting.id),
+            "label=" .. tostring(setting.label),
+            "control=" .. tostring(setting.control),
+            "defValue=" .. tostring(setting.defValue)
+        }
+        
+        if setting.values then
+            local val_parts = {}
+            for j, val in ipairs(setting.values) do
+                table.insert(val_parts, tostring(val.id) .. ":" .. tostring(val.dispName))
+            end
+            table.insert(parts, "values=" .. table.concat(val_parts, ","))
+        end
+        
+        if setting.min then table.insert(parts, "min=" .. tostring(setting.min)) end
+        if setting.max then table.insert(parts, "max=" .. tostring(setting.max)) end
+        if setting.baseDim then table.insert(parts, "baseDim=" .. tostring(setting.baseDim)) end
+        if setting.dimension then table.insert(parts, "dimension=" .. tostring(setting.dimension)) end
+        if setting.readOnly then table.insert(parts, "readOnly=true") end
+        if setting.VisibilityCondition then
+            table.insert(parts, "vis=" .. serialize_dict(setting.VisibilityCondition))
+        end
+        
+        table.insert(str_parts, "{" .. table.concat(parts, "|") .. "}")
+    end
+    
+    local canonical = table.concat(str_parts, ";")
+    
+    -- Compute a simple hash using DJB2 algorithm
+    local hash = 5381
+    for i = 1, #canonical do
+        hash = ((hash * 33) + string.byte(canonical, i)) % 4294967296
+    end
+    
+    return string.format("%08x", hash)
+end
+
+-- Function to extract weapon settings from weapon object
+local function extract_weapon_settings(weapon)
+    -- Try to get settings from weapon
+    if weapon.settings and type(weapon.settings) == "table" and #weapon.settings > 0 then
+        return weapon.settings
+    elseif weapon["settings"] and type(weapon["settings"]) == "table" and #weapon["settings"] > 0 then
+        return weapon["settings"]
+    end
+    return nil
+end
+
+-- Function to serialize settings as Python data structure
+local function serialize_settings_data(settings)
+    if not settings or #settings == 0 then
+        return "None"
+    end
+    
+    local result = "["
+    for i, setting in ipairs(settings) do
+        result = result .. "\n        {\n"
+        result = result .. "            \"id\": \"" .. escape_string(setting.id) .. "\",\n"
+        result = result .. "            \"label\": \"" .. escape_string(setting.label) .. "\",\n"
+        result = result .. "            \"control\": \"" .. escape_string(setting.control) .. "\",\n"
+        result = result .. "            \"defValue\": " .. serialize_value(setting.defValue) .. ",\n"
+        
+        -- Serialize values for comboList controls
+        if setting.values and type(setting.values) == "table" then
+            result = result .. "            \"values\": [\n"
+            for j, val in ipairs(setting.values) do
+                result = result .. "                {\n"
+                result = result .. "                    \"id\": " .. serialize_value(val.id) .. ",\n" 
+                result = result .. "                    \"dispName\": \"" .. escape_string(val.dispName) .. "\""
+                result = result .. "\n                }"
+                if j < #setting.values then
+                    result = result .. ","
+                end
+                result = result .. "\n"
+            end
+            result = result .. "            ],\n"
+        end
+        
+        -- Serialize optional fields
+        if setting.min then 
+            result = result .. "            \"min\": " .. tostring(setting.min) .. ",\n" 
+        end
+        if setting.max then 
+            result = result .. "            \"max\": " .. tostring(setting.max) .. ",\n" 
+        end
+        if setting.baseDim then 
+            result = result .. "            \"baseDim\": \"" .. escape_string(setting.baseDim) .. "\",\n" 
+        end
+        if setting.dimension then 
+            result = result .. "            \"dimension\": \"" .. escape_string(setting.dimension) .. "\",\n" 
+        end
+        if setting.readOnly then 
+            result = result .. "            \"readOnly\": True,\n" 
+        end
+        if setting.VisibilityCondition then
+            result = result .. "            \"VisibilityCondition\": " .. serialize_list(setting.VisibilityCondition) .. ",\n"
+        end
+        
+        result = result .. "        }"
+        if i < #settings then
+            result = result .. ","
+        end
+    end
+    result = result .. "\n    ]"
+    return result
+end
+
 local function handle_weapon(weapon, weaponKeys, weaponTable)
     if weapon.displayName == nil then
         -- There appears to be some garbage data in the weapon table where there are weapons without display names. Based on
@@ -146,10 +316,19 @@ local function handle_weapon(weapon, weaponKeys, weaponTable)
     if weapon["Weight"] ~= nil then
         w = weapon["Weight"]
     end
+    
+    -- Extract settings if available
+    local settings = extract_weapon_settings(weapon)
+    
     while weaponTable[key] ~= nil do
         key = key..'_'
     end
-    weaponTable[key] = {clsid = myclsid, displayName = safe_display_name(weapon.displayName), weight = w}
+    weaponTable[key] = {
+        clsid = myclsid, 
+        displayName = safe_display_name(weapon.displayName), 
+        weight = w,
+        settings = settings
+    }
     table.insert(weaponKeys, key)
     -- print("    " .. key .. " = {\"clsid\": \"" .. weapon.CLSID .. "\", \"name\": \"" .. weapon.displayName .. "\"}")
 end
@@ -160,6 +339,9 @@ end
 
 local weapons = {}
 local keys = {}
+local settings_registry = {}  -- Maps hash -> settings data
+local settings_hash_map = {}  -- Maps hash -> list of weapon keys using that hash
+
 -- The categories are not enumerated anywhere visible, but uses can be found in various lua files in the CoreMods directory.
 -- At time of writing this list only omits the CAT_SHELLS and CAT_CLUSTER_DESC categories. CAT_SHELLS we probably don't need,
 -- but CAT_CLUSTER_DESC doesn't have a Launchers entry. It's not clear if we need that category or not.
@@ -173,6 +355,30 @@ end
 
 table.sort( keys )
 
+-- Build settings registry with hashes
+local total_weapons_with_settings = 0
+for i = 1, #keys do
+    local key = keys[i]
+    if weapons[key].settings then
+        total_weapons_with_settings = total_weapons_with_settings + 1
+        local hash = hash_settings(weapons[key].settings)
+        if hash then
+            if not settings_registry[hash] then
+                settings_registry[hash] = weapons[key].settings
+                settings_hash_map[hash] = {}
+            end
+            table.insert(settings_hash_map[hash], key)
+            -- Store the hash reference instead of the full settings
+            weapons[key].settings_hash = hash
+        end
+    end
+end
+
+debugln("Weapon settings deduplication stats:")
+debugln("  Total weapons with settings: %d", total_weapons_with_settings)
+debugln("  Unique settings configurations: %d", table.maxn(settings_registry))
+debugln("  Deduplication ratio: %.1f%%", (1 - table.maxn(settings_registry) / total_weapons_with_settings) * 100)
+
 local weapons_map = {}
 local i = 1
 while i <= #keys do
@@ -181,9 +387,47 @@ while i <= #keys do
     i = i + 1
 end
 
+-- Export weapon settings to a separate file
+debugln("Exporting %d unique weapon settings configurations", table.maxn(settings_registry))
+local settings_file = io.open(export_path.."weapon_settings_data.py", "w")
+settings_file:write([[# This file is generated from pydcs_export.lua
+# Contains deduplicated weapon settings data referenced by hash
+
+
+weapon_settings_registry = {
+]])
+
+-- Sort hashes for consistent output
+local sorted_hashes = {}
+for hash, _ in pairs(settings_registry) do
+    table.insert(sorted_hashes, hash)
+end
+table.sort(sorted_hashes)
+
+for _, hash in ipairs(sorted_hashes) do
+    local settings = settings_registry[hash]
+    
+    -- Add a comment showing which weapons use this setting
+    local weapon_list = settings_hash_map[hash]
+    if weapon_list and #weapon_list > 0 then
+        writeln(settings_file, "    # Used by " .. #weapon_list .. " weapon(s): " .. table.concat(weapon_list, ", ", 1, math.min(5, #weapon_list)))
+        if #weapon_list > 5 then
+            writeln(settings_file, "    # ... and " .. (#weapon_list - 5) .. " more")
+        end
+    end
+    
+    local settings_data = serialize_settings_data(settings)
+    writeln(settings_file, "    \"" .. hash .. "\": " .. settings_data .. ",")
+end
+
+writeln(settings_file, "}")
+settings_file:close()
+
+-- Export main weapons data
 file = io.open(export_path.."weapons_data.py", "w")
 file:write([[# This file is generated from pydcs_export.lua
 
+from dcs.weapon_settings_data import weapon_settings_registry
 
 class Weapons:
 ]])
@@ -193,8 +437,19 @@ while i <= #keys do
 
     if weapons[x].displayName ~= nil then
         local displayName = replace_backslash_star(weapons[x].displayName)
-        writeln(file, "    " .. remove_semi_colons(x) .. " = {\"clsid\": \"" .. weapons[x].clsid
-                .. "\", \"name\": \"" .. displayName .. "\", \"weight\": " .. weapons[x].weight .. "}")
+        
+        -- Write weapon definition
+        writeln(file, "    " .. remove_semi_colons(x) .. " = {")
+        writeln(file, "        \"clsid\": \"" .. weapons[x].clsid .. "\",")
+        writeln(file, "        \"name\": \"" .. displayName .. "\",")
+        writeln(file, "        \"weight\": " .. weapons[x].weight .. ",")
+        
+        -- Reference settings by hash if available
+        if weapons[x].settings_hash then
+            writeln(file, "        \"settings\": weapon_settings_registry[\"" .. weapons[x].settings_hash .. "\"],")
+        end
+        
+        writeln(file, "    }")
     end
     i = i + 1
 end
