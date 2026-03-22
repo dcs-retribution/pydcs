@@ -522,6 +522,7 @@ flyable["Christen Eagle II"] = true
 flyable["FW-190A8"] = true
 flyable["FW-190D9"] = true
 flyable["I-16"] = true
+flyable["La-7"] = true
 flyable["MosquitoFBMkVI"] = true
 flyable["P-51D"] = true
 flyable["P-51D-30-NA"] = true
