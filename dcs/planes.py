@@ -13463,6 +13463,7 @@ class F_4E_45MC(PlaneType):
         _3x_BDU_33___25lb_Practice_Bomb_LD__TER__ = (3, Weapons._3x_BDU_33___25lb_Practice_Bomb_LD__TER__)
         _2x_BDU_33___25lb_Practice_Bomb_LD__TER_ = (3, Weapons._2x_BDU_33___25lb_Practice_Bomb_LD__TER_)
         _Special_Weapons_Adapter__2x_BDU_33___25lb_Practice_Bomb_LD__TER_ = (3, Weapons._Special_Weapons_Adapter__2x_BDU_33___25lb_Practice_Bomb_LD__TER_)
+        _Special_Weapons_Adapter__3x_BDU_33___25lb_Practice_Bomb_LD__TER_ = (3, Weapons._Special_Weapons_Adapter__3x_BDU_33___25lb_Practice_Bomb_LD__TER_)
         AGM_65A___Maverick_A__TV_Guided___LAU_117_ = (3, Weapons.AGM_65A___Maverick_A__TV_Guided___LAU_117_)
         _Special_Weapons_Adapter__AGM_65A___Maverick_A__TV_Guided___LAU_117__Special_Weapons_Adapter__ = (3, Weapons._Special_Weapons_Adapter__AGM_65A___Maverick_A__TV_Guided___LAU_117__Special_Weapons_Adapter__)
         AGM_65B___Maverick_B__TV_Guided___LAU_117_ = (3, Weapons.AGM_65B___Maverick_B__TV_Guided___LAU_117_)
@@ -13676,6 +13677,7 @@ class F_4E_45MC(PlaneType):
         _3x_BDU_33___25lb_Practice_Bomb_LD__TER__ = (11, Weapons._3x_BDU_33___25lb_Practice_Bomb_LD__TER__)
         _2x_BDU_33___25lb_Practice_Bomb_LD__TER_ = (11, Weapons._2x_BDU_33___25lb_Practice_Bomb_LD__TER_)
         _Special_Weapons_Adapter__2x_BDU_33___25lb_Practice_Bomb_LD__TER_ = (11, Weapons._Special_Weapons_Adapter__2x_BDU_33___25lb_Practice_Bomb_LD__TER_)
+        _Special_Weapons_Adapter__3x_BDU_33___25lb_Practice_Bomb_LD__TER_ = (11, Weapons._Special_Weapons_Adapter__3x_BDU_33___25lb_Practice_Bomb_LD__TER_)
         AGM_65A___Maverick_A__TV_Guided___LAU_117_ = (11, Weapons.AGM_65A___Maverick_A__TV_Guided___LAU_117_)
         _Special_Weapons_Adapter__AGM_65A___Maverick_A__TV_Guided___LAU_117__Special_Weapons_Adapter__ = (11, Weapons._Special_Weapons_Adapter__AGM_65A___Maverick_A__TV_Guided___LAU_117__Special_Weapons_Adapter__)
         AGM_65B___Maverick_B__TV_Guided___LAU_117_ = (11, Weapons.AGM_65B___Maverick_B__TV_Guided___LAU_117_)
@@ -16823,9 +16825,9 @@ class F4U_1D_CW(PlaneType):
         "F4U_GunsConvergence_Mid": 2,
         "F4U_GunsConvergence_Outer": 2,
         "F4U_CW_number": True,
-        "F4U_CW_number_1": 8,
-        "F4U_CW_number_2": 7,
-        "F4U_CW_number_3": 4,
+        "F4U_CW_number_1": 0,
+        "F4U_CW_number_2": 3,
+        "F4U_CW_number_3": 6,
     }
 
     class Properties:
@@ -16973,7 +16975,7 @@ class F4U_1D_CW(PlaneType):
             identifier="F4U_CW_number_1",
             control="comboList",
             label="1st number",
-            default=8,
+            default=0,
             values={
                 0: "0",
                 1: "1",
@@ -16991,7 +16993,7 @@ class F4U_1D_CW(PlaneType):
             identifier="F4U_CW_number_2",
             control="comboList",
             label="2nd number",
-            default=7,
+            default=3,
             values={
                 0: "0",
                 1: "1",
@@ -17009,7 +17011,7 @@ class F4U_1D_CW(PlaneType):
             identifier="F4U_CW_number_3",
             control="comboList",
             label="3rd number",
-            default=4,
+            default=6,
             values={
                 0: "0",
                 1: "1",
@@ -18565,6 +18567,50 @@ class L_39ZA(PlaneType):
 
     tasks = [task.GroundAttack, task.RunwayAttack, task.CAS, task.AFAC, task.CAP, task.AntishipStrike]
     task_default = task.CAS
+
+
+class La_7(PlaneType):
+    id = "La-7"
+    flyable = True
+    height = 2.54
+    width = 9.8
+    length = 8.6
+    fuel_max = 333
+    max_speed = 774
+    category = "Interceptor"  #{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}
+    radio_frequency = 124
+
+    panel_radio = {
+        1: {
+            "channels": {
+                1: 105,
+                2: 124,
+                4: 139,
+                3: 131
+            },
+        },
+    }
+
+    property_defaults: Dict[str, Any] = {
+    }
+
+    properties = {
+    }
+
+    livery_name = "LA-7"  # from type
+
+    class Pylon1:
+        LA7_AO_25SL = (1, Weapons.LA7_AO_25SL)
+        I16_FAB_100SV = (1, Weapons.I16_FAB_100SV)
+
+    class Pylon2:
+        LA7_AO_25SL = (2, Weapons.LA7_AO_25SL)
+        I16_FAB_100SV = (2, Weapons.I16_FAB_100SV)
+
+    pylons: Set[int] = {1, 2}
+
+    tasks = [task.CAP, task.CAS, task.Escort, task.FighterSweep, task.GroundAttack, task.Intercept]
+    task_default = task.CAP
 
 
 class M_2000C(PlaneType):
@@ -21382,14 +21428,6 @@ class Mirage_F1CE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (3, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (3, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (3, Weapons.R530F_EM)
         R530F_IR = (3, Weapons.R530F_IR)
         S530F = (3, Weapons.S530F)
@@ -21428,14 +21466,6 @@ class Mirage_F1CE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (4, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (4, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (4, Weapons.R530F_EM)
         R530F_IR = (4, Weapons.R530F_IR)
         PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
@@ -21487,14 +21517,6 @@ class Mirage_F1CE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (5, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (5, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (5, Weapons.R530F_EM)
         R530F_IR = (5, Weapons.R530F_IR)
         S530F = (5, Weapons.S530F)
@@ -22062,14 +22084,6 @@ class Mirage_F1EE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (3, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (3, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (3, Weapons.R530F_EM)
         R530F_IR = (3, Weapons.R530F_IR)
         S530F = (3, Weapons.S530F)
@@ -22108,14 +22122,6 @@ class Mirage_F1EE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (4, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (4, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (4, Weapons.R530F_EM)
         R530F_IR = (4, Weapons.R530F_IR)
         PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
@@ -22167,14 +22173,6 @@ class Mirage_F1EE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (5, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (5, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (5, Weapons.R530F_EM)
         R530F_IR = (5, Weapons.R530F_IR)
         S530F = (5, Weapons.S530F)
@@ -22591,6 +22589,7 @@ class Mirage_F1M_EE(PlaneType):
 #ERRR <CLEAN>
 
     class Pylon1:
+        AIM_9B_Sidewinder_IR_AAM = (1, Weapons.AIM_9B_Sidewinder_IR_AAM)
         AIM_9J_Sidewinder_IR_AAM = (1, Weapons.AIM_9J_Sidewinder_IR_AAM)
         AIM_9P_Sidewinder_IR_AAM = (1, Weapons.AIM_9P_Sidewinder_IR_AAM)
         AIM_9P3_Sidewinder_IR_AAM = (1, Weapons.AIM_9P3_Sidewinder_IR_AAM)
@@ -22626,12 +22625,6 @@ class Mirage_F1M_EE(PlaneType):
         MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_254_F1B_SM_Green = (2, Weapons.MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_254_F1B_SM_Green)
         MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_256_F1B_HE_Frag = (2, Weapons.MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_256_F1B_HE_Frag)
         MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_257_F1B_HE_Frag_Lg_Whd = (2, Weapons.MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_257_F1B_HE_Frag_Lg_Whd)
-        AIM_9J_Sidewinder_IR_AAM = (2, Weapons.AIM_9J_Sidewinder_IR_AAM)
-        AIM_9P_Sidewinder_IR_AAM = (2, Weapons.AIM_9P_Sidewinder_IR_AAM)
-        AIM_9P3_Sidewinder_IR_AAM = (2, Weapons.AIM_9P3_Sidewinder_IR_AAM)
-        AIM_9JULI_Sidewinder_IR_AAM = (2, Weapons.AIM_9JULI_Sidewinder_IR_AAM)
-        R550_Magic_1_IR_AAM = (2, Weapons.R550_Magic_1_IR_AAM)
-        R550_Magic_2_IR_AAM = (2, Weapons.R550_Magic_2_IR_AAM)
         Mk_82___500lb_GP_Bomb_LD = (2, Weapons.Mk_82___500lb_GP_Bomb_LD)
         Mk_83___1000lb_GP_Bomb_LD = (2, Weapons.Mk_83___1000lb_GP_Bomb_LD)
         BR_250 = (2, Weapons.BR_250)
@@ -22685,6 +22678,8 @@ class Mirage_F1M_EE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (3, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (3, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
+        R530F_EM = (3, Weapons.R530F_EM)
+        R530F_IR = (3, Weapons.R530F_IR)
         S530F = (3, Weapons.S530F)
 #ERRR <CLEAN>
 
@@ -22721,8 +22716,11 @@ class Mirage_F1M_EE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (4, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (4, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
+        R530F_EM = (4, Weapons.R530F_EM)
+        R530F_IR = (4, Weapons.R530F_IR)
         PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
         PTB_580G_F1_EMPTY = (4, Weapons.PTB_580G_F1_EMPTY)
+#ERRR {AM39_exocet}
 #ERRR <CLEAN>
 
     class Pylon5:
@@ -22770,6 +22768,8 @@ class Mirage_F1M_EE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (5, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (5, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
+        R530F_EM = (5, Weapons.R530F_EM)
+        R530F_IR = (5, Weapons.R530F_IR)
         S530F = (5, Weapons.S530F)
 #ERRR <CLEAN>
 
@@ -22800,12 +22800,6 @@ class Mirage_F1M_EE(PlaneType):
         MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_254_F1B_SM_Green = (6, Weapons.MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_254_F1B_SM_Green)
         MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_256_F1B_HE_Frag = (6, Weapons.MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_256_F1B_HE_Frag)
         MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_257_F1B_HE_Frag_Lg_Whd = (6, Weapons.MATRA_F4___18_x_UnGd_Rkts__68_mm_SNEB_Type_257_F1B_HE_Frag_Lg_Whd)
-        AIM_9J_Sidewinder_IR_AAM = (6, Weapons.AIM_9J_Sidewinder_IR_AAM)
-        AIM_9P_Sidewinder_IR_AAM = (6, Weapons.AIM_9P_Sidewinder_IR_AAM)
-        AIM_9P3_Sidewinder_IR_AAM = (6, Weapons.AIM_9P3_Sidewinder_IR_AAM)
-        AIM_9JULI_Sidewinder_IR_AAM = (6, Weapons.AIM_9JULI_Sidewinder_IR_AAM)
-        R550_Magic_1_IR_AAM = (6, Weapons.R550_Magic_1_IR_AAM)
-        R550_Magic_2_IR_AAM = (6, Weapons.R550_Magic_2_IR_AAM)
         Mk_82___500lb_GP_Bomb_LD = (6, Weapons.Mk_82___500lb_GP_Bomb_LD)
         Mk_83___1000lb_GP_Bomb_LD = (6, Weapons.Mk_83___1000lb_GP_Bomb_LD)
         BR_250 = (6, Weapons.BR_250)
@@ -22815,6 +22809,7 @@ class Mirage_F1M_EE(PlaneType):
 #ERRR <CLEAN>
 
     class Pylon7:
+        AIM_9B_Sidewinder_IR_AAM = (7, Weapons.AIM_9B_Sidewinder_IR_AAM)
         AIM_9J_Sidewinder_IR_AAM = (7, Weapons.AIM_9J_Sidewinder_IR_AAM)
         AIM_9P_Sidewinder_IR_AAM = (7, Weapons.AIM_9P_Sidewinder_IR_AAM)
         AIM_9P3_Sidewinder_IR_AAM = (7, Weapons.AIM_9P3_Sidewinder_IR_AAM)
@@ -23277,14 +23272,6 @@ class Mirage_F1M_CE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (3, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (3, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (3, Weapons.R530F_EM)
         R530F_IR = (3, Weapons.R530F_IR)
         S530F = (3, Weapons.S530F)
@@ -23323,14 +23310,6 @@ class Mirage_F1M_CE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (4, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (4, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (4, Weapons.R530F_EM)
         R530F_IR = (4, Weapons.R530F_IR)
         PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
@@ -23382,14 +23361,6 @@ class Mirage_F1M_CE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (5, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (5, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (5, Weapons.R530F_EM)
         R530F_IR = (5, Weapons.R530F_IR)
         S530F = (5, Weapons.S530F)
@@ -32671,14 +32642,6 @@ class Mirage_F1BE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (3, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (3, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (3, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (3, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (3, Weapons.R530F_EM)
         R530F_IR = (3, Weapons.R530F_IR)
         S530F = (3, Weapons.S530F)
@@ -32717,14 +32680,6 @@ class Mirage_F1BE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (4, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (4, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (4, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (4, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (4, Weapons.R530F_EM)
         R530F_IR = (4, Weapons.R530F_IR)
         PTB_580G_F1 = (4, Weapons.PTB_580G_F1)
@@ -32776,14 +32731,6 @@ class Mirage_F1BE(PlaneType):
 #ERRR {AUF2_BRP250}
         AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD = (5, Weapons.AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD)
         AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb = (5, Weapons.AUF_2___2_x_GBU_12___500lb_Laser_Guided_Bomb)
-        _14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._14_3_M2___6_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._14_3_M2___9_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._30_6_M2___12_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster = (5, Weapons._30_6_M2___18_x_BAP_100___32kg_Concrete_Piercing_Chute_Retarded_Bomb_w_Booster)
-        _14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._14_3_M2___6_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._14_3_M2___9_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._30_6_M2___12_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
-        _30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD = (5, Weapons._30_6_M2___18_x_BAT_120_ABL___34kg_HE_Frag_Chute_Retarded_Bomb_HD)
         R530F_EM = (5, Weapons.R530F_EM)
         R530F_IR = (5, Weapons.R530F_IR)
         S530F = (5, Weapons.S530F)
@@ -35277,6 +35224,7 @@ plane_map = {
     "I-16": I_16,
     "L-39C": L_39C,
     "L-39ZA": L_39ZA,
+    "La-7": La_7,
     "M-2000C": M_2000C,
     "MB-339A": MB_339A,
     "MB-339APAN": MB_339APAN,

@@ -1447,7 +1447,7 @@ weapon_settings_registry = {
             "defValue": 1688,
         }
     ],
-    # Used by 3 weapon(s): BRU_55_with_2_x_GBU_32_V_2_B___JDAM__1000lb_GPS_Guided_Bomb, GBU_31_V_2_B___JDAM__2000lb_GPS_Guided_Bomb, GBU_32_V_2_B___JDAM__1000lb_GPS_Guided_Bomb
+    # Used by 5 weapon(s): BRU_55_with_2_x_GBU_32_V_2_B___JDAM__1000lb_GPS_Guided_Bomb, GBU_31_V_2_B___JDAM__2000lb_GPS_Guided_Bomb, GBU_31_V_2_B___JDAM__2000lb_GPS_Guided_Bomb_, GBU_32_V_2_B___JDAM__1000lb_GPS_Guided_Bomb, GBU_38_V_1_B___JDAM__500lb_GPS_Guided_Bomb_
     "179f6770": [
         {
             "id": "NFP_fuze_type_nose",
@@ -2140,8 +2140,8 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 1}],
         }
     ],
-    # Used by 55 weapon(s): BRU_33_with_2_x_Mk_82Y___500lb_GP_Chute_Retarded_HD, BRU_33_with_2_x_Mk_82_Snakeye___500lb_GP_Bomb_HD, BRU_33_with_2_x_Mk_83_AIR__BSU_85____1000_lb_GP_Chute_Retarded_Bomb_HD, BRU_42_with_1_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD, BRU_42_with_2_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD
-    # ... and 50 more
+    # Used by 65 weapon(s): BRU_33_with_2_x_Mk_82Y___500lb_GP_Chute_Retarded_HD, BRU_33_with_2_x_Mk_82_Snakeye___500lb_GP_Bomb_HD, BRU_33_with_2_x_Mk_83_AIR__BSU_85____1000_lb_GP_Chute_Retarded_Bomb_HD, BRU_42_with_1_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD, BRU_42_with_2_x_Mk_82_AIR_Ballute___500lb_GP_Bomb_HD
+    # ... and 60 more
     "1c1750dc": [
         {
             "id": "NFP_fuze_type_nose",
@@ -6075,8 +6075,8 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": 1}],
         }
     ],
-    # Used by 109 weapon(s): AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD, BRU_33_with_2_x_Mk_82___500lb_GP_Bomb_LD, BRU_33_with_2_x_Mk_83___1000lb_GP_Bomb_LD, BRU_41A_with_6_x_Mk_82___500lb_GP_Bomb_LD, BRU_42_with_1_x_Mk_82___500lb_GP_Bomb_LD
-    # ... and 104 more
+    # Used by 99 weapon(s): AUF_2___2_x_Mk_82___500lb_GP_Bomb_LD, BRU_33_with_2_x_Mk_82___500lb_GP_Bomb_LD, BRU_33_with_2_x_Mk_83___1000lb_GP_Bomb_LD, BRU_41A_with_6_x_Mk_82___500lb_GP_Bomb_LD, BRU_42_with_1_x_Mk_82___500lb_GP_Bomb_LD
+    # ... and 94 more
     "814865ab": [
         {
             "id": "NFP_fuze_type_nose",
@@ -8201,7 +8201,8 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": "FZU39"}],
         }
     ],
-    # Used by 1 weapon(s): CBU_52B___220_x_HE_Frag_bomblets
+    # Used by 7 weapon(s): CBU_52B___220_x_HE_Frag_bomblets, _2x_CBU_52B___220_x_HE_Frag_bomblets__TER_, _3x_CBU_52B___220_x_HE_Frag_bomblets__MER_, _3x_CBU_52B___220_x_HE_Frag_bomblets__MER__, _4x_CBU_52B___220_x_HE_Frag_bomblets__MER_
+    # ... and 2 more
     "a32eac77": [
         {
             "id": "NFP_fuze_type_nose",
@@ -9655,7 +9656,8 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU139CB_HD"}],
         }
     ],
-    # Used by 4 weapon(s): M117___750lb_GP_Bomb_LD, MER3_with_3_x_M117___750lb_GP_Bombs_LD, MER6_with_6_x_M117___750lb_GP_Bombs_LD, _27_x_M117___750lb_GP_Bombs_LD
+    # Used by 10 weapon(s): M117___750lb_GP_Bomb_LD, MER3_with_3_x_M117___750lb_GP_Bombs_LD, MER6_with_6_x_M117___750lb_GP_Bombs_LD, _27_x_M117___750lb_GP_Bombs_LD, _2x_M117___750lb_GP_Bomb_LD__TER___
+    # ... and 5 more
     "d360e0f2": [
         {
             "id": "NFP_fuze_type_nose",
@@ -10149,6 +10151,187 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_nose", "value": 1}],
         }
     ],
+    # Used by 1 weapon(s): GBU_31_V_4_B___JDAM__2000lb_GPS_Guided_Penetrator_Bomb_
+    "eaa8a7c9": [
+        {
+            "id": "NFP_fuze_type_tail",
+            "label": "Tail Fuze Well",
+            "control": "comboList",
+            "defValue": "FMU139CB_LD",
+            "values": [
+                {
+                    "id": "FMU139CB_LD",
+                    "dispName": "FMU-139"
+                },
+                {
+                    "id": "FMU152AB_LD",
+                    "dispName": "FMU-152"
+                }
+            ],
+            "baseDim": "",
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_FMU139CB_LD",
+            "label": "Arm Delay",
+            "control": "comboList",
+            "defValue": 4,
+            "values": [
+                {
+                    "id": 4,
+                    "dispName": "4"
+                },
+                {
+                    "id": 6,
+                    "dispName": "6"
+                },
+                {
+                    "id": 7,
+                    "dispName": "7"
+                },
+                {
+                    "id": 10,
+                    "dispName": "10"
+                },
+                {
+                    "id": 14,
+                    "dispName": "14"
+                },
+                {
+                    "id": 20,
+                    "dispName": "20"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU139CB_LD"}],
+        },
+        {
+            "id": "01_prfx_arm_delay_ctrl_FMU152AB_LD",
+            "label": "Arm Delay",
+            "control": "comboList",
+            "defValue": 4,
+            "values": [
+                {
+                    "id": 4,
+                    "dispName": "4"
+                },
+                {
+                    "id": 5,
+                    "dispName": "5"
+                },
+                {
+                    "id": 6,
+                    "dispName": "6"
+                },
+                {
+                    "id": 7,
+                    "dispName": "7"
+                },
+                {
+                    "id": 8,
+                    "dispName": "8"
+                },
+                {
+                    "id": 10,
+                    "dispName": "10"
+                },
+                {
+                    "id": 14,
+                    "dispName": "14"
+                },
+                {
+                    "id": 21,
+                    "dispName": "21"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU152AB_LD"}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_FMU139CB_LD",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0"
+                },
+                {
+                    "id": 0.01,
+                    "dispName": "0.01"
+                },
+                {
+                    "id": 0.025,
+                    "dispName": "0.025"
+                },
+                {
+                    "id": 0.06,
+                    "dispName": "0.06"
+                }
+            ],
+            "baseDim": "s",
+            "dimension": "s",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU139CB_LD"}],
+        },
+        {
+            "id": "01_prfx_function_delay_ctrl_FMU152AB_LD",
+            "label": "Function Delay",
+            "control": "comboList",
+            "defValue": 0,
+            "values": [
+                {
+                    "id": 0,
+                    "dispName": "0 s"
+                },
+                {
+                    "id": 0.005,
+                    "dispName": "5 ms"
+                },
+                {
+                    "id": 0.025,
+                    "dispName": "25 ms"
+                },
+                {
+                    "id": 0.06,
+                    "dispName": "60 ms"
+                },
+                {
+                    "id": 0.18,
+                    "dispName": "180 ms"
+                },
+                {
+                    "id": 900,
+                    "dispName": "15 min"
+                },
+                {
+                    "id": 14400,
+                    "dispName": "4 h"
+                },
+                {
+                    "id": 86400,
+                    "dispName": "24 h"
+                }
+            ],
+            "baseDim": "",
+            "dimension": "",
+            "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU152AB_LD"}],
+        },
+        {
+            "id": "NFP_VIS_DrawArgNo_57",
+            "label": "Appearance",
+            "control": "comboList",
+            "defValue": 1,
+            "values": [
+                {
+                    "id": 1,
+                    "dispName": "USN"
+                }
+            ],
+            "baseDim": "",
+        }
+    ],
     # Used by 1 weapon(s): AGM_78A_Standard_ARM
     "f6162f3e": [
         {
@@ -10358,8 +10541,8 @@ weapon_settings_registry = {
             "VisibilityCondition": [{"id": "NFP_fuze_type_tail", "value": "FMU152AB_LD"}],
         }
     ],
-    # Used by 28 weapon(s): AIM_9L_Sidewinder_IR_AAM, AIM_9M, AIM_9M_Sidewinder_IR_AAM, AIM_9X_Sidewinder_IR_AAM, LAU_105_1_AIM_9L_L
-    # ... and 23 more
+    # Used by 32 weapon(s): AIM_9L_Sidewinder_IR_AAM, AIM_9M, AIM_9M_Sidewinder_IR_AAM, AIM_9X_Sidewinder_IR_AAM, LAU_105_1_AIM_9L_L
+    # ... and 27 more
     "fc240df9": [
         {
             "id": "NFP_VIS_DrawArgNo_57",
