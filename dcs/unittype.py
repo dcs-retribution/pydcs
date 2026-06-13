@@ -163,6 +163,15 @@ class FlyingType(UnitType):
                     except SyntaxError:
                         print("Error parsing lua file '{f}'".format(f=payload_path), file=sys.stderr)
                         raise
+                    except ValueError:
+                        # Some third-party mod payloads (e.g. the CJS Super Hornet) use
+                        # local variable names as table indices, which the Lua parser
+                        # cannot represent and reports as a ValueError. Skip the file with
+                        # a warning rather than aborting the load of every other payload.
+                        logging.getLogger("pydcs").warning(
+                            "Skipping payload file with unsupported Lua syntax: %s", payload_path
+                        )
+                        continue
                     pays = payload_main["unitPayloads"]
                     if pays["unitType"] == cls.id:
                         for load in pays["payloads"].values():
