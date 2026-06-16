@@ -483,11 +483,13 @@ flyable["AV8BNA"] = true
 flyable["C-101CC"] = true
 flyable["C-101EB"] = true
 flyable["F4U-1D"] = true
+flyable["F-14A-95-GR"] = true
 flyable["F-14A-135-GR"] = true
 flyable["F-14B"] = true
 flyable["F-15C"] = true
 flyable["F-16C_50"] = true
 flyable["FA-18C_hornet"] = true
+flyable["F-100D"] = true
 flyable["F-4E-45MC"] = true
 flyable["F-5E-3"] = true
 flyable["F-5E-3_FC"] = true
@@ -1215,7 +1217,6 @@ writeln(file, 'import dcs.planes as planes')
 writeln(file, 'import dcs.helicopters as helicopters')
 writeln(file, 'import dcs.ships as ships')
 local countryPlaneIgnore = {
-    "F_14A_95_GR",
     "F_16C",
     "F_4E_new",
     "F_5E_MAC",
