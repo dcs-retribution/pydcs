@@ -440,6 +440,7 @@ class Russia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -529,6 +530,7 @@ class Russia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -1207,6 +1209,7 @@ class Ukraine(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -1287,6 +1290,7 @@ class Ukraine(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -1487,7 +1491,6 @@ class USA(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             HEMTT_C_RAM_Phalanx = vehicles.AirDefence.HEMTT_C_RAM_Phalanx
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             QF_37_AA = vehicles.AirDefence.QF_37_AA
             Allies_Director = vehicles.AirDefence.Allies_Director
 
@@ -1547,7 +1550,6 @@ class USA(Country):
             HL_DSHK = vehicles.Armor.HL_DSHK
             MaxxPro_MRAP = vehicles.Armor.MaxxPro_MRAP
             M1A2C_SEP_V3 = vehicles.Armor.M1A2C_SEP_V3
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_MATV = vehicles.Armor.CHAP_MATV
             CHAP_M1130 = vehicles.Armor.CHAP_M1130
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -1638,7 +1640,6 @@ class USA(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.HEMTT_C_RAM_Phalanx,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.QF_37_AA,
         vehicles.AirDefence.Allies_Director,
         vehicles.Fortification.Bunker,
@@ -1692,7 +1693,6 @@ class USA(Country):
         vehicles.Armor.HL_DSHK,
         vehicles.Armor.MaxxPro_MRAP,
         vehicles.Armor.M1A2C_SEP_V3,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_MATV,
         vehicles.Armor.CHAP_M1130,
         vehicles.Armor.M4_Sherman,
@@ -1774,6 +1774,7 @@ class USA(Country):
         A_10C_2 = planes.A_10C_2
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
+        F_14A_95_GR = planes.F_14A_95_GR
         P_47D_30 = planes.P_47D_30
         P_47D_30bl1 = planes.P_47D_30bl1
         P_47D_40 = planes.P_47D_40
@@ -1789,6 +1790,7 @@ class USA(Country):
         C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -1864,6 +1866,7 @@ class USA(Country):
         Plane.A_10C_2,
         Plane.F_14B,
         Plane.F_14A_135_GR,
+        Plane.F_14A_95_GR,
         Plane.P_47D_30,
         Plane.P_47D_30bl1,
         Plane.P_47D_40,
@@ -1879,6 +1882,7 @@ class USA(Country):
         Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -2157,7 +2161,6 @@ class Turkey(Country):
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -2203,7 +2206,6 @@ class Turkey(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -2252,7 +2254,6 @@ class Turkey(Country):
         vehicles.AirDefence.FPS_117_Dome,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -2292,7 +2293,6 @@ class Turkey(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -2348,6 +2348,7 @@ class Turkey(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -2416,6 +2417,7 @@ class Turkey(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -2658,7 +2660,6 @@ class UK(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             HEMTT_C_RAM_Phalanx = vehicles.AirDefence.HEMTT_C_RAM_Phalanx
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             bofors40 = vehicles.AirDefence.bofors40
             Allies_Director = vehicles.AirDefence.Allies_Director
             M1_37mm = vehicles.AirDefence.M1_37mm
@@ -2712,7 +2713,6 @@ class UK(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV107 = vehicles.Armor.CHAP_FV107
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -2764,7 +2764,6 @@ class UK(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.HEMTT_C_RAM_Phalanx,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.bofors40,
         vehicles.AirDefence.Allies_Director,
         vehicles.AirDefence.M1_37mm,
@@ -2812,7 +2811,6 @@ class UK(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV107,
         vehicles.Armor.CHAP_FV101,
         vehicles.Armor.M4_Sherman,
@@ -2872,6 +2870,7 @@ class UK(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -2939,6 +2938,7 @@ class UK(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -3197,7 +3197,6 @@ class France(Country):
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             QF_37_AA = vehicles.AirDefence.QF_37_AA
             Allies_Director = vehicles.AirDefence.Allies_Director
             M1_37mm = vehicles.AirDefence.M1_37mm
@@ -3242,7 +3241,6 @@ class France(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             M4_Sherman = vehicles.Armor.M4_Sherman
             Cromwell_IV = vehicles.Armor.Cromwell_IV
             M4A4_Sherman_FF = vehicles.Armor.M4A4_Sherman_FF
@@ -3295,7 +3293,6 @@ class France(Country):
         vehicles.AirDefence.M45_Quadmount,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.QF_37_AA,
         vehicles.AirDefence.Allies_Director,
         vehicles.AirDefence.M1_37mm,
@@ -3334,7 +3331,6 @@ class France(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.M4_Sherman,
         vehicles.Armor.Cromwell_IV,
         vehicles.Armor.M4A4_Sherman_FF,
@@ -3397,6 +3393,7 @@ class France(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -3469,6 +3466,7 @@ class France(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -4073,6 +4071,7 @@ class Germany(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -4142,6 +4141,7 @@ class Germany(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -4403,7 +4403,6 @@ class USAFAggressors(Country):
             soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
 
         class AirDefence:
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
             flak36 = vehicles.AirDefence.flak36
@@ -4440,6 +4439,7 @@ class USAFAggressors(Country):
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SNR_75V = vehicles.AirDefence.SNR_75V
+            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             Tor_9A331 = vehicles.AirDefence.Tor_9A331
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
@@ -4601,7 +4601,6 @@ class USAFAggressors(Country):
             Type_98_So_Da = vehicles.Unarmed.Type_98_So_Da
 
         class Armor:
-            BRDM_2 = vehicles.Armor.BRDM_2
             Sd_Kfz_251 = vehicles.Armor.Sd_Kfz_251
             Stug_III = vehicles.Armor.Stug_III
             Pz_IV_H = vehicles.Armor.Pz_IV_H
@@ -4618,6 +4617,7 @@ class USAFAggressors(Country):
             BMP_1 = vehicles.Armor.BMP_1
             BMP_2 = vehicles.Armor.BMP_2
             BMP_3 = vehicles.Armor.BMP_3
+            BRDM_2 = vehicles.Armor.BRDM_2
             BTR_D = vehicles.Armor.BTR_D
             BTR_80 = vehicles.Armor.BTR_80
             MTLB = vehicles.Armor.MTLB
@@ -4777,7 +4777,6 @@ class USAFAggressors(Country):
         vehicles.Infantry.soldier_wwii_br_01,
         vehicles.Infantry.Soldier_M4_GRG,
         vehicles.Infantry.soldier_wwii_us,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -4814,6 +4813,7 @@ class USAFAggressors(Country):
         vehicles.AirDefence.SA_18_Igla_manpad,
         vehicles.AirDefence.snr_s_125_tr,
         vehicles.AirDefence.SNR_75V,
+        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.Strela_10M3,
         vehicles.AirDefence.Tor_9A331,
         vehicles.AirDefence.Ural_375_ZU_23,
@@ -4969,7 +4969,6 @@ class USAFAggressors(Country):
         vehicles.Unarmed.GPS_Spoofer_Blue,
         vehicles.Unarmed.Type_94_Truck,
         vehicles.Unarmed.Type_98_So_Da,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.Sd_Kfz_251,
         vehicles.Armor.Stug_III,
         vehicles.Armor.Pz_IV_H,
@@ -4986,6 +4985,7 @@ class USAFAggressors(Country):
         vehicles.Armor.BMP_1,
         vehicles.Armor.BMP_2,
         vehicles.Armor.BMP_3,
+        vehicles.Armor.BRDM_2,
         vehicles.Armor.BTR_D,
         vehicles.Armor.BTR_80,
         vehicles.Armor.MTLB,
@@ -5120,6 +5120,7 @@ class USAFAggressors(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -5231,6 +5232,7 @@ class USAFAggressors(Country):
         S_3B = planes.S_3B
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
+        F_14A_95_GR = planes.F_14A_95_GR
         F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
@@ -5261,6 +5263,7 @@ class USAFAggressors(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -5372,6 +5375,7 @@ class USAFAggressors(Country):
         Plane.S_3B,
         Plane.F_14B,
         Plane.F_14A_135_GR,
+        Plane.F_14A_95_GR,
         Plane.F_14A_135_GR_Early,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
@@ -5700,7 +5704,6 @@ class Canada(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Allies_Director = vehicles.AirDefence.Allies_Director
             M1_37mm = vehicles.AirDefence.M1_37mm
 
@@ -5747,7 +5750,6 @@ class Canada(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             M4_Sherman = vehicles.Armor.M4_Sherman
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             Cromwell_IV = vehicles.Armor.Cromwell_IV
@@ -5796,7 +5798,6 @@ class Canada(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.Allies_Director,
         vehicles.AirDefence.M1_37mm,
         vehicles.Fortification.Bunker,
@@ -5837,7 +5838,6 @@ class Canada(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.M4_Sherman,
         vehicles.Armor.M2A1_halftrack,
         vehicles.Armor.Cromwell_IV,
@@ -5900,6 +5900,7 @@ class Canada(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -5963,6 +5964,7 @@ class Canada(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -6202,7 +6204,6 @@ class Spain(Country):
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -6243,7 +6244,6 @@ class Spain(Country):
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             MaxxPro_MRAP = vehicles.Armor.MaxxPro_MRAP
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -6294,7 +6294,6 @@ class Spain(Country):
         vehicles.AirDefence.NASAMS_LN_C,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -6329,7 +6328,6 @@ class Spain(Country):
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
         vehicles.Armor.MaxxPro_MRAP,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -6383,6 +6381,7 @@ class Spain(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -6452,6 +6451,7 @@ class Spain(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -6701,7 +6701,6 @@ class TheNetherlands(Country):
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             QF_37_AA = vehicles.AirDefence.QF_37_AA
             Allies_Director = vehicles.AirDefence.Allies_Director
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
@@ -6753,7 +6752,6 @@ class TheNetherlands(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             M4_Sherman = vehicles.Armor.M4_Sherman
             Cromwell_IV = vehicles.Armor.Cromwell_IV
             M4A4_Sherman_FF = vehicles.Armor.M4A4_Sherman_FF
@@ -6817,7 +6815,6 @@ class TheNetherlands(Country):
         vehicles.AirDefence.NASAMS_LN_C,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.QF_37_AA,
         vehicles.AirDefence.Allies_Director,
         vehicles.AirDefence.M45_Quadmount,
@@ -6863,7 +6860,6 @@ class TheNetherlands(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.M4_Sherman,
         vehicles.Armor.Cromwell_IV,
         vehicles.Armor.M4A4_Sherman_FF,
@@ -6927,6 +6923,7 @@ class TheNetherlands(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -6994,6 +6991,7 @@ class TheNetherlands(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -7236,7 +7234,6 @@ class Belgium(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Allies_Director = vehicles.AirDefence.Allies_Director
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             M1_37mm = vehicles.AirDefence.M1_37mm
@@ -7280,7 +7277,6 @@ class Belgium(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV107 = vehicles.Armor.CHAP_FV107
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
             M4_Sherman = vehicles.Armor.M4_Sherman
@@ -7334,7 +7330,6 @@ class Belgium(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.Allies_Director,
         vehicles.AirDefence.M45_Quadmount,
         vehicles.AirDefence.M1_37mm,
@@ -7372,7 +7367,6 @@ class Belgium(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV107,
         vehicles.Armor.CHAP_FV101,
         vehicles.Armor.M4_Sherman,
@@ -7433,6 +7427,7 @@ class Belgium(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -7498,6 +7493,7 @@ class Belgium(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -7733,7 +7729,6 @@ class Norway(Country):
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -7771,7 +7766,6 @@ class Norway(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -7814,7 +7808,6 @@ class Norway(Country):
         vehicles.AirDefence.NASAMS_LN_C,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -7846,7 +7839,6 @@ class Norway(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -7899,6 +7891,7 @@ class Norway(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -7964,6 +7957,7 @@ class Norway(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -8192,7 +8186,6 @@ class Denmark(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -8231,7 +8224,6 @@ class Denmark(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -8273,7 +8265,6 @@ class Denmark(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -8306,7 +8297,6 @@ class Denmark(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -8359,6 +8349,7 @@ class Denmark(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -8424,6 +8415,7 @@ class Denmark(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -8659,7 +8651,6 @@ class Israel(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             HEMTT_C_RAM_Phalanx = vehicles.AirDefence.HEMTT_C_RAM_Phalanx
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -8754,7 +8745,6 @@ class Israel(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.HEMTT_C_RAM_Phalanx,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -8847,6 +8837,7 @@ class Israel(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -8915,6 +8906,7 @@ class Israel(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -9428,6 +9420,7 @@ class Georgia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -9493,6 +9486,7 @@ class Georgia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -9924,6 +9918,7 @@ class Insurgents(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -9983,6 +9978,7 @@ class Insurgents(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -10360,6 +10356,7 @@ class Abkhazia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -10422,6 +10419,7 @@ class Abkhazia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -10776,6 +10774,7 @@ class SouthOssetia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -10833,6 +10832,7 @@ class SouthOssetia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -10980,7 +10980,6 @@ class Italy(Country):
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -11019,7 +11018,6 @@ class Italy(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -11063,7 +11061,6 @@ class Italy(Country):
         vehicles.AirDefence.FPS_117_Dome,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -11096,7 +11093,6 @@ class Italy(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -11153,6 +11149,7 @@ class Italy(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -11222,6 +11219,7 @@ class Italy(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -11453,7 +11451,6 @@ class Australia(Country):
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
             HEMTT_C_RAM_Phalanx = vehicles.AirDefence.HEMTT_C_RAM_Phalanx
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Allies_Director = vehicles.AirDefence.Allies_Director
             M45_Quadmount = vehicles.AirDefence.M45_Quadmount
             M1_37mm = vehicles.AirDefence.M1_37mm
@@ -11499,7 +11496,6 @@ class Australia(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             M4_Sherman = vehicles.Armor.M4_Sherman
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             Cromwell_IV = vehicles.Armor.Cromwell_IV
@@ -11550,7 +11546,6 @@ class Australia(Country):
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
         vehicles.AirDefence.HEMTT_C_RAM_Phalanx,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.Allies_Director,
         vehicles.AirDefence.M45_Quadmount,
         vehicles.AirDefence.M1_37mm,
@@ -11590,7 +11585,6 @@ class Australia(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.M4_Sherman,
         vehicles.Armor.M2A1_halftrack,
         vehicles.Armor.Cromwell_IV,
@@ -11653,6 +11647,7 @@ class Australia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -11716,6 +11711,7 @@ class Australia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -11947,7 +11943,6 @@ class Switzerland(Country):
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -11981,7 +11976,6 @@ class Switzerland(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -12016,7 +12010,6 @@ class Switzerland(Country):
         vehicles.AirDefence.rapier_fsa_blindfire_radar,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -12044,7 +12037,6 @@ class Switzerland(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -12093,6 +12085,7 @@ class Switzerland(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -12152,6 +12145,7 @@ class Switzerland(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -12357,7 +12351,6 @@ class Austria(Country):
             bofors40 = vehicles.AirDefence.bofors40
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -12392,7 +12385,6 @@ class Austria(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             DRG_Class_86 = vehicles.Locomotive.DRG_Class_86
@@ -12421,7 +12413,6 @@ class Austria(Country):
         vehicles.AirDefence.bofors40,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -12450,7 +12441,6 @@ class Austria(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.DRG_Class_86,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -12497,6 +12487,7 @@ class Austria(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -12556,6 +12547,7 @@ class Austria(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -13100,6 +13092,7 @@ class Belarus(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -13169,6 +13162,7 @@ class Belarus(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -13617,6 +13611,7 @@ class Bulgaria(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -13684,6 +13679,7 @@ class Bulgaria(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -13912,7 +13908,6 @@ class CzechRepublic(Country):
             S_60_Type59_Artillery = vehicles.AirDefence.S_60_Type59_Artillery
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             P14_SR = vehicles.AirDefence.P14_SR
             RD_75 = vehicles.AirDefence.RD_75
             S_75M_Volhov = vehicles.AirDefence.S_75M_Volhov
@@ -14023,7 +14018,6 @@ class CzechRepublic(Country):
         vehicles.AirDefence.S_60_Type59_Artillery,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.P14_SR,
         vehicles.AirDefence.RD_75,
         vehicles.AirDefence.S_75M_Volhov,
@@ -14131,6 +14125,7 @@ class CzechRepublic(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -14194,6 +14189,7 @@ class CzechRepublic(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -14439,7 +14435,6 @@ class China(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             CHAP_TorM2 = vehicles.AirDefence.CHAP_TorM2
             RD_75 = vehicles.AirDefence.RD_75
             HQ_7_LN_P = vehicles.AirDefence.HQ_7_LN_P
@@ -14479,7 +14474,6 @@ class China(Country):
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             T_34_85 = vehicles.Armor.T_34_85
-            BRDM_2 = vehicles.Armor.BRDM_2
             TYPE_59 = vehicles.Armor.TYPE_59
 
         class MissilesSS:
@@ -14542,7 +14536,6 @@ class China(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.CHAP_TorM2,
         vehicles.AirDefence.RD_75,
         vehicles.AirDefence.HQ_7_LN_P,
@@ -14576,7 +14569,6 @@ class China(Country):
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
         vehicles.Armor.T_34_85,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.TYPE_59,
         vehicles.MissilesSS.hy_launcher,
         vehicles.MissilesSS.Silkworm_SR,
@@ -14642,6 +14634,7 @@ class China(Country):
         H_6J = planes.H_6J
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -14712,6 +14705,7 @@ class China(Country):
         Plane.H_6J,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -15000,6 +14994,7 @@ class Croatia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -15058,6 +15053,7 @@ class Croatia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -15570,6 +15566,7 @@ class Egypt(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -15635,6 +15632,7 @@ class Egypt(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -15889,7 +15887,6 @@ class Finland(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
             flak36 = vehicles.AirDefence.flak36
@@ -15953,7 +15950,6 @@ class Finland(Country):
             HL_DSHK = vehicles.Armor.HL_DSHK
             BTR_60 = vehicles.Armor.BTR_60
             BTR_70 = vehicles.Armor.BTR_70
-            BRDM_2 = vehicles.Armor.BRDM_2
             Pz_IV_H = vehicles.Armor.Pz_IV_H
             Sd_Kfz_251 = vehicles.Armor.Sd_Kfz_251
             Tiger_I = vehicles.Armor.Tiger_I
@@ -16023,7 +16019,6 @@ class Finland(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.ZSU_57_2,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -16081,7 +16076,6 @@ class Finland(Country):
         vehicles.Armor.HL_DSHK,
         vehicles.Armor.BTR_60,
         vehicles.Armor.BTR_70,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.Pz_IV_H,
         vehicles.Armor.Sd_Kfz_251,
         vehicles.Armor.Tiger_I,
@@ -16142,6 +16136,7 @@ class Finland(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -16200,6 +16195,7 @@ class Finland(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -16448,7 +16444,6 @@ class Greece(Country):
             generator_5i57 = vehicles.AirDefence.generator_5i57
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -16496,7 +16491,6 @@ class Greece(Country):
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             MaxxPro_MRAP = vehicles.Armor.MaxxPro_MRAP
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -16558,7 +16552,6 @@ class Greece(Country):
         vehicles.AirDefence.generator_5i57,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -16600,7 +16593,6 @@ class Greece(Country):
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
         vehicles.Armor.MaxxPro_MRAP,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -16653,6 +16645,7 @@ class Greece(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -16719,6 +16712,7 @@ class Greece(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -17240,6 +17234,7 @@ class Hungary(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -17302,6 +17297,7 @@ class Hungary(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -17724,6 +17720,7 @@ class India(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -17791,6 +17788,7 @@ class India(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -18060,7 +18058,6 @@ class Iran(Country):
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             P14_SR = vehicles.AirDefence.P14_SR
             CHAP_TorM2 = vehicles.AirDefence.CHAP_TorM2
             RD_75 = vehicles.AirDefence.RD_75
@@ -18105,7 +18102,6 @@ class Iran(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class MissilesSS:
@@ -18183,7 +18179,6 @@ class Iran(Country):
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
         vehicles.AirDefence.ZSU_57_2,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.P14_SR,
         vehicles.AirDefence.CHAP_TorM2,
         vehicles.AirDefence.RD_75,
@@ -18222,7 +18217,6 @@ class Iran(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.MissilesSS.Scud_B,
         vehicles.MissilesSS.hy_launcher,
@@ -18260,6 +18254,7 @@ class Iran(Country):
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         Su_25T = planes.Su_25T
+        F_14A_95_GR = planes.F_14A_95_GR
         C_47 = planes.C_47
         FW_190A8 = planes.FW_190A8
         Bf_109K_4 = planes.Bf_109K_4
@@ -18283,6 +18278,7 @@ class Iran(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -18330,6 +18326,7 @@ class Iran(Country):
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.Su_25T,
+        Plane.F_14A_95_GR,
         Plane.C_47,
         Plane.FW_190A8,
         Plane.Bf_109K_4,
@@ -18353,6 +18350,7 @@ class Iran(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -18844,6 +18842,7 @@ class Iraq(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -18912,6 +18911,7 @@ class Iraq(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -19142,7 +19142,6 @@ class Japan(Country):
             Patriot_str = vehicles.AirDefence.Patriot_str
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             Stinger_comm = vehicles.AirDefence.Stinger_comm
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Type_3_80mm_AA = vehicles.AirDefence.Type_3_80mm_AA
             Type_88_75mm_AA = vehicles.AirDefence.Type_88_75mm_AA
             Type_96_25mm_AA = vehicles.AirDefence.Type_96_25mm_AA
@@ -19194,7 +19193,6 @@ class Japan(Country):
             Horch_901_typ_40_kfz_21 = vehicles.Unarmed.Horch_901_typ_40_kfz_21
 
         class Armor:
-            BRDM_2 = vehicles.Armor.BRDM_2
             Type_98_Ke_Ni = vehicles.Armor.Type_98_Ke_Ni
             Type_89_I_Go = vehicles.Armor.Type_89_I_Go
             HL_DSHK = vehicles.Armor.HL_DSHK
@@ -19261,7 +19259,6 @@ class Japan(Country):
         vehicles.AirDefence.Patriot_str,
         vehicles.AirDefence.Soldier_stinger,
         vehicles.AirDefence.Stinger_comm,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.Type_3_80mm_AA,
         vehicles.AirDefence.Type_88_75mm_AA,
         vehicles.AirDefence.Type_96_25mm_AA,
@@ -19307,7 +19304,6 @@ class Japan(Country):
         vehicles.Unarmed.Sd_Kfz_2,
         vehicles.Unarmed.Sd_Kfz_7,
         vehicles.Unarmed.Horch_901_typ_40_kfz_21,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.Type_98_Ke_Ni,
         vehicles.Armor.Type_89_I_Go,
         vehicles.Armor.HL_DSHK,
@@ -19375,6 +19371,7 @@ class Japan(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -19436,6 +19433,7 @@ class Japan(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -20002,6 +20000,7 @@ class Kazakhstan(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -20072,6 +20071,7 @@ class Kazakhstan(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -20304,7 +20304,6 @@ class NorthKorea(Country):
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
             ZSU_57_2 = vehicles.AirDefence.ZSU_57_2
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             P14_SR = vehicles.AirDefence.P14_SR
             RD_75 = vehicles.AirDefence.RD_75
 
@@ -20392,7 +20391,6 @@ class NorthKorea(Country):
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
         vehicles.AirDefence.ZSU_57_2,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.P14_SR,
         vehicles.AirDefence.RD_75,
         vehicles.Fortification.Bunker,
@@ -20475,6 +20473,7 @@ class NorthKorea(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -20535,6 +20534,7 @@ class NorthKorea(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -20766,7 +20766,6 @@ class Pakistan(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             RD_75 = vehicles.AirDefence.RD_75
             HQ_7_LN_P = vehicles.AirDefence.HQ_7_LN_P
 
@@ -20853,7 +20852,6 @@ class Pakistan(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.RD_75,
         vehicles.AirDefence.HQ_7_LN_P,
         vehicles.Fortification.Bunker,
@@ -20939,6 +20937,7 @@ class Pakistan(Country):
         C_130J_30 = planes.C_130J_30
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -21005,6 +21004,7 @@ class Pakistan(Country):
         Plane.C_130J_30,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -21504,6 +21504,7 @@ class Poland(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -21573,6 +21574,7 @@ class Poland(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -22076,6 +22078,7 @@ class Romania(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -22140,6 +22143,7 @@ class Romania(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -22383,7 +22387,6 @@ class SaudiArabia(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -22424,7 +22427,6 @@ class SaudiArabia(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_MATV = vehicles.Armor.CHAP_MATV
 
         class Locomotive:
@@ -22476,7 +22478,6 @@ class SaudiArabia(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -22511,7 +22512,6 @@ class SaudiArabia(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_MATV,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -22568,6 +22568,7 @@ class SaudiArabia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -22633,6 +22634,7 @@ class SaudiArabia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -23084,6 +23086,7 @@ class Serbia(Country):
         WingLoong_I = planes.WingLoong_I
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -23146,6 +23149,7 @@ class Serbia(Country):
         Plane.WingLoong_I,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -23379,7 +23383,6 @@ class Slovakia(Country):
             generator_5i57 = vehicles.AirDefence.generator_5i57
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -23477,7 +23480,6 @@ class Slovakia(Country):
         vehicles.AirDefence.generator_5i57,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -23564,6 +23566,7 @@ class Slovakia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -23626,6 +23629,7 @@ class Slovakia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -23858,7 +23862,6 @@ class SouthKorea(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -23896,7 +23899,6 @@ class SouthKorea(Country):
             HL_DSHK = vehicles.Armor.HL_DSHK
             MaxxPro_MRAP = vehicles.Armor.MaxxPro_MRAP
             T_80B = vehicles.Armor.T_80B
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -23946,7 +23948,6 @@ class SouthKorea(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -23978,7 +23979,6 @@ class SouthKorea(Country):
         vehicles.Armor.HL_DSHK,
         vehicles.Armor.MaxxPro_MRAP,
         vehicles.Armor.T_80B,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -24036,6 +24036,7 @@ class SouthKorea(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -24100,6 +24101,7 @@ class SouthKorea(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -24315,7 +24317,6 @@ class Sweden(Country):
             Hawk_ln = vehicles.AirDefence.Hawk_ln
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -24349,7 +24350,6 @@ class Sweden(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -24384,7 +24384,6 @@ class Sweden(Country):
         vehicles.AirDefence.Hawk_ln,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -24412,7 +24411,6 @@ class Sweden(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -24461,6 +24459,7 @@ class Sweden(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -24523,6 +24522,7 @@ class Sweden(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -24558,6 +24558,7 @@ class Sweden(Country):
 
     class Helicopter:
         Ka_50 = helicopters.Ka_50
+        UH_1H = helicopters.UH_1H
         AH_64D_BLK_II = helicopters.AH_64D_BLK_II
         CH_47Fbl1 = helicopters.CH_47Fbl1
         OH58D = helicopters.OH58D
@@ -24568,6 +24569,7 @@ class Sweden(Country):
 
     helicopters = [
         Helicopter.Ka_50,
+        Helicopter.UH_1H,
         Helicopter.AH_64D_BLK_II,
         Helicopter.CH_47Fbl1,
         Helicopter.OH58D,
@@ -25007,6 +25009,7 @@ class Syria(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -25072,6 +25075,7 @@ class Syria(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -25483,6 +25487,7 @@ class Yemen(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -25545,6 +25550,7 @@ class Yemen(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -25985,6 +25991,7 @@ class Vietnam(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -26048,6 +26055,7 @@ class Vietnam(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -26287,7 +26295,6 @@ class Venezuela(Country):
             generator_5i57 = vehicles.AirDefence.generator_5i57
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             CHAP_TorM2 = vehicles.AirDefence.CHAP_TorM2
 
         class Fortification:
@@ -26322,7 +26329,6 @@ class Venezuela(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -26378,7 +26384,6 @@ class Venezuela(Country):
         vehicles.AirDefence.generator_5i57,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.CHAP_TorM2,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -26407,7 +26412,6 @@ class Venezuela(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -26457,6 +26461,7 @@ class Venezuela(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -26518,6 +26523,7 @@ class Venezuela(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -26729,7 +26735,6 @@ class Tunisia(Country):
             M48_Chaparral = vehicles.AirDefence.M48_Chaparral
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -26762,7 +26767,6 @@ class Tunisia(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -26791,7 +26795,6 @@ class Tunisia(Country):
         vehicles.AirDefence.M48_Chaparral,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -26818,7 +26821,6 @@ class Tunisia(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -26867,6 +26869,7 @@ class Tunisia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -26926,6 +26929,7 @@ class Tunisia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -27140,7 +27144,6 @@ class Thailand(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -27175,7 +27178,6 @@ class Thailand(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -27214,7 +27216,6 @@ class Thailand(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -27243,7 +27244,6 @@ class Thailand(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -27297,6 +27297,7 @@ class Thailand(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -27359,6 +27360,7 @@ class Thailand(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -27583,7 +27585,6 @@ class Sudan(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
@@ -27660,7 +27661,6 @@ class Sudan(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.RD_75,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -27743,6 +27743,7 @@ class Sudan(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -27806,6 +27807,7 @@ class Sudan(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -28011,7 +28013,6 @@ class Philippines(Country):
 
         class AirDefence:
             bofors40 = vehicles.AirDefence.bofors40
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -28041,7 +28042,6 @@ class Philippines(Country):
             M1045_HMMWV_TOW = vehicles.Armor.M1045_HMMWV_TOW
             M_113 = vehicles.Armor.M_113
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -28067,7 +28067,6 @@ class Philippines(Country):
     vehicles = [
         vehicles.Artillery.L118_Unit,
         vehicles.AirDefence.bofors40,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -28091,7 +28090,6 @@ class Philippines(Country):
         vehicles.Armor.M1045_HMMWV_TOW,
         vehicles.Armor.M_113,
         vehicles.Armor.M2A1_halftrack,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -28145,6 +28143,7 @@ class Philippines(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -28206,6 +28205,7 @@ class Philippines(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -28430,7 +28430,6 @@ class Morocco(Country):
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
             SON_9 = vehicles.AirDefence.SON_9
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -28469,7 +28468,6 @@ class Morocco(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -28519,7 +28517,6 @@ class Morocco(Country):
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
         vehicles.AirDefence.SON_9,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -28552,7 +28549,6 @@ class Morocco(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -28602,6 +28598,7 @@ class Morocco(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -28665,6 +28662,7 @@ class Morocco(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -28879,7 +28877,6 @@ class Mexico(Country):
             SA_18_Igla_comm = vehicles.AirDefence.SA_18_Igla_comm
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -28912,7 +28909,6 @@ class Mexico(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -28943,7 +28939,6 @@ class Mexico(Country):
         vehicles.AirDefence.SA_18_Igla_comm,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -28970,7 +28965,6 @@ class Mexico(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -29018,6 +29012,7 @@ class Mexico(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -29078,6 +29073,7 @@ class Mexico(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -29303,7 +29299,6 @@ class Malaysia(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -29335,7 +29330,6 @@ class Malaysia(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -29373,7 +29367,6 @@ class Malaysia(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -29399,7 +29392,6 @@ class Malaysia(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -29450,6 +29442,7 @@ class Malaysia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -29510,6 +29503,7 @@ class Malaysia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -29923,6 +29917,7 @@ class Libya(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -29987,6 +29982,7 @@ class Libya(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -30217,7 +30213,6 @@ class Jordan(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             CHAP_PantsirS1 = vehicles.AirDefence.CHAP_PantsirS1
 
         class Fortification:
@@ -30257,7 +30252,6 @@ class Jordan(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
             CHAP_MATV = vehicles.Armor.CHAP_MATV
 
@@ -30304,7 +30298,6 @@ class Jordan(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.CHAP_PantsirS1,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -30338,7 +30331,6 @@ class Jordan(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Armor.CHAP_MATV,
         vehicles.Locomotive.Electric_locomotive,
@@ -30390,6 +30382,7 @@ class Jordan(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -30453,6 +30446,7 @@ class Jordan(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -30691,7 +30685,6 @@ class Indonesia(Country):
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             RD_75 = vehicles.AirDefence.RD_75
 
         class Fortification:
@@ -30738,7 +30731,6 @@ class Indonesia(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -30788,7 +30780,6 @@ class Indonesia(Country):
         vehicles.AirDefence.NASAMS_LN_C,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.RD_75,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -30829,7 +30820,6 @@ class Indonesia(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -30887,6 +30877,7 @@ class Indonesia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -30953,6 +30944,7 @@ class Indonesia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -31168,7 +31160,6 @@ class Honduras(Country):
         class AirDefence:
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -31200,7 +31191,6 @@ class Honduras(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -31229,7 +31219,6 @@ class Honduras(Country):
         vehicles.Artillery.L118_Unit,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -31255,7 +31244,6 @@ class Honduras(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -31304,6 +31292,7 @@ class Honduras(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -31363,6 +31352,7 @@ class Honduras(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -31756,6 +31746,7 @@ class Ethiopia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -31817,6 +31808,7 @@ class Ethiopia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -32032,7 +32024,6 @@ class Chile(Country):
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -32070,7 +32061,6 @@ class Chile(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -32111,7 +32101,6 @@ class Chile(Country):
         vehicles.AirDefence.NASAMS_LN_C,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -32143,7 +32132,6 @@ class Chile(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -32198,6 +32186,7 @@ class Chile(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -32263,6 +32252,7 @@ class Chile(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -32502,7 +32492,6 @@ class Brazil(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -32539,7 +32528,6 @@ class Brazil(Country):
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             MaxxPro_MRAP = vehicles.Armor.MaxxPro_MRAP
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             ES44AH = vehicles.Locomotive.ES44AH
@@ -32583,7 +32571,6 @@ class Brazil(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -32614,7 +32601,6 @@ class Brazil(Country):
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
         vehicles.Armor.MaxxPro_MRAP,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.ES44AH,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -32664,6 +32650,7 @@ class Brazil(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -32724,6 +32711,7 @@ class Brazil(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -32957,7 +32945,6 @@ class Bahrain(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -32992,7 +32979,6 @@ class Bahrain(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -33037,7 +33023,6 @@ class Bahrain(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -33066,7 +33051,6 @@ class Bahrain(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -33112,6 +33096,7 @@ class Bahrain(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -33169,6 +33154,7 @@ class Bahrain(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -33380,7 +33366,6 @@ class ThirdReich(Country):
             soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
             flak36 = vehicles.AirDefence.flak36
@@ -33422,7 +33407,6 @@ class ThirdReich(Country):
             Horch_901_typ_40_kfz_21 = vehicles.Unarmed.Horch_901_typ_40_kfz_21
 
         class Armor:
-            BRDM_2 = vehicles.Armor.BRDM_2
             Pz_IV_H = vehicles.Armor.Pz_IV_H
             Sd_Kfz_251 = vehicles.Armor.Sd_Kfz_251
             Tiger_I = vehicles.Armor.Tiger_I
@@ -33465,7 +33449,6 @@ class ThirdReich(Country):
         vehicles.Artillery.Pak40,
         vehicles.Artillery.LeFH_18_40_105,
         vehicles.Infantry.soldier_mauser98,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -33501,7 +33484,6 @@ class ThirdReich(Country):
         vehicles.Unarmed.Sd_Kfz_2,
         vehicles.Unarmed.Sd_Kfz_7,
         vehicles.Unarmed.Horch_901_typ_40_kfz_21,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.Pz_IV_H,
         vehicles.Armor.Sd_Kfz_251,
         vehicles.Armor.Tiger_I,
@@ -33557,6 +33539,7 @@ class ThirdReich(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -33615,6 +33598,7 @@ class ThirdReich(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -34027,6 +34011,7 @@ class Yugoslavia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -34087,6 +34072,7 @@ class Yugoslavia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -34636,6 +34622,7 @@ class USSR(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -34719,6 +34706,7 @@ class USSR(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -34876,7 +34864,6 @@ class ItalianSocialRepublic(Country):
             soldier_mauser98 = vehicles.Infantry.soldier_mauser98
 
         class AirDefence:
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
             flak36 = vehicles.AirDefence.flak36
@@ -34920,7 +34907,6 @@ class ItalianSocialRepublic(Country):
         class Armor:
             Sd_Kfz_251 = vehicles.Armor.Sd_Kfz_251
             Stug_III = vehicles.Armor.Stug_III
-            BRDM_2 = vehicles.Armor.BRDM_2
             Pz_IV_H = vehicles.Armor.Pz_IV_H
             Tiger_I = vehicles.Armor.Tiger_I
             Tiger_II_H = vehicles.Armor.Tiger_II_H
@@ -34961,7 +34947,6 @@ class ItalianSocialRepublic(Country):
         vehicles.Artillery.Pak40,
         vehicles.Artillery.LeFH_18_40_105,
         vehicles.Infantry.soldier_mauser98,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -34999,7 +34984,6 @@ class ItalianSocialRepublic(Country):
         vehicles.Unarmed.Horch_901_typ_40_kfz_21,
         vehicles.Armor.Sd_Kfz_251,
         vehicles.Armor.Stug_III,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.Pz_IV_H,
         vehicles.Armor.Tiger_I,
         vehicles.Armor.Tiger_II_H,
@@ -35052,6 +35036,7 @@ class ItalianSocialRepublic(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -35109,6 +35094,7 @@ class ItalianSocialRepublic(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -35666,6 +35652,7 @@ class Algeria(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -35741,6 +35728,7 @@ class Algeria(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -35993,7 +35981,6 @@ class Kuwait(Country):
             FPS_117 = vehicles.AirDefence.FPS_117
             FPS_117_ECS = vehicles.AirDefence.FPS_117_ECS
             FPS_117_Dome = vehicles.AirDefence.FPS_117_Dome
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -36034,7 +36021,6 @@ class Kuwait(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -36080,7 +36066,6 @@ class Kuwait(Country):
         vehicles.AirDefence.FPS_117,
         vehicles.AirDefence.FPS_117_ECS,
         vehicles.AirDefence.FPS_117_Dome,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -36115,7 +36100,6 @@ class Kuwait(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -36163,6 +36147,7 @@ class Kuwait(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -36224,6 +36209,7 @@ class Kuwait(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -36445,7 +36431,6 @@ class Qatar(Country):
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -36480,7 +36465,6 @@ class Qatar(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -36519,7 +36503,6 @@ class Qatar(Country):
         vehicles.AirDefence.rapier_fsa_blindfire_radar,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -36548,7 +36531,6 @@ class Qatar(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -36593,6 +36575,7 @@ class Qatar(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -36654,6 +36637,7 @@ class Qatar(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -36887,7 +36871,6 @@ class Oman(Country):
             NASAMS_LN_C = vehicles.AirDefence.NASAMS_LN_C
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -36926,7 +36909,6 @@ class Oman(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class MissilesSS:
@@ -36981,7 +36963,6 @@ class Oman(Country):
         vehicles.AirDefence.NASAMS_LN_C,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -37014,7 +36995,6 @@ class Oman(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.MissilesSS.Scud_B,
         vehicles.Locomotive.Electric_locomotive,
@@ -37064,6 +37044,7 @@ class Oman(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -37125,6 +37106,7 @@ class Oman(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -37358,7 +37340,6 @@ class UnitedArabEmirates(Country):
             rapier_fsa_blindfire_radar = vehicles.AirDefence.rapier_fsa_blindfire_radar
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             CHAP_PantsirS1 = vehicles.AirDefence.CHAP_PantsirS1
 
         class Fortification:
@@ -37399,7 +37380,6 @@ class UnitedArabEmirates(Country):
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             MaxxPro_MRAP = vehicles.Armor.MaxxPro_MRAP
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
             CHAP_MATV = vehicles.Armor.CHAP_MATV
 
@@ -37452,7 +37432,6 @@ class UnitedArabEmirates(Country):
         vehicles.AirDefence.rapier_fsa_blindfire_radar,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.CHAP_PantsirS1,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
@@ -37487,7 +37466,6 @@ class UnitedArabEmirates(Country):
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
         vehicles.Armor.MaxxPro_MRAP,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Armor.CHAP_MATV,
         vehicles.MissilesSS.Scud_B,
@@ -37541,6 +37519,7 @@ class UnitedArabEmirates(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -37604,6 +37583,7 @@ class UnitedArabEmirates(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -37827,7 +37807,6 @@ class SouthAfrica(Country):
             bofors40 = vehicles.AirDefence.bofors40
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -37857,7 +37836,6 @@ class SouthAfrica(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -37888,7 +37866,6 @@ class SouthAfrica(Country):
         vehicles.AirDefence.bofors40,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -37912,7 +37889,6 @@ class SouthAfrica(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -37963,6 +37939,7 @@ class SouthAfrica(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -38026,6 +38003,7 @@ class SouthAfrica(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -38485,6 +38463,7 @@ class Cuba(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -38553,6 +38532,7 @@ class Cuba(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -38779,7 +38759,6 @@ class Portugal(Country):
             Stinger_comm_dsr = vehicles.AirDefence.Stinger_comm_dsr
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -38815,7 +38794,6 @@ class Portugal(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -38850,7 +38828,6 @@ class Portugal(Country):
         vehicles.AirDefence.Stinger_comm_dsr,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -38880,7 +38857,6 @@ class Portugal(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -38933,6 +38909,7 @@ class Portugal(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -38997,6 +38974,7 @@ class Portugal(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,
@@ -39453,6 +39431,7 @@ class GDR(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -39516,6 +39495,7 @@ class GDR(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -39786,7 +39766,6 @@ class Lebanon(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -39866,7 +39845,6 @@ class Lebanon(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -39911,6 +39889,7 @@ class Lebanon(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -39970,6 +39949,7 @@ class Lebanon(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -40225,7 +40205,6 @@ class CombinedJointTaskForcesBlue(Country):
             soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
 
         class AirDefence:
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
             flak36 = vehicles.AirDefence.flak36
@@ -40262,6 +40241,7 @@ class CombinedJointTaskForcesBlue(Country):
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SNR_75V = vehicles.AirDefence.SNR_75V
+            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             Tor_9A331 = vehicles.AirDefence.Tor_9A331
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
@@ -40423,7 +40403,6 @@ class CombinedJointTaskForcesBlue(Country):
             Type_98_So_Da = vehicles.Unarmed.Type_98_So_Da
 
         class Armor:
-            BRDM_2 = vehicles.Armor.BRDM_2
             Sd_Kfz_251 = vehicles.Armor.Sd_Kfz_251
             Stug_III = vehicles.Armor.Stug_III
             Pz_IV_H = vehicles.Armor.Pz_IV_H
@@ -40440,6 +40419,7 @@ class CombinedJointTaskForcesBlue(Country):
             BMP_1 = vehicles.Armor.BMP_1
             BMP_2 = vehicles.Armor.BMP_2
             BMP_3 = vehicles.Armor.BMP_3
+            BRDM_2 = vehicles.Armor.BRDM_2
             BTR_D = vehicles.Armor.BTR_D
             BTR_80 = vehicles.Armor.BTR_80
             MTLB = vehicles.Armor.MTLB
@@ -40599,7 +40579,6 @@ class CombinedJointTaskForcesBlue(Country):
         vehicles.Infantry.soldier_wwii_br_01,
         vehicles.Infantry.Soldier_M4_GRG,
         vehicles.Infantry.soldier_wwii_us,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -40636,6 +40615,7 @@ class CombinedJointTaskForcesBlue(Country):
         vehicles.AirDefence.SA_18_Igla_manpad,
         vehicles.AirDefence.snr_s_125_tr,
         vehicles.AirDefence.SNR_75V,
+        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.Strela_10M3,
         vehicles.AirDefence.Tor_9A331,
         vehicles.AirDefence.Ural_375_ZU_23,
@@ -40791,7 +40771,6 @@ class CombinedJointTaskForcesBlue(Country):
         vehicles.Unarmed.GPS_Spoofer_Blue,
         vehicles.Unarmed.Type_94_Truck,
         vehicles.Unarmed.Type_98_So_Da,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.Sd_Kfz_251,
         vehicles.Armor.Stug_III,
         vehicles.Armor.Pz_IV_H,
@@ -40808,6 +40787,7 @@ class CombinedJointTaskForcesBlue(Country):
         vehicles.Armor.BMP_1,
         vehicles.Armor.BMP_2,
         vehicles.Armor.BMP_3,
+        vehicles.Armor.BRDM_2,
         vehicles.Armor.BTR_D,
         vehicles.Armor.BTR_80,
         vehicles.Armor.MTLB,
@@ -40940,6 +40920,7 @@ class CombinedJointTaskForcesBlue(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -41053,6 +41034,7 @@ class CombinedJointTaskForcesBlue(Country):
         S_3B = planes.S_3B
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
+        F_14A_95_GR = planes.F_14A_95_GR
         F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
@@ -41081,6 +41063,7 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -41194,6 +41177,7 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.S_3B,
         Plane.F_14B,
         Plane.F_14A_135_GR,
+        Plane.F_14A_95_GR,
         Plane.F_14A_135_GR_Early,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
@@ -41549,7 +41533,6 @@ class CombinedJointTaskForcesRed(Country):
             soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
 
         class AirDefence:
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
             flak36 = vehicles.AirDefence.flak36
@@ -41586,6 +41569,7 @@ class CombinedJointTaskForcesRed(Country):
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SNR_75V = vehicles.AirDefence.SNR_75V
+            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             Tor_9A331 = vehicles.AirDefence.Tor_9A331
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
@@ -41747,7 +41731,6 @@ class CombinedJointTaskForcesRed(Country):
             Type_98_So_Da = vehicles.Unarmed.Type_98_So_Da
 
         class Armor:
-            BRDM_2 = vehicles.Armor.BRDM_2
             Sd_Kfz_251 = vehicles.Armor.Sd_Kfz_251
             Stug_III = vehicles.Armor.Stug_III
             Pz_IV_H = vehicles.Armor.Pz_IV_H
@@ -41764,6 +41747,7 @@ class CombinedJointTaskForcesRed(Country):
             BMP_1 = vehicles.Armor.BMP_1
             BMP_2 = vehicles.Armor.BMP_2
             BMP_3 = vehicles.Armor.BMP_3
+            BRDM_2 = vehicles.Armor.BRDM_2
             BTR_D = vehicles.Armor.BTR_D
             BTR_80 = vehicles.Armor.BTR_80
             MTLB = vehicles.Armor.MTLB
@@ -41923,7 +41907,6 @@ class CombinedJointTaskForcesRed(Country):
         vehicles.Infantry.soldier_wwii_br_01,
         vehicles.Infantry.Soldier_M4_GRG,
         vehicles.Infantry.soldier_wwii_us,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -41960,6 +41943,7 @@ class CombinedJointTaskForcesRed(Country):
         vehicles.AirDefence.SA_18_Igla_manpad,
         vehicles.AirDefence.snr_s_125_tr,
         vehicles.AirDefence.SNR_75V,
+        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.Strela_10M3,
         vehicles.AirDefence.Tor_9A331,
         vehicles.AirDefence.Ural_375_ZU_23,
@@ -42115,7 +42099,6 @@ class CombinedJointTaskForcesRed(Country):
         vehicles.Unarmed.GPS_Spoofer_Blue,
         vehicles.Unarmed.Type_94_Truck,
         vehicles.Unarmed.Type_98_So_Da,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.Sd_Kfz_251,
         vehicles.Armor.Stug_III,
         vehicles.Armor.Pz_IV_H,
@@ -42132,6 +42115,7 @@ class CombinedJointTaskForcesRed(Country):
         vehicles.Armor.BMP_1,
         vehicles.Armor.BMP_2,
         vehicles.Armor.BMP_3,
+        vehicles.Armor.BRDM_2,
         vehicles.Armor.BTR_D,
         vehicles.Armor.BTR_80,
         vehicles.Armor.MTLB,
@@ -42264,6 +42248,7 @@ class CombinedJointTaskForcesRed(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -42377,6 +42362,7 @@ class CombinedJointTaskForcesRed(Country):
         S_3B = planes.S_3B
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
+        F_14A_95_GR = planes.F_14A_95_GR
         F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
@@ -42405,6 +42391,7 @@ class CombinedJointTaskForcesRed(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -42518,6 +42505,7 @@ class CombinedJointTaskForcesRed(Country):
         Plane.S_3B,
         Plane.F_14B,
         Plane.F_14A_135_GR,
+        Plane.F_14A_95_GR,
         Plane.F_14A_135_GR_Early,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
@@ -42873,7 +42861,6 @@ class UnitedNationsPeacekeepers(Country):
             soldier_wwii_us = vehicles.Infantry.soldier_wwii_us
 
         class AirDefence:
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             flak18 = vehicles.AirDefence.flak18
             flak30 = vehicles.AirDefence.flak30
             flak36 = vehicles.AirDefence.flak36
@@ -42910,6 +42897,7 @@ class UnitedNationsPeacekeepers(Country):
             SA_18_Igla_manpad = vehicles.AirDefence.SA_18_Igla_manpad
             snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             SNR_75V = vehicles.AirDefence.SNR_75V
+            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
             Tor_9A331 = vehicles.AirDefence.Tor_9A331
             Ural_375_ZU_23 = vehicles.AirDefence.Ural_375_ZU_23
@@ -43071,7 +43059,6 @@ class UnitedNationsPeacekeepers(Country):
             Type_98_So_Da = vehicles.Unarmed.Type_98_So_Da
 
         class Armor:
-            BRDM_2 = vehicles.Armor.BRDM_2
             Sd_Kfz_251 = vehicles.Armor.Sd_Kfz_251
             Stug_III = vehicles.Armor.Stug_III
             Pz_IV_H = vehicles.Armor.Pz_IV_H
@@ -43088,6 +43075,7 @@ class UnitedNationsPeacekeepers(Country):
             BMP_1 = vehicles.Armor.BMP_1
             BMP_2 = vehicles.Armor.BMP_2
             BMP_3 = vehicles.Armor.BMP_3
+            BRDM_2 = vehicles.Armor.BRDM_2
             BTR_D = vehicles.Armor.BTR_D
             BTR_80 = vehicles.Armor.BTR_80
             MTLB = vehicles.Armor.MTLB
@@ -43247,7 +43235,6 @@ class UnitedNationsPeacekeepers(Country):
         vehicles.Infantry.soldier_wwii_br_01,
         vehicles.Infantry.Soldier_M4_GRG,
         vehicles.Infantry.soldier_wwii_us,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.flak18,
         vehicles.AirDefence.flak30,
         vehicles.AirDefence.flak36,
@@ -43284,6 +43271,7 @@ class UnitedNationsPeacekeepers(Country):
         vehicles.AirDefence.SA_18_Igla_manpad,
         vehicles.AirDefence.snr_s_125_tr,
         vehicles.AirDefence.SNR_75V,
+        vehicles.AirDefence.Strela_1_9P31,
         vehicles.AirDefence.Strela_10M3,
         vehicles.AirDefence.Tor_9A331,
         vehicles.AirDefence.Ural_375_ZU_23,
@@ -43439,7 +43427,6 @@ class UnitedNationsPeacekeepers(Country):
         vehicles.Unarmed.GPS_Spoofer_Blue,
         vehicles.Unarmed.Type_94_Truck,
         vehicles.Unarmed.Type_98_So_Da,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.Sd_Kfz_251,
         vehicles.Armor.Stug_III,
         vehicles.Armor.Pz_IV_H,
@@ -43456,6 +43443,7 @@ class UnitedNationsPeacekeepers(Country):
         vehicles.Armor.BMP_1,
         vehicles.Armor.BMP_2,
         vehicles.Armor.BMP_3,
+        vehicles.Armor.BRDM_2,
         vehicles.Armor.BTR_D,
         vehicles.Armor.BTR_80,
         vehicles.Armor.MTLB,
@@ -43588,6 +43576,7 @@ class UnitedNationsPeacekeepers(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -43701,6 +43690,7 @@ class UnitedNationsPeacekeepers(Country):
         S_3B = planes.S_3B
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
+        F_14A_95_GR = planes.F_14A_95_GR
         F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
@@ -43729,6 +43719,7 @@ class UnitedNationsPeacekeepers(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -43842,6 +43833,7 @@ class UnitedNationsPeacekeepers(Country):
         Plane.S_3B,
         Plane.F_14B,
         Plane.F_14A_135_GR,
+        Plane.F_14A_95_GR,
         Plane.F_14A_135_GR_Early,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
@@ -44159,7 +44151,6 @@ class Argentina(Country):
             Roland_Radar = vehicles.AirDefence.Roland_Radar
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -44196,7 +44187,6 @@ class Argentina(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -44227,7 +44217,6 @@ class Argentina(Country):
         vehicles.AirDefence.Roland_Radar,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -44258,7 +44247,6 @@ class Argentina(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -44307,6 +44295,7 @@ class Argentina(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -44367,6 +44356,7 @@ class Argentina(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -44606,7 +44596,6 @@ class Cyprus(Country):
             Soldier_stinger = vehicles.AirDefence.Soldier_stinger
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -44641,7 +44630,6 @@ class Cyprus(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -44689,7 +44677,6 @@ class Cyprus(Country):
         vehicles.AirDefence.Soldier_stinger,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -44718,7 +44705,6 @@ class Cyprus(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -44761,6 +44747,7 @@ class Cyprus(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -44819,6 +44806,7 @@ class Cyprus(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -45188,6 +45176,7 @@ class Slovenia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -45247,6 +45236,7 @@ class Slovenia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -45467,7 +45457,6 @@ class Bolivia(Country):
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -45506,7 +45495,6 @@ class Bolivia(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -45537,7 +45525,6 @@ class Bolivia(Country):
         vehicles.AirDefence.ZU_23_Emplacement,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -45570,7 +45557,6 @@ class Bolivia(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -45620,6 +45606,7 @@ class Bolivia(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -45681,6 +45668,7 @@ class Bolivia(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -45895,7 +45883,6 @@ class Ghana(Country):
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -45924,7 +45911,6 @@ class Ghana(Country):
             tt_DSHK = vehicles.Armor.tt_DSHK
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class Locomotive:
             Electric_locomotive = vehicles.Locomotive.Electric_locomotive
@@ -45957,7 +45943,6 @@ class Ghana(Country):
         vehicles.AirDefence.ZU_23_Emplacement,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -45980,7 +45965,6 @@ class Ghana(Country):
         vehicles.Armor.tt_DSHK,
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
-        vehicles.Armor.BRDM_2,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
         vehicles.Locomotive.ES44AH,
@@ -46024,6 +46008,7 @@ class Ghana(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -46082,6 +46067,7 @@ class Ghana(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -46303,7 +46289,6 @@ class Nigeria(Country):
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -46340,7 +46325,6 @@ class Nigeria(Country):
             HL_KORD = vehicles.Armor.HL_KORD
             HL_DSHK = vehicles.Armor.HL_DSHK
             MaxxPro_MRAP = vehicles.Armor.MaxxPro_MRAP
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -46376,7 +46360,6 @@ class Nigeria(Country):
         vehicles.AirDefence.ZU_23_Emplacement,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -46407,7 +46390,6 @@ class Nigeria(Country):
         vehicles.Armor.HL_KORD,
         vehicles.Armor.HL_DSHK,
         vehicles.Armor.MaxxPro_MRAP,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -46453,6 +46435,7 @@ class Nigeria(Country):
         C_101CC = planes.C_101CC
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -46512,6 +46495,7 @@ class Nigeria(Country):
         Plane.C_101CC,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -46742,7 +46726,6 @@ class Peru(Country):
             ZU_23_Emplacement = vehicles.AirDefence.ZU_23_Emplacement
             tt_ZU_23 = vehicles.AirDefence.tt_ZU_23
             HL_ZU_23 = vehicles.AirDefence.HL_ZU_23
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -46816,7 +46799,6 @@ class Peru(Country):
         vehicles.AirDefence.ZU_23_Emplacement,
         vehicles.AirDefence.tt_ZU_23,
         vehicles.AirDefence.HL_ZU_23,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -46894,6 +46876,7 @@ class Peru(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -46958,6 +46941,7 @@ class Peru(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -47179,7 +47163,6 @@ class Ecuador(Country):
             Osa_9A33_ln = vehicles.AirDefence.Osa_9A33_ln
             M48_Chaparral = vehicles.AirDefence.M48_Chaparral
             Igla_manpad_INS = vehicles.AirDefence.Igla_manpad_INS
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -47210,7 +47193,6 @@ class Ecuador(Country):
             M_113 = vehicles.Armor.M_113
             M2A1_halftrack = vehicles.Armor.M2A1_halftrack
             M1043_HMMWV_Armament = vehicles.Armor.M1043_HMMWV_Armament
-            BRDM_2 = vehicles.Armor.BRDM_2
 
         class MissilesSS:
             Scud_B = vehicles.MissilesSS.Scud_B
@@ -47248,7 +47230,6 @@ class Ecuador(Country):
         vehicles.AirDefence.Osa_9A33_ln,
         vehicles.AirDefence.M48_Chaparral,
         vehicles.AirDefence.Igla_manpad_INS,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -47273,7 +47254,6 @@ class Ecuador(Country):
         vehicles.Armor.M_113,
         vehicles.Armor.M2A1_halftrack,
         vehicles.Armor.M1043_HMMWV_Armament,
-        vehicles.Armor.BRDM_2,
         vehicles.MissilesSS.Scud_B,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -47317,6 +47297,7 @@ class Ecuador(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -47376,6 +47357,7 @@ class Ecuador(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -47610,7 +47592,6 @@ class Afghanistan(Country):
             snr_s_125_tr = vehicles.AirDefence.snr_s_125_tr
             p_19_s_125_sr = vehicles.AirDefence.p_19_s_125_sr
             Strela_10M3 = vehicles.AirDefence.Strela_10M3
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -47709,7 +47690,6 @@ class Afghanistan(Country):
         vehicles.AirDefence.snr_s_125_tr,
         vehicles.AirDefence.p_19_s_125_sr,
         vehicles.AirDefence.Strela_10M3,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -47802,6 +47782,7 @@ class Afghanistan(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
@@ -47863,6 +47844,7 @@ class Afghanistan(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
@@ -48091,7 +48073,6 @@ class NewZealand(Country):
             Vulcan = vehicles.AirDefence.Vulcan
             bofors40 = vehicles.AirDefence.bofors40
             QF_37_AA = vehicles.AirDefence.QF_37_AA
-            Strela_1_9P31 = vehicles.AirDefence.Strela_1_9P31
 
         class Fortification:
             Bunker = vehicles.Fortification.Bunker
@@ -48133,7 +48114,6 @@ class NewZealand(Country):
             M4_Sherman = vehicles.Armor.M4_Sherman
             M4A4_Sherman_FF = vehicles.Armor.M4A4_Sherman_FF
             Daimler_AC = vehicles.Armor.Daimler_AC
-            BRDM_2 = vehicles.Armor.BRDM_2
             CHAP_FV101 = vehicles.Armor.CHAP_FV101
 
         class Locomotive:
@@ -48175,7 +48155,6 @@ class NewZealand(Country):
         vehicles.AirDefence.Vulcan,
         vehicles.AirDefence.bofors40,
         vehicles.AirDefence.QF_37_AA,
-        vehicles.AirDefence.Strela_1_9P31,
         vehicles.Fortification.Bunker,
         vehicles.Fortification.Sandbox,
         vehicles.Fortification.house1arm,
@@ -48211,7 +48190,6 @@ class NewZealand(Country):
         vehicles.Armor.M4_Sherman,
         vehicles.Armor.M4A4_Sherman_FF,
         vehicles.Armor.Daimler_AC,
-        vehicles.Armor.BRDM_2,
         vehicles.Armor.CHAP_FV101,
         vehicles.Locomotive.Electric_locomotive,
         vehicles.Locomotive.Locomotive,
@@ -48259,6 +48237,7 @@ class NewZealand(Country):
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
+        F_100D = planes.F_100D
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
@@ -48318,6 +48297,7 @@ class NewZealand(Country):
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
+        Plane.F_100D,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
         Plane.QF_4E,

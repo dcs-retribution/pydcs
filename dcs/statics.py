@@ -1963,6 +1963,13 @@ class Heliport:
         category = "Heliports"
         rate = 100
 
+    class Zell(unittype.StaticType):
+        id = "Zell"
+        name = "F-100D ZELL"
+        shape_name = "ZELL"
+        category = "Heliports"
+        rate = 50
+
 heliport_map = {
     "FARP": Heliport.FARP,
     "SINGLE_HELIPAD": Heliport.SINGLE_HELIPAD,
@@ -1970,4 +1977,5 @@ heliport_map = {
     "Oil rig": Heliport.Oil_rig,
     "Gas platform": Heliport.Gas_platform,
     "Invisible FARP": Heliport.Invisible_FARP,
+    "Zell": Heliport.Zell,
 }
