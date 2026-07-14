@@ -8562,6 +8562,7 @@ class A6E(PlaneType):
     charge_total = 60
     chaff_charge_size = 1
     flare_charge_size = 1
+    tacan = True
     radio_frequency = 305
 
     panel_radio = {
