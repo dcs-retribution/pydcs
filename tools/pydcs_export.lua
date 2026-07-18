@@ -550,6 +550,11 @@ flyable["SA342Minigun"] = true
 flyable["SA342Mistral"] = true
 flyable["UH-1H"] = true
 
+-- Aircraft whose DCS data does not expose a TACAN flag but which should still
+-- be treated as TACAN-capable (e.g. Heatblur A-6E A2A TACAN).
+local force_tacan = {}
+force_tacan["A6E"] = true
+
 
 local function export_aircraft(file, aircrafts, export_type, exportplane)
     -- generate export output
@@ -606,7 +611,7 @@ from dcs.unittype import FlyingType
             writeln(file, '    flare_charge_size = '..plane.passivCounterm.flare.chargeSz)
         end
 
-        if plane.TACAN then
+        if plane.TACAN or force_tacan[plane.type] ~= nil then
             writeln(file, '    tacan = True')
         end
 
