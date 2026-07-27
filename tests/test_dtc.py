@@ -5,7 +5,7 @@ import zipfile
 
 import dcs
 from dcs import mapping
-from dcs.planes import FA_18C_hornet
+from dcs.planes import FA_18C_hornet, F_14B
 
 
 class DtcCartridgeTests(unittest.TestCase):
@@ -97,6 +97,41 @@ class DtcCartridgeTests(unittest.TestCase):
             self.assertEqual(
                 [n for n in miz.namelist() if n.startswith('DTC/')], []
             )
+
+    def test_cartridge_works_for_any_airframe_eg_tomcat(self):
+        # The DTC API is airframe-agnostic: it is not special-cased to the
+        # FA-18C/F-16C. Any DTC-capable module (e.g. the F-14B / F-14B(U),
+        # which DCS 2.9.28 gave native DTC support) uses the exact same path.
+        m = dcs.mission.Mission()
+        usa = m.country("USA")
+        fg = m.flight_group_inflight(
+            usa,
+            "Tomcat DTC",
+            F_14B,
+            mapping.Point(-250000, 600000, m.terrain),
+            6000,
+            group_size=2,
+        )
+        m.add_dtc_cartridge("Tomcat Cartridge", '{"data": {}, "name": "Tomcat Cartridge"}')
+        fg.units[0].add_dtc_cartridge("Tomcat Cartridge")
+
+        lead = fg.units[0].dict()
+        self.assertEqual(
+            lead["DTC"],
+            {
+                "Cartridges": {1: {"default": True, "name": "Tomcat Cartridge"}},
+                "AutoLoad": True,
+            },
+        )
+
+        path = 'missions/dtc_tomcat.miz'
+        m.save(path)
+        m2 = dcs.mission.Mission()
+        m2.load_file(path)
+        self.assertIn("Tomcat Cartridge", m2.dtc_cartridges)
+        unit = m2.country("USA").plane_group[0].units[0]
+        self.assertEqual(unit.dtc_cartridges, [{"name": "Tomcat Cartridge", "default": True}])
+        self.assertTrue(unit.dtc_autoload)
 
 
 if __name__ == '__main__':
