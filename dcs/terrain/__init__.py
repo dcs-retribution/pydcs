@@ -3,6 +3,7 @@ from dcs.terrain.terrain import RunwayOccupiedError, NoParkingSlotError, Graph, 
 from dcs.terrain.caucasus.caucasus import Caucasus
 from dcs.terrain.falklands import Falklands
 from dcs.terrain.marianaislands import MarianaIslands
+from dcs.terrain.marianaislandswwii import MarianaIslandsWWII
 from dcs.terrain.nevada import Nevada
 from dcs.terrain.normandy import Normandy
 from dcs.terrain.persiangulf import PersianGulf

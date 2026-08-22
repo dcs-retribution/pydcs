@@ -50,6 +50,7 @@ setup(
         'dcs/terrain/iraq',
         'dcs/terrain/kola',
         'dcs/terrain/marianaislands',
+        'dcs/terrain/marianaislandswwii',
         'dcs/terrain/nevada',
         'dcs/terrain/normandy',
         'dcs/terrain/persiangulf',
