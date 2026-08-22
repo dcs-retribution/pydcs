@@ -112,9 +112,10 @@ class FlyingUnit(Unit):
         the aircraft loads the cartridge automatically at spawn.
 
         The method itself is airframe-agnostic -- it writes the cartridge
-        reference for any unit. DCS only *uses* the data on modules with native
-        DTC support (FA-18C, F-16C, F-14B, CH-47F, MiG-29) and ignores it for
-        other aircraft.
+        reference for any unit. DCS only *uses* the data on modules that ship a
+        DTC descriptor; as of 2.9.28 those are ``FA-18C_hornet``, ``F-16C_50``,
+        ``F-14BU``, ``CH-47Fbl1`` and ``MiG-29 Fulcrum``. Note the Tomcat is the
+        F-14B(U) only -- the F-14B has no DTC. Other aircraft ignore the block.
         """
         self.dtc_cartridges.append({"name": name, "default": default})
         self.dtc_autoload = autoload

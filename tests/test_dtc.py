@@ -5,7 +5,7 @@ import zipfile
 
 import dcs
 from dcs import mapping
-from dcs.planes import FA_18C_hornet, F_14B
+from dcs.planes import FA_18C_hornet, F_14BU
 
 
 class DtcCartridgeTests(unittest.TestCase):
@@ -100,14 +100,15 @@ class DtcCartridgeTests(unittest.TestCase):
 
     def test_cartridge_works_for_any_airframe_eg_tomcat(self):
         # The DTC API is airframe-agnostic: it is not special-cased to the
-        # FA-18C/F-16C. Any DTC-capable module (e.g. the F-14B / F-14B(U),
-        # which DCS 2.9.28 gave native DTC support) uses the exact same path.
+        # FA-18C/F-16C. Any module that ships a DTC descriptor uses the exact
+        # same path -- e.g. the F-14B(U), which got native DTC in DCS 2.9.28.
+        # (The F-14B did not; only the F-14BU has a DTC descriptor.)
         m = dcs.mission.Mission()
         usa = m.country("USA")
         fg = m.flight_group_inflight(
             usa,
             "Tomcat DTC",
-            F_14B,
+            F_14BU,
             mapping.Point(-250000, 600000, m.terrain),
             6000,
             group_size=2,
