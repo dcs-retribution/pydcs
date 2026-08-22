@@ -1889,9 +1889,9 @@ class Mission:
         """Adds (or replaces) a native DTC data cartridge in the mission.
 
         DCS's native Data Transfer Cartridge system (``FA-18C_hornet``,
-        ``F-16C_50``, ``F-14BU``, ``CH-47Fbl1``, ``MiG-29 Fulcrum`` as of
-        2.9.28) stores each cartridge as a JSON file at ``DTC/<name>.dtc``
-        inside the miz. Assign a cartridge to a unit with
+        ``F-16C_50`` and ``F-14BU`` as of 2.9.28, plus any module whose unit DB
+        entry sets ``DTC = true``) stores each cartridge as a JSON file at
+        ``DTC/<name>.dtc`` inside the miz. Assign a cartridge to a unit with
         :meth:`dcs.flyingunit.FlyingUnit.add_dtc_cartridge` under the same
         name; with autoload the aircraft ingests it at spawn.
 

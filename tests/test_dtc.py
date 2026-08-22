@@ -100,9 +100,9 @@ class DtcCartridgeTests(unittest.TestCase):
 
     def test_cartridge_works_for_any_airframe_eg_tomcat(self):
         # The DTC API is airframe-agnostic: it is not special-cased to the
-        # FA-18C/F-16C. Any module that ships a DTC descriptor uses the exact
-        # same path -- e.g. the F-14B(U), which got native DTC in DCS 2.9.28.
-        # (The F-14B did not; only the F-14BU has a DTC descriptor.)
+        # FA-18C/F-16C. Any module DCS marks DTC-capable uses the exact same
+        # path -- e.g. the F-14B(U), which got native DTC in DCS 2.9.28. (The
+        # F-14B did not: the F-14 sets the flag for the F-14BU rewrite only.)
         m = dcs.mission.Mission()
         usa = m.country("USA")
         fg = m.flight_group_inflight(
