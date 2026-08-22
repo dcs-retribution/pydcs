@@ -3,7 +3,7 @@ from __future__ import annotations
 import copy
 import json
 import logging
-from typing import TYPE_CHECKING, Dict, Optional, Type
+from typing import TYPE_CHECKING, Any, Dict, List, Optional, Type
 
 from dcs.datalinks.datalink import DataLink
 from dcs.helicopters import HelicopterType, Ka_50
@@ -47,6 +47,11 @@ class FlyingUnit(Unit):
         self.radio: Optional[AircraftRadioPresets] = None
         self.hardpoint_racks = True
         self.addpropaircraft = dict(_type.property_defaults) if _type.property_defaults else None
+        # Native DTC data cartridges (FA-18C, F-16C, ...): each entry is
+        # {"name": <cartridge name>, "default": bool}, referencing a
+        # DTC/<name>.dtc file in the miz (see Mission.add_dtc_cartridge).
+        self.dtc_cartridges: List[Dict[str, Any]] = []
+        self.dtc_autoload = False
         self.datalink: Optional[DataLink]
         self._initialize_datalink()
 
@@ -80,12 +85,40 @@ class FlyingUnit(Unit):
         self.radio = d.get("Radio")
         self.hardpoint_racks = d.get("hardpoint_racks", None)
         self.addpropaircraft = d.get("AddPropAircraft")
+        dtc = d.get("DTC")
+        if dtc:
+            cartridges = dtc.get("Cartridges", {})
+            self.dtc_cartridges = [
+                {
+                    "name": cartridges[idx]["name"],
+                    "default": cartridges[idx].get("default", False),
+                }
+                for idx in sorted(cartridges)
+            ]
+            self.dtc_autoload = dtc.get("AutoLoad", False)
         return True
 
     def set_parking(self, parking_slot: ParkingSlot):
         parking_slot.unit_id = self.id
         self.parking = parking_slot.crossroad_idx
         self.parking_id = parking_slot.slot_name
+
+    def add_dtc_cartridge(self, name: str, default: bool = True, autoload: bool = True) -> None:
+        """Assign a native DTC data cartridge to this unit.
+
+        The cartridge content itself must be added to the mission with
+        :meth:`dcs.mission.Mission.add_dtc_cartridge` under the same name
+        (or already exist in a loaded miz's DTC/ folder). With ``autoload``
+        the aircraft loads the cartridge automatically at spawn.
+
+        The method itself is airframe-agnostic -- it writes the cartridge
+        reference for any unit. DCS only *uses* the data on a module whose unit
+        DB entry sets ``DTC = true``: on 2.9.28 ``FA-18C_hornet``, ``F-16C_50``
+        and ``F-14BU`` (the F-14B does not -- the flag is set for the F-14B(U)
+        rewrite alone), plus mods that set it. Other aircraft ignore the block.
+        """
+        self.dtc_cartridges.append({"name": name, "default": default})
+        self.dtc_autoload = autoload
 
     def set_property(self, prop_name, value):
         if self.addpropaircraft is None:
@@ -252,6 +285,17 @@ class FlyingUnit(Unit):
             d["datalinks"] = self.datalink.dict()
         if self.radio:
             d["Radio"] = self.radio
+        if self.dtc_cartridges:
+            d["DTC"] = {
+                "Cartridges": {
+                    idx: {
+                        "default": cartridge.get("default", False),
+                        "name": cartridge["name"],
+                    }
+                    for idx, cartridge in enumerate(self.dtc_cartridges, start=1)
+                },
+                "AutoLoad": self.dtc_autoload,
+            }
         return d
 
 

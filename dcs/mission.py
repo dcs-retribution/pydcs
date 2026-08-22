@@ -224,6 +224,10 @@ class Mission:
         self.aircraft_kneeboards: Dict[Type[unittype.FlyingType], List[Path]] = defaultdict(list)
         self.custom_kneeboards: Dict[str, List[Path]] = defaultdict(list)
 
+        # Native DTC data cartridges: cartridge name -> JSON content, written
+        # to DTC/<name>.dtc inside the miz. See add_dtc_cartridge().
+        self.dtc_cartridges: Dict[str, str] = {}
+
     def load_file(self, filename: str, bypass_triggers: bool = False) -> List[StatusMessage]:
         """
         Load a mission file (.miz) file, replacing all current data.
@@ -262,6 +266,16 @@ class Mission:
             if 'l10n/DEFAULT/mapResource' in miz.namelist():
                 mapresource_dict = loaddict('l10n/DEFAULT/mapResource', miz, reserved_files)
                 self.map_resource.load_from_dict(mapresource_dict, miz)
+
+            # Native DTC data cartridges round-trip through dtc_cartridges
+            # (reserved so the binary-resource pass does not also carry them).
+            self.dtc_cartridges = {}
+            for zippath in miz.namelist():
+                if zippath.startswith('DTC/') and zippath.endswith('.dtc'):
+                    reserved_files.append(zippath)
+                    with miz.open(zippath) as dtcfile:
+                        cartridge_name = zippath[len('DTC/'):-len('.dtc')]
+                        self.dtc_cartridges[cartridge_name] = dtcfile.read().decode('utf-8')
 
             self.map_resource.load_binary_files(miz, reserved_files)
 
@@ -1871,6 +1885,27 @@ class Mission:
         """
         self.aircraft_kneeboards[aircraft].append(page)
 
+    def add_dtc_cartridge(self, name: str, content: str) -> None:
+        """Adds (or replaces) a native DTC data cartridge in the mission.
+
+        DCS's native Data Transfer Cartridge system (``FA-18C_hornet``,
+        ``F-16C_50`` and ``F-14BU`` as of 2.9.28, plus any module whose unit DB
+        entry sets ``DTC = true``) stores each cartridge as a JSON file at
+        ``DTC/<name>.dtc`` inside the miz. Assign a cartridge to a unit with
+        :meth:`dcs.flyingunit.FlyingUnit.add_dtc_cartridge` under the same
+        name; with autoload the aircraft ingests it at spawn.
+
+        Cartridges present in a loaded miz are available here and round-trip
+        on save.
+
+        Args:
+            name: The cartridge name (doubles as the file name; also the
+                string units reference).
+            content: The cartridge JSON, as produced by the mission editor's
+                DTC tool.
+        """
+        self.dtc_cartridges[name] = content
+
     def country(self, name):
         """Returns the country object for the mission by the given string
 
@@ -2130,6 +2165,9 @@ class Mission:
                 directory = f'KNEEBOARD/{key}/IMAGES/' if key else 'KNEEBOARD/IMAGES/'
                 for idx, page in enumerate(pages):
                     zipf.write(page, arcname=f'{directory}/{page.name}')
+
+            for cartridge_name, content in self.dtc_cartridges.items():
+                zipf.writestr(f'DTC/{cartridge_name}.dtc', content)
 
             zipf.writestr('mission', mission)
 
