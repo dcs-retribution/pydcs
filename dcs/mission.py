@@ -295,6 +295,8 @@ class Mission:
             self.terrain = terrain_.Syria()
         elif imp_mission["theatre"] == "MarianaIslands":
             self.terrain = terrain_.MarianaIslands()
+        elif imp_mission["theatre"] == "MarianaIslandsWWII":
+            self.terrain = terrain_.MarianaIslandsWWII()
         elif imp_mission["theatre"] == "Falklands":
             self.terrain = terrain_.Falklands()
         elif imp_mission["theatre"] == "SinaiMap":

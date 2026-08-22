@@ -51,6 +51,7 @@ from dcs.terrain.sinai.sinai import Sinai
 from dcs.terrain.terrain import Terrain
 from dcs.terrain.thechannel import TheChannel
 from dcs.terrain.marianaislands import MarianaIslands
+from dcs.terrain.marianaislandswwii import MarianaIslandsWWII
 from dcs.terrain.germanycoldwar import GermanyColdWar
 from dcs.terrain.projections import TransverseMercator
 from dcs.triggers import TriggerStart
@@ -73,6 +74,7 @@ ARG_TO_TERRAIN_MAP = {
     "thechannel": TheChannel(),
     "syria": Syria(),
     "marianaislands": MarianaIslands(),
+    "marianaislandswwii": MarianaIslandsWWII(),
     "sinai": Sinai(),
     "kola": Kola(),
     "afghanistan": Afghanistan(),
@@ -92,6 +94,7 @@ CENTRAL_MERIDIANS = {
     "thechannel": 3,
     "syria": 39,
     "marianaislands": 147,
+    "marianaislandswwii": 147,
     "sinai": 33,
     "kola": 23,
     "afghanistan": 63,
