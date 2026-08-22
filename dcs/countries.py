@@ -137,6 +137,7 @@ class Russia(Country):
             r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
             tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
+            GCI_station_MiG29 = vehicles.Unarmed.GCI_station_MiG29
             GPS_Spoofer_Red = vehicles.Unarmed.GPS_Spoofer_Red
             rsbn_beacon = vehicles.Unarmed.rsbn_beacon
             prmg_gp_beacon = vehicles.Unarmed.prmg_gp_beacon
@@ -321,6 +322,7 @@ class Russia(Country):
         vehicles.Unarmed.r11_volvo_drivable,
         vehicles.Unarmed.tacr2a,
         vehicles.Unarmed.LARC_V,
+        vehicles.Unarmed.GCI_station_MiG29,
         vehicles.Unarmed.GPS_Spoofer_Red,
         vehicles.Unarmed.rsbn_beacon,
         vehicles.Unarmed.prmg_gp_beacon,
@@ -1795,6 +1797,7 @@ class USA(Country):
         F_4E_45MC = planes.F_4E_45MC
         QF_4E = planes.QF_4E
         F_14A_135_GR_Early = planes.F_14A_135_GR_Early
+        F_14BU = planes.F_14BU
         F4U_1D = planes.F4U_1D
         F4U_1D_CW = planes.F4U_1D_CW
         I_16 = planes.I_16
@@ -1887,6 +1890,7 @@ class USA(Country):
         Plane.F_4E_45MC,
         Plane.QF_4E,
         Plane.F_14A_135_GR_Early,
+        Plane.F_14BU,
         Plane.F4U_1D,
         Plane.F4U_1D_CW,
         Plane.I_16,
@@ -4568,6 +4572,7 @@ class USAFAggressors(Country):
             ATZ_60_Maz = vehicles.Unarmed.ATZ_60_Maz
             S_75_ZIL = vehicles.Unarmed.S_75_ZIL
             TZ_22_KrAZ = vehicles.Unarmed.TZ_22_KrAZ
+            GCI_station_MiG29 = vehicles.Unarmed.GCI_station_MiG29
             AA8 = vehicles.Unarmed.AA8
             GPS_Spoofer_Red = vehicles.Unarmed.GPS_Spoofer_Red
             rsbn_beacon = vehicles.Unarmed.rsbn_beacon
@@ -4938,6 +4943,7 @@ class USAFAggressors(Country):
         vehicles.Unarmed.ATZ_60_Maz,
         vehicles.Unarmed.S_75_ZIL,
         vehicles.Unarmed.TZ_22_KrAZ,
+        vehicles.Unarmed.GCI_station_MiG29,
         vehicles.Unarmed.AA8,
         vehicles.Unarmed.GPS_Spoofer_Red,
         vehicles.Unarmed.rsbn_beacon,
@@ -5234,6 +5240,7 @@ class USAFAggressors(Country):
         F_14A_135_GR = planes.F_14A_135_GR
         F_14A_95_GR = planes.F_14A_95_GR
         F_14A_135_GR_Early = planes.F_14A_135_GR_Early
+        F_14BU = planes.F_14BU
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
         Mirage_F1CK = planes.Mirage_F1CK
@@ -5377,6 +5384,7 @@ class USAFAggressors(Country):
         Plane.F_14A_135_GR,
         Plane.F_14A_95_GR,
         Plane.F_14A_135_GR_Early,
+        Plane.F_14BU,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
         Plane.Mirage_F1CK,
@@ -24815,7 +24823,6 @@ class Syria(Country):
             r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
             tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
-            GPS_Spoofer_Red = vehicles.Unarmed.GPS_Spoofer_Red
 
         class Armor:
             BTR_80 = vehicles.Armor.BTR_80
@@ -24940,7 +24947,6 @@ class Syria(Country):
         vehicles.Unarmed.r11_volvo_drivable,
         vehicles.Unarmed.tacr2a,
         vehicles.Unarmed.LARC_V,
-        vehicles.Unarmed.GPS_Spoofer_Red,
         vehicles.Armor.BTR_80,
         vehicles.Armor.BRDM_2,
         vehicles.Armor.BMP_1,
@@ -34315,6 +34321,7 @@ class USSR(Country):
             r11_volvo_drivable = vehicles.Unarmed.r11_volvo_drivable
             tacr2a = vehicles.Unarmed.tacr2a
             LARC_V = vehicles.Unarmed.LARC_V
+            GCI_station_MiG29 = vehicles.Unarmed.GCI_station_MiG29
             AA8 = vehicles.Unarmed.AA8
             GPS_Spoofer_Red = vehicles.Unarmed.GPS_Spoofer_Red
             rsbn_beacon = vehicles.Unarmed.rsbn_beacon
@@ -34498,6 +34505,7 @@ class USSR(Country):
         vehicles.Unarmed.r11_volvo_drivable,
         vehicles.Unarmed.tacr2a,
         vehicles.Unarmed.LARC_V,
+        vehicles.Unarmed.GCI_station_MiG29,
         vehicles.Unarmed.AA8,
         vehicles.Unarmed.GPS_Spoofer_Red,
         vehicles.Unarmed.rsbn_beacon,
@@ -40370,6 +40378,7 @@ class CombinedJointTaskForcesBlue(Country):
             ATZ_60_Maz = vehicles.Unarmed.ATZ_60_Maz
             S_75_ZIL = vehicles.Unarmed.S_75_ZIL
             TZ_22_KrAZ = vehicles.Unarmed.TZ_22_KrAZ
+            GCI_station_MiG29 = vehicles.Unarmed.GCI_station_MiG29
             AA8 = vehicles.Unarmed.AA8
             GPS_Spoofer_Red = vehicles.Unarmed.GPS_Spoofer_Red
             rsbn_beacon = vehicles.Unarmed.rsbn_beacon
@@ -40740,6 +40749,7 @@ class CombinedJointTaskForcesBlue(Country):
         vehicles.Unarmed.ATZ_60_Maz,
         vehicles.Unarmed.S_75_ZIL,
         vehicles.Unarmed.TZ_22_KrAZ,
+        vehicles.Unarmed.GCI_station_MiG29,
         vehicles.Unarmed.AA8,
         vehicles.Unarmed.GPS_Spoofer_Red,
         vehicles.Unarmed.rsbn_beacon,
@@ -41036,6 +41046,7 @@ class CombinedJointTaskForcesBlue(Country):
         F_14A_135_GR = planes.F_14A_135_GR
         F_14A_95_GR = planes.F_14A_95_GR
         F_14A_135_GR_Early = planes.F_14A_135_GR_Early
+        F_14BU = planes.F_14BU
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
         Mirage_F1CK = planes.Mirage_F1CK
@@ -41179,6 +41190,7 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.F_14A_135_GR,
         Plane.F_14A_95_GR,
         Plane.F_14A_135_GR_Early,
+        Plane.F_14BU,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
         Plane.Mirage_F1CK,
@@ -41698,6 +41710,7 @@ class CombinedJointTaskForcesRed(Country):
             ATZ_60_Maz = vehicles.Unarmed.ATZ_60_Maz
             S_75_ZIL = vehicles.Unarmed.S_75_ZIL
             TZ_22_KrAZ = vehicles.Unarmed.TZ_22_KrAZ
+            GCI_station_MiG29 = vehicles.Unarmed.GCI_station_MiG29
             AA8 = vehicles.Unarmed.AA8
             GPS_Spoofer_Red = vehicles.Unarmed.GPS_Spoofer_Red
             rsbn_beacon = vehicles.Unarmed.rsbn_beacon
@@ -42068,6 +42081,7 @@ class CombinedJointTaskForcesRed(Country):
         vehicles.Unarmed.ATZ_60_Maz,
         vehicles.Unarmed.S_75_ZIL,
         vehicles.Unarmed.TZ_22_KrAZ,
+        vehicles.Unarmed.GCI_station_MiG29,
         vehicles.Unarmed.AA8,
         vehicles.Unarmed.GPS_Spoofer_Red,
         vehicles.Unarmed.rsbn_beacon,
@@ -42364,6 +42378,7 @@ class CombinedJointTaskForcesRed(Country):
         F_14A_135_GR = planes.F_14A_135_GR
         F_14A_95_GR = planes.F_14A_95_GR
         F_14A_135_GR_Early = planes.F_14A_135_GR_Early
+        F_14BU = planes.F_14BU
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
         Mirage_F1CK = planes.Mirage_F1CK
@@ -42507,6 +42522,7 @@ class CombinedJointTaskForcesRed(Country):
         Plane.F_14A_135_GR,
         Plane.F_14A_95_GR,
         Plane.F_14A_135_GR_Early,
+        Plane.F_14BU,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
         Plane.Mirage_F1CK,
@@ -43026,6 +43042,7 @@ class UnitedNationsPeacekeepers(Country):
             ATZ_60_Maz = vehicles.Unarmed.ATZ_60_Maz
             S_75_ZIL = vehicles.Unarmed.S_75_ZIL
             TZ_22_KrAZ = vehicles.Unarmed.TZ_22_KrAZ
+            GCI_station_MiG29 = vehicles.Unarmed.GCI_station_MiG29
             AA8 = vehicles.Unarmed.AA8
             GPS_Spoofer_Red = vehicles.Unarmed.GPS_Spoofer_Red
             rsbn_beacon = vehicles.Unarmed.rsbn_beacon
@@ -43396,6 +43413,7 @@ class UnitedNationsPeacekeepers(Country):
         vehicles.Unarmed.ATZ_60_Maz,
         vehicles.Unarmed.S_75_ZIL,
         vehicles.Unarmed.TZ_22_KrAZ,
+        vehicles.Unarmed.GCI_station_MiG29,
         vehicles.Unarmed.AA8,
         vehicles.Unarmed.GPS_Spoofer_Red,
         vehicles.Unarmed.rsbn_beacon,
@@ -43692,6 +43710,7 @@ class UnitedNationsPeacekeepers(Country):
         F_14A_135_GR = planes.F_14A_135_GR
         F_14A_95_GR = planes.F_14A_95_GR
         F_14A_135_GR_Early = planes.F_14A_135_GR_Early
+        F_14BU = planes.F_14BU
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
         Mirage_F1CK = planes.Mirage_F1CK
@@ -43835,6 +43854,7 @@ class UnitedNationsPeacekeepers(Country):
         Plane.F_14A_135_GR,
         Plane.F_14A_95_GR,
         Plane.F_14A_135_GR_Early,
+        Plane.F_14BU,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
         Plane.Mirage_F1CK,
