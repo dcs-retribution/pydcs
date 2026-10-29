@@ -18828,6 +18828,9 @@ class Iraq(Country):
         MiG_29A = planes.MiG_29A
         Su_24M = planes.Su_24M
         Su_25 = planes.Su_25
+        MiG_25RBT = planes.MiG_25RBT
+        MiG_23MLD = planes.MiG_23MLD
+        IL_76MD = planes.IL_76MD
         FW_190A8 = planes.FW_190A8
         Bf_109K_4 = planes.Bf_109K_4
         SpitfireLFMkIX = planes.SpitfireLFMkIX
@@ -18897,6 +18900,9 @@ class Iraq(Country):
         Plane.MiG_29A,
         Plane.Su_24M,
         Plane.Su_25,
+        Plane.MiG_25RBT,
+        Plane.MiG_23MLD,
+        Plane.IL_76MD,
         Plane.FW_190A8,
         Plane.Bf_109K_4,
         Plane.SpitfireLFMkIX,
