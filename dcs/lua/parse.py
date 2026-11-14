@@ -251,6 +251,9 @@ def loads(
                     key: Union[int, str]
                     if self.char() == '"':
                         key = self.string()
+                    elif self.char().isalpha() or self.char() == '_':
+                        # Variable used as a key, e.g. `[PYLON] = {...}`.
+                        key = self.variable_key()
                     else:
                         number = self.number()
                         if isinstance(number, float):
@@ -318,6 +321,28 @@ def loads(
             self.pos += 1
 
             return d
+
+        def variable_key(self) -> Union[int, str]:
+            lineno, offset = self.lineno, self.pos
+            varname = self.eatvarname()
+            if varname in self.variables:
+                key = self.variables[varname]
+            elif self.unknown_variable_lookup is not None:
+                key = self.unknown_variable_lookup(varname)
+            else:
+                se = SyntaxError()
+                se.text = "Use of undefined variable {}".format(varname)
+                se.lineno = lineno
+                se.offset = offset
+                raise se
+
+            if isinstance(key, bool) or not isinstance(key, (int, str)):
+                se = SyntaxError()
+                se.text = "Variable {} has illegal index value {!r}".format(varname, key)
+                se.lineno = lineno
+                se.offset = offset
+                raise se
+            return key
 
         def push_assigned_variable_names(self, variable_names: List[str]):
             self._variable_assignment_queue += variable_names

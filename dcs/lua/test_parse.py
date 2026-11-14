@@ -341,6 +341,38 @@ return unitPayloads
         r = loads("num = .1")
         self.assertEqual(r["num"], 0.1)
 
+    def test_variable_as_key(self) -> None:
+        r = loads(
+            textwrap.dedent(
+                """\n                local LEFT = 1 --[[ comment ]]
+                local RIGHT = 2
+                local NAME = "named"
+                local t = {
+                    ["pylons"] = {
+                        [LEFT] = { ["num"] = LEFT },
+                        [ RIGHT ] = { ["num"] = RIGHT },
+                        [NAME] = 3,
+                    },
+                }
+                """
+            )
+        )
+        self.assertEqual(
+            r["t"]["pylons"], {1: {"num": 1}, 2: {"num": 2}, "named": 3}
+        )
+
+    def test_undefined_variable_as_key_fails(self) -> None:
+        with self.assertRaises(SyntaxError):
+            loads("t = { [missing] = 1 }")
+
+    def test_undefined_variable_as_key_uses_lookup(self) -> None:
+        r = loads("t = { [missing] = 1 }", unknown_variable_lookup=lambda x: 7)
+        self.assertEqual(r["t"], {7: 1})
+
+    def test_variable_with_illegal_key_value_fails(self) -> None:
+        with self.assertRaises(SyntaxError):
+            loads("local f = 1.5; t = { [f] = 1 }")
+
 
 if __name__ == '__main__':
     unittest.main()
