@@ -4059,6 +4059,75 @@ class Tromso(Airport):
                 airplanes=True, slot_name='25', length=36.0, width=36.0, height=15.0, shelter=False))
 
 
+class Honningsvag(Airport):
+    id = 38
+    name = "Honningsvag"
+    tacan = None
+    unit_zones: List[mapping.Rectangle] = []
+    civilian = False
+    slot_version = 2
+    atc_radio = AtcRadio(hf_hz=3925000, vhf_low_hz=38700000, vhf_high_hz=119850000, uhf_hz=250950000)
+
+    def __init__(self, terrain: Terrain) -> None:
+        super().__init__(mapping.Point(342292.4375, 118128.03125, terrain), terrain)
+
+        self.runways.append(Runway(id=1, name='08-26', main=RunwayApproach(name='08', heading=80, beacons=[]), opposite=RunwayApproach(name='26', heading=260, beacons=[])))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=2, position=mapping.Point(342197.75620832, 117887.9941789, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='A01', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=3, position=mapping.Point(342204.77659003, 118010.74474801, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='B01', length=26.0, width=24.0, height=11.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=4, position=mapping.Point(342171.25, 117944.6171875, self._terrain), large=False, heli=True,
+                airplanes=False, slot_name='H01', length=30.0, width=23.0, height=10.0, shelter=False))
+
+
+class Hasvik(Airport):
+    id = 39
+    name = "Hasvik"
+    tacan = None
+    unit_zones: List[mapping.Rectangle] = []
+    civilian = False
+    slot_version = 2
+    atc_radio = AtcRadio(hf_hz=4875000, vhf_low_hz=40000000, vhf_high_hz=121500000, uhf_hz=312000000)
+
+    def __init__(self, terrain: Terrain) -> None:
+        super().__init__(mapping.Point(276909.296875, -20189.539063, terrain), terrain)
+
+        self.runways.append(Runway(id=1, name='11-29', main=RunwayApproach(name='11', heading=110, beacons=[]), opposite=RunwayApproach(name='29', heading=290, beacons=[])))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=2, position=mapping.Point(276865.04303853, -19905.533658719, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='A02', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=3, position=mapping.Point(276845.16783563, -19909.271946598, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='A03', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=4, position=mapping.Point(276883.72798585, -19968.578526681, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='A01', length=21.0, width=15.0, height=8.0, shelter=False))
+
+
+class Vardo(Airport):
+    id = 40
+    name = "Vardo"
+    tacan = None
+    unit_zones: List[mapping.Rectangle] = []
+    civilian = False
+    slot_version = 2
+    atc_radio = AtcRadio(hf_hz=4425000, vhf_low_hz=38950000, vhf_high_hz=122350000, uhf_hz=250150000)
+
+    def __init__(self, terrain: Terrain) -> None:
+        super().__init__(mapping.Point(292941.703125, 312709.8125, terrain), terrain)
+
+        self.runways.append(Runway(id=1, name='33-15', main=RunwayApproach(name='33', heading=330, beacons=[]), opposite=RunwayApproach(name='15', heading=150, beacons=[])))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=2, position=mapping.Point(292976.6875, 312569.3125, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='A01', length=21.0, width=15.0, height=8.0, shelter=False))
+        self.parking_slots.append(ParkingSlot(
+                crossroad_idx=3, position=mapping.Point(292959.9375, 312577.6875, self._terrain), large=False, heli=True,
+                airplanes=True, slot_name='A02', length=21.0, width=15.0, height=8.0, shelter=False))
+
+
 ALL_AIRPORTS: List[Type[Airport]] = [
     Banak,
     Rovaniemi,
@@ -4097,5 +4166,8 @@ ALL_AIRPORTS: List[Type[Airport]] = [
     Hemavan,
     Arvidsjaur,
     Tromso,
+    Honningsvag,
+    Hasvik,
+    Vardo,
 ]
 
